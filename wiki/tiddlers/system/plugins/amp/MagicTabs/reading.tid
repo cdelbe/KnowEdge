@@ -1,0 +1,549 @@
+caption: Reading
+created: 20150103194551838
+creator: Alberto Molina Pérez
+dependents: $:/plugins/amp/MagicTabs/common
+description: MagicTabs for academic readings
+modified: 20180820022908778
+modifier: Charles Delbé
+plugin-type: plugin
+tags: 
+title: $:/plugins/amp/MagicTabs/reading
+type: application/json
+version: 0.1.144
+
+{
+    "tiddlers": {
+        "$:/plugins/amp/MagicTabs/images/quote": {
+            "text": "<<mt-image \"fa-quote-left\" \"quote\" \"Quote\">>",
+            "created": "20141123011539928",
+            "creator": "Alberto Molina Pérez",
+            "modified": "20141125094718235",
+            "modifier": "Alberto Molina Pérez",
+            "tags": "MagicTabs",
+            "title": "$:/plugins/amp/MagicTabs/images/quote"
+        },
+        "$:/plugins/amp/MagicTabs/tabs/quotes": {
+            "text": "<<mt-slider-input>>\n\n<<mt-tab-contents>>",
+            "caption": "<<mt-tab-caption>>",
+            "color": "#d3d3d3",
+            "created": "20141123011444936",
+            "creator": "Alberto Molina Pérez",
+            "description": "Quotes",
+            "icon": "$:/plugins/amp/MagicTabs/images/quote",
+            "modified": "20150309190710908",
+            "modifier": "Alberto Molina Pérez",
+            "mt-contents.type": "$:/type/quote",
+            "mt-list.filter": "[all[tiddlers]mt-source.tiddler<currentTiddler>] [all[current]listed[mt-source.authors.list]] [all[current]listed[mt-topics.list]] +[tag[$:/type/quote]!has[draft.of]!is[system]nsort[mt-quote.page.alpha]]",
+            "mt-list.filter_alt": "[all[current]tagging[]] [all[tiddlers]mt-source.tiddler<currentTiddler>listed[mt-topics.list]] [all[tiddlers]mt-source.root<currentTiddler>] [all[tiddlers]mt-source.tiddler<currentTiddler>tagging[]] [all[current]listed[mt-topics.list]listed[mt-topics.list]] [all[current]listed[mt-topics.list]tagging[]] +[tag[$:/type/quote]!has[draft.of]!is[system]nsort[mt-quote.page.alpha]]",
+            "mt-list.heading": "Quotes",
+            "mt-list.heading_alt": "Related",
+            "mt-list.template": "$:/plugins/amp/MagicTabs/templates/tabs/quotes",
+            "mt-list.template_alt": "$:/plugins/amp/MagicTabs/templates/tabs/quotes",
+            "tags": "$:/type/tab MagicTabs $:/tabs/publication $:/tabs/author $:/tabs/concept $:/tabs/theory $:/plugins/amp/MagicTabs/reading $:/tabs/part",
+            "title": "$:/plugins/amp/MagicTabs/tabs/quotes"
+        },
+        "$:/plugins/amp/MagicTabs/css/quotes": {
+            "created": "20140421120131878",
+            "text": ".cit {\ndisplay: block;\nfont-family: Georgia, serif;\nfont-size: 14px;\nfont-style: normal;\ntext-align: justify;\nmargin: 2.25em 1em 2.25em 1em;\npadding: 0.25em 60px;\nline-height: 20px;\nposition: relative;\ncolor: <<color foreground>>;\n-moz-border-radius: 10px;\nborder-radius: 10px;\nbackground-color: #FFFFEE ;\n}\n\n.cit:before {\ndisplay: block;\ncontent: \"\\201C\";\nfont-size: 80px;\nposition: absolute;\nleft: 20px;\ntop: 25px;\ncolor: #7a7a7a;\n}\n\n.cit:after {\ndisplay: block;\ncontent: \"\\201D\";\nfont-size: 80px;\nposition: absolute;\nright: 20px;\nbottom: 0px;\ncolor: #7a7a7a;\n}\n\n.cit cite {\ncolor: #999999;\nfont-size: 14px;\ndisplay: block;\nmargin-top: 15px;\nmargin-bottom: 1em;\n}\n\n.cit cite:before {\ncontent: \"\\2014 \\2009\";\n}",
+            "creator": "Alberto Molina",
+            "modified": "20141123114322126",
+            "modifier": "Alberto Molina Pérez",
+            "tags": "$:/tags/Stylesheet MagicTabs",
+            "title": "$:/plugins/amp/MagicTabs/css/quotes",
+            "type": "text/css"
+        },
+        "cit": {
+            "text": "<div class=\"cit\">\n\n{{!!text}}\n\n<cite>\n<$link>{{!!title}}</$link>\n</cite>\n</div>",
+            "created": "20140422115346864",
+            "creator": "Alberto Molina",
+            "modified": "20140628201603250",
+            "modifier": "Alberto Molina",
+            "tags": "nouveau",
+            "title": "cit"
+        },
+        "$:/plugins/amp/MagicTabs/images/book": {
+            "created": "20141124112530336",
+            "creator": "Alberto Molina Pérez",
+            "text": "<<mt-image \"fa-book\" \"book\" \"Book\">>",
+            "modified": "20141124112611466",
+            "modifier": "Alberto Molina Pérez",
+            "title": "$:/plugins/amp/MagicTabs/images/book",
+            "tags": "MagicTabs"
+        },
+        "$:/plugins/amp/MagicTabs/images/article": {
+            "text": "<<mt-image \"fa-file-text-o\" \"article\" \"Article\">>",
+            "created": "20141124112618595",
+            "creator": "Alberto Molina Pérez",
+            "modified": "20141125094811681",
+            "modifier": "Alberto Molina Pérez",
+            "tags": "MagicTabs",
+            "title": "$:/plugins/amp/MagicTabs/images/article"
+        },
+        "$:/plugins/amp/MagicTabs/images/chapter": {
+            "created": "20141124185333156",
+            "creator": "Alberto Molina Pérez",
+            "text": "<<mt-image \"fa-bookmark-o\" \"chapter\" \"Chapter\">>",
+            "modified": "20141124185821455",
+            "modifier": "Alberto Molina Pérez",
+            "title": "$:/plugins/amp/MagicTabs/images/chapter",
+            "tags": "MagicTabs"
+        },
+        "$:/plugins/amp/MagicTabs/macros/pages": {
+            "text": "\\define pages()\n<$set name=\"page_alpha\" value={{$:/temp/quote!!page_alpha}}>\n<$set name=\"page_omega\" value={{$:/temp/quote!!page_omega}}>\n\n<$set name=\"p\" filter=\"[[$:/temp/quote]field:page_omega[]]\" \n    value=<<page_alpha>>\n    emptyValue=<<appendPages>>\n    >\n\n<<p>>\n\n</$set>\n</$set>\n</$set>\n\\end",
+            "created": "20141126082734590",
+            "creator": "Alberto Molina Pérez",
+            "modified": "20141126083837593",
+            "modifier": "Alberto Molina Pérez",
+            "title": "$:/plugins/amp/MagicTabs/macros/pages"
+        },
+        "$:/plugins/amp/MagicTabs/buttons/input/quotes": {
+            "text": "\\define inputQuote(tempTiddler,authors,year,pages,source)\n<$button>\n    <$action-sendmessage $message=\"tm-new-tiddler\" $param=\"$tempTiddler$\"\n        title=\"$authors$ $year$: $pages$\"\n        authors={{!!authors}}\n        source=\"[[$source$]]\"\n        tags=\"$:/type/quote\"\n        icon={{$:/type/quote!!icon}}\n        color={{$:/type/quote!!color}}\n        />\n    <$action-deletefield $tiddler=\"$tempTiddler$\" tags text about description chapter page_alpha page_omega/>\n    <$action-deletefield $tiddler=\"$:/temp/title\" text/>\n    add\n</$button>\n\\end\n\n<$set name=\"tempTiddler\" value=\"$:/temp/quote\">\n<$set name=\"page_alpha\" value={{$:/temp/quote!!page_alpha}}>\n<$set name=\"page_omega\" value={{$:/temp/quote!!page_omega}}>\n\n<$list filter=\"[<currentTiddler>tag[$:/type/publication]] [<currentTiddler>tag[$:/type/chapter]]\">\n\n<$reveal state=\"$:/temp/quote!!page_alpha\" type=\"nomatch\" text=\"\">\n\n<$set name=\"year\" filter=\"[all[current]has[publication_date]!publication_date[]]\" value={{!!publication_date}} emptyValue=\"(n.d.)\">\n\n<$set name=\"authors\" filter=\"[all[current]has[authors_title]!authors_title[]]\" value={{!!authors_title}} emptyValue={{!!authors}}>\n\n<$set name=\"pages\" filter=\"[[$:/temp/quote]page_omega[]]\"\n    value={{$:/temp/quote!!page_alpha}}\n    emptyValue=<<appendPages>>\n    >\n\n<$macrocall $name=\"inputQuote\"\n    tempTiddler=\"$:/temp/quote\"\n    authors=<<authors>>\n    year=<<year>>\n    pages=<<pages>>\n    source={{!!title}}\n    />\n\n</$set>\n\n</$set>\n\n</$set>\n\n</$reveal>\n\n</$list>\n\n<$list filter=\"[<currentTiddler>tag[$:/type/author]] [<currentTiddler>tag[$:/type/person]]\">\n\n</$list>\n\n</$set>\n</$set>\n</$set>\n\n",
+            "created": "20141125101553189",
+            "creator": "Alberto Molina Pérez",
+            "modified": "20150203185420755",
+            "modifier": "Alberto Molina Pérez",
+            "tags": "MagicTabs",
+            "title": "$:/plugins/amp/MagicTabs/buttons/input/quotes"
+        },
+        "$:/plugins/amp/MagicTabs/ViewTemplate/person/publications": {
+            "text": "\\define publicationsList()\n<$list filter=\"[all[current]!is[system]tag[$:/type/author]]\">\n    <$list filter=\"[all[current]listed[]tag[$:/type/publication]!has[draft.of]] [all[current]listed[mt-source.authors.list]tag[$:/type/publication]!has[draft.of]] +[sort[mt-publication.date]]\">\n        <br>— <$link to={{!!title}}><$transclude tiddler={{!!icon}}/> <$view field=\"mt-publication.title\"/>, <$view field=\"mt-publication.date\"/></$link>\n    </$list>\n</$list>\n\\end\n\n<div class=\"tc-menu-list-item text-grey\">\n    <$list filter=\"[all[current]listed[mt-source.authors.list]tag[$:/type/publication]] +[limit[1]]\">\n       Publications :\n    </$list>\n    <<publicationsList>>\n</div>",
+            "created": "20140616154022572",
+            "creator": "Alberto Molina Pérez",
+            "list-before": "$:/plugins/amp/MagicTabs/ViewTemplate/TabsBar",
+            "modified": "20150221090651128",
+            "modifier": "Alberto Molina Pérez",
+            "tags": "$:/tags/ViewTemplate $:/plugins/amp/MagicTabs/reading MagicTabs",
+            "title": "$:/plugins/amp/MagicTabs/ViewTemplate/person/publications"
+        },
+        "$:/plugins/amp/MagicTabs/new/author": {
+            "created": "20150218220825212",
+            "text": "<<mt-input-person type:\"$:/type/author\">>\n<<mt-new-person type:\"$:/type/author\">>",
+            "creator": "Alberto Molina Pérez",
+            "modified": "20150218221549867",
+            "modifier": "Alberto Molina Pérez",
+            "tags": "$:/action/hide/tabs MagicTabs $:/action/hide/tags $:/plugins/amp/MagicTabs/reading",
+            "title": "$:/plugins/amp/MagicTabs/new/author"
+        },
+        "$:/plugins/amp/MagicTabs/new/quote": {
+            "created": "20150225223059126",
+            "text": "<<mt-fields-form \"$:/type/quote\">>\n\n<<mt-new-quote-button>>",
+            "title": "$:/plugins/amp/MagicTabs/new/quote",
+            "tags": "MagicTabs $:/plugins/amp/MagicTabs/reading",
+            "modified": "20150226084052884"
+        },
+        "$:/plugins/amp/MagicTabs/new/publication": {
+            "text": "{{$:/plugins/amp/MagicTabs/forms/input/publication}}\n\n{{$:/plugins/amp/MagicTabs/buttons/input/publication}}",
+            "created": "20150215091411739",
+            "creator": "Alberto Molina Pérez",
+            "modified": "20150221092504462",
+            "modifier": "Alberto Molina Pérez",
+            "tags": "MagicTabs $:/plugins/amp/MagicTabs/reading",
+            "test": "",
+            "title": "$:/plugins/amp/MagicTabs/new/publication"
+        },
+        "$:/plugins/amp/MagicTabs/templates/tabs/quotes": {
+            "created": "20140422115346864",
+            "creator": "Alberto Molina",
+            "text": "<div class=\"cit\">\n\n!!!''{{!!description}}''\n\n{{!!text}}\n\n<cite>\n<$link>{{!!title}}</$link>\n</cite>\n</div>",
+            "modified": "20141230101722919",
+            "modifier": "Alberto Molina Pérez",
+            "tags": "MagicTabs $:/type/template",
+            "title": "$:/plugins/amp/MagicTabs/templates/tabs/quotes"
+        },
+        "$:/plugins/amp/MagicTabs/templates/tabs/chapters": {
+            "text": "<h3><$link to={{!!title}}>Chap. <$view field=\"mt-chapter.order\"/> : <$view field=\"mt-chapter.title\"/></$link></h3>\n\n<h4><$transclude field=\"description\"/></h4>",
+            "created": "20141229113512679",
+            "creator": "Alberto Molina Pérez",
+            "modified": "20150220101811849",
+            "modifier": "Alberto Molina Pérez",
+            "tags": "$:/type/template MagicTabs",
+            "title": "$:/plugins/amp/MagicTabs/templates/tabs/chapters"
+        },
+        "$:/type/author": {
+            "created": "20141230112836838",
+            "text": "",
+            "caption": "author",
+            "color": "#ff8383",
+            "creator": "Alberto Molina Pérez",
+            "icon": "$:/plugins/amp/MagicTabs/images/person",
+            "modified": "20150223120755958",
+            "modifier": "Alberto Molina Pérez",
+            "mt-dashboard.add.content": "$:/plugins/amp/MagicTabs/new/author",
+            "mt-template.fields": "$:/plugins/amp/MagicTabs/templates/types/author",
+            "mt-template.form": "$:/plugins/amp/MagicTabs/new/author",
+            "tags": "MagicTabs $:/plugins/amp/MagicTabs/reading",
+            "title": "$:/type/author",
+            "mt-source.type": "$:/type/person"
+        },
+        "$:/plugins/amp/MagicTabs/macros/pubButton": {
+            "text": "\\define pubButton2(type, tempTiddler:\"$:/temp/$:/type/publication\", number, state)\n<strong><<$type$Title$number$>></strong>\n<$tiddler tiddler=\"$:/type/$state$\">\n\n<$button>\n    <$action-deletefield $tiddler=\"$tempTiddler$\" author1 author2 author3 author4/>\n    <$action-setfield $tiddler=\"$tempTiddler$\" title=<<$type$Title$number$>>/>\n    <$action-setfield $tiddler=<<$type$Title$number$>>\n        authors=<<authors$number$>> \n        authors_title=<<authorsTitle$number$>>\n        />\n    <$action-deletetiddler $tiddler=\"$tempTiddler$\"/>\n    <$action-setfield $tiddler={{!!template}} title=\"$tempTiddler$\"/>\n    add\n</$button>\n</$tiddler>\n\\end\n\n\\define pubButton(type, tempTiddler:\"$:/temp/$:/type/publication\", number)\n    <$macrocall $name=\"pubButton2\"\n        type=\"$type$\"\n        tempTiddler=\"$tempTiddler$\"\n        number=\"$number$\"\n        state={{$:/state/input/pub}}\n        />\n\\end\n",
+            "created": "20141231105432836",
+            "creator": "Alberto Molina Pérez",
+            "modified": "20150203230551504",
+            "modifier": "Alberto Molina Pérez",
+            "tags": "MagicTabs $:/tags/Macro",
+            "title": "$:/plugins/amp/MagicTabs/macros/pubButton"
+        },
+        "$:/config/EditTemplateFields/Visibility/authors_title": {
+            "created": "20141231122000041",
+            "creator": "Alberto Molina Pérez",
+            "text": "hide",
+            "title": "$:/config/EditTemplateFields/Visibility/authors_title",
+            "tags": "",
+            "modified": "20141231122103846",
+            "modifier": "Alberto Molina Pérez"
+        },
+        "$:/plugins/amp/MagicTabs/templates/tabs/publications": {
+            "created": "20150105112916833",
+            "creator": "Alberto Molina Pérez",
+            "text": "\\define title(type)\n\t<$transclude tiddler={{!!icon}}/>\n\t<$link to={{!!title}}>\n\t\t<$reveal type=\"nomatch\" state=\"!!mt-source.authors.list\" text=\"[[$(storyTiddler)$]]\">\n\t\t\t{{!!title}}\n        </$reveal>\n\t\t<$reveal type=\"match\" state=\"!!mt-source.authors.list\" text=\"[[$(storyTiddler)$]]\">\n\t\t\t<$view field=\"mt-publication.title\"/>\n            <$reveal type=\"nomatch\" state=\"!!mt-publication.date\" text=\"\">, \n            \t<$view field=\"mt-publication.date\"/>\n\t\t\t</$reveal>\n        </$reveal>\n\t</$link>\n\\end\n\n<h2><<title>></h2>\n<h3>{{!!description}}</h3>\n<$list filter=\"[all[current]list[!!mt-topics.list]!is[system]]\" template=\"$:/core/ui/TagTemplate\"/><$list filter=\"[all[current]tags[]!is[system]]\" template=\"$:/core/ui/TagTemplate\"/><br><br>\n\n{{!!text}}\n\n<br>",
+            "modified": "20150308161335260",
+            "modifier": "Alberto Molina Pérez",
+            "tags": "MagicTabs $:/plugins/amp/MagicTabs/reading",
+            "title": "$:/plugins/amp/MagicTabs/templates/tabs/publications"
+        },
+        "$:/plugins/amp/MagicTabs/templates/types/author": {
+            "created": "20150124084452165",
+            "creator": "Alberto Molina Pérez",
+            "text": "",
+            "about": "",
+            "icon": "$:/plugins/amp/MagicTabs/images/person",
+            "modified": "20150202225300760",
+            "modifier": "Alberto Molina Pérez",
+            "tags": "$:/type/person $:/type/author",
+            "title": "$:/plugins/amp/MagicTabs/templates/types/author",
+            "color": "#FF8383"
+        },
+        "$:/plugins/amp/MagicTabs/templates/types/quote": {
+            "created": "20150124151524517",
+            "creator": "Alberto Molina Pérez",
+            "text": "",
+            "color": "#DEB887",
+            "icon": "$:/plugins/amp/MagicTabs/images/quote",
+            "modified": "20150226085637428",
+            "modifier": "Alberto Molina Pérez",
+            "tags": "$:/type/quote $:/type/note",
+            "title": "$:/plugins/amp/MagicTabs/templates/types/quote",
+            "about": "",
+            "mt-source.tiddler": "",
+            "mt-source.authors.list": "",
+            "mt-quote.page.alpha": "",
+            "mt-quote.page.omega": "",
+            "mt-publication.title": "",
+            "mt-publication.date": "",
+            "mt-publication.part": ""
+        },
+        "$:/plugins/amp/MagicTabs/templates/types/article": {
+            "text": "",
+            "color": "#77ADD9",
+            "created": "20150203004946334",
+            "icon": "$:/plugins/amp/MagicTabs/images/article",
+            "modified": "20150216185827437",
+            "mt-publication.issue": "",
+            "mt-publication.journal": "",
+            "mt-publication.volume": "",
+            "tags": "$:/type/article $:/type/publication",
+            "title": "$:/plugins/amp/MagicTabs/templates/types/article"
+        },
+        "$:/plugins/amp/MagicTabs/templates/types/book": {
+            "created": "20150203005116435",
+            "text": "",
+            "color": "#D98F77",
+            "icon": "$:/plugins/amp/MagicTabs/images/book",
+            "modified": "20150216224942842",
+            "mt-publication.edition": "",
+            "mt-publication.publisher": "",
+            "mt-publication.volume": "",
+            "tags": "$:/type/book $:/type/publication",
+            "title": "$:/plugins/amp/MagicTabs/templates/types/book",
+            "mt-publication.city": ""
+        },
+        "$:/plugins/amp/MagicTabs/templates/types/publication": {
+            "text": "",
+            "color": "#D98F77",
+            "created": "20150215005821949",
+            "icon": "$:/plugins/amp/MagicTabs/images/book",
+            "modified": "20150228071426371",
+            "mt-publication.date": "",
+            "mt-publication.subtitle": "",
+            "mt-publication.title": "",
+            "mt-source.authors.list": "",
+            "tags": "$:/type/publication",
+            "title": "$:/plugins/amp/MagicTabs/templates/types/publication"
+        },
+        "$:/type/publication": {
+            "created": "20150125150841844",
+            "text": "",
+            "caption": "publication",
+            "creator": "Alberto Molina Pérez",
+            "modified": "20150223121447719",
+            "modifier": "Alberto Molina Pérez",
+            "mt-dashboard.add.content": "$:/plugins/amp/MagicTabs/new/publication",
+            "mt-dashboard.heading": "Publications",
+            "mt-dashboard.icon": "$:/plugins/amp/MagicTabs/images/book",
+            "mt-template.fields": "$:/plugins/amp/MagicTabs/templates/types/publication",
+            "mt-template.form": "$:/plugins/amp/MagicTabs/new/publication",
+            "tags": "$:/tags/MagicTabs/dashboard MagicTabs $:/plugins/amp/MagicTabs/reading",
+            "title": "$:/type/publication",
+            "mt-source.type": "$:/type/root"
+        },
+        "$:/plugins/amp/MagicTabs/tabs/publications": {
+            "text": "<<mt-slider-input \"$:/plugins/amp/MagicTabs/new/default\">>\n\n<<mt-tab-contents>>",
+            "caption": "<<mt-tab-caption>>",
+            "color": "#d3d3d3",
+            "created": "20150125013421426",
+            "creator": "Alberto Molina Pérez",
+            "description": "Publications",
+            "icon": "$:/plugins/amp/MagicTabs/images/article",
+            "modified": "20150309232412218",
+            "modifier": "Alberto Molina Pérez",
+            "mt-contents.type": "$:/type/publication",
+            "mt-list.filter": "[all[current]listed[mt-source.authors.list]] [all[current]listed[mt-topics.list]] +[tag[$:/type/publication]!is[system]!has[draft.of]nsort[mt-publication.date]]",
+            "mt-list.filter_alt": "",
+            "mt-list.heading": "",
+            "mt-list.heading_alt": "",
+            "mt-list.template": "$:/plugins/amp/MagicTabs/templates/tabs/publications",
+            "mt-list.template_alt": "",
+            "tags": "$:/type/tab $:/tabs/author $:/tabs/concept $:/tabs/theory $:/plugins/amp/MagicTabs/reading",
+            "title": "$:/plugins/amp/MagicTabs/tabs/publications"
+        },
+        "$:/plugins/amp/MagicTabs/tabs/chapters": {
+            "text": "<<mt-slider-input>>\n\n<<mt-tab-contents>>",
+            "caption": "<<mt-tab-caption>>",
+            "color": "#d3d3d3",
+            "created": "20150125013421426",
+            "creator": "Alberto Molina Pérez",
+            "description": "Chapters",
+            "icon": "$:/plugins/amp/MagicTabs/images/chapter",
+            "modified": "20150226161109321",
+            "modifier": "Alberto Molina Pérez",
+            "mt-contents.type": "$:/type/chapter",
+            "mt-list.filter": "",
+            "mt-list.filter_alt": "",
+            "mt-list.heading": "",
+            "mt-list.heading_alt": "",
+            "mt-list.template": "$:/plugins/amp/MagicTabs/templates/tabs/chapters",
+            "mt-list.template_alt": "",
+            "tags": "$:/type/tab $:/plugins/amp/MagicTabs/reading",
+            "title": "$:/plugins/amp/MagicTabs/tabs/chapters"
+        },
+        "$:/plugins/amp/MagicTabs/templates/types/chapter": {
+            "text": "",
+            "about": "",
+            "color": "#44ba46",
+            "created": "20150207180159702",
+            "icon": "$:/plugins/amp/MagicTabs/images/chapter",
+            "modified": "20150217225430119",
+            "order": "",
+            "parents": "",
+            "tags": "$:/type/chapter $:/type/publication",
+            "title": "$:/plugins/amp/MagicTabs/templates/types/chapter"
+        },
+        "$:/type/chapter": {
+            "text": "",
+            "caption": "chapter",
+            "created": "20150125150841844",
+            "creator": "Alberto Molina Pérez",
+            "modified": "20150220221246565",
+            "modifier": "Alberto Molina Pérez",
+            "mt-dashboard.add.content": "$:/plugins/amp/MagicTabs/new/chapter",
+            "mt-dashboard.heading": "Chapters",
+            "mt-dashboard.icon": "$:/plugins/amp/MagicTabs/images/chapter",
+            "mt-source.parents": "",
+            "mt-template.fields": "$:/plugins/amp/MagicTabs/templates/types/chapter",
+            "mt-template.form": "$:/plugins/amp/MagicTabs/new/chapter",
+            "tags": "MagicTabs $:/plugins/amp/MagicTabs/reading",
+            "title": "$:/type/chapter"
+        },
+        "$:/type/quote": {
+            "created": "20150125150841844",
+            "text": "",
+            "caption": "quote",
+            "creator": "Alberto Molina Pérez",
+            "modified": "20150223115145566",
+            "modifier": "Alberto Molina Pérez",
+            "mt-template.fields": "$:/plugins/amp/MagicTabs/templates/types/quote",
+            "mt-template.form": "$:/plugins/amp/MagicTabs/new/quote",
+            "tags": "MagicTabs $:/plugins/amp/MagicTabs/reading",
+            "title": "$:/type/quote",
+            "mt-source.type": "$:/type/note"
+        },
+        "$:/plugins/amp/MagicTabs/buttons/input/publication": {
+            "text": "\\define buttonPub(type:\"$:/type/publication\", authorsNumber:\"1\")\n\n<$tiddler tiddler=\"$:/temp/$type$\">\n\n<$set name=\"publicationTitle\" value={{!!mt-publication.title}}>\n\n<$set name=\"publicationDate\" filter=\"[all[current]has[mt-publication.date]!mt-publication.date[]]\" value={{!!mt-publication.date}} emptyValue=\"n.d.\">\n\n<$set name=\"author1\" filter=\"[[$(person1)$]has[mt-person.surname]!mt-person.surname[]]\" value={{$(person1)$!!mt-person.surname}} emptyValue={{$(person1)$!!mt-person.name}}>\n\n<$set name=\"author2\" filter=\"[[$(person2)$]has[mt-person.surname]!mt-person.surname[]]\" value={{$(person2)$!!mt-person.surname}} emptyValue={{$(person2)$!!mt-person.name}}>\n\n<$set name=\"author3\" filter=\"[[$(person3)$]has[mt-person.surname]!mt-person.surname[]]\" value={{$(person3)$!!mt-person.surname}} emptyValue={{$(person3)$!!mt-person.name}}>\n\n<$set name=\"author4\" filter=\"[[$(person4)$]has[mt-person.surname]!mt-person.surname[]]\" value={{$(person4)$!!mt-person.surname}} emptyValue={{$(person4)$!!mt-person.name}}>\n\n<$set name=\"authorsTitle\" value=<<authorsTitle$authorsNumber$>>>\n \n\t<$button>\n\t\t<$action-setfield title=<<pubTitle_book>>/>\n        <$action-setfield $tiddler=<<pubTitle_book>> mt-source.authors.list=\"$(authorsList)$\" mt-authors.title=<<authorsTitle>> mt-source.tiddler=\"\"/>\n        <$action-deletetiddler $tiddler=\"$:/temp/people\"/>\n        <$action-deletetiddler $tiddler=\"$:/temp/$type$\"/>\n        <$action-setfield $tiddler={{$type$!!mt-template.fields}} title=\"$:/temp/$type$\"/>\n\t\t<<pubTitle_book>>\n\t</$button>\n    \n</$set>    \n\n</$set>    \n\n</$set>   \n\n</$set>    \n\n</$set>\n\n</$set>\n\n</$set>\n\n</$tiddler>\n\\end\n\n\\define mt-new-publication(type:\"$:/type/publication\")\n<$reveal state=\"$:/temp/people!!person.1\" type=\"nomatch\" text=\"\">\n\n<$reveal state=\"$:/temp/$type$!!mt-publication.title\" type=\"nomatch\" text=\"\">\n\n<$tiddler tiddler=\"$:/temp/people\">\n\n<$set name=\"authorsNumber\" filter=\"[all[current]fields[]prefix[person.]last[]removeprefix[person.]]\">\n\n<$set name=\"authorsList\" value={{$:/temp/people!!tags}}>\n\n<$set name=\"person1\" value={{$:/temp/people!!person.1}}>\n\n<$set name=\"person2\" value={{$:/temp/people!!person.2}}>\n\n<$set name=\"person3\" value={{$:/temp/people!!person.3}}>\n\n<$set name=\"person4\" value={{$:/temp/people!!person.4}}>\n\n<$macrocall $name=\"buttonPub\"\n\ttype=\"$type$\" \n    authorsNumber=<<authorsNumber>>\n    />\n    \n</$set>\n    \n</$set>\n    \n</$set>\n    \n</$set>\n    \n</$set>\n    \n</$set>\n\n</$tiddler>\n\n</$reveal>\n\n</$reveal>\n\\end\n<<mt-new-publication>>",
+            "created": "20150213213824500",
+            "modified": "20150228145626844",
+            "tags": "$:/plugins/amp/MagicTabs/reading MagicTabs",
+            "title": "$:/plugins/amp/MagicTabs/buttons/input/publication"
+        },
+        "$:/plugins/amp/MagicTabs/forms/input/publication": {
+            "created": "20150215112415072",
+            "creator": "Alberto Molina Pérez",
+            "text": "\\define mt-publication-form2(type, template, tempTiddler, parentType, size)\n    <$tiddler tiddler=\"$tempTiddler$\">\n\n    <$set name=\"show\" filter=\"[[$type$]has[mt-source.parents.list]!mt-source.parents.list[]!mt-source.parents.list[$:/type/root]]\" value=\"yes\" emptyValue=\"no\">\n        <$reveal default=<<show>> type=\"match\" text=\"yes\">\n            <$checkbox tiddler=\"$tempTiddler$\" tag=\"$parentType$\"> {{$parentType$!!caption}} (inherit fields)</$checkbox>\n        </$reveal>\n    </$set>\n\n<$edit-text field<$edit-text field=\"mt-publication.title\" placeholder=\"Publication title\" class=\"tc-edit-fields\"/>\n<$edit-text field<$edit-text field=\"mt-publication.date\" placeholder=\"Date\" class=\"\"/>\n\n<$edit-text field=\"mt-topics.list\" placeholder=\"Topics [[Inside brackets]]\" tag=\"input\" class=\"tc-edit-fields\"/>\n<$edit-text field=\"text\" placeholder=\"Text\" default=\"\" tag=\"textarea\" class=\"tc-edit-fields\"/>\n\n<<mt-fields-form-more \"$type$\">>\n\n</$tiddler>\n\\end\n\n\\define mt-publication-form(type, tempTiddler, size:\"65\")\n<$reveal state=\"$type$!!modified\" type=\"nomatch\" text=\"\">\n    <$macrocall $name=\"mt-publication-form2\"\n        type=\"$type$\"\n        template={{$type$!!mt-template.fields}}\n        tempTiddler=\"$:/temp/$type$\"\n        parentType={{$type$!!mt-source.parents.list}}\n        size=\"$size$\"\n        />\n</$reveal>\n<$reveal state=\"$type$!!modified\" type=\"match\" text=\"\">\n    The tiddler [[$type$]] doesn't exist.\n</$reveal>\n\\end\n\n<<mt-add-people \"$:/type/author\">>\n\n<<mt-publication-form type:\"$:/type/publication\">>",
+            "modified": "20150308162827192",
+            "modifier": "Alberto Molina Pérez",
+            "tags": "MagicTabs $:/plugins/amp/MagicTabs/reading",
+            "test": "",
+            "title": "$:/plugins/amp/MagicTabs/forms/input/publication"
+        },
+        "$:/plugins/amp/MagicTabs/macros/mt-add-people": {
+            "text": "\\define selectPerson()\n\t\t<$select tiddler=\"$:/temp/people\">\n    \t\t<option value=\"\">{{$(type)$!!caption}}</option>\n    \t\t<$list filter=\"[!is[system]tag[$:/type/person]] -[all[current]tags[]tag[$:/type/person]]\" variable=\"person\">\n    \t\t\t<option><<person>></option>\n    \t\t</$list>\n\t\t</$select>\n\\end\n\n\\define addPerson()\n\t<$tiddler tiddler=\"$:/temp/people\">\n\t\t<$fieldmangler>\n\t\t\t<$button>\n\t\t\t\t<$action-sendmessage $message=\"tm-add-tag\" $param={{!!text}}/>\n                <$action-setfield person.$(number)$={{!!text}}/>\n    \t\t\t<$action-setfield text=\"\"/>\n    \t\t\tadd\n\t\t\t</$button>\n\t\t</$fieldmangler>\n\t</$tiddler>\n\\end\n\n\\define deletePersonButton()\n\t<$fieldmangler tiddler=\"$:/temp/people\">    \n\t\t<$button class=\"tc-btn-invisible tc-remove-tag-button\">\t\n\t\t\t<$action-sendmessage $message=\"tm-remove-tag\" $param={{!!person.$(number)$}}/>\n           \t<$action-sendmessage $message=\"tm-remove-field\" $param=\"person.$(number)$\"/>\n\t\t\t&times;\n\t\t</$button>\n\t</$fieldmangler>\n\\end\n\n\\define addFilters()\n\n        <$list filter=\"[all[current]!has[person.1]] [all[current]has[person.1]person.1[]]\">\n        \t<$set name=\"number\" value=\"1\">\n        \t\t<<selectPerson>>\n        \t\t<<addPerson>>\n            </$set>\n        </$list>\n\n        <$list filter=\"[all[current]has[person.1]!person.1[]!has[person.2]] [all[current]has[person.1]!person.1[]person.2[]]\">\n        \t<$set name=\"number\" value=\"2\">\n        \t\t<<selectPerson>>\n        \t\t<<addPerson>>\n            </$set>\n        </$list>\n\n        <$list filter=\"[all[current]has[person.2]!person.2[]!has[person.3]] [all[current]has[person.2]!person.2[]person.3[]]\">\n        \t<$set name=\"number\" value=\"3\">\n        \t\t<<selectPerson>>\n        \t\t<<addPerson>>\n            </$set>\n        </$list>\n\n        <$list filter=\"[all[current]has[person.3]!person.3[]!has[person.4]] [all[current]has[person.3]!person.3[]person.4[]]\">\n        \t<$set name=\"number\" value=\"4\">\n        \t\t<<selectPerson>>\n        \t\t<<addPerson>>\n            </$set>\n        </$list>\n       \n\\end\n\n\\define deleteFilter()\n       \n        <$list filter=\"[all[current]has[person.1]!person.1[]!has[person.2]] [all[current]has[person.1]!person.1[]has[person.2]person.2[]]\">\n\t        <$set name=\"number\" value=\"1\">\n        \t\t<<deletePersonButton>>\n            </$set>\n        </$list>\n        \n        <$list filter=\"[all[current]has[person.2]!person.2[]!has[person.3]] [all[current]has[person.2]!person.2[]has[person.3]person.3[]]\">\n\t        <$set name=\"number\" value=\"2\">\n        \t\t<<deletePersonButton>>\n            </$set>\n        </$list>\n        \n        <$list filter=\"[all[current]has[person.3]!person.3[]!has[person.4]] [all[current]has[person.3]!person.3[]has[person.4]person.4[]]\">\n\t        <$set name=\"number\" value=\"3\">\n        \t\t<<deletePersonButton>>\n            </$set>\n        </$list>\n        \n        <$list filter=\"[all[current]has[person.4]!person.4[]]\">\n\t        <$set name=\"number\" value=\"4\">\n        \t\t<<deletePersonButton>>\n            </$set>\n        </$list>\n        \n\\end\n\n\\define personName()\n{{!!person.$(number)$}}\n\\end\n\n\\define mt-add-people(type:\"$:/type/person\")\n<$tiddler tiddler=\"$:/temp/people\">\n\n<$set name=\"type\" value=\"$type$\">\n\n<table class=\"invisible\" style=\"width: 100%;\">\n<tr>\n<$list filter=\"[all[current]fields[]prefix[person.]removeprefix[person.]nsort[]]\" variable=\"number\">\n<tr>\n<td><<personName>></td>\n<td>\n<$set name=\"last\" filter=\"[all[current]fields[]prefix[person.]removeprefix[person.]last[]]\">\n<$reveal type=\"match\" text=<<number>> default=<<last>>>\n<<deletePersonButton>>\n</$reveal>\n</$set>\n</td>\n</tr>\n</$list>\n<td><<addFilters>></td>\n</tr>\n</table>\n\n</$set>\n\n</$tiddler>\n\\end\n\n<<mt-add-people>>\n\n\n\n\n\n\n",
+            "created": "20150214103342669",
+            "modified": "20150225115130321",
+            "tags": "$:/favorite $:/tags/Macro MagicTabs $:/plugins/amp/MagicTabs/common",
+            "title": "$:/plugins/amp/MagicTabs/macros/mt-add-people"
+        },
+        "$:/type/article": {
+            "created": "20150125150841844",
+            "text": "",
+            "caption": "article",
+            "creator": "Alberto Molina Pérez",
+            "modified": "20150223121515705",
+            "modifier": "Alberto Molina Pérez",
+            "mt-dashboard.add.content": "$:/plugins/amp/MagicTabs/new/article",
+            "mt-template.fields": "$:/plugins/amp/MagicTabs/templates/types/article",
+            "mt-template.form": "$:/plugins/amp/MagicTabs/new/article",
+            "tags": "MagicTabs $:/plugins/amp/MagicTabs/reading",
+            "title": "$:/type/article",
+            "mt-source.type": "$:/type/publication"
+        },
+        "$:/type/book": {
+            "created": "20150125150841844",
+            "text": "",
+            "caption": "book",
+            "creator": "Alberto Molina Pérez",
+            "modified": "20150223121540687",
+            "modifier": "Alberto Molina Pérez",
+            "mt-dashboard.add.content": "$:/plugins/amp/MagicTabs/new/book",
+            "mt-template.fields": "$:/plugins/amp/MagicTabs/templates/types/book",
+            "mt-template.form": "$:/plugins/amp/MagicTabs/new/book",
+            "tags": "MagicTabs $:/plugins/amp/MagicTabs/reading",
+            "title": "$:/type/book",
+            "mt-source.type": "$:/type/publication"
+        },
+        "$:/plugins/amp/MagicTabs/new/article": {
+            "text": "{{$:/plugins/amp/MagicTabs/forms/input/article}}\n\n{{$:/plugins/amp/MagicTabs/buttons/input/article}}",
+            "created": "20150216225140020",
+            "creator": "Alberto Molina Pérez",
+            "modified": "20150217111634556",
+            "modifier": "Alberto Molina Pérez",
+            "tags": "MagicTabs $:/plugins/amp/MagicTabs/reading",
+            "test": "",
+            "title": "$:/plugins/amp/MagicTabs/new/article"
+        },
+        "$:/plugins/amp/MagicTabs/new/book": {
+            "text": "{{$:/plugins/amp/MagicTabs/forms/input/book}}\n\n{{$:/plugins/amp/MagicTabs/buttons/input/book}}",
+            "created": "20150217111719125",
+            "creator": "Alberto Molina Pérez",
+            "modified": "20150221100702841",
+            "modifier": "Alberto Molina Pérez",
+            "tags": "MagicTabs $:/plugins/amp/MagicTabs/reading",
+            "test": "",
+            "title": "$:/plugins/amp/MagicTabs/new/book"
+        },
+        "$:/plugins/amp/MagicTabs/new/chapter": {
+            "created": "20150212171816817",
+            "creator": "Alberto Molina Pérez",
+            "text": "\\define mt-more-fields-chapter(type, template, default)\n\t<$reveal state=<<qualify \"$:/state/mt/slider\">> type=\"nomatch\" text=\"show\" default=\"$default$\">\n        <$button set=<<qualify \"$:/state/mt/slider\">> setTo=\"show\" class=\"tc-btn-invisible\">\n            {{$:/core/images/right-arrow}} more\n        </$button>\n    </$reveal>\n    <$reveal state=<<qualify \"$:/state/mt/slider\">> type=\"match\" text=\"show\" default=\"$default$\">\n        <$button set=<<qualify \"$:/state/mt/slider\">> setTo=\"hide\" class=\"tc-btn-invisible\">\n            {{$:/core/images/down-arrow}} less\n        </$button>        \n    </$reveal>\n    <$reveal state=<<qualify \"$:/state/mt/slider\">> type=\"match\" text=\"show\" default=\"$default$\">\n    \n\n\n<$reveal state=<<qualify \"$:/state/mt/slider\">> type=\"match\" text=\"show\" default=\"$default$\">\n\n<table class=\"\" style=\"width:100%\">\n        <tr>\n        \t<td style=\"height: 2em;\">Source:</td>\n        \t<td colspan=\"4\" style=\"text-align: left;\"><$view field=\"source\"/></td>\n        </tr>\n        <tr>\n        \t<td>Description:</td>\n        \t<td colspan=\"4\"><$edit-text field=\"description\" placeholder=\"Description\" tag=\"input\" class=\"tc-edit-fields\"/></td>\n        </tr>\n        <tr>\n        \t<td>Parents:</td>\n        \t<td colspan=\"4\"><$edit-text field=\"parents\" placeholder=\"Parents\" tag=\"input\" class=\"tc-edit-fields\"/></td>\n        </tr>\n        <tr>\n    \t\t<td>Tags</td>\n        \t<td colspan=\"4\"><$transclude tiddler=\"$:/core/ui/EditTemplate/tags\"/></td>\n        </tr>\n        <tr>\n        \t<td>Icon</td>\n        \t<td><$transclude tiddler={{!!icon}}/><<mt-change-icon>></td>\n        \t<td style=\"text-align: right;\">Color</td>\n        \t<td><$edit-text field=\"color\" placeholder=\"Source\" tag=\"input\" class=\"tc-edit-fields\"/></td>\n\t\t</tr>\n        <$list filter=\"[[$:/type/$:/type/chapter]tags[]prefix[$:/type/]get[mt-template.fields]fields[]] [[$template$]fields[]] -created -creator -modified -modifier -title -tags -mt-topics.list -text -icon -color -parents -source -description -order\" variable=\"field\">\n        <tr>\n        <td><<field>></td>\n        <td colspan=\"4\"><$macrocall $name=\"edit-field\" template=\"$template$\" field=<<field>> tempTiddler=\"$:/temp/$:/type/chapter\"/></td>\n        </tr>\n        </$list>\n    \t<tr style=\"text-align:right;\">\n        <td colspan=\"5\">\n           <small>\n                <$list filter=\"[[$template$]has[title]!title[]limit[1]]\">\n                    [[edit the template|$template$]]\n                </$list>\n                <$list filter=\"[[$template$]!has[title]] +[limit[1]]\">\n                    This is a form based on a default template. You should create a custom template for <$link to=\"$type$\">$type$</$link>\n                </$list>\n            </small>\n        </td>\n    \t</tr>\n</table>\n\n</$reveal>\n    \n\\end\n\n\\define mt-new-chapter-button(type, title, template, source, root)\n    <$button tooltip=\"add chapter\" class=\"\">\n        <$action-setfield $tiddler=\"$:/state/mt/new-tiddler\" text={{$:/temp/$type$!!draft.title}}/>\n        <$action-setfield $tiddler=\"$:/temp/$type$\" title=\"$title$\"/>\n        <$action-setfield $tiddler=\"$title$\" mt-chapter.root=\"$root$\"/>\n        <$action-deletetiddler $tiddler=\"$:/temp/$type$\"/>\n        <$action-setfield $tiddler=\"$template$\" title=\"$:/temp/$type$\"/>\n        <$action-setfield $tiddler=\"$:/temp/$type$\" source=\"$source$\"/>\n        <$action-sendmessage $message=\"tm-notify\" $param=\"$:/plugins/amp/MagicTabs/notifications/new-tiddler\"/>\n        add\n    </$button>\n\\end\n\n\\define changeTitle(chapterOrder, authorsTitle, publicationDate)\n\t<$reveal state=<<qualify \"$:/state/mt/chapterTitle\">> type=\"nomatch\" text=\"custom\" default=\"default\">\n    \t''$authorsTitle$ ($publicationDate$) - chap. $chapterOrder$''&nbsp;&nbsp;&nbsp;\n        <$button set=<<qualify \"$:/state/mt/chapterTitle\">> setTo=\"custom\" class=\"\">\n            change\n        </$button>\n    </$reveal>\n\n\t<$reveal state=<<qualify \"$:/state/mt/chapterTitle\">> type=\"match\" text=\"custom\" default=\"default\">\n\t<$edit-text field=\"draft.title\" placeholder=\"Tiddler title\" class=\"\" size=\"50\"/><<mt-check-title>>\n    <$button set=<<qualify \"$:/state/mt/chapterTitle\">> setTo=\"default\">    \n    \t<$action-setfield draft.title=\"\"/>\n    \tdefault\n    </$button>\n</$reveal>\n\n\\end\n\n\\define mt-new-chapter-table(type:\"$:/type/chapter\", chapterOrder, authorsTitle, publicationDate)\n\n<table class=\"invisible\" style=\"width: 100%\">\n<tr>\n<td><<changeTitle \"$chapterOrder$\" \"$authorsTitle$\" \"$publicationDate$\">></td>\n</tr>\n<tr>\n<td><$edit-text field=\"mt-chapter.order\" placeholder=\"N°\" size=\"4\"/><$edit-text field=\"mt-chapter.title\" placeholder=\"Title of the chapter\" class=\"\" size=\"50\"/><<mt-check-title>></td>\n</tr>\n<tr>\n<td><$edit-text field=\"mt-topics.list\" placeholder=\"Topics [[Inside brackets]]\" tag=\"input\" class=\"tc-edit-fields\"/></td>\n</tr>\n<tr>\n<td colspan=\"2\"><$edit-text field=\"text\" placeholder=\"Text\" default=\"\" tag=\"textarea\" class=\"tc-edit-fields\"/></td>\n</tr>\n</table>\n\n<$macrocall $name=\"mt-more-fields-chapter\" type=\"$:/type/chapter\" template={{$:/type/chapter!!mt-template.fields}} title=/>\n\n\\end\n\n\\define mt-new-chapter-button-call(type:\"$:/type/chapter\", chapterOrder, authorsTitle, publicationDate, root)\n\n<$reveal state=\"!!draft.title\" type=\"nomatch\" text=\"\">\n\n    <$reveal default=\"$(currentTab)$\" type=\"nomatch\" text=\"\">\n\n        <$macrocall $name=\"mt-new-chapter-button\"\n            type=\"$type$\"\n            title={{$:/temp/$type$!!draft.title}}\n            template={{$:/type/chapter!!mt-template.fields}}\n            source=\"$(storyTiddler)$\"\n            root=\"$root$\"\n            />\n\n    </$reveal>\n\n</$reveal>\n\n<$reveal state=\"!!draft.title\" type=\"match\" text=\"\">\n\n    <$reveal default=\"$(currentTab)$\" type=\"nomatch\" text=\"\">\n\n        <$macrocall $name=\"mt-new-chapter-button\"\n            type=\"$type$\"\n            title=\"$authorsTitle$ ($publicationDate$) - chap. $chapterOrder$\"\n            template={{$type$!!mt-template.fields}}\n            source=\"$(storyTiddler)$\"\n            root=\"$root$\"\n            />\n\n    </$reveal>\n\n</$reveal>\n\\end\n\n\\define mt-new-chapter(type:\"$:/type/chapter\")\n\n<$tiddler tiddler=\"$:/temp/$type$\">\n\n<$macrocall $name=\"mt-new-chapter-table\"\n    \tauthorsTitle={{$(storyTiddler)$!!authors.title}}\n    \tchapterOrder={{$:/temp/$type$!!mt-chapter.order}}\n        publicationDate={{$(storyTiddler)$!!mt-publication.date}}\n        />\n\n<$list filter=\"[[$(storyTiddler)$]tag[$:/type/publication]!tag[$:/type/chapter]]\">\n\n\t<$macrocall $name=\"mt-new-chapter-button-call\"\n    \tauthorsTitle={{$(storyTiddler)$!!authors.title}}\n    \tchapterOrder={{$:/temp/$type$!!mt-chapter.order}}\n        publicationDate={{$(storyTiddler)$!!mt-publication.date}}\n        root=\"$(storyTiddler)$\"\n    \t/>\n\n</$list>\n\n</$tiddler>\n\t\t\n\\end\n\n<<mt-new-chapter>>\n\n",
+            "modified": "20150308161834478",
+            "tags": "$:/plugins/amp/MagicTabs/reading MagicTabs",
+            "title": "$:/plugins/amp/MagicTabs/new/chapter",
+            "modifier": "Alberto Molina Pérez"
+        },
+        "$:/plugins/amp/MagicTabs/config/publication/book-title": {
+            "text": "\\define pubTitle_book()\n$(authorsTitle)$ ($(publicationDate)$): $(publicationTitle)$\n\\end",
+            "created": "20150213221650320",
+            "modified": "20150217110849214",
+            "tags": "$:/tags/Macro MagicTabs $:/plugins/amp/MagicTabs/reading",
+            "title": "$:/plugins/amp/MagicTabs/config/publication/book-title"
+        },
+        "$:/plugins/amp/MagicTabs/config/publication/article-title": {
+            "text": "\\define pubTitle_article()\n$(authorsTitle)$ ($(publicationDate)$): “$(publicationTitle)$”\n\\end",
+            "created": "20150217105426083",
+            "modified": "20150217110927861",
+            "tags": "$:/tags/Macro MagicTabs $:/plugins/amp/MagicTabs/reading",
+            "title": "$:/plugins/amp/MagicTabs/config/publication/article-title"
+        },
+        "$:/plugins/amp/MagicTabs/buttons/input/book": {
+            "text": "\\define buttonPub(type, authorsNumber:\"1\")\n\n<$tiddler tiddler=\"$:/temp/$type$\">\n\n<$set name=\"publicationTitle\" value={{!!mt-publication.title}}>\n\n<$set name=\"publicationDate\" filter=\"[all[current]has[mt-publication.date]!mt-publication.date[]]\" value={{!!mt-publication.date}} emptyValue=\"n.d.\">\n\n<$set name=\"author1\" filter=\"[[$(person1)$]has[mt-person.surname]!mt-person.surname[]]\" value={{$(person1)$!!mt-person.surname}} emptyValue={{$(person1)$!!mt-person.name}}>\n\n<$set name=\"author2\" filter=\"[[$(person2)$]has[mt-person.surname]!mt-person.surname[]]\" value={{$(person2)$!!mt-person.surname}} emptyValue={{$(person2)$!!mt-person.name}}>\n\n<$set name=\"author3\" filter=\"[[$(person3)$]has[mt-person.surname]!mt-person.surname[]]\" value={{$(person3)$!!mt-person.surname}} emptyValue={{$(person3)$!!mt-person.name}}>\n\n<$set name=\"author4\" filter=\"[[$(person4)$]has[mt-person.surname]!mt-person.surname[]]\" value={{$(person4)$!!mt-person.surname}} emptyValue={{$(person4)$!!mt-person.name}}>\n\n<$set name=\"authorsTitle\" value=<<authorsTitle$authorsNumber$>>>\n \n\t<$button>\n\t\t<$action-setfield title=<<pubTitle_book>>/>\n        <$action-setfield $tiddler=<<pubTitle_book>> mt-source.authors.list=\"$(authorsList)$\" mt-authors.title=<<authorsTitle>> mt-source.tiddler=\"\"/>\n        <$action-deletetiddler $tiddler=\"$:/temp/people\"/>\n        <$action-deletetiddler $tiddler=\"$:/temp/$type$\"/>\n        <$action-setfield $tiddler={{$type$!!mt-template.fields}} title=\"$:/temp/$type$\"/>\n\t\t<<pubTitle_book>>\n\t</$button>\n    \n</$set>    \n\n</$set>    \n\n</$set>   \n\n</$set>    \n\n</$set>\n\n</$set>\n\n</$set>\n\n</$tiddler>\n\\end\n\n\\define mt-new-book(type:\"$:/type/book\")\n<$reveal state=\"$:/temp/people!!person.1\" type=\"nomatch\" text=\"\">\n\n<$reveal state=\"$:/temp/$type$!!mt-publication.title\" type=\"nomatch\" text=\"\">\n\n<$tiddler tiddler=\"$:/temp/people\">\n\n<$set name=\"authorsNumber\" filter=\"[all[current]fields[]prefix[person.]last[]removeprefix[person.]]\">\n\n<$set name=\"authorsList\" value={{$:/temp/people!!tags}}>\n\n<$set name=\"person1\" value={{$:/temp/people!!person.1}}>\n\n<$set name=\"person2\" value={{$:/temp/people!!person.2}}>\n\n<$set name=\"person3\" value={{$:/temp/people!!person.3}}>\n\n<$set name=\"person4\" value={{$:/temp/people!!person.4}}>\n\n<$macrocall $name=\"buttonPub\"\n\ttype=\"$type$\" \n    authorsNumber=<<authorsNumber>>\n    />\n    \n</$set>\n    \n</$set>\n    \n</$set>\n    \n</$set>\n    \n</$set>\n    \n</$set>\n\n</$tiddler>\n\n</$reveal>\n\n</$reveal>\n\\end\n<<mt-new-book>>",
+            "created": "20150217103730754",
+            "modified": "20150226160252343",
+            "tags": "$:/plugins/amp/MagicTabs/reading MagicTabs",
+            "title": "$:/plugins/amp/MagicTabs/buttons/input/book"
+        },
+        "$:/plugins/amp/MagicTabs/config/authors/title-1": {
+            "created": "20150213224036081",
+            "text": "\\define authorsTitle1()\n$(author1)$\n\\end",
+            "modified": "20150217123035360",
+            "tags": "$:/tags/Macro $:/plugins/amp/MagicTabs/reading MagicTabs",
+            "title": "$:/plugins/amp/MagicTabs/config/authors/title-1"
+        },
+        "$:/plugins/amp/MagicTabs/config/authors/title-2": {
+            "text": "\\define authorsTitle2()\n$(author1)$ & $(author2)$\n\\end",
+            "created": "20150213224122316",
+            "modified": "20150217123106249",
+            "tags": "$:/tags/Macro $:/plugins/amp/MagicTabs/reading MagicTabs",
+            "title": "$:/plugins/amp/MagicTabs/config/authors/title-2"
+        },
+        "$:/plugins/amp/MagicTabs/config/authors/title-3": {
+            "text": "\\define authorsTitle3()\n$(author1)$, $(author2)$ & $(author3)$\n\\end",
+            "created": "20150213224623711",
+            "modified": "20150217123134125",
+            "tags": "$:/tags/Macro $:/plugins/amp/MagicTabs/reading MagicTabs",
+            "title": "$:/plugins/amp/MagicTabs/config/authors/title-3"
+        },
+        "$:/plugins/amp/MagicTabs/config/authors/title-4": {
+            "text": "\\define authorsTitle4()\n$(author1)$ et al.\n\\end",
+            "created": "20150215004954531",
+            "modified": "20150217123222929",
+            "tags": "$:/tags/Macro MagicTabs $:/plugins/amp/MagicTabs/reading",
+            "title": "$:/plugins/amp/MagicTabs/config/authors/title-4"
+        },
+        "$:/plugins/amp/MagicTabs/forms/input/article": {
+            "created": "20150217111202141",
+            "creator": "Alberto Molina Pérez",
+            "text": "\\define mt-publication-form2(type, template, tempTiddler, parentType, size)\n    <$tiddler tiddler=\"$tempTiddler$\">\n\n    <$set name=\"show\" filter=\"[[$type$]has[mt-source.parents.list]!mt-source.parents.list[]!mt-source.parents.list[$:/type/root]]\" value=\"yes\" emptyValue=\"no\">\n        <$reveal default=<<show>> type=\"match\" text=\"yes\">\n            <$checkbox tiddler=\"$tempTiddler$\" tag=\"$parentType$\"> {{$parentType$!!caption}} (inherit fields)</$checkbox>\n        </$reveal>\n    </$set>\n\n<$edit-text field=\"mt-publication.title\" placeholder=\"Article title\" class=\"tc-edit-fields\"/>\n<$edit-text field=\"mt-publication.journal\" placeholder=\"Journal\" class=\"\"/>\n\n<$edit-text field=\"mt-publication.volume\" placeholder=\"Volume\" class=\"\"/>\n<$edit-text field=\"mt-publication.issue\" placeholder=\"Issue\" class=\"\"/>\n<$edit-text field=\"mt-publication.date\" placeholder=\"Date\" class=\"\"/>\n\n<$edit-text field=\"mt-topics.list\" placeholder=\"Topics [[Inside brackets]]\" tag=\"input\" class=\"tc-edit-fields\"/>\n<$edit-text field=\"text\" placeholder=\"Text\" default=\"\" tag=\"textarea\" class=\"tc-edit-fields\"/>\n\n<<mt-fields-form-more \"$type$\">>\n\n</$tiddler>\n\\end\n\n\\define mt-publication-form(type, tempTiddler, size:\"65\")\n<$reveal state=\"$type$!!modified\" type=\"nomatch\" text=\"\">\n    <$macrocall $name=\"mt-publication-form2\"\n        type=\"$type$\"\n        template={{$type$!!mt-template.fields}}\n        tempTiddler=\"$:/temp/$type$\"\n        parentType={{$type$!!mt-source.parents.list}}\n        size=\"$size$\"\n        />\n</$reveal>\n\\end\n\n<<mt-add-people \"$:/type/author\">>\n\n<<mt-publication-form type:\"$:/type/article\">>",
+            "modified": "20150308161030915",
+            "modifier": "Alberto Molina Pérez",
+            "tags": "MagicTabs $:/plugins/amp/MagicTabs/reading",
+            "test": "",
+            "title": "$:/plugins/amp/MagicTabs/forms/input/article"
+        },
+        "$:/plugins/amp/MagicTabs/buttons/input/article": {
+            "text": "\\define buttonPub(type, authorsNumber:\"1\")\n\n<$tiddler tiddler=\"$:/temp/$type$\">\n\n<$set name=\"publicationTitle\" value={{!!mt-publication.title}}>\n\n<$set name=\"publicationDate\" filter=\"[all[current]has[mt-publication.date]!mt-publication.date[]]\" value={{!!mt-publication.date}} emptyValue=\"n.d.\">\n\n<$set name=\"author1\" filter=\"[[$(person1)$]has[mt-person.surname]!mt-person.surname[]]\" value={{$(person1)$!!mt-person.surname}} emptyValue={{$(person1)$!!mt-person.name}}>\n\n<$set name=\"author2\" filter=\"[[$(person2)$]has[mt-person.surname]!mt-person.surname[]]\" value={{$(person2)$!!mt-person.surname}} emptyValue={{$(person2)$!!mt-person.name}}>\n\n<$set name=\"author3\" filter=\"[[$(person3)$]has[mt-person.surname]!mt-person.surname[]]\" value={{$(person3)$!!mt-person.surname}} emptyValue={{$(person3)$!!mt-person.name}}>\n\n<$set name=\"author4\" filter=\"[[$(person4)$]has[mt-person.surname]!mt-person.surname[]]\" value={{$(person4)$!!mt-person.surname}} emptyValue={{$(person4)$!!mt-person.name}}>\n\n<$set name=\"authorsTitle\" value=<<authorsTitle$authorsNumber$>>>\n \n\t<$button>\n\t\t<$action-setfield title=<<pubTitle_article>>/>\n        <$action-setfield $tiddler=<<pubTitle_article>> mt-source.authors.list=\"$(authorsList)$\" mt-authors.title=<<authorsTitle>> mt-source.tiddler=\"\"/>\n        <$action-deletetiddler $tiddler=\"$:/temp/people\"/>\n        <$action-deletetiddler $tiddler=\"$:/temp/$type$\"/>\n        <$action-setfield $tiddler={{$type$!!mt-template.fields}} title=\"$:/temp/$type$\"/>\n\t\t<<pubTitle_article>>\n\t</$button>\n    \n</$set>    \n\n</$set>    \n\n</$set>   \n\n</$set>    \n\n</$set>\n\n</$set>\n\n</$set>\n\n</$tiddler>\n\\end\n\n\\define mt-new-article(type:\"$:/type/article\")\n\n<$reveal state=\"$:/temp/people!!person.1\" type=\"nomatch\" text=\"\">\n\n<$reveal state=\"$:/temp/$type$!!mt-publication.title\" type=\"nomatch\" text=\"\">\n\n<$tiddler tiddler=\"$:/temp/people\">\n\n<$set name=\"authorsNumber\" filter=\"[all[current]fields[]prefix[person.]last[]removeprefix[person.]]\">\n\n<$set name=\"authorsList\" value={{$:/temp/people!!tags}}>\n\n<$set name=\"person1\" value={{$:/temp/people!!person.1}}>\n\n<$set name=\"person2\" value={{$:/temp/people!!person.2}}>\n\n<$set name=\"person3\" value={{$:/temp/people!!person.3}}>\n\n<$set name=\"person4\" value={{$:/temp/people!!person.4}}>\n\n<$macrocall $name=\"buttonPub\"\n\ttype=\"$type$\" \n    authorsNumber=<<authorsNumber>>\n    />\n    \n</$set>\n    \n</$set>\n    \n</$set>\n    \n</$set>\n    \n</$set>\n    \n</$set>\n\n</$tiddler>\n\n</$reveal>\n\n</$reveal>\n\\end\n\n<<mt-new-article>>",
+            "created": "20150217105141439",
+            "modified": "20150226160330185",
+            "tags": "$:/plugins/amp/MagicTabs/reading MagicTabs",
+            "title": "$:/plugins/amp/MagicTabs/buttons/input/article"
+        },
+        "$:/plugins/amp/MagicTabs/forms/input/book": {
+            "created": "20150216220432569",
+            "creator": "Alberto Molina Pérez",
+            "text": "\\define mt-publication-form2(type, template, tempTiddler, parentType, size)\n    <$tiddler tiddler=\"$tempTiddler$\">\n\n    <$set name=\"show\" filter=\"[[$type$]has[mt-source.parents.list]!mt-source.parents.list[]!mt-source.parents.list[$:/type/root]]\" value=\"yes\" emptyValue=\"no\">\n        <$reveal default=<<show>> type=\"match\" text=\"yes\">\n            <$checkbox tiddler=\"$tempTiddler$\" tag=\"$parentType$\"> {{$parentType$!!caption}} (inherit fields)</$checkbox>\n        </$reveal>\n    </$set>\n\n<$edit-text field=\"mt-publication.title\" placeholder=\"Book title\" class=\"tc-edit-fields\"/>\n<$edit-text field=\"mt-publication.publisher\" placeholder=\"Publisher\" class=\"\"/>\n<$edit-text field=\"mt-publication.city\" placeholder=\"City\" class=\"\"/>\n\n<$edit-text field=\"mt-publication.edition\" placeholder=\"Edition\" class=\"\"/>\n<$edit-text field=\"mt-publication.volume\" placeholder=\"Volume\" class=\"\"/>\n<$edit-text field=\"mt-publication.date\" placeholder=\"Date\" class=\"\"/>\n\n<$edit-text field=\"mt-topics.list\" placeholder=\"Topics [[Inside brackets]]\" tag=\"input\" class=\"tc-edit-fields\"/>\n<$edit-text field=\"text\" placeholder=\"Text\" default=\"\" tag=\"textarea\" class=\"tc-edit-fields\"/>\n\n<<mt-fields-form-more \"$type$\">>\n\n</$tiddler>\n\\end\n\n\\define mt-publication-form(type, tempTiddler, size:\"65\")\n<$reveal state=\"$type$!!modified\" type=\"nomatch\" text=\"\">\n    <$macrocall $name=\"mt-publication-form2\"\n        type=\"$type$\"\n        template={{$type$!!mt-template.fields}}\n        tempTiddler=\"$:/temp/$type$\"\n        parentType={{$type$!!mt-source.parents.list}}\n        size=\"$size$\"\n        />\n</$reveal>\n\\end\n\n<<mt-add-people \"$:/type/author\">>\n\n<<mt-publication-form type:\"$:/type/book\">>",
+            "modified": "20150308161119048",
+            "modifier": "Alberto Molina Pérez",
+            "tags": "MagicTabs $:/plugins/amp/MagicTabs/reading",
+            "test": "",
+            "title": "$:/plugins/amp/MagicTabs/forms/input/book"
+        },
+        "$:/plugins/amp/MagicTabs/macros/mt-new-quote": {
+            "text": "\\define mt-new-quote-button2(type, template, label:\"add\", class=\"\")\n\n<$set name=\"hasRoot\" filter=\"[[$(storyTiddler)$]!mt-source.root[]]\" value={{$(storyTiddler)$!!mt-source.root}} emptyValue=\"\">\n\n<$set name=\"noRoot\" filter=\"[[$(storyTiddler)$]!mt-source.tiddler[]mt-source.root[]]\" value={{$(storyTiddler)$!!mt-source.tiddler}} emptyValue=\"\">\n\n<$set name=\"rootTiddler\" value=<<mt-select-root>>>\n\n<$reveal state=\"$:/temp/$type$!!draft.title\" type=\"nomatch\" text=\"\">\n\n    <$button tooltip=\"$label$\" class=\"$class$\">\n        <$action-setfield $tiddler=\"$:/state/mt/new-tiddler\" text={{$:/temp/$type$!!draft.title}}/>\n        <$action-setfield $tiddler=\"$:/temp/$type$\" title={{$:/temp/$type$!!draft.title}}/>\n        <$action-setfield $tiddler={{$:/temp/$type$!!draft.title}} mt-source.tiddler=\"$(storyTiddler)$\" mt-source.root=<<rootTiddler>> mt-authors.title={{$(storyTiddler)$!!mt-authors.title}} mt-source.authors.list={{$(storyTiddler)$!!mt-source.authors.list}} mt-publication.title={{$(storyTiddler)$!!mt-publication.title}} mt-publication.date={{$(storyTiddler)$!!mt-publication.date}}/>\n        <$action-deletetiddler $tiddler=\"$:/temp/$type$\"/>\n        <$action-setfield $tiddler=\"$template$\" title=\"$:/temp/$type$\"/>\n        <$action-setfield $tiddler=\"$:/temp/$type$\" mt-source.tiddler=\"$(storyTiddler)$\" mt-source.root=<<rootTiddler>>/>\n        $label$: {{$:/temp/$type$!!draft.title}}\n    </$button>\n\n</$reveal>\n\n<$reveal state=\"$:/temp/$type$!!draft.title\" type=\"match\" text=\"\">\n\n<$set name=\"title\" value=\"$(mt-authors.title)$ $(mt-publication.date)$: $(pages)$\">\n\n    <$button tooltip=\"$label$\" class=\"$class$\">\n        <$action-setfield $tiddler=\"$:/state/mt/new-tiddler\" text=<<title>>/>\n        <$action-setfield $tiddler=\"$:/temp/$type$\" title=<<title>>/>\n        <$action-setfield $tiddler=<<title>> mt-source.tiddler=\"$(storyTiddler)$\" mt-source.root=<<rootTiddler>> mt-authors.title={{$(storyTiddler)$!!mt-authors.title}} mt-source.authors.list={{$(storyTiddler)$!!mt-source.authors.list}} mt-publication.title={{$(storyTiddler)$!!mt-publication.title}} mt-publication.date={{$(storyTiddler)$!!mt-publication.date}}/>\n        <$action-deletetiddler $tiddler=\"$:/temp/$type$\"/>\n        <$action-setfield $tiddler=\"$template$\" title=\"$:/temp/$type$\"/>\n        <$action-setfield $tiddler=\"$:/temp/$type$\" mt-source.tiddler=\"$(storyTiddler)$\" mt-source.root=<<rootTiddler>>/>\n        $label$: <<title>>\n    </$button>\n    \n</$set>\n\n</$reveal>\n\n</$set>\n    \n</$set>\n    \n</$set>\n\n\\end\n\n\\define pages-alpha-omega()\n$(mt-quote.page.alpha)$-$(mt-quote.page.omega)$\n\\end\n\n\\define mt-new-quote-button(type:\"$:/type/quote\")\n\n<$set name=\"mt-authors.title\" value={{$(storyTiddler)$!!mt-authors.title}}>\n\n<$set name=\"mt-publication.date\" value={{$(storyTiddler)$!!mt-publication.date}}>\n\n<$set name=\"mt-quote.page.alpha\" value={{$:/temp/$type$!!mt-quote.page.alpha}}>\n\n<$set name=\"mt-quote.page.omega\" value={{$:/temp/$type$!!mt-quote.page.omega}}>\n\n<$set name=\"pages\" filter=\"[[$:/temp/$type$]mt-quote.page.omega[]]\" value=<<mt-quote.page.alpha>> emptyValue=<<pages-alpha-omega>>>\n\n<$macrocall $name=\"mt-new-quote-button2\"\n    type=\"$type$\"\n    template={{$type$!!mt-template.fields}}\n    title={{$:/temp/$type$!!draft.title}}\n    label=\"add\"\n    class=\"\"\n\t/>\n    \n</$set>\n    \n</$set>\n    \n</$set>\n    \n</$set>\n    \n</$set>\n\n\\end\n<<mt-new-quote-button>>",
+            "created": "20150225225416697",
+            "creator": "Alberto Molina Pérez",
+            "modified": "20150226090313385",
+            "modifier": "Alberto Molina Pérez",
+            "tags": "MagicTabs $:/tags/Macro $:/plugins/amp/MagicTabs/common",
+            "title": "$:/plugins/amp/MagicTabs/macros/mt-new-quote"
+        },
+        "$:/plugins/amp/MagicTabs/ViewTemplate/subtitle/publication": {
+            "text": "<$list filter=\"[all[current]tag[$:/type/publication]has[mt-publication.subtitle]]\">\n<div style=\"font-size: 2em; color: grey; background-color:transparent; line-height:1.2em; padding-top:0em;\"><$view field=\"mt-publication.subtitle\"/></div>\n</$list>",
+            "created": "20150228093918713",
+            "creator": "Alberto Molina",
+            "list-after": "$:/core/ui/ViewTemplate/title",
+            "modified": "20150309154330529",
+            "modifier": "Alberto Molina Pérez",
+            "tags": "$:/tags/ViewTemplate MagicTabs $:/plugins/amp/MagicTabs/reading",
+            "title": "$:/plugins/amp/MagicTabs/ViewTemplate/subtitle/publication",
+            "type": ""
+        }
+    }
+}

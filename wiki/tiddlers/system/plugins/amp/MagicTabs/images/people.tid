@@ -1,0 +1,9 @@
+created: 20141212221823959
+creator: Alberto Molina Pérez
+modified: 20180820022913328
+modifier: Charles Delbé
+tags: $:/plugins/amp/MagicTabs/common
+title: $:/plugins/amp/MagicTabs/images/people
+type: text/vnd.tiddlywiki
+
+<<mt-image "fa-users" "people" "People">>

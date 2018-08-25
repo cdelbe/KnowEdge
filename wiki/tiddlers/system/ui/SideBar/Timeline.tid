@@ -1,0 +1,19 @@
+caption: Chronologie
+color: #0033aa
+created: 20180814195513883
+creator: Charles Delbé
+list-before: $:/core/ui/SideBar/Open
+modified: 20180822054935985
+modifier: Charles Delbé
+tags: $:/tags/SideBar
+title: ui/SideBar/Timeline
+tmap.id: 3e1259a2-8d32-4289-9ce5-c4dabab7e7e3
+type: text/vnd.tiddlywiki
+
+!! Events
+<$visjstimeline filter="[tag[Event]]" startDateField="debut" endDateField="fin" groupTags=[[Demo]][[GrpTest1]] boxing=auto format="DD/MM/YYYY" navpad /> 
+
+<br>
+
+!! Dates de création 
+<$visjstimeline filter="[tag[Event]]" boxing=auto navpad />

@@ -1,0 +1,95 @@
+created: 20150213213824500
+creator: Charles Delbé
+modified: 20180820023024605
+modifier: Charles Delbé
+tags: $:/plugins/amp/MagicTabs/reading
+title: $:/plugins/amp/MagicTabs/buttons/input/publication
+type: text/vnd.tiddlywiki
+
+\define buttonPub(type:"$:/type/publication", authorsNumber:"1")
+
+<$tiddler tiddler="$:/temp/$type$">
+
+<$set name="publicationTitle" value={{!!mt-publication.title}}>
+
+<$set name="publicationDate" filter="[all[current]has[mt-publication.date]!mt-publication.date[]]" value={{!!mt-publication.date}} emptyValue="n.d.">
+
+<$set name="author1" filter="[[$(person1)$]has[mt-person.surname]!mt-person.surname[]]" value={{$(person1)$!!mt-person.surname}} emptyValue={{$(person1)$!!mt-person.name}}>
+
+<$set name="author2" filter="[[$(person2)$]has[mt-person.surname]!mt-person.surname[]]" value={{$(person2)$!!mt-person.surname}} emptyValue={{$(person2)$!!mt-person.name}}>
+
+<$set name="author3" filter="[[$(person3)$]has[mt-person.surname]!mt-person.surname[]]" value={{$(person3)$!!mt-person.surname}} emptyValue={{$(person3)$!!mt-person.name}}>
+
+<$set name="author4" filter="[[$(person4)$]has[mt-person.surname]!mt-person.surname[]]" value={{$(person4)$!!mt-person.surname}} emptyValue={{$(person4)$!!mt-person.name}}>
+
+<$set name="authorsTitle" value=<<authorsTitle$authorsNumber$>>>
+ 
+	<$button>
+		<$action-setfield title=<<pubTitle_book>>/>
+        <$action-setfield $tiddler=<<pubTitle_book>> mt-source.authors.list="$(authorsList)$" mt-authors.title=<<authorsTitle>> mt-source.tiddler=""/>
+        <$action-deletetiddler $tiddler="$:/temp/people"/>
+        <$action-deletetiddler $tiddler="$:/temp/$type$"/>
+        <$action-setfield $tiddler={{$type$!!mt-template.fields}} title="$:/temp/$type$"/>
+		<<pubTitle_book>>
+	</$button>
+    
+</$set>    
+
+</$set>    
+
+</$set>   
+
+</$set>    
+
+</$set>
+
+</$set>
+
+</$set>
+
+</$tiddler>
+\end
+
+\define mt-new-publication(type:"$:/type/publication")
+<$reveal state="$:/temp/people!!person.1" type="nomatch" text="">
+
+<$reveal state="$:/temp/$type$!!mt-publication.title" type="nomatch" text="">
+
+<$tiddler tiddler="$:/temp/people">
+
+<$set name="authorsNumber" filter="[all[current]fields[]prefix[person.]last[]removeprefix[person.]]">
+
+<$set name="authorsList" value={{$:/temp/people!!tags}}>
+
+<$set name="person1" value={{$:/temp/people!!person.1}}>
+
+<$set name="person2" value={{$:/temp/people!!person.2}}>
+
+<$set name="person3" value={{$:/temp/people!!person.3}}>
+
+<$set name="person4" value={{$:/temp/people!!person.4}}>
+
+<$macrocall $name="buttonPub"
+	type="$type$" 
+    authorsNumber=<<authorsNumber>>
+    />
+    
+</$set>
+    
+</$set>
+    
+</$set>
+    
+</$set>
+    
+</$set>
+    
+</$set>
+
+</$tiddler>
+
+</$reveal>
+
+</$reveal>
+\end
+<<mt-new-publication>>

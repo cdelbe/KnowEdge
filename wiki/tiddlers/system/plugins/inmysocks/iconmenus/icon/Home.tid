@@ -1,0 +1,16 @@
+caption: Home
+created: 20150121170719185
+creator: inmysocks
+left_menu_order: 1
+modified: 20180821214107088
+modifier: Charles Delbé
+order: NaN
+right_menu_order: 1
+tags: [[Menu Icon]] $:/tags/LeftMenu
+title: $:/plugins/inmysocks/iconmenus/icon/Home
+top_left_menu_order: 0
+top_middle_menu_order: 1
+top_right_menu_order: 18
+type: text/vnd.tiddlywiki
+
+{{$:/core/ui/Buttons/home}}

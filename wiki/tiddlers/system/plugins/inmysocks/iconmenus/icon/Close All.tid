@@ -1,0 +1,16 @@
+caption: Close All
+created: 20150121173410074
+creator: inmysocks
+left_menu_order: 15
+modified: 20180821230919185
+modifier: Charles Delbé
+order: 11
+right_menu_order: 4
+tags: [[Menu Icon]] [[Icon Menus]]
+title: $:/plugins/inmysocks/iconmenus/icon/Close All
+top_left_menu_order: 0
+top_middle_menu_order: 0
+top_right_menu_order: 0
+type: text/vnd.tiddlywiki
+
+{{$:/core/ui/Buttons/close-all}}

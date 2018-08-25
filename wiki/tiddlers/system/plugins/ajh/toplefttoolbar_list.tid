@@ -1,0 +1,9 @@
+created: 20180806153122277
+creator: Charles Delbé
+list: $:/core/ui/Buttons/home $:/core/ui/Buttons/close-all $:/core/ui/Buttons/fold-all $:/core/ui/Buttons/new-tiddler $:/core/ui/Buttons/more-page-actions
+modified: 20180806153339866
+modifier: Charles Delbé
+revision: 0
+title: $:/plugins/ajh/toplefttoolbar/list
+type: text/vnd.tiddlywiki
+

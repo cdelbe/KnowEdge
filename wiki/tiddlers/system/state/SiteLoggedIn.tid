@@ -1,0 +1,10 @@
+created: 20180806132434373
+creator: Charles Delbé
+modified: 20180806135804956
+modifier: Charles Delbé
+revision: 0
+tags: 
+title: $:/SiteLoggedIn
+type: text/vnd.tiddlywiki
+
+<span title="Home" style="font-weight: bold;">Authentifié en tant que <$view tiddler="$:/status/UserName"> @@color:red; ''Anonyme'' @@ </$view></span>

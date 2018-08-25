@@ -1,0 +1,8 @@
+created: 20180821201349007
+creator: Charles Delbé
+list: $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/cancel-and-close $:/core/ui/Buttons/save-open $:/core/ui/Buttons/save $:/core/ui/Buttons/save-and-close
+modified: 20180821201409185
+modifier: Charles Delbé
+title: $:/tags/EditToolbar
+type: text/vnd.tiddlywiki
+

@@ -1,0 +1,9 @@
+created: 20150211102203059
+creator: Alberto Molina Pérez
+modified: 20180820022942478
+modifier: Charles Delbé
+tags: $:/plugins/amp/MagicTabs/common
+title: $:/plugins/amp/MagicTabs/images/help
+type: text/vnd.tiddlywiki
+
+<<mt-image "fa-life-ring" "help" "Help">>

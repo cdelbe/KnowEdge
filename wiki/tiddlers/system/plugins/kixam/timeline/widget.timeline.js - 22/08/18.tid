@@ -1,0 +1,14 @@
+created: 20180822044904738
+creator: Charles Delbé
+datetime: 180822064904
+description: 
+modified: 20180822045014019
+modifier: Charles Delbé
+mt-topics.list: [[$:/plugins/kixam/timeline/widget.timeline.js]]
+tags: .TODO $:/type/journal
+tasks: 
+title: $:/plugins/kixam/timeline/widget.timeline.js - 22/08/18
+type: text/vnd.tiddlywiki
+
+Gestion de l'icone des objets coupée :
+Rechercher "return "";"

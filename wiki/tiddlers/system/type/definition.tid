@@ -1,0 +1,15 @@
+caption: definition
+created: 20150125150841844
+creator: Alberto Molina Pérez
+icon: images/definition
+modified: 20180825005435282
+modifier: Charles Delbé
+mt-dashboard.heading: Definition
+mt-dashboard.icon: images/definition
+mt-source.type: $:/type/knowledge
+mt-template.fields: $:/plugins/amp/MagicTabs/templates/types/definition
+mt-template.form: 
+tags: MagicTabs $:/plugins/amp/MagicTabs/common
+title: $:/type/definition
+type: text/vnd.tiddlywiki
+

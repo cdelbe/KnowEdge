@@ -1,0 +1,16 @@
+created: 20141122104624235
+creator: Alberto Molina Pérez
+modified: 20180820023049773
+modifier: Charles Delbé
+tags: $:/tags/Macro $:/plugins/amp/MagicTabs/common
+title: $:/plugins/amp/MagicTabs/macros/mt-clear-field
+type: text/vnd.tiddlywiki
+
+\define mt-clear-field(tiddler, field, state)
+<$button set="$state$" setTo="" class="tc-btn-invisible">
+    <$action-setfield $tiddler="$tiddler$" $field$=""/>
+    {{$:/core/images/close-button}}
+</$button>
+\end
+
+<<mt-clear-field>>

@@ -1,0 +1,11 @@
+created: 20131223104948433
+creator: Stephan Hradek
+description: Will display a tiddler's code.
+modified: 20180824235500279
+modifier: Charles Delbé
+tags: <!-- template -->
+title: code
+tmap.id: 2a73ad39-6236-4cf7-8af3-805795bae662
+type: text/vnd.tiddlywiki
+
+<pre><$view field="text"/></pre>

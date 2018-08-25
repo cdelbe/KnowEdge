@@ -1,0 +1,8 @@
+created: 20180809195429277
+creator: Charles Delbé
+filter:  [field:tmap.id[064364cf-0129-49d3-ba1d-34843e74c650]] [field:tmap.id[fee696a1-8b60-4144-b2ad-1cb8cad48f2b]]
+modified: 20180809195429277
+modifier: Charles Delbé
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Default/filter/nodes
+type: text/vnd.tiddlywiki
+

@@ -1,0 +1,16 @@
+caption: Import
+created: 20150121173313491
+creator: inmysocks
+left_menu_order: 13
+modified: 20180821195510122
+modifier: Charles Delbé
+order: 4
+right_menu_order: 7
+tags: [[Menu Icon]] [[Icon Menus]] $:/tags/LeftMenu
+title: $:/plugins/inmysocks/iconmenus/icon/Import
+top_left_menu_order: 0
+top_middle_menu_order: 0
+top_right_menu_order: 0
+type: text/vnd.tiddlywiki
+
+{{$:/core/ui/Buttons/import}}

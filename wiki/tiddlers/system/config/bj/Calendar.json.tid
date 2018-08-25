@@ -1,0 +1,40 @@
+created: 20180807053846575
+creator: Charles Delbé
+modified: 20180807053846575
+modifier: Charles Delbé
+module-type: library
+revision: 0
+title: $:/config/bj/Calendar.json
+type: application/json
+
+
+{
+	"journals":{
+		"lastDayOfWeek":"0",
+		"formatter":"$:/macros/bj/Calendar/journalfmt.js",
+		"titlebold":"no",
+		"highlightThisDay":"no",
+		"highlightThisDate":"yes"
+	},
+	"default":{
+		"lastDayOfWeek":"0",
+		"formatter":"$:/macros/bj/Calendar/journalslinked.js",
+		"titlebold":"yes",
+		"highlightThisDay":"no",
+		"highlightLinks":"yes"
+	},
+	"diary":{
+		"lastDayOfWeek":"0",
+		"formatter":"$:/macros/bj/Calendar/diary.js",
+		"titlebold":"yes",
+		"highlightThisDay":"no",
+		"highlightLinks":"yes"
+	},
+	"plain":{
+		"lastDayOfWeek":"0",
+		"formatter":"",
+		"titlebold":"yes",
+		"highlightThisDay":"yes",
+		"highlightThisDate":"no"
+	}
+}

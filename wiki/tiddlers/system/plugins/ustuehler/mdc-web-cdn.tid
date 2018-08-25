@@ -1,0 +1,47 @@
+author: Uwe Stuehler
+core-version: >=5.1.14
+created: 20180805134004178
+creator: Charles Delbé
+dependents: 
+description: MDC-Web assets (fonts, styles and scripts over CDN)
+list: readme changelog license
+modified: 20180805134004178
+modifier: Charles Delbé
+plugin-type: plugin
+revision: 0
+title: $:/plugins/ustuehler/mdc-web-cdn
+type: application/json
+version: 0.2.0
+
+{
+    "tiddlers": {
+        "$:/plugins/ustuehler/mdc-web-cdn/changelog": {
+            "title": "$:/plugins/ustuehler/mdc-web-cdn/changelog",
+            "caption": "MDC-Web CDN Plugin",
+            "created": "20171025214813867",
+            "modified": "20171103054326241",
+            "tags": "",
+            "type": "text/vnd.tiddlywiki",
+            "text": "<$list filter=\"[prefix[mdc-web-cdn/v]!sort[released]limit[1]]\">\n  <$macrocall $name=\"tabs\" tabsList=\"[prefix[mdc-web-cdn/v]!sort[released]]\" default={{!!title}} class=\"tc-vertical\" template=\"ReleaseTemplate\" />\n</$list>"
+        },
+        "$:/plugins/ustuehler/mdc-web-cdn/readme": {
+            "title": "$:/plugins/ustuehler/mdc-web-cdn/readme",
+            "text": "This plugin provides the latest version of the [[MDC-Web|https://github.com/material-components/material-components-web]] fonts, styles and scripts over CDN. However, this means that your TiddlyWiki will no longer be fully self-contained.\n\n[[Source code|https://github.com/ustuehler/tw5-material/blob/master/src/plugins/ustuehler/mdc-web-cdn]]"
+        },
+        "$:/plugins/ustuehler/mdc-web/templates/tiddlywiki5.html": {
+            "title": "$:/plugins/ustuehler/mdc-web/templates/tiddlywiki5.html",
+            "tags": "$:/tags/RawMarkup",
+            "text": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Roboto+Mono\">\n<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Roboto:300,400,500\">\n<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/icon?family=Material+Icons\">\n<link rel=\"stylesheet\" href=\"https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css\">\n\n<script type=\"text/javascript\" src=\"https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js\"></script>\n<script>\nconsole.debug('Registering window.onload handler');\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n  console.debug('Calling $tw.utils.mdcAutoInit()');\n  $tw.utils.mdcAutoInit();\n});\n</script>"
+        },
+        "$:/plugins/ustuehler/mdc-web-cdn/usage": {
+            "title": "$:/plugins/ustuehler/mdc-web-cdn/usage",
+            "text": "```\n<!-- Flat Button -->\n<button class=\"mdc-button>Click Me</button>\n\n<!-- Raised Button -->\n<button class=\"mdc-button mdc-button--raised\">Click Me</button>\n```\n\n<button class=\"mdc-button\">Click Me</button>\n\n<button class=\"mdc-button mdc-button--raised\">Click Me</button>\n\nSee http://material-components-web.appspot.com for more examples.\n"
+        },
+        "$:/plugins/ustuehler/mdc-web/utils.js": {
+            "title": "$:/plugins/ustuehler/mdc-web/utils.js",
+            "text": "/*\\\ntitle: $:/plugins/ustuehler/mdc-web/utils.js\ntype: application/javascript\nmodule-type: utils\n\nUtility functions for MDC-Web usage in TiddlyWiki\n\n\\*/\n(function() {\n\n/*jslint node: true, browser: true */\n/*global $tw: false */\n'use strict';\n\nif (typeof document !== 'undefined') {\n\nfunction mdcAutoInit() {\n  // Use global mdc object.\n  var mdc = window.mdc;\n\n  if (mdc) {\n    console.debug(\"Calling mdc.autoInit()\");\n    mdc.autoInit();\n  } else {\n    console.debug(\"Waiting for window.mdc!=null\");\n    setTimeout(mdcAutoInit, 10);\n    return;\n  }\n};\n\nexports.mdcAutoInit = mdcAutoInit;\n\n}\n\n}());\n",
+            "type": "application/javascript",
+            "module-type": "utils"
+        }
+    }
+}

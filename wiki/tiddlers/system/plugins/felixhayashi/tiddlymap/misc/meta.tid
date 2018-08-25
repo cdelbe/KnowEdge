@@ -1,0 +1,12 @@
+created: 20180809025336724
+creator: Charles Delbé
+modified: 20180809195409812
+modifier: Charles Delbé
+title: $:/plugins/felixhayashi/tiddlymap/misc/meta
+type: application/json
+
+{
+    "originalVersion": "0.13.4+9665",
+    "dataStructureState": "0.11.0",
+    "showWelcomeMessage": false
+}

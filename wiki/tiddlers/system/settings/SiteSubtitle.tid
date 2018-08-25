@@ -1,0 +1,8 @@
+created: 20180728202658570
+creator: Charles Delbé
+modified: 20180825013801093
+modifier: Charles Delbé
+title: $:/SiteSubtitle
+type: text/vnd.tiddlywiki
+
+<span style="font-weight: 400; font-size: 1em">Base de connaissances sur les EdTechs (v.1.0b)</span>- Bienvenue, <$link to="$:/status/UserName"><b><$view tiddler="$:/status/UserName"></$link> @@color: red; ''Anonyme'' @@ </$view></b>.

@@ -1,0 +1,19 @@
+caption: {{$:/plugins/tongerner/toolbar/images/rename-tags}} rename tags
+created: 20150730073458066
+creator: TonGerner
+description: Rename tags
+left_menu_order: 20
+modified: 20180821231445570
+modifier: Charles Delbé
+tags: [[Menu Icon]] $:/tags/TopLeftBar
+title: $:/plugins/tongerner/toolbar/buttons/rename-tags
+type: text/vnd.tiddlywiki
+
+<$button to="$:/plugins/tongerner/toolbar/rename-tags" tooltip="Rename tags" class=<<tv-config-toolbar-class>>>
+<$list filter="[<tv-config-toolbar-icons>prefix[yes]]">
+{{$:/plugins/tongerner/toolbar/images/rename-tags}}
+</$list>
+<$list filter="[<tv-config-toolbar-text>prefix[yes]]">
+<$text text="rename tags"/>
+</$list>
+</$button>

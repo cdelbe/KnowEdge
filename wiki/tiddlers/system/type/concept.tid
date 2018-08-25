@@ -1,0 +1,15 @@
+caption: concept
+color: #210cde
+created: 20150202184217826
+creator: Alberto Molina Pérez
+modified: 20180825005014773
+modifier: Charles Delbé
+mt-dashboard.heading: Concepts
+mt-dashboard.icon: $:/plugins/amp/MagicTabs/images/concept
+mt-source.type: $:/type/knowledge
+mt-template.fields: $:/plugins/amp/MagicTabs/templates/types/concept
+mt-template.form: 
+tags: $:/plugins/amp/MagicTabs/philosophy
+title: $:/type/concept
+type: text/vnd.tiddlywiki
+

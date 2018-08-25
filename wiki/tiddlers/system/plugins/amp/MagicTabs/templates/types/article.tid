@@ -1,0 +1,13 @@
+color: #8080ff
+created: 20150203004946334
+creator: Charles Delbé
+icon: 
+modified: 20180822060748087
+modifier: Charles Delbé
+mt-publication.issue: 
+mt-publication.journal: 
+mt-publication.volume: 
+tags: $:/type/article $:/type/publication
+title: $:/plugins/amp/MagicTabs/templates/types/article
+type: text/vnd.tiddlywiki
+

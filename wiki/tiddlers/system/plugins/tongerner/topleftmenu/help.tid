@@ -1,0 +1,30 @@
+created: 20170615115727675
+creator: TonGerner
+modified: 20180805131914711
+modifier: Charles Delbé
+revision: 0
+tags: 
+title: $:/plugins/tongerner/topleftmenu/help
+type: application/x-tiddler
+
+\define source(tiddler)
+<pre><$view tiddler="$tiddler$" format="text"/></pre>
+\end
+
+The [[top menu|$:/plugins/tongerner/topleftmenu/topmenu]] needs to be populated with tag based entries. The [[top menu|$:/plugins/tongerner/topleftmenu/topmenu]] contains:
+
+<<source $:/plugins/tongerner/topleftmenu/topmenu>>
+
+Menu entries need to te tagged with `tagpill1`, `tagpill2`, ...
+
+<<<
+''Note:''<br>The order of the top menu entries can be changed by drag & drop.
+<<<
+
+The [[Left menu|$:/plugins/tongerner/topleftmenu/leftmenu/entries]] needs to be populated with menu entries (based on links, tags, tagpills, sliders, TOC macro, ...). The [[Left menu|$:/plugins/tongerner/topleftmenu/leftmenu/entries]] contains:
+
+<<source $:/plugins/tongerner/topleftmenu/leftmenu/entries>>
+
+<<<
+''Note:''<br>The order of the tagpill based left menu entries can be changed by drag & drop.
+<<<

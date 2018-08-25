@@ -1,0 +1,22 @@
+created: 20141206113525643
+creator: Alberto Molina Pérez
+modified: 20180820022848100
+modifier: Charles Delbé
+subtitle: External image
+tags: $:/action/hide/tabs $:/action/hide/tags $:/plugins/amp/MagicTabs/common
+title: $:/plugins/amp/MagicTabs/forms/input/image
+type: text/vnd.tiddlywiki
+
+<$tiddler tiddler="$:/temp/$:/type/image">
+
+|invisible|k
+|Address:|<|
+|<$edit-text field="_canonical_uri" placeholder="paste or write here the address of the image" tag="input" class="tc-edit-texteditor" size="60"/>| <<clear "$:/temp/$:/type/image" "_canonical_uri">> |
+
+|invisible|k
+|{{||$:/core/ui/EditTemplate/type}} |
+
+|invisible|k
+| <$image source="$:/temp/$:/type/image" height="300"/> |
+
+</$tiddler>

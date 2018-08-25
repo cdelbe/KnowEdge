@@ -1,0 +1,24 @@
+created: 20180630142117794
+creator: zemoxian
+modified: 20180821172441599
+modifier: Charles Delbé
+tags: Demo
+title: System Tag Cloud
+tmap.id: e6b834d4-fa63-42ad-9f50-ef5fac265a7a
+type: text/vnd.tiddlywiki
+
+\define link() @@font-size: calc(8px + $(count)$px); <$link><$text text=<<title>> /></$link>@@
+
+@@text-align: center;
+<$list filter="[tags[]prefix[$:/tags/]]">
+<$vars
+    title={{{ [all[current]removeprefix[$:/tags/]] }}}
+    count=
+{{{ [all[current]tagging[]count[]] }}}
+>
+<<link>>
+</$vars>
+</$list>
+@@
+
+[[Tag Cloud]]

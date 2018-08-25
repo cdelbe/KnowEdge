@@ -1,0 +1,17 @@
+caption: Idea
+color: #ffa500
+created: 20141231095139943
+creator: Alberto Molina Pérez
+icon: $:/plugins/amp/MagicTabs/images/idea
+list: 
+modified: 20180825004904592
+modifier: Charles Delbé
+mt-dashboard.heading: Ideas
+mt-dashboard.icon: $:/plugins/amp/MagicTabs/images/idea
+mt-source.type: $:/type/note
+mt-template.fields: $:/plugins/amp/MagicTabs/templates/types/idea
+mt-template.form: 
+tags: $:/plugins/amp/MagicTabs/common
+title: $:/type/idea
+type: text/vnd.tiddlywiki
+

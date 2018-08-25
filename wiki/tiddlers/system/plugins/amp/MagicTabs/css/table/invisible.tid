@@ -1,0 +1,27 @@
+created: 20150128211934202
+creator: Alberto Molina Pérez
+modified: 20180820022929694
+modifier: Charles Delbé
+tags: $:/tags/Stylesheet $:/plugins/amp/MagicTabs/common
+title: $:/plugins/amp/MagicTabs/css/table/invisible
+type: text/vnd.tiddlywiki
+
+html body.tc-body .invisible {
+     border-color:#fff;
+     border-width:0px
+}
+
+html body.tc-body .invisible th {
+     border-color:#fff;
+     border-width:0px;
+}
+
+html body.tc-body .invisible tr {
+     border-color:#fff;
+     border-width:0px;
+}
+
+html body.tc-body .invisible td {
+     border-color:#fff;
+     border-width:0px;
+}

@@ -1,0 +1,9 @@
+created: 20141210122006626
+creator: Alberto Molina Pérez
+modified: 20180820022916217
+modifier: Charles Delbé
+tags: $:/plugins/amp/MagicTabs/common
+title: $:/plugins/amp/MagicTabs/images/search
+type: text/vnd.tiddlywiki
+
+<<mt-image "fa-search" "search" "Search">>

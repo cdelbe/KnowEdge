@@ -1,0 +1,9 @@
+created: 20141125085514841
+creator: Alberto Molina Pérez
+modified: 20180820022859101
+modifier: Charles Delbé
+tags: $:/plugins/amp/MagicTabs/common
+title: $:/plugins/amp/MagicTabs/images/history
+type: text/vnd.tiddlywiki
+
+<<mt-image "fa-history" "history" "Journal">>

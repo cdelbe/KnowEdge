@@ -1,0 +1,23 @@
+author: JeremyRuston
+core-version: >=5.0.0
+created: 20180812022300820
+creator: Charles Delbé
+dependents: $:/themes/tiddlywiki/centralised
+description: Hides the normal user interface, presentational
+modified: 20180812022300820
+modifier: Charles Delbé
+name: Hide Furniture
+plugin-type: theme
+title: $:/themes/tiddlywiki/hidefurniture
+type: application/json
+version: 5.1.18-prerelease
+
+{
+    "tiddlers": {
+        "$:/themes/tiddlywiki/hidefurniture/base": {
+            "title": "$:/themes/tiddlywiki/hidefurniture/base",
+            "tags": "[[$:/tags/Stylesheet]]",
+            "text": "\\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline\n\nhtml body .tc-tiddler-frame {\n\tbackground-color: inherit;\n\tborder: none;\n\t<<box-shadow \"none\">>\n}\n\nhtml body .tc-tiddler-title {\n\tbackground-color: inherit;\n}\n\nhtml body .tc-story-river {\n\tmargin-top: 70px;\n}\n\nhtml body .tc-tiddler-frame .tc-tiddler-title {\n\tfont-size: 24px;\n\tline-height: 28px;\n}\n\nhtml body .tc-tiddler-frame .tc-tags-wrapper { \n\tfont-size: 18px;\n\tline-height: 22px;\n}\n\nhtml body .tc-tiddler-frame .tc-tiddler-body {\n\tfont-size: 20px;\n\tline-height: 32px;\n}\n\nhtml body .tc-titlebar {\n\tposition: relative;\n}\n\nhtml body .tc-edit-texteditor {\n\tfont-family: monospace;\n}\n"
+        }
+    }
+}

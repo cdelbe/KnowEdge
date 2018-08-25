@@ -1,0 +1,11 @@
+created: 20180730151251607
+creator: Charles Delbé
+modified: 20180821230416558
+modifier: Charles Delbé
+story-name: startup1
+title: $:/_snapshots
+type: application/json
+
+{
+    "startup1": "Accueil $:/type/publication [[Gestionnaire d'objets]] [[Binger (2017): “What Does Knowing Something Tell Us About Knowing a Related Concept?”]] [[Beddingfield (2017): “So what is mastery, exactly?”]] $:/plugins/amp/MagicTabs/tabs/publications $:/type/idea [[Adaptive Learning]] $:/type/topic"
+}

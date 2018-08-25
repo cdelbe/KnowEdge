@@ -1,0 +1,25 @@
+author: JeremyRuston
+core-version: >=5.0.0
+dependents: 
+description: NW.js saver
+list: readme
+plugin-type: plugin
+revision: 0
+title: $:/plugins/tiddlywiki/nodewebkitsaver
+type: application/json
+version: 5.1.18-prerelease
+
+{
+    "tiddlers": {
+        "$:/core/modules/savers/nodewebkit.js": {
+            "title": "$:/core/modules/savers/nodewebkit.js",
+            "text": "/*\\\r\ntitle: $:/core/modules/savers/nodewebkit.js\r\ntype: application/javascript\r\nmodule-type: saver\r\n\r\nHandles saving changes in the NW.js environment. Not required by TiddlyDesktop, which re-uses the TiddlyFox saver, but useful if you're embedding a single TiddlyWiki document into a NW.js app.\r\n\r\n\\*/\r\n(function(){\r\n\r\n/*jslint node: true, browser: true */\r\n/*global $tw: false, netscape: false, Components: false */\r\n\"use strict\";\r\n\r\nvar NodeWebKitSaver = function(wiki) {\r\n};\r\n\r\nNodeWebKitSaver.prototype.save = function(text,method,callback) {\r\n\t// Bail out unless this is a save (rather than a download)\r\n\tif(method !== \"save\") {\r\n\t\treturn false;\r\n\t}\r\n\t// Get the pathname of this document\r\n\tvar pathname = document.location.pathname;\r\n\t// Test for a Windows path of the form /x:/blah/blah\r\n\tif(/^\\/[A-Z]\\:\\//i.test(pathname)) {\r\n\t\t// Remove the leading slash\r\n\t\tpathname = pathname.substr(1);\r\n\t\t// Convert slashes to backslashes\r\n\t\tpathname = pathname.replace(/\\//g,\"\\\\\");\r\n\t}\r\n\t// Try to save\r\n\tvar fs = require(\"fs\");\r\n\tfs.writeFile(pathname,text,callback);\r\n\treturn true;\r\n};\r\n\r\n/*\r\nInformation about this saver\r\n*/\r\nNodeWebKitSaver.prototype.info = {\r\n\tname: \"nodewebkit\",\r\n\tpriority: 1700\r\n};\r\n\r\n/*\r\nStatic method that returns true if this saver is capable of working\r\n*/\r\nexports.canSave = function(wiki) {\r\n\t// Check if we're running under node-webkit\r\n\treturn (typeof process == \"object\");\r\n};\r\n\r\n/*\r\nCreate an instance of this saver\r\n*/\r\nexports.create = function(wiki) {\r\n\treturn new NodeWebKitSaver(wiki);\r\n};\r\n\r\n})();\r\n",
+            "type": "application/javascript",
+            "module-type": "saver"
+        },
+        "$:/plugins/tiddlywiki/nodewebkitsaver/readme": {
+            "title": "$:/plugins/tiddlywiki/nodewebkitsaver/readme",
+            "text": "This plugin provides a ''saver'' module for saving changes when using TiddlyWiki directly under NW.js (previously known as node-webkit).\n\n[[Source code|https://github.com/Jermolene/TiddlyWiki5/blob/master/plugins/tiddlywiki/nodewebkitsaver]]\r\n"
+        }
+    }
+}

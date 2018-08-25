@@ -1,0 +1,30 @@
+caption: Change Log
+created: 20180731012739335
+creator: Charles Delbé
+modified: 20180820083739337
+modifier: Charles Delbé
+num_recent: 10
+title: ChangeLog
+tmap.id: 6d308204-1293-42ab-a65c-f82e349a9c04
+type: text/vnd.tiddlywiki
+
+!!Tiddlers récemment modifiés
+---
+Afficher les <$select field='num_recent'>
+	<$list filter="10 20 30 40 50">
+		<option><<currentTiddler>></option>
+	</$list>
+</$select> derniers Tiddlers modifiés :
+<br/><br/>
+<$list filter='[!is[system]!has[draft.of]has[modified]!sort[modified]limit{!!num_recent}]-[ChangeLog]'>
+	<$link to=<<currentTiddler>>>   » <$view field='title'/></$link> - Modifié le <$view field="modified" format="date" template="DD MMM YYYY à 0hh:0mm"/><br>
+</$list>
+
+!!Description des modifications
+---
+<ul>
+	<$list filter='[tag[Changes]!sort[created]]'>
+		<li><$link to=<<currentTiddler>>><$view field='title'/></$link></li>
+	</$list>
+</ul>
+ 

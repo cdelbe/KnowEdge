@@ -1,0 +1,28 @@
+caption: Plugins
+created: 20150122145739025
+creator: Alberto Molina Pérez
+modified: 20180820022919671
+modifier: Charles Delbé
+tags: $:/tags/MagicTabs/config $:/plugins/amp/MagicTabs/common
+title: $:/plugins/amp/MagicTabs/config/plugins
+type: text/vnd.tiddlywiki
+
+<$set name="plugins" filter=>
+<table>
+<tr>
+<th colspan="3" style="text-align:left; height:2em;">Plugins installed</th>
+</tr>
+<tr style="text-align:left; height:2em;">
+<td>Name</td>
+<td>Version</td>
+<td>Description</td>
+</tr>
+<$list filter="[type[application/json]prefix[$:/plugins/amp/MagicTabs]]">
+<tr>
+<td><$link to={{!!title}}><$view field="caption"/></$link></td>
+<td><$view field="version"/></td>
+<td><$view field="description"/></td>
+</tr>
+</$list>
+</table>
+</$set>

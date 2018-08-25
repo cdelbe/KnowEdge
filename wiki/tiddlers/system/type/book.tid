@@ -1,0 +1,18 @@
+caption: Book
+color: #8080ff
+created: 20150125150841844
+creator: Alberto Molina Pérez
+icon: $:/plugins/amp/MagicTabs/images/book
+list: 
+modified: 20180825031146796
+modifier: Charles Delbé
+mt-dashboard.add.content: $:/plugins/amp/MagicTabs/new/book
+mt-dashboard.heading: Books
+mt-dashboard.icon: $:/plugins/amp/MagicTabs/images/book
+mt-source.type: $:/type/publication
+mt-template.fields: $:/plugins/amp/MagicTabs/templates/types/book
+mt-template.form: $:/plugins/amp/MagicTabs/new/book
+tags: $:/plugins/amp/MagicTabs/reading
+title: $:/type/book
+type: text/vnd.tiddlywiki
+

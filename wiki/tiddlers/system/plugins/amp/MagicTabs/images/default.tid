@@ -1,0 +1,9 @@
+created: 20150107124020856
+creator: Alberto Molina Pérez
+modified: 20180820022920855
+modifier: Charles Delbé
+tags: $:/plugins/amp/MagicTabs/common
+title: $:/plugins/amp/MagicTabs/images/default
+type: text/vnd.tiddlywiki
+
+<<mt-image "fa-fire" "default" "Default">>

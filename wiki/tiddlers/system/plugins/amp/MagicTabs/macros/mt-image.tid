@@ -1,0 +1,21 @@
+created: 20150208013147529
+creator: Alberto Molina Pérez
+modified: 20180820022942761
+modifier: Charles Delbé
+tags: $:/tags/Macro $:/plugins/amp/MagicTabs/common
+title: $:/plugins/amp/MagicTabs/macros/mt-image
+type: text/vnd.tiddlywiki
+
+\define mt-image(fa-name,image-name,label)
+<$reveal state="$:/_images/$image-name$!!modified" type="nomatch" text="">
+    {{$:/_images/$image-name$}}
+</$reveal>
+<$reveal state="$:/_images/$image-name$!!modified" type="match" text="">
+    <$reveal state="$:/plugins/TheDiveO/FontAwesome!!version" type="nomatch" text="">
+        <i class="fa $fa-name$"></i>
+    </$reveal>
+    <$reveal state="$:/plugins/TheDiveO/FontAwesome!!version" type="match" text="">
+        $label$
+    </$reveal>
+</$reveal>
+\end

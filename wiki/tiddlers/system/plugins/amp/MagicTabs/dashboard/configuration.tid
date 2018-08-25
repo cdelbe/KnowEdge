@@ -1,0 +1,13 @@
+caption: ~MagicTabs
+created: 20150106011214786
+creator: Alberto Molina Pérez
+icon: $:/plugins/amp/MagicTabs/images/config
+modified: 20180820022922751
+modifier: Charles Delbé
+mt-dashboard.heading: Configuration
+mt-dashboard.icon: $:/plugins/amp/MagicTabs/images/config
+tags: $:/plugins/amp/MagicTabs/common $:/tags/ControlPanel
+title: $:/plugins/amp/MagicTabs/dashboard/configuration
+type: text/vnd.tiddlywiki
+
+<<tabs "$:/plugins/amp/MagicTabs/config/plugins $:/plugins/amp/MagicTabs/config/TypeManager $:/plugins/amp/MagicTabs/config/TabManager $:/plugins/amp/MagicTabs/config/appearance" "$:/plugins/amp/MagicTabs/config/plugins">>

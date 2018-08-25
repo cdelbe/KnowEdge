@@ -1,0 +1,9 @@
+created: 20141108172611187
+creator: Alberto Molina Pérez
+modified: 20180821211129215
+modifier: Charles Delbé
+tags: $:/plugins/amp/MagicTabs/common
+title: $:/plugins/amp/MagicTabs/images/info
+type: text/vnd.tiddlywiki
+
+<<mt-image "fa-info-circle" "info" "Info">>

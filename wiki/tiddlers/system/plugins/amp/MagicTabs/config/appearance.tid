@@ -1,0 +1,13 @@
+caption: ~MagicTabs tweaks
+created: 20141123140253665
+creator: Alberto Molina Pérez
+dependencies: $:/plugins/amp/MagicTabs/config/MagicTabs
+modified: 20180820022901285
+modifier: Charles Delbé
+tags: $:/tags/ControlPanel/Appearance $:/tags/MagicTabs/config $:/plugins/amp/MagicTabs/common
+title: $:/plugins/amp/MagicTabs/config/appearance
+type: text/vnd.tiddlywiki
+
+!!~MagicTabs tweaks
+
+<<tabs "[all[tiddlers+shadows]tag[$:/tags/config]tag[MagicTabs]]" "$:/plugins/amp/MagicTabs/config/MagicTabs" class:"tc-vertical">>

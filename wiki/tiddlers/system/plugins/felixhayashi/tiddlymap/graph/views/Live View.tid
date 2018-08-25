@@ -1,0 +1,13 @@
+config.central-topic: 2e340bf7-4cb4-4eef-83a4-bb68b11494c0
+config.neighbourhood_scope: 1
+config.physics_mode: true
+config.refresh-triggers: $:/temp/tmap/currentTiddler
+config.vis: {"physics":{"forceAtlas2Based":{"springLength":0,"springConstant":0.09}}}
+created: 20180809025343597
+creator: Charles Delbé
+isview: true
+modified: 20180822015959713
+modifier: Charles Delbé
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Live View
+type: text/vnd.tiddlywiki
+

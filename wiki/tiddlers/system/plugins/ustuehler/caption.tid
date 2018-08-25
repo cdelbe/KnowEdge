@@ -1,0 +1,47 @@
+author: Uwe Stuehler
+core-version: >=5.1.14
+created: 20180810233005713
+creator: Charles Delbé
+dependents: 
+description: Use caption as link text in WikiLinks
+list: readme usage macros license
+modified: 20180810233005713
+modifier: Charles Delbé
+plugin-type: plugin
+title: $:/plugins/ustuehler/caption
+type: application/json
+version: 0.3.0
+
+{
+    "tiddlers": {
+        "$:/plugins/ustuehler/caption/changelog": {
+            "title": "$:/plugins/ustuehler/caption/changelog",
+            "caption": "Caption Plugin",
+            "text": "Drag the icon into another ~TiddlyWiki to install this plugin.\n\n<$link to=\"$:/plugins/ustuehler/caption\"><<material-icon \"extension\">></$link>\n\n<$list filter=\"[prefix[caption/v]!sort[released]limit[1]]\">\n\n<$macrocall $name=\"tabs\" tabsList=\"[prefix[caption/v]!sort[released]]\" default={{!!title}} class=\"tc-vertical\" template=\"ReleaseTemplate\" />\n\n</$list>"
+        },
+        "$:/plugins/ustuehler/caption/license": {
+            "title": "$:/plugins/ustuehler/caption/license",
+            "text": "BSD"
+        },
+        "$:/plugins/ustuehler/caption/macros": {
+            "title": "$:/plugins/ustuehler/caption/macros",
+            "tags": "$:/tags/Macro",
+            "text": "\\define caption(variable:\"currentTiddler\")\n<$list variable=\"title\" filter=\"[<$variable$>]\">\n<$list variable=\"caption\" filter=\"[<$variable$>has[caption]get[caption]]\" emptyMessage=\"\"\"<$text text=<<title>>/>\"\"\">\n<$text text=<<caption>>/>\n</$list>\n</$list>\n\\end\n\\define captionLink(variable:\"currentTiddler\")\n<$list variable=\"to\" filter=\"[<$variable$>]\">\n<$link to=<<to>>><<caption variable:\"$variable$\">></$link>\n</$list>\n\\end\n\\define captionText(variable:\"currentTiddler\")\n<<caption variable:\"$variable$\">>\n\\end\n\n! Examples\n\n!! caption\n\n```\n//''<<caption>>''//\n```\n\nRenders as: //''<<caption>>''//\n\n!! captionLink\n\n```\n<<captionLink>>\n```\n\nRenders as: <<captionLink>>\n\n```\n<$set name=\"v\" value=\"UseCaseTemplate\">>\n<<captionLink variable:\"v\">>\n</$set>\n```\n\nRenders as:\n<$set name=\"v\" value=\"UseCaseTemplate\">\n<<captionLink variable:\"v\">>\n</$set>\n\n!! captionText\n\n```\n<<captionText>>\n```\n\nRenders as: <<captionText>>\n\n''Note:'' ''captionText'' is an alias for ''caption'' and should render the same way."
+        },
+        "$:/plugins/ustuehler/caption/readme": {
+            "title": "$:/plugins/ustuehler/caption/readme",
+            "url": "https://ustuehler.github.io/tw5-plugin",
+            "text": "The latest version of this plugin can be obtained from {{$:/plugins/ustuehler/caption/readme!!url}}."
+        },
+        "$:/core/modules/parsers/wikiparser/rules/wikilink.js": {
+            "title": "$:/core/modules/parsers/wikiparser/rules/wikilink.js",
+            "text": "/*\\\ntitle: $:/core/modules/parsers/wikiparser/rules/wikilink.js\ntype: application/javascript\nmodule-type: wikirule\n\nWiki text inline rule for wiki links. For example:\n\n```\nAWikiLink\nAnotherLink\n~SuppressedLink\n```\n\nPrecede a camel case word with `~` to prevent it from being recognised as a link.\n\n\\*/\n(function(){\n\n/*jslint node: true, browser: true */\n/*global $tw: false */\n\"use strict\";\n\nexports.name = \"wikilink\";\nexports.types = {inline: true};\n\nexports.init = function(parser) {\n\tthis.parser = parser;\n\t// Regexp to match\n\tthis.matchRegExp = new RegExp($tw.config.textPrimitives.unWikiLink + \"?\" + $tw.config.textPrimitives.wikiLink,\"mg\");\n};\n\n/*\nParse the most recent match\n*/\nexports.parse = function() {\n\t// Get the details of the match\n\tvar linkText = this.match[0];\n  // Try to resolve the tiddler reference and read the caption or title field, in that order\n  var linkCaption = resolveCaption(linkText);\n\t// Move past the macro call\n\tthis.parser.pos = this.matchRegExp.lastIndex;\n\t// If the link starts with the unwikilink character then just output it as plain text\n\tif(linkText.substr(0,1) === $tw.config.textPrimitives.unWikiLink) {\n\t\treturn [{type: \"text\", text: linkText.substr(1)}];\n\t}\n\t// If the link has been preceded with a blocked letter then don't treat it as a link\n\tif(this.match.index > 0) {\n\t\tvar preRegExp = new RegExp($tw.config.textPrimitives.blockPrefixLetters,\"mg\");\n\t\tpreRegExp.lastIndex = this.match.index-1;\n\t\tvar preMatch = preRegExp.exec(this.parser.source);\n\t\tif(preMatch && preMatch.index === this.match.index-1) {\n\t\t\treturn [{type: \"text\", text: linkText}];\n\t\t}\n\t}\n\treturn [{\n\t\ttype: \"link\",\n\t\tattributes: {\n\t\t\tto: {type: \"string\", value: linkText}\n\t\t},\n\t\tchildren: [{\n\t\t\ttype: \"text\",\n\t\t\ttext: linkCaption\n\t\t}]\n\t}];\n};\n\n/*\n * Resolve the caption field of the given existing tiddler; otherwise, return\n * the title.\n */\nfunction resolveCaption(tiddlerTitle) {\n  var tiddler = $tw.wiki.getTiddler(tiddlerTitle);\n\n  if (tiddler && tiddler.fields && tiddler.fields.caption) {\n    return tiddler.fields.caption;\n  }\n\n  return tiddlerTitle;\n}\n\n})();\n",
+            "type": "application/javascript",
+            "module-type": "wikirule"
+        },
+        "$:/plugins/ustuehler/caption/usage": {
+            "title": "$:/plugins/ustuehler/caption/usage",
+            "text": "The plugin automatically replaces the link text of WikiTitle references with the target tiddler's caption, if it has one. This will only work for tiddlers which are initially loaded, not for lazy-loaded tiddlers.\n\nFor a more consistent approach, use [[macros|$:/plugins/ustuehler/caption/macros]]."
+        }
+    }
+}

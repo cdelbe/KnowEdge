@@ -1,0 +1,22 @@
+caption: <<mt-tab-caption>>
+color: #d3d3d3
+created: 20141122233839041
+creator: Alberto Molina Pérez
+description: Ideas
+icon: $:/plugins/amp/MagicTabs/images/idea
+modified: 20180821150310706
+modifier: Charles Delbé
+mt-contents.type: $:/type/idea
+mt-list.filter: 
+mt-list.filter_alt: 
+mt-list.heading: Ideas
+mt-list.heading_alt: Related
+mt-list.template: $:/plugins/amp/MagicTabs/templates/tabs/notes
+mt-list.template_alt: 
+tags: $:/type/tab $:/tabs/publication $:/plugins/amp/MagicTabs/common
+title: $:/plugins/amp/MagicTabs/tabs/ideas
+type: text/vnd.tiddlywiki
+
+<<mt-slider-input>>
+
+<<mt-tab-contents>>

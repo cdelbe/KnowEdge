@@ -1,0 +1,9 @@
+created: 20180824234254052
+creator: Charles Delbé
+modified: 20180824235140853
+modifier: Charles Delbé
+module-type: widget
+summary: modified by tobibeer to allow for iterators, see [[#1330|https://github.com/Jermolene/TiddlyWiki5/pull/1330]]
+tags: 
+title: $:/core/modules/widgets/list.js
+type: application/javascript

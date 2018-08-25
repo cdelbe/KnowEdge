@@ -1,0 +1,16 @@
+/*!
+Tobias Beer
+$:/.tb/demo/onhover-toolbar-styles
+http://tobibeer.github.io/tb5/
+ */
+
+.tiddler-datepicker {
+opacity: 0;
+transition: opacity .5s ease-in-out;
+}
+
+.tiddler-datepicker:hover {
+zoom: 1;
+filter: alpha(opacity=100);
+opacity: 1;
+}

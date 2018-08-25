@@ -1,0 +1,43 @@
+caption: Accueil
+created: 20180814195513883
+creator: Charles Delbé
+icon: images/home
+list: .TODO Event
+modified: 20180822053340550
+modifier: Charles Delbé
+num_recent: 20
+summary: Bienvenue sur le Wiki TW5 de l'équipe Recherche.
+title: Accueil
+tmap.id: 2e340bf7-4cb4-4eef-83a4-bb68b11494c0
+type: text/vnd.tiddlywiki
+url: https://sarlmaskott.sharepoint.com/sites/maskottrd
+
+<!-- Présentation --> 
+<!-- Main title -->
+<!-- 
+!.myTitle ''@@color:RGB(148,193,31); Maskott Research Team's Wiki@@ '' 
+-->
+<div style="font-size:0.85em;text-align:center;margin-top:0.5em;margin-bottom:1em;">
+<$button class="tc-btn-big-green">
+<$action-navigate $to="Gestionnaire d'objets"/>
+{{images/database}} Gestionnaire d'objets
+</$button>
+<$button class="tc-btn-big-green">
+<$action-navigate $to="$:/ControlPanel"/>
+{{$:/core/images/options-button}} Panneau de contrôle
+</$button>
+</div>
+
+<div style="font-size:0.7em;text-align:center;margin-top:0.5em;margin-bottom:1em;">  
+ <a href="https://tiddlywiki.com/languages/fr-FR/index.html" class="tc-btn-big-green" style="background-color:#FF8C19;" target="_blank" rel="noopener noreferrer">
+{{$:/core/images/help}} Site de ~TiddlyWiki.fr</a> 
+<a href="https://github.com/maskott-inc" class="tc-btn-big-green" style="background-color:#e52d27;" target="_blank" rel="noopener noreferrer"> 
+{{$:/core/images/github}} ~GitHub de l'équipe
+</a>
+<a href="https://teams.microsoft.com/" class="tc-btn-big-green" style="background-color:#5E9FCA;" target="_blank" rel="noopener noreferrer">
+{{images/ms-teams}} MS Teams de l'équipe
+</a>
+</div>
+ 
+<!-- Tabs -->
+<<tabs "SystemState Ontology Features Demo LastJournalEntries ChangeLog" "SystemState">>

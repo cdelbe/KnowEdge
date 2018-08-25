@@ -1,0 +1,47 @@
+.cit {
+display: block;
+font-family: Georgia, serif;
+font-size: 14px;
+font-style: normal;
+text-align: justify;
+margin: 2.25em 1em 2.25em 1em;
+padding: 0.25em 60px;
+line-height: 20px;
+position: relative;
+color: <<color foreground>>;
+-moz-border-radius: 10px;
+border-radius: 10px;
+background-color: #FFFFEE ;
+}
+
+.cit:before {
+display: block;
+content: "\201C";
+font-size: 80px;
+position: absolute;
+left: 20px;
+top: 25px;
+color: #7a7a7a;
+}
+
+.cit:after {
+display: block;
+content: "\201D";
+font-size: 80px;
+position: absolute;
+right: 20px;
+bottom: 0px;
+color: #7a7a7a;
+}
+
+.cit cite {
+color: #999999;
+font-size: 14px;
+display: block;
+margin-top: 15px;
+margin-bottom: 1em;
+}
+
+.cit cite:before {
+content: "\2014 \2009";
+}

@@ -1,0 +1,22 @@
+caption: Journal Article
+color: #8080ff
+created: 20150125150841844
+creator: Alberto Molina Pérez
+icon: images/article
+modified: 20180825004827575
+modifier: Charles Delbé
+mt-dashboard.add.content: $:/plugins/amp/MagicTabs/new/article
+mt-dashboard.heading: Journal Articles
+mt-dashboard.icon: images/article
+mt-source.type: $:/type/publication
+mt-template.fields: $:/plugins/amp/MagicTabs/templates/types/article
+mt-template.form: $:/plugins/amp/MagicTabs/new/article
+tags: $:/action/hide/tabs $:/plugins/amp/MagicTabs/reading $:/type/publication
+title: $:/type/article
+type: text/vnd.tiddlywiki
+
+<<tabs
+"[all[current]tagging[]]"
+default: "$:/type/article"
+state: "$:/state/tabs/xlist/publication"
+template:[[$:/.tb/templates/tab/xlist/publication]]>>

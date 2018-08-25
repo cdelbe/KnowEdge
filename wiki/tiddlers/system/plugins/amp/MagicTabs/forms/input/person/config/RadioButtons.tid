@@ -1,0 +1,24 @@
+created: 20141208202905627
+creator: Alberto Molina Pérez
+modified: 20180820022842091
+modifier: Charles Delbé
+tags: $:/tags/Macro $:/plugins/amp/MagicTabs/common
+title: $:/plugins/amp/MagicTabs/forms/input/person/config/RadioButtons
+type: text/vnd.tiddlywiki
+
+\define inputPersonRadioButtons()
+<$tiddler tiddler="$:/config/MagicTabs/person/title/$:/plugins/amp/MagicTabs">
+
+<$reveal state="$:/state/mt/input/person!!config" type="match" text="show">
+&nbsp;''Tiddler title:''<br>
+<span class="box">
+
+<$radio field="text" value="Name"> Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</$radio>
+<$radio field="text" value="Surname"> Surname&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</$radio>
+<$radio field="text" value="Both"> Both</$radio>
+</span>
+</$reveal>
+
+</$tiddler>
+\end
+<<inputPersonRadioButtons>>

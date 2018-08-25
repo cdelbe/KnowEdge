@@ -1,0 +1,15 @@
+color: #8080ff
+created: 20150215005821949
+creator: Charles Delbé
+icon: images/blogpost
+modified: 20180825025434598
+modifier: Charles Delbé
+mt-post.date: 
+mt-post.title: 
+mt-blog.title: 
+mt-source.authors.list: 
+tags: $:/type/publication $:/type/blogpost
+title: $:/templates/types/blogpost
+tmap.id: 717217fc-82b3-471b-ab6d-a378d231404f
+type: text/vnd.tiddlywiki
+

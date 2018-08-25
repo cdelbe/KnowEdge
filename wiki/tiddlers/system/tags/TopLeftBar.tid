@@ -1,0 +1,21 @@
+created: 20150810081323549
+creator: TonGerner
+list: $:/plugins/tongerner/toolbar/buttons/toggle-sidebar $:/plugins/tongerner/toolbar/buttons/home $:/plugins/tongerner/toolbar/buttons/save-wiki $:/plugins/tongerner/toolbar/buttons/search $:/plugins/tongerner/toolbar/buttons/advanced-search $:/plugins/tongerner/toolbar/buttons/full-screen $:/plugins/tongerner/toolbar/buttons/refresh $:/plugins/tongerner/toolbar/buttons/close-all $:/plugins/tongerner/toolbar/buttons/controlpanel $:/plugins/tongerner/toolbar/buttons/sidebar $:/plugins/tongerner/toolbar/buttons/import $:/plugins/tongerner/toolbar/buttons/export-page $:/plugins/tongerner/toolbar/buttons/tag-handling $:/plugins/tongerner/toolbar/buttons/list-all $:/plugins/tongerner/toolbar/buttons/list-recent $:/plugins/tongerner/toolbar/buttons/list-open-tiddlers $:/plugins/tongerner/toolbar/buttons/list-untagged-tiddlers $:/plugins/tongerner/toolbar/buttons/new-tiddler $:/plugins/tongerner/toolbar/buttons/new-journal $:/plugins/tongerner/toolbar/buttons/new-template-tiddler $:/plugins/tongerner/toolbar/buttons/palette $:/plugins/tongerner/toolbar/buttons/theme $:/plugins/tongerner/toolbar/buttons/storyview $:/plugins/tongerner/toolbar/buttons/toggle-sticky $:/plugins/tongerner/toolbar/buttons/toggle-editortoolbar $:/plugins/tongerner/toolbar/buttons/toggle-preview $:/plugins/tongerner/toolbar/buttons/fold-all $:/plugins/tongerner/toolbar/buttons/unfold-all $:/plugins/tongerner/toolbar/buttons/permaview $:/plugins/tongerner/toolbar/buttons/toggle-tagging $:/plugins/tongerner/toolbar/buttons/toggle-field-handling $:/plugins/tongerner/toolbar/buttons/tiddler-manager $:/plugins/tongerner/toolbar/buttons/rename-tags $:/plugins/tongerner/toolbar/buttons/corrupt-tiddler $:/plugins/tongerner/toolbar/buttons/search-delete-tiddlers $:/plugins/tongerner/toolbar/buttons/calendar $:/plugins/tongerner/toolbar/buttons/more-toolbar-actions $:/plugins/tongerner/topmenu/topmenu $:/tabs/theory
+modified: 20180806142842138
+modifier: Charles Delbé
+revision: 0
+title: $:/tags/TopLeftBar
+type: text/vnd.tiddlywiki
+
+The buttons in the toolbar can be switched on/off in ''~ControlPanel > Appearance > Toolbars > Top toolbar''. Drag and drop the buttons to change the ordering.
+
+Additional buttons can become available when my 'tiddlersbar' or 'tabstory' plugin is used:
+
+"""
+$:/plugins/tongerner/tiddlersbar/button
+$:/plugins/tongerner/tabstory/button
+"""
+
+<<<
+''Note:''<br>To let $:/plugins/tongerner/tiddlersbar/button and/or $:/plugins/tongerner/tabstory/button show up in in ''ControlPanel > Appearance > Toolbars > Top toolbar'', you need to add a tag $:/tags/TopLeftBar to these buttons!
+<<<

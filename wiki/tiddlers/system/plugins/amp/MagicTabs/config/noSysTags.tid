@@ -1,0 +1,17 @@
+caption: System tags
+created: 20141123122514969
+creator: Alberto Molina Pérez
+dependencies: $:/config/SystemTags/Visibility/$:/plugins/amp/MagicTabs/noSysTags $:/plugins/amp/MagicTabs/button/noSysTags
+modified: 20180825003851401
+modifier: Charles Delbé
+tags: MagicTabs $:/tags/ControlPanel/Appearance $:/tags/config $:/plugins/amp/MagicTabs/common
+title: $:/plugins/amp/MagicTabs/config/noSysTags
+type: text/vnd.tiddlywiki
+
+\define buttonState()
+<$reveal state="$:/config/SystemTags/Visibility/$:/plugins/amp/MagicTabs/noSysTags" type="match" text="show" default="hide">Hide</$reveal>
+<$reveal state="$:/config/SystemTags/Visibility/$:/plugins/amp/MagicTabs/noSysTags" type="match" text="hide" default="hide">Show</$reveal>
+\end
+
+<<buttonState>> the system tags (those starting with  `$:/`) from the regular tiddlers:
+{{$:/plugins/amp/MagicTabs/button/noSysTags}}

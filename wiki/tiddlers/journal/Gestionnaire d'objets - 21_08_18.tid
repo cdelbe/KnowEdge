@@ -1,0 +1,17 @@
+caption: [[Gestionnaire d'objets]]
+created: 20180821160235791
+creator: Charles Delbé
+datetime: 180821180235
+description: 
+modified: 20180822054551886
+modifier: Charles Delbé
+mt-topics.list: [[Gestionnaire d'objets]]
+tags: $:/type/journal
+tasks: 
+title: Gestionnaire d'objets - 21/08/18
+tmap.id: 88526ed6-669d-451f-9e0b-190d3557f7db
+type: text/vnd.tiddlywiki
+
+* Cacher le tiddler [[MagicTabs]] qui est appelé par défaut
+* Rendre la zone de recherche indépendante de la zone principale (droite)
+

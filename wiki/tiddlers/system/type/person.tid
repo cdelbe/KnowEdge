@@ -1,0 +1,17 @@
+caption: person
+color: #ff8383
+created: 20141230120636464
+creator: Alberto Molina Pérez
+icon: images/author
+modified: 20180822011747335
+modifier: Charles Delbé
+mt-dashboard.add.content: $:/plugins/amp/MagicTabs/new/person
+mt-dashboard.heading: People
+mt-dashboard.icon: images/author
+mt-source.type: $:/type/root
+mt-template.fields: $:/plugins/amp/MagicTabs/templates/types/person
+mt-template.form: $:/plugins/amp/MagicTabs/new/person
+tags: 
+title: $:/type/person
+type: text/vnd.tiddlywiki
+

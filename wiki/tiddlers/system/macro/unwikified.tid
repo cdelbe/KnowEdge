@@ -1,0 +1,10 @@
+created: 20140117101802794
+creator: Stephan Hradek
+modified: 20180825000115183
+modifier: Charles Delbé
+tags: template
+title: unwikified
+tmap.id: 3a1c28f7-3d6a-4fca-b179-548295717990
+type: text/vnd.tiddlywiki
+
+<$view field="title"/>

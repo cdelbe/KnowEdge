@@ -1,0 +1,195 @@
+author: TonGerner
+core-version: >=5.1.15
+created: 20161212133231948
+creator: Charles Delbé
+description: Layout tweaks
+list: readme license
+modified: 20180805131534257
+modifier: Charles Delbé
+name: Layout adjustment
+plugin-type: plugin
+revision: 0
+source: http://tongerner.tiddlyspot.com/
+title: $:/plugins/tongerner/layout_adjustment
+type: application/json
+version: 0.4.1
+
+{
+    "tiddlers": {
+        "$:/plugins/tongerner/layout_adjustment/icon": {
+            "text": "<svg width=\"22pt\" height=\"22pt\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:svg=\"http://www.w3.org/2000/svg\">\n <metadata id=\"metadata7\">image/svg+xml</metadata>\n <g>\n  <title>Layer 1</title>\n  <g id=\"layer1\">\n   <path d=\"m48.98237,97.8691l-41.98313,-24.239l0,-48.47796l41.98313,-24.23897l41.98313,24.23897l0,48.47796l-41.98313,24.239z\" id=\"path4142\" stroke-miterlimit=\"4\" stroke-width=\"1.2218\" stroke=\"#a0a0ff\" fill=\"#a0a0ff\"/>\n   <path id=\"svg_3\" d=\"m73.1813,28.26401l-15.55706,15.81597c0.61319,0.6247 0.61206,1.63724 0,2.25944c-0.61371,0.62398 -1.60823,0.62448 -2.22362,0l-6.66496,-6.77579c-0.61439,-0.62462 -0.61363,-1.63801 0,-2.26065c0.61329,-0.62358 1.60695,-0.62444 2.22244,0l0,0l15.55707,-15.81609c1.84112,-1.87179 4.8262,-1.87179 6.66732,0c1.84113,1.87178 1.84112,4.90654 -0.00001,6.77832l-0.00118,-0.0012zm-50.00484,46.31849l-2.22244,-2.2595l3.30621,-5.6205l3.36112,-1.1578l23.33557,-23.72413l2.22243,2.25941l-23.33556,23.72422l-1.13868,3.417l-5.52865,3.3613z\" fill-rule=\"evenodd\"/>\n  </g>\n </g>\n</svg>",
+            "type": "image/svg+xml",
+            "title": "$:/plugins/tongerner/layout_adjustment/icon",
+            "modifier": "TonGerner",
+            "modified": "20170725155035239",
+            "creator": "TonGerner",
+            "created": "20160109160239631"
+        },
+        "$:/plugins/tongerner/layout_adjustment/macros": {
+            "created": "20150801122014492",
+            "text": "\\define inputBox() <$edit-text tiddler=\"$(reftarget)$\" field=\"$(reffield)$\" class=\"$(refclass)$\"/>\n\n\\define tableRow(header,target,field,class)\n<$set name=\"reftarget\" value=\"$target$\">\n<$set name=\"reffield\" value=\"$field$\">\n<$set name=\"refclass\" value=\"settings\">\n<tr><th>$header$ </th><td><<inputBox>></td></tr>\n</$set>\n</$set>\n</$set>\n\\end\n",
+            "title": "$:/plugins/tongerner/layout_adjustment/macros",
+            "tags": "$:/tags/Macro",
+            "modifier": "TonGerner",
+            "modified": "20170103121557249",
+            "creator": "TonGerner"
+        },
+        "$:/plugins/tongerner/layout_adjustment/readme": {
+            "created": "20150731184044439",
+            "text": "''Note:''<br>This plugin contains 'general' settings for the layout and is additionally required for my following plugins: ^^1^^\n\n* Top menu\n* Top-left menu (top + left menu)\n* Left menu\n* Toolbar (on top)\n* Tiddlersbar\n* ~TabStory (alternative tiddlersbar at top of story)\n* Uptoolbar (toolbar above title)\n* Tristate (tristate sidebar)\n\nThis plugin contains layout code common to the mentioned plugins and let you adjust:\n\n!! Theme tweaks\n* Scroll offset (thanks to [[Tobias Beer|https://tobibeer.github.io/tb5/#%24%3A%2Fhack-142-scroll-pagescroller.js]])\n* Sidebar layout\n* Story left position\n* Story top position\n* Story right\n* Story width\n* Tiddler width\n* Sidebar top position (new)\n* Sidebar width\n\n!! Other layout settings\n* Color and height of the top bar (as a boundary for top menu, toolbar, tiddlersbar, etc.)\n* Top padding of a tiddler\n* Color for  displaying the  'active' state of some toggle buttons\n* Vertical position of 'sticky titles'\n* Vertical position 'sticky editor toolbar'\n\nSettings for the layout can be found in ''~ControlPanel > Appearance > [[Plugin tweaks|$:/plugins/tongerner/layout_adjustment/tweaks]]'', also available via the 'Adjust layout' button ({{$:/plugins/tongerner/layout_adjustment/image/layout}}) in the Toprightbar.\n\n|borderless|k\n|^^^1^^ |&nbsp;&nbsp;|All these plugins contain a 'Settings' tiddler tagged with $:/tags/plugin-tweaks and will display - when installed - a tab under 'Plugin tweaks'.|\n\n<<<\n''Note:''<br>A sticky editor toolbar works ''only'' in non-preview mode!.\n<<<",
+            "title": "$:/plugins/tongerner/layout_adjustment/readme",
+            "modifier": "TonGerner",
+            "modified": "20180131171650981",
+            "creator": "TonGerner"
+        },
+        "$:/plugins/tongerner/layout_adjustment/settings": {
+            "text": "!!Layout settings\n<table class=\"tablestyle\">\n@@.brown ''Top bar''@@\n<<tableRow \"Background color 'Top bar'\" \"$:/plugins/tongerner/layout_adjustment/styles\" \"topbar-background-color\">>\n<<tableRow \"Height 'Top bar'\" \"$:/plugins/tongerner/layout_adjustment/styles\" \"topbar-height\">>\n@@.brown ''Tiddler''@@\n<<tableRow \"Top padding\" \"$:/plugins/tongerner/layout_adjustment/styles\" \"tiddler-padding-top\">>\n@@.brown ''Button color''@@\n<<tableRow \"Active button color\" \"$:/plugins/tongerner/layout_adjustment/styles\" \"active-state-color\">>\n@@.brown ''Sticky''@@<br>{{$:/plugins/tongerner/layout_adjustment/pin-buttons}}\n<<tableRow \"Top 'sticky title'\" \"$:/plugins/tongerner/layout_adjustment/styles\" \"top-sticky-title\">>\n<<tableRow \"Top 'sticky editor toolbar'\" \"$:/plugins/tongerner/layout_adjustment/styles\" \"top-sticky-editor-toolbar\">>\n</table>\n\n<<<\n''Note:''\n\n* @@color:red;For a 'Top bar' to become visible, a color and a height > 0px need to be entered!@@\n* The 'Sticky general' button ({{$:/plugins/tongerner/layout_adjustment/pin-icon}}/{{$:/plugins/tongerner/layout_adjustment/unpin-icon}}) acts the same as the setting in ''Control panel > Appearance > Theme tweaks > Sticky titles''\n*The 'Sticky editor toolbar' button (also {{$:/plugins/tongerner/layout_adjustment/pin-icon}}/{{$:/plugins/tongerner/layout_adjustment/unpin-icon}}) adds stickyness to the editor toolbar\n** Both 'Top' settings are ''only'' active when the toolbar is sticky!\n* A sticky editor toolbar works ''only'' in non-preview mode!\n<<<\n\n<$button tooltip=\"Help\">\n<$action-sendmessage $message=\"tm-open-window\" $param=\"$:/plugins/tongerner/layout_adjustment/settings-help\" height=\"450px\" width=\"700px\"/>Help</$button>",
+            "title": "$:/plugins/tongerner/layout_adjustment/settings",
+            "tags": "$:/tags/plugin-tweaks",
+            "order": "2",
+            "modifier": "TonGerner",
+            "modified": "20180217143046452",
+            "creator": "TonGerner",
+            "created": "20150729190109349",
+            "caption": "Layout"
+        },
+        "$:/plugins/tongerner/layout_adjustment/settings-help": {
+            "text": "<<<\n''Note:''<br>You can enter values in allowed CSS units, e.g. `%`, `px`, `em`...\n<<<\n\n|Item|Entry |Description |Default |h\n|Topbar |Background color 'Top bar'|Background color of the top bar<br>Transparent when left 'blank'''!''| ^^''1''^^ |\n|~|Height 'Top bar'|Height of the top bar| 0px ^^''2''^^ |\n|Tiddler |Top padding |Top padding of tiddler  | 30px |\n|Button color|Active button color |Color indicating 'active' state of toggle button | #0044BB |\n|Sticky ^^''3''^^|Top 'sticky title' |Position sticky title from top | 0px |\n|~|Top 'sticky editor toolbar'|Position sticky editor toolbar from top| 35px ^^''4''^^ |\n\n<br>\n\n|borderless|k\n|^''@@font-size: 0.8em;1@@'' |&nbsp;&nbsp;|Default left blank; `#F4F4F4` is the Page background color for the Snow White theme|\n|^''@@font-size: 0.8em;2@@'' |&nbsp;&nbsp;|A ''height > 0px'' is required to 'see' the top bar!|\n|^''@@font-size: 0.8em;3@@'' |&nbsp;&nbsp;|Both 'Sticky Top' settings are ''only'' active when the toolbar is sticky!|\n|^''@@font-size: 0.8em;4@@'' |&nbsp;&nbsp;|About 35px higher than Top 'sticky title' to prevent hiding the tiddler control buttons|\n\n\n\n",
+            "title": "$:/plugins/tongerner/layout_adjustment/settings-help",
+            "tags": "",
+            "modifier": "TonGerner",
+            "modified": "20180217143233293",
+            "creator": "TonGerner",
+            "created": "20150801124528672"
+        },
+        "$:/plugins/tongerner/layout_adjustment/sidebar-top": {
+            "text": "0px",
+            "title": "$:/plugins/tongerner/layout_adjustment/sidebar-top",
+            "tags": "",
+            "modified": "20170317105358712",
+            "created": "20161213115930178"
+        },
+        "$:/plugins/tongerner/layout_adjustment/styles": {
+            "created": "20161212103011213",
+            "text": "<pre>/* LAYOUT SETTINGS */\n\n/* VERTICAL OFFSET FOR TOP OF SIDEBAR */\nhtml .tc-sidebar-scrollable {\n    top: {{$:/plugins/tongerner/layout_adjustment/sidebar-top}};\n}\n\n* BACKGROUND COLOR TOPRIGHTBAR (with double chevron) */\n.tc-topbar {\n     background-color: {{!!topbar-background-color}};\n}\n\n/* TOPBAR */\n.tgc-toolbar {\n     display:block;\n     position:fixed;\n     left:0px;\n     top:0px;\n     width:100%;\n     height: {{!!topbar-height}};\n     background-color: {{!!topbar-background-color}};\n     z-index: 600;\n}\n\n/* TOP PADDING TIDDLER */\nbody.tc-body .tc-tiddler-frame {\n     padding-top: {{!!tiddler-padding-top}};\n}\n\n/* COLOR ACTIVE STATE TOGGLE BUTTON */\nbody.tc-body .tgc-active-indicator {\n     color: {{!!active-state-color}};\n}\nbody.tc-body .tgc-active-indicator svg {\n     fill: {{!!active-state-color}};\n}\n\nbody.tc-body .tgc-active-indicator:hover svg {\n     fill: <<colour \"foreground\">>;\n}\n\n/* SETTINGS TABLE */\n/* WIDTH SETTINGS TABLE */\ninput[type='text'].settings {\n     width: 120px;\n}\ntable.tablestyle {\n     font-size: 0.9em;\n     border-width: 0px;\n     border-style: solid;\n     padding: 2px;\n     border-color: #DDD;\n     border-collapse: collapse;\n}\ntable.tablestyle th {\n     background-color: #F0F0F0;\n     border-color: #DDD;\n     text-align: left;\n     vertical-align: top;\n     border-style: solid;\n     border-width: 1px;\n     padding: 5px;\n}\ntable.tablestyle tr {\n     background-color: #F0F0F0;\n     padding: 0px;\n}\ntable.tablestyle td {\n     border-color: #DDD;\n     border-style: solid;\n     border-width: 1px;\n     padding:2px;\n}\n/* BORDERLESS TABLES */\n.borderless, .borderless table, .borderless td, .borderless tr, .borderless th, .borderless tbody {\n     border:0 !important;\n     margin:0 !important;\n     padding:0 !important;\n}\n</pre>",
+            "topbar-height": "0px",
+            "topbar-background-color": "",
+            "title": "$:/plugins/tongerner/layout_adjustment/styles",
+            "tiddler-padding-top": "30px",
+            "tags": "$:/tags/Stylesheet",
+            "story-river-top": "0px",
+            "sidebar-top": "0px",
+            "modifier": "TonGerner",
+            "modified": "20180201194136555",
+            "list-after": "$:/themes/tiddlywiki/vanilla/base",
+            "creator": "TonGerner",
+            "active-state-color": "#0044BB",
+            "top-sticky-title": "0px",
+            "top-sticky-editor-toolbar": "35px"
+        },
+        "$:/plugins/tongerner/layout_adjustment/themetweaks": {
+            "created": "20161212090056554",
+            "text": "!! Theme tweaks\n\n@@.brown '''Adjust layout' button''@@<br>\n<$checkbox tiddler=\"$:/plugins/tongerner/layout_adjustment/configuration-button\" tag=\"$:/tags/TopRightBar\"> 'Adjust layout' button ({{$:/plugins/tongerner/layout_adjustment/image/layout}}) visible in Toprightbar?</$checkbox>\n\n@@.brown ''Scroll hack''@@<br>\n<$checkbox tiddler=\"$:/scrollhack-pagescroller.js\" field=\"module-type\" checked=\"macro\" unchecked=\"\" default=\"macro\"> Scroll hack active?</$checkbox> (needs save & refresh)\n\n|tablestyle|k\n|<$link to=\"$:/plugins/tongerner/layout_adjustment/offsetY\">''Scroll offset''&emsp;&emsp;&emsp;&emsp; </$link> |<$edit-text tiddler=\"$:/plugins/tongerner/layout_adjustment/offsetY\" default=\"\" tag=\"input\"/> |\n\n@@.brown ''Theme tweaks''@@<br>\nexcerpt from 'Theme Tweaks' tab\n\n|tablestyle|k\n|<$link to=\"$:/themes/tiddlywiki/vanilla/options/sidebarlayout\">Sidebar layout</$link> |<$select tiddler=\"$:/themes/tiddlywiki/vanilla/options/sidebarlayout\"><option value=\"fixed-fluid\">Fixed story, Fluid sidebar</option><option value=\"fluid-fixed\">Fluid story, Fixed sidebar</option></$select> |\n|<$link to=\"$:/themes/tiddlywiki/vanilla/metrics/storyleft\">Story left position</$link>|^<$edit-text tiddler=\"$:/themes/tiddlywiki/vanilla/metrics/storyleft\" default=\"\" tag=\"input\"/> |\n|<$link to=\"$:/themes/tiddlywiki/vanilla/metrics/storytop\">Story top position</$link>|^<$edit-text tiddler=\"$:/themes/tiddlywiki/vanilla/metrics/storytop\" default=\"\" tag=\"input\"/> |\n|<$link to=\"$:/themes/tiddlywiki/vanilla/metrics/storyright\">Story right</$link>|^<$edit-text tiddler=\"$:/themes/tiddlywiki/vanilla/metrics/storyright\" default=\"\" tag=\"input\"/> |\n|<$link to=\"$:/themes/tiddlywiki/vanilla/metrics/storywidth\">Story width</$link>|^<$edit-text tiddler=\"$:/themes/tiddlywiki/vanilla/metrics/storywidth\" default=\"\" tag=\"input\"/> |\n|<$link to=\"$:/themes/tiddlywiki/vanilla/metrics/tiddlerwidth\">Tiddler width</$link>|^<$edit-text tiddler=\"$:/themes/tiddlywiki/vanilla/metrics/tiddlerwidth\" default=\"\" tag=\"input\"/> |\n|<$link to=\"$:/plugins/tongerner/layout_adjustment/sidebar-top\">Sidebar top position</$link> |^<$edit-text tiddler=\"$:/plugins/tongerner/layout_adjustment/sidebar-top\" default=\"\" tag=\"input\"/> |\n|<$link to=\"$:/themes/tiddlywiki/vanilla/metrics/sidebarwidth\">Sidebar width</$link> |^<$edit-text tiddler=\"$:/themes/tiddlywiki/vanilla/metrics/sidebarwidth\" default=\"\" tag=\"input\"/> |\n<$button tooltip=\"Help\">\n<$action-sendmessage $message=\"tm-open-window\" $param=\"$:/plugins/tongerner/layout_adjustment/themetweaks-help\" height=\"700px\" width=\"700px\"/>Help</$button>\n",
+            "title": "$:/plugins/tongerner/layout_adjustment/themetweaks",
+            "tags": "$:/tags/plugin-tweaks",
+            "order": "1",
+            "modified": "20180222204708661",
+            "caption": "Theme tweaks"
+        },
+        "$:/plugins/tongerner/layout_adjustment/themetweaks-help": {
+            "created": "20161212130221042",
+            "text": "|Item |Entry |Description |Default |h\n|'Adjust layout' button |<input type=\"checkbox\" /> / <input type=\"checkbox\" checked />|Toggle button in Toprightbar on/off| <input type=\"checkbox\" checked /> |\n|Scroll hack |<input type=\"checkbox\" /> / <input type=\"checkbox\" checked />|Scroll hack active?<br>(needs save & refresh)| <input type=\"checkbox\" checked /> |\n|~|Scroll offset |Shifts standard scroll top position downwards| 42px&nbsp;^^1^^|\n|Theme tweaks |^Sidebar layout |^Choice between Fluid story, fixed sidebar and Fixed story, fluid sidebar|Fluid story, fixed sidebar&nbsp;^^2^^|\n|~|^Story left position |^How far the left margin of the story river (tiddler area) is from the left of the page| 0px|\n|~|^Story top position |^How far the top margin of the story river is from the top of the page| 0px ^^3^^|\n|~|^Story right |^How far the left margin of the sidebar is from the left of the page| 770px|\n|~|^Story width |^The overall width of the story river| 770px|\n|~|^Tiddler width |^Within the story river| 686px|\n|~|^Sidebar top position |^Start of the sidebar<br>(from the top)| 0px ^^3^^|\n|~|^Sidebar width |^The width of the sidebar in fluid-fixed layout| 350px|\n\n|borderless|k\n|^''@@font-size: 0.8em;1@@'' ||To fix the tiddler scrolling underneath the top bar when opening TW. Default 42px. Adjust as required but use the minimum value needed (to prevent scroll problems at the bottom).|\n|^''@@font-size: 0.8em;2@@'' ||''Fluid story, fixed sidebar interferes with Tristate plugin'' => select Fixed story, fluid sidebar for Tristate plugin |\n|^''@@font-size: 0.8em;3@@'' |&nbsp;&nbsp;|Default values; ''need to be adjusted (increased) in case of adding a top menu, toolbar, tiddlersbar, ... to the wiki!''|",
+            "title": "$:/plugins/tongerner/layout_adjustment/themetweaks-help",
+            "tags": "",
+            "modified": "20180222204547275"
+        },
+        "$:/plugins/tongerner/layout_adjustment/topbar": {
+            "created": "20150731184520854",
+            "text": "<div class=\"tgc-toolbar\"></div>\n<<scrollhack>>",
+            "creator": "TonGerner",
+            "modified": "20171224115711436",
+            "modifier": "TonGerner",
+            "tags": "$:/tags/PageTemplate",
+            "title": "$:/plugins/tongerner/layout_adjustment/topbar"
+        },
+        "$:/plugins/tongerner/layout_adjustment/tweaks": {
+            "created": "20150801100456266",
+            "creator": "TonGerner",
+            "text": "The general layout adjustments can be found under the 'Themes tweak' and 'Layout' tabs. Dependent on installed plugins other tabs are available ('Top menu', 'Top-left menu', 'Toolbar', 'Tiddlersbar, '~TabStory', 'Uptoolbar', 'Tristate').\n<<tabs \"[all[shadows+tiddlers]tag[$:/tags/plugin-tweaks]nsort[order]]\" \"$:/plugins/tongerner/layout_adjustment/settings\" \"\" \"tc-vertical\">>",
+            "caption": "Plugin tweaks",
+            "modified": "20171204115305512",
+            "modifier": "TonGerner",
+            "tags": "$:/tags/ControlPanel/Appearance",
+            "title": "$:/plugins/tongerner/layout_adjustment/tweaks"
+        },
+        "$:/themes/tiddlywiki/vanilla/sticky_": {
+            "created": "20170330150510113",
+            "text": "<$reveal state=\"$:/themes/tiddlywiki/vanilla/options/stickytitles\" type=\"match\" text=\"yes\">\n``\n.tc-tiddler-title {\n     position: -webkit-sticky;\n     position: -moz-sticky;\n     position: -o-sticky;\n     position: -ms-sticky;\n     position: sticky;\n     top: ``{{$:/plugins/tongerner/layout_adjustment/styles!!top-sticky-title}}``;\n     background: ``<<colour tiddler-background>>``;\n     z-index: 500;\n}\n.tc-editor-toolbar {\n     position: -webkit-sticky;\n     position: -moz-sticky;\n     position: -o-sticky;\n     position: -ms-sticky;\n     position: sticky;\n     top: ``{{$:/plugins/tongerner/layout_adjustment/styles!!top-sticky-editor-toolbar}}``;\n     background: ``<<colour tiddler-background>>``;\n     z-index: 500;\n}\n``\n</$reveal>\n",
+            "type": "text/vnd.tiddlywiki",
+            "title": "$:/themes/tiddlywiki/vanilla/sticky_",
+            "tags": "",
+            "modified": "20180201194034940"
+        },
+        "$:/plugins/tongerner/layout_adjustment/configuration-button": {
+            "created": "20171203165317769",
+            "text": "<$button class=\"tc-btn-invisible\" tooltip=\"Adjust layout\">\n<$action-sendmessage $message=\"tm-open-window\" $param=\"$:/plugins/tongerner/layout_adjustment/tweaks\" height=\"700px\" width=\"650px\"/>\n{{$:/plugins/tongerner/layout_adjustment/image/layout}}\n</$button>\n\n\n",
+            "title": "$:/plugins/tongerner/layout_adjustment/configuration-button",
+            "tags": "$:/tags/TopRightBar",
+            "modified": "20180201194645402",
+            "list-before": "$:/core/ui/TopBar/menu",
+            "description": "Adjust layout",
+            "caption": "{{$:/plugins/tongerner/layout_adjustment/icon}} adjust layout"
+        },
+        "$:/plugins/tongerner/layout_adjustment/image/layout": {
+            "text": "<svg class=\"tgc-layout-button tc-image-button\" height=\"22pt\" width=\"22pt\" viewBox=\"0 0 22 22\">\n<path  d=\"m19.84313,0.21698l-17.65497,0c-1.08334,0 -1.96191,0.9235 -1.96191,2.0571l0,17.48416c0,1.1359 0.87857,2.0571 1.96191,2.0571l17.65497,0c1.08334,0 1.96191,-0.92119 1.96191,-2.0571l0,-17.48416c0,-1.1336 -0.87857,-2.0571 -1.96191,-2.0571zm-17.65497,7.80127l5.71838,0l0,11.73768l-5.71838,0l0,-11.73768zm7.67809,11.73768l0,-11.73768l9.97689,0l0,-2.0571l-17.65497,0l0,-3.68707l17.65497,0l0.0022,17.48416l-9.97909,0l0,-0.00231z\"/>\n</svg>",
+            "created": "20171203171851124",
+            "modified": "20171203173424044",
+            "tags": "",
+            "title": "$:/plugins/tongerner/layout_adjustment/image/layout"
+        },
+        "$:/plugins/tongerner/layout_adjustment/offsetY": {
+            "created": "20171203173818558",
+            "text": "42px",
+            "title": "$:/plugins/tongerner/layout_adjustment/offsetY",
+            "tags": "",
+            "modified": "20171225094534779"
+        },
+        "$:/scrollhack-pagescroller.js": {
+            "created": "20171203173540819",
+            "text": "/*\\\ntitle: $:/scrollhack-pagescroller.js\ntype: application/javascript\nmodule-type: macro\nsummary: overwrites $tw.pageScroller.scrollIntoView to introduce an offset [[$:/plugins/tongerner/layout_adjustment/offsetY]]\n\n<<scrollhack>>\n\n\\*/\n(function(){\n\n/*jslint node: true, browser: true */\n/*global $tw: false */\n\"use strict\";\n\nexports.name = \"scrollhack\";\nexports.params = [{}];\n\n/*\nRun the macro\n*/\nexports.run = function() {\n\n\tif(!this.hackOnce){\n\t\tthis.hackOnce = true;\n\n\t\t//SCROLLHACK: get offsetY\n\t\tvar offsetY = parseInt($tw.wiki.getTiddlerText(\"$:/plugins/tongerner/layout_adjustment/offsetY\"));\n\t\toffsetY = isNaN(offsetY) ? 0 : offsetY;\n\n\t\t/*\n\t\tHandle a scroll event DIFFERENTLY hitting the page document\n\t\t*/\n\t\t$tw.pageScroller.scrollIntoView = function(element) {\n\t\t\tvar duration = $tw.utils.getAnimationDuration();\n\t\t\t// Now get ready to scroll the body\n\t\t\tthis.cancelScroll();\n\t\t\tthis.startTime = Date.now();\n\t\t\tvar scrollPosition = $tw.utils.getScrollPosition();\n\t\t\t// Get the client bounds of the element and adjust by the scroll position\n\t\t\tvar clientBounds = element.getBoundingClientRect(),\n\t\t\t\tbounds = {\n\t\t\t\t\tleft: clientBounds.left + scrollPosition.x,\n\t\t\t\t\ttop: clientBounds.top + scrollPosition.y,\n\t\t\t\t\twidth: clientBounds.width,\n\t\t\t\t\theight: clientBounds.height\n\t\t\t\t};\n\t\t\t// We'll consider the horizontal and vertical scroll directions separately via this function\n\t\t\tvar getEndPos = function(targetPos,targetSize,currentPos,currentSize) {\n\t\t\t\t\t// If the target is above/left of the current view, then scroll to it's top/left\n\t\t\t\t\tif(targetPos <= currentPos) {\n\t\t\t\t\t\treturn targetPos;\n\t\t\t\t\t// If the target is smaller than the window and the scroll position is too far up, then scroll till the target is at the bottom of the window\n\t\t\t\t\t} else if(targetSize < currentSize && currentPos < (targetPos + targetSize - currentSize)) {\n\t\t\t\t\t\treturn targetPos + targetSize - currentSize;\n\t\t\t\t\t// If the target is big, then just scroll to the top\n\t\t\t\t\t} else if(currentPos < targetPos) {\n\t\t\t\treturn targetPos;\n\t\t\t\t\t// Otherwise, stay where we are\n\t\t\t\t\t} else {\n\t\t\t\t\t\treturn currentPos;\n\t\t\t\t\t}\n\t\t\t\t},\n\t\t\t\tendX = getEndPos(bounds.left,bounds.width,scrollPosition.x,window.innerWidth),\n\t\t\t\tendY = getEndPos(bounds.top,bounds.height,scrollPosition.y,window.innerHeight);\n\n\t\t\t// Only scroll if necessary\n\t\t\tif(endX !== scrollPosition.x || endY !== scrollPosition.y) {\n\n\t\t\t\t//HACK-142: fix endY via offsetY\n\t\t\t\tendY = (endY - offsetY) || 0;\n\n\t\t\t\tvar self = this,\n\t\t\t\t\tdrawFrame;\n\t\t\t\tdrawFrame = function () {\n\t\t\t\t\tvar t;\n\t\t\t\t\tif(duration <= 0) {\n\t\t\t\t\t\tt = 1;\n\t\t\t\t\t} else {\n\t\t\t\t\t\tt = ((Date.now()) - self.startTime) / duration;\t\n\t\t\t\t\t}\n\t\t\t\t\tif(t >= 1) {\n\n\t\t\t\t\t\tself.cancelScroll();\n\t\t\t\t\t\tt = 1;\n\t\t\t\t\t}\n\t\t\t\t\tt = $tw.utils.slowInSlowOut(t);\n\n\t\t\t\t\twindow.scrollTo(\n\t\t\t\t\t\tscrollPosition.x + (endX - scrollPosition.x) * t,\n\t\t\t\t\t\tscrollPosition.y + (endY - scrollPosition.y) * t);\n\n\t\t\t\t\tif(t < 1) {\n\t\t\t\t\t\tself.idRequestFrame = self.requestAnimationFrame.call(window,drawFrame);\n\t\t\t\t\t}\n\t\t\t\t};\n\t\t\t\tdrawFrame();\n\t\t\t}\n\t\t};\n\n\n\t};\n\treturn \"\";\n\n}\n\n})();",
+            "type": "application/javascript",
+            "title": "$:/scrollhack-pagescroller.js",
+            "tags": "",
+            "module-type": "macro",
+            "modified": "20171225094433841"
+        },
+        "$:/plugins/tongerner/layout_adjustment/license": {
+            "text": "[[Layout adjustment plugin|http://tongerner.tiddlyspot.com/#Layout%20adjustment%20plugin]] &copy; Ton Gerner &mdash; 2018\n\nMIT License: https://opensource.org/licenses/MIT\n",
+            "title": "$:/plugins/tongerner/layout_adjustment/license",
+            "tags": "",
+            "modified": "20180130092116257",
+            "created": "20180124162829244"
+        },
+        "$:/plugins/tongerner/layout_adjustment/pin-buttons": {
+            "created": "20180131170419120",
+            "text": "<$reveal state=\"$:/themes/tiddlywiki/vanilla/options/stickytitles\" type=\"nomatch\" text=\"no\">\n<$button set=\"$:/themes/tiddlywiki/vanilla/options/stickytitles\" setTo=\"no\" tooltip=\"Activate sticky\" class=\"tc-btn-invisible\">{{$:/plugins/tongerner/layout_adjustment/pin-icon}}\n</$button>\n</$reveal>\n<$reveal state=\"$:/themes/tiddlywiki/vanilla/options/stickytitles\" type=\"match\" text=\"no\">\n<$button set=\"$:/themes/tiddlywiki/vanilla/options/stickytitles\" setTo=\"yes\" tooltip=\"Deactivate sticky\" class=\"tc-btn-invisible\">{{$:/plugins/tongerner/layout_adjustment/unpin-icon}}\n</$button>\n</$reveal>Sticky general: {{$:/themes/tiddlywiki/vanilla/options/stickytitles}} &mdash;\n<$reveal state=\"$:/state/sticky-toolbar\" type=\"nomatch\" text=\"yes\">\n<$button set=\"$:/state/sticky-toolbar\" setTo=\"yes\" tooltip=\"Activate sticky editor toolbar\" class=\"tc-btn-invisible\">{{$:/plugins/tongerner/layout_adjustment/unpin-icon}}\n<$action-setfield $tiddler=\"$:/themes/tiddlywiki/vanilla/sticky_\" title=\"$:/themes/tiddlywiki/vanilla/sticky\"/>\n</$button>\n</$reveal>\n<$reveal state=\"$:/state/sticky-toolbar\" type=\"match\" text=\"yes\">\n<$button set=\"$:/state/sticky-toolbar\" setTo=\"no\" tooltip=\"Deactivate sticky editor toolbar\" class=\"tc-btn-invisible\">{{$:/plugins/tongerner/layout_adjustment/pin-icon}}\n<$action-deletetiddler $tiddler=\"$:/themes/tiddlywiki/vanilla/sticky\"/>\n</$button>\n</$reveal>Sticky editor toolbar: {{$:/state/sticky-toolbar}}",
+            "title": "$:/plugins/tongerner/layout_adjustment/pin-buttons",
+            "tags": "",
+            "modified": "20180131170949454"
+        },
+        "$:/plugins/tongerner/layout_adjustment/pin-icon": {
+            "created": "20180131170610630",
+            "text": "<svg class=\"tc-image-button\" width=\"22pt\" height=\"22pt\" viewBox=\"0 0 8 8\">\n  <path d=\"m1.85672,0.03562a0.5,0.49555 0 0 0 0.16,0.99109l0.5,0l0,1.98219l-1,0c-0.55,0 -1,0.44599 -1,0.99109l3,0l0,2.97328l0.44,0.99109l0.56,-0.99109l0,-2.97328l3,0c0,-0.5451 -0.45,-0.99109 -1,-0.99109l-1,0l0,-1.98219l0.5,0a0.5,0.49555 0 1 0 0,-0.99109l-4,0a0.5,0.49555 0 0 0 -0.09,0a0.5,0.49555 0 0 0 -0.06,0l-0.01,0z\"/>\n</svg>",
+            "title": "$:/plugins/tongerner/layout_adjustment/pin-icon",
+            "tags": "",
+            "modified": "20180131170621663"
+        },
+        "$:/plugins/tongerner/layout_adjustment/unpin-icon": {
+            "created": "20180130174200638",
+            "text": "<svg class=\"tc-image-button\" width=\"22pt\" height=\"22pt\" viewBox=\"0 0 8 8\">\n  <path transform=\"rotate(89.90647888183594 4.016719818115234,3.998984575271606) \" d=\"m1.85672,0.03562a0.5,0.49555 0 0 0 0.16,0.99109l0.5,0l0,1.98219l-1,0c-0.55,0 -1,0.44599 -1,0.99109l3,0l0,2.97328l0.44,0.99109l0.56,-0.99109l0,-2.97328l3,0c0,-0.5451 -0.45,-0.99109 -1,-0.99109l-1,0l0,-1.98219l0.5,0a0.5,0.49555 0 1 0 0,-0.99109l-4,0a0.5,0.49555 0 0 0 -0.09,0a0.5,0.49555 0 0 0 -0.06,0l-0.01,0z\"/>\n</svg>",
+            "title": "$:/plugins/tongerner/layout_adjustment/unpin-icon",
+            "tags": "",
+            "modified": "20180131170641913"
+        }
+    }
+}

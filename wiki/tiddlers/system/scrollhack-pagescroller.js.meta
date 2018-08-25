@@ -1,0 +1,9 @@
+created: 20171203173540819
+creator: Charles Delbé
+modified: 20180810195607699
+modifier: Charles Delbé
+module-type: macro
+summary: overwrites $tw.pageScroller.scrollIntoView to introduce an offset [[$:/plugins/tongerner/layout_adjustment/offsetY]]
+tags: 
+title: $:/scrollhack-pagescroller.js
+type: application/javascript

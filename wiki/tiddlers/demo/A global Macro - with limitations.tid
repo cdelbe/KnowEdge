@@ -1,0 +1,39 @@
+created: 20140111211622556
+creator: Stephan Hradek
+description: How to create a global wikitext macro
+modified: 20180824235409536
+modifier: Charles Delbé
+tags:
+title: A global Macro - with limitations
+tmap.id: d2cc72bd-76e7-4d6c-ae52-af165b6d8fcd
+type: text/vnd.tiddlywiki
+
+Transcluding a tiddler using a template can be used to get limited Wikitext macros.
+
+The limitations are
+
+# You can only have one parameter.
+# You can't have default parameters.
+
+So if one parameter is sufficient for your macro, here is how to do it.
+
+First create a tiddler containing your macro, but also add a macro invocation to it. Here is an example:
+
+{{mysimplesamplemacro||code}}
+
+Now all you need to do is, to write `{{parameter||macroname}}`. So for this example:
+`{{Bugs Bunny||mysimplesamplemacro}}`
+
+Which renders as:
+
+<<<
+{{Bugs Bunny||mysimplesamplemacro}}
+<<<
+
+P.S.: Of course: For this little macro a simple
+
+```
+Hi my name is <$view field="title"/>!
+```
+
+Would have been sufficient. But as soon as the "parameter" is to be used elsewhere, like for example in the [[showtag]] macro-tiddler, which is explained in [[Displaying Tags]], a macro is required.

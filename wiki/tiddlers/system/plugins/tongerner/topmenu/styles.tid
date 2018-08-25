@@ -1,0 +1,45 @@
+button-border-radius: 6px
+created: 20160112193603578
+creator: TonGerner
+list-after: $:/themes/tiddlywiki/vanilla/base
+menu-entry-font-size: 0.8em
+menu-font-size: 12px
+modified: 20180812144041049
+modifier: Charles Delbé
+tags: $:/tags/Stylesheet
+title: $:/plugins/tongerner/topmenu/styles
+topmenu-left: 45px
+topmenu-top: 8px
+type: text/vnd.tiddlywiki
+
+<pre>/* TOP MENU */
+.tgc-topmenu {
+     display: block;
+     position: fixed;
+     left: 0;
+     top: 0px;
+     margin-left: {{!!topmenu-left}};
+     margin-top: {{!!topmenu-top}};
+     font-size: {{!!menu-font-size}};
+     z-index: 1500;
+}
+
+/* TOP MENU BUTTON */
+/* html needed; otherwise tc-topbar button interferes */
+html .tgc-topmenu button {
+     padding: 1px 5px 3px 5px;
+}
+
+/* TOP MENU TAG PILL ENTRIES */
+/* html needed */
+html .tgc-topmenu .tc-tag-label {
+     border-radius: {{!!button-border-radius}};
+}
+
+.tgc-menu-drop-down {
+     min-width: 120px;
+     border: none;
+     margin: 1px;
+     font-size: {{!!menu-entry-font-size}};
+}
+</pre>

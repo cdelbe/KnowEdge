@@ -1,0 +1,20 @@
+created: 20160127230000000
+creator: Charles Delbé
+list: 
+modified: 20180821162715574
+modifier: Charles Delbé
+tags: Demo
+title: DatePicker-Demonstration
+tmap.id: 3b54c666-086c-4c3d-b387-60e32a56b6a2
+type: text/vnd.tiddlywiki
+
+Using `input` tag and showing time:
+     
+<$edit-date showTime showSeconds use24hour/>
+
+Using an icon instead of an `input` field:
+
+<$edit-date icon="$:/plugins/kixam/datepicker/icon" tag=div /> 
+
+!!Result:
+{{!!created}}

@@ -1,0 +1,16 @@
+caption: Wiki Title and Subtitle
+created: 20150124161741302
+creator: inmysocks
+left_menu_order: 
+modified: 20180811211537323
+modifier: Charles Delbé
+order: 2
+right_menu_order: 15
+tags: [[Menu Icon]] [[Icon Menus]]
+title: $:/plugins/inmysocks/iconmenus/icon/Wiki Title and Subtitle
+top_left_menu_order: 2
+top_middle_menu_order: 2
+top_right_menu_order: 2
+type: text/vnd.tiddlywiki
+
+{{$:/SiteTitle}} -- {{$:/SiteSubtitle}}

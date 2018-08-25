@@ -1,0 +1,18 @@
+created: 20180808012436691
+creator: Charles Delbé
+list-after: $:/core/ui/ViewTemplate/title
+modified: 20180825004651509
+modifier: Charles Delbé
+tags: $:/tags/ViewTemplate
+title: $:/core/ui/ViewTemplate/subtitle
+type: text/vnd.tiddlywiki
+
+<div class="tc-subtitle">
+<$list filter="[is[current]has[modified]]">
+Modifié par 
+<$link to={{!!modifier}}>
+<$view field="modifier"/>
+</$link> 
+ <$view field="modified" format="relativedate"/></$list>
+<$list filter="[is[current]has[created]]"><span style="float:right">Créé le <$view field="created" format="date" template="DD MMM YYYY"/></span></$list>
+</div>

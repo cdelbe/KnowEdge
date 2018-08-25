@@ -1,0 +1,47 @@
+created: 20150215112415072
+creator: Alberto Molina Pérez
+modified: 20180820022948443
+modifier: Charles Delbé
+tags: $:/plugins/amp/MagicTabs/reading
+test: 
+title: $:/plugins/amp/MagicTabs/forms/input/publication
+type: text/vnd.tiddlywiki
+
+\define mt-publication-form2(type, template, tempTiddler, parentType, size)
+    <$tiddler tiddler="$tempTiddler$">
+
+    <$set name="show" filter="[[$type$]has[mt-source.parents.list]!mt-source.parents.list[]!mt-source.parents.list[$:/type/root]]" value="yes" emptyValue="no">
+        <$reveal default=<<show>> type="match" text="yes">
+            <$checkbox tiddler="$tempTiddler$" tag="$parentType$"> {{$parentType$!!caption}} (inherit fields)</$checkbox>
+        </$reveal>
+    </$set>
+
+<$edit-text field<$edit-text field="mt-publication.title" placeholder="Publication title" class="tc-edit-fields"/>
+<$edit-text field<$edit-text field="mt-publication.date" placeholder="Date" class=""/>
+
+<$edit-text field="mt-topics.list" placeholder="Topics [[Inside brackets]]" tag="input" class="tc-edit-fields"/>
+<$edit-text field="text" placeholder="Text" default="" tag="textarea" class="tc-edit-fields"/>
+
+<<mt-fields-form-more "$type$">>
+
+</$tiddler>
+\end
+
+\define mt-publication-form(type, tempTiddler, size:"65")
+<$reveal state="$type$!!modified" type="nomatch" text="">
+    <$macrocall $name="mt-publication-form2"
+        type="$type$"
+        template={{$type$!!mt-template.fields}}
+        tempTiddler="$:/temp/$type$"
+        parentType={{$type$!!mt-source.parents.list}}
+        size="$size$"
+        />
+</$reveal>
+<$reveal state="$type$!!modified" type="match" text="">
+    The tiddler [[$type$]] doesn't exist.
+</$reveal>
+\end
+
+<<mt-add-people "$:/type/author">>
+
+<<mt-publication-form type:"$:/type/publication">>

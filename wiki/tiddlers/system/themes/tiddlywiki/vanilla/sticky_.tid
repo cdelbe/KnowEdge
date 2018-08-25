@@ -1,0 +1,31 @@
+created: 20170330150510113
+creator: Charles Delbé
+modified: 20180812095107934
+modifier: Charles Delbé
+tags: 
+title: $:/themes/tiddlywiki/vanilla/sticky_
+type: text/vnd.tiddlywiki
+
+<$reveal state="$:/themes/tiddlywiki/vanilla/options/stickytitles" type="match" text="yes">
+``
+.tc-tiddler-title {
+     position: -webkit-sticky;
+     position: -moz-sticky;
+     position: -o-sticky;
+     position: -ms-sticky;
+     position: sticky;
+     top: ``{{$:/plugins/tongerner/layout_adjustment/styles!!top-sticky-title}}``;
+     background: ``<<colour tiddler-background>>``;
+}
+.tc-editor-toolbar {
+     position: -webkit-sticky;
+     position: -moz-sticky;
+     position: -o-sticky;
+     position: -ms-sticky;
+     position: sticky;
+     top: ``{{$:/plugins/tongerner/layout_adjustment/styles!!top-sticky-editor-toolbar}}``;
+     background: ``<<colour tiddler-background>>``;
+     z-index: 50;
+}
+``
+</$reveal>

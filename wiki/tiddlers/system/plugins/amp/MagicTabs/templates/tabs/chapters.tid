@@ -1,0 +1,11 @@
+created: 20141229113512679
+creator: Alberto Molina Pérez
+modified: 20180820022909860
+modifier: Charles Delbé
+tags: $:/type/template
+title: $:/plugins/amp/MagicTabs/templates/tabs/chapters
+type: text/vnd.tiddlywiki
+
+<h3><$link to={{!!title}}>Chap. <$view field="mt-chapter.order"/> : <$view field="mt-chapter.title"/></$link></h3>
+
+<h4><$transclude field="description"/></h4>

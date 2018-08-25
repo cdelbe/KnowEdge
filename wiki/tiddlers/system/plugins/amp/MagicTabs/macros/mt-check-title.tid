@@ -1,0 +1,13 @@
+created: 20150212155422694
+creator: Charles Delbé
+modified: 20180820023011200
+modifier: Charles Delbé
+tags: $:/tags/Macro $:/plugins/amp/MagicTabs/common
+title: $:/plugins/amp/MagicTabs/macros/mt-check-title
+type: text/vnd.tiddlywiki
+
+\define mt-check-title()
+<$list filter="[all[current]get[draft.title]is[tiddler]]">
+<$link><$view field="title"/></$link> exists already!
+</$list>
+\end

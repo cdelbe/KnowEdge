@@ -1,0 +1,9 @@
+created: 20180729173917654
+creator: Charles Delbé
+modified: 20180805085635898
+modifier: [Charles Delbé]
+revision: 0
+title: $:/config/SyncFilter
+type: text/vnd.tiddlywiki
+
+[is[tiddler]] -$:/HistoryList -$:/Import -$:/isEncrypted -[prefix[$:/status]] -[prefix[$:/state]] -[prefix[$:/temp]]

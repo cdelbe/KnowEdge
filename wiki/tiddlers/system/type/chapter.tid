@@ -1,0 +1,19 @@
+caption: Book Chapter
+color: #8080ff
+created: 20150125150841844
+creator: Alberto Molina Pérez
+icon: $:/plugins/amp/MagicTabs/images/chapter
+list: 
+modified: 20180825031254870
+modifier: Charles Delbé
+mt-dashboard.add.content: $:/plugins/amp/MagicTabs/new/chapter
+mt-dashboard.heading: Book Chapters
+mt-dashboard.icon: $:/plugins/amp/MagicTabs/images/chapter
+mt-source.parents: 
+mt-source.type: $:/type/publication
+mt-template.fields: $:/plugins/amp/MagicTabs/templates/types/chapter
+mt-template.form: $:/plugins/amp/MagicTabs/new/chapter
+tags: $:/plugins/amp/MagicTabs/reading
+title: $:/type/chapter
+type: text/vnd.tiddlywiki
+

@@ -1,0 +1,9 @@
+created: 20141124112530336
+creator: Alberto Molina Pérez
+modified: 20180820022900002
+modifier: Charles Delbé
+tags: 
+title: $:/plugins/amp/MagicTabs/images/book
+type: text/vnd.tiddlywiki
+
+<<mt-image "fa-book" "book" "Book">>

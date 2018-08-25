@@ -1,0 +1,12 @@
+created: 20141206105846685
+creator: Alberto Molina Pérez
+modified: 20180820022847205
+modifier: Charles Delbé
+tags: $:/action/hide/tabs $:/action/hide/tags $:/plugins/amp/MagicTabs/common
+title: $:/plugins/amp/MagicTabs/new/person
+type: text/vnd.tiddlywiki
+
+<<mt-input-person type:"$:/type/person">>
+
+<br>
+<<mt-new-person type:"$:/type/person">>

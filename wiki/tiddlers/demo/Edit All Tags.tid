@@ -1,0 +1,27 @@
+created: 20150126104003540
+creator: Tobias Beer
+list: 
+modified: 20180821162715569
+modifier: Charles Delbé
+tags: Configuration Demo
+title: Edit All Tags
+tmap.id: c15e8bbb-bdc4-48bd-9891-efef98acf523
+type: text/vnd.tiddlywiki
+
+The below outputs the tag editor for all tiddlers (requires [[Consolidate Tag Macro]] !)...
+
+```
+<dl>
+<$list filter="[!is[system]!prefix[fa]sort[title]]">
+<dt><$link><$view field="title"/></$link></dt>
+<dd class="no-before">{{||$:/core/ui/EditTemplate/tags}}</dd>
+</$list>
+</dl>
+```
+
+<dl>
+<$list filter="[!is[system]!prefix[fa]sort[title]]">
+<dt><$link><$view field="title"/></$link></dt>
+<dd class="no-before">{{||$:/core/ui/EditTemplate/tags}}</dd>
+</$list>
+</dl>

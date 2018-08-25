@@ -1,0 +1,18 @@
+about: 
+color: #ffa500
+created: 20150124151524517
+creator: Alberto Molina Pérez
+icon: $:/plugins/amp/MagicTabs/images/quote
+modified: 20180825032534826
+modifier: Charles Delbé
+mt-publication.date: 
+mt-publication.part: 
+mt-publication.title: 
+mt-quote.page.alpha: 
+mt-quote.page.omega: 
+mt-source.authors.list: 
+mt-source.tiddler: 
+tags: $:/type/quote $:/type/note
+title: $:/plugins/amp/MagicTabs/templates/types/quote
+type: text/vnd.tiddlywiki
+

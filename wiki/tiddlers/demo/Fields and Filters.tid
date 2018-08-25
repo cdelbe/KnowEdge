@@ -1,0 +1,11 @@
+color: #eeeeee
+created: 20150107203407487
+creator: Tobias Beer
+modified: 20180821174424500
+modifier: Charles Delbé
+tags: Demo
+title: Fields and Filters
+tmap.id: 722f6b6b-e645-47dd-8927-32c4f377df12
+type: text/vnd.tiddlywiki
+
+<iframe src='https://tobibeer.github.io/tw/filters/#Filter%20Examples' frameborder="0" width="1024"; height="600"></iframe>

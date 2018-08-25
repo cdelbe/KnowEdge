@@ -1,0 +1,9 @@
+created: 20180821162540947
+creator: Charles Delbé
+modified: 20180821162558867
+modifier: Charles Delbé
+title: Draft of '$:/plugins/msk/ui/SideBar/Timeline'
+tmap.id: 6a25606b-3820-4ad7-aede-8ebbef26828e
+type: text/vnd.tiddlywiki
+
+<$visjstimeline filter="[tag[Event]]" startDateField="debut" endDateField="fin" groupTags=[[Plop]][[TW]] boxing=auto format="DD/MM/YYYY" navpad /> 

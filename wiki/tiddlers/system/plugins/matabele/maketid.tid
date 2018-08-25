@@ -1,0 +1,28 @@
+created: 20140527061814888
+creator: Matabele
+dependents: 
+description: Contains the <$maketid> widget
+modified: 20180805130147030
+modifier: Charles Delbé
+plugin-type: plugin
+revision: 0
+title: $:/plugins/matabele/maketid
+type: application/json
+version: 0.0.4
+
+{
+    "tiddlers": {
+        "$:/plugins/matabele/maketid.js": {
+            "text": "/*\\\ntitle: $:/plugins/matabele/maketid.js\ntype: application/javascript\nmodule-type: widget\n\nMakeTidWidget\n\n\\*/\n(function(){\n\n/*jslint node: true, browser: true */\n/*global $tw: false */\n\"use strict\";\n\nvar Widget = require(\"$:/core/modules/widgets/widget.js\").widget;\n\nvar MakeTidWidget = function(parseTreeNode,options) {\n\tthis.initialise(parseTreeNode,options);\n\tthis.addEventListeners([\n\t\t{type: \"tw-new-tiddler\",handler: \"handleMakeTiddler\"}\n\t]);\n};\n\n/*\nInherit from the base widget class\n*/\nMakeTidWidget.prototype = new Widget();\n\n/*\nRender this widget into the DOM\n*/\nMakeTidWidget.prototype.render = function(parent,nextSibling) {\n\tvar self = this;\n\tthis.parentDomNode = parent;\n\tthis.computeAttributes();\n\tthis.execute();\n\tthis.renderChildren(parent,nextSibling);\n};\n\n/*\nCompute the internal state of the widget\n*/\nMakeTidWidget.prototype.execute = function() {\n\t// Get our parameters\n\tthis.catchTitle = this.getAttribute(\"title\",\"New Tiddler\");\n   \tthis.catchTags = this.getAttribute(\"tags\");\n\tthis.tidTemplate = this.getAttribute(\"template\");\n\tthis.maketidEdit = this.getAttribute(\"edit\", \"yes\");\n\tthis.catchMessage = this.getAttribute(\"message\",\"tw-set-field\");\n\tthis.catchParam = this.getAttribute(\"param\");\n\t// Construct the child widgets\n\tthis.makeChildWidgets();\n};\n\n/*\nSelectively refreshes the widget if needed. Returns true if the widget or any of its children needed re-rendering\n*/\nMakeTidWidget.prototype.refresh = function(changedTiddlers) {\n\tvar changedAttributes = this.computeAttributes();\n\tif(changedAttributes.edit || changedAttributes.template || changedAttributes.message || changedAttributes.param || changedAttributes.title || changedAttributes.tags) {\n\t\tthis.refreshSelf();\n\t\treturn true;\n\t}\n\telse {\n\t\treturn this.refreshChildren(changedTiddlers);\t\t\n\t}\n};\n\n/*\nHandle a tw-new-tiddler event\n*/\nMakeTidWidget.prototype.handleMakeTiddler = function(event) {\n\t// Set defaults\n\tif(event.param) {\n\t\tthis.maketidTemplate = event.param;\n\t}\n\tif(this.tidTemplate) {\n\t\tthis.maketidTemplate = this.tidTemplate;\n\t}\n\t// Make the clone of the template\n\tvar make = this.wiki.getTiddlerAsJson(this.maketidTemplate);\n\tvar makeClone = JSON.parse(this.substituteVariableReferences(make));\n\tvar newtags = this.catchTags;\n\tvar basetitle = this.catchTitle;\n\tvar title = basetitle;\n\tfor(var t=1; this.wiki.tiddlerExists(title); t++) {\n\t\ttitle = basetitle + \" \" + t;\n\t}\n\tmakeClone.title = title;\n\tmakeClone.tags = newtags;\n\tfor(var modificationField in this.wiki.getModificationFields()) {\n\t\tdelete makeClone[modificationField];\n\t}\n\tvar created = this.wiki.getCreationFields();\n\tfor(var creationField in created) {\n\t\tmakeClone[modificationField] = created[creationField];\n\t}\n\t// Save the clone \n\tthis.wiki.addTiddler(makeClone);\n\t// Removed -- Set the value of the text reference \n\t// Send another message or return true\n\tthis.sendParam = title;\n\tif(this.catchParam) {\n\t\tthis.sendParam = this.catchParam;\n\t}\n\tif(this.catchMessage && (this.catchMessage != \"tw-new-tiddler\")) {\n\t    this.dispatchEvent({type: this.catchMessage,param: this.sendParam});\n\t}\n\telse {\n\t\treturn true;\n\t}\n\t// Control navigation to the new tiddler\n\tswitch(this.maketidEdit) {\n\t\tcase \"yes\":\n\t\t\tthis.dispatchEvent({type: \"tw-edit-tiddler\",param: title});\n\t\t\tbreak;\n\t\tcase \"show\":\n\t\t\tvar bounds = this.parentDomNode.getBoundingClientRect();\n\t\t\tthis.dispatchEvent({\n\t\t\t\ttype: \"tw-navigate\",\n\t\t\t\tnavigateTo: title,\n\t\t\t\tnavigateFromTitle: this.getVariable(\"storyTiddler\"),\n\t\t\t\tnavigateFromNode: this,\n\t\t\t\tnavigateFromClientRect: {\n\t\t\t\t\ttop: bounds.top,\n\t\t\t\t\tleft: bounds.left,\n\t\t\t\t\twidth: bounds.width,\n\t\t\t\t\tright: bounds.right,\n\t\t\t\t\tbottom: bounds.bottom,\n\t\t\t\t\theight: bounds.height\n\t\t\t\t},\n\t\t\t\tnavigateSuppressNavigation: event.metaKey || event.ctrlKey || (event.button === 1)\n\t\t\t});\n\t\t\tbreak;\n\t\tcase \"no\":\n\t\t\tbreak;\n\t}\n\t\t\t\t\n};\n\t\nexports.maketid = MakeTidWidget;\n\n})();\n",
+            "type": "application/javascript",
+            "title": "$:/plugins/matabele/maketid.js",
+            "revision": "1",
+            "module-type": "widget",
+            "modifier": "Matabele",
+            "modified": "20140622091511962",
+            "creator": "Matabele",
+            "created": "20140522181234309",
+            "bag": "default"
+        }
+    }
+}

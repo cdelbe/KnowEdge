@@ -1,0 +1,9 @@
+created: 20141116005848105
+creator: Alberto Molina Pérez
+modified: 20180820023049744
+modifier: Charles Delbé
+tags: $:/plugins/amp/MagicTabs/common
+title: $:/plugins/amp/MagicTabs/images/comments-o
+type: text/vnd.tiddlywiki
+
+<<mt-image "fa-comments" "comments" "Comments">> 

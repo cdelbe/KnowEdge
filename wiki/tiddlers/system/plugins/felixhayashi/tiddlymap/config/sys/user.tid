@@ -1,0 +1,27 @@
+created: 20180809202441074
+creator: Charles Delbé
+modified: 20180809202442445
+modifier: Charles Delbé
+title: $:/plugins/felixhayashi/tiddlymap/config/sys/user
+type: application/json
+
+{
+    "field.nodeLabel": "caption",
+    "field.nodeIcon": "icon",
+    "field.nodeInfo": "description",
+    "field.viewMarker": "isview",
+    "liveTab.fallbackView": "Live View",
+    "edgeClickBehaviour": "manager",
+    "debug": "false",
+    "notifications": "true",
+    "popups.enabled": "true",
+    "popups.delay": "600",
+    "popups.width": "240px",
+    "popups.height": "140px",
+    "jsonIndentation": "1",
+    "editNodeOnCreate": "false",
+    "singleClickMode": "false",
+    "editorMenuBar.showNeighScopeButton": "true",
+    "editorMenuBar.showRasterMenuButton": "true",
+    "editorMenuBar.showScreenshotButton": "true"
+}

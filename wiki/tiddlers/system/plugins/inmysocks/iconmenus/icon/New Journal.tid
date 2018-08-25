@@ -1,0 +1,16 @@
+caption: New Journal
+created: 20150121173516193
+creator: inmysocks
+left_menu_order: 10
+modified: 20180821195127016
+modifier: Charles Delbé
+order: 14
+right_menu_order: 9
+tags: [[Menu Icon]] [[Icon Menus]] $:/tags/LeftMenu
+title: $:/plugins/inmysocks/iconmenus/icon/New Journal
+top_left_menu_order: 2
+top_middle_menu_order: 0
+top_right_menu_order: 0
+type: text/vnd.tiddlywiki
+
+{{$:/core/ui/Buttons/new-journal}}

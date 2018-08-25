@@ -1,0 +1,41 @@
+created: 20141210121920873
+creator: Alberto Molina Pérez
+modified: 20180820022919297
+modifier: Charles Delbé
+tags: $:/tags/Macro $:/plugins/amp/MagicTabs/common
+title: $:/plugins/amp/MagicTabs/macros/searchBox
+type: text/vnd.tiddlywiki
+
+\define lingo-base() $:/language/Search/
+\define searchBox()
+<$linkcatcher to="$:/temp/advancedsearch">
+
+<<lingo Standard/Hint>>
+
+<div class="tc-search">
+<$edit-text tiddler="$:/temp/advancedsearch" type="search" tag="input" placeholder="search here" size="30"/>
+<$reveal state="$:/temp/advancedsearch" type="nomatch" text="">
+<$button class="tc-btn-invisible">
+<$action-setfield $tiddler="$:/temp/advancedsearch" $field="text" $value="" size="30"/>
+{{$:/core/images/close-button}}
+</$button>
+&nbsp;&nbsp;&nbsp;
+</$reveal>
+</div>
+
+</$linkcatcher>
+
+\end
+
+<<searchBox>>
+
+
+
+
+
+
+
+
+
+
+

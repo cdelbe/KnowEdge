@@ -1,0 +1,15 @@
+caption: Source 
+created: 20170810021329556
+creator: zemoxian
+description: View or copy the text field of a tiddler 
+list-after: $:/core/ui/TiddlerInfo/Fields
+modified: 20180812005705192
+modifier: Charles Delbé
+tags: $:/tags/TiddlerInfo
+title: $:/_/ui/TiddlerInfo/Source
+type: text/vnd.tiddlywiki
+
+Tiddler source code
+
+<$macrocall $name=copy-to-clipboard-above-right src={{!!text}} />
+<$codeblock code={{!!text}} />

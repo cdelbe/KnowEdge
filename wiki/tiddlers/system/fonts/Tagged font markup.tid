@@ -1,0 +1,12 @@
+created: 20170930160230340
+creator: zemoxian
+description: Links to Google Fonts stylesheets
+modified: 20180812071515173
+modifier: Charles Delbé
+tags: $:/tags/RawMarkup [[Google Fonts]]
+title: Tagged font markup
+tmap.id: d2a70a3d-f778-4ae8-bfd1-3060f3ef04af
+type: text/vnd.tiddlywiki
+
+<link href='https://fonts.googleapis.com/css?family=Atma' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Architects Daughter' rel='stylesheet'>

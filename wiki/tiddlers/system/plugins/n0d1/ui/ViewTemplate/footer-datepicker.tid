@@ -1,0 +1,31 @@
+created: 20151016121037007
+creator: Charles Delbé
+list-after: 
+modified: 20180806075446608
+modifier: Charles Delbé
+revision: 0
+tags: $:/tags/ViewTemplate $:/n0d1/tw
+title: $:/n0d1/ui/ViewTemplate/footer-datepicker
+type: application/x-tiddler
+
+<$list filter="[is[current]tag[Date]]">
+
+<div class="tiddler-datepicker">
+<<showEditDateDebut debut>> 
+<<showEditDateFin fin>>
+<<showEditColor color>>
+</div>
+
+
+</$list>
+
+<style>
+.tiddler-datepicker{
+float:right;
+clear:both;
+}
+
+.tiddler-datepicker {
+color:#ccc;
+}
+</style>

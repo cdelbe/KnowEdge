@@ -1,0 +1,16 @@
+caption: Save Wiki
+created: 20150121175630282
+creator: inmysocks
+left_menu_order: 29
+modified: 20180811210952516
+modifier: Charles Delbé
+order: 7
+right_menu_order: 13
+tags: [[Menu Icon]] $:/tags/TopMiddleMenu [[Icon Menus]] $:/tags/LeftMenu
+title: $:/plugins/inmysocks/iconmenus/icon/Save Wiki
+top_left_menu_order: 3
+top_middle_menu_order: 4
+top_right_menu_order: 0
+type: text/vnd.tiddlywiki
+
+{{$:/core/ui/Buttons/save-wiki}}

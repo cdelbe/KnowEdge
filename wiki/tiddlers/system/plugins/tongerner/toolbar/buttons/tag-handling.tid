@@ -1,0 +1,19 @@
+caption: {{$:/plugins/tongerner/toolbar/images/tag-handling}} tags
+created: 20150728085245822
+creator: TonGerner
+description: List tags
+left_menu_order: 19
+modified: 20180821195538562
+modifier: Charles Delbé
+tags: [[Menu Icon]] $:/tags/LeftMenu $:/tags/TopLeftBar
+title: $:/plugins/tongerner/toolbar/buttons/tag-handling
+type: text/vnd.tiddlywiki
+
+<$button to="$:/plugins/tongerner/toolbar/tag-handling" tooltip="List tags" class=<<tv-config-toolbar-class>>>
+<$list filter="[<tv-config-toolbar-icons>prefix[yes]]">
+{{$:/plugins/tongerner/toolbar/images/tag-handling}}
+</$list>
+<$list filter="[<tv-config-toolbar-text>prefix[yes]]">
+<$text text="list tags"/>
+</$list>
+</$button>

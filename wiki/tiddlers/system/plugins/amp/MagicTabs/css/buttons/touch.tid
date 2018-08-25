@@ -1,0 +1,26 @@
+created: 20150107162841278
+creator: Alberto Molina Pérez
+modified: 20180820022920862
+modifier: Charles Delbé
+tags: $:/tags/Stylesheet $:/plugins/amp/MagicTabs/common
+title: $:/plugins/amp/MagicTabs/css/buttons/touch
+type: text/vnd.tiddlywiki
+
+.btn-touch-big {
+	background: none;
+	color: #999999;
+	border: none;
+	font-size: {{$:/config/MagicTabs/btn-touch/font-size/$:/plugins/amp/MagicTabs}};
+}
+
+.btn-touch-big-down {
+	background: none;
+	color: #333333;
+	border: none;
+	font-size: {{$:/config/MagicTabs/btn-touch/font-size/$:/plugins/amp/MagicTabs}};
+}
+
+.btn-touch-big:hover {
+	color: <<couleur btn-courses-hover>>;
+}
+

@@ -1,0 +1,18 @@
+caption: Publications
+color: #400040
+created: 20150114112601560
+creator: Charles Delbé
+icon: $:/plugins/amp/MagicTabs/new/book
+list: Articles Journals Whitepaper Reports [[Blog Posts]] Reviews
+modified: 20180808164753727
+modifier: Charles Delbé
+title: Publications
+tmap.id: 47128e67-048b-4526-9660-8fdb8b85a49d
+type: text/vnd.tiddlywiki
+xlist: Articles Journals Whitepaper Reports [[Blog Posts]] Reviews
+
+<<tabs
+"[all[current]tagging[]]"
+default: "Articles"
+state: "$:/state/tabs/xlist/publication"
+template:[[$:/.tb/templates/tab/xlist/publication]]>>

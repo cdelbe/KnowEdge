@@ -1,0 +1,19 @@
+created: 20140711080416780
+creator: Alberto Molina Pérez
+modified: 20180820022814915
+modifier: Charles Delbé
+tags: $:/tags/Stylesheet $:/plugins/amp/MagicTabs/common
+title: $:/plugins/amp/MagicTabs/css/image/person
+type: text/vnd.tiddlywiki
+
+.person {
+	border: none;
+	width: 128px;
+	float: right;
+	clear: both;
+	margin: 0 0 1em 0.5em;
+	box-shadow: 2px 2px 15px 1px rgba(119, 119, 119, 0.5);
+	-moz-box-shadow: 2px 2px 15px 1px rgba(119, 119, 119, 0.5);
+	-webkit-box-shadow: 2px 2px 15px 1px rgba(119, 119, 119, 0.5);
+
+}

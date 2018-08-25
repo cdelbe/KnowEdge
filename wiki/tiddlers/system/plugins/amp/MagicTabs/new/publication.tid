@@ -1,0 +1,12 @@
+created: 20150215091411739
+creator: Alberto Molina Pérez
+modified: 20180820022951133
+modifier: Charles Delbé
+tags: $:/plugins/amp/MagicTabs/reading
+test: 
+title: $:/plugins/amp/MagicTabs/new/publication
+type: text/vnd.tiddlywiki
+
+{{$:/plugins/amp/MagicTabs/forms/input/publication}}
+
+{{$:/plugins/amp/MagicTabs/buttons/input/publication}}

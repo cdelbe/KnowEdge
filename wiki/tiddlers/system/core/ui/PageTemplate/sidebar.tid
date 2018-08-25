@@ -1,0 +1,37 @@
+created: 20180728234206025
+creator: Charles Delbé
+modified: 20180812041806003
+modifier: Charles Delbé
+tags: Configuration $:/tags/PageTemplate
+title: $:/core/ui/PageTemplate/sidebar
+type: text/vnd.tiddlywiki
+
+<$scrollable fallthrough="no" class="tc-sidebar-scrollable">
+
+<div class="tc-sidebar-header">
+
+<$reveal state="$:/state/sidebar" type="match" text="yes" default="yes" retain="yes" animate="yes">
+
+<h1 class="tc-site-title">
+
+<$transclude tiddler="$:/SiteTitle" mode="inline"/>
+
+</h1>
+
+<div class="tc-site-subtitle">
+
+<$transclude tiddler="$:/SiteSubtitle" mode="inline"/>
+
+</div>
+
+<!--{{||PlateformLinks}}-->
+
+<!--{{||$:/core/ui/PageTemplate/pagecontrols}}-->
+
+<$transclude tiddler="$:/core/ui/SideBarLists" mode="inline"/>
+
+</$reveal>
+
+</div>
+
+</$scrollable>

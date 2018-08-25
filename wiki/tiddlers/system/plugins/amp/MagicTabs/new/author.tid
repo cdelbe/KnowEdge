@@ -1,0 +1,10 @@
+created: 20150218220825212
+creator: Alberto Molina Pérez
+modified: 20180820023043979
+modifier: Charles Delbé
+tags: $:/action/hide/tabs $:/action/hide/tags $:/plugins/amp/MagicTabs/reading
+title: $:/plugins/amp/MagicTabs/new/author
+type: text/vnd.tiddlywiki
+
+<<mt-input-person type:"$:/type/author">>
+<<mt-new-person type:"$:/type/author">>

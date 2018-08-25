@@ -1,0 +1,11 @@
+created: 20150213224623711
+creator: Charles Delbé
+modified: 20180820022951382
+modifier: Charles Delbé
+tags: $:/tags/Macro $:/plugins/amp/MagicTabs/reading
+title: $:/plugins/amp/MagicTabs/config/authors/title-3
+type: text/vnd.tiddlywiki
+
+\define authorsTitle3()
+$(author1)$, $(author2)$ & $(author3)$
+\end

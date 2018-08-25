@@ -1,0 +1,16 @@
+caption: Advanced Search
+created: 20150121174337179
+creator: inmysocks
+left_menu_order: 
+modified: 20180811211019812
+modifier: Charles Delbé
+order: 10
+right_menu_order: 3
+tags: [[Menu Icon]] [[Icon Menus]] $:/tags/TopRightMenu
+title: $:/plugins/inmysocks/iconmenus/icon/Advanced Search
+top_left_menu_order: 0
+top_middle_menu_order: 0
+top_right_menu_order: 1
+type: text/vnd.tiddlywiki
+
+{{$:/core/ui/Buttons/advanced-search}}

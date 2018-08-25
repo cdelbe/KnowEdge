@@ -1,0 +1,22 @@
+caption: {{$:/plugins/tongerner/toolbar/images/search}} search
+created: 20180215094132405
+creator: Charles Delbé
+description: Search
+left_menu_order: 25
+modified: 20180821230820723
+modifier: Charles Delbé
+tags: [[Menu Icon]] $:/tags/TopLeftBar
+title: $:/plugins/tongerner/toolbar/buttons/search
+type: text/vnd.tiddlywiki
+
+<div class="tgc-dropdown">
+<$button tooltip="Search" class=<<tv-config-toolbar-class>>>
+<$list filter="[<tv-config-toolbar-icons>prefix[yes]]">
+{{$:/plugins/tongerner/toolbar/images/search}}
+</$list>
+<$list filter="[<tv-config-toolbar-text>prefix[yes]]">
+<span class="tc-btn-text"><$text text="search"/></span>
+</$list>
+</$button>
+<div class="tgc-dropdown-content">{{$:/plugins/tongerner/toolbar/search}}</div>
+</div>

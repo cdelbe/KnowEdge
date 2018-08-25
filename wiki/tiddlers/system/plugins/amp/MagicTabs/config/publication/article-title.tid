@@ -1,0 +1,11 @@
+created: 20150217105426083
+creator: Charles Delbé
+modified: 20180820023034999
+modifier: Charles Delbé
+tags: $:/tags/Macro $:/plugins/amp/MagicTabs/reading
+title: $:/plugins/amp/MagicTabs/config/publication/article-title
+type: text/vnd.tiddlywiki
+
+\define pubTitle_article()
+$(authorsTitle)$ ($(publicationDate)$): “$(publicationTitle)$”
+\end

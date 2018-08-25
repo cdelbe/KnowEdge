@@ -1,0 +1,14 @@
+created: 20150202180208817
+creator: Alberto Molina Pérez
+modified: 20180820022957715
+modifier: Charles Delbé
+tags: $:/plugins/amp/MagicTabs/common
+title: $:/plugins/amp/MagicTabs/notifications/new-tiddler
+type: text/vnd.tiddlywiki
+
+<$tiddler tiddler={{$:/state/mt/new-tiddler}}>
+<$reveal state="!!modified" type="nomatch" text="" default="">
+<$link><$view field="title"/></$link>
+</$reveal>
+</$tiddler>
+has been successfully created !

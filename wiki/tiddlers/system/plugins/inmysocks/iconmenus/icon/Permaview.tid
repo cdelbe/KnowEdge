@@ -1,0 +1,16 @@
+caption: Permaview
+created: 20150121173435603
+creator: inmysocks
+left_menu_order: 
+modified: 20180811211028128
+modifier: Charles Delbé
+order: 5
+right_menu_order: 11
+tags: [[Menu Icon]] [[Icon Menus]]
+title: $:/plugins/inmysocks/iconmenus/icon/Permaview
+top_left_menu_order: 0
+top_middle_menu_order: 0
+top_right_menu_order: 0
+type: text/vnd.tiddlywiki
+
+{{$:/core/ui/Buttons/permaview}}

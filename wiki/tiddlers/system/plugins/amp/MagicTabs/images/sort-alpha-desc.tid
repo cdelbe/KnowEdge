@@ -1,0 +1,9 @@
+created: 20150211232205463
+creator: Alberto Molina Pérez
+modified: 20180820022936001
+modifier: Charles Delbé
+tags: $:/plugins/amp/MagicTabs/common
+title: $:/plugins/amp/MagicTabs/images/sort-alpha-desc
+type: text/vnd.tiddlywiki
+
+<<mt-image "fa-sort-alpha-up" "sort-alpha-desc" "Sort-alpha-desc">>

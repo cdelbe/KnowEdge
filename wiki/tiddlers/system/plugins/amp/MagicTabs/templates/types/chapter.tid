@@ -1,0 +1,13 @@
+about: 
+color: #8080ff
+created: 20150207180159702
+creator: Charles Delbé
+icon: $:/plugins/amp/MagicTabs/images/chapter
+modified: 20180825031313753
+modifier: Charles Delbé
+order: 
+parents: 
+tags: $:/type/chapter $:/type/publication
+title: $:/plugins/amp/MagicTabs/templates/types/chapter
+type: text/vnd.tiddlywiki
+

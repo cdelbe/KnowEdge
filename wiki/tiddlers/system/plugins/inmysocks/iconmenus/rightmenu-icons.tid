@@ -1,0 +1,25 @@
+class: tc-rightmenu-wrapper
+created: 20150123170243215
+creator: TonGerner
+modified: 20180806201237642
+modifier: Charles Delbé
+revision: 0
+tags: [[Icon Menus]]
+title: $:/plugins/inmysocks/iconmenus/rightmenu-icons
+type: application/x-tiddler
+
+<div class="tc-rightmenu-wrapper">
+<div class="tc-page-controls tc-rightmenu">
+
+@@.tc-site-title
+
+@@
+
+<$list filter='[tag[$:/tags/RightMenu]][plugintiddlers[]tag[$:/tags/RightMenu]]+[nsort[right_menu_order]]'>
+
+<$transclude/>
+
+</$list>
+
+</div>
+</div>

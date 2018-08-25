@@ -1,0 +1,48 @@
+/* ONLY WIDE SCREEN */
+
+@media (min-width: 800px) {
+
+/* CONTROL BUTTONS */
+
+
+/* TIDDLER TOOLBAR */
+
+.tc-tiddler-view-frame .tc-tiddler-controls svg {
+    fill:transparent;
+}
+
+/* VISIBLE BUTTONS DEFAULT COLOR*/
+.tc-tiddler-view-frame .tc-tiddler-controls:hover svg,
+.tc-tiddler-view-frame .tc-tiddler-controls [aria-label~=fermer] svg,
+.tc-tiddler-view-frame .tc-tiddler-controls .close-tabs svg,
+.tc-tiddler-view-frame .tc-tiddler-controls .tc-image-close-button svg,
+.tc-tiddler-view-frame .tc-tiddler-controls .tc-popup svg {
+    fill:#cccccc;
+}
+
+
+/* BUTTON ANIMATION */
+
+.tc-page-controls svg,
+.tc-tiddler-controls svg,
+.tc-topbar button svg,
+.tc-sidebar-scrollable {
+    <<transition "fill 150ms ease-in-out">>
+}
+
+/* EDIT MODE */
+
+textarea.tc-edit-texteditor, code, kbd, pre, samp {
+     font-family: Consolas, Inconsolata, monospace, serif;
+     font-size: 1em;
+}
+
+/* ONLY WIDE SCREEN */
+
+@media (max-width: 800px) {
+
+/* FIX TIDDLER WIDTH */
+.tc-storyview-zoomin-tiddler {
+width: 100% !important;
+}
+}

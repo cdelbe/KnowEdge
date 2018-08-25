@@ -1,0 +1,27 @@
+color: #0080c0
+created: 20180729184243271
+creator: Charles Delbé
+icon: 
+modified: 20180822021833890
+modifier: Charles Delbé
+mt-source.root: 
+mt-source.tiddler: Gestionnaire d'objets
+mt-topics.list: 
+tags: $:/type/topic
+title: Machine Learning
+tmap.id: d37ec586-efc6-4b3a-83ea-24dcfe9815b1
+type: text/vnd.tiddlywiki
+
+! Contenus connexes par type de publication
+{{tag[$:/type/publication||$:/.tb/ui/ViewTemplate/xlists}}
+
+! Liste des publications par type
+<<xlist filter:"[{!!caption}tagging[]]" groups:"[tag[$:/type/publication]sort[]]">>
+---
+
+<<tabs
+"[tag[$:/type/publication]sort[]] $:/type/person $:/type/note"
+default:""
+state: "$:/state/tabs/xlist/publication0"
+template:[[$:/.tb/templates/tab/xlist/publication]]>>
+

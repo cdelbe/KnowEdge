@@ -1,0 +1,18 @@
+caption: author
+color: #ff8383
+created: 20141230112836838
+creator: Alberto Molina Pérez
+icon: images/author
+list: 
+modified: 20180822011805107
+modifier: Charles Delbé
+mt-dashboard.add.content: $:/plugins/amp/MagicTabs/new/author
+mt-dashboard.heading: Authors
+mt-dashboard.icon: images/author
+mt-source.type: $:/type/person
+mt-template.fields: $:/plugins/amp/MagicTabs/templates/types/author
+mt-template.form: $:/plugins/amp/MagicTabs/new/author
+tags: $:/plugins/amp/MagicTabs/reading $:/tags/MagicTabs/dashboard
+title: $:/type/author
+type: text/vnd.tiddlywiki
+

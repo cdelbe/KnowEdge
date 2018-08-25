@@ -1,0 +1,9 @@
+created: 20150223145056554
+creator: Alberto Molina Pérez
+modified: 20180820023043947
+modifier: Charles Delbé
+tags: $:/plugins/amp/MagicTabs/common
+title: $:/plugins/amp/MagicTabs/images/part
+type: text/vnd.tiddlywiki
+
+<<mt-image "far fa-bookmark" "part" "Part">>

@@ -1,0 +1,12 @@
+created: 20140506153005819
+creator: Charles Delbé
+list-after: $:/_ui/ViewTemplate/title
+modified: 20180825004630080
+modifier: Charles Delbé
+tags: $:/tags/ViewTemplate
+title: $:/core/ui/ViewTemplate/tags
+type: text/vnd.tiddlywiki
+
+<!--
+<div class="tw-tags-wrapper"><$list filter="[all[current]tags[]sort[title]]" template="$:/core/ui/TagTemplate" storyview="pop"/></div>
+-->

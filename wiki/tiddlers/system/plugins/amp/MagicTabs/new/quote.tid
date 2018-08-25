@@ -1,0 +1,11 @@
+created: 20150225223059126
+creator: Charles Delbé
+modified: 20180820023043833
+modifier: Charles Delbé
+tags: $:/plugins/amp/MagicTabs/reading
+title: $:/plugins/amp/MagicTabs/new/quote
+type: text/vnd.tiddlywiki
+
+<<mt-fields-form "$:/type/quote">>
+
+<<mt-new-quote-button>>
