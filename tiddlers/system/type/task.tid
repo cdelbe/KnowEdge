@@ -1,0 +1,16 @@
+caption: Task
+color: #7878bc
+created: 20150125150841844
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/check
+modified: 20181030053232261
+modifier: Charles Delbé
+mt-dashboard.heading: Tasks
+mt-dashboard.icon: $:/plugins/.CD/KnowEdge/images/check
+mt-source.type: $:/type/root
+mt-template.fields: $:/plugins/amp/MagicTabs/templates/types/task
+mt-template.form: 
+tags: $:/tags/Tagging $:/tags/MagicTabs/dashboard
+title: $:/type/task
+type: text/vnd.tiddlywiki
+

@@ -1,0 +1,14 @@
+created: 20181107181943573
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Bitbucket
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f171
+modified: 20181125084943422
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/bitbucket
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-bitbucket fa-10x'></i>

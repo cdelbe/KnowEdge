@@ -1,0 +1,27 @@
+authors: 
+color: #087268
+created: 20180814205623702
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/model
+list: [[Graphical Model]] [[Knowledge Tracing]]
+modified: 20181025145237531
+modifier: Charles Delbé
+mt-topics.list: [[Graphical Model]] [[Knowledge Tracing]]
+tags: $:/type/model $:/type/knowledge
+title: Knowledge Graph
+tmap.fa-icon: &#xf085;
+tmap.id: f7f791c2-e051-4748-beaa-41e9a08036e0
+type: text/vnd.tiddlywiki
+
+;Graphes de compétences/connaissances
+:Ils représentent les prérequis et les relations entre les différents types de connaissances et/ou compétences.
+
+La notion de relations entre contenus pédagogiques peut être représentées par un [[modèle graphique|Graphical Model]] (Doignon & Falmagne, 1999; [[Doignon & Falmagne (2016)|]]; ~McAleese, 1999).
+
+;See also
+:[[Knowledge Space Theory]]
+
+---
+:~McAleese, R. (1999). Concept Mapping: A Critical Review. //Innovations in Education and Training International//, 36(4):351–360
+:Doignon, J. P. & Falmagne, J. C. (1999). //Knowledge Spaces//. Springer.
+:[[Doignon & Falmagne (2016)]]

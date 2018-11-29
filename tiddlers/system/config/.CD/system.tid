@@ -1,0 +1,68 @@
+caption: Know/Edge Tweaks
+created: 20181104170930491
+creator: Charles Delbé
+ke-body-justify: yes
+ke-color-author: rgb(128,128,0,0.85)
+ke-color-bookmark: rgb(104,18,36,0.85)
+ke-color-concept: rgb(128,0,128,0.85)
+ke-color-journal: rgb(255,255,0,0.85)
+ke-color-knowedge: rgb(129,181,59,085)
+ke-color-model: rgb(8,114,104,0.85)
+ke-color-note: rgb(255,165,0,0.85)
+ke-color-part: rgb(236,99,83,0.85)
+ke-color-publication: rgb(178,26,44,85)
+ke-color-software: rgb(255,128,64,0.85)
+ke-color-system: rgb(34,45,86,0.85)
+ke-color-task: rgb(120,120,188,0.85)
+ke-color-topic: rgb(0,64,128,0.85)
+ke-decorate-tiddlers-title: yes
+ke-version: 1.3.0
+modified: 20181123071414648
+modifier: Charles Delbé
+tags: $:/tags/@CD $:/tags/ControlPanel @:/tags/DRAFT
+title: $:/config/.CD/system
+type: text/vnd.tiddlywiki
+
+\define buttonTaggingViewMode()
+  <$fieldmangler tiddler="$:/plugins/tongerner/toolbar/tagging">
+  <$list filter="[[$:/plugins/tongerner/toolbar/tagging]tag[$:/tags/ViewTemplate]]">
+  <$button message="tm-remove-tag" tooltip="Hide tagging in view mode" param="$:/tags/ViewTemplate" >
+  Disable
+  <$action-setfield $tiddler="$:/plugins/amp/MagicTabs/ViewTemplate/tags" tags="$:/tags/ViewTemplate"/>
+  </$button>
+  </$list>
+  <$list filter="[[$:/plugins/tongerner/toolbar/tagging]!tag[$:/tags/ViewTemplate]]">
+  <$button message="tm-add-tag" tooltip="Tagging in view mode" param="$:/tags/ViewTemplate" >
+  Enable
+  <$action-setfield $tiddler="$:/plugins/amp/MagicTabs/ViewTemplate/tags" tags=""/>
+  </$button>
+  </$list>
+  </$fieldmangler>
+\end
+
+This tiddler is used to configure the "KnowEdge" plugin behaviour. 
+
+There are X fields, which are used by [[$:/plugins/wikilabs/link-to-tabs/styles]] enable and disable the internal links. 
+
+* ke-body-justify: {{!!ke-body-justify}}
+* ke-color-author: {{!!ke-color-author}}
+
+
+---
+
+!Know/Edge Tweaks
+
+!!Configuration
+
+!!!UI
+<$checkbox tiddler="$:/plugins/.CD/KnowEdge/ui/ViewTemplate/breadcrumbs" tag="$:/tags/ViewTemplate">&nbsp;Show breadcrumb</$checkbox><br/>
+<$checkbox tiddler="$:/plugins/.CD/KnowEdge/ui/ViewTemplate/blackline" tag="$:/tags/ViewTemplate">&nbsp;Show blackline separator</$checkbox><br/>
+<$checkbox tiddler="$:/config/SystemTags/Visibility/$:/plugins/amp/MagicTabs/noSysTags" field="text" checked="show" unchecked="hide" default="show" >&nbsp;Show system tags</$checkbox><br/>
+<$checkbox tiddler=<<@get-cfg-path>> field="ke-decorate-tiddlers-title" checked="yes" unchecked="no" default="yes">&nbsp;Color tiddlers title background</$checkbox><br/>
+<$checkbox tiddler=<<@get-cfg-path>> field="ke-body-justify" checked="yes" unchecked="no" default="yes">&nbsp;Justify text body</$checkbox><br/>
+
+!!!UX
+Tagging in view mode : <<buttonTaggingViewMode>><br/>
+
+!!!Misc.
+<$checkbox tiddler="$:/status/IsReadOnly" field="text" checked="yes" unchecked="no" default="no" >&nbsp;Wiki is Read-only</$checkbox>

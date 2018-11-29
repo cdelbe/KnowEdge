@@ -1,0 +1,13 @@
+created: 20181024150806717
+creator: Charles Delbé
+list-after: $:/core/ui/ViewTemplate/body
+modified: 20181104221724340
+modifier: Charles Delbé
+title: $:/plugins/wikilabs/uni-link/aka-footer/template
+type: text/vnd.tiddlywiki
+
+<$reveal type="nomatch" state=<<folded-state>> text="hide" retain="yes" animate="yes">
+<br/>
+<hr>
+''Note'': This tiddler has the following aliases: <<showAliases delim:" ||">>
+</$reveal>

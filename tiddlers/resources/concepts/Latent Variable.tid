@@ -1,0 +1,17 @@
+color: #800080
+created: 20180825162905136
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: [[Bayes' Theorem]] [[Learner Model]]
+modified: 20180924004239746
+modifier: Charles Delbé
+mt-source.root: Bayes' Theorem
+mt-source.tiddler: Bayesian Knowledge Tracing
+mt-topics.list: [[Bayes' Theorem]] [[Learner Model]] 
+tags: $:/type/concept $:/type/knowledge
+title: Latent Variable
+tmap.fa-icon: &#xf12e;
+tmap.id: 1b17cf3c-f62f-4d54-ab22-178521cf8cab
+type: text/vnd.tiddlywiki
+
+Une variable latente est une variable dont on fait l'hypothèse et qui ne peut pas être mesurée directement, mais est supposée être à la base d'une ou plusieurs variables observées.

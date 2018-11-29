@@ -1,0 +1,14 @@
+created: 20181107181943709
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Building
+fa-style-classes: fas far
+fa-styles: solid regular
+fa-unicode: f1ad
+modified: 20181125084944039
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/building
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-building fa-10x'></i>

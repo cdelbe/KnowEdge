@@ -1,0 +1,142 @@
+created: 20181108075032935
+creator: Charles Delbé
+modified: 20181108075032935
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\tabindex.html
+tmap.id: 49883438-03b6-4bf0-a553-63502daa3888
+type: text/html
+
+created: 20181108074509527
+creator: Charles Delbé
+modified: 20181108074509527
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\tabindex.html
+tmap.id: f3f0d940-08ff-4013-835e-56a1cd406953
+type: text/html
+
+created: 20181108074214335
+creator: Charles Delbé
+modified: 20181108074214335
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\tabindex.html
+tmap.id: 59c61f50-7a2c-451e-9799-2234c4690ab6
+type: text/html
+
+created: 20181108073418126
+creator: Charles Delbé
+modified: 20181108073418126
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\tabindex.html
+tmap.id: 2b8e2802-0acc-44ab-bc76-bfb09f590121
+type: text/html
+
+created: 20181108070528357
+creator: Charles Delbé
+modified: 20181108070528357
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\tabindex.html
+tmap.id: d6efc9af-ba4c-4f36-8e81-4f36f437bc1d
+type: text/html
+
+created: 20181108070319233
+creator: Charles Delbé
+modified: 20181108070319233
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\tabindex.html
+tmap.id: 1419d771-d9c6-44f2-a5e0-b85a51c80f30
+type: text/html
+
+created: 20181108063935064
+creator: Charles Delbé
+modified: 20181108063935064
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\tabindex.html
+tmap.id: bb110b6e-d681-4079-bd37-89f3e33230e1
+type: text/html
+
+created: 20181108063817926
+creator: Charles Delbé
+modified: 20181108063817926
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\ckeditor\samples\old\tabindex.html
+tmap.id: d1b95e79-bfe5-4ddd-bbef-ded4479e8528
+type: text/html
+
+<!DOCTYPE html>
+<!--
+Copyright (c) 2003-2018, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
+-->
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>TAB Key-Based Navigation &mdash; CKEditor Sample</title>
+	<script src="../../ckeditor.js"></script>
+	<link href="sample.css" rel="stylesheet">
+	<style>
+
+		.cke_focused,
+		.cke_editable.cke_focused
+		{
+			outline: 3px dotted blue !important;
+			*border: 3px dotted blue !important;	/* For IE7 */
+		}
+
+	</style>
+	<script>
+
+		CKEDITOR.on( 'instanceReady', function( evt ) {
+			var editor = evt.editor;
+			editor.setData( 'This editor has it\'s tabIndex set to <strong>' + editor.tabIndex + '</strong>' );
+
+			// Apply focus class name.
+			editor.on( 'focus', function() {
+				editor.container.addClass( 'cke_focused' );
+			});
+			editor.on( 'blur', function() {
+				editor.container.removeClass( 'cke_focused' );
+			});
+
+			// Put startup focus on the first editor in tab order.
+			if ( editor.tabIndex == 1 )
+				editor.focus();
+		});
+
+	</script>
+</head>
+<body>
+	<h1 class="samples">
+		<a href="index.html">CKEditor Samples</a> &raquo; TAB Key-Based Navigation
+	</h1>
+	<div class="warning deprecated">
+		This sample is not maintained anymore. Check out its <a href="https://sdk.ckeditor.com/samples/tabindex.html">brand new version in CKEditor SDK</a>.
+	</div>
+	<div class="description">
+		<p>
+			This sample shows how tab key navigation among editor instances is
+			affected by the <code>tabIndex</code> attribute from
+			the original page element. Use TAB key to move between the editors.
+		</p>
+	</div>
+	<p>
+		<textarea class="ckeditor" cols="80" id="editor4" rows="10" tabindex="1"></textarea>
+	</p>
+	<div class="ckeditor" contenteditable="true" id="editor1" tabindex="4"></div>
+	<p>
+		<textarea class="ckeditor" cols="80" id="editor2" rows="10" tabindex="2"></textarea>
+	</p>
+	<p>
+		<textarea class="ckeditor" cols="80" id="editor3" rows="10" tabindex="3"></textarea>
+	</p>
+	<div id="footer">
+		<hr>
+		<p>
+			CKEditor - The text editor for the Internet - <a class="samples" href="https://ckeditor.com/">https://ckeditor.com</a>
+		</p>
+		<p id="copy">
+			Copyright &copy; 2003-2018, <a class="samples" href="https://cksource.com/">CKSource</a> - Frederico
+			Knabben. All rights reserved.
+		</p>
+	</div>
+</body>
+</html>

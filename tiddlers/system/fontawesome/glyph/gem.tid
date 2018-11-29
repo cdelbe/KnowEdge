@@ -1,0 +1,14 @@
+created: 20181107181946163
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Gem
+fa-style-classes: fas far
+fa-styles: solid regular
+fa-unicode: f3a5
+modified: 20181125084945953
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/gem
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-gem fa-10x'></i>

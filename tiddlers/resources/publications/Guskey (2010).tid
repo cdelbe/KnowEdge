@@ -1,0 +1,24 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180916153759218
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: [[Mastery Learning]] [[Response to Intervention]]
+modified: 20181029084126507
+modifier: Charles Delbé
+mt-authors.title: Guskey
+mt-publication.citation: Guskey, T. (2010). Lessons of mastery learning.//Educational Leadership//, 68(2):52-57.
+mt-publication.date: 2010
+mt-publication.issue: 2
+mt-publication.journal: Educational Leadership
+mt-publication.title: Lessons of mastery learning.
+mt-publication.volume: 68
+mt-source.authors.list: [[Thomas Guskey]]
+mt-topics.list: [[Mastery Learning]] [[Response to Intervention]]
+tags: @:/type/article $:/type/publication
+title: Guskey (2010)
+tmap.fa-icon: &x#f0f6;
+tmap.id: a65d36bd-0507-4825-b8c8-396270ed476f
+type: text/vnd.tiddlywiki
+url: https://uknowledge.uky.edu/cgi/viewcontent.cgi?referer=https://scholar.google.fr/&httpsredir=1&article=1011&context=edp_facpub
+

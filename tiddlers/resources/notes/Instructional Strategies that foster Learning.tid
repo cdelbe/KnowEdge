@@ -1,0 +1,47 @@
+about: 
+color: #FFA500
+created: 20180725153952278
+creator: Charles Delbé
+description: 
+icon: $:/plugins/.CD/KnowEdge/images/note
+list: [[Spaced Reinforcement]] [[Instructional Strategy]] [[Test-Enhanced Learning]]
+modified: 20181022203955524
+modifier: Charles Delbé
+mt-part.order: 2
+mt-source.parents.list: 
+mt-source.root: 
+mt-source.tiddler: Instructional Strategy
+mt-topics.list: [[Spaced Reinforcement]] [[Instructional Strategy]] [[Test-Enhanced Learning]]
+tags: $:/type/note
+title: Instructional Strategies that foster Learning
+tmap.fa-icon: &#xf044;
+tmap.id: 25f03a0a-a08f-4c1a-a10f-83aa164fc13b
+type: text/vnd.tiddlywiki
+
+[[Dunlosky et al. (2013): “Improving students’ learning with effective learning techniques: promising directions from cognitive and educational psychology.”]] ont évalué 10 pratiques de révision et ont conclu que la [[répétition espacée|Spaced Reinforcement]] et les (auto-) [[évaluations formatives|Formative Assessment]] font partie des techniques de révision les plus efficaces, confirmant ainsi les travaux de [[Roediger & Karpicke (2006): Test-Enhanced Learning: Taking Memory Tests Improves Long-Term Retention.]]] qui avaient mis en évidence les avantages de la combinaison de ces deux méthodes dès 2006. Dans le domaine des ''[[mathématiques|Mathematics]]'', Hopkins et coll. (2016) ont notamment montré que la combinaison des deux pratiques, réaliser des exercices fréquemment et les espacer dans le temps, maximise l'[[ancrage mémoriel|Memory Anchoring]].
+
+!La ''révision par les tests'' ([[Test-Enhanced Learning|?]])
+auto-[[évaluations formatives|Formative Assessment]] ou évaluation sur un concept qui n’est pas encore consolidé. "Se confronter à ses erreurs et consolider l'information en mémoire"
+
+In essence, ''test-enhanced learning'' is the idea that the process of remembering concepts or facts—retrieving them from memory—''increases long-term retention'' of those concepts or facts. This idea, also known as ''the testing effect'', rests on myriad studies examining the ability of various types of “tests”—prompts to promote retrieval—to promote learning when compared to studying. It is one of the most consistent findings in cognitive psychology (Roediger and Butler 2011; Roediger and Pyc 2012).
+
+:Roediger HL III and Butler AC (2011). The critical role of retrieval practice in long-term retention. Trends in Cognitive Sciences 15, 20-27.
+:Roediger HL III and Pyc MA (2012). Inexpensive techniques to improve education: Applying cognitive psychology to enhance educational practice. Journal of Applied Research in Memory and Cognition 1, 242-248.
+
+;Voir
+:[[Test-enhanced learning: Using retrieval practice to help students learn|https://cft.vanderbilt.edu/guides-sub-pages/test-enhanced-learning-using-retrieval-practice-to-help-students-learn/]]
+
+![[Répétition espacée|Spaced Reinforcement]]
+La pratique des répétitions espacées consiste à concevoir un programme de révision qui étale les activités d’étude dans le temps. 
+
+Apprendre en espaçant : ''oublier pour mieux retenir'' 
+
+"Une deuxième stratégie d'apprentissage efficace démontrée par la recherche est la ''distribution espacée des révisions dans le temps'' ([[Cepeda et al. (2006): “Distributed practice in verbal recall tasks: A review and quantitative synthesis.”]]). ''L'apprentissage distribué'' consiste à répartir dans le temps les sessions de pratique et de révision jusqu'à l'échéance fixée pour la maîtrise du sujet" 
+
+Contrairement à l'apprentissage "massé", cette méthode permet d'''oublier les connaissances apprises'' entre deux sessions de révision, ce qui augmente ''l'effort cognitif'' lors de la deuxième révision (Kapler et coll., 2015). "Cet oubli est bénéfique : la répétition espacée de cet effort cognitif de récupération en mémoire consolide l'information, et augmente les performances lorsque l'apprenant doit ultérieurement mobiliser les connaissances ou compétences travaillées"
+
+
+---
+Kapler, I. V., Weston, T., & Wiseheart, M. (2015). Spacing in a simulated undergraduate classroom: Long-term benefits for factual and higher-level learning. //Learning and Instruction//, 36:38–45.
+
+Hopkins, R., Lyle K., Hieb J., & Ralston P. (2016). Spaced Retrieval Practice Increases College Students' Short- and Long-Term Retention of Mathematics Knowledge. //Educational Psychology Review,// 28(4):853–873.

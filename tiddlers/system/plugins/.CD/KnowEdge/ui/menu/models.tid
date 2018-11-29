@@ -1,0 +1,13 @@
+caption: Models
+created: 20181024072143460
+creator: Charles Delbé
+dropdown: $:/plugins/.CD/KnowEdge/ui/menu/models/dropdown
+list-after: $:/plugins/.CD/KnowEdge/ui/menu/concepts
+menu-pos: 7
+modified: 20181106175710674
+modifier: Charles Delbé
+tags: $:/tags/@CD $:/tags/Static/TopMenu $:/tags/TopMenu
+target: $:/type/model
+title: $:/plugins/.CD/KnowEdge/ui/menu/models
+type: text/vnd.tiddlywiki
+

@@ -1,0 +1,14 @@
+created: 20181107181949707
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Alternate Shield
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f3ed
+modified: 20181125084949192
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/shield-alt
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-shield-alt fa-10x'></i>

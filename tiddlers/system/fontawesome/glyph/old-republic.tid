@@ -1,0 +1,14 @@
+created: 20181107181948702
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Old Republic
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f510
+modified: 20181125084948076
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/old-republic
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-old-republic fa-10x'></i>

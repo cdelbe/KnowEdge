@@ -1,0 +1,46 @@
+created: 20180729060343528
+creator: Charles Delbé
+list-after: 
+modified: 20181029034555521
+modifier: Charles Delbé
+tags: $:/tags/config $:/tags/Stylesheet $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/styles/infoboxes
+tmap.id: d8d45223-d0f8-4704-82c3-fc0e20843056
+type: text/vnd.tiddlywiki
+
+/* INFO BOXES */
+
+.note {
+        padding: 10px;
+        background: #ffff66;
+        border-radius: 7px;
+        transition: all .28s cubic-bezier(.4, 0, .2, 1);
+        margin: 0px;
+    }
+    
+    .warn,
+    .warn a {
+        color: #dd1144;
+        border: 1px solid #dd1144;
+        border-radius: 7px;
+        padding: 10px;
+    }
+    
+    .description {
+        font-style:italic;
+        color:var(--grey);
+    }
+    
+    .tb-thumbs {
+        width: 160px;
+        margin: 0 10px 10px 0;
+    }
+    
+    .grey-svg svg{
+    fill: var(--light-grey);
+    height:12px !important;
+    }
+    
+    .grey-svg:hover svg{
+    fill: var(--grey);
+    }

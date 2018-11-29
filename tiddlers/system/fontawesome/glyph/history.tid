@@ -1,0 +1,14 @@
+created: 20181107181946771
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: History
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f1da
+modified: 20181125084946698
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/history
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-history fa-10x'></i>

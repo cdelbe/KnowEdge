@@ -1,9 +1,0 @@
-created: 20150211231838336
-creator: Alberto Molina Pérez
-modified: 20180820022939416
-modifier: Charles Delbé
-tags: $:/plugins/amp/MagicTabs/common
-title: $:/plugins/amp/MagicTabs/images/filter
-type: text/vnd.tiddlywiki
-
-<<mt-image "fa-filter" "filter" "Filter">>

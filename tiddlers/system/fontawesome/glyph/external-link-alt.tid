@@ -1,0 +1,14 @@
+created: 20181107181945488
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Alternate External Link
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f35d
+modified: 20181125084945116
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/external-link-alt
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-external-link-alt fa-10x'></i>

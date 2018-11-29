@@ -1,0 +1,14 @@
+created: 20181107182002028
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Vihara
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f6a7
+modified: 20181125084950764
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/vihara
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-vihara fa-10x'></i>

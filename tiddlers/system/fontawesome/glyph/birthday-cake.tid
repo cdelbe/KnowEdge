@@ -1,0 +1,14 @@
+created: 20181107181943578
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Birthday Cake
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f1fd
+modified: 20181125084943427
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/birthday-cake
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-birthday-cake fa-10x'></i>

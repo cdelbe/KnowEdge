@@ -1,0 +1,14 @@
+created: 20181107181943760
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Braille
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f2a1
+modified: 20181125084943282
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/braille
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-braille fa-10x'></i>

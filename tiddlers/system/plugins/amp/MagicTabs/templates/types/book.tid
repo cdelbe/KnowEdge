@@ -1,0 +1,15 @@
+color: #b21a2c
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/book
+modified: 20181106181830301
+modifier: Charles Delbé
+mt-publication.city: 
+mt-publication.edition: 
+mt-publication.publisher: 
+mt-publication.volume: 
+tags: $:/tags/@CD/tweaked $:/tags/@CD $:/type/book $:/type/publication
+title: $:/plugins/amp/MagicTabs/templates/types/book
+tmap.fa-icon: &#xf02d;
+type: text/vnd.tiddlywiki
+

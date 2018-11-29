@@ -1,0 +1,14 @@
+created: 20181107181943291
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Balance Scale
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f24e
+modified: 20181125084942776
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/balance-scale
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-balance-scale fa-10x'></i>

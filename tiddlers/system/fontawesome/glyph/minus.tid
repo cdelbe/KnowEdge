@@ -1,0 +1,14 @@
+created: 20181107181948087
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: minus
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f068
+modified: 20181125084947888
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/minus
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-minus fa-10x'></i>

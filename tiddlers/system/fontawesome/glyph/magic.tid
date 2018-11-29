@@ -1,0 +1,14 @@
+created: 20181107181947860
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: magic
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f0d0
+modified: 20181125084947569
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/magic
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-magic fa-10x'></i>

@@ -1,0 +1,14 @@
+created: 20181107182001924
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Alternate User Slash
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f4fa
+modified: 20181125084950550
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/user-alt-slash
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-user-alt-slash fa-10x'></i>

@@ -1,0 +1,14 @@
+created: 20181107181945864
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: First Aid
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f479
+modified: 20181125084945708
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/first-aid
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-first-aid fa-10x'></i>

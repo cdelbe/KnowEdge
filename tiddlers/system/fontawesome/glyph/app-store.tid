@@ -1,0 +1,14 @@
+created: 20181107181943483
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: App Store
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f36f
+modified: 20181125084943000
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/app-store
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-app-store fa-10x'></i>

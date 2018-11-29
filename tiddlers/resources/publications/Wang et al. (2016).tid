@@ -1,0 +1,25 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180916153759218
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: [[Knowledge Tracing]] MOOC [[Learner Model]] [[Bayesian Knowledge Tracing]] [[Expectation maximization]]
+modified: 20181026011701901
+modifier: Charles Delbé
+mt-authors.title: Wang et al.
+mt-publication.citation: Wang, Z., Zhu, J., Li, X., Hu, Z., & Zhang, M. (2016, April). Structured knowledge tracing models for student assessment on Coursera. In //Proceedings of the Third (2016) ACM Conference on Learning@ Scale// (pp. 209-212). ACM.
+mt-publication.date: 2016
+mt-publication.issue: 
+mt-publication.journal: Proceedings of the Third (2016) ACM Conference on Learning@ Scale
+mt-publication.title: Structured knowledge tracing models for student assessment on Coursera
+mt-publication.volume: 
+mt-source.authors.list: [[Zhuo Wang]]
+mt-topics.list: [[Knowledge Tracing]] MOOC [[Learner Model]] [[Bayesian Knowledge Tracing]] [[Expectation maximization]]
+abstract: Massive Open Online Courses (MOOCs) provide an effective learning platform with various high-quality educational materials accessible to learners from all over the world. However, current MOOCs lack personalized learning guidance and intelligent assessment for individuals. Though a few recent attempts have been made to trace students’ knowledge states by adapting the popular Bayesian Knowledge Tracing (BKT) model, they have largely ignored the rich structures and correlations among knowledge components (KCs) within a course. This paper proposes to model both the hierarchical and the temporal properties of the knowledge states in order to improve the modeling accuracy. Based on the content organization characteristics on the Coursera MOOC platform, we provide a well-defined KC model, and develop Multi-Grained-BKT and Historical-BKT to capture the above features effectively. Experiments on a Coursera course dataset show our approach significantly improves over previous vanilla BKT models on predicting students’ quiz performance.
+tags: @:/type/article $:/type/publication
+title: Wang et al. (2016)
+tmap.fa-icon: &x#f0f6;
+tmap.id: 5bbe57a8-138f-47b0-9d89-e16bdb43b453
+type: text/vnd.tiddlywiki
+url: https://www.cs.cmu.edu/~zhitingh/data/lats16structured.pdf
+

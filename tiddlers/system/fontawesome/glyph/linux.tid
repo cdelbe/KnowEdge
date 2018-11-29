@@ -1,0 +1,14 @@
+created: 20181107181947605
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Linux
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f17c
+modified: 20181125084947506
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/linux
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-linux fa-10x'></i>

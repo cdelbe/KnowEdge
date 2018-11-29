@@ -1,0 +1,14 @@
+created: 20181107181947223
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Kaggle
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f5fa
+modified: 20181125084947224
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/kaggle
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-kaggle fa-10x'></i>

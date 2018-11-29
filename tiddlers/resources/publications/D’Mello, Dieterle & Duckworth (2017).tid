@@ -1,0 +1,23 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181028185609401
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: Engagement Measurement [[Machine Learning]]
+modified: 20181028185930688
+modifier: Charles Delbé
+mt-authors.title: D’Mello, Dieterle & Duckworth
+mt-publication.citation: D’Mello, S., Dieterle, E., & Duckworth, A. (2017). Advanced, Analytic, Automated (AAA) Measurement of Engagement During Learning. //Educ Psychol.// 52(2): 104–123.
+mt-publication.date: 2017
+mt-publication.subtitle: 
+mt-publication.title: Advanced, Analytic, Automated (AAA) Measurement of Engagement During Learning
+mt-source.authors.list: [[Sidney D’Mello]] [[Ed Dieterle]] [[Angela Duckworth]]
+mt-topics.list: [[Engagement]] [[Measurement]] [[Machine Learning]]
+abstract: It is generally acknowledged that engagement plays a critical role in learning. Unfortunately, the study of engagement has been stymied by a lack of valid and efficient measures. We introduce the advanced, analytic, and automated (AAA) approach to measure engagement at fine-grained temporal resolutions. The AAA measurement approach is grounded in embodied theories of cognition and affect, which advocate a close coupling between thought and action. It uses machine-learned computational models to automatically infer mental states associated with engagement (e.g., interest, flow) from machine-readable behavioral and physiological signals (e.g., facial expressions, eye tracking, click-stream data) and from aspects of the environmental context. We present15 case studies that illustrate the potential of the AAA approach for measuring engagement in digital learning environments. We discuss strengths and weaknesses of the AAA approach, concluding that it has significant promise to catalyze engagement research.
+tags: @:/type/article $:/type/publication
+title: D’Mello, Dieterle & Duckworth (2017)
+tmap.fa-icon: &x#f0f6;
+tmap.id: a1edcf08-5b6c-416a-9a74-c3054ec0fc2b
+type: text/vnd.tiddlywiki
+url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5640167/
+

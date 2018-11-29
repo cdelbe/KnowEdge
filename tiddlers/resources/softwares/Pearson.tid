@@ -1,0 +1,48 @@
+color: #ff8040
+created: 20180814205623702
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/software
+list: Scaffolding [[Cognitive Load]] [[Learning Analytics]] [[Adaptive Learning]] [[Spaced Reinforcement]]
+modified: 20180929215004901
+modifier: Charles Delbé
+mt-topics.list: Scaffolding [[Cognitive Load]] [[Learning Analytics]] [[Adaptive Learning]] [[Spaced Reinforcement]]
+tags: $:/type/software Mathematics
+title: Pearson
+tmap.fa-icon: &#xf120;
+tmap.id: 3fbd5d28-6850-403e-aa43-ccb432383952
+type: text/vnd.tiddlywiki
+url: https://www.pearson.com/us/
+
+!!!Supporting knowledge retention
+Drawing upon [[Memory]] and memorization research, learning scientists have developed a number of ''strategies'' for optimizing the presentation of information to support ''knowledge retention''.
+
+Research indicates that [[repetition over time|Spaced Reinforcement]] — especially in varied contexts — boosts both ''encoding'' (how well knowledge is stored) and ''retrieval'' (how well knowledge can be remembered) of information. Essentially, the more times a particular idea is encountered or a specific skill is practiced, the more likely it will be understood and committed to ''long-term memory''.
+
+Pearson ~MyLab Math’s ''[[Assessment]] architecture'' offers students many opportunities to apply what they’re learning to solve various problems.
+
+!!!Supporting learning via scaffolding
+Research has found that ''novices'' learn and process information in fundamentally ''different ways'' than those with more ''expertise''. Therefore, it’s critically important to provide these learners with the ''level of support'' they need, ''''when'''' they need it.
+
+This technique is known as “[[Scaffolding]].” Among the most effective forms of scaffolding is the use of ''worked examples'' of ''increasing complexity'' to foster constructive cognitive processing.
+
+Pearson ~MyLab Math offers a practice environment that is informed by principles of effective scaffolding.
+
+* When students practice, they can access ''step-by-step guidance ''on how to solve challenging problems on demand.
+* Throughout Pearson ~MyLab Math’s practice environment, ''hints'', videos, and animations are just a click away.
+
+https://www.pearsonmylabandmastering.com/northamerica/mymathlab/educators/why-it-works/learning-science/scaffolding.html
+
+!!!Reducing extraneous cognitive load
+In cognitive psychology, ''[[Cognitive load]]'' refers to the total ''amount of mental effort'' being used in ''working memory''. One facet of this is extraneous cognitive load (mental effort spent on distracting elements that are not relevant to the learning).
+
+Research shows that if you can ''reduce'' extraneous cognitive load, you can make it easier for students to ''process the important information'' and move it from working memory to ''long-term memory''. Put simply, if you remove ''distractions'', learning occurs more readily.
+
+Pearson ~MyLab Math’s presentation of content reduces extraneous cognitive load to keep students focused on what’s important.
+
+* ''Organized'' coherently into topics and subtopics, content is presented in ''manageable chunks'' to help students learn without becoming overwhelmed.
+* Pearson ~MyLab Math’s assessments are delivered via a multimedia environment that is ''coherent and concise'', providing everything students need for the task at hand.
+
+https://www.pearsonmylabandmastering.com/northamerica/mymathlab/educators/why-it-works/learning-science/cognitive-load.html
+
+!!References
+:[ext[Data, Analytics, & Adaptive Learning|https://www.pearson.com/us/higher-education/why-choose-pearson/thought-leadership/data-analytics-adaptive-learning.html]]

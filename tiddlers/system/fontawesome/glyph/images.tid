@@ -1,0 +1,14 @@
+created: 20181107181946887
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Images
+fa-style-classes: fas far
+fa-styles: solid regular
+fa-unicode: f302
+modified: 20181125084946841
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/images
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-images fa-10x'></i>

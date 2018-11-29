@@ -1,0 +1,14 @@
+created: 20181107181950075
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Star of Life
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f621
+modified: 20181125084949649
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/star-of-life
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-star-of-life fa-10x'></i>

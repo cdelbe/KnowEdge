@@ -1,0 +1,19 @@
+caption: count
+created: 20131024141900000
+creator: Charles Delbé
+modified: 20180820083736224
+modifier: Charles Delbé
+title: CountWidget
+tmap.id: 5b22c372-78e5-43f6-aea9-ca97d8b3643e
+type: text/vnd.tiddlywiki
+
+! Introduction
+
+The count widget displays the number of matches to a specified [[filter expression|Filters]].
+
+! Content and Attributes
+
+The content of the `<$count>` widget is ignored.
+
+|!Attribute |!Description |
+|filter |The filter expression to count |

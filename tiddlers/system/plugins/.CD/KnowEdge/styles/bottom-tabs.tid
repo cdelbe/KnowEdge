@@ -1,0 +1,116 @@
+created: 20180729060343528
+creator: Charles Delbé
+list-after: 
+modified: 20181029034656540
+modifier: Charles Delbé
+tags: $:/tags/config $:/tags/Stylesheet $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/styles/bottom-tabs
+tmap.id: d8d45223-d0f8-4703-82c3-ac0e20843056
+type: text/vnd.tiddlywiki
+
+.tc-tab-content .bottom-tabs .blue > p {
+    margin-top: 0.25em;
+    margin-bottom: 0;
+    /*text-align: justify;*/
+}
+
+.bottom-tabs .tc-tab-buttons button {
+    outline: none!important;
+    color: #999;
+}
+.bottom-tabs .tc-tab-content.blue {
+    border: 1px solid <<colour tab-border-selected>>;
+    padding: 10px 10px 10px 10px;
+}
+.bottom-tabs .tc-menu-list-subitem {
+    white-space: initial;
+}
+
+.btn-touch-big-down .fa {
+    display: inline;
+    width: 32px;
+}
+.btn-touch-big, 
+.btn-touch-big-down {
+    line-height: initial;
+    padding: 0 3px;
+    text-align: center;
+    width: 38px;
+    color: <<colour sidebar-controls-foreground>>!important;
+}
+
+.btn-touch-big:focus,
+.btn-touch-big-down:focus,
+.tc-btn-invisible:focus, 
+.tc-tab-selected:focus {
+	outline: none!important;
+}
+
+.bottom-tabs div.tc-tab-buttons {
+    margin-top: 10px!important;
+    border-bottom: none;
+}
+.bottom-tabs.tc-tab-buttons button.tc-tab-selected {
+    border-bottom: 1px solid #e8eaf6;
+    margin-bottom: -1px;
+}
+
+/* Add object */
+.bottom-tabs .tc-tab-content.blue button[title="add"] p {
+    margin: 0px;
+    padding: 0 3px 0 7px;
+    outline: none;
+}
+
+.close-tabs .tc-image-close-button {
+    height: 0.75em;
+}
+.btn-big.grey {
+    margin: 8px 8px 4px 0px;
+}
+
+
+/* Bouttons du gestionnaire d'objets */
+    .btn-touch-big-down {
+        top: 0em!important;
+        color: <<colour sidebar-controls-foreground-hover>>!important;
+    }
+
+    .btn-touch-big:hover { 
+        color: <<colour btn-courses-hover>>;
+    }
+
+/* Titres des bottom-tabs */
+.bottom-tabs h1 {
+    font-size: 1.4em;  
+    margin-top: 5px;  
+    font-weight: 600;
+    color: <<colour secondary>>;   
+    border-bottom: 1px solid #aaa;
+}
+.bottom-tabs h2 {
+    font-size: 1.1em; 
+    margin-bottom: 5px; 
+    margin-top: 5px; 
+    font-weight: 600;
+    color: <<colour secondary>>;   
+}
+.bottom-tabs h3 {
+    font-size: 0.85em;   
+    font-weight: 600;
+    color: <<colour secondary>>; 
+}
+
+.tc-tiddler-controls .close-tabs {
+    font-size: 18px;
+    margin-top: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.tc-tab-buttons button {
+    margin-right: 0px;
+}
+.tc-tiddler-view-frame .tc-tiddler-controls .close-tabs svg:hover {
+    fill: #000;
+}
+

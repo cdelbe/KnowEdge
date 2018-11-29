@@ -1,0 +1,27 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20150215005821949
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/blogpost
+list: [[Adaptive Learning]]
+modified: 20181030061933340
+modifier: Charles Delbé
+mt-authors.title: Holz
+mt-publication.citation: Holz, S. (2017). What every adaptive learning system should have. [Blog post] Retrieved from http://blog.neolms.com/every-adaptive-learning-system/
+mt-publication.date: 2017
+mt-publication.journal: Neo Blog
+mt-publication.title: What every adaptive learning system should have
+mt-source.authors.list: [[Susannah Holz]]
+mt-topics.list: [[Adaptive Learning]]
+tags: $:/type/publication @:/type/blogpost
+title: Holz (2017)
+tmap.fa-icon: &#xf1fa;
+tmap.id: 4d7104c4-2400-465e-839a-55e07342ff7e
+type: text/vnd.tiddlywiki
+url: http://blog.neolms.com/every-adaptive-learning-system/
+
+# [[Big Data]]
+# Detailed Design
+# Quick adaptation
+# [[Feedback]] mechanisms
+# [[Artificial Intelligence]]

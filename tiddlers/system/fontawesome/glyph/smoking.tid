@@ -1,0 +1,14 @@
+created: 20181107181949931
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Smoking
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f48d
+modified: 20181125084949436
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/smoking
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-smoking fa-10x'></i>

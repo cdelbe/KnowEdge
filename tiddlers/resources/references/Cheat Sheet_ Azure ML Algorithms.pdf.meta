@@ -1,0 +1,14 @@
+_canonical_uri: ./resources/pdf/microsoft-machine-learning-algorithm-cheat-sheet-v6.pdf
+color: #681224
+created: 20180918211246404
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/bookmark
+list: 
+modified: 20181030025110038
+modifier: Charles Delbé
+tags: CheatSheet [[Azure ML]]
+title: Cheat Sheet: Azure ML Algorithms
+tmap.fa-icon: &#xf097;
+tmap.id: bf0ef4df-62db-401f-b9f2-c2b53623d8e4
+type: application/pdf
+url: https://docs.microsoft.com/fr-fr/azure/machine-learning/studio/algorithm-cheat-sheet

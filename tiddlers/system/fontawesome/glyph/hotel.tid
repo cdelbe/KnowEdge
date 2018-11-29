@@ -1,0 +1,14 @@
+created: 20181107181947112
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Hotel
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f594
+modified: 20181125084946798
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/hotel
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-hotel fa-10x'></i>

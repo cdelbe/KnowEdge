@@ -1,0 +1,28 @@
+authors: 
+color: #087268
+created: 20180814205623702
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/model
+list: Engagement [[Learning Analytics]]
+modified: 20180918080749703
+modifier: Charles Delbé
+mt-source.root: Brightspace
+mt-topics.list: Engagement [[Learning Analytics]]
+tags: $:/type/model $:/type/knowledge
+title: Risk Quadrant
+tmap.fa-icon: &#xf085;
+tmap.id: fefca353-9873-4f60-a48f-b8549bbd8f12
+type: text/vnd.tiddlywiki
+
+The risk quadrant positions a learner within the class based on their current success index and final calculated grade. This chart represents each learner from the course as a colored circle corresponding to their current risk category status.
+
+The risk quadrant is divided into the following four sections:
+
+* On-Track/Not At Risk - Learners in this quadrant are engaged and achieving high grades.
+* Under-Engagement Risk - Learners in this quadrant are not highly engaged, but are still achieving high grades. These learners may require more challenging course content.
+* Withdrawal/Dropout Risk - Learners in this quadrant are struggling both in course engagement and performance. These learners may be at risk of dropping out of the course.
+* Academic Performance Risk - Learners in this quadrant are engaged, but are struggling academically.
+
+@@.figure
+[img[figures/risk_quandrant.png]]
+@@

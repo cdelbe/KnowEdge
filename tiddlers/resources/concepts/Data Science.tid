@@ -1,0 +1,14 @@
+authors: 
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: 
+modified: 20181015044028802
+modifier: Charles Delbé
+tags: $:/type/concept $:/type/knowledge
+title: Data Science
+tmap.fa-icon: &#xf12e;
+tmap.id: 5081361c-c85e-4b76-9a6d-516c7418cebf
+type: text/vnd.tiddlywiki
+

@@ -1,0 +1,14 @@
+created: 20181107181946295
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Google Wallet
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f1ee
+modified: 20181125084946158
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/google-wallet
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-google-wallet fa-10x'></i>

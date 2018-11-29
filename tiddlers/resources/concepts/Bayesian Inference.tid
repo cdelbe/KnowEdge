@@ -1,0 +1,20 @@
+color: #800080
+created: 20180825162905136
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: [[Bayes' Theorem]]
+modified: 20180924005712924
+modifier: Charles Delbé
+mt-source.root: 
+mt-source.tiddler: Bayesian Knowledge Tracing
+mt-topics.list: [[Bayes' Theorem]]
+tags: $:/type/concept $:/type/knowledge
+title: Bayesian Inference
+tmap.fa-icon: &#xf12e;
+tmap.id: ab86b9ec-0bd0-43a2-9a26-9459d0a47513
+type: text/vnd.tiddlywiki
+
+L'inférence bayésienne est une méthode d'inférence statistique qui utilise le [[théorème de Bayes|Bayes' Theorem]] pour déduire la probabilité d'un événement à partir de celles d'autres événements déjà évalués.
+
+---
+*[[Inférence bayésienne (Wikipédia)|https://fr.wikipedia.org/wiki/Inf%C3%A9rence_bay%C3%A9sienne]]

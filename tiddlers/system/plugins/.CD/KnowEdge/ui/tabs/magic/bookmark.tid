@@ -1,0 +1,28 @@
+caption: <<mt-tab-caption>>
+color: #d3d3d3
+created: 20150125013421426
+creator: Alberto Molina Pérez
+description: Bookmarks
+draft.title: $:/plugins/.CD/KnowEdge/ui/tabs/magic/bookmark
+icon: $:/plugins/.CD/KnowEdge/images/bookmark
+modified: 20181029035833665
+modifier: Charles Delbé
+mt-contents.type: $:/type/bookmark
+mt-list.filter: 
+mt-list.filter_alt: 
+mt-list.heading: 
+mt-list.heading_alt: 
+mt-list.sort: 
+mt-list.sort_alt: 
+mt-list.template: 
+mt-list.template_alt: 
+mt-source.root: 
+mt-source.tiddler: 
+mt-topics.list: 
+tags: $:/type/tab $:/tabs/concept $:/tabs/topic $:/tabs/model $:/tabs/note
+title: $:/plugins/.CD/KnowEdge/ui/tabs/magic/bookmark
+type: text/vnd.tiddlywiki
+
+<<mt-slider-input>>
+
+<<mt-tab-contents>>

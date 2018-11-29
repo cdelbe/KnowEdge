@@ -1,0 +1,14 @@
+created: 20181107182002130
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Vue.js
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f41f
+modified: 20181125084950898
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/vuejs
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-vuejs fa-10x'></i>

@@ -1,0 +1,27 @@
+created: 20141108192721447
+creator: Alberto Molina Pérez
+dependencies: $:/config/SystemTags/Visibility/$:/plugins/amp/MagicTabs/noSysTags $:/core/ui/ViewTemplate/tags $:/plugins/amp/MagicTabs/noSysTags/ViewTemplate/tags $:/plugins/amp/MagicTabs/noSysTags/notification/hidden $:/plugins/amp/MagicTabs/noSysTags/notification/visible
+modified: 20181026163953383
+modifier: Charles Delbé
+tags: MagicTabs $:/plugins/amp/MagicTabs/common
+title: $:/plugins/amp/MagicTabs/button/noSysTags
+type: text/vnd.tiddlywiki
+
+<$reveal state="$:/config/SystemTags/Visibility/$:/plugins/amp/MagicTabs/noSysTags" type="match" text="show" default="hide">
+<$button>
+    <!-- <$action-setfield $tiddler="$:/core/ui/ViewTemplate/tags" tags=""/>
+    <$action-setfield $tiddler="$:/plugins/amp/MagicTabs/noSysTags/ViewTemplate/tags" tags="$:/tags/ViewTemplate"/> -->
+    <$action-setfield $tiddler="$:/config/SystemTags/Visibility/$:/plugins/amp/MagicTabs/noSysTags" text="hide"/>
+    <$action-sendmessage $message="tm-notify" $param="$:/plugins/amp/MagicTabs/notification/noSysTags/hidden"/>
+Hide
+</$button>
+</$reveal>
+<$reveal state="$:/config/SystemTags/Visibility/$:/plugins/amp/MagicTabs/noSysTags" type="match" text="hide" default="hide">
+<$button>
+    <!-- <$action-setfield $tiddler="$:/core/ui/ViewTemplate/tags" tags="$:/tags/ViewTemplate"/>
+    <!-- <$action-setfield $tiddler="$:/plugins/amp/MagicTabs/noSysTags/ViewTemplate/tags" tags=""/>  -->
+    <$action-setfield $tiddler="$:/config/SystemTags/Visibility/$:/plugins/amp/MagicTabs/noSysTags" text="show"/>
+    <$action-sendmessage $message="tm-notify" $param="$:/plugins/amp/MagicTabs/notification/noSysTags/visible"/>
+Show
+</$button>
+</$reveal>

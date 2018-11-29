@@ -1,0 +1,14 @@
+created: 20181107181944264
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: comments
+fa-style-classes: fas far
+fa-styles: solid regular
+fa-unicode: f086
+modified: 20181125084944687
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/comments
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-comments fa-10x'></i>

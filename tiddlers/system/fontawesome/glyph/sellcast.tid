@@ -1,0 +1,14 @@
+created: 20181107181949567
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Sellcast
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f2da
+modified: 20181125084949100
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/sellcast
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-sellcast fa-10x'></i>

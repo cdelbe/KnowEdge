@@ -1,0 +1,14 @@
+created: 20181107181946379
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Grinning Face
+fa-style-classes: fas far
+fa-styles: solid regular
+fa-unicode: f580
+modified: 20181125084946099
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/grin
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-grin fa-10x'></i>

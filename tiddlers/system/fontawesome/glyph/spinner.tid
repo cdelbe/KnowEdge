@@ -1,0 +1,14 @@
+created: 20181107181950059
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Spinner
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f110
+modified: 20181125084949624
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/spinner
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-spinner fa-10x'></i>

@@ -1,0 +1,14 @@
+created: 20181107181943359
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: asterisk
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f069
+modified: 20181125084942858
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/asterisk
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-asterisk fa-10x'></i>

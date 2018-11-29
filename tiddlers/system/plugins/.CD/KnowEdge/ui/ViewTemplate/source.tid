@@ -1,0 +1,14 @@
+created: 20181103185803757
+creator: Charles Delbé
+description: Show the source code of the tiddler.
+modified: 20181105210553401
+modifier: Charles Delbé
+tags: $:/tags/@CD $:/tags/ViewTemplate
+title: $:/plugins/.CD/KnowEdge/ui/ViewTemplate/source
+type: text/vnd.tiddlywiki
+
+<$reveal type='nomatch' state=<<folded-state>> text='hide' retain='yes' animate='yes'>
+	<$list filter='[all[current]tag[$:/tags/viewsource]]'>
+		<<source $(currentTiddler)$ "yes">>
+	</$list>
+</$reveal>

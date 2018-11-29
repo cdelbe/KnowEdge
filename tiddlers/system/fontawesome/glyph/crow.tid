@@ -1,0 +1,14 @@
+created: 20181107181944862
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Crow
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f520
+modified: 20181125084944463
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/crow
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-crow fa-10x'></i>

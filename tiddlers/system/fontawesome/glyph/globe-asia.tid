@@ -1,0 +1,14 @@
+created: 20181107181946234
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Globe with Asia shown
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f57e
+modified: 20181125084946237
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/globe-asia
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-globe-asia fa-10x'></i>

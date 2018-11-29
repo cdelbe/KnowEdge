@@ -1,0 +1,18 @@
+caption: Plugins & Dependencies
+created: 20181029140300968
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/KnowEdge
+modified: 20181107164312519
+modifier: Charles Delbé
+tags: $:/plugins/.CD/KnowEdge/references/main $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/references/plugins
+type: text/vnd.tiddlywiki
+
+!Dependencies
+<$list filter="[!has[draft.of]plugin-type[plugin]sort[description]]" emptyMessage=<<lingo "Empty/Hint">>>
+<$link to={{!!title}}>
+<dd><$transclude field="description">
+<$view field="title"/>
+</$transclude></dd>
+</$link>
+</$list>

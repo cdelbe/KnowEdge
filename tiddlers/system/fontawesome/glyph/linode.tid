@@ -1,0 +1,14 @@
+created: 20181107181947610
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Linode
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f2b8
+modified: 20181125084947512
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/linode
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-linode fa-10x'></i>

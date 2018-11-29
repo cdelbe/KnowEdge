@@ -1,0 +1,14 @@
+created: 20181107181946127
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Git
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f1d3
+modified: 20181125084946088
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/git
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-git fa-10x'></i>

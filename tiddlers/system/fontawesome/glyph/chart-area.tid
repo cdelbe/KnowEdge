@@ -1,0 +1,14 @@
+created: 20181107181944153
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Area Chart
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f1fe
+modified: 20181125084944258
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/chart-area
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-chart-area fa-10x'></i>

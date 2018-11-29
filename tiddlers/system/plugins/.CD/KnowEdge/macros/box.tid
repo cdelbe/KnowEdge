@@ -1,0 +1,10 @@
+created: 20180918162513036
+creator: Charles Delbé
+modified: 20181029035358376
+modifier: Charles Delbé
+note: Copy of .preamble macro from tw.com
+tags: $:/tags/Macro $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/macros/box
+type: text/vnd.tiddlywiki
+
+\define box(_) @@.doc-preamble $_$@@

@@ -7,10 +7,10 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Lancer le serveur (http://127.0.0.1:8080/)",
-            "program": "C:/Users/Charles/AppData/Roaming/npm/node_modules/tiddlywiki/tiddlywiki.js",
+            "name": "TiddlyWiki KnowEdge",
+            "program": "${workspaceFolder}/tiddlywiki/tiddlywiki.js",
             "args": [
-                "wiki",
+                "Wikis/KnowEdge",
                 "--verbose",
                 "--server",
                 "8080",
@@ -20,6 +20,14 @@
                 "Charles Delbé",
                 "Mas43kott"
             ]
-        }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "TiddlyServer",
+            "program": "C:/dev/TW5/TiddlyServer/server.js",
+            "args": [
+            ]
+        }                
     ]
 }

@@ -1,0 +1,16 @@
+caption: About "{{!!mt-source.tiddler}}"
+created: 20181112120024345
+creator: Charles Delbé
+datetime: 181112130024
+description: Upgrading [[math.js|http://mathjs.org/]] wrapper to ver. 2.5.0
+modified: 20181119223810502
+modifier: Charles Delbé
+mt-source.tiddler: $:/plugins/mklauber/math.js/math.js
+tags: $:/type/journal
+tasks: 
+title: About $:/plugins/mklauber/math.js/math.js - 12/11/18
+tmap.id: 37945088-73f7-4206-8742-42e8039b4c26
+type: text/vnd.tiddlywiki
+
+; Source:
+: http://tobibeer.github.io/tb5/#%24%3A%2Fplugins%2Ftobibeer%2Fmath.js

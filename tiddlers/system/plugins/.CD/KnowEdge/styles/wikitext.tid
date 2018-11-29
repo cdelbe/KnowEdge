@@ -1,0 +1,53 @@
+created: 20181024024147515
+creator: Charles Delbé
+modified: 20181103192559343
+modifier: Charles Delbé
+tags: $:/tags/Stylesheet $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/styles/wikitext
+tmap.id: 0f2ba505-3d31-4547-87a8-56efb691785f
+type: text/vnd.tiddlywiki
+
+<pre>.info {
+    background: #D1EED4;
+}
+
+.warning {
+    background: #ff9999;
+}
+
+.flash-message {
+    border: 2px solid lightgray;
+    padding: 5px;
+    margin: 6px 0;
+    display: block;
+    color: #999;
+    display: block;
+}
+
+.btn-img {
+    /*max-width: 100%;
+    display: inline-block;*/
+    width: 100%;
+    /*text-align: center!important;*/
+}
+
+.pretty {
+    max-width: 60%!important;
+}
+
+.figure {
+    display: inline-block;
+    width: 100%;
+    text-align: center!important;
+}
+
+.legend {
+    font-size: 0.8em;
+    display: inline-block;
+    width: 100%;
+    text-align: center!important;   
+    text-decoration: underline;
+    margin-top: 0em!important;
+    margin-bottom: 1em!important;
+}
+</pre>

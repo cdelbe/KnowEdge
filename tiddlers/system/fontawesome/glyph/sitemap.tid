@@ -1,0 +1,14 @@
+created: 20181107181949888
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Sitemap
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f0e8
+modified: 20181125084949381
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/sitemap
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-sitemap fa-10x'></i>

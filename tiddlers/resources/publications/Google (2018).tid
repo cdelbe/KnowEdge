@@ -1,0 +1,21 @@
+abstract: L'objectif de ce document est d'aider les personnes ayant une connaissance de base du machine learning à profiter des bonnes pratiques de Google en la matière. Son style est semblable à celui du guide de style Google C++ ainsi qu'à d'autres guides populaires de programmation pratique. Si vous avez suivi un cours sur le machine learning, ou bien si vous avez créé un modèle de machine learning ou travaillé sur un tel modèle, vous avez toute l'expérience nécessaire pour lire ce document.
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180814205623702
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/blogpost
+list: [[Machine Learning]] [[Best Practices]]
+modified: 20181110012702297
+modifier: Charles Delbé
+mt-authors.title: Google
+mt-publication.date: 2018
+mt-publication.title: Règles du machine learning : Bonnes pratiques pour le développement de systèmes de ML.
+mt-source.authors.list: [[Corp. Google]]
+mt-topics.list: [[Machine Learning]] [[Best Practices]]
+tags: $:/type/publication @:/type/blogpost
+title: Google (2018)
+tmap.fa-icon: &#xf1fa;
+tmap.id: a8e41b96-ab4b-417e-bc62-9f4c07b5b0cf
+type: text/vnd.tiddlywiki
+url: https://developers.google.com/machine-learning/rules-of-ml/?utm_campaign=Deep%20Learning%20Weekly&utm_medium=email&utm_source=Revue%20newsletter
+

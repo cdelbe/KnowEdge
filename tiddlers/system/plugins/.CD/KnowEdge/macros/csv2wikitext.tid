@@ -1,0 +1,16 @@
+created: 20181102115808736
+creator: Charles Delbé
+modified: 20181104005437236
+modifier: Charles Delbé
+tags: $:/tags/Macro
+title: $:/plugins/.CD/KnowEdge/macros/csv2wikitext
+tmap.id: be93c92a-fa53-42d9-93bc-72557a99beeb
+type: text/vnd.tiddlywiki
+
+''Converts pasted excel or csv data to TiddlyWiki table markup :''
+<$convertable/>
+
+<br/>
+
+---
+> [[$:/plugins/tobibeer/convertable.js]] version: <<date-version "$:/plugins/tobibeer/convertable.js">>

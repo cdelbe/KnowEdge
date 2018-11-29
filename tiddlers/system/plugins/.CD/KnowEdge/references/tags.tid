@@ -1,0 +1,66 @@
+caption: Tags
+created: 20181028145915844
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/KnowEdge
+modified: 20181107164304648
+modifier: Charles Delbé
+tags: $:/plugins/.CD/KnowEdge/references/main $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/references/tags
+tmap.id: 22106a65-a732-45f3-ae27-5f2275da6e27
+type: text/vnd.tiddlywiki
+
+<$details summary="@CD tagged tiddlers" class="tags">
+	<<list-links-title "[tag[$:/tags/@CD]!has[draft.of]sort[title]]" class:"list">>
+</$details>
+
+!$System
+| System tag | <<tag $:/tags/Macro>> |
+| Unknown tag | <<tag $:/tags/foo>> |
+
+!@System
+<<tag $:/tags/@CD>>
+<<tag @:/tags/DRAFT>>
+<<tag @:/tags/TOC>>
+<<tag @:/tags/pdf>>
+<<tag @:/tags/TODO>>
+<<tag $:/tags/viewsource>>
+<<tag $:/tags/embed>>
+<<tag $:/tags/@CD/tweaked>>
+
+!Objects
+<<tag $:/type/knowledge>>
+<<tag $:/type/model>>
+<<tag $:/type/concept>>
+<<tag $:/type/bookmark>>
+<<tag $:/type/publication>>
+<<tag $:/type/journal>>
+<<tag $:/type/note>>
+<<tag $:/type/author>>
+<<tag $:/type/software>>
+<<tag $:/type/task>>
+<<tag $:/type/topic>>
+<<tag @:/tags/Event>>
+
+!Publication types
+<<tag @:/type/article>>
+<<tag @:/type/blogpost>>
+<<tag @:/type/book>>
+<<tag @:/type/chapter>>
+<<tag @:/type/proceedings>>
+<<tag @:/type/thesis>>
+<<tag @:/type/whitepaper>>
+<<tag @:/type/report>>
+<<tag @:/type/review>>
+
+<style>
+details.tags summary {
+	background-color: #cde8b387;
+    outline: none;
+}
+.list {
+	list-style-type: decimal;
+    padding-inline-start: 30px;
+    margin: 0px 0px 0px 0px;
+    margin-bottom: 10px;
+}
+</style>

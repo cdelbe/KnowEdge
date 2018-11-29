@@ -1,0 +1,14 @@
+created: 20181107181944005
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Retro Camera
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f083
+modified: 20181125084943903
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/camera-retro
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-camera-retro fa-10x'></i>

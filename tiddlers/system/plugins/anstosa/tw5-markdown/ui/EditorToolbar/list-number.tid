@@ -1,0 +1,19 @@
+caption: {{$:/language/Buttons/ListNumber/Caption}}
+condition: [<targetTiddler>type[text/x-markdown]]
+created: 20181122192830681
+creator: Charles Delbé
+description: {{$:/language/Buttons/ListNumber/Hint}} (Markdown)
+icon: $:/core/images/list-number
+modified: 20181122192832149
+modifier: Charles Delbé
+shortcuts: ((list-number))
+tags: $:/tags/EditorToolbar
+title: $:/plugins/anstosa/tw5-markdown/ui/EditorToolbar/list-number
+type: text/vnd.tiddlywiki
+
+<$action-sendmessage
+	$message="tm-edit-text-operation"
+	$param="prefix-lines"
+	character="1."
+	count="1"
+/>

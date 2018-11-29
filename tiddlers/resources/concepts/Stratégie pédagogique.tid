@@ -1,0 +1,29 @@
+aliases: [[Stratégie Pédagogique]]
+color: #800080
+created: 20180825162905136
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: Teaching
+modified: 20181022095151456
+modifier: Charles Delbé
+mt-topics.list: Teaching
+description: Produit d’un design pédagogique particulier pour un problème d’enseignement-apprentissage.
+tags: $:/type/knowledge $:/type/concept
+title: Instructional Strategy
+tmap.fa-icon: &#xf12e;
+tmap.id: c49b3414-ed8f-4c5c-93bc-22f901e55585
+type: text/vnd.tiddlywiki
+
+!Définition
+
+> Une ''stratégie pédagogique'' décrit les composantes générales d’un ensemble de matériaux pédagogiques et les procédures qui seront appliquées à ces ressources pour permettre aux étudiants de maîtriser les acquis de l’apprentissage.
+
+
+> L'ensemble des modèles, des méthodes et des techniques conçus pour guider les actions d'enseignement-apprentissage. Dans cette perspective, le concept de stratégie pédagogique englobe l’acte d’''enseignement'' et l’acte d’''apprentissage'', 
+
+Certaines méthodes, modèles ou techniques peuvent être conçus et expérimentés par les chercheurs, souvent en collaboration avec des praticiens, tandis que d’autres sont directement issus de la pratique de l’enseignement et de la formation. 
+
+Pour une revue de littérature, voir [[Li (2012): Approaches to learning: Literature review.]].
+
+!Références
+*Reigeluth, C. M., & Carr-Chellman, A. A. (2009). Understanding Instructional Theory. In C. M. Reigeluth & A. A. Carr-Chellman (Eds.), Instructional-Design Theories and Models (pp. 3-26). New York & London: Routledge, Taylor and Francis Publishers Group.

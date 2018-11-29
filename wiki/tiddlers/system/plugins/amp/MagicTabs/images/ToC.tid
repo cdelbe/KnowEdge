@@ -1,9 +1,0 @@
-created: 20150208020325976
-creator: Alberto Molina Pérez
-modified: 20180820022942754
-modifier: Charles Delbé
-tags: $:/plugins/amp/MagicTabs/common
-title: $:/plugins/amp/MagicTabs/images/ToC
-type: text/vnd.tiddlywiki
-
-<<mt-image "fa-list" "ToC" "ToC">>

@@ -1,0 +1,25 @@
+abstract: How to design automated procedures which (i) accurately assess the knowledge of a student, and (ii) efficiently provide advices for further study? To produce well-founded answers, Knowledge Space Theory relies on a combinatorial viewpoint on the assessment of knowledge, and thus departs from common, numerical evaluation. Its assessment procedures fundamentally differ from other current ones (such as those of S.A.T. and A.C.T.). They are adaptative (taking into account the possible correctness of previous answers from the student) and they produce an outcome which is far more informative than a crude numerical mark. This chapter recapitulates the main concepts underlying Knowledge Space Theory and its special case, Learning Space Theory. We begin by describing the combinatorial core of the theory, in the form of two basic axioms and the main ensuing results (most of which we give without proofs). In practical applications, learning spaces are huge combinatorial structures which may be difficult to manage. We outline methods providing efficient and comprehensive summaries of such large structures. We then describe the probabilistic part of the theory, especially the Markovian type processes which are instrumental in uncovering the knowledge states of individuals. In the guise of the ALEKS system, which includes a teaching component, these methods have been used by millions of students in schools and colleges, and by home schooled students. We summarize some of the results of these applications.
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180916153759218
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/part
+list: [[Knowledge Space Theory]] Aleks
+modified: 20181029172051739
+modifier: Charles Delbé
+mt-authors.title: Doignon & Falmagne
+mt-publication.citation: Doignon, J.-P., & Falmagne, J.-Cl. (2016). //Knowledge Spaces and Learning Spaces.// In W. H. Batchelder, H. Colonius, E. N. Dzhafarov, J. Myung (Eds.), New Handbook of Mathematical Psychology. Cambridge: Cambridge University Press.
+mt-publication.date: 2016
+mt-publication.issue: 
+mt-publication.journal: arXiv preprint
+mt-publication.title: Knowledge Spaces and Learning Spaces
+mt-publication.volume: arXiv:1511.06757
+mt-source.authors.list: [[Jean-Paul Doignon]] [[Jean-Claude Falmagne]]
+mt-topics.list: [[Knowledge Space Theory]] Aleks
+tags: @:/type/chapter $:/type/publication
+title: Doignon & Falmagne (2016)
+tmap.fa-icon: &#xf1dd;
+tmap.id: 2c4eb0da-f3ae-4a85-a3cf-cb879b290322
+type: text/vnd.tiddlywiki
+url: https://arxiv.org/pdf/1511.06757.pdf
+

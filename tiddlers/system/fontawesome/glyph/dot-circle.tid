@@ -1,0 +1,14 @@
+created: 20181107181945012
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Dot Circle
+fa-style-classes: fas far
+fa-styles: solid regular
+fa-unicode: f192
+modified: 20181125084944948
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/dot-circle
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-dot-circle fa-10x'></i>

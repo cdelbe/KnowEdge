@@ -1,0 +1,105 @@
+apex_tag: @:/tags/TOC
+created: 20151230084404491
+creator: Charles Delbé
+length_limit: 5
+list-after: $:/plugins/.CD/KnowEdge/ui/ViewTemplate/author
+modified: 20181102102056115
+modifier: Charles Delbé
+tags: $:/tags/@CD $:/tags/ViewTemplate
+title: $:/plugins/.CD/KnowEdge/ui/ViewTemplate/breadcrumbs
+tmap.id: 45e4825c-cd0b-4fad-893d-950967f968ca
+type: text/vnd.tiddlywiki
+use_apex_tag: true
+
+\define yetAgain()
+<$reveal type='match' state='$:/plugins/.CD/KnowEdge/ui/ViewTemplate/breadcrumbs!!use_apex_tag' text='true'>
+	<$reveal type='match' state='!!title' text={{$:/plugins/.CD/KnowEdge/ui/ViewTemplate/breadcrumbs!!apex_tag}}>
+		<$link to=<<currentTiddler>>>
+<$transclude field="caption">
+			<$view field='title'/>
+</$transclude>
+		</$link>
+		> 
+		<$list filter=<<Extra>> emptyMessage=''>
+			... > 
+		</$list>
+		<$list filter="""$(End)$""">
+			<$link to=<<currentTiddler>>>
+<$transclude field="caption">
+			<$view field='title'/>
+</$transclude>
+			</$link>
+			> 
+		</$list>
+		<br>
+	</$reveal>
+</$reveal>
+<$reveal type='nomatch' state='$:/plugins/.CD/KnowEdge/ui/ViewTemplate/breadcrumbs!!use_apex_tag' text='true'>
+	<$link to=<<currentTiddler>>>
+<$transclude field="caption">
+			<$view field='title'/>
+</$transclude>
+	</$link>
+	> 
+	<$list filter=<<Extra>> emptyMessage=''>
+			.. > 
+	</$list>
+	<$list filter="""$(End)$""">
+		<$link to=<<currentTiddler>>>
+<$transclude field="caption">
+			<$view field='title'/>
+</$transclude>
+		</$link>
+		> 
+	</$list>
+	<br>
+</$reveal>
+\end
+
+\define again()
+<$list filter=<<First>>>
+	<<yetAgain>>
+</$list>
+\end
+
+\define finalFilter()
+<$set name=First filter="""$(TheFilter)$ +[last[]]""">
+	<$set name=End filter="""$(TheFilter)$ +[butlast[]]  +[butfirst[]] +[first{$:/plugins/.CD/KnowEdge/ui/ViewTemplate/breadcrumbs!!length_limit}] +[reverse[]]""">
+		<$set name=Extra filter="""$(TheFilter)$ +[butlast[]] +[butfirst[]] +[butfirst{$:/plugins/.CD/KnowEdge/ui/ViewTemplate/breadcrumbs!!length_limit}] +[limit[1]]""" emptyValue='[is[system]!is[system]]'>
+			<<again>>
+		</$set>
+	</$set>
+</$set>
+\end
+
+\define breadcrumbsEmptyMessage()
+<$set name=TheFilter filter="""$(TheFilter)$ [<CurrentTag>]"""><<breadcrumbs>></$set>
+\end
+
+\define breadcrumbs()
+<$list filter='[<CurrentTag>tags[]] -[[$:/tags/SideBar]]' variable=CurrentTag emptyMessage=<<finalFilter>>>
+	<$list filter="""$(TheFilter)$ +[field:title<CurrentTag>]""" emptyMessage=<<breadcrumbsEmptyMessage>>>
+	</$list>
+</$list>
+\end
+
+<$reveal type="nomatch" state=<<folded-state>> text="hide" tag="div" retain="yes" animate="yes">
+<div style='width:100%' class='breadcrumbs'>
+<$reveal type='nomatch' state='$:/state/Global/ShowBreadcrumbs' text=true>
+	<$button class='tc-btn-invisible btn-breadcrumb' set='$:/state/Global/ShowBreadcrumbs' setTo='true'>
+		{{$:/core/images/right-arrow}} Breadcrumbs:
+	</$button>
+</$reveal>
+
+<$reveal type='match' state='$:/state/Global/ShowBreadcrumbs' text=true>
+	<$button class='tc-btn-invisible btn-breadcrumb' set='$:/state/Global/ShowBreadcrumbs' setTo='false'>
+		{{$:/core/images/down-arrow}} Breadcrumbs:
+	</$button><br>
+	<$set name=CurrentTag value={{!!title}}>
+		<$set name=TheFilter filter='[is[current]]'>
+			<<breadcrumbs>>
+		</$set>
+	</$set>
+</$reveal>
+</div>
+</$reveal>

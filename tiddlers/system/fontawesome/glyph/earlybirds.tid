@@ -1,0 +1,14 @@
+created: 20181107181945240
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Earlybirds
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f39a
+modified: 20181125084945328
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/earlybirds
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-earlybirds fa-10x'></i>

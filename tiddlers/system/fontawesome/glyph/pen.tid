@@ -1,0 +1,14 @@
+created: 20181107181948781
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Pen
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f304
+modified: 20181125084948312
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/pen
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-pen fa-10x'></i>

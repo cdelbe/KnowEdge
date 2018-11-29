@@ -1,0 +1,14 @@
+created: 20181107181948040
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Monero
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f3d0
+modified: 20181125084947829
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/monero
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-monero fa-10x'></i>

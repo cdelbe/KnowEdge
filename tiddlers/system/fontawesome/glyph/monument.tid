@@ -1,0 +1,14 @@
+created: 20181107181948307
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Monument
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f5a6
+modified: 20181125084947932
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/monument
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-monument fa-10x'></i>

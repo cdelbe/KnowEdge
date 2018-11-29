@@ -1,0 +1,22 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180814205623702
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/blogpost
+list: [[Data Science]] [[Big Data]]
+modified: 20181029150723067
+modifier: Charles Delbé
+mt-authors.title: Monnappa
+mt-publication.citation: Monnappa, A. (2018, october 29). Data Science vs. Big Data vs. Data Analytics [Blog post]. Retrieved from https://www.simplilearn.com/data-science-vs-big-data-vs-data-analytics-article
+mt-publication.date: 2018
+mt-publication.title: Data Science vs. Big Data vs. Data Analytics
+mt-source.authors.list: [[Avantika Monnappa]]
+mt-topics.list: [[Data Science]] [[Big Data]]
+tags: $:/type/publication @:/type/blogpost
+title: Monnappa (2018)
+tmap.fa-icon: &#xf1fa;
+tmap.id: 7499b560-7cd9-416f-b774-6eec659eaa4b
+type: text/vnd.tiddlywiki
+url: https://www.simplilearn.com/data-science-vs-big-data-vs-data-analytics-article
+
+[img[https://www.simplilearn.com/ice9/free_resources_article_thumb/Data-Science-vs.-Big-Data-vs.jpg]]

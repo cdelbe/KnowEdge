@@ -1,0 +1,14 @@
+created: 20181107181943975
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Car Battery
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f5df
+modified: 20181125084943862
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/car-battery
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-car-battery fa-10x'></i>

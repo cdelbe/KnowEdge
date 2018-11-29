@@ -1,0 +1,14 @@
+created: 20181107181944538
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Clone
+fa-style-classes: fas far
+fa-styles: solid regular
+fa-unicode: f24d
+modified: 20181125084944344
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/clone
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-clone fa-10x'></i>

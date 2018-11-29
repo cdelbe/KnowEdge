@@ -1,0 +1,21 @@
+caption: type/article
+color: #b21a2c
+created: 20180729060343528
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/article
+modified: 20181110000528034
+modifier: Charles Delbé
+mt-dashboard.add.content: $:/plugins/amp/MagicTabs/new/article
+mt-dashboard.heading: Articles
+mt-dashboard.icon: $:/plugins/.CD/KnowEdge/images/article
+mt-source.type: $:/type/publication
+mt-template.fields: $:/plugins/amp/MagicTabs/templates/types/article
+mt-template.form: $:/plugins/amp/MagicTabs/new/article
+tags: $:/type/publication $:/plugins/amp/MagicTabs/reading
+title: $:/type/article
+tmap.fa-icon: &#xf1c1;
+type: text/vnd.tiddlywiki
+
+!Articles
+<<list-links-title filter:"[tag[@:/type/article]!is[system]sort[title]]" class:"object-list">>
+

@@ -1,0 +1,14 @@
+created: 20181107181949231
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Alternate Prescription Bottle
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f486
+modified: 20181125084948633
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/prescription-bottle-alt
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-prescription-bottle-alt fa-10x'></i>

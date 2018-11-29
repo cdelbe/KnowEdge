@@ -1,0 +1,18 @@
+created: 20150103211944329
+creator: Alberto Molina Pérez
+draft.of: $:/plugins/amp/MagicTabs/macros/mt-tab-filter
+draft.title: $:/plugins/amp/MagicTabs/macros/mt-tab-filter
+modified: 20181112142330950
+modifier: Charles Delbé
+tags: $:/tags/Macro MagicTabs $:/plugins/amp/MagicTabs/common
+title: Draft of '$:/plugins/amp/MagicTabs/macros/mt-tab-filter'
+type: text/vnd.tiddlywiki
+
+\define mt-tab-filter(type:"$:/type/note", sort)
+[all[current]listed[mt-topics.list]] [all[current]listed[mt-source.authors.list]] [all[current]listed[mt-source.parents.list]] [all[tiddlers]mt-source.tiddler[$(storyTiddler)$]] [all[tiddlers]about[$(storyTiddler)$]] +[tag[$type$]!is[system]!has[draft.of]sort[$sort$]]
+\end
+
+\define mt-tab-filter-alt(type:"$:/type/note", sort)
+[all[current]tagging[]] [all[tiddlers]mt-source.root<currentTiddler>] -[all[tiddlers]mt-source.tiddler<currentTiddler>] -[all[current]listed[mt-topics.list]] -[all[current]listed[mt-source.authors.list]] -[all[current]listed[mt-source.parents.list]]  +[tag[$type$]!title{!!title}!is[system]!has[draft.of]sort[$sort$]]
+\end
+

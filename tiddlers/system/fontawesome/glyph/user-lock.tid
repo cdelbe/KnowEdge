@@ -1,0 +1,14 @@
+created: 20181107182001884
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: User Lock
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f502
+modified: 20181125084950601
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/user-lock
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-user-lock fa-10x'></i>

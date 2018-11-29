@@ -1,0 +1,14 @@
+created: 20181107181945968
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: flag
+fa-style-classes: fas far
+fa-styles: solid regular
+fa-unicode: f024
+modified: 20181125084945666
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/flag
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-flag fa-10x'></i>

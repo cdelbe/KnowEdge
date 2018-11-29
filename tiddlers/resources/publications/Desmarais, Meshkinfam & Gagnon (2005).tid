@@ -1,0 +1,23 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181025222011075
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: [[Bayesian Knowledge Tracing]] [[Skills Assessment]] Modeling
+modified: 20181025222442870
+modifier: Charles Delbé
+mt-authors.title: Desmarais, Meshkinfam & Gagnon
+mt-publication.citation: Desmarais, M. C., Meshkinfam, P., & Gagnon, M. (2005). //Bayesian modeling with strong vs. weak assumptions in the domain of skills assessment.// (Technical report). Montreal, Canada: Ecole Polytechnique de Montreal.
+mt-publication.date: 2005
+mt-publication.subtitle: 
+mt-publication.title: Bayesian Modeling with Strong vs. Weak Assumptions in the Domain of Skills Assessment
+mt-source.authors.list: [[Michel C. Desmarais]] [[P. Meshkinfam]] [[M. Gagnon]]
+mt-topics.list: [[Bayesian Knowledge Tracing]] [[Skills Assessment]] [[Modeling]]
+abstract: Approaches such as Bayesian networks (BN) are considered highly powerful modeling and inferencing techniques because they make few assumptions and they can represent complex relationships among variables with efficiency and parsimony. They can also be learned from training data. Yet, they generally lend themselves to a variety of sound and efficient inference computations. However, in spite of these qualities, BN may not be always be the most advantageous technique in comparison to simpler techniques that make stronger assumptions. We investigate this issue in the domain of skills modeling and assessment, where BN have received a whealt attention. Vomlel’s (2004) BN model of basic arithmetic skills is compared, on the basis of predictive accuracy, to a simple Bayes posterior probability update approach under strong independence assumptions, named POKS (Desmarais, Maluf, & Liu, 1995). The results of simulation experiments show that the BN yields better accuracy for predicting concept mastery, but POKS is better at predicting question mastery. We conjecture possible explanations for these findings by analyzing the specifics of the domain model, in particular its closure under union and intersection, and discuss their implications.
+tags: @:/type/report @:/type/article $:/type/publication
+title: Desmarais, Meshkinfam & Gagnon (2005)
+tmap.fa-icon: &x#f0f6;
+tmap.id: ea5e0c62-5c84-4076-af2b-1b98f97e7506
+type: text/vnd.tiddlywiki
+url: http://www.professeurs.polymtl.ca/michel.desmarais/Publications-Michel/desmarais-meshkinfam.pdf
+

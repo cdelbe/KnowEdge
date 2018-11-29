@@ -1,0 +1,14 @@
+created: 20181107181949418
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Reply
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f3e5
+modified: 20181125084948843
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/reply
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-reply fa-10x'></i>

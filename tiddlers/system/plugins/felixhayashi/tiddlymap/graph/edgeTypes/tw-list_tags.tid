@@ -1,0 +1,10 @@
+created: 20180916045253900
+creator: Charles Delbé
+description: A tag that refers to a tiddler of the same name.
+label: is_a
+modified: 20180918025812109
+modifier: Charles Delbé
+style: {"color":"DarkSlateGray","dashes":false}
+title: $:/plugins/felixhayashi/tiddlymap/graph/edgeTypes/tw-list:tags
+type: text/vnd.tiddlywiki
+

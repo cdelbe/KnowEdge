@@ -1,0 +1,14 @@
+created: 20181107181946045
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Foursquare
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f180
+modified: 20181125084945771
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/foursquare
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-foursquare fa-10x'></i>

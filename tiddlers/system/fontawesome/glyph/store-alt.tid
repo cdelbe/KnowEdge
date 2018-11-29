@@ -1,0 +1,14 @@
+created: 20181107181950262
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Alternate Store
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f54f
+modified: 20181125084949708
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/store-alt
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-store-alt fa-10x'></i>

@@ -1,0 +1,14 @@
+created: 20181107181949183
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Puzzle Piece
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f12e
+modified: 20181125084948692
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/puzzle-piece
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-puzzle-piece fa-10x'></i>

@@ -1,0 +1,14 @@
+created: 20181107181943678
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Bus Alt
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f55e
+modified: 20181125084943993
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/bus-alt
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-bus-alt fa-10x'></i>

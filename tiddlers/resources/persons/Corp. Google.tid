@@ -1,0 +1,17 @@
+about: 
+color: #808000
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/author
+list: 
+modified: 20180905051717303
+modifier: Charles Delbé
+mt-person.name: Corp.
+mt-person.surname: Google
+mt-topics.list:  
+tags: $:/type/person $:/type/author
+title: Corp. Google
+tmap.fa-icon: &#xf007;
+tmap.id: 5e38762b-88b8-4cba-a9b3-653cc31ccbb5
+type: text/vnd.tiddlywiki
+

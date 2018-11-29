@@ -1,0 +1,30 @@
+caption: Create New Tiddler From Template
+created: 20180919190131393
+creator: Charles Delbé
+image: {{$:/core/images/new-button}}
+left_menu_order: 6
+modified: 20181124232015679
+modifier: Charles Delbé
+order: 3
+right_menu_order: 5
+tags: $:/tags/@CD $:/tags/PageControls
+target: $:/plugins/.CD/KnowEdge/ui/buttons/NewFromTemplate
+title: $:/plugins/.CD/KnowEdge/ui/buttons/NewFromTemplate
+top_left_menu_order: 0
+top_middle_menu_order: 0
+top_right_menu_order: 0
+type: text/vnd.tiddlywiki
+
+<$set name="currentTime" value=<<now "0DD/0MM/YY 0hh:0mm - {{!!}}">>>
+<$button popup='$:/state/createnewtiddler' class='tc-btn-invisible tc-btn-new-from-template' tooltip='New Tiddler from Template'>{{$:/core/images/new-here-button}}</$button>
+<$reveal type='popup' state='$:/state/createnewtiddler'>
+<div class="tc-drop-down">
+	Create New Tiddler of type:
+	<$list filter='[search:title[/templates/types/]]' variable=TemplateName>
+		<$button><$tiddler tiddler=<<TemplateName>>><<@caption>></$tiddler>
+			<$action-sendmessage $message='tm-new-tiddler' $param=<<TemplateName>> title=<<currentTime>> tag="$(storyTiddler)$"/>
+		</$button>
+	</$list>
+</div>
+</$reveal>
+</$set>

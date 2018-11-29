@@ -1,0 +1,14 @@
+created: 20181107181948733
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Parachute Box
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f4cd
+modified: 20181125084948208
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/parachute-box
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-parachute-box fa-10x'></i>

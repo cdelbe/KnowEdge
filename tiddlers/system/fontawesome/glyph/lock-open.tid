@@ -1,0 +1,14 @@
+created: 20181107181947669
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Lock Open
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f3c1
+modified: 20181125084947452
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/lock-open
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-lock-open fa-10x'></i>

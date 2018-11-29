@@ -1,0 +1,14 @@
+created: 20181107181946022
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Frowning Face
+fa-style-classes: fas far
+fa-styles: solid regular
+fa-unicode: f119
+modified: 20181125084946032
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/frown
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-frown fa-10x'></i>

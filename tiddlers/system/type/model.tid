@@ -1,0 +1,16 @@
+caption: Models
+color: #087268
+created: 20180825122252968
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/model
+list: 
+modified: 20181125011542942
+modifier: Charles Delbé
+mt-dashboard.heading: Model
+mt-dashboard.icon: $:/plugins/.CD/KnowEdge/images/model
+mt-source.type: $:/type/knowledge
+mt-template.fields: $:/.cd/templates/types/model
+tags: $:/tags/Tagging $:/tags/MagicTabs/dashboard
+title: $:/type/model
+type: text/vnd.tiddlywiki
+

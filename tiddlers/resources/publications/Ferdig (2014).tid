@@ -1,0 +1,23 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: [[Educational Curriculum]] [[Adaptive Assessment]] [[Personalized Learning]] [[Pedagogical Design]]
+modified: 20181029185057063
+modifier: Charles Delbé
+mt-authors.title: Ferdig
+mt-publication.citation: Ferdig, R. (2014). Curriculum, Content, and Assessment for the Real World. Transformation Framework. Microsoft Corporation, USA.
+mt-publication.date: 2014
+mt-publication.subtitle: 
+mt-publication.title: Curriculum, Content and Assessment for the Real World
+mt-source.authors.list: [[Richard E. Ferdig]]
+mt-topics.list: [[Educational Curriculum]] [[Adaptive Assessment]] [[Personalized Learning]] [[Pedagogical Design]]
+tags: @:/type/report $:/type/publication
+title: Ferdig (2014)
+tmap.fa-icon: &x#f0f6;
+tmap.id: 12d9296e-3bbc-418f-ba0a-04fe34ee82df
+type: text/vnd.tiddlywiki
+url: https://www.k12blueprint.com/sites/default/files/Curriculum-Content-and-Assessment-Real-World.pdf
+
+This Microsoft paper provides an overview of recent practice and research to guide effective [[Educational Curriculum]].

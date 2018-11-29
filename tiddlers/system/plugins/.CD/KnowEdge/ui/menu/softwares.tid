@@ -1,0 +1,13 @@
+caption: Softwares
+created: 20181022081150315
+creator: Charles Delbé
+dropdown: $:/plugins/.CD/KnowEdge/ui/menu/softwares/dropdown
+list-after: $:/plugins/.CD/KnowEdge/ui/menu/publications
+menu-pos: 8
+modified: 20181106175823843
+modifier: Charles Delbé
+tags: $:/tags/@CD $:/tags/Static/TopMenu $:/tags/TopMenu
+target: $:/type/software
+title: $:/plugins/.CD/KnowEdge/ui/menu/softwares
+type: text/vnd.tiddlywiki
+

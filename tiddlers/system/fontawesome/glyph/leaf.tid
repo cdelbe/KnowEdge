@@ -1,0 +1,14 @@
+created: 20181107181947404
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: leaf
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f06c
+modified: 20181125084947257
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/leaf
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-leaf fa-10x'></i>

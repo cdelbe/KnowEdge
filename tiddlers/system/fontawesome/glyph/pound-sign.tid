@@ -1,0 +1,14 @@
+created: 20181107181949043
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Pound Sign
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f154
+modified: 20181125084948550
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/pound-sign
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-pound-sign fa-10x'></i>

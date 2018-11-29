@@ -1,9 +1,0 @@
-created: 20180726025404771
-creator: Charles Delbé
-list: Accueil Demo alias $:/core/ui/SideBarLists $:/Manager $:/.tb/ui/ViewTemplate/xlists $:/plugins/tongerner/topmenu/topmenu $:/core/ui/PageTemplate/sidebar Publications $:/plugins/ahahn/tinka/pluginManagement onstart $:/ControlPanel $:/config/ViewToolbarButtons/Visibility/$:/plugins/amp/MagicTabs/button/newJournalHere ui/tabs/MagicTOC $:/type/article [[New Tiddler Template - templates/test]] $:/plugins/kixam/timeline/widget.timeline.js
-modified: 20180825014451861
-modifier: Charles Delbé
-tags: 
-title: $:/plugins/ajh/favorites/list
-type: text/vnd.tiddlywiki
-

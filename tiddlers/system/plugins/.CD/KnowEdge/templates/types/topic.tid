@@ -1,0 +1,14 @@
+color: #004080
+created: 20180814205623702
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/topic
+list: 
+modified: 20181029035147109
+modifier: Charles Delbé
+mt-topics.list: 
+tags: $:/type/topic $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/templates/types/topic
+tmap.fa-icon: &#xf1b3;
+type: text/vnd.tiddlywiki
+
+ 

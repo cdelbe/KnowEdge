@@ -1,0 +1,14 @@
+created: 20181107181950005
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Sort Numeric Down
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f162
+modified: 20181125084949500
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/sort-numeric-down
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-sort-numeric-down fa-10x'></i>

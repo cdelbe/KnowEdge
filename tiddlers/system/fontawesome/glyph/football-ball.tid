@@ -1,0 +1,14 @@
+created: 20181107181946073
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Football Ball
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f44e
+modified: 20181125084945815
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/football-ball
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-football-ball fa-10x'></i>

@@ -1,0 +1,15 @@
+caption: Agenda
+color: #0033aa
+created: 20180814195513883
+creator: Charles Delbé
+modified: 20181029035334594
+modifier: Charles Delbé
+tab-pos: 30
+tags: $:/tags/SideBar
+title: $:/plugins/.CD/KnowEdge/ui/SideBar/Timeline
+tmap.id: 3e1259a2-8d32-4289-9ce5-c4dabab7e7e3
+type: text/vnd.tiddlywiki
+
+!! Events
+<$visjstimeline filter="[tag[Event]]" startDateField="debut" endDateField="fin" groupTags=[[Demo]][[GrpTest1]] boxing=auto format="DD/MM/YYYY" navpad /> 
+

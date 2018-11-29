@@ -1,0 +1,14 @@
+created: 20181107181944642
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Chevron Circle Right
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f138
+modified: 20181125084944117
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/chevron-circle-right
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-chevron-circle-right fa-10x'></i>

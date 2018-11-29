@@ -1,0 +1,14 @@
+created: 20181107181943731
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Broom
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f51a
+modified: 20181125084943248
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/broom
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-broom fa-10x'></i>

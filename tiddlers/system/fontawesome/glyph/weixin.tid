@@ -1,0 +1,14 @@
+created: 20181107182002143
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Weixin (WeChat)
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f1d7
+modified: 20181125084950957
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/weixin
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-weixin fa-10x'></i>

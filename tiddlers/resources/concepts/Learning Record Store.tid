@@ -1,0 +1,17 @@
+caption: LRS
+color: #800080
+created: 20180825162905136
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: xAPI
+modified: 20180912170827857
+modifier: Charles Delbé
+mt-topics.list: xAPI
+tags: [[eLearning Norm]] $:/type/concept $:/type/knowledge
+title: Learning Record Store
+tmap.fa-icon: &#xf12e;
+tmap.id: f83a0db1-cb9d-4878-9d54-2b237a6954d6
+type: text/vnd.tiddlywiki
+
+!References
+* https://www.tactileo.com/lexique-du-digital-learning/que-sont-les-lrs-et-comment-fonctionnent-ils/

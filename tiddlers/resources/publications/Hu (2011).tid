@@ -1,0 +1,23 @@
+abstract: Khan Academy developer David Hu writes a very interesting piece about how we’re running a number of experiments to improve our understanding of student mastery and encourage more learning from our students.
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181025181706544
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/blogpost
+list: [[Khan Academy]] [[Adaptive Assessment]] [[Bayesian Knowledge Tracing]] [[Proficiency Model]] [[Logistic Regression]] Python
+modified: 20181030025832623
+modifier: Charles Delbé
+mt-authors.title: Hu
+mt-publication.citation: Hu (2011). How Khan Academy is using Machine Learning to Assess Student Mastery. [Blog post]. Retrieved [October, 30th 2018] from http://david-hu.com/2011/11/02/how-khan-academy-is-using-machine-learning-to-assess-student-mastery.html
+mt-publication.date: 2011
+mt-publication.subtitle: 
+mt-publication.title: How Khan Academy is using Machine Learning to Assess Student Mastery
+mt-source.authors.list: [[David Hu]]
+mt-topics.list: [[Khan Academy]] [[Adaptive Assessment]] [[Bayesian Knowledge Tracing]] [[Proficiency Model]] [[Logistic Regression]] Python
+tags: @:/type/blogpost $:/type/publication
+title: Hu (2011)
+tmap.fa-icon: &#xf1fa;
+tmap.id: 2dbd8f5e-5f0e-4f93-8923-2f4300ad8ab0
+type: text/vnd.tiddlywiki
+url: http://david-hu.com/2011/11/02/how-khan-academy-is-using-machine-learning-to-assess-student-mastery.html
+

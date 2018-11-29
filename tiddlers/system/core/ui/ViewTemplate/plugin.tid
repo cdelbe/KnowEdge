@@ -1,0 +1,18 @@
+created: 20181111200822702
+creator: Charles Delbé
+list-after: $:/core/ui/ViewTemplate/body
+modified: 20181111200903874
+modifier: Charles Delbé
+tags: $:/tags/@CD/tweaked $:/tags/@CD $:/tags/ViewTemplate
+title: $:/core/ui/ViewTemplate/plugin
+type: text/vnd.tiddlywiki
+
+<$list filter="[all[current]has[plugin-type]] -[all[current]field:plugin-type[import]]">
+<$set name="plugin-type" value={{!!plugin-type}}>
+<$set name="default-popup-state" value="yes">
+<$set name="qualified-state" value=<<qualify "$:/state/plugin-info">>>
+{{||$:/core/ui/Components/plugin-info}}
+</$set>
+</$set>
+</$set>
+</$list>

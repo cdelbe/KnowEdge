@@ -1,0 +1,14 @@
+created: 20181107181946569
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Hashtag
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f292
+modified: 20181125084946517
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/hashtag
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-hashtag fa-10x'></i>

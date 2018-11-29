@@ -1,0 +1,17 @@
+authors: 
+color: #087268
+created: 20180814205623702
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/model
+list: 
+modified: 20181025190155003
+modifier: Charles Delbé
+mt-topics.list: 
+tags: [[Knowledge Tracing]] $:/type/model $:/type/knowledge
+title: Graphical Model
+tmap.fa-icon: &#xf085;
+tmap.id: 72f730c5-96b3-479a-b90d-b4e7f736ac9f
+type: text/vnd.tiddlywiki
+
+!!{{!!title}} dans la base
+<<list-links-title filter:"[all[current]tagging[]!is[system]!has[draft.of]] -[[$(currentTiddler)$]]" class:"object-list" emptyMessage:"@@.text-grey none@@">>

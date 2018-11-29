@@ -1,0 +1,14 @@
+created: 20181107181945878
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: fire-extinguisher
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f134
+modified: 20181125084945720
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/fire-extinguisher
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-fire-extinguisher fa-10x'></i>

@@ -1,0 +1,14 @@
+created: 20181107181943659
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Battery Empty
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f244
+modified: 20181125084943525
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/battery-empty
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-battery-empty fa-10x'></i>

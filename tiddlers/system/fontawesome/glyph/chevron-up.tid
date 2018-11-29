@@ -1,0 +1,14 @@
+created: 20181107181944606
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: chevron-up
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f077
+modified: 20181125084944076
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/chevron-up
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-chevron-up fa-10x'></i>

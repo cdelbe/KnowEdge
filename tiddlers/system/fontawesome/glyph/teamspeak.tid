@@ -1,0 +1,14 @@
+created: 20181107181950498
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: TeamSpeak
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f4f9
+modified: 20181125084950029
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/teamspeak
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-teamspeak fa-10x'></i>

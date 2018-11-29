@@ -1,0 +1,17 @@
+created: 20181023215206707
+creator: Charles Delbé
+modified: 20181106181236894
+modifier: Charles Delbé
+tags: $:/tags/viewsource $:/tags/Macro $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/macros/menu
+type: text/vnd.tiddlywiki
+
+\define makeTopMenu(type, template)
+<$list filter='[prefix[$template$]]' variable=TemplateName><$button class="tc-btn-invisible mnu-header tc-btn-new">{{$:/core/images/new-button}} New<$action-sendmessage $message='tm-new-tiddler' $param=<<TemplateName>>/></$button></$list>
+<$list filter='[prefix[$type$]]' variable=TemplateName><$button class="tc-btn-invisible mnu-header"><$action-navigate $to="$type$"/>{{$:/plugins/.CD/KnowEdge/images/menu}} List</$button></$list>
+<hr>
+<!-- <<list-links-title filter:"[tag[$type$]!is[system]sort[title]]" class:"mnu-object-list">> -->
+<div class="tc-table-of-contents">
+    <<toc-selective-expandable '$type$' exclude:-[is[system]]>>
+</div>
+\end

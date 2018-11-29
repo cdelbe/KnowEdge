@@ -1,0 +1,21 @@
+authors: 
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: [[Artificial Intelligence]]
+modified: 20180927103431320
+modifier: Charles Delbé
+mt-topics.list: [[Artificial Intelligence]]
+tags: $:/type/concept $:/type/knowledge
+title: Explainability
+tmap.fa-icon: &#xf12e;
+tmap.id: abd3db30-1dde-4daa-a6ba-d018f6f167e1
+type: text/vnd.tiddlywiki
+
+Une des problématiques auxquelles [[l’intelligence artificielle|Artificial Intelligence]] est actuellement confrontée est la question de savoir ''pourquoi'' un algorithme d'[[apprentissage automatique|Machine Learning]] ''a pris une décision donnée''. L’IA peut en effet commettre des erreurs. Dans le domaine de l'éducation, une IA peut par exemple décider qu'un élève a de faibles aptitudes mathématiques et ne jamais commencer à exposer cet élève à des concepts mathématiques de plus haut niveau.
+
+Pearson, en collaboration avec University College London Knowledge Lab, note que les systèmes adaptatifs actuels ''basés sur des modèles cognitifs'' sont de plus en plus ''transparents'', permettant aux enseignants de comprendre comment un système décide de l'action à venir, rendant ainsi ces outils plus ''efficaces'' pour l'enseignement. 
+
+---
+Luckin, R., Holmes, W., Griffiths, M., & Forcier, L. B. (2016). Intelligence unleashed: An argument for AI in education. Récupéré de https://www.pearson.com/content/dam/corporate/global/pearson-dot-com/files/innovation/Intelligence-Unleashed-Publication.pdf

@@ -1,0 +1,14 @@
+created: 20181107181949329
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: reddit Logo
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f1a1
+modified: 20181125084948762
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/reddit
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-reddit fa-10x'></i>

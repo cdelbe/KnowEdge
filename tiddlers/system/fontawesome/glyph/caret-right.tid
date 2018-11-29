@@ -1,0 +1,14 @@
+created: 20181107181943938
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Caret Right
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f0da
+modified: 20181125084943822
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/caret-right
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-caret-right fa-10x'></i>

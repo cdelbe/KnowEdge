@@ -1,0 +1,14 @@
+created: 20181107181958969
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Trade Federation
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f513
+modified: 20181125084950189
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/trade-federation
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-trade-federation fa-10x'></i>

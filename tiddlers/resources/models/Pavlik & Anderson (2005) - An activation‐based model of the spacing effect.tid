@@ -1,0 +1,21 @@
+authors: [[P. I. Pavlik]] [[J. R. Anderson]]
+color: #087268
+created: 20181024062526479
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/model
+list: [[Spaced Reinforcement]] ACT-R
+modified: 20181025171606573
+modifier: Charles Delbé
+mt-source.tiddler: Pavlik & Anderson (2005)
+mt-topics.list: [[Spaced Reinforcement]] ACT-R
+tags: $:/type/model $:/type/knowledge
+title: Pavlik & Anderson (2005) - An activation‐based model of the spacing effect
+tmap.fa-icon: &#xf085;
+tmap.id: 94e9b05d-247c-4f7b-bfae-a04cd64df750
+type: text/vnd.tiddlywiki
+
+[[Pavlik & Anderson (2005)|]] ont étudié d'autres ''modèles de la mémorisation et de l'oubli'' (i.e., un modèle de propagation d'activation, [[ACT-R]]) afin de confirmer l'effet classique de ''[[l'espacement|Spaced Reinforcement]]'' dans diverses conditions et ont montré qu'une période importante entre les pratiques procure des avantages croissants au fur et à mesure que la pratique s'accumule et provoque moins d'oubli; ces résultats sont compatibles avec les résultats classiques des sciences cognitives (Cain & Willey, 1939).
+
+---
+:Cain, L.F. & Willey, R.D.V. (1939). The effect of spaced learning on the curve of retention. //Journal of Experimental Psychology//, 25(2):209-214.
+:[[Pavlik & Anderson (2005)]]

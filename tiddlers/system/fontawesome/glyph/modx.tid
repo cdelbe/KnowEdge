@@ -1,0 +1,14 @@
+created: 20181107181948045
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: MODX
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f285
+modified: 20181125084947835
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/modx
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-modx fa-10x'></i>

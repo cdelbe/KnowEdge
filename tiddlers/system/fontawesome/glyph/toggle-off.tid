@@ -1,0 +1,14 @@
+created: 20181107181955705
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Toggle Off
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f204
+modified: 20181125084950230
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/toggle-off
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-toggle-off fa-10x'></i>

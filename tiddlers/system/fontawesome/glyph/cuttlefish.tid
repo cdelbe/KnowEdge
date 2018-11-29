@@ -1,0 +1,14 @@
+created: 20181107181944987
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Cuttlefish
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f38c
+modified: 20181125084944872
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/cuttlefish
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-cuttlefish fa-10x'></i>

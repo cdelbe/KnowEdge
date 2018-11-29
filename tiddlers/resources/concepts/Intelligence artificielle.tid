@@ -1,0 +1,20 @@
+aliases: AI IA
+authors: 
+caption: AI
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: [[Accenture - Intelligence Artificielle]] [[Big Data]] [[AI, Neural Networks, Machine Learning, Deep Learning & Big Data]] [[Machine Learning]] [[The AI Rush]] [[Top 15 Artifical Intelligence Plateforms]]
+modified: 20181109135322805
+modifier: Charles Delbé
+tags: $:/type/concept $:/type/knowledge
+title: Artificial Intelligence
+tmap.fa-icon: &#xf12e;
+tmap.id: de1fef09-d852-4b66-a310-27839b6680e6
+type: text/vnd.tiddlywiki
+
+!Définition
+
+!References
+*https://fr.wikipedia.org/wiki/Intelligence_artificielle

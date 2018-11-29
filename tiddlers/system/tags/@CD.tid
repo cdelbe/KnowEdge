@@ -1,0 +1,40 @@
+caption: @CD
+color: #81b53b
+created: 20180918162513036
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/KnowEdge
+modified: 20181107164543998
+modifier: Charles Delbé
+title: $:/tags/@CD
+tmap.id: 0be4b47a-0e71-434d-8984-0e77d8253ed7
+tmp: $:/plugins/amp/MagicTabs/images/philosophy
+type: text/vnd.tiddlywiki
+
+! [[$:/plugins/.CD/KnowEdge]]
+
+<$details summary="Version" open="yes" class="cd-tagged">
+	''version:'' <<@get-cfg-value "ke-version">>
+</$details>
+
+<$details summary="Tagged Tiddlers" open="no" class="cd-tagged">
+	<<list-links-title "[tag[$:/tags/@CD]!has[draft.of]sort[title]]" class:"list-cd">>
+</$details>
+
+<$details summary="Tree: $:/plugins/.CD/" open="no" class="cd-tagged">
+	<<tree prefix:"$:/plugins/.CD/">>
+</$details>
+
+<style>
+details.cd-tagged summary {
+	background-color: #ececec;
+    outline: none;
+    font-weight: bold;
+}
+.list-cd {
+	list-style-type: decimal;
+    padding-inline-start: 30px;
+    margin: 0px 0px 0px 0px;
+    margin-bottom: 10px;
+}
+</style>
+

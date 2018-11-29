@@ -1,0 +1,32 @@
+caption: Contents
+color: #3f51b5
+created: 20181023180951660
+creator: Charles Delbé
+filter: !is[system]
+icon: $:/plugins/.CD/KnowEdge/images/toc
+list: $:/plugins/.CD/KnowEdge/ui/Home $:/type/bookmark TiddlyWiki $:/type/concept $:/type/publication $:/type/knowledge
+modified: 20181125005822017
+modifier: Charles Delbé
+selected_topic: @:/tags/TOC
+tab-pos: 10
+tags: $:/tags/SideBar
+title: $:/plugins/.CD/KnowEdge/ui/SideBar/TableOfContents
+tmap.id: 52b94001-ce11-4886-9a7d-abedd08b018a
+type: text/vnd.tiddlywiki
+
+\define thisMakeMenu()
+<<MobileMenu """$(SelectedTopic)$""" """$(currentTiddler)$""" "TOC-Selective">>
+\end
+
+<!-- ************************************* TOC *********************************** -->
+''Select the root tag to use : ''
+<$select tiddler="$:/plugins/.CD/KnowEdge/ui/SideBar/TableOfContents" field='selected_topic'>
+<option value='@:/tags/TOC' selected='selected'>(Default View)</option>
+<$list filter='[tags[]!is[system]sort[title]]-<<currentTiddler>>'>
+<option><$view field='title'/></option>
+</$list>
+</$select>
+
+<$set name=SelectedTopic value={{$:/plugins/.CD/KnowEdge/ui/SideBar/TableOfContents!!selected_topic}}>
+<<thisMakeMenu>>
+</$set>

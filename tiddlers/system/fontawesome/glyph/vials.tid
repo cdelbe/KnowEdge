@@ -1,0 +1,14 @@
+created: 20181107182002046
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Vials
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f493
+modified: 20181125084950727
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/vials
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-vials fa-10x'></i>

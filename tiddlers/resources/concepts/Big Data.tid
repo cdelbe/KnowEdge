@@ -1,0 +1,26 @@
+aliases: Mégadonnées
+authors: 
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: 
+modified: 20181001212223009
+modifier: Charles Delbé
+tags: [[Artificial Intelligence]] $:/type/concept $:/type/knowledge
+title: Big Data
+tmap.fa-icon: &#xf12e;
+tmap.id: e56f3a92-7329-4247-86d3-15cc0506da74
+type: text/vnd.tiddlywiki
+
+<<box "Intimement lié aux statistiques, l’apprentissage machine (ou [[Machine Learning]]) est un des fondamentaux de la science des données. ">>
+
+!!Principes
+*apprentissage supervisé
+*non supervisé
+*sur-apprentissage et validation croisée 
+
+!!Algorithmes classiques
+*[[arbres de décisions|Decision Tree]]
+*[[machines à vecteurs de support|Support Vector Machine]]
+*[[réseaux de neurones artificiels|Artificial Neural Network]] ou [[Deep Learning]]…

@@ -1,0 +1,42 @@
+about: 
+color: #7878bc
+created: 20181104170113015
+creator: Charles Delbé
+debut: 
+fin: 
+icon: $:/plugins/.CD/KnowEdge/images/check
+modified: 20181124224513176
+modifier: Charles Delbé
+mt-date.alpha: 
+mt-date.due: 
+mt-date.omega: 
+mt-source.parents.list: 
+mt-source.tiddler: 
+mt-task.owner: 
+mt-task.prority: 
+mt-task.status: 
+tags: @:/tags/Event $:/type/task
+title: TODO
+tmap.fa-icon: &#f05d;
+tmap.id: d8a1535c-c8e3-4bf7-a8af-e828efe61977
+type: text/x-markdown
+
+- Configuration Tiddler
+- Core @CD plugin
+- Fonts/Fontawesome
+- Multiple TW5 sessions + file server (Bob)
+- markdown cheatscheet easy access (menu)
+- Notes menu : ordered reversed by last creation/modif date. Caption of a note : 
+	- pour les menus : \def <<ke-note-caption>> = <<date>> (<<about>>) - <<title>> 
+    - mais caption = title (a faire : date / author - ...)
+	- => différences note/journal ??
+
+
+[ ] Liste des choses à faire
+
+[x] Liste des choses à étudier, des process perso à mettre en place (lectures, ...)
+
+- choses à faire dans lappart
+- Lolita
+
+<<@todo "Blah..">>

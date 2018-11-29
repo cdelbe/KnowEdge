@@ -1,0 +1,14 @@
+created: 20181107181948065
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Mixcloud
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f289
+modified: 20181125084947861
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/mixcloud
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-mixcloud fa-10x'></i>

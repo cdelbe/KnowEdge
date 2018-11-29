@@ -1,0 +1,14 @@
+created: 20181107181949947
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Smiling Face
+fa-style-classes: fas far
+fa-styles: solid regular
+fa-unicode: f118
+modified: 20181125084949320
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/smile
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-smile fa-10x'></i>

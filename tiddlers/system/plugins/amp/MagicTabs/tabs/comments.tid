@@ -1,0 +1,22 @@
+caption: <<mt-tab-caption>>
+color: #d3d3d3
+created: 20140517111844484
+creator: Alberto Molina Pérez
+description: Comments
+icon: $:/plugins/.CD/KnowEdge/images/comment
+modified: 20181021225753248
+modifier: Charles Delbé
+mt-contents.type: $:/type/comment
+mt-list.filter: 
+mt-list.filter_alt: 
+mt-list.heading: Comments
+mt-list.heading_alt: Related
+mt-list.template: $:/plugins/amp/MagicTabs/templates/tabs/comments
+mt-list.template_alt: $:/plugins/amp/MagicTabs/templates/tabs/comments
+tags: $:/type/tab $:/plugins/amp/MagicTabs/common
+title: $:/plugins/amp/MagicTabs/tabs/comments
+type: text/vnd.tiddlywiki
+
+<<mt-slider-input>>
+
+<<mt-tab-contents>>

@@ -1,0 +1,14 @@
+created: 20181107181944166
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Charging Station
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f5e7
+modified: 20181125084943548
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/charging-station
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-charging-station fa-10x'></i>

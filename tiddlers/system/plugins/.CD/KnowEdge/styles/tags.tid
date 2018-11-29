@@ -1,0 +1,153 @@
+created: 20181024024147515
+creator: Charles Delbé
+modified: 20181029040937002
+modifier: Charles Delbé
+tags: $:/tags/Stylesheet $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/styles/tags
+tmap.id: 0f2ba505-3d32-4547-87a8-56efa691785e
+type: text/vnd.tiddlywiki
+
+/*.tc-tiddler-edit-frame */ .tc-edit-add-tag input.tc-edit-texteditor {
+    margin: 0px;
+    border: 1px solid #cccccc!important;
+    width: 70%;
+    margin-left: 5px;
+ 
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.cd-tag-menu-title {
+    /*margin-left: 32px;*/
+    font-weight: bold;
+    display: inline;
+}
+.cd-tag-menu-title a {
+    width: 90%;
+    overflow: auto;
+}
+
+.tc-tag-list-item {
+    margin: 4px 4px 4px 0px;
+    }
+    button.tc-tag-label, 
+    span.tc-tag-label {
+        display: inline;
+        line-height: 1.4em !important;
+        border-radius: .8em !important;
+        padding: 0.2em 0.6em;
+        vertical-align: middle;
+
+        word-wrap: break-word;
+        white-space: normal;
+
+        font-size: 1em;
+        /*font-weight: 500;*/
+    }
+
+
+.tc-tag-label > img,
+.tc-tag-label > svg,
+.tc-tag-label > i {
+    min-width: 18px;
+    height: 1em;
+    width: 1em;    
+    vertical-align: baseline;
+}
+.tc-tag-label > svg {
+    vertical-align: middle;
+}
+  
+
+div.tag-list-item {
+    white-space: nowrap;
+    list-style-type: none;
+    padding-inline-start: 10px;
+    margin: 3px;
+    /*margin-left: 15px;*/
+}
+.tag-list-item img { 
+    vertical-align: middle;
+}
+.tag-list-item i { 
+    vertical-align: baseline;
+}
+.tc-tag-list-item > span.tc-drop-down {
+    padding: 10px;
+}
+.tc-edit-tags {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #cccccc!important;
+    padding: 8px 8px 6px 8px;
+    margin: 8px 0px 8px 0px;
+}
+.tc-tiddler-edit-frame .tc-edit-add-tag {
+    margin-top: 6px;
+}
+/*.tc-edit-add-tag .tc-add-tag-name input {
+    width: 70%;
+    margin-left: 5px;
+}*/
+
+
+/* DIV de la liste des tag en mode view */
+.tc-tiddler-view-frame .tw-tags-wrapper {
+    /*float: left;*/
+    padding-top: 4px;
+    padding-bottom: 2px;
+    background-color: <<colour tiddler-header-background>>;
+}
+
+/* P "tagged" & "Related" */ 
+.tc-tag-list-item .tc-drop-down p {
+    margin-top: 3px;
+    margin-bottom: 0px;
+    padding: 0 14px 0 4px;
+    font-weight: 600;
+    font-size: 1.1em;
+    text-align: left;
+}
+
+/* Span of the list of related tiddlers of a tag */
+.tc-tag-list-item > span.tc-drop-down {
+    max-height: 70vh;
+    overflow-x: hidden; /*auto*/
+    /*display: inline-block;*/
+}
+
+.tc-tags-wrapper {
+    margin-top: 5px;
+}
+
+.tc-tag-list-item .tc-drop-down a {
+    display: inline-block;
+}
+.tc-drop-down a {
+    padding: 0 5px 0 0px;
+    /*display: block;*/
+}
+div.tag-list-item .tc-drop-down a {
+    display: inline-block;
+    padding: 0 5px 0 0px;
+}
+
+    .tb-tagging-sub .tc-menu-list-item {
+        white-space: unset;
+    }
+
+
+/* Button "OpenAll" of tag dropdown list */
+.openall {
+    width: 32px!important;
+    float: left;
+    padding: 0px!important;
+    text-align: center!important;
+    vertical-align: middle;
+}
+svg.tc-image-openall {
+    height: 1.25em;
+    vertical-align: text-top;
+}

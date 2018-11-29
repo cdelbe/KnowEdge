@@ -1,0 +1,14 @@
+created: 20181107181945197
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Vertical Ellipsis
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f142
+modified: 20181125084945278
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/ellipsis-v
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-ellipsis-v fa-10x'></i>

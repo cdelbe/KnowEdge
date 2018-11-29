@@ -1,0 +1,14 @@
+created: 20181107181948010
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Mercury
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f223
+modified: 20181125084947672
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/mercury
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-mercury fa-10x'></i>

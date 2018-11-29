@@ -1,0 +1,14 @@
+created: 20181107181945105
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Directions
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f5eb
+modified: 20181125084945048
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/directions
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-directions fa-10x'></i>

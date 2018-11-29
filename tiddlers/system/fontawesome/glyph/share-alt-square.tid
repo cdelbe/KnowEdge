@@ -1,0 +1,14 @@
+created: 20181107181949650
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Alternate Share Square
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f1e1
+modified: 20181125084949209
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/share-alt-square
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-share-alt-square fa-10x'></i>

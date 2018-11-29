@@ -1,0 +1,17 @@
+about: 
+color: #808000
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/author
+list: 
+modified: 20180904223712965
+modifier: Charles Delbé
+mt-person.name: Jean-Paul
+mt-person.surname: Doignon
+mt-topics.list:  
+tags: $:/type/person $:/type/author
+title: Jean-Paul Doignon
+tmap.fa-icon: &#xf007;
+tmap.id: 39e54b32-732f-44b1-aa32-8737bc4f0e08
+type: text/vnd.tiddlywiki
+

@@ -1,0 +1,14 @@
+created: 20181107181946194
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: GitLab
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f296
+modified: 20181125084946045
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/gitlab
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-gitlab fa-10x'></i>

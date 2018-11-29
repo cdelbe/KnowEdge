@@ -1,0 +1,18 @@
+created: 20150123101005516
+creator: Charles Delbé
+list-before: $:/core/ui/ViewTemplate/body
+modified: 20181102120635173
+modifier: Charles Delbé
+tags: $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/ui/ViewTemplate/blackline
+tmap.id: 4084a90a-aad2-4ed4-8c61-c0c25bac864d
+type: text/vnd.tiddlywiki
+
+<$reveal type="nomatch" state=<<folded-state>> text="hide" tag="div" retain="yes" animate="yes">
+	<!-- <$list filter='[is[current]]'> -->
+    <$list filter="[all[current]]">
+	<$list filter="[all[current]has[text]]">
+		<hr>
+	</$list>
+    </$list>
+</$reveal>

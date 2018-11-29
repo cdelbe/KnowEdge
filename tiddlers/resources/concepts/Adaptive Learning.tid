@@ -1,0 +1,25 @@
+authors: 
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: 
+modified: 20181024140249513
+modifier: Charles Delbé
+description: Les algorithme d'apprentissage adaptatif s'adaptent 1) au profil de l'apprenant (à ses préférences, son historique éducatif, ...), 2) à ses interactions avec l'environnement et 3) à son niveau de performance.
+tags: $:/type/concept $:/type/knowledge Learning
+title: Adaptive Learning
+tmap.fa-icon: &#xf12e;
+tmap.id: 384405d1-d216-4340-ac78-67d0b192216e
+type: text/vnd.tiddlywiki
+
+!Definition
+
+!Modalités de l'évaluation
+* [[Diagnostique|Evaluation diagnostique]]
+* [[Pronostique|Evaluation pronostique]]
+* [[Formative|Formative Assessment]]
+* [[Sommative|Evaluation sommative]]
+
+;Voir aussi
+:[[Docimologie]]

@@ -1,0 +1,36 @@
+created: 20151016121037007
+creator: Charles Delbé
+list-before: $:/plugins/amp/MagicTabs/ViewTemplate/TabsBar
+modified: 20181002160618675
+modifier: Charles Delbé
+tags: $:/tags/ViewTemplate
+title: $:/n0d1/ui/ViewTemplate/footer-datepicker
+type: text/vnd.tiddlywiki
+
+<p class="p-datepicker">
+<$list filter="[is[current]tag[Event]]">
+
+<div class="tiddler-datepicker">
+<<showEditDateDebut debut>> 
+<<showEditDateFin fin>>
+<<showEditColor color>>
+</div>
+
+</$list>
+</p>
+
+<style>
+.tiddler-datepicker{
+float:right;
+clear:both;
+}
+
+.tiddler-datepicker {
+color:#ccc;
+}
+
+.p-datepicker {
+margin: 0px;
+display:inline;
+}
+</style>

@@ -1,0 +1,14 @@
+created: 20181107182001994
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Viadeo Square
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f2aa
+modified: 20181125084950739
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/viadeo-square
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-viadeo-square fa-10x'></i>

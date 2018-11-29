@@ -1,0 +1,14 @@
+created: 20181107181945362
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Alternate Exchange
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f362
+modified: 20181125084945166
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/exchange-alt
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-exchange-alt fa-10x'></i>

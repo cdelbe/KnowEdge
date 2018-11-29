@@ -1,0 +1,8 @@
+created: 20180908072037584
+creator: Charles Delbé
+filter: [field:title{$:/temp/tmap/currentTiddler}]
+modified: 20180908072037584
+modifier: Charles Delbé
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Topics and concepts/filter/nodes
+type: text/vnd.tiddlywiki
+

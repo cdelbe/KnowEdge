@@ -1,0 +1,14 @@
+created: 20181107181948934
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Place Of Worship
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f67f
+modified: 20181125084948509
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/place-of-worship
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-place-of-worship fa-10x'></i>

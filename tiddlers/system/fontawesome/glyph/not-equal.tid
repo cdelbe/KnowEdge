@@ -1,0 +1,14 @@
+created: 20181107181948378
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Not Equal
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f53e
+modified: 20181125084948012
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/not-equal
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-not-equal fa-10x'></i>

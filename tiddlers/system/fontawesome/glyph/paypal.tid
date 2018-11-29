@@ -1,0 +1,14 @@
+created: 20181107181948793
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Paypal
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f1ed
+modified: 20181125084948325
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/paypal
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-paypal fa-10x'></i>

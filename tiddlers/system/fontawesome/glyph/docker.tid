@@ -1,0 +1,14 @@
+created: 20181107181945055
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Docker
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f395
+modified: 20181125084944998
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/docker
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-docker fa-10x'></i>

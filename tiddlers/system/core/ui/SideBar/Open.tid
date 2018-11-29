@@ -1,0 +1,34 @@
+caption: {{$:/language/SideBar/Open/Caption}}
+created: 20181124234859573
+creator: Charles Delbé
+modified: 20181124234952109
+modifier: Charles Delbé
+title: $:/core/ui/SideBar/Open
+type: text/vnd.tiddlywiki
+
+\define lingo-base() $:/language/CloseAll/
+
+\define drop-actions()
+<$action-listops $tiddler="$:/StoryList" $subfilter="+[insertbefore:currentTiddler<actionTiddler>]"/>
+\end
+
+<$list filter="[list[$:/StoryList]!prefix[tw-href]]" history="$:/HistoryList" storyview="pop">
+<div style="position: relative;">
+<$droppable actions=<<drop-actions>>>
+<div class="tc-droppable-placeholder">
+&nbsp;
+</div>
+<div>
+<$button message="tm-close-tiddler" tooltip={{$:/language/Buttons/Close/Hint}} aria-label={{$:/language/Buttons/Close/Caption}} class="tc-btn-invisible tc-btn-mini">&times;</$button> <$link to={{!!title}}><$view field="title"/></$link>
+</div>
+</$droppable>
+</div>
+</$list>
+<$tiddler tiddler="">
+<$droppable actions=<<drop-actions>>>
+<div class="tc-droppable-placeholder">
+&nbsp;
+</div>
+<$button message="tm-close-all-tiddlers" class="tc-btn-invisible tc-btn-mini"><<lingo Button>></$button>
+</$droppable>
+</$tiddler>

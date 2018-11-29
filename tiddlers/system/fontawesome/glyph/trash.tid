@@ -1,0 +1,14 @@
+created: 20181107181959038
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Trash
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f1f8
+modified: 20181125084950306
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/trash
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-trash fa-10x'></i>

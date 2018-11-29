@@ -1,0 +1,102 @@
+created: 20181108075033169
+creator: Charles Delbé
+modified: 20181108075033169
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\toolbarconfigurator\lib\codemirror\show-hint.css
+tmap.id: 63081a52-eccc-452c-9be8-cbb812262e17
+type: text/vnd.tiddlywiki
+
+created: 20181108074509657
+creator: Charles Delbé
+modified: 20181108074509657
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\toolbarconfigurator\lib\codemirror\show-hint.css
+tmap.id: 1e7f757d-931e-470a-9ae3-7d636fea143f
+type: text/vnd.tiddlywiki
+
+created: 20181108074214438
+creator: Charles Delbé
+modified: 20181108074214438
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\toolbarconfigurator\lib\codemirror\show-hint.css
+tmap.id: fc513afc-f16b-46ad-9ebb-42701620a0c8
+type: text/vnd.tiddlywiki
+
+created: 20181108073418354
+creator: Charles Delbé
+modified: 20181108073418354
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\toolbarconfigurator\lib\codemirror\show-hint.css
+tmap.id: 03c6bef0-abea-4f11-9b87-b72a23b682a9
+type: text/vnd.tiddlywiki
+
+created: 20181108070528443
+creator: Charles Delbé
+modified: 20181108070528443
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\toolbarconfigurator\lib\codemirror\show-hint.css
+tmap.id: 00b4aca6-95fb-42ff-af71-9e972ef7adb1
+type: text/vnd.tiddlywiki
+
+created: 20181108070319283
+creator: Charles Delbé
+modified: 20181108070319283
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\toolbarconfigurator\lib\codemirror\show-hint.css
+tmap.id: 4a3c55d8-b86c-4eb3-b330-d7b1a0dcf8f8
+type: text/vnd.tiddlywiki
+
+created: 20181108063935163
+creator: Charles Delbé
+modified: 20181108063935163
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\toolbarconfigurator\lib\codemirror\show-hint.css
+tmap.id: 20db4b3e-8924-4cbf-9f0b-bd33adbd924c
+type: text/vnd.tiddlywiki
+
+created: 20181108063818009
+creator: Charles Delbé
+modified: 20181108063818009
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\ckeditor\samples\toolbarconfigurator\lib\codemirror\show-hint.css
+tmap.id: 788114cf-c84f-4ab6-94af-9d49adda4cea
+type: text/vnd.tiddlywiki
+
+.CodeMirror-hints {
+  position: absolute;
+  z-index: 10;
+  overflow: hidden;
+  list-style: none;
+
+  margin: 0;
+  padding: 2px;
+
+  -webkit-box-shadow: 2px 3px 5px rgba(0,0,0,.2);
+  -moz-box-shadow: 2px 3px 5px rgba(0,0,0,.2);
+  box-shadow: 2px 3px 5px rgba(0,0,0,.2);
+  border-radius: 3px;
+  border: 1px solid silver;
+
+  background: white;
+  font-size: 90%;
+  font-family: monospace;
+
+  max-height: 20em;
+  overflow-y: auto;
+}
+
+.CodeMirror-hint {
+  margin: 0;
+  padding: 0 4px;
+  border-radius: 2px;
+  max-width: 19em;
+  overflow: hidden;
+  white-space: pre;
+  color: black;
+  cursor: pointer;
+}
+
+li.CodeMirror-hint-active {
+  background: #08f;
+  color: white;
+}

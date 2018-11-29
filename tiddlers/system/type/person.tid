@@ -1,0 +1,18 @@
+caption: Person
+color: #81b53b
+created: 20141230120636464
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/author
+modified: 20181014184132094
+modifier: Charles Delbé
+mt-dashboard.add.content: $:/plugins/amp/MagicTabs/new/person
+mt-dashboard.heading: Persons
+mt-dashboard.icon: $:/plugins/.CD/KnowEdge/images/author
+mt-source.type: $:/type/root
+mt-template.fields: $:/plugins/amp/MagicTabs/templates/types/person
+mt-template.form: $:/plugins/amp/MagicTabs/new/person
+tags: 
+title: $:/type/person
+tmap.fa-icon: &#xf007;
+type: text/vnd.tiddlywiki
+

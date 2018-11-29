@@ -1,0 +1,17 @@
+about: 
+color: #808000
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/author
+list: 
+modified: 20180829015426262
+modifier: Charles Delbé
+mt-person.name: Stanislas
+mt-person.surname: Dehaene
+mt-topics.list:  
+tags: $:/type/person $:/type/author
+title: Stanislas Dehaene
+tmap.fa-icon: &#xf007;
+tmap.id: bff2bbcb-c1f5-450d-9b4e-cf313ec5cbfa
+type: text/vnd.tiddlywiki
+

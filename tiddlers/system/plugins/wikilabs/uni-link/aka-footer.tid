@@ -1,0 +1,12 @@
+created: 20181024151128093
+creator: Charles Delbé
+list-after: $:/core/ui/ViewTemplate/body
+modified: 20181118184503178
+modifier: Charles Delbé
+tags: $:/tags/ViewTemplate
+title: $:/plugins/wikilabs/uni-link/aka-footer
+type: text/vnd.tiddlywiki
+
+<$list filter="[all[current]has[aliases]]">
+{{||$:/plugins/wikilabs/uni-link/aka-footer/template}}
+</$list>

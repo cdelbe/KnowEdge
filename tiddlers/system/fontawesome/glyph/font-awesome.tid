@@ -1,0 +1,14 @@
+created: 20181107181946111
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Font Awesome
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f2b4
+modified: 20181125084945856
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/font-awesome
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-font-awesome fa-10x'></i>

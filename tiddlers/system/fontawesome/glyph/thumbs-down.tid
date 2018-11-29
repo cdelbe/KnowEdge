@@ -1,0 +1,14 @@
+created: 20181107181955761
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: thumbs-down
+fa-style-classes: fas far
+fa-styles: solid regular
+fa-unicode: f165
+modified: 20181125084950145
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/thumbs-down
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-thumbs-down fa-10x'></i>

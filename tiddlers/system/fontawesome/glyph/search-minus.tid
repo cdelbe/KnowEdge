@@ -1,0 +1,14 @@
+created: 20181107181949596
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Search Minus
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f010
+modified: 20181125084949127
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/search-minus
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-search-minus fa-10x'></i>

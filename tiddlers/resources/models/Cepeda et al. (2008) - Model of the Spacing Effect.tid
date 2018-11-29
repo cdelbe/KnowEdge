@@ -1,0 +1,39 @@
+authors: [[Cepeda et al.]]
+color: #087268
+created: 20181024063239882
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/model
+modified: 20181029164326248
+modifier: Charles Delbé
+mt-source.tiddler: Cepeda et al. (2008)
+mt-topics.list: [[Spaced Reinforcement]]
+tags: $:/type/model $:/type/knowledge
+title: Cepeda et al. (2008) - Model of the Spacing Effect
+tmap.fa-icon: &#xf085;
+tmap.id: 7fb65acf-968c-4877-90bd-d9b9a74e01fc
+type: text/vnd.tiddlywiki
+
+<<btn-img "figures/Cepeda_et_al2008_fig4.JPG">>
+@@.legend
+Figure 4. A functional approximation of recall on the final test (as a proportion), plotted as a function of gap and test delay (i.e., retention interval).
+@@
+
+The surface in Figure 4 is an instance of the following general form:
+$$
+recall = A(bt+1)^{-R},
+$$
+where $$A$$ equals ''immediate recall performance'' (i.e., when test delay, $$t$$, is 0), $$R$$ equals the ''rate of forgetting'', and $$b$$ is a ''temporal scaling'' parameter (cf. Wixted, 2004). Initial recall performance $$A$$ varies with ''gap'' $$g$$ according to the function:
+$$
+A = p+(1-p)e^{-ag},
+$$
+where $$p$$ and $$a$$ are ''parameters''. This function ensures that an increase in gap causes immediate recall performance to decline from perfection (when $$g=0$$) to an asymptote equal to $$p$$. The rate of forgetting ($$R$$) also varies with gap, according to the function:
+$$
+R=1+c[\ln(g+1)-d]^2,
+$$
+where $$c$$ and $$d$$ are ''parameters''.
+
+This is a U-shaped function of the natural log of study gap, which means that, for each test delay ($$t$$), increasing the study gap causes the ''rate of forgetting to drop'' quickly before increasing more slowly thereafter.
+
+@@.note
+The surface in Fig. 4 has the following parameter values: $$b=0.011$$, $$p=0.760$$, $$a=0.017$$, $$c=0.092$$, and $$d=3.453$$.
+@@

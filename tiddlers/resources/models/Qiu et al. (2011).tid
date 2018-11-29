@@ -1,0 +1,27 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180916153759218
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: [[Bayesian Knowledge Tracing]] Memory [[Spaced Reinforcement]] Modeling
+modified: 20181026132341454
+modifier: Charles Delbé
+mt-authors.title: Qiu et al.
+mt-publication.citation: Qiu, Y., Qi, Y., Lu, H., Pardos, Z. A., & Heffernan, N. T. (2011). Does Time Matter? Modeling the Effect of Time with Bayesian Knowledge Tracing. In //EDM// (pp. 139-148).
+mt-publication.date: 2011
+mt-publication.issue: 
+mt-publication.journal: EDM
+mt-publication.title: Does Time Matter? Modeling the Effect of Time with Bayesian Knowledge Tracing
+mt-publication.volume: 
+mt-source.authors.list: [[Y. Qiu]]
+mt-topics.list: [[Bayesian Knowledge Tracing]] Memory [[Spaced Reinforcement]] Modeling
+abstract: Intelligent tutoring systems that utilize Bayesian Knowledge Tracing (KT) have the ability to predict student performance well. However, models currently in use do not consider that a student performing on ITS may not be finishing their work in the same day. We looked at KT’s predictions on student responses where a day or more had elapsed since the previous response and found that KT consistently over predicted these data points in particular. We made two hypotheses to explain the over prediction behavior: 1) the student forgot since the last time on the tutor and 2) the student made a mistake (or slipped) on that first question of the day. We developed two models; KT-Forget and KT-Slip, modifications on Knowledge Tracing, to represent these two hypotheses. We evaluated and compared the performance of the KT-slip, KT-Forget and regular KT model by calculating prediction residuals and Area under Curve (AUC) on a Cognitive Tutor and ASSISTments dataset. The results showed that a significant improvement was obtained on the overall prediction by our KT-Forget model, suggesting that forgetting is the more likely cognitive explanation for the data and that there is a place for modeling forgetting, something that has not common practice in student modeling.
+tags: @:/type/article $:/type/publication
+title: Qiu et al. (2011)
+tmap.fa-icon: &x#f0f6;
+tmap.id: d646cec2-41bc-4ccd-ac8c-f22048c5beef
+type: text/vnd.tiddlywiki
+url: http://web.cs.wpi.edu/~nth/pubs_and_grants/papers/2011/EDM%202011/Qiu%20Does%20Time%20Matter.pdf
+
+Des données issues de la [[modélisation des apprenants|Learner Model]] ont démontré que les ceux-ci étaient susceptibles d'oublier certaines informations après un délai. [[Qiu et al. (2011)|]] ont ainsi élargi le modèle classique de [[suivi des connaissances|Knowledge Tracing]] pour tenir compte du fait que les élèves subissent un oubli @@background-color:Yellow;lorsqu'une journée s'écoule entre les problèmes proposés par un [[STI|?]]@@.
+ 

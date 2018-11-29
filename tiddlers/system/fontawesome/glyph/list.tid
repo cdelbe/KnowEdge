@@ -1,0 +1,14 @@
+created: 20181107181947592
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: List
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f03a
+modified: 20181125084947492
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/list
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-list fa-10x'></i>

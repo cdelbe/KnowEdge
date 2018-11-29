@@ -1,0 +1,15 @@
+authors: 
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: [[Learner Model]] [[Deep Learning]]
+modified: 20180926142028739
+modifier: Charles Delbé
+mt-topics.list: [[Learner Model]] [[Deep Learning]]
+tags: [[Knowledge Tracing]] $:/type/concept $:/type/knowledge
+title: Deep Knowledge Tracing
+tmap.fa-icon: &#xf12e;
+tmap.id: bc14f160-51a4-404d-bfcd-229998212a97
+type: text/vnd.tiddlywiki
+

@@ -1,0 +1,14 @@
+created: 20181107181944555
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Clipboard Check
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f46c
+modified: 20181125084944402
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/clipboard-check
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-clipboard-check fa-10x'></i>

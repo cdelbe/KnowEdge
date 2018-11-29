@@ -1,0 +1,14 @@
+created: 20181107181950508
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Tasks
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f0ae
+modified: 20181125084949938
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/tasks
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-tasks fa-10x'></i>

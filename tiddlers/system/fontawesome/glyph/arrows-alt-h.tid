@@ -1,0 +1,14 @@
+created: 20181107181943374
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Alternate Arrows Horizontal
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f337
+modified: 20181125084942875
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/arrows-alt-h
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-arrows-alt-h fa-10x'></i>

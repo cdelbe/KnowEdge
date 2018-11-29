@@ -1,0 +1,14 @@
+created: 20181107181944585
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Church
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f51d
+modified: 20181125084944055
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/church
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-church fa-10x'></i>

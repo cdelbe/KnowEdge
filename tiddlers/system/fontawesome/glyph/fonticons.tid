@@ -1,0 +1,14 @@
+created: 20181107181946086
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Fonticons
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f280
+modified: 20181125084945828
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/fonticons
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-fonticons fa-10x'></i>

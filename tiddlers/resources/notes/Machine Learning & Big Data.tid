@@ -1,0 +1,22 @@
+about: 
+color: #FFA500
+created: 20180725153952278
+creator: Charles Delbé
+description: 
+icon: $:/plugins/.CD/KnowEdge/images/note
+list: [[Big Data]]
+modified: 20181022085440079
+modifier: Charles Delbé
+mt-source.parents.list: 
+mt-source.root: 
+mt-source.tiddler: Machine Learning
+mt-topics.list: [[Big Data]] 
+tags: $:/type/note
+title: Machine Learning & Big Data
+tmap.fa-icon: &#xf044;
+tmap.id: c1838952-01a5-4e50-82d8-99c6d5a7239c
+type: text/vnd.tiddlywiki
+
+Plus un algorithme d'apprentissage automatique est exposé à de ''données'', plus ''les risques d’incertitude diminuent'' et plus le problème a des chances d'être ''résolu'', à condition qu’il y ait ''suffisamment'' de données à utiliser comme exemples. À ce titre, en leur soumettant continuellement de nouvelles informations, ces algorithmes peuvent virtuellement résoudre tous les problèmes solvables et repérent les tendances statistiques plus rapidement que n'importe quel humain.
+
+Les capacités de l'[[IA|Artificial Intelligence]] à ''analyser de [[grandes quantités de données|Big Data]] en temps réel'' (par exemple, les performances d'un élève dans une discipline donnée au cours d'une année) et de ''[[proposer automatiquement de nouveaux contenus|Educational Curriculum]]'' ou des ''paramètres d'apprentissage'' spécifiques, aide à répondre au besoin constant des étudiants d'une ''pratique'' et de ''[[rétroactions|Feedback]]'' ciblées, et permet également aux enseignants de ''mieux comprendre les performances'' des élèves et de ''mettre en oeuvre'' des [[actions pédagogiques|Instructional Strategy]] ''personnalisées'' plus efficaces.

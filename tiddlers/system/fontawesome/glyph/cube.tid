@@ -1,0 +1,14 @@
+created: 20181107181944840
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Cube
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f1b2
+modified: 20181125084944893
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/cube
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-cube fa-10x'></i>

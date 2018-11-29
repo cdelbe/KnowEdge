@@ -1,0 +1,14 @@
+created: 20181107182002225
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Won Sign
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f159
+modified: 20181125084951038
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/won-sign
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-won-sign fa-10x'></i>

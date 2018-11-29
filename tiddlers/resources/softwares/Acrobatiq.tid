@@ -1,0 +1,21 @@
+color: #ff8040
+created: 20180814205623702
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/software
+list: 
+modified: 20180914141850927
+modifier: Charles Delbé
+mt-topics.list: 
+tags: $:/type/software [[Personalized Learning]] [[Learning Analytics]]
+title: Acrobatiq
+tmap.fa-icon: &#xf120;
+tmap.id: f6d210c3-6a07-4842-b63a-bda91a5f06cd
+type: text/vnd.tiddlywiki
+url: http://acrobatiq.com/
+
+!Description
+Use learning design and data to optimize teaching and learning so more students achieve academic success.
+
+!Références
+* [[Learning Anaytics: Turn Data Into Real-Time Actionable Information About Student Learning|http://acrobatiq.com/products/learning-analytics-3/]]
+* [[Research Results & Publications|http://acrobatiq.com/evidence/research-and-publications/]]

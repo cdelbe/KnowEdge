@@ -1,0 +1,14 @@
+created: 20181107181948895
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Periscope
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f3da
+modified: 20181125084948247
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/periscope
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-periscope fa-10x'></i>

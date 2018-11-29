@@ -1,0 +1,14 @@
+created: 20181107182002279
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: YouTube
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f167
+modified: 20181125084951085
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/youtube
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-youtube fa-10x'></i>

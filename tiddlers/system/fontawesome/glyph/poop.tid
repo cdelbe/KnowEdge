@@ -1,0 +1,14 @@
+created: 20181107181949053
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Poop
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f619
+modified: 20181125084948561
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/poop
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-poop fa-10x'></i>

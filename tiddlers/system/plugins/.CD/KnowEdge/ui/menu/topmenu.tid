@@ -1,0 +1,86 @@
+created: 20181017174832628
+creator: Charles Delbé
+modified: 20181106175853815
+modifier: Charles Delbé
+tags: $:/tags/@CD $:/tags/TopLeftBar
+title: $:/plugins/.CD/KnowEdge/ui/menu/topmenu
+type: text/vnd.tiddlywiki
+
+<$list filter="[all[shadows+tiddlers]tag[$:/tags/TopMenu]!has[draft.of]limit[1]]" variable="listItem">
+
+<nav class="tc-top-menu">
+
+<ul>
+
+<$list filter="[all[shadows+tiddlers]tag[$:/tags/TopMenu]!has[draft.of]nsort[menu-pos]]">
+
+<li style={{!!custom-menu-styles}}>
+
+<$list filter="[<currentTiddler>!has[dropdown]]" variable="listItem" emptyMessage="""
+
+<$set name="dropdown-state" value=<<qualify "$:/state/topmenu/dropdown/">>>
+
+<$set name="dropdown-state" value={{{ [<dropdown-state>addsuffix<currentTiddler>] }}}>
+
+<$button popup=<<dropdown-state>> selectedClass="tc-selected">
+
+<$transclude field="caption"/>
+
+</$button>
+
+</$set>
+
+</$set>
+
+""">
+
+<$list filter="[<currentTiddler>has[custom-menu-content]]" variable="listItem" emptyMessage="""
+<$link to={{!!target}}>
+
+<$transclude field="caption"/>
+
+</$link>
+""">
+
+<$transclude field="custom-menu-content" mode="inline"/>
+
+</$list>
+
+
+</$list>
+
+</li>
+
+</$list>
+
+</ul>
+
+<$list filter="[all[shadows+tiddlers]tag[$:/tags/TopMenu]!has[draft.of]]">
+
+<$list filter="[<currentTiddler>has[dropdown]]" variable="listItem">
+
+<$set name="dropdown-state" value=<<qualify "$:/state/topmenu/dropdown/">>>
+
+<$set name="dropdown-state" value={{{ [<dropdown-state>addsuffix<currentTiddler>] }}}>
+
+<$reveal type="popup" state=<<dropdown-state>>>
+
+<div class="tc-drop-down">
+
+<$transclude tiddler={{!!dropdown}}/>
+
+</div>
+
+</$reveal>
+
+</$set>
+
+</$set>
+
+</$list>
+
+</$list>
+
+</nav>
+
+</$list>

@@ -1,0 +1,14 @@
+created: 20181107181947154
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Instagram
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f16d
+modified: 20181125084947009
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/instagram
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-instagram fa-10x'></i>

@@ -1,0 +1,14 @@
+created: 20181107181946028
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Frog
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f52e
+modified: 20181125084945748
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/frog
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-frog fa-10x'></i>

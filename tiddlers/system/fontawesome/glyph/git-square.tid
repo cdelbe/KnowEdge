@@ -1,0 +1,14 @@
+created: 20181107181946121
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Git Square
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f1d2
+modified: 20181125084946080
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/git-square
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-git-square fa-10x'></i>

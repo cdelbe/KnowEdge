@@ -1,0 +1,14 @@
+created: 20181107181946199
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: GitKraken
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f3a6
+modified: 20181125084946055
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/gitkraken
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-gitkraken fa-10x'></i>

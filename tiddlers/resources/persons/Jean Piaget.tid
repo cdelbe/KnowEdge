@@ -1,0 +1,17 @@
+about: 
+color: #808000
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/author
+list: 
+modified: 20180909013636749
+modifier: Charles Delbé
+mt-person.name: Jean
+mt-person.surname: Piaget
+mt-topics.list:  
+tags: $:/type/person $:/type/author
+title: Jean Piaget
+tmap.fa-icon: &#xf007;
+tmap.id: b5fecb93-ac10-46d7-840a-54ffd088f59e
+type: text/vnd.tiddlywiki
+

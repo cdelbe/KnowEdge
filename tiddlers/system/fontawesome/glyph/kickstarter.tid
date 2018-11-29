@@ -1,0 +1,14 @@
+created: 20181107181947190
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Kickstarter
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f3bb
+modified: 20181125084947154
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/kickstarter
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-kickstarter fa-10x'></i>

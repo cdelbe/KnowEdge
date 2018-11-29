@@ -1,0 +1,14 @@
+created: 20181107181948005
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Microchip
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f2db
+modified: 20181125084947804
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/microchip
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-microchip fa-10x'></i>

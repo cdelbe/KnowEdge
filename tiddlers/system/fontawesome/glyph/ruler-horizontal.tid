@@ -1,0 +1,14 @@
+created: 20181107181949538
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Ruler Horizontal
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f547
+modified: 20181125084949023
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/ruler-horizontal
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-ruler-horizontal fa-10x'></i>

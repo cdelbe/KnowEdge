@@ -1,0 +1,14 @@
+created: 20181107181943613
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: bell
+fa-style-classes: fas far
+fa-styles: solid regular
+fa-unicode: f0f3
+modified: 20181125084943469
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/bell
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-bell fa-10x'></i>

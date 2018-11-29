@@ -1,0 +1,14 @@
+created: 20181107181950372
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: subscript
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f12c
+modified: 20181125084949778
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/subscript
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-subscript fa-10x'></i>

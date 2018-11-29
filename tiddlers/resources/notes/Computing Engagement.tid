@@ -1,0 +1,32 @@
+color: #FFA500
+created: 20180729060343528
+creator: Charles Delbé
+description: 
+icon: $:/plugins/.CD/KnowEdge/images/note
+list: Engagement
+modified: 20180927185327630
+modifier: Charles Delbé
+mt-source.root: 
+mt-source.tiddler: Engagement
+mt-topics.list: [[Engagement]]
+tags: $:/type/note
+title: Computing Engagement
+tmap.edges: {}
+tmap.fa-icon: &#xf044;
+tmap.id: aab52c2e-d961-495f-b84f-8982ec1d3572
+type: text/vnd.tiddlywiki
+
+La reconnaissance des émotions, dont certaines sont liées à des états mentaux plus généraux comme le désintéressement ou le désengagement, est une tâche complexe de par leurs définitions, leurs origines et leurs manifestations multiples (Chaouachi, 2014).
+
+Chaouachi (2014):
+
+* Temps de réponse (et son évolution)
+* Temps passé sur les activités
+* Nombre de tentatives avant abandon
+* Le nombre de sollicitation des aides, degré d'étayage demandé
+* Les séquences de réponses (bonnes ou mauvaises) 
+* Le nombre clics : le nombre de clics et de sélection décroit avec l’ennui (Wang, Chignell, & Ishizuka, 2006) 
+* Les mouvements du curseur
+
+---
+:[ext[Modélisation de l’engagement et de la charge mentale de travail dans les Systèmes Tutoriels Intelligents (2014) (Thesis)|https://papyrus.bib.umontreal.ca/xmlui/handle/1866/11958]]

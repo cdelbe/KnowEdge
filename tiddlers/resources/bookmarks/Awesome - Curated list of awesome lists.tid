@@ -1,0 +1,43 @@
+caption: Awesome - Curated list of awesome lists
+color: #681224
+created: 20181109133125305
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/bookmark
+list: [[Computer Science]] Programming [[Big Data]] [[Content Management Systems]]
+modified: 20181109134817635
+modifier: Charles Delbé
+mt-publication.citation: Awesome - Curated list of awesome lists
+mt-topics.list: [[Computer Science]] [[Programming]] [[Big Data]] [[Content Management Systems]]
+tags: $:/type/bookmark $:/tags/@CD
+tiddly: https://project-awesome.org/
+title: Awesome - Curated list of awesome lists
+tmap.fa-icon: &#xf097;
+tmap.id: f1f6e73d-ae3d-4aa7-97b7-70180665860c
+type: text/x-htmlp
+url: https://project-awesome.org/
+
+<h2>Contents</h2>
+<ul>
+<li><a href="https://project-awesome.org/#platforms" style="box-sizing: border-box; color: rgb(3, 102, 214); text-decoration-line: none;" target="_blank">Platforms</a></li>
+<li><a href="https://project-awesome.org/#programming-languages" style="box-sizing: border-box; color: rgb(3, 102, 214); text-decoration-line: none;" target="_blank">Programming Languages</a></li>
+<li><a href="https://project-awesome.org/#front-end-development" style="box-sizing: border-box; color: rgb(3, 102, 214); text-decoration-line: none;">Front-End Development</a></li>
+<li><a href="https://project-awesome.org/#back-end-development" style="box-sizing: border-box; color: rgb(3, 102, 214); text-decoration-line: none;">Back-End Development</a></li>
+<li><a href="https://project-awesome.org/#computer-science" style="box-sizing: border-box; color: rgb(3, 102, 214); text-decoration-line: none;">Computer Science</a></li>
+<li><a href="https://project-awesome.org/#big-data" style="box-sizing: border-box; color: rgb(3, 102, 214); text-decoration-line: none;">Big Data</a></li>
+<li><a href="https://project-awesome.org/#theory" style="box-sizing: border-box; color: rgb(3, 102, 214); text-decoration-line: none;">Theory</a></li>
+<li><a href="https://project-awesome.org/#books" style="box-sizing: border-box; color: rgb(3, 102, 214); text-decoration-line: none;">Books</a></li>
+<li><a href="https://project-awesome.org/#editors" style="box-sizing: border-box; color: rgb(3, 102, 214); text-decoration-line: none;">Editors</a></li>
+<li><a href="https://project-awesome.org/#gaming" style="box-sizing: border-box; color: rgb(3, 102, 214); text-decoration-line: none;">Gaming</a></li>
+<li><a href="https://project-awesome.org/#development-environment" style="box-sizing: border-box; color: rgb(3, 102, 214); text-decoration-line: none;">Development Environment</a></li>
+<li><a href="https://project-awesome.org/#entertainment" style="box-sizing: border-box; color: rgb(3, 102, 214); text-decoration-line: none;">Entertainment</a></li>
+<li><a href="https://project-awesome.org/#databases" style="box-sizing: border-box; color: rgb(3, 102, 214); text-decoration-line: none;">Databases</a></li>
+<li><a href="https://project-awesome.org/#media" style="box-sizing: border-box; color: rgb(3, 102, 214); text-decoration-line: none;">Media</a></li>
+<li><a href="https://project-awesome.org/#learn" style="box-sizing: border-box; color: rgb(3, 102, 214); text-decoration-line: none;">Learn</a></li>
+<li><a href="https://project-awesome.org/#security" style="box-sizing: border-box; color: rgb(3, 102, 214); text-decoration-line: none;">Security</a></li>
+<li><a href="https://project-awesome.org/#content-management-systems" style="box-sizing: border-box; color: rgb(3, 102, 214); text-decoration-line: none;">Content Management Systems</a></li>
+<li><a href="https://project-awesome.org/#hardware" style="box-sizing: border-box; color: rgb(3, 102, 214); text-decoration-line: none;">Hardware</a></li>
+<li><a href="https://project-awesome.org/#business" style="box-sizing: border-box; color: rgb(3, 102, 214); text-decoration-line: none;">Business</a></li>
+<li><a href="https://project-awesome.org/#work" style="box-sizing: border-box; color: rgb(3, 102, 214); text-decoration-line: none;">Work</a></li>
+<li><a href="https://project-awesome.org/#networking" style="box-sizing: border-box; color: rgb(3, 102, 214); text-decoration-line: none;">Networking</a></li>
+<li><a href="https://project-awesome.org/#decentralized-systems" style="box-sizing: border-box; color: rgb(3, 102, 214); text-decoration-line: none;">Decentralized Systems</a></li>
+<li><a href="https://project-awesome.org/#miscellaneous" style="box-sizing: border-box; color: rgb(3, 102, 214); text-decoration-line: none;">Miscellaneous</a></li></ul>

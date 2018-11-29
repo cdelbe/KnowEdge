@@ -1,0 +1,14 @@
+created: 20181107181949025
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Plane Arrival
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f5af
+modified: 20181125084948489
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/plane-arrival
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-plane-arrival fa-10x'></i>

@@ -1,0 +1,65 @@
+created: 20180927022907164
+creator: Charles Delbé
+modified: 20180930175940137
+modifier: Charles Delbé
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Charles/map
+type: text/vnd.tiddlywiki
+
+{
+ "f4192895-017b-4ca6-8e44-5748840feccf": {
+  "x": -155,
+  "y": 75
+ },
+ "25f03a0a-a08f-4c1a-a10f-83aa164fc13b": {
+  "x": 87,
+  "y": 160
+ },
+ "bea3cd2d-f199-4c48-9978-bdb7ab33e420": {
+  "x": 36,
+  "y": 73
+ },
+ "defa356d-fc71-4fcb-a2ba-e843d28850ee": {
+  "x": -152,
+  "y": -4
+ },
+ "273eb08a-9a74-4fa9-bfbb-ff8e4310b88d": {
+  "x": 241,
+  "y": -79
+ },
+ "3fbd5d28-6850-403e-aa43-ccb432383952": {
+  "x": -46,
+  "y": -121
+ },
+ "822e783c-5a61-4e62-a50b-0a4103c27a39": {
+  "x": 84,
+  "y": 60
+ },
+ "0ed768ac-50f1-4114-8850-c25feaeacbe5": {
+  "x": -76,
+  "y": -66
+ },
+ "aab52c2e-d961-495f-b84f-8982ec1d3572": {
+  "x": -58,
+  "y": 44
+ },
+ "34183807-7b45-4781-8bdd-e60c388593b7": {
+  "x": -15,
+  "y": 5
+ },
+ "51d81dc3-827a-4180-a5af-b216c9e24477": {
+  "x": 79,
+  "y": -93
+ },
+ "c83b54cd-c661-43be-8263-963a6dd8705e": {
+  "x": 104,
+  "y": -27
+ },
+ "84eb863a-0052-4eec-b8d1-3a3924e5a9c5": {
+  "x": -12,
+  "y": -65
+ },
+ "711eb36c-79c5-4d46-8076-51598022b794": {
+  "x": 21,
+  "y": -122
+ }
+}

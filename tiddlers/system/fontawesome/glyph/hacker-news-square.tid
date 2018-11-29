@@ -1,0 +1,14 @@
+created: 20181107181946540
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Hacker News Square
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f3af
+modified: 20181125084946436
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/hacker-news-square
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-hacker-news-square fa-10x'></i>

@@ -1,0 +1,10 @@
+created: 20181021214320601
+creator: Charles Delbé
+modified: 20181106175454047
+modifier: Charles Delbé
+tags: $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/ui/menu/publications/dropdown
+type: text/vnd.tiddlywiki
+
+<<makeTopMenu type:"$:/type/publication" template:"$:/plugins/amp/MagicTabs/templates/types/publication">>
+

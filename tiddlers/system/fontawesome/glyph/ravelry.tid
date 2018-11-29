@@ -1,0 +1,14 @@
+created: 20181107181949366
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Ravelry
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f2d9
+modified: 20181125084948804
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/ravelry
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-ravelry fa-10x'></i>

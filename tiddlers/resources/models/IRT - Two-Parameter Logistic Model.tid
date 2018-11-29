@@ -1,0 +1,33 @@
+alias: |IRT-2PL|
+authors: 
+caption: IRT-2PL
+color: #087268
+created: 20180903162520900
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/model
+list: Assessment [[Learning Analytics]]
+modified: 20180916025046147
+modifier: Charles Delbé
+mt-source.parents.list: [[Item Response Theory]]
+mt-topics.list: [[Assessment]] [[Learning Analytics]]
+tags: [[Knowledge Tracing]] $:/type/model $:/type/knowledge
+title: IRT - Two-Parameter Logistic Model
+tmap.fa-icon: &#xf085;
+tmap.id: 210011b3-b4fc-4c28-a284-f5deee91684a
+type: text/vnd.tiddlywiki
+
+!Definition
+
+An IRT2PL model predicts the probability that a learner will answer an item correctly based on their ability.
+
+𝑝𝑖𝑗(𝜃𝑗) = 1 / 1 + 𝑒−𝑎𝑖(𝜃𝑗−𝑏𝑖)
+
+There are two parameters to the model: ''difficulty'' and ''discrimination''.
+
+* The difficulty is the ability level at which a learner has exactly a 50% chance of answering the question correctly.
+* The discrimination measures the ability of the function to distinguish between learners who will pass and those who will fail. It can be viewed as a measure of how accurately the model reflects the data.
+
+!References
+*[[Realizeit]]
+*http://mc-stan.org/users/documentation/case-studies/tutorial_twopl.html
+*[[A visual guide to item response theory|https://www.metheval.uni-jena.de/irt/VisualIRT.pdf]]

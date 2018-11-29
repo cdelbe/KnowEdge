@@ -1,0 +1,24 @@
+abstract: One of the challenges with research on student engagement is the large variation in the measurement of this construct, which has made it challenging to compare fi ndings across studies. This chapter contributes to our understanding of the measurement of student in engagement in three ways. First, we describe strengths and limitations of different methods for assessing student engagement (i.e., self-report measures, experience sampling techniques, teacher ratings, interviews, and observations). Second, we compare and contrast 11 self-report survey measures of student engagement that have been used in prior research. Across these 11 measures, we describe what is measured (scale name and items), use of measure, samples, and the extent of reliability and validity information available on each measure. Finally, we outline limitations with current approaches to measurement and promising future directions.
+aliases: 
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181027233837174
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/part
+list: Engagement
+modified: 20181029172130303
+modifier: Charles Delbé
+mt-authors.title: Fredricks & McColskey
+mt-publication.citation: Fredricks, J. A., & McColskey, W. (2012). The measurement of student engagement: A comparative analysis of various methods and student self-report instruments. In Handbook of research on student engagement (pp. 763-782). Springer, Boston, MA.
+mt-publication.date: 2012
+mt-publication.subtitle: 
+mt-publication.title: The measurement of student engagement: A comparative analysis of various methods and student self-report instruments
+mt-source.authors.list: [[J. A. Fredricks]] [[W. McColskey]]
+mt-topics.list: [[Engagement]]
+tags: @:/type/chapter $:/type/publication
+title: Fredricks & McColskey (2012)
+tmap.fa-icon: &#xf1dd;
+tmap.id: ffb2192d-7b99-43b9-b970-b5f1a0753e3e
+type: text/vnd.tiddlywiki
+url: https://www.lcsc.org/cms/lib/MN01001004/Centricity/Domain/108/The%20Measurement%20of%20Student%20Engagement-%20A%20Comparative%20Analysis%20of%20Various%20Methods.pdf
+

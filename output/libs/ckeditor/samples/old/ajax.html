@@ -1,0 +1,149 @@
+created: 20181108075032716
+creator: Charles Delbé
+modified: 20181108075032716
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\ajax.html
+tmap.id: f4a59724-37ac-4330-a2eb-35316868552c
+type: text/html
+
+created: 20181108074509084
+creator: Charles Delbé
+modified: 20181108074509084
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\ajax.html
+tmap.id: 106ec2d2-5d33-4392-9451-9da6414134fe
+type: text/html
+
+created: 20181108074214189
+creator: Charles Delbé
+modified: 20181108074214189
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\ajax.html
+tmap.id: ba562f6e-17a1-489b-ae2b-537da55ac2e3
+type: text/html
+
+created: 20181108073418039
+creator: Charles Delbé
+modified: 20181108073418039
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\ajax.html
+tmap.id: 8774bc03-d019-4496-943e-45ddb4c16d09
+type: text/html
+
+created: 20181108070528289
+creator: Charles Delbé
+modified: 20181108070528289
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\ajax.html
+tmap.id: b0ed8d7b-90b6-4701-aaeb-637cc219f1fb
+type: text/html
+
+created: 20181108070318994
+creator: Charles Delbé
+modified: 20181108070318994
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\ajax.html
+tmap.id: c08332e3-2b63-4d33-968d-d1c855f66784
+type: text/html
+
+created: 20181108063934773
+creator: Charles Delbé
+modified: 20181108063934773
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\ajax.html
+tmap.id: 7033e25e-5bb3-4fd9-96e5-0a0e5754a142
+type: text/html
+
+created: 20181108063817754
+creator: Charles Delbé
+modified: 20181108063817754
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\ckeditor\samples\old\ajax.html
+tmap.id: 783e08d1-43be-4105-97a0-a7d410299bf2
+type: text/html
+
+<!DOCTYPE html>
+<!--
+Copyright (c) 2003-2018, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
+-->
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ajax &mdash; CKEditor Sample</title>
+	<script src="../../ckeditor.js"></script>
+	<link rel="stylesheet" href="sample.css">
+	<script>
+
+		var editor, html = '';
+
+		function createEditor() {
+			if ( editor )
+				return;
+
+			// Create a new editor inside the <div id="editor">, setting its value to html
+			var config = {};
+			editor = CKEDITOR.appendTo( 'editor', config, html );
+		}
+
+		function removeEditor() {
+			if ( !editor )
+				return;
+
+			// Retrieve the editor contents. In an Ajax application, this data would be
+			// sent to the server or used in any other way.
+			document.getElementById( 'editorcontents' ).innerHTML = html = editor.getData();
+			document.getElementById( 'contents' ).style.display = '';
+
+			// Destroy the editor.
+			editor.destroy();
+			editor = null;
+		}
+
+	</script>
+</head>
+<body>
+	<h1 class="samples">
+		<a href="index.html">CKEditor Samples</a> &raquo; Create and Destroy Editor Instances for Ajax Applications
+	</h1>
+	<div class="warning deprecated">
+		This sample is not maintained anymore. Check out its <a href="https://sdk.ckeditor.com/samples/saveajax.html">brand new version in CKEditor SDK</a>.
+	</div>
+	<div class="description">
+		<p>
+			This sample shows how to create and destroy CKEditor instances on the fly. After the removal of CKEditor the content created inside the editing
+			area will be displayed in a <code>&lt;div&gt;</code> element.
+		</p>
+		<p>
+			For details of how to create this setup check the source code of this sample page
+			for JavaScript code responsible for the creation and destruction of a CKEditor instance.
+		</p>
+	</div>
+	<p>Click the buttons to create and remove a CKEditor instance.</p>
+	<p>
+		<input onclick="createEditor();" type="button" value="Create Editor">
+		<input onclick="removeEditor();" type="button" value="Remove Editor">
+	</p>
+	<!-- This div will hold the editor. -->
+	<div id="editor">
+	</div>
+	<div id="contents" style="display: none">
+		<p>
+			Edited Contents:
+		</p>
+		<!-- This div will be used to display the editor contents. -->
+		<div id="editorcontents">
+		</div>
+	</div>
+	<div id="footer">
+		<hr>
+		<p>
+			CKEditor - The text editor for the Internet - <a class="samples" href="https://ckeditor.com/">https://ckeditor.com</a>
+		</p>
+		<p id="copy">
+			Copyright &copy; 2003-2018, <a class="samples" href="https://cksource.com/">CKSource</a> - Frederico
+			Knabben. All rights reserved.
+		</p>
+	</div>
+</body>
+</html>

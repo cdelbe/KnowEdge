@@ -1,0 +1,13 @@
+caption: Concepts
+created: 20181017174832628
+creator: Charles Delbé
+dropdown: $:/plugins/.CD/KnowEdge/ui/menu/concepts/dropdown
+list-after: $:/plugins/.CD/KnowEdge/ui/menu/topics
+menu-pos: 6
+modified: 20181106175541854
+modifier: Charles Delbé
+tags: $:/tags/@CD $:/tags/Static/TopMenu $:/tags/TopMenu
+target: $:/type/concept
+title: $:/plugins/.CD/KnowEdge/ui/menu/concepts
+type: text/vnd.tiddlywiki
+

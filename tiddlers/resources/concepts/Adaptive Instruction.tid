@@ -1,0 +1,18 @@
+authors: 
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: Feedback Hints
+modified: 20181106161808524
+modifier: Charles Delbé
+mt-topics.list: [[Feedback]] [[Hints]]
+tags: [[Adaptive Learning]] $:/type/concept $:/type/knowledge
+title: Adaptive Instruction
+tmap.fa-icon: &#xf12e;
+tmap.id: e6501c76-ace1-4b85-b1d3-e0aadf53353b
+type: text/vnd.tiddlywiki
+
+<<<
+Adaptive instruction looks at a student’s specific answer and responds with unique hints and feedback based on that answer. Adaptive instruction provides explanatory, answer-specific feedback based on each student’s unique response.
+<<<

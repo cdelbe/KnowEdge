@@ -1,0 +1,17 @@
+created: 20181107181943220
+creator: Charles Delbé
+description: Chess
+modified: 20181107181943220
+modifier: Charles Delbé
+title: $:/fontawesome/class/chess
+type: text/vnd.tiddlywiki
+
+chess
+chess-bishop
+chess-board
+chess-king
+chess-knight
+chess-pawn
+chess-queen
+chess-rook
+square-full

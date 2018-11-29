@@ -1,0 +1,14 @@
+created: 20181107181949844
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Shower
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f2cc
+modified: 20181125084949300
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/shower
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-shower fa-10x'></i>

@@ -1,0 +1,14 @@
+created: 20181107181944344
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Coins
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f51e
+modified: 20181125084944733
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/coins
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-coins fa-10x'></i>

@@ -1,0 +1,14 @@
+created: 20181107181942918
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Amazon
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f270
+modified: 20181125084943118
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/amazon
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-amazon fa-10x'></i>

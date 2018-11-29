@@ -1,0 +1,66 @@
+aliases: ZPD [[Zone de Proche Développement]]
+caption: ZPD
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: Learning
+modified: 20181024124600198
+modifier: Charles Delbé
+mt-topics.list: [[Learning]]
+tags: [[Cognitive Development]] $:/type/concept $:/type/knowledge
+title: Zone of Proximal Development
+tmap.fa-icon: &#xf12e;
+tmap.id: f7941486-e16d-45df-8a7a-cc958cfa7963
+type: text/vnd.tiddlywiki
+
+
+!Définitions
+
+<<<
+''Ce concept central dans les travaux de Vygotsky exprime la différence entre ce que l'enfant apprendra s'il est seul, et ce qu'il peut potentiellement apprendre si on lui fournit une aide.''
+<<<
+
+<<<
+Compétences/aptitudes trop difficiles à maitriser seul, mais qui peuvent être acquises en tutorat - en étant guidé et encouragé par un individu expert.
+<<<
+
+<<<
+Distance entre le niveau de développement réel tel que déterminé par la résolution indépendante des problèmes et le niveau de développement potentiel tel que déterminé par la résolution de problèmes avec l’aide des adultes ou en collaboration avec des pairs plus compétents. ''En d’autres termes, la zone proximale de développement est l’éventail de capacités qu’une personne dispose avec une aide extérieure sans les avoir de façon indépendante.''
+<<<
+
+<<<
+"La ZPD est la distance (différence) entre le niveau de développement actuel, déterminé par les capacités de l'enfant à résoudre seul un problème, et le niveau de développement potentiel, déterminé à travers la résolution de problème par cet enfant, lorsqu'il est aidé par des adultes ou collabore avec des pairs de niveau plus avancé."
+<<<
+
+@@.figure
+[img[figures/ZPD_1.png]]
+@@
+@@.legend
+Figure 1: Zone de développement proximale
+@@
+
+!Implications
+''Adapter la difficulté au niveau actuel de l’apprenant (voir [[Item Response Theory]])''
+
+<<<
+:Il faut prédire le niveau de compétence.
+:Il faut qualifier la difficulté des tâches.
+<<<
+
+<<<
+''[[Engagement]]'' : Si la maitrise se produit trop rapidement, l’apprenant peut s’ennuyer; si elle prend trop de temps, il peut être frustré et se désengager.  ''Une tâche qui s’inscrit dans la ZPD permet à l’élève en apprentissage de se __mobiliser__, car il sent le défi __réaliste__ et __atteignable__.''
+<<<
+
+*ZPD et [[étayage|Scaffolding]]
+*Planification selon la difficulté des tâches et du ''niveau de compétence prédit''
+
+!References
+*http://www.innovativelearning.com/educational_psychology/development/zone-of-proximal-development.html
+*http://differenciation.org/pdf/notion_zpd.pdf
+*https://www.simplypsychology.org/Zone-of-Proximal-Development.html
+
+
+;see also
+:[[Difficulté désirable|https://en.wikipedia.org/wiki/Desirable_difficulty]]
+:https://www.didask.com/blog/articles/difficultes-desirables-apprentissage-durable

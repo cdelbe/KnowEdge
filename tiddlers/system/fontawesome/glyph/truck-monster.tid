@@ -1,0 +1,14 @@
+created: 20181107181959123
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Truck Monster
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f63b
+modified: 20181125084950340
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/truck-monster
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-truck-monster fa-10x'></i>

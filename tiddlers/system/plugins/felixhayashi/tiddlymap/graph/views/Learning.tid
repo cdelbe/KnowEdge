@@ -1,0 +1,12 @@
+config.central-topic: b005c528-80d0-43f4-95cb-d2973ba31dc2
+config.neighbourhood_directions: out
+config.neighbourhood_scope: 1
+created: 20180909022037326
+creator: Charles Delbé
+id: 62628489-2ad8-48c2-8133-db55e56dc5ae
+isview: true
+modified: 20180926133101473
+modifier: Charles Delbé
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Learning
+type: text/vnd.tiddlywiki
+

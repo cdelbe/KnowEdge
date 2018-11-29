@@ -1,0 +1,14 @@
+created: 20181107181946816
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Heartbeat
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f21e
+modified: 20181125084946731
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/heartbeat
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-heartbeat fa-10x'></i>

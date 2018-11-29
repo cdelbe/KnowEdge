@@ -1,0 +1,14 @@
+created: 20181107182000762
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: unlock
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f09c
+modified: 20181125084950443
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/unlock
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-unlock fa-10x'></i>

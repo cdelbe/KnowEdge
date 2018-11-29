@@ -1,0 +1,21 @@
+authors: 
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: 
+modified: 20180927222136978
+modifier: Charles Delbé
+tags: $:/type/concept $:/type/knowledge
+title: Bloom’s Taxonomy
+tmap.fa-icon: &#xf12e;
+tmap.id: efbf89c0-b728-4e79-b874-f74300415659
+type: text/vnd.tiddlywiki
+url: 
+
+@@.picture
+[img width=550px [https://cft.vanderbilt.edu/wp-content/uploads/sites/59/Blooms-Taxonomy-650x366.jpg]]
+@@
+
+---
+:https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/

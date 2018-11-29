@@ -1,0 +1,31 @@
+authors: 
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: [[Adaptive Learning]]
+modified: 20181009062438596
+modifier: Charles Delbé
+mt-topics.list: [[Adaptive Learning]]
+tags: Assessment $:/type/concept $:/type/knowledge
+title: Adaptive Assessment
+tmap.fa-icon: &#xf12e;
+tmap.id: 3284986a-4732-443d-852a-af053b52989d
+type: text/vnd.tiddlywiki
+
+!Définition
+<<<
+Les évaluations adaptatives sont des évaluations automatisées qui ''modifient'' les questions soumises à un élève en fonction de ses réponses aux questions précédentes. La ''difficulté'' des questions augmente à mesure que l'élève y répond avec précision, tandis que les questions deviennent plus faciles si l'apprenant peine à répondre correctement.
+<<<
+
+*Un ''jeu'' d’évaluations est présenté à une population d’apprenants. Les résultats sont statistiquement analysés, généralement en utilisant l’[[IRT|?]].
+*A partir de cette analyse, ''les évaluations sont ordonnées'' en termes de ''différentiation'' (dans quelle mesure elles évaluent ce que l'apprenant sait) et de ''difficulté'' (la probabilité relative qu'un membre de la population réussisse l'évaluation). Ces données peuvent être utilisées pour ''optimiser les évaluations individuelles'' et pour ''adapter dynamiquement le séquencement'' des évaluations.
+*L'évaluation adaptative identifie efficacement ''le niveau de connaissance'' de l'apprenant par rapport à la population d’origine, concernant un jeu spécifique de questions. Certains systèmes d'apprentissage utilisent l'évaluation adaptative basé sur l’IRT pour ''choisir les activités d'apprentissage'' proposées aux utilisateurs.
+*Applications : ces types de systèmes sont souvent appliqués à la ''préparation de tests standardisés'' (e.g., Tests d’aptitude en anglais SAT, Scholastic Assessment Test; ACT, American College Testing).
+
+
+
+!Références
+
+;Voir aussi
+:[[ZPD|?]]

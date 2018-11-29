@@ -1,0 +1,14 @@
+created: 20181107181946822
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Heart
+fa-style-classes: fas far
+fa-styles: solid regular
+fa-unicode: f004
+modified: 20181125084946743
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/heart
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-heart fa-10x'></i>

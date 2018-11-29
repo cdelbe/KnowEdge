@@ -1,0 +1,25 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/book
+list: [[Forgetting Curve]] Memory
+modified: 20181029101539603
+modifier: Charles Delbé
+mt-authors.title: Ebbinghaus
+mt-publication.citation: Ebbinghaus, H. (1885). Über das Gedächtnis. New York, NY: Dover.
+mt-publication.city: New York, NY
+mt-publication.date: 1885
+mt-publication.edition: 
+mt-publication.publisher: Dover
+mt-publication.title: Über das Gedächtnis
+mt-publication.volume: 
+mt-source.authors.list: [[Hermann Ebbinghaus]]
+mt-source.tiddler: 
+mt-topics.list: [[Forgetting Curve]] Memory
+tags: @:/type/book $:/type/publication
+title: Ebbinghaus (1885)
+tmap.fa-icon: &#xf02d;
+tmap.id: 65e1b185-7840-4d72-b4f0-1815ac34f7e1
+type: text/vnd.tiddlywiki
+

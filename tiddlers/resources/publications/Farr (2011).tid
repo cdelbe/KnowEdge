@@ -1,0 +1,43 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/part
+list: Assessment [[Progress monitoring]] [[Evidence of Achievement]]
+modified: 20181029172038046
+modifier: Charles Delbé
+mt-authors.title: Farr
+mt-publication.citation: Farr, S. (2011). Student assessment: Measuring progress toward your goals. In //Teaching As Leadership: The Highly Effective Teacher's' Guide to Closing the Achievement Gap.// John Wiley & Sons. Retrieved October 01, 2018 from http://extensso.com.br/student_assessment_measuring_progress_toward_your_goals.pdf 
+mt-publication.date: 2011
+mt-publication.subtitle: 
+mt-publication.title: Student assessment: Measuring progress toward your goals
+mt-source.authors.list: [[Steven Farr]]
+mt-topics.list: [[Assessment]] [[Progress monitoring]] [[Evidence of Achievement]]
+tags: @:/type/chapter $:/type/publication
+title: Farr (2011)
+tmap.fa-icon: &#xf1dd;
+tmap.id: ad16c2ae-9992-4af3-a079-54fa2fd0c8f4
+type: text/vnd.tiddlywiki
+url: http://teachingasleadership.org/sites/default/files/Related-Readings/IPD_2011.pdf
+
+<$scrollable class='cdscroll'>
+
+>This chapter from the book Teaching as Leadership, discusses ''summative and formative assessments''. The 24 page chapter takes the reader through these two types of assessments with ''examples of rubrics'', anchor ''papers'', and ''questioning techniques''. This chapter is a great resource in order to better understand assessment, to write thoughtful test questions, and to be successful with baseline data in order to ''monitor students' growth''.
+
+
+This article is a guideline for ''creating assessments'' and gives examples of good and bad questions to include when creating assessments. There are three types of assessments: ''diagnostic, formative, and summative''. Additionally there are two types of assessment questions: ''objective'' and ''non-objective''. Objective questions are those which are ''not'' generally ''open to interpretation''. True/false, fill-in, matching/sequencing, multiple choice are examples of objective questions; short answer and essays are examples of ''non-objective questions''.
+
+A valid assessment ''must allow student to show their actual understanding'' of the content. Some suggestions to consider when creating questions include:
+
+*Make sure that items don’t give away the answers
+*Focus on the item that you’re testing
+*Ensure that the incorrect answer choices are not too extreme in that someone who lacks knowledge would think that they are plausible
+*Distractors are used to see whether students truly understand the objective or not, and ensures that they did not just guess or eliminate the obvious incorrect choices
+*Avoid asking questions in the negative
+*Be conscious of potential bias in questions
+*Ensure that answers are definitely true or definitely false
+
+---
+In [[“Instructional Planning & Delivery”|Instructional Planning & Delivery (2011)]] (Chatper 2).
+
+</$scrollable>

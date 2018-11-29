@@ -1,0 +1,101 @@
+color: #3f51b5
+created: 20180916134507653
+creator: Charles Delbé
+icon: $:/core/icon
+list: 
+modified: 20181125033229445
+modifier: Charles Delbé
+tags: $:/tags/toc @:/tags/TOC Reference
+title: TiddlyWiki
+tmap.id: b422e424-25d3-4ad3-89d1-abb225ce68c6
+type: text/vnd.tiddlywiki
+url: https://github.com/Jermolene/TiddlyWiki5
+
+<$scrollable class='cdscroll'>
+
+!! Internal TW5 references
+<div class="tc-table-of-contents">
+<<toc-selective-expandable 'TiddlyWiki'>>
+</div>
+
+!! External TW5 references
+:[[Introduction|https://tiddlywiki.com/prerelease/editions/introduction/]] to Tiddlywiki
+:Jermolene/[[TiddlyWiki5|https://github.com/Jermolene/TiddlyWiki]]
+:[[Documentation for developers|https://tiddlywiki.com/dev/]]
+:[[Filters & operators|https://tiddlywiki.com/static/Filter%2520Operators.html]]
+:[[Upgrade Mechanism|https://tiddlywiki.com/static/UpgradeMechanism.html]]
+:[[Images et icones|http://tobibeer.github.io/tw/icons/#Start]]
+:[[TiddlyWiki on Node.js|https://tiddlywiki.com/static/TiddlyWiki%2520on%2520Node.js.html]]
+:''[[FontAwesome|http://tobibeer.github.io/tw/fa/#GettingStarted]]''
+:[[Hosting TW on GitHub|http://confocal-manawatu.pbworks.com/w/page/114094270/TW5%20Host%20on%20github%20for%20free%20without%20any%20git%20knowledge%20or%20software%20installation]]
+
+!! Plugins libraries and solutions
+
+!!!Libraries
+:[[Liste officielle de tiddlers|https://tiddlywiki.com/alltiddlers.html)]]
+:[[TW5 (Jermolene)|https://github.com/Jermolene/TiddlyWiki5/tree/master/plugins/tiddlywiki]]
+:[[Reddit|https://www.reddit.com/r/TiddlyWiki5/wiki/pluginsandresources]]
+:[[Resources|https://tiddlywiki.com/static/Resources.html]]
+:[[Wiki Reference Wiki|http://inmysocks.tiddlyspot.com]]
+:[[bjtools|http://bjtools.tiddlyspot.com/]]
+:[[wikilabs|https://wikilabs.github.io/]]
+:[[ooktech|https://ooktech.com/jed/ExampleWikis/Directory.html]]
+:[[sk|http://skplugins.tiddlyspot.com/]]
+:[[tw5magick|http://tw5magick.tiddlyspot.com/]]
+
+;Tobibeer
+:[[tw5-plugins|https://tobibeer.github.io/tw5-plugins]]
+:[[All plugins created by Tobias Beer from tw5-plugins|http://tobibeer.github.io/tb5/#plugins]]
+:[[Solutions|http://tobibeer.github.io/tb5/#Solutions]]
+
+!!!Solutions
+:''[[TiddlyMap|http://tiddlymap.org/]]'' & [[Railroad Plugin|https://tiddlywiki.com/static/Railroad%2520Plugin.html]]
+:[[Timeline]] (voir aussi http://tw5.xyz/TiddlyWikiTimelineMap.html et https://sylvain.naud.in/public/TiddlyWiki/TW_DatePickerTimeline.html)
+:[[TilldyMap and Timeline (french)|https://sylvain.naud.in/public/TiddlyWiki/TiddlyWikiTimelineMap.html]]
+:[[MagicTabs]] (Implémentations : http://wikiphilo.tiddlyspot.com/)
+:[[Bottom Tabs|http://bottomtabs.tiddlyspot.com/]]
+:http://tesis.tiddlyspot.com/ (another tabs)
+:[[xlists|http://tobibeer.github.io/tw5-xlist/]]
+:[[Footnote|http://braintest.tiddlyspot.com/#PopupFootnotes]] (see also http://slidesnstories.tiddlyspot.com/#About%20Footnotes)
+:[[Calendar|http://bjtools.tiddlyspot.com/#ExtendableCalendar]]
+:[[Text slicer|https://tiddlywiki.com/editions/text-slicer/]] 
+:[[TB:Dependent selects via system tiddler fields|https://tobibeer.github.io/tw/filters/#dependent%20selects%20via%20system%20tiddler%20fields]]
+:[[SearchableDictionary|http://inmysocks.tiddlyspot.com/#%24%3A%2Fplugins%2Finmysocks%2FSearchableDictionary%2FDictionary]]
+:[[SearchableDictionary|https://ooktech.com/TiddlyWiki/SearchableDictionary/]]
+:[[tagfilter|http://tagfilter.tiddlyspot.com/#Start]]
+:[[taggly5|http://taggly5.tiddlyspot.com/]]
+:[[SectionsPlugin|http://sections.tiddlyspot.com/#SectionsPlugin]] & [[Sections and namespaces|http://namespace.tiddlyspot.com/#GettingStarted]]
+:[[ExtendEdit-Completion|http://snowgoon88.github.io/TW5-extendedit/]]
+:[[See also|http://seealso.tiddlyspot.com/]]
+:[[Single executable version of TiddlyWiki using Bob|https://github.com/OokTech/TW5-BobEXE]] : Multi-User/Multi-Wiki support
+:[[Comments|https://manuals.annafreud.org/ambit-torbay/index.html]]
+:[[Roboto Font Plugin|https://github.com/TheDiveO/TW5Roboto/releases]]
+:[[Material|http://j.d.material.tiddlyspot.com]]
+:[[tw5-material|http://demo.santosa.family/#tw5-material]]
+
+;TODO lists
+:https://tid.li/tw5/plugins.html
+:http://tw5.xyz/Gestion%20des%20t%C3%A2ches/TiddlyWiki-ToDo-Timeline_n0d1-v1.3.html
+:[[ToDoNow|https://tid.li/tw5/tdn.html]]
+
+;Maths : Grids, tables and formulas
+:[[Dynamically created tables that are filterable, sortable, and in-line editable|https://ooktech.com/jed/ExampleWikis/DynamicTables/]]
+:[[Inline editable tables|http://braintest.tiddlyspot.com/#Inline%20editable%20tables]]
+:[[A Tiddlywiki grid|http://zemox.tiddlyspot.com/#A%20TiddlyWiki%20Grid]]
+:[[Formula Plugin|http://evanbalster.com/tiddlywiki/formulas.html]]
+:[[Let: a filter to compare and compute|http://let.tiddlyspot.com/#GettingStarted]]
+:[[MathCell Project: a general purpose math engine|http://mathcell.tiddlyspot.com/]]
+:[[math.js: Widget for calculating mathematical expressions|http://mklauber.github.io/tiddly-mathjs/]] (see also: http://mathjs.org/)
+
+;Tables of Content
+:https://edla.org/#TableOfContents
+:[[A toc of tiddler headings|http://tidtoc.tiddlyspot.com/#GettingStarted]]
+:[[TB:Examples|http://tobibeer.github.io/tw5-plugins/#toc-Examples]]
+:[[tw5magic|http://tw5magick.tiddlyspot.com/#Another%20TOC%20example]]
+:[[giffmex|http://giffmex.org/experiments/obadiah.html#Table%20of%20contents)]]
+
+;Website/Blogs
+:[[Site marchand russe de fleurs|http://novye-podarki.ru/heeg.html#%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3]]
+
+
+</$scrollable>

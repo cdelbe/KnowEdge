@@ -1,0 +1,25 @@
+color: #808000
+created: 20180904194405284
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/persons
+modified: 20181023234508165
+modifier: Charles Delbé
+tags: $:/type/bookmark
+title: Research Group
+tmap.fa-icon: &#xf0c0;
+tmap.id: f291963b-2696-4851-977d-35ae014c87da
+type: text/vnd.tiddlywiki
+
+!List of Research Groups
+<ul>
+<$list filter="[tag[Research Group]]">
+<li>
+<$link to={{!!title}}><$view field="title"/></$link><br>
+<$list filter="[all[current]tags[]![Research Group]![$:/type/bookmark]sort[]]" template="$:/core/ui/TagTemplate"></$list>
+</li>
+</$list>
+</ul>
+
+<!--
+<<list-links-tags filter:"[tag[Research Group]!is[system]sort[title]]">>
+-->

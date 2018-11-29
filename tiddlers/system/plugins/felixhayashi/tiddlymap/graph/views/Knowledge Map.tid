@@ -1,0 +1,11 @@
+config.central-topic: ee281a63-4dd0-46cf-a005-b5732aa64dc0
+config.show_inter_neighbour_edges: true
+created: 20180902225212732
+creator: Charles Delbé
+id: 27329297-8a93-487d-9a10-b7153a0954cc
+isview: true
+modified: 20180908075004213
+modifier: Charles Delbé
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Knowledge Map
+type: text/vnd.tiddlywiki
+

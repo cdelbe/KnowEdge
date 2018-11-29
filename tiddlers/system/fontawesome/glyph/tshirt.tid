@@ -1,0 +1,14 @@
+created: 20181107181959102
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: T-Shirt
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f553
+modified: 20181125084950317
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/tshirt
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-tshirt fa-10x'></i>

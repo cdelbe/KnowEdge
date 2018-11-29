@@ -1,0 +1,20 @@
+caption: Book
+color: #b21a2c
+created: 20150125150841844
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/book
+list: 
+modified: 20181006185527335
+modifier: Charles Delbé
+mt-dashboard.add.content: $:/plugins/amp/MagicTabs/new/book
+mt-dashboard.heading: Books
+mt-dashboard.icon: $:/plugins/.CD/KnowEdge/images/book
+mt-source.type: $:/type/publication
+mt-template.fields: $:/plugins/amp/MagicTabs/templates/types/book
+mt-template.form: $:/plugins/amp/MagicTabs/new/book
+tags: $:/type/publication $:/plugins/amp/MagicTabs/reading
+title: $:/type/book
+type: text/vnd.tiddlywiki
+
+!Books
+<<list-links-title filter:"[tag[$:/type/book]!is[system]sort[title]]" class:"object-list">>

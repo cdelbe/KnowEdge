@@ -1,0 +1,14 @@
+created: 20181107181950488
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Teeth Open
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f62f
+modified: 20181125084950015
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/teeth-open
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-teeth-open fa-10x'></i>

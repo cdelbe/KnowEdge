@@ -1,0 +1,14 @@
+created: 20181107182002032
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Video Slash
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f4e2
+modified: 20181125084950784
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/video-slash
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-video-slash fa-10x'></i>

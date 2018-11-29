@@ -1,0 +1,14 @@
+created: 20181107181949468
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: RSS Square
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f143
+modified: 20181125084948921
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/rss-square
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-rss-square fa-10x'></i>

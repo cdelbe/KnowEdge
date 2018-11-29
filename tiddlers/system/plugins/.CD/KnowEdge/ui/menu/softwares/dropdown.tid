@@ -1,0 +1,10 @@
+created: 20181022081304785
+creator: Charles Delbé
+modified: 20181106175814926
+modifier: Charles Delbé
+tags: $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/ui/menu/softwares/dropdown
+type: text/vnd.tiddlywiki
+
+<<makeTopMenu type:"$:/type/software" template:"$:/plugins/.CD/KnowEdge/templates/types/software">>
+

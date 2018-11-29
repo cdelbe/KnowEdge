@@ -1,0 +1,14 @@
+created: 20181107181946445
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Grip Horizontal
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f58d
+modified: 20181125084946287
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/grip-horizontal
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-grip-horizontal fa-10x'></i>

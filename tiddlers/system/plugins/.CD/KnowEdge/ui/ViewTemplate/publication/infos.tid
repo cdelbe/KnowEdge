@@ -1,0 +1,27 @@
+created: 20181025141402046
+creator: Charles Delbé
+description: Shows an abstract and or a citation.
+list: 
+list-after: $:/plugins/.CD/KnowEdge/ui/ViewTemplate/publication/title
+modified: 20181109140729198
+modifier: Charles Delbé
+tags: $:/tags/viewsource $:/tags/ViewTemplate $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/ui/ViewTemplate/publication/infos
+type: text/vnd.tiddlywiki
+
+<$reveal type="nomatch" state=<<folded-state>> text="hide" retain="yes" animate="yes">
+	<$list filter="[all[current]tag[$:/type/publication]]">
+		<div class="cd-pub-infos">
+			<$list filter="[all[current]has[abstract]]">
+				<$details summary="Abstract" class="cd-abstract">
+					<$transclude field="abstract" mode="inline-block"/>
+				</$details>
+			</$list>    
+			<$list filter="[all[current]has[mt-publication.citation]]"> 
+				<$details summary="Citation" class="cd-citation">
+					<$transclude field="mt-publication.citation" mode="inline-block"/>
+				</$details>
+			</$list>
+		</div>
+	</$list>
+</$reveal>

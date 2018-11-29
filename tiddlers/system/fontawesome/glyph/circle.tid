@@ -1,0 +1,14 @@
+created: 20181107181944579
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Circle
+fa-style-classes: fas far
+fa-styles: solid regular
+fa-unicode: f111
+modified: 20181125084944046
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/circle
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-circle fa-10x'></i>

@@ -1,0 +1,14 @@
+created: 20181107181944272
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Comment Slash
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f4b3
+modified: 20181125084944693
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/comment-slash
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-comment-slash fa-10x'></i>

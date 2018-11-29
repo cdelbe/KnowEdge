@@ -1,0 +1,15 @@
+color: #004080
+created: 20180814205623702
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/topic
+list: [[Artificial Intelligence]] Education
+modified: 20181006180602869
+modifier: Charles Delbé
+mt-topics.list: [[Artificial Intelligence]] [[Education]]
+tags: $:/type/topic
+title: AI and Education
+tmap.fa-icon: &#xf1b3;
+tmap.id: 711eb36c-79c5-4d46-8076-51598022b794
+tmap.style: {"color":{"background":"rgba(153,0,29,1)"}}
+type: text/vnd.tiddlywiki
+

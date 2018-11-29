@@ -1,0 +1,18 @@
+created: 20181029133459323
+creator: Charles Delbé
+description: Shows a tiddler description.
+list: 
+list-after: $:/plugins/amp/MagicTabs/ViewTemplate/subtitle
+modified: 20181109141202160
+modifier: Charles Delbé
+tags: $:/tags/viewsource $:/tags/ViewTemplate $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/ui/ViewTemplate/description
+type: text/vnd.tiddlywiki
+
+<$reveal type="nomatch" state=<<folded-state>> text="hide" retain="yes" animate="yes">
+	<$list filter="[all[current]has[description]]">
+		<div class="cd-description">
+			''Description: ''<$transclude field="description" mode="inline-block"/>
+		</div>
+	</$list>    
+</$reveal>

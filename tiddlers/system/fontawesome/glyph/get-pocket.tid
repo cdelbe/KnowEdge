@@ -1,0 +1,14 @@
+created: 20181107181946152
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Get Pocket
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f265
+modified: 20181125084945939
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/get-pocket
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-get-pocket fa-10x'></i>

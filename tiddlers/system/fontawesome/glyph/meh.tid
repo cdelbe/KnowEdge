@@ -1,0 +1,14 @@
+created: 20181107181947954
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Neutral Face
+fa-style-classes: fas far
+fa-styles: solid regular
+fa-unicode: f11a
+modified: 20181125084947708
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/meh
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-meh fa-10x'></i>

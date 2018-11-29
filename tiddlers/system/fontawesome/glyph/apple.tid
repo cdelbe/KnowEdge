@@ -1,0 +1,14 @@
+created: 20181107181943466
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Apple
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f179
+modified: 20181125084942982
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/apple
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-apple fa-10x'></i>

@@ -1,0 +1,87 @@
+created: 20180729060343528
+creator: Charles Delbé
+list-after: 
+modified: 20181108004919024
+modifier: Charles Delbé
+tags: $:/tags/Stylesheet $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/styles/tagging
+tmap.id: d8d45223-d0e8-4704-82c3-fc0e20843056
+tmp: \rules only filteredtranscludeinline transcludeinline macrodef macrocallinline html
+type: text/vnd.tiddlywiki
+
+<pre><$reveal type="match" state=<<@get-cfg-field "ke-decorate-tiddlers-title">> text="yes">
+<$set name="border" value="rgb(0,0,0)" > <!-- rgb(34,45,86) -->
+<!-- default border (black) -->
+.tc-tiddler-view-frame .tc-titlebar {
+    border: 1px solid <<border>>; 
+}
+
+<!-- $system -->
+div[data-tiddler-title^="$:/"] .tc-titlebar {
+    border: 1px solid <<border>>;
+    background-color: <<@get-cfg-value "ke-color-system">>;
+}
+
+div[data-tiddler-title^="@:/"] .tc-titlebar {
+    background-color: <<@get-cfg-value "ke-color-KnowEdge">>;
+    border: 1px solid <<border>>;
+}
+
+.tc-tagged-\%24\%3A\%2Ftype\%2Fjournal .tc-titlebar {
+	border: 1px solid <<border>>;
+    background-color: <<@get-cfg-value "ke-color-journal">>;
+}
+
+.tc-tagged-\%24\%3A\%2Ftype\%2Ftask .tc-titlebar {
+	border: 1px solid <<border>>;
+    background-color: <<@get-cfg-value "ke-color-task">>;
+}    
+
+.tc-tagged-\%24\%3A\%2Ftype\%2Fauthor .tc-titlebar {
+   	border: 1px solid <<border>>;
+   	background-color: <<@get-cfg-value "ke-color-author">>;
+}
+
+.tc-tagged-\%24\%3A\%2Ftype\%2Fpublication .tc-titlebar {
+    border: 1px solid <<border>>;
+   	background-color: <<@get-cfg-value "ke-color-publication">>;
+}
+
+.tc-tagged-\%24\%3A\%2Ftype\%2Fnote .tc-titlebar {
+   	border: 1px solid <<border>>;
+    background-color: <<@get-cfg-value "ke-color-note">>;
+} 
+
+.tc-tagged-\%24\%3A\%2Ftype\%2Ftheory .tc-titlebar,
+.tc-tagged-\%24\%3A\%2Ftype\%2Fdefinition .tc-titlebar,
+.tc-tagged-\%24\%3A\%2Ftype\%2Fmodel .tc-titlebar {
+    border: 1px solid <<border>>;
+    background-color: <<@get-cfg-value "ke-color-model">>;
+} 
+
+.tc-tagged-\%24\%3A\%2Ftype\%2Fconcept .tc-titlebar {
+    border: 1px solid <<border>>;
+    background-color: <<@get-cfg-value "ke-color-concept">>;
+} 
+
+.tc-tagged-\%24\%3A\%2Ftype\%2Fsoftware .tc-titlebar {
+    border: 1px solid <<border>>;
+    background-color: <<@get-cfg-value "ke-color-software">>;
+}  
+
+.tc-tagged-\%24\%3A\%2Ftype\%2Ftopic .tc-titlebar {
+   	border: 1px solid <<border>>;
+    background-color: <<@get-cfg-value "ke-color-topic">>;
+}
+
+.tc-tagged-\%24\%3A\%2Ftype\%2Fbookmark .tc-titlebar {
+   border: 1px solid <<border>>;
+   background-color: <<@get-cfg-value "ke-color-bookmark">>;
+}
+
+.tc-tagged-\%24\%3A\%2Ftype\%2Fpart .tc-titlebar {
+   border: 1px solid <<border>>;
+   background-color: <<@get-cfg-value "ke-color-part">>;
+}    
+</$set>
+</$reveal></pre>

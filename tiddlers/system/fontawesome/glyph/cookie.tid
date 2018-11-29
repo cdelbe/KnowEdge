@@ -1,0 +1,14 @@
+created: 20181107181944748
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Cookie
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f563
+modified: 20181125084944629
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/cookie
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-cookie fa-10x'></i>

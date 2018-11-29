@@ -1,0 +1,14 @@
+created: 20181107182001972
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Users Cog
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f509
+modified: 20181125084950696
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/users-cog
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-users-cog fa-10x'></i>

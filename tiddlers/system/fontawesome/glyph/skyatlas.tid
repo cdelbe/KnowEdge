@@ -1,0 +1,14 @@
+created: 20181107181949870
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: skyatlas
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f216
+modified: 20181125084949362
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/skyatlas
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-skyatlas fa-10x'></i>

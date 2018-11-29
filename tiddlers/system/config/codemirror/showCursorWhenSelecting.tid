@@ -1,0 +1,8 @@
+created: 20180912124713091
+creator: Charles Delbé
+modified: 20180912124714261
+modifier: Charles Delbé
+title: $:/config/codemirror/showCursorWhenSelecting
+type: bool
+
+true

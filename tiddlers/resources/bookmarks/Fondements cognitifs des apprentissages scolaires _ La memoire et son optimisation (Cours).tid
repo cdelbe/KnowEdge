@@ -1,0 +1,28 @@
+_canonical_uri: 
+color: #681224
+created: 20181022220654271
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/bookmark
+list: [[Spaced Reinforcement]] [[Forgetting Curve]] Memory Modeling Neurosciences [[Test-Enhanced Learning]]
+modified: 20181024153830313
+modifier: Charles Delbé
+mt-source.authors.list: [[Stanislas Dehaene]]
+mt-topics.list: [[Spaced Reinforcement]] [[Forgetting Curve]] [[Memory]] [[Modeling]] [[Neurosciences]] [[Test-Enhanced Learning]]
+tags: [[Distributed Practise]] $:/type/bookmark
+title: Fondements cognitifs des apprentissages scolaires : La mémoire et son optimisation (Cours)
+tmap.fa-icon: &#xf097;
+tmap.id: e9303f31-e194-4d21-8fd1-206a118269a3
+type: text/vnd.tiddlywiki
+url: https://www.college-de-france.fr/media/stanislas-dehaene/UPL6651266307963835382_Cours_5_Fondements_cognitifs_des_apprentissages_scolaires.pdf
+
+# L’oubli suit une courbe exponentielle
+# Phénomène 1: L’effet de la profondeur de traitement des stimuli
+# Faire l’effort de comprendre facilite la mémorisation
+# Phénomène 2: L’effet des tests de mémoire (retrieval practise) : Se tester régulièrement maximise la performance à long terme
+# Phénomène 3: L’effet de la répartition de l’apprentissage : à travers le temps (distributed practise)
+# La répartition de l’apprentissage à travers le temps (distributed practise) facilite la rétention en mémoire
+# Mécanismes cérébraux de l’effet de la répartition de l’apprentissage
+# L’effet d’espacement et le rôle de l’intervalle de rétention
+# Modélisation multi‐échelle de l’oubli
+# Conclusions: les lois de la rétention optimale
+# Conclusions: Connaître les mécanismes de la mémoire

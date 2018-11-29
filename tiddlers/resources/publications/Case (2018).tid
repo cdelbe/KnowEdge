@@ -1,0 +1,26 @@
+abstract: 
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181029155747547
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/blogpost
+list: [[Knowledge Graph]] Prerequisites
+modified: 20181029164359731
+modifier: Charles Delbé
+mt-authors.title: Case
+mt-publication.citation: Case, E. (2018). What are Knewton’s Knowledge Graphs? [Blog Post]. Retrieved [October, 29th 2018] from https://www.knewton.com/blog/mastery/what-are-knewtons-knowledge-graphs/
+mt-publication.date: 2018
+mt-publication.subtitle: 
+mt-publication.title: What are Knewton’s Knowledge Graphs?
+mt-source.authors.list: [[Erin Case]]
+mt-topics.list: [[Knowledge Graph]] Prerequisites
+tags: Knewton @:/type/blogpost $:/type/publication
+title: Case (2018)
+tmap.fa-icon: &#xf1fa;
+tmap.id: 76e5010a-8f30-4e00-b7ba-d32a48af53ba
+type: text/vnd.tiddlywiki
+url: https://www.knewton.com/blog/mastery/what-are-knewtons-knowledge-graphs/
+
+<<btn-img "https://www.knewton.com//wp-content/uploads/2018/10/1_0keLRee_m4g87hEuNowAEw-1.png">>
+
+ 

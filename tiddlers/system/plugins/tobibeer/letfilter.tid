@@ -1,0 +1,21 @@
+color: #81b53b
+created: 20181122232132877
+creator: Charles Delbé
+description: A filter to compare and compute.
+icon: 
+list: 
+modified: 20181125045452023
+modifier: Charles Delbé
+tags: Mathematics $:/tags/@CD/tweaked $:/tags/embed Filters
+title: $:/plugins/tobibeer/letfilter
+tmap.id: 722f6b6b-e645-47dd-8927-32c4f377df12
+type: text/vnd.tiddlywiki
+url: http://let.tiddlyspot.com/#GettingStarted
+
+<$details summary="Source code" class="">
+<<source "$:/plugins/tobibeer/letfilter/let.js" "yes">>
+</$details>
+
+<$details summary="Documentation" class="">
+{{||$:/plugins/.CD/KnowEdge/ui/ViewTemplate/link}}
+</$details>

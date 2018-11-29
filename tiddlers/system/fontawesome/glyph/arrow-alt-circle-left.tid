@@ -1,0 +1,14 @@
+created: 20181107181943435
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Alternate Arrow Circle Left
+fa-style-classes: fas far
+fa-styles: solid regular
+fa-unicode: f359
+modified: 20181125084942948
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/arrow-alt-circle-left
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-arrow-alt-circle-left fa-10x'></i>

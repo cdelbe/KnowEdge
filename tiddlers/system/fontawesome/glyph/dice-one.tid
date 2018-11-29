@@ -1,0 +1,14 @@
+created: 20181107181945147
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Dice One
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f525
+modified: 20181125084945093
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/dice-one
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-dice-one fa-10x'></i>

@@ -1,0 +1,25 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/book
+list: [[Cognitive Development]]
+modified: 20181029101342212
+modifier: Charles Delbé
+mt-authors.title: Bruner
+mt-publication.citation: Bruner, J. (1983). Le développement de l'enfant: savoir faire, savoir dire. Presses universitaires de France.
+mt-publication.city: Paris
+mt-publication.date: 1983
+mt-publication.edition: 
+mt-publication.publisher: PUF
+mt-publication.title: Le développement de l’enfant: Savoir faire, savoir dire.
+mt-publication.volume: 
+mt-source.authors.list: [[J. S. Bruner]]
+mt-source.tiddler: 
+mt-topics.list: [[Cognitive Development]]
+tags: @:/type/book $:/type/publication
+title: Bruner (1983)
+tmap.fa-icon: &#xf02d;
+tmap.id: 965cc72e-7876-4316-8fd8-3a68fa9a73b5
+type: text/vnd.tiddlywiki
+

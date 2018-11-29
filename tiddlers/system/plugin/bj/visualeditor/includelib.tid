@@ -1,0 +1,11 @@
+created: 20181108063545095
+creator: Charles Delbé
+description: load the external lib
+modified: 20181115203835788
+modifier: Charles Delbé
+tags: 
+title: $:/plugin/bj/visualeditor/includelib
+tmp: <script src='./resources/libs/ckeditor/ckeditor.js'></script>
+type: text/vnd.tiddlywiki
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.3.2/ckeditor.js'></script>

@@ -1,0 +1,14 @@
+created: 20181107181948691
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: OpenCart
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f23d
+modified: 20181125084948151
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/opencart
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-opencart fa-10x'></i>

@@ -1,0 +1,14 @@
+created: 20181107181946217
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Goodreads
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f3a8
+modified: 20181125084946216
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/goodreads
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-goodreads fa-10x'></i>

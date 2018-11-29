@@ -1,0 +1,17 @@
+color: #ffff00
+created: 20180812050409836
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/journal
+modified: 20181022002014821
+modifier: Charles Delbé
+tags: Release $:/type/journal
+title: Release v1.0 (12-08-2018)
+tmap.fa-icon: &#xf133;
+tmap.id: e04f2f0d-7d09-4764-91ab-1f25422f1711
+type: text/vnd.tiddlywiki
+
+v1.0b
+
+* Refactoring de la bibliothèque d'images et de fontes FontAwesome
+* Intégration plugin TiddlyClip
+* Barre de menu à gauche, suppression menu horizontal droite

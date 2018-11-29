@@ -1,0 +1,18 @@
+caption: Database
+comment: cf. {{$:/plugins/amp/MagicTabs/dashboard}}
+created: 20180820022909854
+creator: Charles Delbé
+description: Gestion des objets de la base de connaissance
+icon: $:/plugins/.CD/KnowEdge/images/database
+list: 
+modified: 20181030135155939
+modifier: Charles Delbé
+tab-pos: 50
+tags: $:/tags/SideBar $:/action/hide/tags $:/tags/@CD $:/action/hide/tabs
+title: $:/plugins/.CD/KnowEdge/ui/SideBar/objectManager
+tmap.fa-icon: &#xf1c0;
+tmap.id: 215e88ba-3734-40bf-99d0-76b9b3c008eb
+type: text/vnd.tiddlywiki
+
+<<tabs "$:/plugins/amp/MagicTabs/dashboard $:/plugins/amp/MagicTabs/new/type $:/plugins/amp/MagicTabs/new/tab" "$:/plugins/amp/MagicTabs/dashboard">> 
+

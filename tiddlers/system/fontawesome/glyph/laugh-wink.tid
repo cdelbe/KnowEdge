@@ -1,0 +1,14 @@
+created: 20181107181947414
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Laughing Winking Face
+fa-style-classes: fas far
+fa-styles: solid regular
+fa-unicode: f59c
+modified: 20181125084947271
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/laugh-wink
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-laugh-wink fa-10x'></i>

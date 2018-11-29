@@ -1,0 +1,40 @@
+caption: Menus
+created: 20181028203354000
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/KnowEdge
+modified: 20181109153059675
+modifier: Charles Delbé
+tags: $:/plugins/.CD/KnowEdge/references/main $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/references/menus
+type: text/vnd.tiddlywiki
+
+:$:/plugins/.CD/KnowEdge/ui/menu/logo
+:$:/plugins/.CD/KnowEdge/macros/menu
+:$:/plugins/.CD/KnowEdge/styles/toolbar 
+:$:/plugins/.CD/KnowEdge/styles/topmenu
+:$:/plugins/.CD/KnowEdge/ui/menu/bookmarks
+:$:/plugins/.CD/KnowEdge/ui/menu/bookmarks/dropdown
+:$:/plugins/.CD/KnowEdge/ui/menu/concepts
+:$:/plugins/.CD/KnowEdge/ui/menu/concepts/dropdown
+:$:/plugins/.CD/KnowEdge/ui/menu/glossary
+:$:/plugins/.CD/KnowEdge/ui/menu/journal
+:$:/plugins/.CD/KnowEdge/ui/menu/journal/dropdown
+:$:/plugins/.CD/KnowEdge/ui/menu/models
+:$:/plugins/.CD/KnowEdge/ui/menu/models/dropdown
+:$:/plugins/.CD/KnowEdge/ui/menu/notes
+:$:/plugins/.CD/KnowEdge/ui/menu/notes/dropdown
+:$:/plugins/.CD/KnowEdge/ui/menu/publications
+:$:/plugins/.CD/KnowEdge/ui/menu/publications/dropdown
+:$:/plugins/.CD/KnowEdge/ui/menu/sep1
+:$:/plugins/.CD/KnowEdge/ui/menu/softwares
+:$:/plugins/.CD/KnowEdge/ui/menu/softwares/dropdown
+:$:/plugins/.CD/KnowEdge/ui/menu/TOC
+:$:/plugins/.CD/KnowEdge/ui/menu/TOC/dropdown
+:$:/plugins/.CD/KnowEdge/ui/menu/topics
+:$:/plugins/.CD/KnowEdge/ui/menu/topics/dropdown
+:$:/plugins/.CD/KnowEdge/ui/menu/topmenu
+:$:/plugins/.CD/KnowEdge/ui/SideBar/TableOfContents
+:$:/plugins/eucaly/flexwidth/TopBarMenu
+:$:/plugins/eucaly/quickjump/readme
+
+

@@ -1,0 +1,14 @@
+created: 20181107181947813
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: map-marker
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f041
+modified: 20181125084947654
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/map-marker
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-map-marker fa-10x'></i>

@@ -1,0 +1,22 @@
+color: #daa520
+created: 20150124152743141
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/note
+list: 
+modified: 20181021225725170
+modifier: Charles Delbé
+mt-source.authors.list: $:/plugins/amp/MagicTabs/macros/mt-slider-input
+mt-source.root: 
+mt-source.tiddler: $:/plugins/amp/MagicTabs/buttons/input/publication
+mt-topics.list: 
+tags: $:/type/note
+title: Added list field handling for topics
+tmap.fa-icon: &#xf044;
+tmap.id: 5e353aee-33c8-468a-87df-294e11fc218f
+type: text/vnd.tiddlywiki
+
+@@.note
+''{{$:/status/UserName}} - <<now>>''
+@@
+
+Topics are copied to the list field (for TiddlyMap)

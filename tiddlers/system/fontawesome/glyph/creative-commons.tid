@@ -1,0 +1,14 @@
+created: 20181107181944712
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Creative Commons
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f25e
+modified: 20181125084944589
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/creative-commons
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-creative-commons fa-10x'></i>

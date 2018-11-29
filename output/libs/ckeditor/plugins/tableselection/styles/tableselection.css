@@ -1,0 +1,100 @@
+created: 20181108075032577
+creator: Charles Delbé
+modified: 20181108075032577
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\tableselection\styles\tableselection.css
+tmap.id: b74d148c-5d23-40d8-a11a-a77e537fd32c
+type: text/vnd.tiddlywiki
+
+created: 20181108074508996
+creator: Charles Delbé
+modified: 20181108074508996
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\tableselection\styles\tableselection.css
+tmap.id: 15a7e8ff-47d8-441c-807b-02b5252ce44d
+type: text/vnd.tiddlywiki
+
+created: 20181108074214140
+creator: Charles Delbé
+modified: 20181108074214140
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\tableselection\styles\tableselection.css
+tmap.id: 35c8b2ff-901d-4530-b43e-d461cf75e2ff
+type: text/vnd.tiddlywiki
+
+created: 20181108073417750
+creator: Charles Delbé
+modified: 20181108073417750
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\tableselection\styles\tableselection.css
+tmap.id: e0b8bd2e-29dc-462c-aa87-99acf2fb8107
+type: text/vnd.tiddlywiki
+
+created: 20181108070528158
+creator: Charles Delbé
+modified: 20181108070528158
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\tableselection\styles\tableselection.css
+tmap.id: 4f1a5984-b9d4-4a02-a132-cb3cfb499330
+type: text/vnd.tiddlywiki
+
+created: 20181108070318875
+creator: Charles Delbé
+modified: 20181108070318875
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\tableselection\styles\tableselection.css
+tmap.id: 28db4400-e5d4-41c0-8700-0a5da80b4718
+type: text/vnd.tiddlywiki
+
+created: 20181108063934952
+creator: Charles Delbé
+modified: 20181108063934952
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\tableselection\styles\tableselection.css
+tmap.id: 2026b4d3-e148-4906-a997-3dc7267622dd
+type: text/vnd.tiddlywiki
+
+created: 20181108063817389
+creator: Charles Delbé
+modified: 20181108063817389
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\ckeditor\plugins\tableselection\styles\tableselection.css
+tmap.id: 37be3f73-062a-4437-ba43-d9769fd4684e
+type: text/vnd.tiddlywiki
+
+.cke_table-faked-selection-editor *::selection, table[data-cke-table-faked-selection-table] *::selection {
+	background: transparent;
+}
+
+.cke_table-faked-selection {
+	background: darkgray !important;
+	color: black;
+}
+.cke_table-faked-selection a {
+	color: black;
+}
+.cke_editable:focus .cke_table-faked-selection {
+	/* We have to use !important here, as td might specify it's own background, thus table selection
+	would not be visible. */
+	background: #0076cb !important;
+	color: white;
+}
+.cke_editable:focus .cke_table-faked-selection a {
+	color: white;
+}
+.cke_table-faked-selection::-moz-selection, .cke_table-faked-selection ::-moz-selection {
+	background: transparent;
+}
+.cke_table-faked-selection::selection, .cke_table-faked-selection ::selection {
+	background: transparent;
+}
+
+/* Change the cursor when selecting cells (#706).
+ *
+ * This solution does not work in IE, Edge and Safari due to upstream isues:
+ * https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/3419602/
+ * https://bugs.webkit.org/show_bug.cgi?id=53341
+ */
+table[data-cke-table-faked-selection-table] {
+	cursor: cell;
+}

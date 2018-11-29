@@ -1,0 +1,22 @@
+abstract: Bien que le diagnostic des erreurs des apprenants soit central à toute [[stratégie d'intervention|?]] correctrice relevant au mode d'évaluation dans un système d'apprentissage, trop souvent, la prise d'information qui l'accompagne est incomplète ou incertaine. ''Ajoutons aussi le problème de la modélisation dans un contexte d'apprentissage où on ne peut observer directement ce qui se passe dans la tête d'un apprenant, ni de savoir avec certitude son plan de raisonnement, ni le but qu'il cherche à accomplir'' (see [[Learner Model]]). Il s'ensuit une réduction de l'efficacité des [[interventions pédagogiques|?]] qui limite les apprentissages scolaires. Cette thèse apporte des solutions à cette problématique. Elle consiste en la conception et le développement d'un Système Tutoriel Intelligent pour le Diagnostic des Erreurs en Soustraction (TIDES). Elle s'inscrit dans une perspective d'''[[évaluation diagnostique|Diagnostic Assessment]] des [[compétences|Competency]]'' et connaissances arithmétiques en utilisant une approche originale qui vise à modéliser l'apprenant dans une situation d'apprentissage où les informations sur cet apprenant sont potentiellement incomplètes ou incertaines. Dans cette thèse, nous présentons la conception, le développement et une mise à l'essai du système TIDES. Le design de ce système est basé sur un modèle cognitif, la théorie d'apprentissage [[ACT-R]] d'Anderson, capable d'analyser le comportement d'un apprenant et de savoir ''son état cognitif''. Le choix de ce design est discuté et justifié aussi. L'architecture du système TIDES comporte au moins trois modules: un module qui permet de spécifier des tâches à l'apprenant, un module d'analyse qui permet d'analyser les actions de l'apprenant et un module de diagnostic qui permet d'inférer les informations sur l'apprenant, ''d'évaluer ses [[compétences|Competency]] impliquées dans une tâche d'apprentissage, de détecter sa stratégie mise en œuvre,'' en s'appuyant sur une méthode de reconnaissance de plan, de prédire sa prochaine action la plus probable et de savoir avec exactitude les causes réelles de ses erreurs. Les caractéristiques du système TIDES sont décrites en détail dans la thèse. La méthodologie d'une mise à l'essai du système avec une vingtaine d'élèves est présentée et les données recueillies dans cette mise à l'essai sont regroupées et analysées. L'ensemble des résultats obtenus indique que le système TIDES offre le potentiel d'analyser et de diagnostiquer les erreurs des apprenants de façon plus précise, et donne effectivement lieu à un apprentissage conforme à celui qui était prévu en se basant sur la méthode originale adoptée. Enfin, nous proposerons des améliorations possibles (extension du système TIDES à l'aide des [[réseaux bayésiens|Bayesian Knowledge Tracing]]) que nous présenterons comme explorées mais non encore complètement intégrées dans l'état actuel du système TIDES et aussi non évaluées. Il s'agit en fait de déterminer à quelles conditions le modèle bayésien peut être intégré à un système d'apprentissage, en tant que système tutoriel intelligent et dont le domaine d'apprentissage est l'arithmétique.
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: [[Learner Model]] Modeling ACT-R [[Intelligent Tutoring Systems]] [[Statistical Learning]] [[Bayes' Theorem]]
+modified: 20181110013105313
+modifier: Charles Delbé
+mt-authors.title: Abderrahim
+mt-publication.date: 2018
+mt-publication.subtitle: 
+mt-publication.title: Modélisation de l'apprenant : application d'un modèle cognitif au développement d'un système d'apprentissage.
+mt-source.authors.list: [[Danine Abderrahim]]
+mt-topics.list: [[Learner Model]] Modeling ACT-R [[Intelligent Tutoring Systems]] [[Statistical Learning]] [[Bayes' Theorem]]
+tags: @:/type/thesis $:/type/publication
+title: Abderrahim (2018)
+tmap.fa-icon: &x#f0f6;
+tmap.id: ca99b7d9-8e51-4f5b-be06-23e9d4c54f2b
+type: text/vnd.tiddlywiki
+url: https://archipel.uqam.ca/3607/
+

@@ -1,0 +1,57 @@
+created: 20180729060343528
+creator: Charles Delbé
+list-after: 
+modified: 20181029034635575
+modifier: Charles Delbé
+tags: $:/tags/config $:/tags/Stylesheet $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/styles/countinfobox
+tmap.id: d8d45223-d0f8-4704-82c2-fc0e20843056
+type: text/vnd.tiddlywiki
+
+/* counted info box with round icon */
+dl.count,
+dl.count dt,
+dl.count dd{
+    margin:0;
+}
+
+dl.count {
+    counter-increment: count;
+    padding: 10px 10px 10px 60px!important;
+    position: relative;
+    border-radius:10px;
+    margin: 10px 0 20px 0;
+
+    -webkit-box-shadow: 3px 3px 7px 0px rgba(204,204,204,1);
+    -moz-box-shadow: 3px 3px 7px 0px rgba(204,204,204,1);
+    box-shadow: 3px 3px 7px 0px rgba(204,204,204,1);
+}
+
+dl.count:before {
+    content: counter(count);
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #b5b4b4;
+    font-weight: 700;
+
+    border: 1px solid #eaeaea;
+    border-radius: 200px;
+    background: #fff;
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0,rgba(238,238,238,.4)),color-stop(1,#fff));
+    background-image: -webkit-linear-gradient(bottom,rgba(238,238,238,.4)0,#fff 100%);
+    background-image: -moz-linear-gradient(bottom,rgba(238,238,238,.4)0,#fff 100%);
+    background-image: -o-linear-gradient(bottom,rgba(238,238,238,.4)0,#fff 100%);
+    background-image: -ms-linear-gradient(bottom,rgba(238,238,238,.4)0,#fff 100%);
+    background-image: linear-gradient(bottom,rgba(238,238,238,.4)0,#fff 100%);
+    -webkit-border-radius: 200px;
+}
+
+dl.count-only{
+    padding: 20px 10px 20px 60px!important;
+}

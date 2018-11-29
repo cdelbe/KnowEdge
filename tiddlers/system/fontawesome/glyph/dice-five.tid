@@ -1,0 +1,14 @@
+created: 20181107181945159
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Dice Five
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f523
+modified: 20181125084944764
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/dice-five
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-dice-five fa-10x'></i>

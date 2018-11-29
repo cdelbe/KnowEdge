@@ -1,0 +1,14 @@
+created: 20181107182002240
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Yen Sign
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f157
+modified: 20181125084951106
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/yen-sign
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-yen-sign fa-10x'></i>

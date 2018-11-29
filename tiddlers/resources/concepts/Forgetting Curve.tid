@@ -1,0 +1,22 @@
+color: #800080
+created: 20180825162905136
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: Memory
+modified: 20181022100445979
+modifier: Charles Delbé
+mt-source.root: 
+mt-source.tiddler: Spaced Reinforcement
+mt-topics.list: [[Memory]]
+tags: $:/type/concept $:/type/knowledge
+title: Forgetting Curve
+tmap.fa-icon: &#xf12e;
+tmap.id: 50522346-e2a5-4050-be86-c618e944839f
+type: text/vnd.tiddlywiki
+
+Le concept de ''la courbe de l'oubli'' date de 1885, lorsque le psychologue allemand [[Hermann Ebbinghaus]] a développé sa théorie de la ''rétention de la mémoire'' ([[Ebbinghaus (1885): “Über das Gedächtnis”]]). Ebbinghaus a théorisé que les apprenants oublient rapidement  les informations dans les jours qui suivent un apprentissage; sans ''sollicitation de la mémoire'' ni mise en oeuvre des ''nouvelles connaissances'', ''90% de ce qu'ils ont appris est oublié dans les 3 jours''.
+
+---
+:[[What is The Forgetting Curve?|http://blog.mindmarker.com/the-forgetting-curve-and-training-reinforcement/]]
+
+<<btn-img "https://blog.mindmarker.com/hs-fs/hub/1766296/file-3555055113-png/blog-files/forgetting-curve-e1439913357396.png?t=1539375320790&width=500&name=forgetting-curve-e1439913357396.png">>

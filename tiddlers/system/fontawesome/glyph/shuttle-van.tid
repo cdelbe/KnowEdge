@@ -1,0 +1,14 @@
+created: 20181107181949839
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Shuttle Van
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f5b6
+modified: 20181125084949295
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/shuttle-van
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-shuttle-van fa-10x'></i>

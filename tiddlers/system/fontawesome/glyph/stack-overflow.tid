@@ -1,0 +1,14 @@
+created: 20181107181950111
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Stack Overflow
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f16c
+modified: 20181125084949565
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/stack-overflow
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-stack-overflow fa-10x'></i>

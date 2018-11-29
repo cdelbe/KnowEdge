@@ -1,0 +1,16 @@
+color: #ff8040
+created: 20180814205623702
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/software
+list: [[Adaptive Learning]] Mathematics Feedback
+modified: 20180916183831331
+modifier: Charles Delbé
+mt-topics.list: [[Adaptive Learning]] [[Mathematics]] [[Feedback]]
+tags: $:/type/software [[Intelligent Tutoring Systems]]
+title: Carnegie Learning
+tmap.fa-icon: &#xf120;
+tmap.id: c21989cf-5c02-4588-8d0f-0c286d5dea4f
+type: text/vnd.tiddlywiki
+url: https://www.carnegielearning.com/products/software-platform/mika-learning-software/
+
+Carnegie Learning’s “''Mika''” software uses ''[[Cognitive Sciences]]'' and ''[[IA|Artificial Intelligence]]'' technologies to provide ''[[personalized tutoring|Personalized Learning]]'' and ''real-time [[feedback|Feedback]]'' for post-secondary education students, particularly incoming college freshman who would otherwise need remedial courses. Carnegie states the cost of such remedial learning as costing colleges $6.7 billion annually, with only a 33% success rate for math courses. ITS provides the potential for students to more conveniently access flexible and more personalized modes of learning on an ongoing basis.

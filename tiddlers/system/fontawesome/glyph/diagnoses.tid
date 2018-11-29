@@ -1,0 +1,14 @@
+created: 20181107181944925
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Diagnoses
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f470
+modified: 20181125084944793
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/diagnoses
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-diagnoses fa-10x'></i>

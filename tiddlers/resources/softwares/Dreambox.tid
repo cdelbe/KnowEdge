@@ -1,0 +1,30 @@
+color: #ff8040
+created: 20180814205623702
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/software
+list: [[Adaptive Learning]] [[Cognitive Load]] Engagement Mathematics
+modified: 20180905105839557
+modifier: Charles Delbé
+mt-topics.list: [[Adaptive Learning]] [[Cognitive Load]] [[Engagement]] [[Mathematics]]
+tags: $:/type/software
+title: Dreambox
+tmap.fa-icon: &#xf120;
+tmap.id: a73ea0a4-12c4-44d0-9b63-26df2dccb4af
+type: text/vnd.tiddlywiki
+url: http://www.dreambox.com/
+
+<<<
+Experience the adaptive, online K-8 math program proven to raise student achievement while supporting informed decision making.
+<<<
+
+!!The Research Behind Intelligent Adaptive Learning
+A Look In The Black Box
+
+* The effectiveness of tutoring through a continuous stream of intelligent [[Feedback]] to the user, the system, and the teacher
+* Individualized sequencing of the curriculum and associated learning experiences for each student
+* The individualized pace of learning
+* The regulation of [[Cognitive Load]]
+* Student [[Engagement]] through gaming
+
+!!References
+* [[WhitePaper: Intelligent Adaptive Learning: An Essential Element of 21st Century Teaching and Learning|http://www.dreambox.com/white-papers/intelligent-adaptive-learning-an-essential-element-of-21st-century-teaching-and-learning]]

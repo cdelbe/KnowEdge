@@ -1,0 +1,71 @@
+caption: [[Tags search]]
+created: 20140414160743883
+creator: Charles Delbé
+modified: 20181102141536035
+modifier: Charles Delbé
+shadowfilter: 
+systemfilter: 
+tags: $:/tags/AdvancedSearch
+title: $:/plugins/danielo/tagSearch/TagsSearch
+tmap.id: a89f60df-9347-48ab-b371-c8d0ca656ac9
+type: text/vnd.tiddlywiki
+
+\define tag-styles()
+background-color:$(backgroundColor)$;
+\end
+
+\define tag-filter() [![$:/temp/advancedsearch]!has[draft.of]!is[current]$(systemFilter)$$(shadowFilter)$$(searchFilter)$$(tagNames)$sort[title]]
+
+\define show-system()
+<small><div style="margin: 2px;"> <em> System:</em> <$radio field="systemfilter" value="">  Show </$radio> <$radio field="systemfilter" value="!is[system]"> Hide </$radio></div></small>
+\end
+
+\define show-shadow()
+<small><div style="margin:2px;"> <em> Shadow:</em> <$radio field="shadowfilter" value="">  Show </$radio> <$radio field="shadowfilter" value="!is[shadow]"> Hide </$radio></div></small>
+\end
+
+<$fieldmangler tiddler="$:/temp/advancedsearch">
+<div class="tc-edit-add-tag">
+<span class="tc-add-tag-name">
+<$edit-text tiddler="$:/temp/NewTagName" tag="input" default="" placeholder={{$:/language/EditTemplate/Tags/Add/Placeholder}} focusPopup=<<qualify "$:/state/tagsAutoComplete">> class="tc-edit-texteditor"/>
+</span><span class="tc-add-tag-button">
+<$button message="tm-add-tag" param={{$:/temp/NewTagName}} set="$:/temp/NewTagName" setTo="" class="tc-btn-invisible">
+{{$:/core/images/new-button}}</$button>
+</span>
+</div>
+
+<div class="tc-block-dropdown-wrapper">
+<$reveal state=<<qualify "$:/state/tagsAutoComplete">> type="nomatch" text="" default="">
+<div class="tc-block-dropdown">
+<$linkcatcher set="$:/temp/NewTagName" setTo="" message="tm-add-tag">
+<$list filter="[!is[shadow]tags[]search{$:/temp/NewTagName}sort[title]]-[[$:/temp/advancedsearch]tags[]]">
+<$link>
+<$set name="backgroundColor" value={{!!color}}>
+<span style=<<tag-styles>> class="tc-tag-label">
+<$view field="title" format="text"/>
+</span>
+</$set>
+</$link>
+</$list>
+</$linkcatcher>
+</div>
+</$reveal>
+</div>
+<$list filter="[[$:/temp/advancedsearch]tags[]sort[title]]" storyview="pop"><$set name="backgroundColor" value={{!!color}}><span style=<<tag-styles>> class="tc-tag-label">
+<$view field="title" format="text" />
+<$button message="tm-remove-tag" param={{!!title}} class="tc-btn-invisible tc-remove-tag-button">&times;</$button></span>
+</$set>
+</$list>
+</$fieldmangler>
+ <div style="display:inline;"><<show-system>></div>
+ <div style="display:inline;"><<show-shadow>></div>
+<$set name="searchFilter" value=<<search-filter "$:/temp/advancedsearch">> >
+<$set name="tagNames" value=<<extractTagsAsFilter "$:/temp/advancedsearch">> >
+<$set name="systemFilter" value={{$:/plugins/danielo/tagSearch/TagsSearch!!systemfilter}}>
+<$set name="shadowFilter" value={{$:/plugins/danielo/tagSearch/TagsSearch!!shadowfilter}}>
+<$list filter=<<tag-filter>>>
+
+</$list>
+</$set></$set></$set></$set>
+
+

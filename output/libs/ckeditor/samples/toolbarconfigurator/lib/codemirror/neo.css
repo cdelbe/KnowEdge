@@ -1,0 +1,100 @@
+created: 20181108075032965
+creator: Charles Delbé
+modified: 20181108075032965
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\toolbarconfigurator\lib\codemirror\neo.css
+tmap.id: 235518fa-9489-498f-bcee-ae54f93bd102
+type: text/vnd.tiddlywiki
+
+created: 20181108074509661
+creator: Charles Delbé
+modified: 20181108074509661
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\toolbarconfigurator\lib\codemirror\neo.css
+tmap.id: b31685d7-6422-4ec0-9e68-8c992def9781
+type: text/vnd.tiddlywiki
+
+created: 20181108074214443
+creator: Charles Delbé
+modified: 20181108074214443
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\toolbarconfigurator\lib\codemirror\neo.css
+tmap.id: 548b9a7a-fd3a-4537-8482-e17c9f8e3d86
+type: text/vnd.tiddlywiki
+
+created: 20181108073418359
+creator: Charles Delbé
+modified: 20181108073418359
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\toolbarconfigurator\lib\codemirror\neo.css
+tmap.id: 07dfc6b5-ea0f-4404-9a05-99f90e570f0e
+type: text/vnd.tiddlywiki
+
+created: 20181108070528448
+creator: Charles Delbé
+modified: 20181108070528448
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\toolbarconfigurator\lib\codemirror\neo.css
+tmap.id: 67b7aafb-7ab1-4822-9c92-f86564ab95f9
+type: text/vnd.tiddlywiki
+
+created: 20181108070319288
+creator: Charles Delbé
+modified: 20181108070319288
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\toolbarconfigurator\lib\codemirror\neo.css
+tmap.id: 9bdd4f76-ce2f-4128-8b39-e19fea199c71
+type: text/vnd.tiddlywiki
+
+created: 20181108063935168
+creator: Charles Delbé
+modified: 20181108063935168
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\toolbarconfigurator\lib\codemirror\neo.css
+tmap.id: 5cd76433-7ef6-4cc9-a5e0-e6e77e6cda00
+type: text/vnd.tiddlywiki
+
+created: 20181108063818017
+creator: Charles Delbé
+modified: 20181108063818017
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\ckeditor\samples\toolbarconfigurator\lib\codemirror\neo.css
+tmap.id: b7bb5b77-3202-4fca-824d-3f0808210678
+type: text/vnd.tiddlywiki
+
+/* neo theme for codemirror */
+
+/* Color scheme */
+
+.cm-s-neo.CodeMirror {
+  background-color:#ffffff;
+  color:#2e383c;
+  line-height:1.4375;
+}
+.cm-s-neo .cm-comment {color:#75787b}
+.cm-s-neo .cm-keyword, .cm-s-neo .cm-property {color:#1d75b3}
+.cm-s-neo .cm-atom,.cm-s-neo .cm-number {color:#75438a}
+.cm-s-neo .cm-node,.cm-s-neo .cm-tag {color:#9c3328}
+.cm-s-neo .cm-string {color:#b35e14}
+.cm-s-neo .cm-variable,.cm-s-neo .cm-qualifier {color:#047d65}
+
+
+/* Editor styling */
+
+.cm-s-neo pre {
+  padding:0;
+}
+
+.cm-s-neo .CodeMirror-gutters {
+  border:none;
+  border-right:10px solid transparent;
+  background-color:transparent;
+}
+
+.cm-s-neo .CodeMirror-linenumber {
+  padding:0;
+  color:#e0e2e5;
+}
+
+.cm-s-neo .CodeMirror-guttermarker { color: #1d75b3; }
+.cm-s-neo .CodeMirror-guttermarker-subtle { color: #e0e2e5; }

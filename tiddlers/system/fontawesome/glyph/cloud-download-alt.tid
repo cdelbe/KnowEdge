@@ -1,0 +1,14 @@
+created: 20181107181944515
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Alternate Cloud Download
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f381
+modified: 20181125084944326
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/cloud-download-alt
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-cloud-download-alt fa-10x'></i>

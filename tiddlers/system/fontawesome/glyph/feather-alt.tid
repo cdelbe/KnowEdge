@@ -1,0 +1,14 @@
+created: 20181107181945834
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Feather Alt
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f56b
+modified: 20181125084945608
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/feather-alt
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-feather-alt fa-10x'></i>

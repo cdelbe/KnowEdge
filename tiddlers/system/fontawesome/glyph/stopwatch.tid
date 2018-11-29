@@ -1,0 +1,14 @@
+created: 20181107181950120
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Stopwatch
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f2f2
+modified: 20181125084949722
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/stopwatch
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-stopwatch fa-10x'></i>

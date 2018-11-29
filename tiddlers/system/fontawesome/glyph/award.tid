@@ -1,0 +1,14 @@
+created: 20181107181943309
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Award
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f559
+modified: 20181125084942799
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/award
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-award fa-10x'></i>

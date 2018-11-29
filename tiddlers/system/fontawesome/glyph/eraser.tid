@@ -1,0 +1,14 @@
+created: 20181107181945389
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: eraser
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f12d
+modified: 20181125084945205
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/eraser
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-eraser fa-10x'></i>

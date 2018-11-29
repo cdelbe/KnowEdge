@@ -1,0 +1,34 @@
+caption: Tag Cloud
+created: 20180630143633913
+creator: zemoxian
+list: -[[Magic Tabs]]
+modified: 20181107230742281
+modifier: Charles Delbé
+tags: $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/ui/tags/tag-cloud
+tmap.id: d8504a72-1b7d-4514-a58b-ed61dbf9bd0d
+type: text/vnd.tiddlywiki
+
+\define link(showcount: none) <span style="display: inline-block">@@font-size: calc(0.8em + $(count)$px / 8); <$link><$text text=<<title>> /></$link>@@ @@font-size: 0.8em;display: $showcount$; (<<count>>)@@</span>
+
+<$edit-text tag=input type=range tiddler="$:/temp/cloud/range"/> {{$:/temp/cloud/range}} &nbsp;
+<$checkbox 
+  tiddler="$:/state/.CD/tag-cloud-count"
+  field=text
+  checked=inline
+  unchecked=none
+> show count</$checkbox>
+
+@@text-align: center;
+<$list filter="[tags[]![prefix[.fa-]]!is[system]]-[[MagicTabs]]-[[.fa]]">
+<$list filter="[all[current]tagging[]rest{$:/temp/cloud/range}first[]]" variable=_>
+<$vars
+    title={{{ [all[current]] }}}
+    count=
+{{{ [all[current]tagging[]count[]] }}}
+>
+<$macrocall $name=link showcount={{$:/state/.CD/tag-cloud-count}} />
+</$vars>
+</$list>
+</$list>
+@@

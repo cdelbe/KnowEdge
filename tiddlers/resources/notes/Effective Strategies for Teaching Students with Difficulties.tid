@@ -1,0 +1,41 @@
+about: 
+color: #FFA500
+created: 20180725153952278
+creator: Charles Delbé
+description: 
+icon: $:/plugins/.CD/KnowEdge/images/note
+list: [[Students with difficulties]]
+modified: 20181002112801166
+modifier: Charles Delbé
+mt-source.parents.list: 
+mt-source.root: 
+mt-source.tiddler: Mathematics
+mt-topics.list: [[Students with difficulties]]
+tags: $:/type/note
+title: Effective Strategies for Teaching Students with Difficulties
+tmap.fa-icon: &#xf044;
+tmap.id: 8c6998bb-d746-4fe0-983d-4a24c3d9cd0f
+type: text/vnd.tiddlywiki
+url: https://www.nctm.org/Research-and-Advocacy/Research-Brief-and-Clips/Effective-Strategies-for-Teaching-Students-with-Difficulties/
+
+!!What instructional strategies are effective in helping students with difficulties in mathematics?
+
+<<box "Research points to several strategies that have been consistently effective in teaching students who experience difficulties in mathematics.">>
+
+*The use of structured peer-assisted learning activities
+*Systematic and explicit instruction using visual representations
+*Modifying instruction based on data from formative assessment of students (such as classroom discussions or quizzes)
+*Providing opportunities for students to think aloud while they work
+
+!!What are the characteristics of students with learning difficulties in mathematics?
+
+<<box "Students who struggle with mathematics learning regardless of their motivation, past instruction, and mathematical knowledge prior to starting school:">>
+
+*demonstrate slow or inaccurate recall of basic arithmetic facts;
+*answer problems impulsively, without inhibition;
+*have difficulty representing mathematical concepts mentally;
+*have poorly developed number sense; and
+*have difficulty keeping information in their working memory.
+
+---
+''Based on //Effective Strategies for Teaching Students with Difficulties in Mathematics// and //What Are the Characteristics of Students with Learning Difficulties in Mathematics.//''

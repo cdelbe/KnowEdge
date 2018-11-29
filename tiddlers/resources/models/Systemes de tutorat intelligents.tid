@@ -1,0 +1,26 @@
+aliases: ITS STI
+authors: 
+caption: ITS
+color: #087268
+created: 20180814205623702
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/model
+list: [[Mastery Learning]]
+modified: 20180926121702327
+modifier: Charles Delbé
+mt-part.order: 8
+mt-topics.list: [[Mastery Learning]]
+tags: EdTechs $:/type/model $:/type/knowledge
+title: Intelligent Tutoring Systems
+tmap.fa-icon: &#xf085;
+tmap.id: 8a482ada-95e5-43cd-bcd4-c2860306b8e2
+type: text/vnd.tiddlywiki
+
+!Definition
+
+Développer un système de tutorat individuel pouvant proposer des stratégies d'''[[apprentissage par la maîtrise|Mastery Learning]]'' a été un objectif principal des chercheurs en IA et éducation depuis les années 1970.
+
+Bien que les systèmes actuels, tels que décrits par Chaudhri et al. (2013), ne correspondent pas tout à fait à l'effet des tuteurs humains (2 sigma, i.e, deux niveaux de notation), il semble que les systèmes STI fonctionnent aussi bien, sinon mieux, que les tuteurs humains individuels pour de nombreux étudiants.
+
+---
+*[[Chaudhri, V. K., Gunning, D., Lane, H. C., & Roschelle, J. (2013). Intelligent learning technologies Part 2: Applications of artificial intelligence to contemporary and emerging educational challenges. AI Magazine, 34(4), 10-12.|https://www.aaai.org/ojs/index.php/aimagazine/article/download/2518/2401]]

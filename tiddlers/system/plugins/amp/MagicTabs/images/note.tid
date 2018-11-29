@@ -1,0 +1,9 @@
+created: 20150208201701871
+creator: Alberto Molina Pérez
+modified: 20181112210258987
+modifier: Charles Delbé
+tags: MagicTabs $:/plugins/amp/MagicTabs/common
+title: $:/plugins/amp/MagicTabs/images/note
+type: text/vnd.tiddlywiki
+
+<<mt-image "fas fa-edit" "note" "Note">>

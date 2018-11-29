@@ -1,0 +1,22 @@
+about: 
+color: #FFA500
+created: 20180725153952278
+creator: Charles Delbé
+description: 
+icon: $:/plugins/.CD/KnowEdge/images/note
+list: [[Adaptive Learning]] [[Graphical Model]] Knewton
+modified: 20181029191008210
+modifier: Charles Delbé
+mt-source.parents.list: 
+mt-source.root: 
+mt-source.tiddler: Binger (2017)
+mt-topics.list: [[Adaptive Learning]] [[Graphical Model]] Knewton
+tags: $:/type/note
+title: Accounting for relationships between learning objectives in the Proficiency Model
+tmap.fa-icon: &#xf044;
+tmap.id: 51d81dc3-827a-4180-a5af-b216c9e24477
+type: text/vnd.tiddlywiki
+
+[[L'apprentissage adaptatif|Adaptive Learning]] nécessite une ''évaluation granulaire et constante'' des multiples objectifs d'apprentissage ''intégrés'' dans le matériel pédagogique. Cependant, l'[[IRT|?]] traditionnelle ne tient pas compte des ''relations entre les objectifs d'apprentissage'', alors que ces relations constituent une propriétés importante du [[graphe de connaissances|Knowledge Graph]].
+
+Pour remédier à cette lacune de l'[[IRT|?]], Knewton a développé une nouvelle manière d’incorporer ces relations dans un ''[[cadre de modélisation bayésien|Bayesian Knowledge Tracing]]'', nous permettant d’incorporer des hypothèses antérieures sur les niveaux de compétences sur des ''concepts connexes'', calculés selon les obserations fournies par les réponses de l'élève. Cela conduit à ce que l'on appelle la ''propagation ou flux des compétences'' à travers le [[graphe de connaissances|Knowledge Graph]]. L'idée de base étant : si deux objectifs d'apprentissage sont liés et qu'un élève en maîtrise un, il y a de fortes chances pour qu'il maîtrise les autres.

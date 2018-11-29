@@ -1,0 +1,19 @@
+caption: {{$:/language/Buttons/Quote/Caption}}
+condition: [<targetTiddler>type[text/x-markdown]]
+created: 20181122192830681
+creator: Charles Delbé
+description: {{$:/language/Buttons/Quote/Hint}} (Markdown)
+icon: $:/core/images/quote
+modified: 20181122192832188
+modifier: Charles Delbé
+shortcuts: ((quote))
+tags: $:/tags/EditorToolbar
+title: $:/plugins/anstosa/tw5-markdown/ui/EditorToolbar/quote
+type: text/vnd.tiddlywiki
+
+<$action-sendmessage
+	$message="tm-edit-text-operation"
+	$param="prefix-lines"
+	character=">"
+	count="1"
+/>

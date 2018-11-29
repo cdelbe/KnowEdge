@@ -1,0 +1,14 @@
+created: 20181107181958977
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Torii Gate
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f6a1
+modified: 20181125084950198
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/torii-gate
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-torii-gate fa-10x'></i>

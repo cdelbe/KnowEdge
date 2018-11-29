@@ -1,0 +1,27 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180916153759218
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/book
+list: [[Mastery Learning]] Tutoring
+modified: 20181029093357599
+modifier: Charles Delbé
+mt-authors.title: Bloom
+mt-publication.citation: Bloom, B. S. (1984). The 2 sigma problem: The search for methods of group instruction as effective as one-to-one tutoring. Educational researcher, 13(6), 4-16.
+mt-publication.date: 1984
+mt-publication.issue: 6
+mt-publication.journal: Educational Researcher
+mt-publication.subtitle: 
+mt-publication.title: The 2 sigma problem: The search for methods of group instruction as effective as one-to-one tutoring.
+mt-publication.volume: 13
+mt-source.authors.list: [[Benjamin Bloom]]
+mt-topics.list: [[Mastery Learning]] [[Tutoring]]
+abstract: 
+tags: @:/type/book $:/type/publication
+title: Bloom (1984)
+tmap.fa-icon: &#xf02d;
+tmap.id: 4a457e2c-30e8-4cd2-ae48-5aecc224e9d5
+type: text/vnd.tiddlywiki
+
+;See also
+:http://www.ascd.org/ASCD/pdf/journals/ed_lead/el_198405_bloom.pdf

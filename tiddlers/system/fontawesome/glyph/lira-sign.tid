@@ -1,0 +1,14 @@
+created: 20181107181947598
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Turkish Lira Sign
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f195
+modified: 20181125084947499
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/lira-sign
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-lira-sign fa-10x'></i>

@@ -1,0 +1,33 @@
+caption: {{$:/language/Search/System/Caption}}
+created: 20181029143911142
+creator: Charles Delbé
+modified: 20181109234242019
+modifier: Charles Delbé
+tags: $:/tags/@CD $:/tags/@CD/tweaked $:/tags/AdvancedSearch
+title: $:/core/ui/AdvancedSearch/System
+type: text/vnd.tiddlywiki
+
+\define lingo-base() $:/language/Search/
+
+<$reveal state="$:/temp/advancedsearch" type="nomatch" text="">
+
+<$list filter="[{$:/temp/advancedsearch}minlength{$:/config/Search/MinLength}limit[1]]" emptyMessage="""<div class="tc-search-results">{{$:/language/Search/Search/TooShort}}</div>""" variable="listItem">
+
+<$set name="maxResults" value="250">
+<$set name="resultCount" value="""<$count filter="[is[system]search{$:/temp/advancedsearch}] -[[$:/temp/advancedsearch]]"/>""">
+
+<div class="tc-search-results">
+	System tiddlers found: <<lingo System/Matches>>
+	<$list filter="[is[system]search{$:/temp/advancedsearch}sort[title]limit[250]] -[[$:/temp/advancedsearch]]" template="$:/core/ui/ListItemTemplate"/>
+</div>
+
+</$set>
+</$set>
+
+</$list>
+
+</$reveal>
+
+<$reveal state="$:/temp/advancedsearch" type="match" text="">
+Search for system tiddlers
+</$reveal>

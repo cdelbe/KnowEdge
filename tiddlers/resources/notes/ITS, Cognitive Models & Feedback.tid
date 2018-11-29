@@ -1,0 +1,19 @@
+about: 
+color: #FFA500
+created: 20180725153952278
+creator: Charles Delbé
+description: 
+icon: $:/plugins/.CD/KnowEdge/images/note
+list: [[Mastery Learning]] Feedback Hints
+modified: 20180927032206271
+modifier: Charles Delbé
+mt-source.parents.list: 
+mt-source.tiddler: Intelligent Tutoring Systems
+mt-topics.list: [[Mastery Learning]] Feedback Hints
+tags: $:/type/note
+title: ITS, Cognitive Models & Feedback
+tmap.fa-icon: &#xf044;
+tmap.id: e2eec443-5b70-438b-a33a-bbba80cc0bfd
+type: text/vnd.tiddlywiki
+
+Les systèmes de tutorat intelligent utilisent généralement des ''modèles cognitifs'' pour suivre et évaluer les connaissances des apprenants. Les hypothèses sur ce qu'un apprenant connait et ne connait pas permettent à un système de tutorat d’adapter dynamiquement ses [[commentaires|Feedback]], [[indices|Hints]] et instructions pour optimiser la profondeur et l’efficacité de l'apprentissage.

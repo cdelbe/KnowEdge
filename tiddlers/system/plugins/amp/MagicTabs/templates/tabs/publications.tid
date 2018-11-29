@@ -1,0 +1,35 @@
+created: 20150105112916833
+creator: Charles Delbé
+modified: 20181030060313744
+modifier: Charles Delbé
+tags: $:/plugins/amp/MagicTabs/reading
+title: $:/plugins/amp/MagicTabs/templates/tabs/publications
+type: text/vnd.tiddlywiki
+
+\define title(type)
+	<$link to={{!!title}}>
+    <$transclude tiddler={{!!icon}}/>
+		<$reveal type="nomatch" state="!!mt-source.authors.list" text="[[$(storyTiddler)$]]">
+			{{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+        </$reveal>
+		<$reveal type="match" state="!!mt-source.authors.list" text="[[$(storyTiddler)$]]">
+			<$view field="mt-publication.citation"/>
+            <$reveal type="nomatch" state="!!mt-publication.date" text="">, 
+            	<$view field="mt-publication.date"/>
+			</$reveal>
+        </$reveal>
+	</$link>
+\end
+
+<h2><<title>></h2>
+<!--
+<h3>{{!!description}}</h3>
+-->
+<$list filter="[all[current]list[!!mt-topics.list]!is[system]]" template="$:/core/ui/TagTemplate"/><$list filter="[all[current]tags[]!is[system]]" template="$:/core/ui/TagTemplate"/>
+<!--
+<br>
+
+{{!!text}}
+
+<br>
+-->

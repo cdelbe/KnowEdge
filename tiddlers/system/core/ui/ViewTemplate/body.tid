@@ -1,0 +1,20 @@
+created: 20181111010251100
+creator: Charles Delbé
+list: 
+list-after: 
+modified: 20181112011102257
+modifier: Charles Delbé
+tags: $:/tags/@CD $:/tags/@CD/tweaked $:/tags/ViewTemplate
+title: $:/core/ui/ViewTemplate/body
+type: text/vnd.tiddlywiki
+
+<$reveal tag="div" class="tc-tiddler-body post-container" type="nomatch" state=<<folded-state>> text="hide" retain="yes" animate="yes">
+	{{||$:/plugins/amp/MagicTabs/ViewTemplate/person/picture}}
+	<$list filter="[all[current]!has[plugin-type]!field:hide-body[yes]]">
+
+		<$transclude>
+
+			<$transclude tiddler="$:/language/MissingTiddler/Hint"/>
+		</$transclude>
+	</$list>
+</$reveal>

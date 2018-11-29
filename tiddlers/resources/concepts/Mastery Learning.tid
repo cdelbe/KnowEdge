@@ -1,0 +1,22 @@
+authors: [[Benjamin Bloom]]
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: 
+modified: 20181016171730752
+modifier: Charles Delbé
+mt-topics.list: 
+tags: [[Instructional Strategy]] $:/type/concept $:/type/knowledge
+title: Mastery Learning
+tmap.fa-icon: &#xf12e;
+tmap.id: 543d97bb-10f0-4c2b-ba5f-0f0155cb7113
+type: text/vnd.tiddlywiki
+
+;Maîtrise
+:Réussite à une évaluation sommative liée aux objectifs pédagogiques du cours.
+
+
+Mastery learning, a set of principles largely tied to the work of Educational Psychologist [[Benjamin Bloom]] in the 1970’s, supports the ''effectiveness of individualized tutoring'' and instruction in the classroom. Curriculum organized around a ''student’s progress'', combined with ''timely targeted [[Feedback]]'', immediate ''opportunities for corrected practice'', and ''enrichment activities'', are fundamental mastery learning practices.
+
+In a mastery learning framework, a student continues to practice a skill until it is “mastered”. The exact ''definition of mastery'' varies, but typically involves recent student performance. For example, the KT framework suggests that the ''probability a student knows a skill exceeds 0.95'', then the student has mastered the skill. The [[ASSISTments]] project (http://www.assistments.org) uses a simpler heuristic of ''three consecutive correct responses to indicate mastery''. 

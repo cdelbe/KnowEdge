@@ -1,0 +1,14 @@
+created: 20181107181945546
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: PDF File
+fa-style-classes: fas far
+fa-styles: solid regular
+fa-unicode: f1c1
+modified: 20181125084945482
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/file-pdf
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-file-pdf fa-10x'></i>

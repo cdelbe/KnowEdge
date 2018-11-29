@@ -1,0 +1,14 @@
+created: 20181107181945449
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Facebook Messenger
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f39f
+modified: 20181125084945391
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/facebook-messenger
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-facebook-messenger fa-10x'></i>

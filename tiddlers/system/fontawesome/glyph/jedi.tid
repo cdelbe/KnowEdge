@@ -1,0 +1,14 @@
+created: 20181107181947283
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Jedi
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f669
+modified: 20181125084946961
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/jedi
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-jedi fa-10x'></i>

@@ -1,0 +1,14 @@
+created: 20181107181944568
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: City
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f64f
+modified: 20181125084944416
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/city
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-city fa-10x'></i>

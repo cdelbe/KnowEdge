@@ -1,0 +1,14 @@
+created: 20181107181949884
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Sith
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f512
+modified: 20181125084949375
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/sith
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-sith fa-10x'></i>

@@ -1,0 +1,29 @@
+{
+    "description": "Server configuration of the Maskott TW5 edition",
+    "plugins": [
+        "tiddlywiki/filesystem",
+        "tiddlywiki/tiddlyweb",
+        "tiddlywiki/highlight",
+        "tiddlywiki/codemirror",
+        "tiddlywiki/internals",
+        "tiddlywiki/bibtex",
+        "tiddlywiki/help",
+        "tiddlywiki/codemirror-mode-xml"
+    ],  
+	"languages": [
+		"fr-FR"
+	],    
+    "themes": [
+        "tiddlywiki/vanilla",
+        "tiddlywiki/snowwhite"
+    ],
+	"build": {
+		"index": [
+			"--rendertiddler","$:/plugins/tiddlywiki/tiddlyweb/save/offline","index.html","text/plain"],
+		"favicon": [
+			"--savetiddler","$:/favicon.ico","favicon.ico"],
+		"readme": [
+			"--rendertiddler","ReadMe","readme.md","text/html",
+			"--rendertiddler","License","license.md","text/html"]
+	}       
+}

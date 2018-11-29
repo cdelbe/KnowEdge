@@ -1,0 +1,14 @@
+created: 20181107181948017
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Menorah
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f676
+modified: 20181125084947679
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/menorah
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-menorah fa-10x'></i>

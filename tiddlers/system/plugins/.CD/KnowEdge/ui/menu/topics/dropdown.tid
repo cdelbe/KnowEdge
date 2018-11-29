@@ -1,0 +1,9 @@
+created: 20181018173736621
+creator: Charles Delbé
+modified: 20181029034903868
+modifier: Charles Delbé
+tags: $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/ui/menu/topics/dropdown
+type: text/vnd.tiddlywiki
+
+<<makeTopMenu type:"$:/type/topic" template:"$:/plugins/.CD/KnowEdge/templates/types/topic">>

@@ -1,0 +1,14 @@
+created: 20181107181949060
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Poo
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f2fe
+modified: 20181125084948570
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/poo
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-poo fa-10x'></i>

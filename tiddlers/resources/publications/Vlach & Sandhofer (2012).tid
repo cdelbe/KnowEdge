@@ -1,0 +1,23 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181025111448854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: [[Spacing Effect]] [[Distributed Learning]] [[Learning and Memory]] [[Cognitive Development]] [[Educational Curriculum]] [[Instructional Strategy]]
+modified: 20181025214447392
+modifier: Charles Delbé
+mt-authors.title: Vlach & Sandhofer
+mt-publication.citation: Vlach, H. A., & Sandhofer, C. M. (2012). Distributing learning over time: the spacing effect in children's acquisition and generalization of science concepts. //Child development//, 83(4), 1137-44.
+mt-publication.date: 2012
+mt-publication.subtitle: 
+mt-publication.title: Distributing Learning Over Time: The Spacing Effect in Children’s Acquisition and Generalization of Science Concepts
+mt-source.authors.list: [[Haley A. Vlach]] [[Catherine M. Sandhofer]]
+mt-topics.list: [[Spacing Effect]] [[Distributed Learning]] [[Learning and Memory]] [[Cognitive Development]] [[Educational Curriculum]] [[Instructional Strategy]]
+abstract: The spacing effect describes the robust finding that long-term learning is promoted when learning events are spaced out in time, rather than presented in immediate succession. Studies of the spacing effect have focused on memory processes rather than for other types of learning, such as the acquisition and generalization of new concepts. In this study, early elementary school children (5–7 year-olds; N = 36) were presented with science lessons on one of three schedules: massed, clumped, and spaced. The results revealed that spacing lessons out in time resulted in higher generalization performance for both simple and complex concepts. Spaced learning schedules promote several types of learning, strengthening the implications of the spacing effect for educational practices and curriculum.
+tags: @:/type/article $:/type/publication
+title: Vlach & Sandhofer (2012)
+tmap.fa-icon: &x#f0f6;
+tmap.id: f1ca4055-915a-4c3e-a8f1-10558ae3d217
+type: text/vnd.tiddlywiki
+url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3399982/
+

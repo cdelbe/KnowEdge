@@ -1,0 +1,17 @@
+about: [[Educational Curriculum]]
+color: #ffa500
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/note
+list: [[Adaptive Assessment]] [[Personalized Learning]]
+modified: 20181024161055692
+modifier: Charles Delbé
+mt-source.tiddler: Educational Curriculum
+mt-topics.list: [[Adaptive Assessment]] [[Personalized Learning]]
+tags: $:/type/note
+title: Adaptive Assessment, Personalized Learning & Curriculum
+tmap.fa-icon: &#xf044;
+tmap.id: ffb550ae-6a9c-4a61-a84e-44ea8482bf34
+type: text/vnd.tiddlywiki
+
+Les [[évaluations adaptatives|Adaptive Assessment]] peuvent mener à une meilleure ''[[personnalisation|Personalized Learning]]'', en ''organisant'' les ressources pédagogiques proposées à l'apprenant. Par exemple, la conception de programmes de formation nécessite de choisir des parcours dans un espace d’objectifs pédagogiques ([[Desmarais & Baker (2012): A Review of Recent Advances in Learner and Skill Modeling in Intelligent Learning Environments]]). Une manière d'aborder cette problématique consiste à utiliser l'évaluation des compétences pour adapter le contenu pédagogique à partir du minimum de questions possible.

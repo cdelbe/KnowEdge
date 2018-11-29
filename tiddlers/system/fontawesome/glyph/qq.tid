@@ -1,0 +1,14 @@
+created: 20181107181949303
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: QQ
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f1d6
+modified: 20181125084948679
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/qq
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-qq fa-10x'></i>

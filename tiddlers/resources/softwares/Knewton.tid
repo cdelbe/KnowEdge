@@ -1,0 +1,16 @@
+color: #ff8040
+created: 20180814205623702
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/software
+list: [[Adaptive Learning]]
+modified: 20181109195834551
+modifier: Charles Delbé
+mt-topics.list: [[Adaptive Learning]]
+tags: $:/type/software
+title: Knewton
+tmap.fa-icon: &#xf120;
+tmap.id: a741ab51-ac31-4be6-a906-4e958be1a0d2
+type: text/vnd.tiddlywiki
+url: https://www.knewton.com/
+
+<$macrocall $name="list-tagged-objects" tag=<<currentTiddler>>/>

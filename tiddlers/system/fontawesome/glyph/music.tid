@@ -1,0 +1,14 @@
+created: 20181107181948624
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Music
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f001
+modified: 20181125084948070
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/music
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-music fa-10x'></i>

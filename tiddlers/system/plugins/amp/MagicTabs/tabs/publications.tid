@@ -1,0 +1,22 @@
+caption: <<mt-tab-caption>>
+color: #d3d3d3
+created: 20150125013421426
+creator: Alberto Molina Pérez
+description: Publications
+icon: $:/plugins/.CD/KnowEdge/images/book
+modified: 20181025211552552
+modifier: Charles Delbé
+mt-contents.type: $:/type/publication
+mt-list.filter: [all[current]listed[mt-source.authors.list]] [all[current]listed[mt-topics.list]] +[tag[$:/type/publication]!is[system]!has[draft.of]nsort[mt-publication.date]]
+mt-list.filter_alt: 
+mt-list.heading: 
+mt-list.heading_alt: 
+mt-list.template: $:/plugins/amp/MagicTabs/templates/tabs/publications
+mt-list.template_alt: 
+tags: $:/plugins/amp/MagicTabs/reading $:/type/tab $:/tabs/theory $:/tabs/author $:/tabs/concept $:/tabs/topic $:/tabs/model $:/tabs/publication $:/tabs/definition $:/tabs/software
+title: $:/plugins/amp/MagicTabs/tabs/publications
+type: text/vnd.tiddlywiki
+
+<<mt-slider-input "$:/plugins/amp/MagicTabs/new/default">>
+
+<<mt-tab-contents>>

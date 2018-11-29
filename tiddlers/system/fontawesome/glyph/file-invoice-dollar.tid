@@ -1,0 +1,14 @@
+created: 20181107181945563
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: File Invoice with US Dollar
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f571
+modified: 20181125084945503
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/file-invoice-dollar
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-file-invoice-dollar fa-10x'></i>

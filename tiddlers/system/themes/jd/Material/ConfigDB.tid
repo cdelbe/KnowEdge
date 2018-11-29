@@ -1,0 +1,23 @@
+created: 20180327133017293
+creator: jd
+modified: 20181022102348263
+modifier: Charles Delbé
+tags: 
+title: $:/themes/jd/Material/ConfigDB
+type: application/json
+
+{
+    "fabmargin": "5px",
+    "fabsize": "56px",
+    "fabxy": "30px",
+    "fab": "$:/core/ui/Buttons/new-tiddler",
+    "fab1": "$:/.cd/ui/buttons/tag-handling",
+    "fab2": "",
+    "fab3": "",
+    "fab4": "",
+    "fab5": "",
+    "fab6": "",
+    "headerbtns": "6",
+    "icon": "{{$:/core/images/menu-button}}",
+    "statelists": "no"
+}

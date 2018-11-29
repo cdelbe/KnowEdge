@@ -1,0 +1,13 @@
+created: 20180930215706095
+creator: Charles Delbé
+modified: 20181029034252398
+modifier: Charles Delbé
+tags: $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/macros/warn
+type: text/vnd.tiddlywiki
+
+\rules except wikilink
+
+<div class="flash-message warning">
+   <i class="far  fa-fw fa-1x fa-exclamation-circle" /> {{!!title}}
+</div>

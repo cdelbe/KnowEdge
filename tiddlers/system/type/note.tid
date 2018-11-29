@@ -1,0 +1,17 @@
+caption: Note
+color: #ffa500
+created: 20141231095056897
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/note
+modified: 20181125002535324
+modifier: Charles Delbé
+mt-dashboard.heading: Notes
+mt-dashboard.icon: $:/plugins/.CD/KnowEdge/images/note
+mt-source.type: $:/type/root
+mt-template.fields: $:/plugins/amp/MagicTabs/templates/types/note
+mt-template.form: 
+tags: $:/tags/Tagging $:/tags/MagicTabs/dashboard MagicTabs
+title: $:/type/note
+type: text/vnd.tiddlywiki
+
+ 

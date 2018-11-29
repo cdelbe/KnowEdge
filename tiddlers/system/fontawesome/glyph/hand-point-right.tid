@@ -1,0 +1,14 @@
+created: 20181107181946707
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Hand Pointing Right
+fa-style-classes: fas far
+fa-styles: solid regular
+fa-unicode: f0a4
+modified: 20181125084946598
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/hand-point-right
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-hand-point-right fa-10x'></i>

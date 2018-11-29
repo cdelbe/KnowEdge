@@ -1,0 +1,40 @@
+created: 20181109171714999
+creator: Charles Delbé
+modified: 20181109171720018
+modifier: Charles Delbé
+tags: $:/tags/Macro
+title: $:/plugins/tobibeer/split/readme
+type: text/vnd.tiddlywiki
+
+Provides the filter `split[by]`, splitting input titles `by` a string defined in the operand, allowing you to slice and dice output elements as needed.
+
+; suffixes
+: `$` — return input titles that yield split items
+: `$all` — return all input titles if any yield split items
+: `+` — append operand to split titles
+: `+\x\` — append x to split titles
+: `\x\+` — prepend x to split titles
+: `unique` — prevents duplicate titles in the output
+: `trim` — no leading/trailing blanks in split titles
+: `first` — first title of the split => `!first` — all but first
+: `last` — last title of the split => `!last` — all but last
+: `at[<num>]` — split in two at number in the operand
+: `at[<num>,<len>]` — slice out ''len'' characters starting at character ''num''
+: `!at[<num>,<len>]` — cutting the above out of the input title
+: `before[x]` / `after[x]` — up until / after first match of `x`
+: `beforelast[x]` / `afterlast[x]`— up until / after last match of `x`
+: `pos=2` — 2nd split item of each input title in turn
+: `pos=1 num=3` — first three each
+: `pos=2 num=n` — 2nd to last each
+: `pos=-2 num=-n` — first to 2nd last each
+: `strict` — specified `num` is mandatory
+: `$pos`, `$num`, `$strict`, `$first`, `$!first`,`$last`, `$!last` — for final list
+: `keep` — return title even if not split
+: `list[]` — parse list field of input titles
+: `list=tags[]` — parse tags field of input titles
+: `list<foo>` — parse (soft) operand as list, e.g. variables or text-references
+
+<br>
+
+; documentation / examples / demos...
+: http://tobibeer.github.io/tw5-plugins#split

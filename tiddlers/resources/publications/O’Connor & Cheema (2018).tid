@@ -1,0 +1,24 @@
+abstract: Sequential evaluation is the hallmark of fair review: The same raters assess the merits of applicants, athletes, art, and more using standard criteria. We investigated one important potential contaminant in such ubiquitous decisions: Evaluations become more positive when conducted later in a sequence. In four studies, (a) judges’ ratings of professional dance competitors rose across 20 seasons of a popular television series, (b) university professors gave higher grades when the same course was offered multiple times, and (c) in an experimental test of our hypotheses, evaluations of randomly ordered short stories became more positive over a 2-week sequence. As judges completed repeated evaluations, they experienced more fluent decision making, producing more positive judgments (Study 4 mediation). This seemingly simple bias has widespread and impactful consequences for evaluations of all kinds. We also report four supplementary studies to bolster our findings and address alternative explanations.
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181101224758145
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: Assessment
+modified: 20181101225435691
+modifier: Charles Delbé
+mt-authors.title: O’Connor & Cheema
+mt-publication.citation: O’Connor, K., & Cheema, A. (2018). Do Evaluations Rise With Experience?. //Psychological Science//, 29(5), 779-790.
+mt-publication.date: 2018
+mt-publication.subtitle: 
+mt-publication.title: Do Evaluations Rise With Experience?
+mt-source.authors.list: [[K. O’Connor]] [[A. Cheema]]
+mt-topics.list: [[Assessment]] 
+tags: @:/type/article $:/type/publication
+title: O’Connor & Cheema (2018)
+tmap.fa-icon: &x#f0f6;
+tmap.id: 9874b59f-fab9-4a84-9d9c-13cb3bce0151
+type: text/vnd.tiddlywiki
+url: https://poseidon01.ssrn.com/delivery.php?ID=950072066000030004016007005102064000049082029021028028086125117081103080097107006113052103035039021001046107068126127004002109049083093013000104105109011015092093123009019014110015102093020080097117124022081064030089127083014031071087086083123089067006&EXT=pdf
+url2: http://journals.sagepub.com/doi/abs/10.1177/0956797617744517
+

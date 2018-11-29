@@ -1,0 +1,14 @@
+created: 20181107181948666
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Outdent
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f03b
+modified: 20181125084948121
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/outdent
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-outdent fa-10x'></i>

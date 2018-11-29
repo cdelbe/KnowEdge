@@ -1,0 +1,24 @@
+about: 
+color: #FFA500
+created: 20180725153952278
+creator: Charles Delbé
+description: 
+icon: $:/plugins/.CD/KnowEdge/images/note
+list: 
+modified: 20180927214406522
+modifier: Charles Delbé
+mt-source.parents.list: 
+mt-source.tiddler: Learning
+mt-topics.list: 
+tags: $:/type/note
+title: Neuroscience and How Students Learn
+tmap.fa-icon: &#xf044;
+tmap.id: e858fb46-6a0d-4f31-800e-2d9fd7995842
+type: text/vnd.tiddlywiki
+url: https://gsi.berkeley.edu/gsi-guide-contents/learning-theory-research/neuroscience/
+
+!!!Key learning principles
+*''Changing the brain'' : From the point of view of neurobiology, learning involves changing the brain.
+*''Moderate stress'' : Moderate stress is beneficial for learning, while mild and extreme stress are detrimental to learning.
+*''Adequate sleep, good nutrition, and regular exercise'' : Adequate sleep, nutrition, and exercise encourage robust learning.
+*''[[Active Learning]]'' : Active learning takes advantage of processes that stimulate multiple neural connections in the brain and promote [[Memory]].

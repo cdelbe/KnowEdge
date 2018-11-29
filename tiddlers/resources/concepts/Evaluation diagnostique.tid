@@ -1,0 +1,16 @@
+authors: 
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: 
+modified: 20180913162017465
+modifier: Charles Delbé
+mt-topics.list: 
+tags: Assessment $:/type/concept $:/type/knowledge
+title: Evaluation diagnostique
+tmap.fa-icon: &#xf12e;
+tmap.id: 9001c1ca-bb9d-4cd0-9726-9ced63ecdb1c
+type: text/vnd.tiddlywiki
+
+L'évaluation diagnostique établit à un moment donné les points forts et les points faibles d'un élève ou d'un professionnel. Cette évaluation permet généralement de positionner quelqu'un en vue de l'organisation des futurs apprentissages.

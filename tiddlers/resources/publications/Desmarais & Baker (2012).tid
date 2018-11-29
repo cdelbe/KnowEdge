@@ -1,0 +1,25 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180916153759218
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: [[Learner Model]] [[Probabilistic Models]] [[Item Response Theory]] [[Model Tracing]] [[Bayesian Knowledge Tracing]] [[Intelligent Tutoring Systems]] [[Learning Management System]] [[Cognitive Modeling]]
+modified: 20181029020737356
+modifier: Charles Delbé
+mt-authors.title: Desmarais & Baker
+mt-publication.citation: Desmarais, M. C., & Baker, R. S. (2012). A review of recent advances in learner and skill modeling in intelligent learning environments. //User Modeling and User-Adapted Interaction//, 22(1-2), 9-38.
+mt-publication.date: 2012
+mt-publication.issue: 1-2
+mt-publication.journal: User Modeling and User-Adapted Interaction
+mt-publication.title: A Review of Recent Advances in Learner and Skill Modeling in Intelligent Learning Environments
+mt-publication.volume: 22
+mt-source.authors.list: [[Michel C. Desmarais]] [[Ryan S. J. d. Baker]]
+mt-topics.list: [[Learner Model]] [[Probabilistic Models]] [[Item Response Theory]] [[Model Tracing]] [[Bayesian Knowledge Tracing]] [[Intelligent Tutoring Systems]] [[Learning Management System]] [[Cognitive Modeling]]
+abstract: Ces dernières années, des ''[[modèles d'apprenants|Learner Model]]'' sont sorti des laboratoires de recherche et se sont répandu dans le monde entier. Les modèles d'apprenants sont désormais intégrés dans des applications réelles qui peuvent prétendre avoir des milliers, voire des centaines de milliers d'utilisateurs. Les ''[[Modèles probabilistes|Probabilistic Models]]'' d'évaluation des ''[[compétences|Competency]]'' jouent un rôle clé dans ces [[Environnements d'apprentissage|Learning Management System]] avancés. Dans cet article, nous passons en revue les modèles d'apprenants qui ont joué le plus grand rôle dans la réussite de ces environnements d'apprentissage, ainsi que les dernières avancées en matière de modélisation et d'évaluation des compétences des apprenants. Nous concluons en discutant des avancées dans la modélisation d'autres concepts clés tels que la [[motivation|Engagement]] de l'apprenant, l'état émotionnel et attentionnel, la [[Méta-cognition|Metacognition]] et l'[[Apprentissage auto-régulé|Self-regulated Learning]], l'[[Apprentissage par équipe|Team-Based Learning]] et le récent mouvement vers des modèles d'apprentissage ouverts et partagés.
+tags: @:/type/article $:/type/publication
+title: Desmarais & Baker (2012)
+tmap.fa-icon: &x#f0f6;
+tmap.id: 0ed768ac-50f1-4114-8850-c25feaeacbe5
+type: text/vnd.tiddlywiki
+url: https://users.wpi.edu/~rsbaker/lm.pdf
+

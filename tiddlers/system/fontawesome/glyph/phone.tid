@@ -1,0 +1,14 @@
+created: 20181107181948873
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Phone
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f095
+modified: 20181125084948394
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/phone
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-phone fa-10x'></i>

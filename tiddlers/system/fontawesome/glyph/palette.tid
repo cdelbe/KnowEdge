@@ -1,0 +1,14 @@
+created: 20181107181948761
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Palette
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f53f
+modified: 20181125084948240
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/palette
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-palette fa-10x'></i>

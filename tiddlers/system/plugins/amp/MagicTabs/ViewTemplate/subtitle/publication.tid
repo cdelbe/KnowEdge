@@ -1,0 +1,12 @@
+created: 20150228093918713
+creator: Alberto Molina
+list-after: $:/plugins/.CD/KnowEdge/ui/ViewTemplate/publication/title
+modified: 20181028140253424
+modifier: Charles Delbé
+tags: MagicTabs $:/plugins/amp/MagicTabs/reading
+title: $:/plugins/amp/MagicTabs/ViewTemplate/subtitle/publication
+type: text/vnd.tiddlywiki
+
+<$list filter="[all[current]tag[$:/type/publication]has[mt-publication.subtitle]]">
+<div style="font-size: 2em; color: grey; background-color:transparent; line-height:1.2em; padding-top:0em;"><$view field="mt-publication.subtitle"/></div>
+</$list>

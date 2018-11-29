@@ -1,0 +1,14 @@
+created: 20181107181949926
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Smoking Ban
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f54d
+modified: 20181125084949429
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/smoking-ban
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-smoking-ban fa-10x'></i>

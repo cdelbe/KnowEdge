@@ -1,0 +1,14 @@
+created: 20181107181945257
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Drupal Logo
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f1a9
+modified: 20181125084945357
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/drupal
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-drupal fa-10x'></i>

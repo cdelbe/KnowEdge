@@ -1,0 +1,14 @@
+created: 20181107181944995
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Cut
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f0c4
+modified: 20181125084944878
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/cut
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-cut fa-10x'></i>

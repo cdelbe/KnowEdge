@@ -1,0 +1,14 @@
+created: 20181107181943925
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Caret Square Left
+fa-style-classes: fas far
+fa-styles: solid regular
+fa-unicode: f191
+modified: 20181125084943801
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/caret-square-left
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-caret-square-left fa-10x'></i>

@@ -1,0 +1,14 @@
+created: 20181107182002102
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Weight
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f496
+modified: 20181125084950970
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/weight
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-weight fa-10x'></i>

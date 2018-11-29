@@ -1,0 +1,20 @@
+color: #800080
+created: 20180825162905136
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: Modeling
+modified: 20181025190220319
+modifier: Charles Delbé
+mt-topics.list: Modeling
+tags: $:/tags/Tagging $:/type/concept $:/type/knowledge
+title: Network Effects
+tmap.fa-icon: &#xf12e;
+tmap.id: c168d773-e5ba-47b8-9159-a6fbbf986f8d
+type: text/vnd.tiddlywiki
+
+;Effet de réseau
+:Phénomène par lequel l'utilité d'un algorithme dépend de la quantité de ses utilisateurs. 
+
+<<<
+Nous en apprenons davantage sur le contenu et sur les apprenants qui interagissent avec cet algorithme quand davantage de personnes utilisent le système.
+<<<

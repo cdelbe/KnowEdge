@@ -1,0 +1,14 @@
+created: 20181107181950494
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Teeth
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f62e
+modified: 20181125084950024
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/teeth
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-teeth fa-10x'></i>

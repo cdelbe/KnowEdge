@@ -1,0 +1,13 @@
+caption: Topics
+created: 20181018173622646
+creator: Charles Delbé
+dropdown: $:/plugins/.CD/KnowEdge/ui/menu/topics/dropdown
+list-after: $:/plugins/.CD/KnowEdge/ui/menu/TOC
+menu-pos: 2
+modified: 20181102102711203
+modifier: Charles Delbé
+tags: $:/tags/@CD $:/tags/Static/TopMenu $:/tags/TopMenu
+target: $:/type/topic
+title: $:/plugins/.CD/KnowEdge/ui/menu/topics
+type: text/vnd.tiddlywiki
+

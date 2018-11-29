@@ -1,0 +1,35 @@
+authors: [[Richard Atkinson]] [[Richard Shiffrin]]
+color: #087268
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/model
+list: Memory
+modified: 20181023124209743
+modifier: Charles Delbé
+mt-source.root: 
+mt-source.tiddler: 
+mt-topics.list: Memory
+tags: $:/type/model $:/type/knowledge
+title: Atkinson & Shiffrin's memory model (1968)
+tmap.fa-icon: &#xf085;
+tmap.id: 192bc8a9-1e25-4b7f-a1a7-8dd6b29e5dff
+type: text/vnd.tiddlywiki
+
+<<btn-img "figures/atkinson_memory_1968.png">>
+@@.legend
+Modèle classique du traitement de l’information d’Atkinson & Shiffrin (1968).
+@@
+
+Modèle largement accepté de traitement de l'information humain.
+
+La mémoire humaine peut être décomposée en plusieurs sous-systèmes qui ont des propriétés différentes.
+
+;The model asserts that human memory has three separate components:
+:a ''sensory register'', where sensory information enters memory,
+:a ''short-term store'', also called ''working memory'' or short-term memory, which receives and holds input from both the sensory register and the long-term store, and
+:a ''long-term store'', where information which has been ''rehearsed'' (explained below) in the short-term store is held indefinitely.
+
+La MDT est connectée à la MLT, qui stocke un grand nombre de connaissances. 
+
+---
+:https://en.wikipedia.org/wiki/Atkinson%E2%80%93Shiffrin_memory_model

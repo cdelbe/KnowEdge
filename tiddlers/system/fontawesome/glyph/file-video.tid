@@ -1,0 +1,14 @@
+created: 20181107181945520
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Video File
+fa-style-classes: fas far
+fa-styles: solid regular
+fa-unicode: f1c8
+modified: 20181125084945446
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/file-video
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-file-video fa-10x'></i>

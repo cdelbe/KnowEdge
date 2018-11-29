@@ -1,0 +1,15 @@
+color: #800080
+created: 20180825162905136
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: [[Hidden Markov Model]] [[Fondements cognitifs des apprentissages scolaires : La mémoire et son optimisation (Cours)]]
+modified: 20181023104529542
+modifier: Charles Delbé
+tags: $:/type/concept $:/type/knowledge
+title: Modeling
+tmap.fa-icon: &#xf12e;
+tmap.id: 8a28b2a8-8692-4d3f-838b-f89265d90745
+type: text/vnd.tiddlywiki
+
+;see
+:[[Willett (1996): “Paradigme, théorie, modèle, schéma : qu’est-ce donc ?”]]

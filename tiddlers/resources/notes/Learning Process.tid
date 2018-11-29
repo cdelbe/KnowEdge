@@ -1,0 +1,27 @@
+about: 
+color: #FFA500
+created: 20180725153952278
+creator: Charles Delbé
+description: 
+icon: $:/plugins/.CD/KnowEdge/images/note
+list: 
+modified: 20180924093107997
+modifier: Charles Delbé
+mt-source.parents.list: 
+mt-source.root: 
+mt-source.tiddler: Learning
+mt-topics.list: 
+tags: $:/type/note
+title: Learning Process
+tmap.fa-icon: &#xf044;
+tmap.id: 400bdd70-5c8a-4f59-a571-ff74d8c914c8
+type: text/vnd.tiddlywiki
+
+Un processus complet d’apprentissage se compose de trois phases <<ref "1">>: 
+
+*''L’Assimilation'' est l’action d’apprentissage qui permet de découvrir quelque chose de nouveau et de l’intégrer dans sa base de connaissances.
+*''La Consolidation'' est la phase de stabilisation et de stockage dans la mémoire à long-terme après l’acquisition initiale de nouvelles informations, de connaissances ou de compétences.
+*La troisième phase est ''l’Application'', par laquelle les représentations acquises sont appliquées à des cas réels.
+
+---
+<<footnotes "1" "[[Domoscio (2017): “Définir l’Adaptive Learning”]]">>

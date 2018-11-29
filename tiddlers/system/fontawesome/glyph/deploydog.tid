@@ -1,0 +1,14 @@
+created: 20181107181944949
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: deploy.dog
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f38e
+modified: 20181125084944829
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/deploydog
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-deploydog fa-10x'></i>

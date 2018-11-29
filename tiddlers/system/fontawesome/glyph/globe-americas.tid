@@ -1,0 +1,14 @@
+created: 20181107181946240
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Globe with Americas shown
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f57d
+modified: 20181125084946242
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/globe-americas
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-globe-americas fa-10x'></i>

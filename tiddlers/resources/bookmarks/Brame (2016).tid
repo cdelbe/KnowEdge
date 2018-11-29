@@ -1,0 +1,22 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #681224
+created: 20181029135314858
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: [[Active Learning]]
+modified: 20181029163419860
+modifier: Charles Delbé
+mt-authors.title: Brame
+mt-publication.citation: Brame, C., (2016). Active Learning. Vanderbilt University Center for Teaching. Retrieved [October, 29th 2018] from https://cft.vanderbilt.edu/active-learning/.
+mt-publication.publisher: Center for Teaching
+mt-publication.title: Active Learning
+mt-source.authors.list: [[Cynthia J. Brame]]
+mt-topics.list: [[Active Learning]]
+tags: $:/type/publication
+title: Brame (2016)
+tmap.fa-icon: &x#f0f6;
+tmap.id: a13dc7a0-9a5d-4ce5-ab1e-32a489c5cc88
+type: text/vnd.tiddlywiki
+url: https://cft.vanderbilt.edu/guides-sub-pages/active-learning/
+
+ 

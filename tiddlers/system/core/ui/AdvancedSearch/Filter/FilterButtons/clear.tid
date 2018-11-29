@@ -1,0 +1,13 @@
+created: 20181026235941979
+creator: Charles Delbé
+modified: 20181026235945142
+modifier: Charles Delbé
+title: $:/core/ui/AdvancedSearch/Filter/FilterButtons/clear
+type: text/vnd.tiddlywiki
+
+<$reveal state="$:/temp/advancedsearch" type="nomatch" text="">
+<$button class="tc-btn-invisible">
+<$action-setfield $tiddler="$:/temp/advancedsearch" $field="text" $value=""/>
+{{$:/core/images/close-button}}
+</$button>
+</$reveal>

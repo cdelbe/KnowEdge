@@ -1,0 +1,57 @@
+div.chsh {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+}
+
+div.chsh-filter-bar {
+  flex-grow: 0;
+  
+  width: 10em;
+  height: 100%; /* needed only due interspersed <p> due to parsing */
+  
+  border-right: #ddd solid 1px;
+  padding-right: 0.5em;
+  margin-right: 0.5em;
+}
+
+.chsh-filter {
+  display: block;
+  margin-left: 1.7em;
+  margin-bottom: 0.75ex;
+}
+
+.chsh-filter input {
+  width: 1.7em;
+  margin-left: -1.7em;
+}
+
+div.chsh-content {
+  flex-grow: 1;
+}
+
+div.chsh-glyph-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+div.chsh-glyph-box {
+  width: 10em;
+  margin: 3ex 0.5em;
+  text-align: center;
+}
+
+div.chsh-glyph-icon {
+  margin: 0 auto;
+}
+
+div.chsh-glyph-id, div.chsh-unicode-codepoint {
+  margin: 0 auto;
+  opacity: 0.5;
+  font-size: 75%;
+}
+
+div.chsh-glyph-id {
+  margin-top: 2ex;
+}

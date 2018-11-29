@@ -1,0 +1,14 @@
+created: 20181107181950420
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Alternate Tablet
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f3fa
+modified: 20181125084949978
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/tablet-alt
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-tablet-alt fa-10x'></i>

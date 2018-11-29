@@ -1,0 +1,14 @@
+created: 20181107181947886
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: MedApps
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f3c6
+modified: 20181125084947755
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/medapps
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-medapps fa-10x'></i>

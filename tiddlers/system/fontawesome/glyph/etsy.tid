@@ -1,0 +1,14 @@
+created: 20181107181945373
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Etsy
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f2d7
+modified: 20181125084945181
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/etsy
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-etsy fa-10x'></i>

@@ -1,0 +1,14 @@
+created: 20181107181943643
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Battery 1/4 Full
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f243
+modified: 20181125084943506
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/battery-quarter
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-battery-quarter fa-10x'></i>

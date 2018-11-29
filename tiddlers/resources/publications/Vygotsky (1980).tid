@@ -1,0 +1,25 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/book
+list: [[Zone of Proximal Development]] Childhood [[Cognitive Development]]
+modified: 20181028134034405
+modifier: Charles Delbé
+mt-authors.title: Vygotsky
+mt-publication.citation: Vygotsky, L. S. (1980). Mind in society: The development of higher psychological processes. Harvard university press.
+mt-publication.city: 
+mt-publication.date: 1980
+mt-publication.edition: 
+mt-publication.publisher: Harvard university press
+mt-publication.title: Mind in society: The development of higher psychological processes.
+mt-publication.volume: 
+mt-source.authors.list: [[Lev Vygotsky]]
+mt-topics.list: [[Zone of Proximal Development]] Childhood [[Cognitive Development]]
+abstract: The great Russian psychologist [[Lev Vygotsky]] has long been recognized as a pioneer in [[developmental psychology|Cognitive Development]]. But his theory of development has never been well understood in the West. //Mind in Society// corrects much of this misunderstanding. Carefully edited by a group of outstanding Vygotsky scholars, the book presents a unique selection of Vygotsky's important essays.
+tags: @:/type/book $:/type/publication
+title: Vygotsky (1980)
+tmap.fa-icon: &#xf02d;
+tmap.id: abd0f3f1-c678-4003-a515-870e7d2c9917
+type: text/vnd.tiddlywiki
+

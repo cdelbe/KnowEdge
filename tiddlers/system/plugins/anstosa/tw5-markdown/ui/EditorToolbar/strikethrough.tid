@@ -1,0 +1,19 @@
+caption: {{$:/language/Buttons/Strikethrough/Caption}}
+condition: [<targetTiddler>type[text/x-markdown]]
+created: 20181122192830681
+creator: Charles Delbé
+description: {{$:/language/Buttons/Strikethrough/Hint}} (Markdown)
+icon: $:/core/images/strikethrough
+modified: 20181122192832222
+modifier: Charles Delbé
+shortcuts: ((strikethrough))
+tags: $:/tags/EditorToolbar
+title: $:/plugins/anstosa/tw5-markdown/ui/EditorToolbar/strikethrough
+type: text/vnd.tiddlywiki
+
+<$action-sendmessage
+	$message="tm-edit-text-operation"
+	$param="wrap-selection"
+	prefix="~~"
+	suffix="~~"
+/>

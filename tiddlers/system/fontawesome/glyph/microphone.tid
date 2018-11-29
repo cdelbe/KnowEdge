@@ -1,0 +1,14 @@
+created: 20181107181948000
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: microphone
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f130
+modified: 20181125084947797
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/microphone
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-microphone fa-10x'></i>

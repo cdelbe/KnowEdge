@@ -1,0 +1,33 @@
+authors: [[Jean-Paul Doignon]] [[Jean-Claude Falmagne]]
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: [[Knowledge Tracing]]
+modified: 20181027160548470
+modifier: Charles Delbé
+mt-topics.list: [[Knowledge Tracing]]
+tags: $:/type/concept $:/type/knowledge
+title: Knowledge Space Theory
+tmap.fa-icon: &#xf12e;
+tmap.id: 7c72fbac-0a8d-4cb4-8576-4cc5f129827b
+type: text/vnd.tiddlywiki
+
+!!Définition
+''Knowledge Space Theory'' applies concepts from combinatorics and stochastic processes to the modeling and empirical description of ''particular fields'' of knowledge. 
+
+This framework enables the creation of computer algorithms for the construction and application of ''discipline-specific knowledge'' structures (known as "''Knowledge Spaces''")
+
+<<<
+For example, Algebra 1 is regarded as a domain of approximately ''350 basic concepts'', giving rise to a structure of ''millions'' of empirically feasible ''knowledge states''.
+Despite the millions of knowledge states in a structure, an ''[[Adaptive Assessment]]'' based upon this "Knowledge Structure," employing ''Markovian procedures'', can gauge a student's knowledge state in a relatively ''small number of questions'' (approximately 25-30).
+<<<
+
+!!Références
+:https://en.wikipedia.org/wiki/Knowledge_space
+
+:[[Abstract: Doignon, J. P. (1994). Knowledge spaces and skill assignments. In Contributions to mathematical psychology, psychometrics, and methodology (pp. 111-121). Springer, New York, NY.|https://www.researchgate.net/publication/243781342_Knowledge_Spaces_and_Skill_Assignments]]
+:[[Abstract: Falmagne, J. C., Koppen, M., Villano, M., Doignon, J. P., & Johannesen, L. (1990). Introduction to knowledge spaces: How to build, test, and search them. Psychological Review, 97(2), 201.|https://www.researchgate.net/publication/232512980_Introduction_to_knowledge_spaces_How_to_build_test_and_search_them]]
+:[[Abstract: Cosyn, E., & Thiéry, N. (2000). A practical procedure to build a knowledge structure. Journal of mathematical psychology, 44(3), 383-407.|https://www.researchgate.net/publication/12347971_A_Practical_Procedure_to_Build_a_Knowledge_Structure]]
+:[[2.2.2. Knowledge Space Theory|https://www.tandfonline.com/doi/full/10.1080/2331186X.2016.1263006]]
+:http://www.dtic.mil/dtic/tr/fulltext/u2/a258622.pdf

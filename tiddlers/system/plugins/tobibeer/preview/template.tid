@@ -1,0 +1,10 @@
+created: 20181026195939520
+creator: Charles Delbé
+modified: 20181026195942598
+modifier: Charles Delbé
+title: $:/plugins/tobibeer/preview/template
+type: text/vnd.tiddlywiki
+
+{{||$:/plugins/amp/MagicTabs/ViewTemplate/tags}}
+
+<$transclude mode="block"/>

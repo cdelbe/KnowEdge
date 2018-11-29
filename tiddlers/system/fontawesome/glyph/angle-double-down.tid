@@ -1,0 +1,14 @@
+created: 20181107181942860
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Angle Double Down
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f103
+modified: 20181125084943069
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/angle-double-down
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-angle-double-down fa-10x'></i>

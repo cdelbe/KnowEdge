@@ -1,0 +1,16 @@
+created: 20181030023418539
+creator: Charles Delbé
+description: Shows the tiddler's url target.
+list-after: $:/core/ui/ViewTemplate/body
+modified: 20181125075646187
+modifier: Charles Delbé
+tags: $:/tags/@CD $:/tags/viewsource $:/tags/ViewTemplate
+title: $:/plugins/.CD/KnowEdge/ui/ViewTemplate/embedded
+type: text/vnd.tiddlywiki
+
+<$reveal type='nomatch' state=<<folded-state>> text='hide' retain='yes' animate='yes'>
+	<$list filter='[all[current]tag[$:/tags/embed]has[url]]'>       
+		<!--<object type='text/html' data={{!!url}} class='tc-link-viewer'></object>-->
+        	<iframe src={{!!url}} frameborder="0" width="100%" height="1200px" onload="this.height=this.contentDocument.body.scrollHeight +'px';"></iframe>
+	</$list>
+</$reveal>

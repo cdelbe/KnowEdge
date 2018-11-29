@@ -1,0 +1,41 @@
+created: 20181109195533928
+creator: Charles Delbé
+modified: 20181109212220901
+modifier: Charles Delbé
+tags: $:/tags/viewsource $:/tags/@CD $:/tags/Macro
+title: $:/plugins/.CD/KnowEdge/macros/list-tagged-objects
+type: text/vnd.tiddlywiki
+
+\define @list-tagged-objects(tag,subFilter,itemTemplate,elementTag:"div")
+	<$set name="tag" value="""$tag$""">
+		<$set name="resultCount" value="""<$count filter="[tag[$tag$]$subFilter$]"/>""">
+			<p><<resultCount>> tagged objects</p>
+		</$set>
+		<$list filter="[tag[$tag$]$subFilter$!has[icon]sort[title]]">
+			<$elementTag$ class="tag-list-item">
+				<$elementTag$>
+					<$transclude tiddler="""$itemTemplate$""">
+						<$link to={{!!title}}>
+							<!-- <$transclude tiddler="$:/core/images/blank"/> -->
+							<<@caption>>
+						</$link>
+					</$transclude>
+				</$elementTag$>
+			</$elementTag$>
+		</$list>
+		<$list filter="[tag[$tag$]$subFilter$each[icon]get[icon]sort[]]" variable="_icon">
+			<$list filter="[tag[$tag$]icon<_icon>sort[title]]">
+				<$elementTag$ class="tag-list-item">
+					<$elementTag$>
+						<$transclude tiddler="""$itemTemplate$""">
+							<$link to={{!!title}}>
+								<$transclude tiddler={{!!icon}}/>
+								<<@caption>>
+							</$link>
+						</$transclude>
+					</$elementTag$>
+				</$elementTag$>
+			</$list>
+		</$list>
+	</$set>
+\end

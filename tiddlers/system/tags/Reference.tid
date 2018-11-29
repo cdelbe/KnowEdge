@@ -1,0 +1,43 @@
+color: #81b53b
+created: 20180829180859642
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/tutorial
+modified: 20181122224714303
+modifier: Charles Delbé
+summary: 
+tags: $:/tags/HelpPanel
+title: Reference
+tmap.fa-icon: &#xf01d;
+tmap.id: 0695ed21-9a9f-44ac-a10d-79e7f995d381
+type: text/vnd.tiddlywiki
+url: 
+
+\define summaries(filter:"[{!!title}tagging[]]", field)
+<dl>
+<$reveal type="match" text="$field$" default="">
+<$list filter="$filter$">
+<dt><$link to=<<currentTiddler>>><$view field=title/></$link></dt>
+<dd>@@color:grey;//{{!!summary}}//@@</dd>
+</$list>
+</$reveal>
+<$reveal type="nomatch" text="$field$" default="">
+<$list filter="$filter$">
+<dt><$link to=<<currentTiddler>>><$view field=title/></$link></dt>
+<dd>@@color:grey;//{{!!summary}}//@@</dd>
+<$list filter="[all[current]has[$field$]]"><dd>$field$: <code><$text text={{!!$field$}}/></code></dd></$list>
+</$list>
+</$reveal>
+</dl>
+\end
+
+<!-- list tiddlers tagged 'Reference' -->
+
+<div class="tc-table-of-contents">
+    <<toc-selective-expandable 'Reference'>>
+</div>
+
+!! References
+<<list-links-title filter:"[tag[Reference]!is[system]!has[draft.of]] -[[$(currentTiddler)$]]" class:"object-list" emptyMessage:"@@color:#c0c0c0;font-weight:bold; none@@">>
+
+
+<<summaries "[[Reference]tagging[]]">>

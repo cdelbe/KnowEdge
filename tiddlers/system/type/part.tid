@@ -1,0 +1,17 @@
+caption: Part
+color: #ec6353
+created: 20150125150841844
+creator: Alberto Molina Pérez
+modified: 20181108002229575
+modifier: Charles Delbé
+mt-dashboard.heading: Parts
+mt-dashboard.icon: $:/plugins/.CD/KnowEdge/images/part
+mt-slider-input.add: 
+mt-slider-input.cancel: 
+mt-source.type: $:/type/root
+mt-template.fields: $:/plugins/amp/MagicTabs/templates/types/part
+mt-template.form: $:/plugins/amp/MagicTabs/new/part
+tags: $:/plugins/amp/MagicTabs/common
+title: $:/type/part
+type: text/vnd.tiddlywiki
+

@@ -1,0 +1,13 @@
+caption: tab
+created: 20141231095605837
+creator: Alberto Molina Pérez
+icon: $:/plugins/.CD/KnowEdge/images/magic
+modified: 20180918174601767
+modifier: Charles Delbé
+mt-source.parents: 
+mt-template.fields: $:/plugins/amp/MagicTabs/templates/types/tab
+mt-template.form: 
+tags: 
+title: $:/type/tab
+type: text/vnd.tiddlywiki
+

@@ -1,0 +1,36 @@
+authors: [[Jean Piaget]]
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+description: La connaissance est activement construite par l'apprenant, et non passivement reçue de l'environnement.
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: 
+modified: 20181029133407145
+modifier: Charles Delbé
+mt-topics.list: 
+tags: [[Instructional Strategy]] $:/type/concept $:/type/knowledge
+title: Constructivist Learning
+tmap.fa-icon: &#xf12e;
+tmap.id: e72d06ba-1727-497b-a019-983c24549636
+type: text/vnd.tiddlywiki
+
+!Definition
+
+@@.note
+Le constructivisme est une théorie de l'apprentissage fondée sur l'idée que la ''connaissance est construite par l'apprenant'' sur la base d'une activité mentale. Les étudiants sont considérés comme des organismes ''actifs'' cherchant du sens, des significations. Le constructivisme est basé sur l'hypothèse que, en réfléchissant sur nos expériences, nous construisons ''notre propre vision ''du monde dans lequel nous vivons. Chacun de nous produit ses propres « règles » et ''« [[modèles mentaux|Mental Model]]»'', que nous utilisons pour donner un sens à nos expériences.
+@@
+
+> ''«Apprendre est donc simplement un processus d'ajustement de nos [[modèles mentaux|Mental Model]] pour s'adapter à de nouvelles expériences.» ''
+Les constructions du sens peuvent au début ne soutenir que peu le rapport avec la réalité (comme dans les théories naïves des enfants), mais elles deviendront de plus en plus complexes, différenciées et réalistes au fil du temps.
+<br/>
+
+> Le ''constructivisme'', théorie de l’apprentissage, a été développée, entre autres par [[Jean Piaget]], dès 1923, en réaction au [[béhaviorisme|Behaviorism]] qui, d’après lui, limitait trop l’apprentissage à l’association stimulus-réponse. L’approche constructiviste met en avant ''l'activité'' du sujet pour se ''construire'' une représentation (un modèle) de la réalité qui l’entoure.
+<br/>
+
+> ''[[Socio-constructivisme|Apprentissage socio-constructiviste]]'': Le monde social d'un apprenant inclut les gens qui affectent directement cette personne, y compris les professeurs, amis, étudiants, administrateurs, et les participants à toutes formes d'activité . Il faut donc tenir compte de la ''nature sociale des processus locaux dans l'apprentissage collaboratif'' et dans la discussion d'une collaboration sociale plus large pour un sujet donné, par exemple la science.
+
+!References
+* http://edutechwiki.unige.ch/fr/Constructivisme
+* https://www.exploratorium.edu/education/ifi/constructivist-learning
+* https://www.thirteen.org/edonline/concept2class/constructivism/ (http://marker.to/7ZWku4)
+

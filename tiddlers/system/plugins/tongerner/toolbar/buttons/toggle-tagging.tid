@@ -1,0 +1,37 @@
+caption: {{$:/plugins/tongerner/toolbar/images/tagging}} tagging
+created: 20160111131840237
+creator: TonGerner
+description: Toggle tagging in view mode
+modified: 20181026163507698
+modifier: Charles Delbé
+tags: $:/tags/PageControls $:/tags/ViewToolbar
+title: $:/plugins/tongerner/toolbar/buttons/toggle-tagging
+type: text/vnd.tiddlywiki
+
+<$fieldmangler tiddler="$:/plugins/tongerner/toolbar/tagging">
+<$list filter="[[$:/plugins/tongerner/toolbar/tagging]tag[$:/tags/ViewTemplate]]">
+<$button message="tm-remove-tag" tooltip="Hide tagging in view mode" param="$:/tags/ViewTemplate" class=<<tv-config-toolbar-class>>>
+<$list filter="[<tv-config-toolbar-icons>prefix[yes]]">
+<span class="tgc-active-indicator">
+{{$:/plugins/tongerner/toolbar/images/tagging}}
+</span>
+</$list>
+<$list filter="[<tv-config-toolbar-text>prefix[yes]]">
+<$text text="tagging"/>
+</$list>
+<$action-setfield $tiddler="$:/plugins/amp/MagicTabs/ViewTemplate/tags" tags="$:/tags/ViewTemplate"/>
+</$button>
+</$list>
+
+<$list filter="[[$:/plugins/tongerner/toolbar/tagging]!tag[$:/tags/ViewTemplate]]">
+<$button message="tm-add-tag" tooltip="Tagging in view mode" param="$:/tags/ViewTemplate" class=<<tv-config-toolbar-class>>>
+<$list filter="[<tv-config-toolbar-icons>prefix[yes]]">
+{{$:/plugins/tongerner/toolbar/images/tagging}}
+</$list>
+<$list filter="[<tv-config-toolbar-text>prefix[yes]]">
+<$text text="tagging"/>
+</$list>
+<$action-setfield $tiddler="$:/plugins/amp/MagicTabs/ViewTemplate/tags" tags=""/>
+</$button>
+</$list>
+</$fieldmangler>

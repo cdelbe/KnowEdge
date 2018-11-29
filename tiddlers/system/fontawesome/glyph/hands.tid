@@ -1,0 +1,14 @@
+created: 20181107181946588
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Hands
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f4c2
+modified: 20181125084946538
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/hands
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-hands fa-10x'></i>

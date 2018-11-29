@@ -1,0 +1,14 @@
+created: 20181107181959184
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Upload
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f093
+modified: 20181125084950489
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/upload
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-upload fa-10x'></i>

@@ -1,0 +1,23 @@
+created: 20181105233610089
+creator: Charles Delbé
+list: 
+modified: 20181109200502815
+modifier: Charles Delbé
+tags: $:/type/template $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/ui/TagTemplate
+type: text/vnd.tiddlywiki
+
+<span class="tc-tag-list-item">
+	<$set name="transclusion" value=<<currentTiddler>>>
+		<$macrocall $name="tag-pill-body" tag=<<currentTiddler>> icon={{!!icon}} colour={{!!color}} palette={{$:/palette}} element-tag="""$button""" 	element-attributes="""popup=<<qualify "$:/state/popup/tag">> dragFilter='[all[current]tagging[]]' tag='span'"""/>
+		<$reveal state=<<qualify "$:/state/popup/tag">> type="popup" position="below" animate="yes" class="tc-drop-down cd-tag-drop-down">
+			<$list filter="[all[shadows+tiddlers]tag[$:/tags/TagDropdown]!has[draft.of]]" variable="listItem"> 
+				<$transclude tiddler=<<listItem>>/>
+			</$list>
+        	<div class="tc-menu-list-item cd-tag-menu-title"><$link to={{!!title}}><<@caption>></$link></div>
+        	<hr>
+        	<$macrocall $name="@list-tagged-objects" tag=<<currentTiddler>>/>
+        	<$macrocall $name="@list-related-objects" tag=<<currentTiddler>>/>
+		</$reveal>
+	</$set>
+</span>

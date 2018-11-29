@@ -1,0 +1,14 @@
+created: 20181107181948868
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Phone Slash
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f3dd
+modified: 20181125084948389
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/phone-slash
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-phone-slash fa-10x'></i>

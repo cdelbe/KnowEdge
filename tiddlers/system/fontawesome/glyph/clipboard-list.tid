@@ -1,0 +1,14 @@
+created: 20181107181944549
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Clipboard List
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f46d
+modified: 20181125084944356
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/clipboard-list
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-clipboard-list fa-10x'></i>

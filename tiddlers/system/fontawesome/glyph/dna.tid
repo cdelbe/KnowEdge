@@ -1,0 +1,14 @@
+created: 20181107181945067
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: DNA
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f471
+modified: 20181125084945013
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/dna
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-dna fa-10x'></i>

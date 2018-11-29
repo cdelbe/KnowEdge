@@ -1,0 +1,22 @@
+caption: {{$:/language/Search/Filter/Caption}}
+created: 20181026125620224
+creator: Charles Delbé
+modified: 20181026235819078
+modifier: Charles Delbé
+tags: $:/tags/AdvancedSearch
+title: $:/core/ui/AdvancedSearch/Filter
+type: text/vnd.tiddlywiki
+
+\define lingo-base() $:/language/Search/
+
+
+<$reveal state="$:/temp/advancedsearch" type="nomatch" text="">
+<<lingo Filter/Hint>>
+<$list filter="[all[shadows+tiddlers]tag[$:/tags/AdvancedSearch/FilterButton]!has[draft.of]]"><$transclude/></$list>
+<$set name="resultCount" value="""<$count filter={{$:/temp/advancedsearch}}/>""">
+<div class="tc-search-results">
+<<lingo Filter/Matches>>
+<$list filter={{$:/temp/advancedsearch}} template="$:/core/ui/ListItemTemplate"/>
+</div>
+</$set>
+</$reveal>

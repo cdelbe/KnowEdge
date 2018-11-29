@@ -1,0 +1,17 @@
+about: 
+color: #808000
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/author
+list: 
+modified: 20180827075938292
+modifier: Charles Delbé
+mt-person.name: Gilles
+mt-person.surname: Willett
+mt-topics.list:  
+tags: $:/type/person $:/type/author
+title: Gilles Willett
+tmap.fa-icon: &#xf007;
+tmap.id: ba8df765-4df7-442a-90ed-71fdcf88564e
+type: text/vnd.tiddlywiki
+

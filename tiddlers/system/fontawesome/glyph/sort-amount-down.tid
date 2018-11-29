@@ -1,0 +1,14 @@
+created: 20181107181950020
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Sort Amount Down
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f160
+modified: 20181125084949444
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/sort-amount-down
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-sort-amount-down fa-10x'></i>

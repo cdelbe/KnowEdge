@@ -1,0 +1,14 @@
+created: 20181107181946414
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Graduation Cap
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f19d
+modified: 20181125084946144
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/graduation-cap
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-graduation-cap fa-10x'></i>

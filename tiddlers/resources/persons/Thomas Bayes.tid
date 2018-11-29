@@ -1,0 +1,19 @@
+about: 
+color: #808000
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/author
+list: 
+modified: 20180913155245474
+modifier: Charles Delbé
+mt-person.name: Thomas
+mt-person.surname: Bayes
+mt-tiddler.picture: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Thomas_Bayes.gif/220px-Thomas_Bayes.gif
+mt-topics.list:  
+tags: $:/type/person $:/type/author
+title: Thomas Bayes
+tmap.fa-icon: &#xf007;
+tmap.id: 1d9a2298-3de9-4ae5-b1ed-4dec736828d6
+type: text/vnd.tiddlywiki
+url: https://fr.wikipedia.org/wiki/Thomas_Bayes
+

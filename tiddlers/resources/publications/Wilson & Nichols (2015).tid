@@ -1,0 +1,47 @@
+abstract: The Knewton platform is a fexible, scalable system for delivering adaptive learning experiences and predictive analytics across arbitrary collections of content in diferent learning environments. Knewton processes student interactions within learning applications to personalize digital coursework and efectively reinforce class lessons. Knewton supports the learning process with three core services: personalized recommendations for students, analytics for teachers and students, and content insights for application and content creators. While adaptive tutoring systems are themselves not new, a traditional problem they face is that they are often bound to a single grouping of content. Even where they are not, adapting the tutoring system to a new collection of content is an expensive and time-consuming process. The Knewton platform builds on decades of research in adaptive tutoring systems, psychometrics, and cognitive learning theory, but also contains several key innovations that make it possible to quickly and efciently integrate with new collections of content. This enables the benefts of adaptive tutoring to reach far more students across more domains more quickly. One of these innovations is the Knewton knowledge graph and its associated graphing ontology, which provides fexible and expressive ways to describe relationships between content. These expressive relationships are drawn from pedagogical reasoning and are intended to map easily to human intuition, which allows Knewton and its partners to quickly graph new content into an information-rich, machine-readable state. The resulting content graph is then used in conjunction with up-to-the-minute descriptions of students’ abilities determined by a real-time psychometrics engine to deliver intelligent, personalized content recommendations and analytics. Knewton scales these operations by employing a service-oriented architecture, which allows its inference engines to reliably and efciently process concurrent activity from tens of millions of students.
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181029120924189
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: [[Adaptive Learning]] [[Item Response Theory]] Engagement
+modified: 20181031033933311
+modifier: Charles Delbé
+mt-authors.title: Wilson & Nichols
+mt-publication.citation: Wilson, K., & Nichols, Z. (2015). The Knewton Platform. A General-Purpose Adaptive Learning Infrastructure, Knewton.
+mt-publication.date: 2015
+mt-publication.subtitle: A General-Purpose Adaptive Learning Infrastructure
+mt-publication.title: The Knewton Platform
+mt-source.authors.list: [[K. Wilson]] [[Z. Nichols]]
+mt-topics.list: [[Adaptive Learning]] [[Item Response Theory]] Engagement
+tags: Knewton @:/type/whitepaper $:/type/publication
+title: Wilson & Nichols (2015)
+tmap.fa-icon: &x#f0f6;
+tmap.id: a51ea2bc-4507-4fb6-abd4-e38b128b8488
+type: text/vnd.tiddlywiki
+url: http://www.profijt.nu/wp-content/uploads/2015/09/20150902-White-paper-The-Knewton-Platform.pdf
+
+# Introduction
+## Background
+## Overview of Knewton’s Approach
+# Flexible, Scalable Content Graphing at Knewton
+# Measuring Student Knowledge
+## Item Response Theory
+## Knewton’s Approach: Generality and Scalability
+## Alternative Approaches: Modeling Mental Processes Instead of Efects
+# The Knewton Inferential Engines
+## The Recommendation Engine
+### Example: Modeling Engagement. some research has indicated that boredom is associated with poorer learning outcomes and a propensity for gaming the system and that confusion is a common state in digital learning environments (Baker et al. 2010). 
+## The Analytics Engine
+### Example: Active Time
+### Example: Work Remaining
+# Infrastructure at Scale
+## The Knewton Architecture
+<<btn-img "figures/Wilson & Nichols_2015_fig4.png">>
+@@.legend
+Figure 4: Knewton’s modular architecture.
+Partners send data and make requests to an API layer, which handles issues like authentication and delegates the request to the proper internal service. Services in the core layer handle basic information such as student enrollment and content structure (as represented in the Knewton knowledge graph). The core layer services are responsible for keeping this information current in a data storage layer, and for fetching relevant parts when requested. The application layer contains the machinery for inferred student metrics and recommendations. The application layer makes use of the core layer to retrieve necessary information when updating based on messages from the API.
+@@ 
+## Engineering for Reliability
+6 Conclusion
+

@@ -1,0 +1,24 @@
+abstract: Knowing the prerequisite structure among the knowledge components in a domain is crucial for designing instruction and for assessing mastery. Treating KCs as latent variables, we investigate how data on the items that test these skills can be used to discover the prerequisite structure among such skills. Our method assumes that we know or have discovered the Q-matrix (the measurement model) that connects latents representing the skill to items measuring the skills. By modeling the pre-requisite relations as a causal graph, we can then search for the causal structure among the latents via an extension of an algorithm introduced by Spirtes, Glymour, and Scheines in 2000. We validate the algorithm using simulated data, and discuss a potential application to a High School geometry assessment dataset.
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181028222152918
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: [[Domain Models]] [[Knowledge Components]] Prerequisites
+modified: 20181029192905887
+modifier: Charles Delbé
+mt-authors.title: Scheines, Silver, & Goldin
+mt-publication.citation: Scheines, R., Silver, E., & Goldin, I. M. (2014, May). Discovering Prerequisite Relationships Among Knowledge Components. In EDM (pp. 355-356).
+mt-publication.date: 2014
+mt-publication.subtitle: 
+mt-publication.title: Discovering Prerequisite Relationships Among Knowledge Components
+mt-source.authors.list: [[R. Scheines]] [[E. Silver]] [[I. M. Goldin]]
+mt-topics.list: [[Domain Models]] [[Knowledge Components]] [[Prerequisites]]
+tags: @:/tags/TODO @:/type/article $:/type/publication
+title: Scheines, Silver & Goldin (2014)
+tmap.fa-icon: &x#f0f6;
+tmap.id: ec580c74-5ebc-4061-9d8d-9b8b5c738b1e
+type: text/vnd.tiddlywiki
+url: http://educationaldatamining.org/EDM2014/uploads/procs2014/posters/31_EDM-2014-Poster.pdf
+url2: http://www.lizziesilver.com/ScheinesSilverGoldin-EDM2014.pdf
+

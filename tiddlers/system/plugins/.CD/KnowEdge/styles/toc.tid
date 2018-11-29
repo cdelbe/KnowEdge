@@ -1,0 +1,45 @@
+created: 20180729060343528
+creator: Charles Delbé
+list-after: $:/plugins/.CD/KnowEdge/styles/style
+modified: 20181029034459574
+modifier: Charles Delbé
+tags: $:/tags/config $:/tags/Stylesheet $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/styles/toc
+tmap.id: d8d45223-d0f7-4703-82c3-fc0e20843056
+type: text/vnd.tiddlywiki
+
+/* ** Table of contents */
+
+.btn-invisible {
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.tc-table-of-contents a.tc-tiddlylink {
+    padding: 0px;
+}
+
+.tw-sidebar-lists .tw-table-of-contents { white-space: nowrap; }
+
+.tw-table-of-contents svg { width: 0.7em; height: 0.7em; vertical-align: middle; }
+
+.tw-table-of-contents ol { list-style-type: none; padding-left: 0; }
+
+.tw-table-of-contents ol ol { padding-left: 1em; }
+
+.tw-table-of-contents li { font-size: 1.0em; font-weight: bold; }
+
+.tw-table-of-contents li a { font-weight: bold; }
+
+.tw-table-of-contents li li { font-size: 0.95em; font-weight: normal; line-height: 1.4; }
+
+.tw-table-of-contents li li a { font-weight: normal; }
+
+.tw-table-of-contents li li li { font-size: 0.95em; font-weight: 200; line-height: 1.5; }
+
+.tw-table-of-contents li li li a { font-weight: bold; }
+
+.tw-table-of-contents li li li li { font-size: 0.95em; font-weight: 200; }

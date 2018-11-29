@@ -1,0 +1,67 @@
+created: 20181024024147515
+creator: Charles Delbé
+modified: 20181029040937002
+modifier: Charles Delbé
+tags: $:/tags/Stylesheet $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/styles/publication
+tmap.id: 0f2ba505-3d31-4547-87a8-56efa691785e
+type: text/vnd.tiddlywiki
+
+.cd-pub-infos {
+    margin-bottom: 5px;
+}
+
+.cd-title {
+    font-size: 1.8em;
+    font-weight: bold;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    line-height: 26px;
+    color: <<colour secondary>>;
+    background-color: <<colour tiddler-header-background>>;
+}
+.cd-subtitle {
+    padding-bottom: 2px;
+    line-height: 20px;
+    color: #777;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: <<colour tiddler-header-background>>;
+}
+.cd-authors {
+    margin: 3px 0px 4px 0px;
+    font-weight: 500;
+    background-color: <<colour tiddler-header-background>>;
+    font-size: 0.85em;
+}
+.cd-link,
+.cd-related {
+    padding-top: 4px;
+    padding-bottom: 8px;
+    line-height: 20px;
+    color: #777;
+    font-size: 1em;
+    background-color: <<colour tiddler-header-background>>;
+}
+.cd-description, 
+.cd-citation,
+.cd-abstract {
+    padding-bottom: 2px;
+    line-height: 20px;
+    color:#8a4611; 
+    font-size: 1em;
+    background-color: <<colour tiddler-header-background>>;
+}
+.cd-citation {
+    padding-bottom: 0px;
+    margin-bottom: 0em;
+}
+
+.btn-url {
+}
+
+details summary {
+    outline: none;
+    margin-bottom: 4px!important;
+    font-weight: 600;
+}

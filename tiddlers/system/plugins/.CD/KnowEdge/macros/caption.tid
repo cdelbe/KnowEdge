@@ -1,0 +1,20 @@
+caption: Tiddler caption renreding  macro.
+created: 20181112194209746
+creator: Charles Delbé
+description: 
+list: 
+modified: 20181112194621675
+modifier: Charles Delbé
+tags: $:/tags/viewsource $:/tags/Macro $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/macros/caption
+type: text/vnd.tiddlywiki
+
+\define @caption(tiddler:$currentTiddler$)
+    <$transclude tiddler=<<tiddler>> field="caption">
+    	<$view field="title"/>
+    </$transclude>
+\end
+
+---
+;`<<@caption>>`
+: <<@caption>> 

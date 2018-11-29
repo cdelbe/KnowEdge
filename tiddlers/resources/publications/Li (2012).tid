@@ -1,0 +1,23 @@
+abstract: This literature review includes four major parts, and each addresses one research question (RQ):  * RQ1: How are “approaches to learning” related theories and practices perceived and outlined in the curriculum of various national and international educational systems? What are their commonalities in terms of goals, objectives, components and other considerations? * RQ2: How are these perspectives ''unpacked and implemented in practice'', for example, integration with the school-based curriculum, pedagogical strategies and inclusion in teacher training? * RQ3: How is ''the issue of age-appropriateness'' addressed, that is, how are connections between metacognitive, cognitive, affective and sociocultural development of children and young adults and these learning approaches and skills specified? * RQ4: What are the implications for the development of the IB’s programmes to ensure the ''transition between and across different stages of learning''?
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: Learning [[Cognitive Development]] [[Student Centered]] [[Instructional Strategy]] [[Zone of Proximal Development]]
+modified: 20181029185956287
+modifier: Charles Delbé
+mt-authors.title: Li
+mt-publication.citation: Li, N. (2012). Approaches to learning: Literature review. International Baccalaureate Organization. Retrieved [October, 29th 2018] from http://www.ibo.org/globalassets/publications/ib-research/approachestolearningeng.pdf
+mt-publication.date: 2012
+mt-publication.subtitle: 
+mt-publication.title: Approaches to learning: Literature review
+mt-source.authors.list: [[Na Li]]
+mt-topics.list: Learning [[Cognitive Development]] [[Student Centered]] [[Instructional Strategy]] [[Zone of Proximal Development]]
+tags: $:/type/publication @:/type/review @:/type/report
+title: Li (2012)
+tmap.fa-icon: &x#f0f6;
+tmap.id: f07c43af-fd29-4949-812b-ca4d348c3520
+type: text/vnd.tiddlywiki
+url: https://www.ibo.org/globalassets/publications/ib-research/approachestolearningeng.pdf
+

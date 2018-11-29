@@ -1,0 +1,14 @@
+created: 20181107181943834
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: bold
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f032
+modified: 20181125084943356
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/bold
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-bold fa-10x'></i>

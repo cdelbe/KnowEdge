@@ -1,0 +1,26 @@
+authors: 
+color: #800080
+created: 20180814205623702
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: [[Bayesian Knowledge Tracing]] [[Deep Knowledge Tracing]] [[Graphical Model]] [[IRT - Two-Parameter Logistic Model]] [[Item Response Theory]] [[Rasch Model]]
+modified: 20181026010931993
+modifier: Charles Delbé
+mt-topics.list: [[Bayesian Knowledge Tracing]] [[Deep Knowledge Tracing]] [[Graphical Model]] [[IRT - Two-Parameter Logistic Model]] [[Item Response Theory]] [[Rasch Model]]
+tags: $:/type/concept $:/type/knowledge
+title: Knowledge Tracing
+tmap.fa-icon: &#xf12e;
+tmap.id: edd206d2-e8a5-4b1a-85de-e82013bc7dab
+type: text/vnd.tiddlywiki
+
+!!Définition
+<<<
+La ''représentation des connaissances'' désigne un ensemble d'outils et de procédés destinés d'une part à ''représenter'' et d'autre part à ''organiser'' le [[savoir|Savoir]] (les connaissances) humain pour l'utiliser et le partager.
+<<<
+
+!!Modèles
+<<list-links-title filter:"[all[current]tagging[]!is[system]!has[draft.of]sort[title]] -[[$(currentTiddler)$]]" class:"object-list" emptyMessage:"@@.text-grey none@@">>
+
+!!Références
+:https://fr.wikipedia.org/wiki/Repr%C3%A9sentation_des_connaissances
+:[[Corbett & Anderson (1995)]]

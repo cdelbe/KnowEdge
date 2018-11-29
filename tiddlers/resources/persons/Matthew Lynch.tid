@@ -1,0 +1,17 @@
+about: 
+color: #808000
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/author
+list: 
+modified: 20180829045534396
+modifier: Charles Delbé
+mt-person.name: Matthew
+mt-person.surname: Lynch
+mt-topics.list:  
+tags: $:/type/person $:/type/author
+title: Matthew Lynch
+tmap.fa-icon: &#xf007;
+tmap.id: 6fb0c773-8a50-4665-a57b-4eba0fcb2c00
+type: text/vnd.tiddlywiki
+

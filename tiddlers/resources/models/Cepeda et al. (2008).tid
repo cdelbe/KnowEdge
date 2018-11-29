@@ -1,0 +1,33 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180916153759218
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: Memory [[Spaced Reinforcement]] Modeling
+modified: 20181025152925143
+modifier: Charles Delbé
+mt-authors.title: Cepeda
+mt-publication.citation: Cepeda, N. J., Vul, E., Rohrer, D., Wixted, J. T., & Pashler, H. (2008). Spacing effects in learning: A temporal ridgeline of optimal retention. //Psychological Science//, 19(11), 1095-1102.
+mt-publication.date: 2008
+mt-publication.issue: 11
+mt-publication.journal: Psychological Science
+mt-publication.title: Spacing effects in learning: A temporal ridgeline of optimal retention
+mt-publication.volume: 19
+mt-source.authors.list: [[N. J. Cepeda]] [[E. Vul]] [[D. Rohrer]] [[J. T. Wixted]] [[H. Pashler]]
+mt-topics.list: Memory [[Spaced Reinforcement]] Modeling
+abstract: To achieve enduring retention, people must usually study information on multiple occasions. How does the timing of study events affect retention? Prior research has examined this issue only in a spotty fashion, usually with very short time intervals. In a study aimed at characterizing spacing effects over significant durations, more than 1,350 individuals were taught a set of facts and--after a gap of up to 3.5 months--given a review. A final test was administered at a further delay of up to 1 year. At any given test delay, an increase in the interstudy gap at first increased, and then gradually reduced, final test performance. The optimal gap increased as test delay increased. However, when measured as a proportion of test delay, the optimal gap declined from about 20 to 40% of a 1-week test delay to about 5 to 10% of a 1-year test delay. The interaction of gap and test delay implies that many educational practices are highly inefficient.
+tags: @:/type/article $:/type/publication
+title: Cepeda et al. (2008)
+tmap.fa-icon: &x#f0f6;
+tmap.id: f507349e-fe13-49bc-b903-ca5a004629dd
+type: text/vnd.tiddlywiki
+url: https://www.semanticscholar.org/paper/Spacing-effects-in-learning%3A-a-temporal-ridgeline-Cepeda-Vul/2f7901d3a77e12391ce55b78bd6094784d4d1c0e
+
+<<btn-img "figures/Cepeda_et_al2008_fig1.JPG">>
+@@.legend
+Figure 1. Structure of a typical study of spacing effects on learning. Study episodes are separated by a varying gap, <br/>
+and the final study episode and test are separated by a fixed retention interval.
+@@
+
+---
+:Wixted, J.T. (2004). On common ground: Jost’s (1897) law of forgetting and Ribot’s (1881) law of retrograde amnesia. //Psychological Review//, 111, 864–879.

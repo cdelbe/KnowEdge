@@ -1,0 +1,14 @@
+created: 20181107181949340
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Recycle
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f1b8
+modified: 20181125084948774
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/recycle
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-recycle fa-10x'></i>

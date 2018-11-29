@@ -1,0 +1,14 @@
+created: 20181107181946331
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Google Drive
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f3aa
+modified: 20181125084946198
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/google-drive
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-google-drive fa-10x'></i>

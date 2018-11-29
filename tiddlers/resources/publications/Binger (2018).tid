@@ -1,0 +1,31 @@
+abstract: 
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181029161111028
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/blogpost
+list: [[Item Response Theory]] [[Knowledge Graph]]
+modified: 20181029164454105
+modifier: Charles Delbé
+mt-authors.title: Binger
+mt-publication.citation: Binger, M. (2018). How does Knewton’s Proficiency Model estimate student knowledge in alta? [Blog post] Retrieved [October, 29th 2018] from https://www.knewton.com/blog/mastery/how-does-knewtons-proficiency-model-estimate-student-knowledge-in-alta/
+mt-publication.date: 2018
+mt-publication.subtitle: 
+mt-publication.title: How does Knewton’s Proficiency Model estimate student knowledge in alta?
+mt-source.authors.list: [[Michael Binger]]
+mt-topics.list: [[Item Response Theory]] [[Knowledge Graph]]
+tags: Knewton @:/type/blogpost $:/type/publication
+title: Binger (2018)
+tmap.fa-icon: &#xf1fa;
+tmap.id: c8c60261-c1e9-49d3-b658-64c38f31ff57
+type: text/vnd.tiddlywiki
+url: https://www.knewton.com/blog/mastery/how-does-knewtons-proficiency-model-estimate-student-knowledge-in-alta/
+
+<<btn-img "https://www.knewton.com//wp-content/uploads/2018/10/binger-old-new-1.png">>
+
+#A basis in Item Response Theory
+##Moving beyond the limits of IRT
+##Accounting for relationships between learning objectives
+#The effectiveness of Knewton’s Proficiency model
+
+ 

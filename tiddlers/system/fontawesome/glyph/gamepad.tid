@@ -1,0 +1,14 @@
+created: 20181107181945983
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Gamepad
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f11b
+modified: 20181125084945975
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/gamepad
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-gamepad fa-10x'></i>

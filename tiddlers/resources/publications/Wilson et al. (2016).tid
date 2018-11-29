@@ -1,0 +1,25 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180916153759218
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: [[Knowledge Tracing]] [[Deep Knowledge Tracing]] [[Bayesian Knowledge Tracing]] [[Item Response Theory]] Explainability
+modified: 20181029020856748
+modifier: Charles Delbé
+mt-authors.title: Wilson
+mt-publication.citation: Wilson, K. H., Xiong, X., Khajah, M., Lindsey, R. V., Zhao, S., Karklin, Y., ... & Heffernan, N. (2016). Estimating student proficiency: Deep learning is not the panacea. In //Neural Information Processing Systems, Workshop on Machine Learning for Education.// p.3
+mt-publication.date: 2016
+mt-publication.issue: 
+mt-publication.journal: NIPS 2016 Workshop on Machine Learning for Education
+mt-publication.title: Estimating student proficiency: Deep learning is not the panacea
+mt-publication.volume: 
+mt-source.authors.list: [[Kevin H. Wilson]]
+mt-topics.list: [[Knowledge Tracing]] [[Deep Knowledge Tracing]] [[Bayesian Knowledge Tracing]] [[Item Response Theory]] [[Explainability]]
+abstract: In theoretical cognitive science, there is a tension between highly structured models whose parameters have a direct psychological interpretation and highly complex, general-purpose models whose parameters and representations are difficult to interpret. The former typically provide more insight into cognition but the latter often perform better. This tension has recently surfaced in the realm of [[Educational Data Mining]], where a deep learning approach to predicting students’ performance as they work through a series of exercises—termed [[Deep Knowledge Tracing]] or DKT—has demonstrated a stunning performance advantage over the mainstay of the field, [[Bayesian Knowledge Tracing|]] or BKT. In our work, we attempt to understand the basis for DKT’s advantage by comparing DKT to a variety of extensions to BKT as well as other models traditionally used to predict student performance, including Bayesian variants of [[Item Response Theory]] and [[Logistic Regression]]. We demonstrate that when BKT is extended to allow it more flexibility in modeling statistical regularities—using extensions previously proposed in the literature—''BKT achieves a level of performance indistinguishable from that of DKT''. We argue that while DKT is a powerful, useful, general- purpose framework for modeling student learning, its gains do not come from the discovery of novel representations— the fundamental advantage of deep learning. Thus, [[Knowledge Tracing]] may be a domain that does not require ‘depth’; shallow models like BKT and IRT can perform just as well and offer us greater interpretability and explanatory power.
+tags: @:/type/article $:/type/publication
+title: Wilson et al. (2016)
+tmap.fa-icon: &x#f0f6;
+tmap.id: 7f9c8873-5080-4505-829e-f5e55c2749c6
+type: text/vnd.tiddlywiki
+url: https://pdfs.semanticscholar.org/aca7/71c587933bdd27e1cdb290b855ba9461f74a.pdf
+

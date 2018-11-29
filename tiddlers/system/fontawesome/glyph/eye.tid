@@ -1,0 +1,14 @@
+created: 20181107181945479
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Eye
+fa-style-classes: fas far
+fa-styles: solid regular
+fa-unicode: f06e
+modified: 20181125084945099
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/eye
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-eye fa-10x'></i>

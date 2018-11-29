@@ -1,0 +1,14 @@
+created: 20181107181944652
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Chevron Circle Down
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f13a
+modified: 20181125084944133
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/chevron-circle-down
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-chevron-circle-down fa-10x'></i>

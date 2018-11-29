@@ -1,0 +1,14 @@
+color: #681224
+created: 20180918183714364
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/bookmark
+modified: 20180918183802267
+modifier: Charles Delbé
+tags: Python [[Neural Networks]] $:/type/bookmark
+title: Building A Deep Learning Model using Keras
+tmap.fa-icon: &#xf097;
+tmap.id: f37ac30d-dd03-41b9-b2c1-2bf2fff38d82
+type: text/vnd.tiddlywiki
+url: https://towardsdatascience.com/building-a-deep-learning-model-using-keras-1548ca149d37
+
+[img[https://cdn-images-1.medium.com/max/800/1*eJ36Jpf-DE9q5nKk67xT0Q.jpeg]]

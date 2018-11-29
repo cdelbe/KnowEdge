@@ -1,0 +1,28 @@
+about: 
+color: #FFA500
+created: 20180725153952278
+creator: Charles Delbé
+description: 
+icon: $:/plugins/.CD/KnowEdge/images/note
+list: Knewton [[Adaptive Learning]] [[Knowledge Graph]] [[Spaced Reinforcement]] [[Knowledge Tracing]] [[Learning Analytics]] [[Network Effects]]
+modified: 20181031115236883
+modifier: Charles Delbé
+mt-source.parents.list: 
+mt-source.root: 
+mt-source.tiddler: Binger (2017)
+mt-topics.list: [[Knewton]] [[Adaptive Learning]] [[Knowledge Graph]] [[Spaced Reinforcement]] [[Knowledge Tracing]] [[Learning Analytics]] [[Network Effects]]
+tags: $:/type/note
+title: The Proficiency Model of Knewton
+tmap.fa-icon: &#xf044;
+tmap.id: c83b54cd-c661-43be-8263-963a6dd8705e
+type: text/vnd.tiddlywiki
+
+!!Estimation de l'état des connaissances de l'apprenant
+Les différentes propriétés du ''modèle de compétence'' - [[effets de réseau|Network Effects]] basés sur l'[[IRT|?]], [[effets temporels|Spaced Reinforcement]], et structure du [[graphe de connaissances|Knowledge Graph]] - se combinent pour générer une image extrêmement précise de ''[[l'état des connaissances de l’élève|Knowledge Tracing]]''. Nous utilisons cette image pour proposer un contenu qui ''accroîtra le niveau de compétence'' de cet élève. C’est également la base des ''[[analyses de données pédagogiques directement exploitables|Learning Analytics]]'' que nous proposons aux apprenants et aux enseignants.
+
+!!Graphe de Connaissances
+Nous pouvons représenter la relation entre des objectifs d'apprentissage grâce au ''[[graphe de connaissances|Knowledge Graph]]'' :
+
+<<btn-img "figures/Binger2017_fractions_graph.png" "Figure 1. Un exemple d’objectif d’apprentissage liés à plus d’un prérequis.">>
+
+Pour diviser la fraction X par la fraction Y, il faut multiplier X par l'inverse de Y. Cela signifie que pour pouvoir diviser les fractions, il faut d'abord pouvoir (1) multiplier les fractions et (2) trouver l'inverse des fractions.

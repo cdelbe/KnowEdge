@@ -1,0 +1,8 @@
+created: 20180902225212458
+creator: Charles Delbé
+filter: [tag[$:/type/knowledge]] [tag[$:/type/note]]
+modified: 20180903133412202
+modifier: Charles Delbé
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Knowledge Map/filter/nodes
+type: text/vnd.tiddlywiki
+

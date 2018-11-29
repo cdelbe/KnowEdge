@@ -1,0 +1,8 @@
+created: 20180909023148325
+creator: Charles Delbé
+filter: [field:tmap.id[b005c528-80d0-43f4-95cb-d2973ba31dc2]] [field:tmap.id[b4f87713-a2bc-4458-8bcf-18b29512f9b2]] [field:tmap.id[c6d38a41-08b9-4704-a351-16947a1e7009]] [field:tmap.id[477f80dc-9a1e-4d76-956d-a3f0beb2691a]] [field:tmap.id[590ce648-653a-438c-8424-d597c664ecaa]]  [field:tmap.id[25b436b4-7e51-477d-af20-74156b1cc64c]] [field:tmap.id[d4fb889d-2da3-4428-8b32-a6187954ab44]] [field:tmap.id[c49b3414-ed8f-4c5c-93bc-22f901e55585]]
+modified: 20181025215250719
+modifier: Charles Delbé
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Learning/filter/nodes
+type: text/vnd.tiddlywiki
+

@@ -1,0 +1,14 @@
+created: 20181107182002042
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Viber
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f409
+modified: 20181125084950798
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/viber
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-viber fa-10x'></i>

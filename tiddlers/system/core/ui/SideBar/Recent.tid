@@ -1,0 +1,10 @@
+caption: {{$:/language/SideBar/Recent/Caption}}
+created: 20181013224739670
+creator: Charles Delbé
+list-after: 
+modified: 20181014022320697
+modifier: Charles Delbé
+title: $:/core/ui/SideBar/Recent
+type: text/vnd.tiddlywiki
+
+<$macrocall $name="timeline" format={{$:/language/RecentChanges/DateFormat}}/>

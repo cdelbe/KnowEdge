@@ -1,0 +1,30 @@
+authors: 
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: Teaching
+modified: 20180927191145504
+modifier: Charles Delbé
+mt-source.root: 
+mt-source.tiddler: Instructional Strategy
+mt-topics.list: Teaching
+tags: $:/type/concept $:/type/knowledge
+title: Scénario Pédagogique
+tmap.fa-icon: &#xf12e;
+tmap.id: d05abf56-f717-4c6c-8c1d-db1fd21d0510
+type: text/vnd.tiddlywiki
+
+Ce produit unique du design pédagogique est appelé ''scénario pédagogique'' : 
+
+> "orchestration d’un ''ensemble d’activités d’apprentissage'' auxquelles s’ajoutent, d’une part, la ''description'' des ressources utiles à leur réalisation et, d’autre part, les ''productions'' de l’apprenant qui en découlent" (Hotte, Godinet, & Pernin, 2007, p. 7).
+
+Smith et Ragan (2005, p. 128), distinguent ''trois'' aspects de scénario pédagogique :
+
+* l’organisation des activités d’enseignement-apprentissage qui précise "how instruction will be ''sequenced'', what particular ''content'' will be presented, and ''how'' this content will be presented”; 
+* la diffusion des activités d’enseignement-apprentissage concernant “what instructional ''medium'' will be used and how learners will be ''grouped''”;
+* la gestion des activités d’enseignement-apprentissage qui "include the ''scheduling'' and ''allocation of resources ''to implement the instruction that is organized and delivered as ''planned'' within the previous two strategy aspects”.
+
+---
+:Hotte, R., Godinet, H., & Pernin, J.-P. (2007). Scénariser l’apprentissage, une activité de modélisation. //Revue internationale des technologies en pédagogie universitaire//, 4(2), p.7-13.
+:Smith, P. L., & Ragan, T. J. (2005). Instructional Design (3 ed.). New York: Wiley & Sons.

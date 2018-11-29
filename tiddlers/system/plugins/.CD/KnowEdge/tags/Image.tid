@@ -1,0 +1,36 @@
+color: #81b53b
+created: 20181107161852235
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/KnowEdge
+modified: 20181108062657259
+modifier: Charles Delbé
+tags: $:/tags/@CD
+title: @:/tags/Image
+tmap.id: fdec424d-f8f6-481b-a6e4-49991ba916b5
+type: text/vnd.tiddlywiki
+
+!$:/plugins/.CD/KnowEdge/images/
+<div class="chsh-glyph-grid">
+<$list filter="[all[tiddlers+shadows]tag[@:/tags/Image]prefix[$:/plugins/.CD/KnowEdge/images/]]">
+  <div class="chsh-glyph-box">
+    <div class="chsh-glyph-icon fa-3x" title=<<currentTiddler>>><$transclude/></div>
+    	<$set name="label" filter="[all[current]removeprefix[$:/plugins/.CD/KnowEdge/images/]]">
+    		<div class="chsh-glyph-id"><<label>></div>
+    	</$set>
+    <!--<div class="chsh-unicode-codepoint">?</div>-->
+  </div>
+</$list>
+</div>
+
+!$:/plugins/.CD/KnowEdge/resources/images/
+<div class="chsh-glyph-grid">
+<$list filter="[all[tiddlers+shadows]tag[@:/tags/Image]prefix[images/]]">
+  <div class="chsh-glyph-box">
+    <div class="chsh-glyph-icon fa-3x"><$transclude/></div>
+    	<$set name="label" filter="[all[current]removeprefix[images/]]">
+    		<div class="chsh-glyph-id"><<label>></div>
+    	</$set>
+    <!--<div class="chsh-unicode-codepoint">?</div>-->
+  </div>
+</$list>
+</div>

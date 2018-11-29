@@ -1,0 +1,17 @@
+about: 
+color: #FF8383
+created: 20180729060343528
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/author
+modified: 20180904194703780
+modifier: Charles Delbé
+mt-person.name: Benjamin
+mt-person.surname: Bloom
+mt-topics.list: 
+tags: $:/type/person $:/type/author
+title: Benjamin Bloom
+tmap.fa-icon: &#xf007;
+tmap.id: 1971bc23-27d6-4efe-82e1-82b42371b8a3
+tmap.style: {"color":"#FF8383"}
+type: text/vnd.tiddlywiki
+

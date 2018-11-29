@@ -1,0 +1,20 @@
+color: #daa520
+created: 20150124152743141
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/note
+list: 
+modified: 20181021225731680
+modifier: Charles Delbé
+mt-source.root: 
+mt-source.tiddler: $:/core/ui/ViewTemplate/tags
+mt-topics.list: 
+tags: $:/type/note
+title: Tags display delegated to $:/plugins/amp/MagicTabs/ViewTemplate/tags
+tmap.fa-icon: &#xf044;
+tmap.id: c3e936b7-9c4f-4fb7-8be4-7ab46d7fd6ae
+type: text/vnd.tiddlywiki
+
+@@.note
+''{{$:/status/UserName}} - <<now>>''
+@@
+

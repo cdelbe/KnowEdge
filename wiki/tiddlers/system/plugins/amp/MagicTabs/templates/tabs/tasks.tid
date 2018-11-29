@@ -1,9 +1,0 @@
-created: 20150109094612829
-creator: Alberto Molina Pérez
-modified: 20180820023044346
-modifier: Charles Delbé
-tags: 
-title: $:/plugins/amp/MagicTabs/templates/tabs/tasks
-type: text/vnd.tiddlywiki
-
-<$checkbox field="mt-task.status" checked="done" unchecked=""> <$link to={{!!title}}><$view field="title"/></$link></$checkbox><br>

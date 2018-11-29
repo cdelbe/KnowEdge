@@ -1,9 +1,0 @@
-created: 20160731104557811
-creator: TonGerner
-modified: 20180820045017089
-modifier: Charles Delbé
-tags: 
-title: $:/plugins/tongerner/toolbar/tag-handling
-type: text/vnd.tiddlywiki
-
-<<tabs "[[$:/plugins/tongerner/toolbar/list-standard-tags]] [[$:/plugins/tongerner/toolbar/list-systemtags]]" "$:/plugins/tongerner/toolbar/list-standard-tags">> 

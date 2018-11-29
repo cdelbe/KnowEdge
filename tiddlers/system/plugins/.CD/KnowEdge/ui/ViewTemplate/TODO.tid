@@ -1,0 +1,20 @@
+caption: TODO
+created: 20181113101859559
+creator: Charles Delbé
+modified: 20181113102353752
+modifier: Charles Delbé
+tags: $:/tags/viewsource $:/tags/ViewTemplate $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/ui/ViewTemplate/TODO
+type: text/vnd.tiddlywiki
+
+<$list filter="[<currentTiddler>tag[@:/tags/TODO]]">
+	<div class="github-fork-ribbon-wrapper left"><div class="github-fork-ribbon"><a href="#">TODO</a></div></div>
+	<style> 
+		.tc-tagged-\%40\%3A\%2Ftags\%2FTODO .tc-subtitle,
+		.tc-tagged-\%40\%3A\%2Ftags\%2FTODO .breadcrumbs,
+		.tc-tagged-\%40\%3A\%2Ftags\%2FTODO .tc-titlebar {
+			width: 85%!important;
+			margin: auto; 
+		}
+    </style>     
+</$list>

@@ -1,0 +1,31 @@
+aliases: DAG
+authors: 
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: 
+modified: 20181029065538806
+modifier: Charles Delbé
+tags: [[Graphical Model]] $:/type/concept $:/type/knowledge
+title: Directed Acyclic Graph
+tmap.fa-icon: &#xf12e;
+tmap.id: 1eba55ce-7f7e-4edd-bc24-4f8f967bad0d
+type: text/vnd.tiddlywiki
+
+!!Définition
+
+<<<
+A graph is formed by a collection of ''vertices'' and ''edges'', where the vertices are structureless objects that are connected in pairs by edges. In the case of a directed graph, each edge has an ''orientation'', from one vertex to another vertex.
+<<<
+
+<<<
+Un graphe orienté acyclique est un graphe orienté qui ne possède pas de circuit (boucle/cycle).
+<<<
+
+@@.figure
+[img[https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Directed_acyclic_graph_2.svg/220px-Directed_acyclic_graph_2.svg.png]]
+@@
+
+!!Références
+:https://en.wikipedia.org/wiki/Directed_acyclic_graph

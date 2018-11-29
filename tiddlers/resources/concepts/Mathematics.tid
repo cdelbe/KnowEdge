@@ -1,0 +1,15 @@
+color: #800080
+created: 20180825162905136
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: 
+modified: 20181008095457024
+modifier: Charles Delbé
+tags: $:/type/concept $:/type/knowledge
+title: Mathematics
+tmap.fa-icon: &#xf12e;
+tmap.id: 9ee72bf2-f70f-4170-b7a3-b70fa3544492
+type: text/vnd.tiddlywiki
+
+!{{!!title}}
+<<list-links-title filter:"[tag<currentTiddler>!is[system]sort[title]]" class:"object-list">>

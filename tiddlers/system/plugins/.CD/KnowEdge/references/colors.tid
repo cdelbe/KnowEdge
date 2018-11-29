@@ -1,0 +1,50 @@
+caption: Colors
+created: 20181106125730448
+creator: Charles Delbé
+modified: 20181108090924463
+modifier: Charles Delbé
+tags: $:/plugins/.CD/KnowEdge/references/main $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/references/colors
+tmap.id: da08d56d-0bef-44f4-8732-1f233d89c7c2
+type: text/vnd.tiddlywiki
+
+\define _tag(label,colour)
+<span class="tc-tag-list-item mylist">
+<$macrocall $name="tag-pill-body" tag="""$label$""" icon="" colour="""$colour$""" palette={{$:/palette}} element-tag="span" element-attributes="" actions=""/>
+</span>
+\end
+
+\define _topic(label,colour)
+<span class="tc-tag-list-item">
+<$macrocall $name="topic-pill-body" tag="""$label$""" icon="" colour="""$colour$""" palette={{$:/palette}} element-tag="span" element-attributes="" actions=""/>
+</span>
+\end
+
+!System Colors
+| !Color name | !Code | !RGB | !Tag |
+| <<_tag "Silver" "#c3c3c3">> | #c3c3c3 | rgb(195,195,195) | <<tag "Unknown">> |
+| <<_tag "DarkBlue" "#222d56">> | #222d56 | rgb(34,45,86) | <<tag "$:/tags/Macro">> |
+| <<_tag "MidnightBlue" "#004080">> | #004080 | rgb(0,64,128) | <<tag "$:/type/topic">> |
+| <<_tag "Blue" "#4153a0">> | #4153a0 | rgb(65,83,160) |  |
+| <<_tag "SlateBlue" "#7878bc">> | #7878bc | rgb(120,120,188) | <<tag "$:/type/task">> |
+| <<_tag "RoyalBlue" "#5778d7">> | #5778d7 | rgb(87,120,215) | <<tag "Getting Started">> |
+| <<_tag "Teal" "#087268">> | #087268 | rgb(8,114,104) | <<tag "$:/type/model">> |
+| <<_tag "SeaGreen" "#408080">> | #408080 | rgb(64,128,128) |  |
+| <<_tag "DarkGreen" "#1d3300">> | #1d3300 | rgb(85,100,110) |  |
+| <<_tag "Olive" "#808000">> | #808000 | rgb(128,128,0) | <<tag "$:/type/author">> |
+| <<_tag "YellowGreen" "#81b53b">> | #81b53b | rgb(129,181,59) | <<tag "$:/tags/@CD">> |
+| <<_tag "GreenYellow" "#e6e648">> |  #e6e648 | rgb(230,230,72) |  |
+| <<_tag "Gold" "#ffff00">> |  #ffff00 | rgb(255,255,0) | <<tag "$:/type/journal">> |
+| <<_tag "Mustard" "#c7d40c">> |  #c7d40c | rgb(199,212,12) |  |
+| <<_tag "Orange" "#FFA500">> |  #FFA500 | rgb(255,165,0) | <<tag "$:/type/note">> |
+| <<_tag "Coral" "#ff8040">> |  #ff8040 | rgb(255,128,64) | <<tag "$:/type/software">> |
+| <<_tag "Tomato" "#ec6353">> |  #ec6353 | rgb(236,99,83) | <<tag "$:/type/part">> |
+| <<_tag "FireBrick" "#b21a2c">> |  #b21a2c | rgb(178,26,44) | <<tag "$:/type/publication">> |
+| <<_tag "Red" "#ce0000">> |  #ce0000 | rgb(206,0,0) |  |
+| <<_tag "Maroon" "#681224">> |  #681224 | rgb(104,18,36) | <<tag "$:/type/bookmark">> |
+| <<_tag "Purple" "#800080">> |  #800080 | rgb(128,0,128) | <<tag "$:/type/concept">> |
+
+<style>
+.mylist > .tc-tag-label {
+	margin: 4px 0px 4px 0px;
+}

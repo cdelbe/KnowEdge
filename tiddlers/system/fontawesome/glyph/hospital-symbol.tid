@@ -1,0 +1,14 @@
+created: 20181107181947122
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Hospital Symbol
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f47e
+modified: 20181125084946655
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/hospital-symbol
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-hospital-symbol fa-10x'></i>

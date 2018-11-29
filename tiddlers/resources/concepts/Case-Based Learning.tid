@@ -1,0 +1,25 @@
+authors: 
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: 
+modified: 20181024131829550
+modifier: Charles Delbé
+mt-topics.list: 
+tags: [[Instructional Strategy]] $:/type/concept $:/type/knowledge
+title: Case-Based Learning
+tmap.fa-icon: &#xf12e;
+tmap.id: d4fb889d-2da3-4428-8b32-a6187954ab44
+type: text/vnd.tiddlywiki
+
+!Definition
+Les principales stratégies apparentées sont les suivantes:
+
+:apprentissage par résolution de problèmes/APP ([[Apprentissage par résolution de problème]]/PBL)
+:apprentissage fondé sur l’enquête ([[Apprentissage par investigation]])
+:Groupe de codéveloppement professionnel (Professional co-development)
+
+!References
+* http://wiki.teluq.ca/ted6210/index.php/Apprentissage_bas%C3%A9_sur_les_cas
+* http://edutechwiki.unige.ch/en/Case-based_learning

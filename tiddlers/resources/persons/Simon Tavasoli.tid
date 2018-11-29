@@ -1,0 +1,17 @@
+about: 
+color: #808000
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/author
+list: 
+modified: 20180904205338770
+modifier: Charles Delbé
+mt-person.name: Simon
+mt-person.surname: Tavasoli
+mt-topics.list:  
+tags: $:/type/person $:/type/author
+title: Simon Tavasoli
+tmap.fa-icon: &#xf007;
+tmap.id: b3536513-eb5f-4c47-bd4a-02b31528ea79
+type: text/vnd.tiddlywiki
+

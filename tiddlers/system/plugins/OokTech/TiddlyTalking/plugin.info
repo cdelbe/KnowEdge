@@ -1,0 +1,9 @@
+{
+	"title": "$:/plugins/OokTech/TiddlyTalking",
+	"description": "TiddlyTalking: TiddlyWiki reads to you!",
+	"author": "inmysocks",
+	"version": "0.0.4",
+	"core-version": ">=5.1.13",
+	"source": "",
+	"plugin-type": "plugin"
+}

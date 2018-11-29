@@ -1,0 +1,14 @@
+created: 20181107181950048
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Spotify
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f1bc
+modified: 20181125084949611
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/spotify
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-spotify fa-10x'></i>

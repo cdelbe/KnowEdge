@@ -1,0 +1,14 @@
+created: 20181107181948771
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Paint Brush
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f1fc
+modified: 20181125084948096
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/paint-brush
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-paint-brush fa-10x'></i>

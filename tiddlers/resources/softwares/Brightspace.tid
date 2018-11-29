@@ -1,0 +1,20 @@
+color: #ff8040
+created: 20180814205623702
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/software
+list: [[Adaptive Learning]] [[Learning Management System]]
+modified: 20180913053635343
+modifier: Charles Delbé
+mt-topics.list: [[Adaptive Learning]] [[Learning Management System]]
+tags: $:/type/software
+title: Brightspace
+tmap.fa-icon: &#xf120;
+tmap.id: 303961b0-a4ae-4e47-b492-047b9fffd79f
+type: text/vnd.tiddlywiki
+url: https://www.d2l.com/
+
+[img[https://assets.d2l.com/wp-content/uploads/2018/04/hmpg-img-daylight-devices.png]]
+
+!!Reference
+<dd>[[Understanding the student dashboard|http://www2.uwplatt.edu/ads/Desire2Learn/Help/Instructor%20help_4_1/en/understanding-student-dashboard.html]]</dd>
+<dd>[[Interpreting the Success Index predictive charts|https://documentation.brightspace.com/EN/insights/student_dashboard/instructor/interpreting_success_index_charts.htm]]</dd>

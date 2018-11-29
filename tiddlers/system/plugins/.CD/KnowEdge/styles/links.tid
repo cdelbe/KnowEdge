@@ -1,0 +1,57 @@
+created: 20181024024147515
+creator: Charles Delbé
+modified: 20181029025649968
+modifier: Charles Delbé
+tags: $:/tags/Stylesheet $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/styles/links
+tmap.id: 0f2ba505-3d31-4547-87a8-56efa691785e
+type: text/vnd.tiddlywiki
+
+/*  */
+.tc-tiddler-body {
+    clear: both;
+    }
+    
+    .float-right {
+    float:right;
+    }
+    
+    /* LINKS */
+    a {
+        -webkit-transition: 300ms;
+        -moz-transition: 300ms;
+        -o-transition: 300ms;
+        transition: 300ms;
+    }
+    tc-tiddlylink-resolves.tc-tiddlylink-shadow {
+        font-weight:bold;
+    }    
+    .redirected {
+        color:red;
+    }
+    a.tc-tiddlylink-missing:not(.tc-edit-type-dropdown) {
+        color:red;
+    }
+        
+    .tb-links dd span:not(:last-child):after{
+        content:", ";
+    }
+    .tb-links > span:not(:last-child):after{
+    content:", ";
+    }
+    .tb-links > a:not(:last-child):after{
+    content:", ";
+    }
+
+.tc-link-viewer { 
+     width: 100%; 
+     height: 85vh; 
+}
+
+a.tc-tiddlylink img {
+    max-width: 1.2em;
+    text-align: center;
+    width: 1.2em;
+    vertical-align: middle;
+    margin: 0px 4px 0px 0px;
+}

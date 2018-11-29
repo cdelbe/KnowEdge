@@ -1,0 +1,17 @@
+created: 20181109140134259
+creator: Charles Delbé
+description: Shows a tiddler url field.
+list-after: $:/plugins/.CD/KnowEdge/ui/ViewTemplate/publication/infos
+modified: 20181109141147067
+modifier: Charles Delbé
+tags: $:/tags/@CD $:/tags/viewsource $:/tags/ViewTemplate
+title: $:/plugins/.CD/KnowEdge/ui/ViewTemplate/url
+type: text/vnd.tiddlywiki
+
+<$reveal type='nomatch' state=<<folded-state>> text='hide' retain='yes' animate='yes'>
+	<$list filter="[all[current]has[url]]"> 
+		<div class="cd-link">
+			''Link: ''<$transclude field="url" mode="inline-block"/>
+		</div>
+	</$list>
+</$reveal>

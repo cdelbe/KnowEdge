@@ -1,0 +1,14 @@
+created: 20181107181947800
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Map Pin
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f276
+modified: 20181125084947641
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/map-pin
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-map-pin fa-10x'></i>

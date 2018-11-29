@@ -1,0 +1,35 @@
+caption: Datepicker Test
+champ1: 05/10/2018
+created: 20180920000000000
+creator: Charles Delbé
+modified: 20181014183952927
+modifier: Charles Delbé
+tags: TiddlyWiki
+title: datepicker-test
+tmap.id: b77abea1-f04b-47ea-ade5-4be33f363d3b
+type: text/vnd.tiddlywiki
+
+*Auteur : ''kixam''
+*URL démo : http://kixam.github.io/TW5-datePicker/ & http://tw5.xyz/TiddlyWiki-DatePicker-Timeline_v5.1.13.html
+*Version testée : ''0.5.2''  
+
+<$edit-date format="dddd DD MMMM YYYY" fieldFormat="DD/MM/YYYY" firstDay=1 field="champ1"/> 
+
+> {{!!champ1}}
+
+```
+<$edit-date field="champ1" format="dddd DD MMMM YYYY" fieldFormat="DD/MM/YYYY" firstDay="1"/>
+```
+
+---
+
+Using `input` tag and showing time:
+     
+<$edit-date showTime showSeconds use24hour format="DD MMMM YYYY"/>
+
+Using an icon instead of an `input` field:
+
+<$edit-date icon="$:/plugins/kixam/datepicker/icon" tag=div /> 
+
+!!Result:
+{{!!created}}

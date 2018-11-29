@@ -1,0 +1,14 @@
+created: 20181107181946251
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Globe
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f0ac
+modified: 20181125084946255
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/globe
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-globe fa-10x'></i>

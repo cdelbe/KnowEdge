@@ -1,0 +1,14 @@
+created: 20181107181949413
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: reply-all
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f122
+modified: 20181125084948838
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/reply-all
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-reply-all fa-10x'></i>

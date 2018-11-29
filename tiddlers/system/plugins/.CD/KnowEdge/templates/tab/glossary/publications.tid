@@ -1,0 +1,54 @@
+created: 20181024075404599
+creator: Charles Delbé
+modified: 20181029154136561
+modifier: Charles Delbé
+tags: $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/templates/tab/glossary/publications
+tmap.id: 7ac6b7a2-de45-443d-ac3a-cdb666ba6544
+type: text/vnd.tiddlywiki
+
+\define item-state() $:/state/.CD/glossary-pub/item$(currentTiddler)$
+
+\define list-terms()
+<$tiddler tiddler=<<currentTab>>>
+	<div class="deuxcolonnes" style="min-height: 400px;">
+		<$set name="letter" value=<<currentTab>>>
+			<$list filter="[tag[$:/type/publication]prefix[$(currentTab)$]!is[system]!has[draft.of]sort[title]]" emptyMessage="@@.text-grey none@@" variable=publication>
+				<$tiddler tiddler=<<publication>>>
+						<div class="glossary-item">
+							<$link to=<<publication>>>
+		                      <span style="font-size:1.1em;" class="">
+        		              <<@caption>>
+               			      </span>
+							</$link>
+
+							<br/>
+							<div class="glossary-abstract">''Abstract:'' <$view field="abstract" format="text"/></div>
+
+							<div class="glossary-related">
+								<$reveal type="nomatch" state=<<item-state>> text="show">
+									<$button set=<<item-state>> setTo="show" class="btn-invisible">{{$:/core/images/right-arrow}}Related (<$count filter="[all[current]tagging[]!is[system]!has[draft.of]]"/>/<$count filter="[all[current]listed[mt-topics.list]!is[system]!has[draft.of]]"/>)</$button>
+								</$reveal>
+
+								<$reveal type="match" state=<<item-state>> text="show">
+									<$button set=<<item-state>> setTo="hide" class="btn-invisible">{{$:/core/images/down-arrow}}Related (<$count filter="[all[current]tagging[]!is[system]!has[draft.of]]"/>/<$count filter="[all[current]listed[mt-topics.list]!is[system]!has[draft.of]]"/>)</$button>
+                                 <br/>
+									<div class="list-item-links">
+										<!-- @@.text-grey //Tagged://@@ -->
+										<<list-links-title filter:"[all[current]tagging[]!is[system]!has[draft.of]sort[icon]]" class:"glossary-related-list">>
+
+										<!-- @@.text-grey //Related://@@ -->
+										<<list-links-title filter:"[all[current]listed[mt-topics.list]!is[system]!has[draft.of]sort[icon]]" class:"glossary-related-list">>
+									</div>
+								</$reveal>
+							</div>
+						</div>
+						<br/>
+				</$tiddler>
+			</$list>
+		</$set>
+	</div>
+</$tiddler>
+\end
+
+<<list-terms>>

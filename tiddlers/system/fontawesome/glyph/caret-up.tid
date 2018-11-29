@@ -1,0 +1,14 @@
+created: 20181107181943903
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Caret Up
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f0d8
+modified: 20181125084943759
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/caret-up
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-caret-up fa-10x'></i>

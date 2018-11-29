@@ -1,0 +1,14 @@
+created: 20181107181943514
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: angle-right
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f105
+modified: 20181125084943035
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/angle-right
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-angle-right fa-10x'></i>

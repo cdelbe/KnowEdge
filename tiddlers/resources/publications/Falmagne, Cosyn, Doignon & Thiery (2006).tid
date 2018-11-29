@@ -1,0 +1,23 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181025223438045
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: Aleks [[Knowledge Tracing]] [[Knowledge Graph]] [[Adaptive Assessment]]
+modified: 20181026131821714
+modifier: Charles Delbé
+mt-authors.title: Falmagne, J. C., Cosyn, E., Doignon, J. P., & Thiéry, N.
+mt-publication.citation: Falmagne, J. C., Cosyn, E., Doignon, J. P., & Thiéry, N. (2006). //The assessment of knowledge, in theory and in practice.// In Formal concept analysis (pp. 61-79). Springer, Berlin, Heidelberg.
+mt-publication.date: 2006
+mt-publication.subtitle: 
+mt-publication.title: The assessment of knowledge, in theory and in practice
+mt-source.authors.list: [[Jean-Claude Falmagne]] [[E. Cosyn]] [[Jean-Paul Doignon]] [[N. Thiéry]]
+mt-topics.list: Aleks [[Knowledge Tracing]] [[Knowledge Graph]] [[Adaptive Assessment]]
+abstract: This paper is adapted from a book and many scholarly articles. It reviews the main ideas of a novel theory for the assessment of a student’s knowledge in a topic and gives details on a practical implementation in the form of a software system available on the Internet. The basic concept of the theory is the ‘knowledge state,’ which is the complete set of problems that an individual is capable of solving in a particular topic, such as Arithmetic or Elementary Algebra. The task of the assessor—which is always a computer—consists in uncovering the particular state of the student being assessed, among all the feasible states. Even though the number of knowledge states for a topic may exceed several hundred thousand, these large numbers are well within the capacity of current home or school computers. The result of an assessment consists in two short lists of problems which may be labelled: ''‘What the student can do’'' and ''‘What the student is ready to learn.’'' In the most important applications of the theory, these two lists specify the exact knowledge state of the individual being assessed. This work is presented against the contrasting background of common methods of assessing human competence through standardized tests providing numerical scores. The philosophy of these methods, and their scientific origin in nineteenth century physics, are briefly examined.
+tags: @:/type/article $:/type/publication
+title: Falmagne, Cosyn, Doignon & Thiéry (2006)
+tmap.fa-icon: &x#f0f6;
+tmap.id: c6b9a933-50ff-4d4c-9fd8-c347dfe14b73
+type: text/vnd.tiddlywiki
+url: https://www.aleks.com/about_aleks/Science_Behind_ALEKS.pdf
+

@@ -1,0 +1,14 @@
+color: #681224
+created: 20180918183556380
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/bookmark
+modified: 20180918183823164
+modifier: Charles Delbé
+tags: [[Neural Networks]] $:/type/bookmark
+title: Basic concepts of neural networks
+tmap.fa-icon: &#xf097;
+tmap.id: 5158f46d-f8ec-475b-b493-08ae6a84fbb6
+type: text/vnd.tiddlywiki
+url: https://towardsdatascience.com/basic-concepts-of-neural-networks-1a18a7aa2bd2
+
+[img[https://cdn-images-1.medium.com/max/800/1*Z_zqUrH5sncy3CEroBpKzw.png]]

@@ -1,9 +1,0 @@
-created: 20150228111645891
-creator: Alberto Molina Pérez
-modified: 20180820023040843
-modifier: Charles Delbé
-tags: $:/plugins/amp/MagicTabs/common
-title: $:/plugins/amp/MagicTabs/images/question-circle
-type: text/vnd.tiddlywiki
-
-<<mt-image "fa-question-circle" "question" "Question">>

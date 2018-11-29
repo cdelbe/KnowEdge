@@ -1,0 +1,14 @@
+created: 20181107181945351
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Exclamation Circle
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f06a
+modified: 20181125084945154
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/exclamation-circle
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-exclamation-circle fa-10x'></i>

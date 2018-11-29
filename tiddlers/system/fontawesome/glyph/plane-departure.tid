@@ -1,0 +1,14 @@
+created: 20181107181949019
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Plane Departure
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f5b0
+modified: 20181125084948482
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/plane-departure
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-plane-departure fa-10x'></i>

@@ -1,0 +1,14 @@
+created: 20181107181943282
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Band-Aid
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f462
+modified: 20181125084942762
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/band-aid
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-band-aid fa-10x'></i>

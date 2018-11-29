@@ -1,0 +1,14 @@
+created: 20181107182001846
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: unlink
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f127
+modified: 20181125084950447
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/unlink
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-unlink fa-10x'></i>

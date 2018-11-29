@@ -1,0 +1,14 @@
+created: 20181107181949481
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Route
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f4d7
+modified: 20181125084948933
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/route
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-route fa-10x'></i>

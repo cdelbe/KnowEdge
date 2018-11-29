@@ -1,0 +1,26 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180916153759218
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: [[Learner Profile]] [[Learning Group Formation]]
+modified: 20181029080026376
+modifier: Charles Delbé
+mt-authors.title: Muehlenbrock
+mt-publication.citation: Muehlenbrock, M. (2006). Learning group formation based on learner profile and context. //International Journal on e-learning//, 5(1), 19-24.
+mt-publication.date: 2006
+mt-publication.issue: 1
+mt-publication.journal: International Journal on e-learning
+mt-publication.title: Learning Group Formation based on Learner Profile and Context
+mt-publication.volume: 5
+mt-source.authors.list: [[Martin Muehlenbrock]]
+mt-source.tiddler: 
+mt-topics.list: [[Learner Profile]] [[Learning Group Formation]]
+abstract: An important but often neglected aspect in Computer-Supported Collaborative Learning is the formation of learning groups. Until recently, most support for group formation was based on learner profile information. In addition, the perspective of ubiquitous computing and ambient intelligence allows for a wider perspective on group formation, broadening the range of addressed features to include learner context information.
+tags: @:/type/article $:/type/publication
+title: Muehlenbrock (2006)
+tmap.fa-icon: &x#f0f6;
+tmap.id: 7b6141f0-aa49-497b-a74a-cae12d4d4ce0
+type: text/vnd.tiddlywiki
+url: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.591.950&rep=rep1&type=pdf
+

@@ -1,0 +1,14 @@
+created: 20181107181949990
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: SoundCloud
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f1be
+modified: 20181125084949485
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/soundcloud
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-soundcloud fa-10x'></i>

@@ -1,0 +1,14 @@
+created: 20181107181947838
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Male
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f183
+modified: 20181125084947542
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/male
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-male fa-10x'></i>

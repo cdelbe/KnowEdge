@@ -1,0 +1,14 @@
+created: 20181107181943999
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Cannabis
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f55f
+modified: 20181125084943895
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/cannabis
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-cannabis fa-10x'></i>

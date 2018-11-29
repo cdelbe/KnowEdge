@@ -1,0 +1,14 @@
+created: 20181107181946324
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Google Play
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f3ab
+modified: 20181125084946187
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/google-play
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-google-play fa-10x'></i>

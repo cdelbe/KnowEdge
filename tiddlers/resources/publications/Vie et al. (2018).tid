@@ -1,0 +1,25 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180916153759218
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: [[Adaptive Assessment]] [[Cold-start Problem]]
+modified: 20181029074040633
+modifier: Charles Delbé
+mt-authors.title: Vie et al.
+mt-publication.citation: Vie, JJ., Popineau, F., Bruillard, É. et al. (2018). Automated Test Assembly for Handling Learner Cold-Start in Large-Scale Assessments. //International Journal of Artificial Intelligence in Education.//
+mt-publication.date: 2018
+mt-publication.issue: 
+mt-publication.journal: International Journal of Artificial Intelligence in Education
+mt-publication.title: Automated Test Assembly for Handling Learner Cold-Start in Large-Scale Assessments.
+mt-publication.volume: 
+mt-source.authors.list: [[Jill-Jênn Vie]] [[Fabrice Popineau]] [[Eric Bruillard]] [[Yolaine Bourda]]
+mt-topics.list: [[Adaptive Assessment]] [[Cold-start Problem]]
+abstract: !Abstract In large-scale assessments such as the ones encountered in [[MOOC]]s, a lot of usage data is available because of the number of learners involved. Newcomers, that just arrive on a [[MOOC]], have various backgrounds in terms of knowledge, but the platform hardly knows anything about them. Therefore, it is crucial to elicit their knowledge fast, in order to ''personalize'' their learning experience. Such a problem has been called ''[[learner cold-start|?]]''. ''We present in this article an algorithm'' for sampling a group of initial, diverse questions for a newcomer, based on a method recently used in machine learning: ''determinantal point processes''. We show, using real data, that our method outperforms existing techniques such as uncertainty sampling, and can provide useful feedback to the learner over their strong and weak points.
+tags: @:/type/article $:/type/publication
+title: Vie et al. (2018)
+tmap.fa-icon: &x#f0f6;
+tmap.id: 2cb1bb4e-be36-49b7-9d1d-de94fae3c600
+type: text/vnd.tiddlywiki
+url: [ext[./resources/pdf/Vie_etal_2018.pdf]]
+

@@ -1,0 +1,18 @@
+authors: 
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: 
+modified: 20181014164311444
+modifier: Charles Delbé
+mt-source.root: 
+mt-source.tiddler: 
+tags: $:/type/concept $:/type/knowledge
+title: Learning Group Formation
+tmap.fa-icon: &#xf12e;
+tmap.id: 9349263e-244c-4918-838c-8c7267922cba
+type: text/vnd.tiddlywiki
+
+Computer Supported Collaborative Learning => intelligent formation of learning groups.
+support for group formation was mostly based on learner profile information

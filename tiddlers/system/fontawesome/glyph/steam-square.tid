@@ -1,0 +1,14 @@
+created: 20181107181950171
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Steam Square
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f1b7
+modified: 20181125084949696
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/steam-square
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-steam-square fa-10x'></i>

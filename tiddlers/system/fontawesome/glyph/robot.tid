@@ -1,0 +1,14 @@
+created: 20181107181949447
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Robot
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f544
+modified: 20181125084948959
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/robot
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-robot fa-10x'></i>

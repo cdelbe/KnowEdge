@@ -1,0 +1,705 @@
+created: 20181024024147515
+creator: Charles Delbé
+modified: 20181029040937002
+modifier: Charles Delbé
+tags: $:/tags/Stylesheet $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/styles/style
+tmap.id: 0f2ba505-3d31-4547-87a8-56efb691785e
+type: text/vnd.tiddlywiki
+
+/* Tiddlers */
+.tc-tiddler-frame {
+    border-radius: 4px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    margin-bottom: 15px; /* Gap entre 2 tiddlers*/
+    min-height: 140px; /* Ribbon */
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.3);
+    /*border-right: 5px solid transparent;*/
+}
+.tc-tiddler-frame:hover {
+    /*box-shadow: 0px 1px 1px 5px rgba(0, 0, 0, 0.3);*/
+}
+
+.tc-tiddler-title .tc-tiddler-edit-title, 
+.tc-tiddler-view-frame .tc-titlebar {
+    color: #fff;
+    background-color: <<colour primary>>; 
+    padding: 10px 5px 10px 8px;
+    margin-left: -15px;
+    margin-right: -15px;
+    font-size: 1.5em;
+    font-weight: 400;
+    border-radius: 6px;
+}
+
+.tc-tiddler-view-frame .tc-titlebar h2 {
+    font-weight: 400;
+    word-break: break-all;
+    vertical-align: middle;
+}
+
+.tc-edit-texteditor {
+    -webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    box-shadow: none!important;
+} 
+
+.tc-tiddler-preview {
+    overflow: inherit;
+}
+
+.tc-page-controls i {
+    color: <<colour sidebar-controls-foreground>>;
+}
+.tc-page-controls button:hover i { 
+    color: <<sidebar-controls-foreground-hover>>;
+}
+
+
+.tc-table-of-contents {
+    max-width: 1200px;
+}
+
+
+.cdscroll {
+    overflow: auto;
+    border: 1px solid #fff;
+    background-color: #ffffff;
+    padding-right: 15px;
+    max-height: 590px;
+}
+
+.tc-droppable.tc-dragover > .tc-droppable-placeholder {
+    border: 2px dashed <<colour primary>>;
+}
+
+.tc-sidebar-header {
+    -webkit-text-shadow: none;
+    -moz-text-shadow: none;
+    text-shadow: none;
+}
+
+.tc-popup.tc-preview-tiddler {
+    padding: 10px;
+    border: thin solid var(--light-grey);
+    width: auto;
+    max-width: 50%;
+}
+
+/* Tiddlers Hover */
+
+.cloud span {
+    white-space: nowrap;
+    margin-right: 0px!important;
+}
+.cloud {
+    text-align: left;
+}
+
+blockquote {
+    padding-left: 15px;
+}
+
+.tiddler-header-url p,
+.tc-preview-tiddler p,
+.tc-tiddler-frame .tc-tiddler-body p {
+    margin-top: 0.25em;
+    margin-bottom: 0;
+}
+
+input.tc-popup-handle {
+    width: 60%;
+}
+.tc-advanced-search input {
+    width: auto;
+}
+
+
+.tc-table-of-contents svg {
+    width: 1em;
+    height: 1em;
+}
+
+.tc-inline-style p {
+    margin-bottom: 0.25em;
+    margin-top: 5px;
+}
+
+html .tc-tiddler-view-frame .tc-tiddler-controls {
+    /*margin-top: -3px!important;*/
+} 
+html .tc-tiddler-view-frame .tc-tiddler-controls > .tc-image-down-arrow {
+    margin-right: 5px;
+}
+.tc-image-edit-button {
+    margin-right: 5px;
+}
+.tc-btn-\%24\%3A\%2Fplugins\%2Fajh\%2Ffavorites\%2Ftemplate {
+    margin-right: 3px;
+}
+.tc-tiddler-title-icon {
+    vertical-align: baseline;
+}
+.tc-tiddler-title-icon > img {
+    vertical-align: middle;
+}
+span.tc-tiddler-title-icon {
+    vertical-align: middle;
+}
+.tc-tiddler-title-icon > svg {
+    vertical-align: middle; 
+    height: 1em;
+    width: 1em;
+}
+.fa-1x {
+    /*vertical-align: middle;*/
+}
+.tc-tiddler-title-icon .fa-1x {
+    /*vertical-align: middle;*/
+}
+.tc-drop-down svg {
+    width: 1.2em;
+    vertical-align: middle;
+}
+
+/* Bordure du tiddler actif */
+.hzone-focus {
+    box-shadow: 2px 0px 12px 5px rgba(0, 0, 0, 0.5);
+    /*border-right: 5px solid rgb(34,45,86,.8);*/
+}
+
+/* Liste des entrées du journal */
+.flowing-list-item {
+    width: 100%;
+    border: thin solid <<colour primary>>;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+/* Titres */
+.tc-site-title {
+    margin-bottom: 0.2em;
+    padding-bottom: 10px;
+    font-weight: 600;
+    border-bottom: 2px solid <<colour primary>>;
+}
+.tc-site-subtitle {
+    font-weight: 600;
+    color: <<colour secondary>>;
+}
+
+
+.tc-titlebar .tc-tiddler-controls .tc-reveal button.tc-btn-invisible:hover {
+    fill: #fff;
+}
+
+.tc-tiddler-title-icon > i {
+    font-size: 1em;
+}
+
+.tc-tiddler-title {
+    z-index: 500;
+}
+div.tc-tiddler-edit-title {
+    background-color: <<colour primary>>;
+    color: #fff; /* idem */
+    padding: 2px;
+    z-index: 500;
+}
+
+/* Alignement de la grenouille */
+h1.tc-site-title img {
+    margin-bottom: -8px;
+    width: 44px;
+    /*vertical-align: middle;*/
+}
+h1.tc-site-title svg {
+    vertical-align: middle;
+    fill: #71b2ff;
+}
+
+.tc-story-river {
+    padding-right: 10px;
+}
+.tc-sidebar-scrollable {
+    padding: 42px 10px 42px 10px
+}
+
+.tmap-quick-connect {
+    color: #000;
+}
+
+/* Focus bleu */
+
+.tc-page-controls button:focus {
+	outline:none!important;
+}
+
+
+
+div.tc-tab-buttons {
+    border-bottom: 1px solid lightgrey;
+}
+.tc-tab-buttons button {
+    outline: none!important;
+    font-weight: 600;
+}
+button.tc-tab-selected{
+    border-bottom: 1px solid <<colour tab-background-selected>>;
+    margin-bottom: -1px;
+}
+
+/* TIDDLER TOOLBAR */
+.tc-tiddler-view-frame .tc-tiddler-controls button svg, .tc-tiddler-controls button img {
+    height: 1em;
+}
+.close-tabs svg.tc-image-close-button {
+    height: 0.8em;
+    margin-top: -4px!important;
+}
+.tc-image-done-button {
+    /*height: 1.5em!important;*/
+}
+.tc-tiddler-view-frame .tc-tiddler-controls {
+    margin-left: 0px;
+    /*font-size: 20px;*/
+}
+.tc-tiddler-view-frame .tc-tiddler-controls text,
+.tc-tiddler-view-frame .tc-tiddler-controls svg {
+    fill:transparent;
+    margin-left: 0px;
+}
+.tc-tiddler-view-frame .tc-tiddler-controls:hover svg,
+.tc-tiddler-view-frame .tc-tiddler-controls .close-tabs svg,
+.tc-tiddler-view-frame .tc-tiddler-controls .tc-image-close-button svg,
+.tc-tiddler-view-frame .tc-tiddler-controls .tc-popup svg {
+    fill:#bbb;
+}
+.tc-tiddler-controls > span > button {
+    /*margin-left: 0px;*/
+}
+.tc-tiddler-view-frame .tc-tiddler-controls [aria-label=close] svg {
+    fill:#fff;
+    height: 16px;
+}
+/*.tc-tiddler-edit-frame .tc-tiddler-controls button svg.tc-image-delete-button,
+.tc-tiddler-view-frame .tc-tiddler-controls:hover [aria-label=delete] svg:hover {
+    fill: <<colour cd-red>>;
+}*/
+/*.tc-tiddler-view-frame .tc-tiddler-controls [aria-label=edit] svg {
+    padding-right: 5px;
+}*/
+.tw-search svg.tc-image-close-button {
+    margin: 0px 0px -3px -6px!important;
+    height: 16px!important;
+    fill: #bbb;
+}
+.tc-search svg.tc-image-close-button {
+    height: 14px;
+}
+svg.tc-image-close-button:hover {
+    fill: #888;
+}
+
+.btn-slider-input.dashboard {
+    margin-right: 5px;
+ }
+ 
+ .btn-slider-input.tab {
+     top: 0px;
+     outline: none;
+}
+ 
+svg.tc-image-close-button {
+    margin-left: 5px;
+}
+
+.tb-tagging h1,
+.tc-preview-tiddler h1,
+.tc-tiddler-body h1 {
+    font-weight: 600;
+    font-size: 1.7em;
+    color: <<colour secondary>>;
+    border-bottom: 1px solid #aaa;
+}
+.tc-preview-tiddler h2,
+.tc-tiddler-body h2 {
+    font-weight: 600;
+    font-size: 1.3em;
+    color: <<colour secondary>>;
+    border-bottom: 1px solid #aaa;
+}
+.tc-preview-tiddler h3,
+.tc-tiddler-body h3 {
+    font-weight: 600;
+    font-size: 1.1em;
+    color: <<colour secondary>>;
+    border-bottom: 1px solid #aaa;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.3;
+}
+h1 {
+    margin: 0.47em 0;
+}
+
+/* "New type" Tab */
+.tc-popup-handle .tc-tiddler-info {
+    margin: unset;
+    background-color: #e8eaf6;
+    border: 1px solid <<colour tab-border>>;
+    padding: 10px;    
+}
+
+/* Tiddler info Tab */
+.tc-popup-handle.tc-tiddler-info {
+    padding: 10px!important;
+    margin: 0px -24px 10px -24px;
+    background-color: #e8eaf6;
+    border: 1px solid <<colour tab-border>>!important;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;    
+}
+
+.tc-popup-handle .tc-tiddler-info .tc-tab-buttons button {
+    padding: 5px;
+}
+
+.tc-popup-handle .tc-tiddler-info .tc-tab-buttons {
+    margin-top: 5px;
+    font-size: 0.85em;
+    padding: 1em;
+}
+
+.tc-tiddler-edit-frame p label{
+        margin: 4px 42px 4px 42px;
+        display: block;
+}
+  
+  .tc-edit-texteditor .tc-popup-handle {
+      margin: 4px 0 0 0;
+      width: 50%;
+  }
+
+
+.tc-search-results .tc-menu-list-item {
+    white-space: normal;
+}
+.tc-control-panel .tc-menu-list-item {
+    white-space: inherit;
+    text-align: left;
+}
+
+
+
+
+.tc-advanced-search input[type="search"] {
+    width: 90%;
+}
+.tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Fmore-page-actions {
+    margin-right: 0!important;
+}
+
+.object-list { /* ul */
+    list-style-type: none;
+    padding-inline-start: 10px;
+    margin: 3px;
+    margin-left: 15px;
+}
+.object-list i { /* ul */
+    margin-left: -15px;
+}
+
+
+
+
+.tc-block-dropdown {
+    margin: 0px;
+}
+.tc-block-dropdown.tc-search-drop-down {
+    margin-left: 0;
+}
+.tc-block-dropdown a {
+    background: inherit!imortant;
+}
+.tc-block-dropdown:hover, 
+.tc-drop-down:hover {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+.tc-drop-down {
+    white-space: nowrap;
+}
+.tc-drop-down a:hover,
+.tc-drop-down button:hover,
+.tc-drop-down .tc-file-input-wrapper:hover button {
+    background-color: <<colour primary>>;
+}
+.tc-text-editor-toolbar-item-wrapper .tc-drop-down a {
+    display: block;
+}
+
+/* "simple search" plugin hides the search input box ! */
+.tc-sidebar-lists .tc-search {
+    display: block;
+}
+
+
+
+
+.tc-titlebar .tc-tiddler-controls button.tc-btn-invisible:hover svg,
+.tc-table-of-contents .tc-drop-down a:hover svg {
+    fill: <<colour background>>;
+}
+
+.tc-tiddler-body dd  {
+        margin-left: 14px;
+    }    
+    dd:before {
+        content: "» ";
+    }
+    /*.tb5-markup > dd:before {
+        content: "";
+    }
+    .no-before:before {
+        content: "";
+    }*/
+
+
+
+.tc-message-box {
+    margin: 0 0px;
+}
+
+.CodeMirror-scroll {
+    margin-right: 0px;
+}
+
+
+/* Titre en édition */
+input.tc-titlebar {
+    font-size: 1.75em;
+}
+
+.tc-plugin-info-chunk h1 {
+    font-size: 1em;
+    border-bottom: none;
+}
+.tc-plugin-info-chunk h2 {
+    font-size: 0.8em;
+    border-bottom: none;
+}
+
+.tc-edit-type-dropdown {
+    border: none!important;
+    width: inherit!important;
+    display: inherit!important;
+    padding: inherit!important;
+}
+
+.tgc-message-box {
+    margin: 0px 0px 5px 0px;
+    border: 1px solid var(--blue-master);
+}
+.tgc-trim-string {
+    white-space: normal;
+    text-align: left;
+}
+.tgc-message-box dt {
+    margin-bottom: 5px;
+}
+
+.troiscolonnes,
+.deuxcolonnes {
+    text-align: left;
+}
+
+table.invisible {
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+
+.tc-modal {
+    top: 4em;
+}
+
+.edit-btn-icon .tc-image-button .save-close {
+    padding-right: 10px;
+}
+
+.tmap-quick-connect .tc-drop-down {
+    width: auto;
+    max-width: 600px;
+}
+.tmap-quick-connect .tc-drop-down .title {
+    margin: 0.5em 0 0.5em 0;
+}
+
+
+/* fields table */
+.tc-edit-fields > tbody > .tc-edit-field:nth-child(odd) {
+    background-color: rgb(243, 243, 255);
+}
+.tc-edit-fields > tbody > .tc-edit-field:nth-child(even) {
+    background-color: rgb(188, 201, 247);
+}
+
+.tc-image-tiddlyviewer {
+    width: 16px;
+    height: 16px;
+    vertical-align: unset!important;
+}
+
+
+
+
+.tc-fold-banner {
+    margin-left: -27px;
+    /*top: unset!important; 
+    bottom: 15px;*/
+    outline: none!important;
+    top: 80px;
+}
+
+.tc-unfold-banner {
+    position: relative;
+    /*z-index: 1000;*/
+    width: 100%;
+    margin-left: -10px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    border-top: 2px solid #dddddd;
+    outline: none!important;
+}
+
+
+
+
+
+
+
+
+
+.tc-inline-style p {
+    display: inline;
+    font-weight: 300;
+}
+/* breadcrumb & author */
+.tc-subtitle {
+    margin: 3px 0px 4px 0px;
+    font-weight: 500;
+}
+
+
+
+.breadcrumbs {
+    background-color: <<colour tiddler-header-background>>;
+    font-size: 0.9em;
+}
+.btn-breadcrumb {
+    color: <<colour tiddler-subtitle-foreground>>;
+    font-weight: 500;
+}
+
+.tc-table-of-contents .tc-drop-down a {
+    /*padding-left: 2px;*/
+}
+
+.tc-image-pinned-button,
+.tc-image-unpinned-button {
+    margin-right: 3px;
+    /*height: 0.8em!important;*/
+}
+
+.msk-logo {
+    width: 30px;
+    vertical-align: middle;
+}
+
+
+/* TREE */
+.tc-tree button,
+.tc-tree li span {
+    color: gray;
+}
+
+
+
+blockquote.tc-big-quote {
+	font-family: Georgia, serif;
+	position: relative;
+	background: <<colour pre-background>>;
+	border-left: none;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 10px;
+    border-radius: 8px;
+}
+
+blockquote.tc-big-quote cite:before {
+	content: "\2014 \2009";
+}
+
+blockquote.tc-big-quote:before {
+	font-family: Georgia, serif;
+	color: <<colour blockquote-bar>>;
+	content: open-quote;
+	font-size: 8em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+	position: absolute;
+    left: -50px;
+    top: 42px;
+}
+
+blockquote.tc-big-quote:after {
+	font-family: Georgia, serif;
+	color: <<colour blockquote-bar>>;
+	content: close-quote;
+	font-size: 8em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+	position: absolute;
+    right: -80px;
+    bottom: -20px;
+}
+
+
+.tc-simple-search {
+    top: 3rem;
+}
+/*.tc-layer-search .te-close-this svg {
+    right: 5.5rem;
+    top: 4.35rem;
+    z-index: 110;
+}*/
+.tc-layer-search {
+    background-color: rgba(0,0,0,0.9);
+}
+.tc-search-drop-down > p {
+    width: 100%;
+}
+
+
+.tw-context {
+}
+.tw-search-results {
+    width: 90%;
+}
+.tw-search-results .tc-menu-list-item {
+    white-space: normal;
+}
+
+
+
+.person {
+    margin: 0 0 5px 5px;
+}

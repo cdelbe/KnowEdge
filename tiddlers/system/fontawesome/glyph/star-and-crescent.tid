@@ -1,0 +1,14 @@
+created: 20181107181950096
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Star and Crescent
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f699
+modified: 20181125084949545
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/star-and-crescent
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-star-and-crescent fa-10x'></i>

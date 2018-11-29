@@ -1,0 +1,17 @@
+caption: Drafts
+color: #81b53b
+created: 20180820082115137
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/edit
+list: 
+modified: 20181029193217009
+modifier: Charles Delbé
+tags: @:/tags/TOC
+title: @:/tags/DRAFT
+tmap.id: d94537d0-fa7b-4b52-8bd3-257782f6b816
+type: text/vnd.tiddlywiki
+
+<!-- list tiddlers tagged '.DRAFT' -->
+ 
+!! Tiddlers en cours de rédaction
+<<list-links-title filter:"[tag<currentTiddler>!has[draft.of]] -[[$(currentTiddler)$]]" class:"object-list" emptyMessage:"@@.text-grey none@@">>

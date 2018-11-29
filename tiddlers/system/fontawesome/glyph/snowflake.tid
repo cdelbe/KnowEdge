@@ -1,0 +1,14 @@
+created: 20181107181949900
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Snowflake
+fa-style-classes: fas far
+fa-styles: solid regular
+fa-unicode: f2dc
+modified: 20181125084949403
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/snowflake
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-snowflake fa-10x'></i>

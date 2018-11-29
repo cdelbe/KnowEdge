@@ -1,0 +1,14 @@
+created: 20181107181945134
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Dice Three
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f527
+modified: 20181125084945080
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/dice-three
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-dice-three fa-10x'></i>

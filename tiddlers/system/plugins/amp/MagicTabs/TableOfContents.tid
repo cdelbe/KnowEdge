@@ -1,0 +1,15 @@
+caption: Contents
+created: 20140809114010378
+creator: Alberto Molina Pérez
+list-before: $:/core/ui/SideBar/Open
+modified: 20181013224222716
+modifier: Charles Delbé
+tags: $:/plugins/amp/MagicTabs/common MagicTabs
+title: $:/plugins/amp/MagicTabs/TableOfContents
+type: text/vnd.tiddlywiki
+
+<div class="tc-table-of-contents">
+
+<<mt-tocsx sort:'sort[mt-part.order]'>>
+
+</div>

@@ -1,0 +1,14 @@
+created: 20181107181945276
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Dropbox
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f16b
+modified: 20181125084945379
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/dropbox
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-dropbox fa-10x'></i>

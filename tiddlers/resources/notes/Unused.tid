@@ -1,0 +1,23 @@
+about: 
+color: #FFA500
+created: 20180725153952278
+creator: Charles Delbé
+description: 
+icon: $:/plugins/.CD/KnowEdge/images/note
+list: 
+modified: 20181025140026277
+modifier: Charles Delbé
+mt-source.parents.list: $:/core/ui/ViewTemplate/subtitle $:/core/ui/ViewTemplate/tags
+mt-source.root: 
+mt-source.tiddler: $:/core/ui/TagTemplate
+mt-topics.list: 
+tags: $:/type/note
+title: Unused
+tmap.fa-icon: &#xf044;
+tmap.id: 2ebc1817-de57-4967-9e7e-98e7feb21a48
+type: text/vnd.tiddlywiki
+
+@@.note
+''{{$:/status/UserName}} - <<now>>''
+@@
+

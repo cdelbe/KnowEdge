@@ -1,0 +1,28 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/book
+list: Learning Reading
+modified: 20181027195731705
+modifier: Charles Delbé
+mt-authors.title: Dehaene
+mt-publication.citation: Dehaene, S. (2011). Apprendre à lire: des sciences cognitives à la salle de classe. Odile Jacob.
+mt-publication.city: 
+mt-publication.date: 2011
+mt-publication.edition: 
+mt-publication.publisher: Odile Jacob
+mt-publication.title: Apprendre à lire: des sciences cognitives à la salle de classe.
+mt-publication.volume: 
+mt-source.authors.list: [[Stanislas Dehaene]]
+mt-topics.list: [[Learning]] [[Reading]]
+abstract: 'auteur discute des processus cérébraux menant au décodage et à la lecture. Il souligne que l'ensemble du système éducatif doit être repensé afin de créer de nouvelles ressources pédagogiques, compatibles avec les principes proposés dans l'article, qui traitent de l'enseignement primordial des correspondances entre phonème et graphème et de l'ordre de complexité des mots, vers l'automatisation de la lecture. Cela devrait être considéré comme l'objectif principal dans les premières années de l'éducation formelle, valorisé à la fois par la famille et les éducateurs. Il préconise la mise en place d'un réseau dédié à la lecture, que ce soit pour préparer les enseignants ou au début de la scolarité jusqu'à la fin de l'école primaire.
+tags: @:/type/book $:/type/publication
+title: Dehaene (2011)
+tmap.fa-icon: &#xf02d;
+tmap.id: 01fc0a8f-e6c3-4097-81e1-310561eb0bf5
+type: text/vnd.tiddlywiki
+
+!Références
+:[ext[Principes|http://www.ac-grenoble.fr/ien.g4/IMG/pdf/Principes_apprentissage_lecture.pdf]]
+:[ext[Fiche de lecture|http://www.ien-soisy-ash.ac-versailles.fr/IMG/userfiles/file/fiches%20de%20lecture%20et%20articles/fiche_de_lecture_dehaene.pdf]]

@@ -1,0 +1,14 @@
+created: 20181107181955720
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: tint
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f043
+modified: 20181125084950248
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/tint
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-tint fa-10x'></i>

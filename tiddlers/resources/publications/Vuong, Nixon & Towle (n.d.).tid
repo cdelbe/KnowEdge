@@ -1,0 +1,24 @@
+abstract: Creating an [[Educational Curriculum]] is a difficult task involving many variables and constraints [Wang 2005]. In any curriculum, the order of the instructional units is partly based on which units teach [[prerequisite|Prerequisites]] knowledge for later units. Historically, psychologists and cognitive scientists have studied the dependency structure of information in various domains [Bergan and Jeska 1980; Griffiths and Grant 1985; Chi and Koeske 1983]; however, many of these studies have been hampered by statistical issues such as the difficulty of removing instructional effects when using small samples [Horne 1983]. We hypothesize that large-scale [[Assessment]] data can be analyzed to determine the dependency relationships between units in a curriculum. This structure could then be used in generating and evaluating alternate unit sequences to test whether omitting or re-ordering units would undermine necessary foundational knowledge building. Our method incorporates all possible pair-wise dependency relationships in a curriculum and, for each such candidate dependency, compares performance of students who used the potential prerequisite unit to performance of students who did not. We implemented the method on a random sample of schools from across the U.S. that use [[Carnegie Learning]]’s [[Cognitive Tutor]] software and its associated curricula; a sample that far exceeds those used in previous studies both in size and in scope. The resulting structure is compared to a pre-existing list of prerequisites created by Carnegie Learning based on student skill models. We discuss extensions of this method, issues in interpreting the results, and possible applications. We hope that this work serves as a step toward developing a data-driven model of curriculum design.
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181028225853692
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: Prerequisites [[Knowledge Graph]] [[Data Mining]] [[Educational Curriculum]] [[Intelligent Tutoring Systems]]
+modified: 20181030045201511
+modifier: Charles Delbé
+mt-authors.title: Vuong, Nixon & Towle
+mt-publication.citation: Vuong, Nixon & Towle (n.d.). A Method for Finding Prerequisites Within a Curriculum. Retrieved from http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.646.9850&rep=rep1&type=pdf
+mt-publication.date: n.d.
+mt-publication.publisher: [[Carnegie Learning]]
+mt-publication.subtitle: 
+mt-publication.title: A Method for Finding Prerequisites Within a Curriculum
+mt-source.authors.list: [[Annalies Vuong]] [[Tristan Nixon]] [[Brendon Towle]]
+mt-topics.list: Prerequisites [[Knowledge Graph]] [[Data Mining]] [[Educational Curriculum]] [[Intelligent Tutoring Systems]]
+tags: @:/tags/TODO @:/type/article $:/type/publication
+title: Vuong, Nixon & Towle (n.d.)
+tmap.fa-icon: &x#f0f6;
+tmap.id: 8d7cf5b2-8e5c-4a54-8460-94e96e455fdd
+type: text/vnd.tiddlywiki
+url: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.646.9850&rep=rep1&type=pdf
+

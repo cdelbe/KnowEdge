@@ -1,0 +1,14 @@
+created: 20181107181946093
+creator: Charles Delbé
+fa-default-style: far
+fa-label: Font Awesome Full Logo
+fa-style-classes: far fas fab
+fa-styles: regular solid brands
+fa-unicode: f4e6
+modified: 20181125084945834
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/font-awesome-logo-full
+type: text/vnd.tiddlywiki
+
+<i class='far fa-font-awesome-logo-full fa-10x'></i>

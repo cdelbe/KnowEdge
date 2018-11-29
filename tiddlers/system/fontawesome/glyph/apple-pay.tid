@@ -1,0 +1,14 @@
+created: 20181107181943455
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Apple Pay
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f415
+modified: 20181125084942971
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/apple-pay
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-apple-pay fa-10x'></i>

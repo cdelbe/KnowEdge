@@ -1,0 +1,13 @@
+created: 20181016211256877
+creator: Charles Delbé
+modified: 20181016212822630
+modifier: Charles Delbé
+title: defaultSnip
+tmap.id: 0a71ccf0-5884-4a6a-b0e2-c1893a152d74
+type: text/vnd.tiddlywiki
+
+\rules only table wikilink prettylink
+
+|!Title|!Body|!Tags|!Fields modifiers|!field initials|!Modes|
+|((*@pageTitle*))|((*@text*))\n\n|$:/type/bookmark||{"$url":"((*@pageRef*))"},{"$caption":"((*@pageTitle*))"},{"$when":"((*@dateTimeShort*))"},{"$color":"#681224"},{"$icon":"$:/plugins/.CD/KnowEdge/images/bookmark"}|append add|
+						

@@ -1,0 +1,14 @@
+created: 20181107181947295
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Itunes Note
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f3b5
+modified: 20181125084946974
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/itunes-note
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-itunes-note fa-10x'></i>

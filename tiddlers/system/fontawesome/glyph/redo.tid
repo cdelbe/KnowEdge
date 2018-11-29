@@ -1,0 +1,14 @@
+created: 20181107181949316
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Redo
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f01e
+modified: 20181125084948892
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/redo
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-redo fa-10x'></i>

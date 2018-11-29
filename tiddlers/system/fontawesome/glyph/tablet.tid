@@ -1,0 +1,14 @@
+created: 20181107181950428
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: tablet
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f10a
+modified: 20181125084949986
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/tablet
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-tablet fa-10x'></i>

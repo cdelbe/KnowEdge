@@ -1,0 +1,381 @@
+caption: Search Results
+created: 20181029023445951
+creator: Charles Delbé
+modified: 20181029023454520
+modifier: Charles Delbé
+title: $:/plugins/inmysocks/TiddlerTool/Search Results
+type: text/vnd.tiddlywiki
+
+\define thisHelpButton(label)
+^^(<$button popup="""$:/temp/popup/$(currentTiddler)$/$label$""" class='tc-btn-invisible'>?</$button>)<$reveal type='popup' state="""$:/temp/popup/$(currentTiddler)$/$label$"""><div class='tc-drop-down tc-popup-keep' style='max-width:75vw;text-overflow:ellipsis'><span style='margin-left:10px;margin-right:10px;'><$view field="""$label$""" mode=block/></span></div></$reveal>^^
+\end
+
+\define thisEditTags()
+<$fieldmangler tiddler=<<MatchingTitle>>>
+	<$list filter='[title<MatchingTitle>tags[]]+[sort[title]]'>
+		<$set name="backgroundColor" value={{!!color}}>
+			<span style=<<tag-styles>> class="tc-tag-label">
+				<$view field="title" format="text" />
+				<$button message="tm-remove-tag" param={{!!title}} class="tc-btn-invisible tc-remove-tag-button">
+					&times;
+				</$button>
+			</span>
+		</$set>
+	</$list>
+	<div class="tc-edit-add-tag">
+		<span class="tc-add-tag-name">
+			<$edit-text tiddler="""$:/temp/$(MatchingTitle)$/NewTagName""" tag="input" default="" placeholder={{$:/language/EditTemplate/Tags/Add/Placeholder}} focusPopup=<<qualify """$:/state/popup/tags-auto-complete/$(MatchingTitle)$""">> class="tc-edit-texteditor tc-popup-handle"/>
+		</span>
+		<$button popup=<<qualify """$:/state/popup/tags-auto-complete/$(MatchingTitle)$""">> class="tc-btn-invisible tc-btn-dropdown" tooltip={{$:/language/EditTemplate/Tags/Dropdown/Hint}} aria-label={{$:/language/EditTemplate/Tags/Dropdown/Caption}}>
+			{{$:/core/images/down-arrow}}
+		</$button>
+		<div class="tc-block-dropdown-wrapper">
+			<$reveal state=<<qualify """$:/state/popup/tags-auto-complete/$(MatchingTitle)$""">> type="nomatch" text="" default="">
+				<div class="tc-block-dropdown">
+					<$linkcatcher set="""$:/temp/$(MatchingTitle)$/NewTagName""" setTo="" message="tm-add-tag">
+						<$list filter="[tags[]!is[system]search:title<TagState>sort[]]">
+							{{||$:/core/ui/Components/tag-link}}
+						</$list>
+						<hr>
+						<$list filter="[tags[]is[system]search:title<TagState>sort[]]">
+							{{||$:/core/ui/Components/tag-link}}
+						</$list>
+					</$linkcatcher>
+				</div>
+			</$reveal>
+		</div>
+		<span class="tc-add-tag-button">
+			<$button message="tm-add-tag" param={{$:/temp/$(MatchingTitle)$/NewTagName}} set="""$:/temp/$(MatchingTitle)$/NewTagName""" setTo="" class="">
+				add
+			</$button>
+		</span>
+	</div>
+</$fieldmangler>
+\end
+
+\define thisSelectTiddlerButton()
+<$reveal type='nomatch' state="""$:/state/Generic Search and Replace/Selected Tiddlers##$(MatchingTitle)$""" text='true'>
+	<$button class='tc-btn-invisible'>
+	<input type='checkbox'/>
+	<$action-setfield $tiddler='$:/state/Generic Search and Replace/Selected Tiddlers' $index=<<MatchingTitle>> $value=true/>
+	</$button>
+</$reveal>
+<$reveal type='match' state="""$:/state/Generic Search and Replace/Selected Tiddlers##$(MatchingTitle)$""" text='true'>
+	<$button class='tc-btn-invisible'>
+	<input type='checkbox' checked=true/>
+	<$action-setfield $tiddler='$:/state/Generic Search and Replace/Selected Tiddlers' $index=<<MatchingTitle>> $value=false/>
+	</$button>
+</$reveal>
+\end
+
+\define thisRemoveFieldButton()
+<$button class='tc-btn-invisible' tooltip='Remove Field'>
+	{{$:/core/images/delete-button}}
+	<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field=text $value=''/>
+	<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field=<<MatchingFields2>> $value=''/>
+	<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field=edit_title $value=false/>
+	<$action-sendmessage $message='tm-remove-field' $param=<<MatchingFields2>>/>
+</$button>
+\end
+
+\define thisSaveFieldButton()
+<$button class='tc-btn-invisible' tooltip='Store changes'>
+	{{$:/core/images/done-button}}
+	<$reveal type=nomatch state='$:/state/Generic Search/Edit State!!this_long_named_editing_field' text=''>
+		<$action-setfield $tiddler=<<MatchingTitle>> $field=<<MatchingFields2>> $value={{$:/state/Generic Search/Edit State!!this_long_named_editing_field}}/>
+	</$reveal>
+	<$reveal type=match state='$:/state/Generic Search/Edit State!!this_long_named_editing_field' text=''>
+		<$action-setfield $tiddler=<<MatchingTitle>> $field=<<MatchingFields2>> $value=''/>
+	</$reveal>
+	<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field=text $value=''/>
+	<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field=<<MatchingFields2>> $value=''/>
+	<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field=edit_title $value=false/>
+	<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field='this_long_named_editing_field' $value=''/>
+</$button>
+\end
+
+\define thisEditFieldValueCancelButton()
+<$button class='tc-btn-invisible' tooltip='Discard changes'>
+	{{$:/core/images/cancel-button}}
+	<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field=text $value=''/>
+	<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field=<<MatchingFields2>> $value=''/>
+	<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field=edit_title $value=false/>
+	<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field='this_long_named_editing_field' $value=''/>
+</$button>
+\end
+
+\define thisEditFieldValueEmptyMessage()
+<$list filter='[<MatchingTitle>get<MatchingFields2>]' emptyMessage='' variable=ThisValue>
+	<$button class='tc-btn-invisible' tooltip='Edit field value'>
+		<$view tiddler=<<MatchingTitle>> field=<<MatchingFields2>>/>
+		<$action-setfield $tiddler='$:/state/Generic Search/Edit State' text=<<MatchingTitle>>/>
+		<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field=<<MatchingFields2>> $value=true/>
+		<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field='this_long_named_editing_field' $value=<<ThisValue>>/>
+		<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field=edit_title $value=false/>
+	</$button>
+</$list>
+\end
+
+\define thisAddFieldContentsButton()
+<$button class='tc-btn-invisible' tooltip='Add field contents'>
+	{{$:/core/images/new-button}}
+	<$action-setfield $tiddler='$:/state/Generic Search/Edit State' text=<<MatchingTitle>>/>
+	<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field=<<MatchingFields2>> $value=true/>
+	<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field='this_long_named_editing_field' $value=''/>
+	<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field=edit_title $value=false/>
+</$button>
+\end
+
+\define thisInnerEditFieldValueEmptyMessage()
+<$list filter='[[$:/state/Generic Search/Edit State]text<MatchingTitle>$(MatchingFields2)$[true]!edit_title[true]]' emptyMessage=<<thisAddFieldContentsButton>>>
+	<<thisSaveFieldButton>>
+	<<thisEditFieldValueCancelButton>>
+	<$edit-text tiddler='$:/state/Generic Search/Edit State' field='this_long_named_editing_field'/>
+</$list>
+\end
+
+\define thisEditFieldValueButton()
+<$list filter='[<MatchingTitle>get<MatchingFields2>]' emptyMessage=<<thisInnerEditFieldValueEmptyMessage>> variable=ThisValue>
+	<$list filter='[[$:/state/Generic Search/Edit State]text<MatchingTitle>$(MatchingFields2)$[true]!edit_title[true]]' emptyMessage=<<thisEditFieldValueEmptyMessage>>>
+		<<thisSaveFieldButton>>
+		<<thisEditFieldValueCancelButton>>
+		<$edit-text tiddler='$:/state/Generic Search/Edit State' field='this_long_named_editing_field'/>
+	</$list>
+</$list>
+\end
+
+\define thisEditFieldTitleButtonEmptyMessage()
+<$button class='tc-btn-invisible' tooltip='Edit field title'>
+	<$view tiddler=<<MatchingFields2>> field='title'/>
+	<$action-setfield $tiddler='$:/state/Generic Search/Edit State' text=<<MatchingTitle>>/>
+	<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field=edit_title $value=true/>
+	<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field=<<MatchingFields2>> $value=true/>
+	<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field='this_long_named_editing_field' $value=<<MatchingFields2>>/>
+</$button>
+\end
+
+\define thisEditFieldTitleButton()
+<$fieldmangler tiddler=<<MatchingTitle>>>
+	<$list filter='[[$:/state/Generic Search/Edit State]text<MatchingTitle>$(MatchingFields2)$[true]edit_title[true]]' emptyMessage=<<thisEditFieldTitleButtonEmptyMessage>>>
+		<$button class='tc-btn-invisible' tooltip='Store changes'>
+			{{$:/core/images/done-button}}
+			<$action-sendmessage $message='tm-remove-field' $param=<<MatchingFields2>>/>
+			<$list filter='[<MatchingTitle>get<MatchingFields2>]' emptyMessage="""<$action-setfield $tiddler=<<MatchingTitle>> $field={{$:/state/Generic Search/Edit State!!this_long_named_editing_field}} $value=''/>""" variable=ThisValue>
+				<$action-setfield $tiddler=<<MatchingTitle>> $field={{$:/state/Generic Search/Edit State!!this_long_named_editing_field}} $value=<<ThisValue>>/>
+			</$list>
+			<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field=text $value=''/>
+			<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field=<<MatchingFields2>> $value=''/>
+			<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field=edit_title $value=false/>
+		</$button>
+		<<thisEditFieldValueCancelButton>>
+		<$edit-text tiddler='$:/state/Generic Search/Edit State' field='this_long_named_editing_field'/>
+		<<thisRemoveFieldButton>>
+	</$list>
+</$fieldmangler>
+\end
+
+\define thisAddFieldButton()
+<$reveal type='nomatch' state="""$:/state/Add Field/$(MatchingTitle)$""" text='add'>
+	<$button class='tc-btn-invisible' tooltip='Add New Field'>
+		{{$:/core/images/new-button}}
+		<$action-setfield $tiddler="""$:/state/Add Field/$(MatchingTitle)$""" text='add'/>
+	</$button>
+</$reveal>
+<$reveal type='match' state="""$:/state/Add Field/$(MatchingTitle)$""" text='add'>
+	<$fieldmangler tiddler=<<MatchingTitle>>>
+		<$edit-text tiddler="""$:/temp/Add Field/$(MatchingTitle)$""" field='field_name' placeholder='Field Name'/>
+		<br>
+		<$edit-text tiddler="""$:/temp/Add Field/$(MatchingTitle)$""" field='field_contents' placeholder='Contents'/>
+	</$fieldmangler>
+	<$button class='tc-btn-invisible' tooltip='Save Field'>
+		{{$:/core/images/done-button}}
+		<$reveal type='nomatch' state="""$:/temp/Add Field/$(MatchingTitle)$!!field_contents""" text=''>
+			<$action-setfield $tiddler="""$(MatchingTitle)$""" $field={{$:/temp/Add Field/$(MatchingTitle)$!!field_name}} $value={{$:/temp/Add Field/$(MatchingTitle)$!!field_contents}}/>
+		</$reveal>
+		<$reveal type='match' state="""$:/temp/Add Field/$(MatchingTitle)$!!field_contents""" text=''>
+			<$action-setfield $tiddler="""$(MatchingTitle)$""" $field={{$:/temp/Add Field/$(MatchingTitle)$!!field_name}} $value=''/>
+		</$reveal>
+		<$action-setfield $tiddler="""$:/state/Add Field/$(MatchingTitle)$""" text=''/>
+		<$action-setfield $tiddler="""$:/temp/Add Field/$(MatchingTitle)$""" field_name='' field_contents=''/>
+	</$button>
+	<$button class='tc-btn-invisible' tooltip='Cancel'>
+		{{$:/core/images/cancel-button}}
+		<$action-setfield $tiddler="""$:/state/Add Field/$(MatchingTitle)$""" text=''/>
+		<$action-setfield $tiddler="""$:/temp/Add Field/$(MatchingTitle)$""" field_name='' field_contents=''/>
+	</$button>
+</$reveal>
+\end
+
+\define thisRenameTiddlerButton()
+<$reveal type='nomatch' state='$:/state/Generic Search/Edit State!!this_long_named_title_editing_state_field' text=<<MatchingTitle>>>
+	<$button class='tc-btn-invisible' tooltip='Edit Title'>
+		{{$:/core/images/edit-button}}
+		<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field='this_long_named_title_editing_state_field' $value=<<MatchingTitle>>/>
+		<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field='this_long_named_title_editing_field' $value=<<MatchingTitle>>/>
+	</$button>
+	<$link to=<<MatchingTitle>>>
+		<<MatchingTitle>>
+	</$link>
+</$reveal>
+<$reveal type='match' state='$:/state/Generic Search/Edit State!!this_long_named_title_editing_state_field' text=<<MatchingTitle>>>
+	<$button class='tc-btn-invisible' tooltip='Store Change'>
+		{{$:/core/images/done-button}}
+		<$reveal type='nomatch' state='$:/state/Generic Search/Edit State!!this_long_named_title_editing_state_field' text={{$:/state/Generic Search/Edit State!!this_long_named_title_editing_field}}>
+			<$action-setfield $tiddler={{$:/state/Generic Search/Edit State!!this_long_named_title_editing_state_field}} $field='title' $value={{$:/state/Generic Search/Edit State!!this_long_named_title_editing_field}}/>
+			<$action-sendmessage $message='tm-delete-tiddler' $param={{$:/state/Generic Search/Edit State!!this_long_named_title_editing_state_field}}/>
+		</$reveal>
+		<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field='this_long_named_title_editing_state_field' $value=''/>
+	</$button>
+	<$button class='tc-btn-invisible' tooltip='Cancel Edit'>
+		{{$:/core/images/cancel-button}}
+		<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field='this_long_named_title_editing_state_field' $value=''/>
+		<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field='this_long_named_title_editing_field' $value=''/>
+	</$button>
+	<$edit-text tiddler='$:/state/Generic Search/Edit State' field='this_long_named_title_editing_field'/>
+	<$button class='tc-btn-invisible' tooltip='Delete Tiddler'>
+		{{$:/core/images/delete-button}}
+		<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field='this_long_named_title_editing_state_field' $value=''/>
+		<$action-setfield $tiddler='$:/state/Generic Search/Edit State' $field='this_long_named_title_editing_field' $value=''/>
+		<$action-sendmessage $message='tm-delete-tiddler' $param=<<MatchingTitle>>/>
+	</$button>
+</$reveal>
+\end
+
+\define thisTable()
+<table>
+	<tr>
+		<th>
+			Selected
+		</th>
+		<th>
+			Tiddler<<thisHelpButton tiddler_table_column_help>>
+		</th>
+		<$reveal type='match' state='$:/temp/Generic Search and Replace/Search!!show_tags' text='' tag=th>
+			Tags<<thisHelpButton tags_table_column_help>>
+		</$reveal>
+		<$list filter='[[$:/temp/Generic Search and Replace/Search]show_fields[]]'>
+			<th>
+				Field Name<<thisHelpButton field_name_column_help>>
+				<$reveal type='nomatch' state='$:/temp/Generic Search and Replace/Search!!show_field_contents' text=false>
+					: Contents<<thisHelpButton field_contents_column_help>>
+				</$reveal>
+			</th>
+		</$list>
+	</tr>
+	<$list filter='[[$:/temp/Generic Search and Replace/Search]has[search_tag]]'>
+		<$list filter='$(IncludeSystem)$$(IncludeEmptyTiddlers)$$(IncludeSearchTiddler)$+[regexp[$(CaseSensitiveTitle)$$(TitleSearchString)$]regexp:tags[$(CaseSensitiveTags)$$(TagsSearchString)$]limit<TiddlerLimit>]+[sort[title]]' variable=MatchingTitle>
+			<<thisTableBody>>
+		</$list>
+	</$list>
+	<$list filter='[[$:/temp/Generic Search and Replace/Search]!has[search_tag]]'>
+		<$list filter='$(IncludeSystem)$$(IncludeEmptyTiddlers)$$(IncludeSearchTiddler)$+[regexp[$(CaseSensitiveTitle)$$(TitleSearchString)$]limit<TiddlerLimit>]+[sort[title]]' variable=MatchingTitle>
+			<<thisTableBody>>
+		</$list>
+	</$list>
+</table>
+\end
+
+\define thisTableRowWithFields()
+<td>
+	<<thisSelectTiddlerButton>>
+</td>
+<td>
+	<<thisRenameTiddlerButton>>
+</td>
+<$reveal type='nomatch' state='$:/temp/Generic Search and Replace/Search!!which_fields' text=all tag=tr>
+	<<thisTableRowMatchingFields>>
+</$reveal>
+<$reveal type='match' state='$:/temp/Generic Search and Replace/Search!!which_fields' text=all tag=tr>
+	<<thisTableRowAllFields>>
+</$reveal>
+\end
+
+\define thisTableTiddlersWithNoFields()
+<tr>
+	<td>
+		<<thisSelectTiddlerButton>>
+	</td>
+	<td>
+		<<thisRenameTiddlerButton>>
+	</td>
+	<$reveal type='match' state='$:/temp/Generic Search and Replace/Search!!show_tags' text='' tag=td>
+		<$set name=TagState value="""$:/temp/$(MatchingTitle)$/NewTagName""">
+			<<thisEditTags>>
+		</$set>
+	</$reveal>
+	<$reveal type='match' state='$:/temp/Generic Search and Replace/Search!!show_fields' text='' tag=td>
+		<<thisAddFieldButton>>
+	</$reveal>
+</tr>
+\end
+
+\define thisTableRowMatchingFields()
+<$reveal type='match' state='$:/temp/Generic Search and Replace/Search!!show_tags' text='' tag=td>
+	<<thisEditTags>>
+</$reveal>
+<$reveal type='match' state='$:/temp/Generic Search and Replace/Search!!show_fields' text='' tag=td>
+	<$list filter='[title<MatchingTitle>fields[]regexp[$(CaseSensitiveFields)$$(FieldSearchString)$]]$(IncludeText)$$(IncludeCreated)$$(IncludeModified)$$(IncludeType)$$(IncludeTags)$-[[title]]+[sort[title]]' variable=MatchingFields2>
+		<$list filter='[<MatchingTitle>has<MatchingFields2>get<MatchingFields2>]+[sort[title]]' variable=MatchingFieldContents>
+			''<<thisEditFieldTitleButton>>''<$reveal type='nomatch' state='$:/temp/Generic Search and Replace/Search!!show_field_contents' text=false>: <<thisEditFieldValueButton>></$reveal><br>
+			<hr>
+		</$list>
+	</$list>
+	<<thisAddFieldButton>>
+</$reveal>
+\end
+
+\define thisTableRowAllFields()
+<$reveal type='match' state='$:/temp/Generic Search and Replace/Search!!show_tags' text='' tag=td>
+	<<thisEditTags>>
+</$reveal>
+<$reveal type='match' state='$:/temp/Generic Search and Replace/Search!!show_fields' text='' tag=td>
+		<$list filter='[title<MatchingTitle>fields[]]$(IncludeText)$$(IncludeCreated)$$(IncludeModified)$$(IncludeType)$$(IncludeTags)$-[[title]]+[sort[title]]' variable=MatchingFields2>
+			''<<thisEditFieldTitleButton>>''<$reveal type='nomatch' state='$:/temp/Generic Search and Replace/Search!!show_field_contents' text=false>: <<thisEditFieldValueButton>></$reveal><br>
+			<hr>
+		</$list>
+	<<thisAddFieldButton>>
+</$reveal>
+\end
+
+\define thisTableBody()
+<$list filter='[[$:/temp/Generic Search and Replace/Search]has[field_name_search_text]]'>
+	<$list filter='[[$:/temp/Generic Search and Replace/Search]has[search_text]]'>
+		<$list filter='[title<MatchingTitle>fields[]regexp[$(CaseSensitiveFields)$$(FieldSearchString)$]]$(IncludeText)$$(IncludeCreated)$$(IncludeModified)$$(IncludeType)$$(IncludeTags)$-[[title]]+[sort[title]]+[limit[1]]' variable=MatchingFields>
+			<$list filter='[<MatchingTitle>has<MatchingFields>get<MatchingFields>]+[sort[title]]' variable=MatchingFieldContents>					
+				<<thisTableRowWithFields>>
+			</$list>
+		</$list>
+	</$list>
+	<$list filter='[[$:/temp/Generic Search and Replace/Search]!has[search_text]]'>
+		<$list filter='[title<MatchingTitle>fields[]regexp[$(CaseSensitiveFields)$$(FieldSearchString)$]]$(IncludeText)$$(IncludeCreated)$$(IncludeModified)$$(IncludeType)$$(IncludeTags)$-[[title]]+[sort[title]]+[limit[1]]' variable=MatchingFields>
+			<<thisTableRowWithFields>>
+		</$list>
+	</$list>
+</$list>
+<$list filter='[[$:/temp/Generic Search and Replace/Search]!has[field_name_search_text]]'>
+	<$list filter='[[$:/temp/Generic Search and Replace/Search]has[search_text]]'>
+		<$list filter='[title<MatchingTitle>fields[]]$(IncludeText)$$(IncludeCreated)$$(IncludeModified)$$(IncludeType)$$(IncludeTags)$-[[title]]+[sort[title]]+[limit[1]]' variable=MatchingFields>
+			<$list filter='[<MatchingTitle>has<MatchingFields>get<MatchingFields>]+[sort[title]]' variable=MatchingFieldContents>					
+				<<thisTableRowWithFields>>
+			</$list>
+		</$list>
+	</$list>
+	<$list filter='[[$:/temp/Generic Search and Replace/Search]!has[search_text]]'>
+		<$list filter='[title<MatchingTitle>fields[]]$(IncludeText)$$(IncludeCreated)$$(IncludeModified)$$(IncludeType)$$(IncludeTags)$-[[title]]+[sort[title]]+[limit[1]]' variable=MatchingFields emptyMessage=<<thisTableTiddlersWithNoFields>>>
+			<tr>
+				<td>
+					<<thisSelectTiddlerButton>>
+				</td>
+				<td>
+					<<thisRenameTiddlerButton>>
+				</td>
+				<<thisTableRowAllFields>>
+			</tr>
+		</$list>
+	</$list>
+</$list>
+\end
+
+<$vars SearchTiddler='$:/plugins/inmysocks/TiddlerTool/TiddlerTool' IncludeSearchTiddler={{$:/temp/Generic Search and Replace/Search!!include_this_tiddler}} ShowFields={{$:/temp/Generic Search and Replace/Search!!show_fields}} IncludeSystem={{$:/temp/Generic Search and Replace/Search!!include_system_tiddlers}} IncludeTags={{$:/temp/Generic Search and Replace/Search!!include_tags}} IncludeText="-[[text]]" IncludeCreated={{$:/temp/Generic Search and Replace/Search!!include_created}} IncludeModified={{$:/temp/Generic Search and Replace/Search!!include_modified}} IncludeType={{$:/temp/Generic Search and Replace/Search!!include_type}} CaseSensitiveTitle={{$:/temp/Generic Search and Replace/Search!!case_sensitive_title}} CaseSensitiveTags={{$:/temp/Generic Search and Replace/Search!!case_sensitive_tags}} CaseSensitiveFields={{$:/temp/Generic Search and Replace/Search!!case_sensitive_fields}} CaseSensitiveContents={{$:/temp/Generic Search and Replace/Search!!case_sensitive_contents}} TitleSearchString={{$:/temp/Generic Search and Replace/Search!!tiddler_search_text}} TagsSearchString={{$:/temp/Generic Search and Replace/Search!!search_tag}} FieldSearchString={{$:/temp/Generic Search and Replace/Search!!field_name_search_text}} ContentsSearchString={{$:/temp/Generic Search and Replace/Search!!search_text}} TiddlerLimit=10000>
+	<<thisTable>>
+</$vars>

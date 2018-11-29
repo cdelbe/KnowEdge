@@ -1,0 +1,14 @@
+color: #800080
+created: 20180825162905136
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: 
+modified: 20181030041614004
+modifier: Charles Delbé
+tags: $:/type/concept $:/type/knowledge
+title: Theory
+tmap.fa-icon: &#xf12e;
+tmap.id: 3f4a1e3a-df7d-4127-8728-e310959cc694
+type: text/vnd.tiddlywiki
+
+;See [[Willett (1996)]]

@@ -1,0 +1,24 @@
+caption: References
+color: #81b53b
+created: 20181028190956482
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/KnowEdge
+modified: 20181112113603836
+modifier: Charles Delbé
+tags: @:/tags/TOC $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/references/main
+type: text/vnd.tiddlywiki
+
+<<tabs 
+"
+$:/tags/@CD 
+$:/plugins/.CD/KnowEdge/references/menus 
+$:/plugins/.CD/KnowEdge/references/plugins 
+$:/plugins/.CD/KnowEdge/references/tags 
+$:/plugins/.CD/KnowEdge/references/colors  
+[[$:/plugins/.CD/KnowEdge/references/WikiText Markup]]  
+$:/plugins/TheDiveO/FontAwesome/Cheatsheet 
+$:/plugins/.CD/KnowEdge/references/Images
+" 
+"$:/tags/@CD"
+>>

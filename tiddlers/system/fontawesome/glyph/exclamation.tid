@@ -1,0 +1,14 @@
+created: 20181107181945357
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: exclamation
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f12a
+modified: 20181125084945159
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/exclamation
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-exclamation fa-10x'></i>

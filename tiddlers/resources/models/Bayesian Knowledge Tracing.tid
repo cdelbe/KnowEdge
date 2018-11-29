@@ -1,0 +1,42 @@
+aliases: BKT
+authors: 
+caption: BKT
+color: #087268
+created: 20180814205623702
+creator: Charles Delbé
+description: La représentation bayésienne des connaissances (Bayesian Knowledge Tracing; BKT) est un algorithme utilisé dans de nombreux systèmes de tutorat intelligents pour modéliser la maîtrise de chaque apprenant concernant les connaissances faisant l'objet d'un tutorat.
+icon: $:/plugins/.CD/KnowEdge/images/model
+list: [[Bayes' Theorem]] [[Learner Model]]
+modified: 20181029134526793
+modifier: Charles Delbé
+mt-source.tiddler: Bayes' Theorem
+mt-topics.list: [[Bayes' Theorem]] [[Learner Model]]
+tags: [[Knowledge Tracing]] $:/type/model $:/type/knowledge
+title: Bayesian Knowledge Tracing
+tmap.fa-icon: &#xf085;
+tmap.id: dbf9f576-f906-4c08-97b2-c1053c7c96f5
+type: text/vnd.tiddlywiki
+
+Cette approche modélise dans un [[modèle de Markov caché|Hidden Markov Model]] les connaissances et compétences des apprenants comme des [[variables latentes|Latent Variable]], mises à jour en observant l'exactitude des réponses des apprenants lors d'une évaluation dans laquelle ils appliquent la compétence en question.
+
+L'évaluation et la représentation bayésiennnes des connaissances (Bayesian Knowledge Tracing ou BKT) ([[Corbett & Anderson (1995)|]]) est une des approches phares du domaine. Cette approche de l'estimation des compétences des élèves ([[Knowledge Tracing]]) consiste à les [[évaluer|Formative Assessment]] en les regardant apprendre.
+
+BKT est un modèle structuré et hautement contraint par des hypothèses fortes. Il suppose que 1) l’état des connaissances de l'apprenant est binaire, que 2) la prédiction des performances à un exercice mettant en oeuvre une compétence donnée ne dépend que de l’état binaire des connaissances de l'apprenant et que 3) la compétence associée à chaque exercice est connue à l’avance. 
+
+!!modèle binaire de la représentation/acquisition des compétences
+BKT est basé sur une théorie binaire de l’acquisition de compétences [2] qui postule que l’état des connaissances d'un apprenant suivant le premier exercice mobilisant une compétence donnée est "vrai" si la compétence a été maîtrisée, sinon "faux". BKT, formalisé comme un modèle de Markov caché, infère cet état à partir de la séquence des réponses observées lors des tentatives
+
+!!skill-specific
+BKT modélise des performances spécifiques à des compétences, c’est-à-dire les performances à une série d’exercices qui mobilisent tous la même compétence. Une instanciation distincte de BKT est faite pour chaque compétence, et la séquence des réponses observées pouir un élève donné est décomposée en sous-séquences de compétences spécifiques qui préservent l’ordre relatif de ces exercices.
+
+!!prédiction de séries chronologiques
+En fin de compte, cette mesure de l'apprentissage simule la capacité des élèves à appliquer les compétences qui leur ont été enseignées. Par conséquent, la modélisation des apprenants est souvent formalisée comme une prédiction de séries chronologiques : compte tenu de la série d’exercices qu’un élève a déjà tenté et de la réussite ou de l’échec de l'élève à chaque exercice, ces modèles prédisent la probabilité de réussite de l'apprenant face à un nouvel exercice.
+
+!!Bayesial Networks
+*[[Cours : Introduction aux Réseaux Bayésiens|https://perso.liris.cnrs.fr/amille/enseignements/Master_PRO/TIA/RBayesiens/Intro_RB.pdf]]
+
+;Voir aussi
+:[[Inférence bayésienne|Bayesian Inference]]
+
+!!References
+https://en.wikipedia.org/wiki/Bayesian_Knowledge_Tracing

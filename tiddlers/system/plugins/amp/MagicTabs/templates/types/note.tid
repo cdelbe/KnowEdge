@@ -1,0 +1,14 @@
+about: 
+color: #FFA500
+created: 20150124150601521
+creator: Alberto Molina Pérez
+description: 
+icon: $:/plugins/amp/MagicTabs/images/note
+modified: 20181125002606693
+modifier: Charles Delbé
+mt-source.parents.list: 
+mt-source.tiddler: 
+tags: $:/type/note
+title: $:/plugins/amp/MagicTabs/templates/types/note
+type: text/vnd.tiddlywiki
+

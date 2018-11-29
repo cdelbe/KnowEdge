@@ -1,0 +1,14 @@
+created: 20181107181949284
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Quidditch
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f458
+modified: 20181125084948652
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/quidditch
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-quidditch fa-10x'></i>

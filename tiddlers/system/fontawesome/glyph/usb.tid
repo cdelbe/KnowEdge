@@ -1,0 +1,14 @@
+created: 20181107181959179
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: USB
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f287
+modified: 20181125084950569
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/usb
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-usb fa-10x'></i>

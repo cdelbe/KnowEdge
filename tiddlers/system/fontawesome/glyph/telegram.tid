@@ -1,0 +1,14 @@
+created: 20181107181950482
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Telegram
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f2c6
+modified: 20181125084950011
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/telegram
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-telegram fa-10x'></i>

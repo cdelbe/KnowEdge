@@ -1,0 +1,52 @@
+aliases: [[Test-Enhanced Learning]]
+authors: 
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: [[Knowledge Tracing]] Feedback
+modified: 20181022111801021
+modifier: Charles Delbé
+mt-topics.list: [[Knowledge Tracing]] [[Feedback]]
+tags: [[Instructional Strategy]] Assessment $:/type/concept
+title: Formative Assessment
+tmap.fa-icon: &#xf12e;
+tmap.id: f4192895-017b-4ca6-8e44-5748840feccf
+type: text/vnd.tiddlywiki
+
+> L'évaluation formative permet de prendre conscience par la correction des ''connaissances et compétences à améliorer'', qui peuvent être incomplètes ou erronées. Elle permet également de ''consolider les connaissances acquises''.
+
+
+!!Evaluation des connaissances
+L'objectif des évaluations formatives est de déterminer/sonder les connaissances acquises ou en cours d'acquisition, les connaissances partiellement acquises et à renforcer, et les connaissances non acquises à acquérir.
+
+;See also
+:[[Knowledge Tracing]]
+
+!!!Amélioration de l'apprentissage
+Des travaux expérimentaux ([[Roediger & Karpicke (2006): Test-Enhanced Learning: Taking Memory Tests Improves Long-Term Retention.]]) ainsi que des méta-analyses récentes (Rowland, 2014) montrent également que l'évaluation formative permet de faire progresser plus facilement les apprenants (particulièrement les plus faibles) et plus efficacement que l'[[Evaluation sommative]]. 
+
+<<<
+L'évaluation formative devient ''constitutive'' du processus d'apprentissage.
+<<<
+
+!!!Origines de l'effet
+Des ''exercices fréquents'' sont efficaces car en répondant régulièrement à des questions, ''l'apprenant vérifie'' s'il a vraiment compris le sujet grâce à des [[retours d'information correctifs|Feedback]]. Des ''explications associées'' lui permettent alors de réajuster ses connaissances. Par ailleurs, répondre à un exercice demande à l'apprenant de faire un ''effort de récupération en mémoire'' de l'information pertinente pour générer une réponse (Roediger & Karpicke, 2006). Mis en oeuvre tout au long de l'apprentissage, cet effort cognitif permet une ''consolidation des séquences de raisonnement/cheminement'' menant à cette information, tout en multipliant le nombre de ces séquences possibles pour une récupération ultérieure en mémoire (Rowland, 2014).
+
+!!!Effet du Feedback
+"Par ailleurs, quand l'évaluation est ''suivie d'un [[retour|Feedback]]'' sur les réponses données et les erreurs commises, l'effet bénéfique de l'évaluation est renforcé [?3?]. En permettant à l'apprenant de faire le point sur l'état de ses connaissances, l'évaluation avec rétroactions contribue ainsi à corriger ''l'illusion de maîtrise'' et à améliorer l'apprentissage"
+
+!!!S'auto-tester
+''Se tester'' soi-même de façon ''régulière'' est une des stratégies les plus importantes lors d'un apprentissage. Il a en effet été montré que les évaluations ''renforçaient l'apprentissage''. 
+
+*en utilisant des [[cartes flash]]
+*en se posant des questions pendant que l'on marche
+*en essayant de résoudre des problèmes, sans chercher les réponses avant d'avoir terminé
+
+---
+* Paul Black, Dylan Wiliam, Inside the black box: Raising standards through classroom assessment, 1998
+* [1] Roediger H. L.III, Karpicke J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17, 249–255.
+* [2] Rowland C. A. (2014). The effect of testing versus restudy on retention: a meta-analytic review of the testing effect. Psychol. Bull, 140, 1432–1463.
+* [3] Moulton, C. A. E., Dubrowski, A., ~MacRae, H., Graham, B., Grober, E., & Reznick, R. (2006). Teaching surgical skills: what kind of practice makes perfect?: a randomized, controlled trial. Annals of surgery, 244(3), 400.
+
+*https://cft.vanderbilt.edu/guides-sub-pages/test-enhanced-learning-using-retrieval-practice-to-help-students-learn/

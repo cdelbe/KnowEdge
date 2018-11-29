@@ -1,0 +1,14 @@
+created: 20180811231215759
+creator: Charles Delbé
+icon: $:/SiteLogo
+modified: 20181105202137836
+modifier: Charles Delbé
+tags: 
+title: $:/SiteLogo
+tmp: 
+type: text/vnd.tiddlywiki
+
+<!--{{$:/plugins/.CD/KnowEdge/images/logo_msk_wiki}}-->
+{{images/brains/03}}
+<!--{{$:/plugins/.CD/KnowEdge/images/KnowEdge}}-->
+<!--{{$:/plugins/.CD/KnowEdge/images/favicon.ico}}-->

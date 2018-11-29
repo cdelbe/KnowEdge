@@ -1,0 +1,31 @@
+created: 20181023103908756
+creator: Charles Delbé
+list: 
+modified: 20181109200837209
+modifier: Charles Delbé
+tags: $:/tags/viewsource $:/tags/Macro $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/macros/list
+type: text/vnd.tiddlywiki
+
+\define list-links-tags(filter, exclude)
+	<$list filter="$filter$">
+		<dd><$link to={{!!title}}><$view field="title"/></$link></dd>
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		<$list filter="[all[current]tags[]sort[]] $exclude$" template="$:/core/ui/TagTemplate"></$list>
+		<$list filter="[list[!!mt-topics.list]] $exclude$" template="$:/core/ui/TagTemplate"></$list>
+		<br/>
+	</$list>
+\end
+
+\define list-links-title(filter,type:"ul",subtype:"li",class:"",emptyMessage)
+	<$type$ class="$class$">
+		<$list filter="$filter$" emptyMessage=<<__emptyMessage__>>>
+			<$subtype$>
+				<$link to={{!!title}}>
+					<$transclude tiddler={{!!icon}}/>
+					<$view field="title"/>
+				</$link>
+			</$subtype$>
+		</$list>
+	</$type$>
+\end

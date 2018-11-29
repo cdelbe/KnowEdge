@@ -1,0 +1,14 @@
+created: 20181107181943001
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: 500px
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f26e
+modified: 20181125084942725
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/500px
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-500px fa-10x'></i>

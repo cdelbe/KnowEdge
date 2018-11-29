@@ -1,0 +1,11 @@
+created: 20150106011534872
+creator: Alberto Molina Pérez
+icon: $:/plugins/.CD/KnowEdge/images/magic
+modified: 20181107193024945
+modifier: Charles Delbé
+tags: MagicTabs $:/action/hide/tags $:/type/dashboard $:/action/hide/tabs $:/favorite
+title: MagicTabs
+tmap.id: 6b652f40-9eee-4ce9-ada6-d38126324a6c
+type: text/vnd.tiddlywiki
+
+{{$:/plugins/amp/MagicTabs/dashboard}}

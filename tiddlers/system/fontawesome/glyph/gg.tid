@@ -1,0 +1,14 @@
+created: 20181107181946144
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: GG Currency
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f260
+modified: 20181125084945930
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/gg
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-gg fa-10x'></i>

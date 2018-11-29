@@ -1,0 +1,21 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #681224
+created: 20181029190610589
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/bookmark
+list: [[Knowledge Space Theory]] Aleks
+modified: 20181108012415492
+modifier: Charles Delbé
+mt-authors.title: Aleks
+mt-publication.citation: Knowledge Space Theory in Aleks
+mt-publication.date: 2018
+mt-publication.title: Knowledge Space Theory in Aleks
+mt-topics.list: [[Knowledge Space Theory]] Aleks
+tags: $:/type/bookmark $:/tags/@CD
+title: Aleks (2018)
+tmap.fa-icon: &#xf097;
+tmap.id: 538f1d58-f1e2-4d01-bad8-59bad512bdc3
+type: text/vnd.tiddlywiki
+url: https://www.aleks.com/about_aleks/knowledge_space_theory
+
+ 

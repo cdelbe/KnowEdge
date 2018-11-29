@@ -1,0 +1,34 @@
+authors: [[Thomas Bayes]]
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: [[Conditional Probabilities]] [[Statistical Learning]]
+modified: 20181015044012661
+modifier: Charles Delbé
+mt-topics.list: [[Conditional Probabilities]] [[Statistical Learning]]
+tags: $:/type/concept $:/type/knowledge
+title: Bayes' Theorem
+tmap.fa-icon: &#xf12e;
+tmap.id: d19763c4-4bb8-4bd9-8b3b-f56b5539c5da
+type: text/vnd.tiddlywiki
+
+!Définition
+<<<
+Bayes' theorem is a formula that describes how to update the probabilities of hypotheses when given evidence. It follows simply from the axioms of conditional probability, but can be used to powerfully reason about a wide range of problems involving belief updates.
+<<<
+
+Le théorème de Bayes est une formule qui décrit comment mettre à jour les probabilités d’hypothèses lorsque des preuves sont fournies. Il découle simplement des axiomes de la probabilité conditionnelle, mais peut être utilisé pour raisonner puissamment sur un large éventail de problèmes impliquant des mises à jour de croyances.
+
+Given a hypothesis H and evidence E, Bayes' theorem states that the relationship between the probability of the hypothesis before getting the evidence P(H) and the probability of the hypothesis after getting the evidence P(H|E) is:
+
+[img[figures/bayes_formulae_1.png]]
+
+De nombreuses techniques modernes [[d'apprentissage automatique|Machine Learning]] reposent sur le théorème de Bayes. Par exemple, les filtres anti-spam utilisent un algorithme bayésien pour déterminer si un courrier électronique est réel ou non, en fonction des mots contenus dans ce courrier.
+
+!Références
+*https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_de_Bayes
+*[[Bayes' Theorem and Conditional Probability|https://brilliant.org/wiki/bayes-theorem/]]
+*[[An Intuitive (and Short) Explanation of Bayes’ Theorem|https://betterexplained.com/articles/an-intuitive-and-short-explanation-of-bayes-theorem/]]
+
+

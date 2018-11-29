@@ -1,0 +1,14 @@
+created: 20181107181947970
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: MRT
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f3c8
+modified: 20181125084947727
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/medrt
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-medrt fa-10x'></i>

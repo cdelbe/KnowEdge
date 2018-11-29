@@ -1,0 +1,14 @@
+created: 20181107181945989
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Galactic Senate
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f50d
+modified: 20181125084945981
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/galactic-senate
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-galactic-senate fa-10x'></i>

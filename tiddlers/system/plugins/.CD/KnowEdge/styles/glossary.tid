@@ -1,0 +1,36 @@
+created: 20180729060343528
+creator: Charles Delbé
+list-after: 
+modified: 20181029034603482
+modifier: Charles Delbé
+tags: $:/tags/config $:/tags/Stylesheet $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/styles/glossary
+tmap.id: d8d45223-d0e8-4704-82c3-fc0e20843256
+type: text/vnd.tiddlywiki
+
+.list-item-links {
+    /*margin-left: 20px;*/
+    font-style: italic;
+    color: #999;
+}
+.glossary-item {
+    display: inline-block;
+    margin-bottom: 0em;
+    margin-top: 0.5em;
+}
+.glossary-related-list {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    margin: 0px 0px 0px 0px;
+    margin-bottom: 10px;
+}
+.glossary-abstract,
+.glossary-description {
+    font-size: 0.9em;
+    color: <<colour secondary>>;
+    text-align: justify;
+}
+.glossary-related {
+    font-size: 0.9em;
+    color: #aaa;
+}

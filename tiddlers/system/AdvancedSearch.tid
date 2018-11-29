@@ -1,0 +1,23 @@
+caption: Search
+color: #bbb
+created: 20181029142211183
+creator: Charles Delbé
+icon: $:/core/images/advanced-search-button
+list: 
+modified: 20181109233938776
+modifier: Charles Delbé
+tab-pos: 60
+tags: $:/tags/@CD $:/tags/@CD/tweaked $:/tags/SideBar
+title: $:/AdvancedSearch
+type: text/vnd.tiddlywiki
+
+<div class="tc-advanced-search">
+	<$edit-text tiddler="$:/temp/advancedsearch" type="search" tag="input" focus={{$:/config/Search/AutoFocus}} class="tc-popup-handle" placeholder="Enter Search Terms Here..."/>
+	<$reveal state="$:/temp/advancedsearch" type="nomatch" text="">
+		<$button class="tc-btn-invisible">
+			<$action-setfield $tiddler="$:/temp/advancedsearch" text="" />
+			{{$:/core/images/close-button}}
+		</$button>
+	</$reveal>
+	<<tabs "[all[shadows+tiddlers]tag[$:/tags/AdvancedSearch]!has[draft.of]]" "$:/core/ui/AdvancedSearch/System" class="tc-vertical">>
+</div>

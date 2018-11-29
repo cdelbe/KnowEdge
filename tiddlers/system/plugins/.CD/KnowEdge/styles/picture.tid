@@ -1,0 +1,39 @@
+created: 20181024024147515
+creator: Charles Delbé
+modified: 20181112011315310
+modifier: Charles Delbé
+tags: $:/tags/@CD $:/tags/Stylesheet
+title: $:/plugins/.CD/KnowEdge/styles/picture
+tmap.id: 0f2ba505-3d31-4547-87b8-56efa691785e
+type: text/vnd.tiddlywiki
+
+<pre>/* A right side picture */
+.post-container {
+    margin: 20px 20px 0 0;  
+}
+.post-container ul,
+.post-container ol {
+	/*display: inline-block;*/ /* casse les listes dans les docs MD */
+}
+.post-thumb {
+    float: left;
+}
+.post-thumb img {
+    display: block;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+.post-content > ul,
+.post-content > ol {
+	display: inline-block;
+}
+.post-info {
+    display: inline;
+}
+.post-title {
+    font-weight: bold;
+    font-size: 200%;
+    padding: 9px;
+    background: #ccc
+}
+</pre>

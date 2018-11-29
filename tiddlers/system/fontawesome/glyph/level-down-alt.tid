@@ -1,0 +1,14 @@
+created: 20181107181947370
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Alternate Level Down
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f3be
+modified: 20181125084947373
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/level-down-alt
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-level-down-alt fa-10x'></i>

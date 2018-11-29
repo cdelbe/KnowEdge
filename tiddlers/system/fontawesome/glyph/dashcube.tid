@@ -1,0 +1,14 @@
+created: 20181107181944973
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: DashCube
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f210
+modified: 20181125084944858
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/dashcube
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-dashcube fa-10x'></i>

@@ -1,0 +1,14 @@
+created: 20181107182001942
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: User Plus
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f234
+modified: 20181125084950575
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/user-plus
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-user-plus fa-10x'></i>

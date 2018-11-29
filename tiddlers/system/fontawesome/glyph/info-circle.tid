@@ -1,0 +1,14 @@
+created: 20181107181947158
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Info Circle
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f05a
+modified: 20181125084947018
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/info-circle
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-info-circle fa-10x'></i>

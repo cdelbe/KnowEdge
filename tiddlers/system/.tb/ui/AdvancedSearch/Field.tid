@@ -1,0 +1,53 @@
+caption: In Fields
+created: 20141231095518178
+creator: Tobias Beer
+list-before: $:/core/ui/AdvancedSearch/Filter
+modified: 20181109171827037
+modifier: Charles Delbé
+tags: $:/tags/@CD/tweaked $:/tags/AdvancedSearch
+title: $:/.tb/ui/AdvancedSearch/Field
+type: text/vnd.tiddlywiki
+
+\define searchInField(field, for, ci)
+<$list filter="[!is[shadow]!is[system]regexp:$field$[$for$$ci$]limit[1]]">
+<dt>$field$</dt>
+</$list>
+
+<$list filter="[!is[shadow]!is[system]regexp:$field$[$for$$ci$]]">
+<dd><$link><$view field="title"/></$link></dd>
+</$list>
+\end
+
+<style>.tc-advanced-search-check input {width:auto !important;}</style>
+
+<div class="tc-search">
+<div style="margin-bottom: 5px;">''Field:''&nbsp;<$select field="field" tiddler="$:/temp/advancedsearch" default="">
+<option value="">*any</option>
+<$list filter="[!is[shadow]!is[system]fields[]sort[]]" variable="field">
+<option value=<<field>>><<field>></option>
+</$list>
+</$select>
+</div>
+<span class="tc-advanced-search-check">
+<$checkbox field="case-insensitive" tiddler="$:/temp/advancedsearch" checked="(?i)" default="(?i)"> case insensitive</$checkbox></span>
+<hr>
+</div>
+
+<$reveal state="$:/temp/advancedsearch" type="nomatch" text="">
+<$reveal state="$:/temp/advancedsearch!!field" type="match" text="">
+<dl>
+<$list filter="[!is[shadow]!is[system]fields[]]" variable="field">
+
+<$reveal type=nomatch text=text default=<<field>>>
+<$macrocall $name="searchInField" field=<<field>> for={{$:/temp/advancedsearch}} ci={{$:/temp/advancedsearch!!case-insensitive}}/>
+</$reveal>
+</$list>
+</dl>
+</$reveal>
+<$reveal state="$:/temp/advancedsearch!!field" type="nomatch" text="">
+
+<dl>
+<$macrocall $name="searchInField" field={{$:/temp/advancedsearch!!field}} for={{$:/temp/advancedsearch}} ci={{$:/temp/advancedsearch!!case-insensitive}}/>
+</dl>
+</$reveal>
+</$reveal>

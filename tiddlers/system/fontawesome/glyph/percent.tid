@@ -1,0 +1,14 @@
+created: 20181107181948906
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Percent
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f295
+modified: 20181125084948262
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/percent
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-percent fa-10x'></i>

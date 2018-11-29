@@ -1,0 +1,14 @@
+created: 20181107181947977
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Microsoft
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f3ca
+modified: 20181125084947894
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/microsoft
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-microsoft fa-10x'></i>

@@ -1,0 +1,14 @@
+created: 20181107181946222
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Golf Ball
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f450
+modified: 20181125084946223
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/golf-ball
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-golf-ball fa-10x'></i>

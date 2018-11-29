@@ -1,0 +1,26 @@
+alias: |Test|Évaluation|
+authors: 
+color: #800080
+created: 20150129213814630
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+modified: 20181024133100404
+modifier: Charles Delbé
+mt-topics.list: 
+description: Évaluation effectuée par les enseignants pour mesurer les progrès des apprenants par rapport aux objectifs pédagogiques du cours.
+tags: $:/type/concept $:/type/knowledge
+title: Assessment
+tmap.fa-icon: &#xf12e;
+tmap.id: dddeb9c9-3673-4bbe-bd8e-707ce6dcaed5
+type: text/vnd.tiddlywiki
+
+!Definition
+
+!Modalités de l'évaluation
+* [[Diagnostique|Diagnostic Assessment]]
+* [[Pronostique|Pronostic Assessment]]
+* [[Formative|Formative Assessment]]
+* [[Sommative|Sommative Assessment]]
+
+;Voir aussi
+:[[Docimologie]]

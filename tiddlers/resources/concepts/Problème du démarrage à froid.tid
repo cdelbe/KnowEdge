@@ -1,0 +1,18 @@
+aliases: [[learner cold-start]]
+color: #800080
+created: 20180825162905136
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: 
+modified: 20181024125422971
+modifier: Charles Delbé
+tags: $:/type/concept $:/type/knowledge
+title: Cold-start Problem
+tmap.fa-icon: &#xf12e;
+tmap.id: 7af01485-12c5-4dd8-b3d5-898164976aaf
+type: text/vnd.tiddlywiki
+
+Le développement de ''méthodes de mesures simples et rapides de l’efficacité'' d’un apprenant dans un domaine de connaissance donné est une problématique importante des [[systèmes d’apprentissage|Learning Management System]] [[adaptatifs|Adaptive Learning]] personnalisés. Contrairement aux méthodes traditionnelles et chronophages d'évaluation des connaissances des apprenants, ces mesures doivent permettre une évaluation rapide, automatique et en temps réel des progrès de l'apprentissage.
+
+
+Au début d'une session d'apprentissage, il faut explorer de façon approfondie le savoir de l'apprenant afin ''d'identifier ses connaissances latentes'', en utilisant ''le moins de questions possible''. Comme le note [[Desmarais & Baker (2012): “A Review of Recent Advances in Learner and Skill Modeling in Intelligent Learning Environments”]], le rapport entre les informations déduites concernant les connaissances de l'apprenant et l'ampleur de cette évaluation est particulièrement critique pour les systèmes qui couvrent un large éventail de compétences. Il n'est en effet pas acceptable de soumettre des questions pendant des heures avant que l'évaluation soit utile. C'est un ''problème de démarrage à froid'', où il faut déterminer si l'apprenant maitrise les prérequis du cours, et éventuellement ses points faibles et forts.

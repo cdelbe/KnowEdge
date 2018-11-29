@@ -1,0 +1,25 @@
+abstract: 
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181029163512592
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/blogpost
+list: 
+modified: 20181029164441893
+modifier: Charles Delbé
+mt-authors.title: Jones
+mt-publication.citation: Jones, A. D. (2018). Interpreting Knewton’s 2017 Student Mastery Results. [Blog post]. Retrieved from https://www.knewton.com/mastery/interpreting-knewtons-2017-student-mastery-results/
+mt-publication.date: 2018
+mt-publication.subtitle: 
+mt-publication.title: Interpreting Knewton’s 2017 Student Mastery Results
+mt-source.authors.list: [[Andrew D. Jones]]
+mt-topics.list: 
+tags: Knewton @:/type/blogpost $:/type/publication
+title: Jones (2018)
+tmap.fa-icon: &#xf1fa;
+tmap.id: 969e1a4f-0cab-4a5d-a1ca-ce2a40446c8f
+type: text/vnd.tiddlywiki
+url: https://www.knewton.com/mastery/interpreting-knewtons-2017-student-mastery-results/
+
+:[[2017 Student Data Insights|https://www.knewton.com/wp-content/uploads/2018/09/Knewtons-alta-2017-Student-Data-Insights.pdf]]
+ 

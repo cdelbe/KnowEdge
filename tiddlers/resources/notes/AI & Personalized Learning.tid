@@ -1,0 +1,20 @@
+about: 
+color: #FFA500
+created: 20180725153952278
+creator: Charles Delbé
+description: 
+icon: $:/plugins/.CD/KnowEdge/images/note
+list: 
+modified: 20181017012505532
+modifier: Charles Delbé
+mt-source.parents.list: 
+mt-source.root: 
+mt-source.tiddler: AI and Education
+mt-topics.list: 
+tags: [[Personalized Learning]] [[Artificial Intelligence]] $:/type/note
+title: AI & Personalized Learning
+tmap.fa-icon: &#xf044;
+tmap.id: 31836bff-9d32-412a-b14b-9ea9937394e7
+type: text/vnd.tiddlywiki
+
+L'[[IA|?]] est une composante clé du concept d'[[apprentissage personnalisé|Personalized Learning]], où chaque élève suit un programme d'étude unique basé sur ses intérêts et aptitudes particuliers. L'IA peut en effet non seulement aider les enfants à se concentrer sur les domaines où ils sont le plus susceptibles de réussir, mais aussi, sur la base des données de milliers d'autres élèves, aider les enseignants à mettre en oeuvre la [[stratégie pédagogique|Instructional Strategy]] la plus pertinente. 

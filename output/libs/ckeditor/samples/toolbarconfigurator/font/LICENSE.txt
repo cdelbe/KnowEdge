@@ -1,0 +1,74 @@
+created: 20181108075032870
+creator: Charles Delbé
+modified: 20181108075032870
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\toolbarconfigurator\font\LICENSE.txt
+tmap.id: ba263b67-dd91-4c7d-90ca-6df4e6099d07
+type: text/plain
+
+created: 20181108074509454
+creator: Charles Delbé
+modified: 20181108074509454
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\toolbarconfigurator\font\LICENSE.txt
+tmap.id: bf9d8d9e-8f99-4b7c-a2cb-f7af94d47739
+type: text/plain
+
+created: 20181108074214507
+creator: Charles Delbé
+modified: 20181108074214507
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\toolbarconfigurator\font\LICENSE.txt
+tmap.id: 8d07af98-ea80-46aa-89cb-1fa67d29680b
+type: text/plain
+
+created: 20181108073418231
+creator: Charles Delbé
+modified: 20181108073418231
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\toolbarconfigurator\font\LICENSE.txt
+tmap.id: 73ab3ca4-d919-488d-ae87-cb7844ffbf06
+type: text/plain
+
+created: 20181108070529478
+creator: Charles Delbé
+modified: 20181108070529478
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\toolbarconfigurator\font\LICENSE.txt
+tmap.id: ed97ace9-35f7-4970-aeb1-4c11259caf39
+type: text/plain
+
+created: 20181108070319356
+creator: Charles Delbé
+modified: 20181108070319356
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\toolbarconfigurator\font\LICENSE.txt
+tmap.id: 9af02056-861d-4846-8cd3-dc0e58ed7121
+type: text/plain
+
+created: 20181108063935239
+creator: Charles Delbé
+modified: 20181108063935239
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\toolbarconfigurator\font\LICENSE.txt
+tmap.id: 7a3e3277-e19c-4ae9-bd18-b1ed442fe823
+type: text/plain
+
+created: 20181108063817864
+creator: Charles Delbé
+modified: 20181108063817864
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\ckeditor\samples\toolbarconfigurator\font\LICENSE.txt
+tmap.id: 1f5b3e92-b8c9-440b-b606-08acf0149b87
+type: text/plain
+
+Font license info
+
+
+## Font Awesome
+
+   Copyright (C) 2012 by Dave Gandy
+
+   Author:    Dave Gandy
+   License:   SIL ()
+   Homepage:  http://fortawesome.github.com/Font-Awesome/

@@ -1,0 +1,18 @@
+created: 20180729060343528
+creator: Charles Delbé
+list-after: 
+modified: 20181108004919024
+modifier: Charles Delbé
+tags: $:/tags/Stylesheet $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/styles/body
+tmap.id: d8d45223-d0e8-4704-82c3-fc0e20833056
+tmp: \rules only filteredtranscludeinline transcludeinline macrodef macrocallinline html
+type: text/vnd.tiddlywiki
+
+<pre><$reveal type="match" state=<<@get-cfg-field "ke-body-justify">> text="yes">
+.tiddler-header-url p,
+.tc-preview-tiddler p,
+.tc-tiddler-frame .tc-tiddler-body p {
+    text-align: justify;
+}
+</$reveal></pre>

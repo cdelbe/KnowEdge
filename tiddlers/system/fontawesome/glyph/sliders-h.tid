@@ -1,0 +1,14 @@
+created: 20181107181949959
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Horizontal Sliders
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f1de
+modified: 20181125084949333
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/sliders-h
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-sliders-h fa-10x'></i>

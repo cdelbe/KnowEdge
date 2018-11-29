@@ -1,0 +1,14 @@
+created: 20181107181948928
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Phone Volume
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f2a0
+modified: 20181125084948375
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/phone-volume
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-phone-volume fa-10x'></i>

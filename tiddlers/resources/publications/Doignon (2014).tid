@@ -1,0 +1,23 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181025160043774
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: [[Knowledge Space Theory]] [[Learning Space]] [[Knowledge Space]] Aleks
+modified: 20181026211339399
+modifier: Charles Delbé
+mt-authors.title: Doignon
+mt-publication.citation: Doignon, J. P. (2014, June). Learning spaces, and how to build them. In //International Conference on Formal Concept Analysis// (pp. 1-14). Springer, Cham.
+mt-publication.date: 2014
+mt-publication.subtitle: 
+mt-publication.title: Learning Spaces, and How to Build them
+mt-source.authors.list: [[Jean-Paul Doignon]]
+mt-topics.list: [[Knowledge Space Theory]] [[Learning Space]] [[Knowledge Space]] Aleks
+abstract: In Knowledge Space Theory (KST), a knowledge structure encodes a body of information as a domain, consisting of all the relevant pieces of information, together with the collection of all possible states of knowledge, identified with specific subsets of the domain. Knowledge spaces  and  learning  spaces  are  defined  through  pedagogically  natural requirements on the collection of all states. ''We explain here several ways of building in practice such structures on a given domain''. In passing we point out some connections linking KST with Formal Concept Analysis (FCA).
+tags: @:/type/proceedings $:/type/publication
+title: Doignon (2014)
+tmap.fa-icon: &x#f0f6;
+tmap.id: d7642737-4d20-4898-ae2c-62b703ab93aa
+type: text/vnd.tiddlywiki
+url: https://www.researchgate.net/publication/264947348_Learning_Spaces_and_How_to_Build_Them
+

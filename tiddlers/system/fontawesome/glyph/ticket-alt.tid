@@ -1,0 +1,14 @@
+created: 20181107181955740
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Alternate Ticket
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f3ff
+modified: 20181125084950127
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/ticket-alt
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-ticket-alt fa-10x'></i>

@@ -1,0 +1,9 @@
+created: 20181021214407826
+creator: Charles Delbé
+modified: 20181106175528234
+modifier: Charles Delbé
+tags: $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/ui/menu/bookmarks/dropdown
+type: text/vnd.tiddlywiki
+
+<<makeTopMenu type:"$:/type/bookmark" template:"$:/plugins/.CD/KnowEdge/templates/types/bookmark">>

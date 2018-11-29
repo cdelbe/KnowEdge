@@ -1,0 +1,12 @@
+caption: {{$:/core/images/menu-button}}
+created: 20181017174832628
+creator: Charles Delbé
+custom-menu-content: <a href="#" class="tc-dropdown-trigger" data-dropdown-title="$:/plugins/.CD/KnowEdge/ui/menu/TOC/dropdown">{{$:/plugins/.CD/KnowEdge/images/menu}}</a>
+dropdown: $:/plugins/.CD/KnowEdge/ui/menu/TOC/dropdown
+menu-pos: 1
+modified: 20181102102742189
+modifier: Charles Delbé
+tags: $:/tags/@CD $:/tags/Static/TopMenu $:/tags/TopMenu
+title: $:/plugins/.CD/KnowEdge/ui/menu/TOC
+type: text/vnd.tiddlywiki
+

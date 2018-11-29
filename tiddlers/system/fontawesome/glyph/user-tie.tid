@@ -1,0 +1,14 @@
+created: 20181107182001985
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: User Tie
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f508
+modified: 20181125084950714
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/user-tie
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-user-tie fa-10x'></i>

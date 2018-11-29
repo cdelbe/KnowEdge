@@ -1,0 +1,14 @@
+created: 20181107182002139
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: What's App
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f232
+modified: 20181125084950946
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/whatsapp
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-whatsapp fa-10x'></i>

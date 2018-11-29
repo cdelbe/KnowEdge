@@ -1,0 +1,14 @@
+created: 20181107182001920
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: User Astronaut
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f4fb
+modified: 20181125084950543
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/user-astronaut
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-user-astronaut fa-10x'></i>

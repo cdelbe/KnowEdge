@@ -1,0 +1,14 @@
+created: 20181107181955568
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Toggle On
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f205
+modified: 20181125084950225
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/toggle-on
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-toggle-on fa-10x'></i>

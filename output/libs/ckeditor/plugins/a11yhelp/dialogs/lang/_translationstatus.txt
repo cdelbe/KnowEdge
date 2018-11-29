@@ -1,0 +1,89 @@
+created: 20181108075031035
+creator: Charles Delbé
+modified: 20181108075031035
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\a11yhelp\dialogs\lang\_translationstatus.txt
+tmap.id: 32471b4e-8cd9-4184-a2b5-05e000b64c36
+type: text/plain
+
+created: 20181108074507505
+creator: Charles Delbé
+modified: 20181108074507505
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\a11yhelp\dialogs\lang\_translationstatus.txt
+tmap.id: cdc4337b-3364-4e91-9af9-485bcbd546cb
+type: text/plain
+
+created: 20181108074212684
+creator: Charles Delbé
+modified: 20181108074212684
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\a11yhelp\dialogs\lang\_translationstatus.txt
+tmap.id: 416b1c1a-50ff-4c59-9103-5bd969556ec9
+type: text/plain
+
+created: 20181108073416288
+creator: Charles Delbé
+modified: 20181108073416288
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\a11yhelp\dialogs\lang\_translationstatus.txt
+tmap.id: 40fa51c2-c234-4d12-bc3d-b34b66fc59ab
+type: text/plain
+
+created: 20181108070527082
+creator: Charles Delbé
+modified: 20181108070527082
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\a11yhelp\dialogs\lang\_translationstatus.txt
+tmap.id: 8ae77963-c3b2-4733-a261-eb86e2a55e61
+type: text/plain
+
+created: 20181108070317612
+creator: Charles Delbé
+modified: 20181108070317612
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\a11yhelp\dialogs\lang\_translationstatus.txt
+tmap.id: 9309a77e-adcc-4a06-8589-e532f3274705
+type: text/plain
+
+created: 20181108063932970
+creator: Charles Delbé
+modified: 20181108063932970
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\a11yhelp\dialogs\lang\_translationstatus.txt
+tmap.id: eeb557bc-0fa7-4796-8bf6-7cf352efddb9
+type: text/plain
+
+created: 20181108063816059
+creator: Charles Delbé
+modified: 20181108063816059
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\ckeditor\plugins\a11yhelp\dialogs\lang\_translationstatus.txt
+tmap.id: d500bd62-ee77-4816-8c14-4d3c00bb5575
+type: text/plain
+
+Copyright (c) 2003-2018, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
+
+cs.js      Found: 30 Missing: 0
+cy.js      Found: 30 Missing: 0
+da.js      Found: 12 Missing: 18
+de.js      Found: 30 Missing: 0
+el.js      Found: 25 Missing: 5
+eo.js      Found: 30 Missing: 0
+fa.js      Found: 30 Missing: 0
+fi.js      Found: 30 Missing: 0
+fr.js      Found: 30 Missing: 0
+gu.js      Found: 12 Missing: 18
+he.js      Found: 30 Missing: 0
+it.js      Found: 30 Missing: 0
+mk.js      Found: 5 Missing: 25
+nb.js      Found: 30 Missing: 0
+nl.js      Found: 30 Missing: 0
+no.js      Found: 30 Missing: 0
+pt-br.js   Found: 30 Missing: 0
+ro.js      Found: 6 Missing: 24
+tr.js      Found: 30 Missing: 0
+ug.js      Found: 27 Missing: 3
+vi.js      Found: 6 Missing: 24
+zh-cn.js   Found: 30 Missing: 0

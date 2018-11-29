@@ -1,0 +1,14 @@
+created: 20181107181950435
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Table Tennis
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f45d
+modified: 20181125084949991
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/table-tennis
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-table-tennis fa-10x'></i>

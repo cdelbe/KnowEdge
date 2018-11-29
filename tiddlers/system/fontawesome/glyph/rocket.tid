@@ -1,0 +1,14 @@
+created: 20181107181949441
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: rocket
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f135
+modified: 20181125084948953
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/rocket
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-rocket fa-10x'></i>

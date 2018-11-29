@@ -1,0 +1,22 @@
+created: 20181102124552008
+creator: Charles Delbé
+modified: 20181102124807485
+modifier: Charles Delbé
+tags: $:/tags/Macro
+title: $:/.tb/macros/date-version
+type: text/vnd.tiddlywiki
+
+\define date-version(tiddler)
+<$view tiddler="$tiddler$"
+field="modified"
+format="date"
+template="YYYY-0MM-0DD-0hh-0mm-0ss"/>
+\end
+
+''Example: ''
+
+```
+> [[$:/.tb/macros/date-version]] - v.<<date-version "$:/.tb/macros/date-version">>
+```
+
+> [[$:/.tb/macros/date-version]] - v.<<date-version "$:/.tb/macros/date-version">>

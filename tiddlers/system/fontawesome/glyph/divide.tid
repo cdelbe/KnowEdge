@@ -1,0 +1,14 @@
+created: 20181107181945085
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Divide
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f529
+modified: 20181125084945027
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/divide
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-divide fa-10x'></i>

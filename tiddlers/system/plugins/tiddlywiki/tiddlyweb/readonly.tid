@@ -1,0 +1,39 @@
+created: 20181030132937955
+creator: Charles Delbé
+modified: 20181030140221059
+modifier: Charles Delbé
+tags: $:/tags/Stylesheet
+title: $:/plugins/tiddlywiki/tiddlyweb/readonly
+type: text/vnd.tiddlywiki
+
+\define button-selector(title)
+button.$title$, .tc-drop-down button.$title$, div.$title$
+\end
+
+\define hide-edit-controls()
+<$reveal state="$:/status/IsReadOnly" type="match" text="yes" default="yes">
+<<button-selector tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Fclone>>`,`
+<<button-selector tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Fdelete>>`,`
+<<button-selector tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Fedit>>`,`
+<<button-selector tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Fnew-here>>`,`
+<<button-selector tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Fnew-journal-here>>`,`
+<<button-selector tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Fimport>>`,`
+<<button-selector tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Fmanager>>`,`
+<<button-selector tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Fnew-image>>`,`
+<<button-selector tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Fnew-journal>>`,`
+<<button-selector tc-btn-new-from-template>>`,`
+<<button-selector btn-slider-input>>`,`
+<<button-selector tc-btn-new>>`,`
+<<button-selector btn-new-type>>`,`
+<<button-selector btn-new-tab>>`,` 
+<<button-selector tc-btn-\%24\%3A\%2Fplugins\%2Famp\%2FMagicTabs\%2Fbutton\%2FnewJournalHere>>`,`
+<<button-selector tc-btn-\%24\%3A\%2Fplugins\%2Ftongerner\%2Ftoolbar\%2Fbuttons\%2Ftoggle-tagging>>`,`
+<<button-selector tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Fnew-tiddler>> `{
+	display: none!important;
+}`
+</$reveal>
+\end
+
+\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline macrocallblock
+
+<<hide-edit-controls>>

@@ -1,0 +1,44 @@
+aliases: échafaudage étayage
+authors: [[J. S. Bruner]]
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: [[Cognitive Development]] [[Zone of Proximal Development]]
+modified: 20181022053534548
+modifier: Charles Delbé
+mt-topics.list: [[Cognitive Development]] [[Zone of Proximal Development]]
+tags: [[Instructional Strategy]] $:/type/concept $:/type/knowledge
+title: Scaffolding
+tmap.fa-icon: &#xf12e;
+tmap.id: cafa7f91-af85-4b1c-9d9a-941a8b601d8e
+type: text/vnd.tiddlywiki
+
+!Définition
+
+<<<
+The concept of scaffolding ([[Bruner (1983): “Le développement de l’enfant: Savoir faire, savoir dire.”]]) is closely related to the [[ZPD|?]], although [[Vygotsky|Lev Vygotsky]] himself never mentioned the term; instead, scaffolding was developed by other sociocultural theorists applying Vygotsky's ZPD to educational contexts. ''Scaffolding is a process through which a teacher or more competent peer gives aid to the student in her/his ZPD as necessary, and tapers off this aid as it becomes unnecessary, much as a scaffold is removed from a building during construction.'' "Scaffolding refers to the way the adult guides the child's learning via focused questions and positive interactions."
+<<<
+
+
+L’étayge est un processus par lequel un enseignant ou un pair plus compétent apporte l’aide nécessaire à l’élève dans sa [[Zone Proximale de Développement|Zone of Proximal Development]], et diminue cette aide au fur et à mesure qu’elle devient inutile.
+
+* Rendre la tâche (motrice, sociale, langagière, cognitive, etc.) plus facile pour l’enfant grâce à de l’aide (structuration des lieux et des activités, intervention éducative) 
+
+@@.note
+Le niveau d’assistance diminue graduellement à mesure que l’apprenant prend plus de responsabilités quant à l’exécution de la tâche... et la ''ZPD change!'' ([[Bodrova & Leong (2011)|Bodrova & Leong (2011): “Les outils de la pensée.”]])
+@@
+
+* Questionner l’apprenant
+* Le faire réfléchir 
+* Soulever ses erreurs de logique (créer un conflit cognitif) 
+* Faire une partie de la tâche qui est plus difficile pour lui 
+* Lui demander comment il a procédé 
+
+@@.note
+Etayer l'apprentissage grâce à des [[indices|Hints]], à des [[rétroactions|Feedback]] spécifiques à la réponse donnée et à des explications pertinentes et opportunes.
+@@
+
+!Réferences
+*http://www.rcpeqc.org/files/file/Presentation_caroline_bouchard_ZPD.pdf
+*http://www4.ac-nancy-metz.fr/ien57yutz/IMG/pdf/Le_concept_d_etayage.pdf (PPT)

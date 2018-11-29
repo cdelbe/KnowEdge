@@ -1,0 +1,14 @@
+created: 20181107181945116
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Digital Ocean
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f391
+modified: 20181125084945060
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/digital-ocean
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-digital-ocean fa-10x'></i>

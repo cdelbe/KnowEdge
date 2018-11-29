@@ -1,0 +1,14 @@
+created: 20181107181948686
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: OpenID
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f19b
+modified: 20181125084948145
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/openid
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-openid fa-10x'></i>

@@ -1,0 +1,25 @@
+caption: Nasar, S. (2016). Knowledge Space Framework: An API for representation, persistence and visualization of knowledge spaces. arXiv preprint arXiv:1612.02111.
+color: #b21a2c
+created: 20180916153759218
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: [[Knowledge Space Theory]] API [[external Adaptive Learning Systems]] [[Intelligent Tutoring Systems]]
+modified: 20181026010653882
+modifier: Charles Delbé
+mt-authors.title: Nasar
+mt-publication.citation: Nasar, S. (2016). Knowledge Space Framework: An API for representation, persistence and visualization of knowledge spaces. arXiv preprint arXiv:1612.02111.
+mt-publication.date: 2016
+mt-publication.issue: 
+mt-publication.journal: arXiv:1612.02111
+mt-publication.title: Knowledge Space Framework: An API for representation, persistence and visualization of knowledge spaces
+mt-publication.volume: 
+mt-source.authors.list: [[Syed Nasar]]
+mt-topics.list: [[Knowledge Space Theory]] API [[external Adaptive Learning Systems]] [[Intelligent Tutoring Systems]]
+abstract: This paper will discuss the challenges in tooling around the management and utilization of  knowledge space structures, via standardized APIs for external Adaptive Learning Systems  (ALS) to consume. It then describes how these challenges are addressed in a graph based  knowledge management framework application designed for external ALSs.
+tags: @:/type/article $:/type/publication
+title: Nasar (2016)
+tmap.fa-icon: &x#f0f6;
+tmap.id: 2dfae8c1-c3b7-4cf4-9695-1774ca1b8948
+type: text/vnd.tiddlywiki
+url: https://arxiv.org/abs/1612.02111
+

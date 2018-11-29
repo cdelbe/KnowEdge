@@ -1,0 +1,20 @@
+caption: DRAFT
+created: 20181024082152958
+creator: Charles Delbé
+modified: 20181113102332108
+modifier: Charles Delbé
+tags: $:/tags/viewsource $:/tags/ViewTemplate $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/ui/ViewTemplate/DRAFT
+type: text/vnd.tiddlywiki
+
+<$list filter="[<currentTiddler>tag[@:/tags/DRAFT]]">
+	<div class="github-fork-ribbon-wrapper left"><div class="github-fork-ribbon"><a href="#">DRAFT</a></div></div>
+	<style> 
+		.tc-tagged-\%40\%3A\%2Ftags\%2FDRAFT .tc-subtitle,
+		.tc-tagged-\%40\%3A\%2Ftags\%2FDRAFT .breadcrumbs,
+		.tc-tagged-\%40\%3A\%2Ftags\%2FDRAFT .tc-titlebar {
+			width: 85%!important;
+			margin: auto; 
+		}
+    </style>    
+</$list>

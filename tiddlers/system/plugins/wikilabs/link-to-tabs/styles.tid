@@ -1,0 +1,45 @@
+created: 20181124235235242
+creator: Charles Delbé
+modified: 20181124235703981
+modifier: Charles Delbé
+tags: $:/tags/Stylesheet
+title: $:/plugins/wikilabs/link-to-tabs/styles
+type: text/vnd.tiddlywiki
+
+<pre>
+
+.wltc-link-to-tab {
+  display: {{$:/plugins/wikilabs/link-to-tabs/config!!show-all-links}};
+  position: relative;
+  top: -1em;
+  left: -1.3em;
+  font-size: 0.7em;
+  opacity: 0.1;
+  margin-right: -1em;
+}
+
+.wltc-link-to-tab svg{
+  width: 1.4em;
+  height: 1.4em;
+}
+
+.wltc-link-to-tab:hover {
+  opacity: 1;
+}
+
+.tc-tab-selected:hover + .wltc-link-to-tab {
+  opacity: 1;
+}
+
+.tc-tab-selected + .wltc-link-to-tab {
+  display: {{$:/plugins/wikilabs/link-to-tabs/config!!show-single-link}};
+}
+
+.tc-vertical > .wltc-link-to-tab {
+  top: -1.9em;
+  left: 0;
+  height: 0;
+  float: right;
+}
+
+</pre>

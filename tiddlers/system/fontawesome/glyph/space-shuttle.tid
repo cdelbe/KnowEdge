@@ -1,0 +1,14 @@
+created: 20181107181950070
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Space Shuttle
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f197
+modified: 20181125084949475
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/space-shuttle
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-space-shuttle fa-10x'></i>

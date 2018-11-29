@@ -1,0 +1,14 @@
+created: 20181107182002184
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: WiFi
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f1eb
+modified: 20181125084950920
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/wifi
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-wifi fa-10x'></i>

@@ -1,0 +1,14 @@
+created: 20181107182002272
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Zhihu
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f63f
+modified: 20181125084951165
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/zhihu
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-zhihu fa-10x'></i>

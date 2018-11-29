@@ -1,0 +1,14 @@
+created: 20181107181945873
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Firefox
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f269
+modified: 20181125084945714
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/firefox
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-firefox fa-10x'></i>

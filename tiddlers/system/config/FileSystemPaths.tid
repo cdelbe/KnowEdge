@@ -1,0 +1,27 @@
+created: 20180729173917654
+creator: Charles Delbé
+modified: 20181113131048778
+modifier: Charles Delbé
+revision: 1
+tags: $:/tags/@CD $:/tags/@CD/tweaked
+title: $:/config/FileSystemPaths
+type: text/vnd.tiddlywiki
+
+[suffix[.pdf]addprefix[./resources/]]
+[suffix[.png]addprefix[resources/]]
+[suffix[.jpg]addprefix[resources/]]
+[suffix[.PDF]addprefix[resources/]]
+[suffix[.PNG]addprefix[resources/]]
+[suffix[.JPG]addprefix[resources/]]
+
+[has[draft.of]addprefix[drafts/]]
+
+[prefix[@:/]removeprefix[@:/]addprefix[system/plugins/.CD/KnowEdge/]] 
+[prefix[@:/tags/]removeprefix[@:/]addprefix[tags/]]
+[prefix[@:/type/]removeprefix[@:/]addprefix[type/]]
+
+[prefix[$:/]removeprefix[$:/]addprefix[system/]]
+[prefix[$:/tags/]removeprefix[$:/]addprefix[tags/]]
+[prefix[$:/config/]removeprefix[$:/]addprefix[config/]]
+
+[tag[Reference]addprefix[resources/references/]]

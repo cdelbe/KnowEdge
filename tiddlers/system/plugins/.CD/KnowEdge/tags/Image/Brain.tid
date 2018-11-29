@@ -1,0 +1,34 @@
+caption: Brain Images
+color: #81b53b
+created: 20181102133729830
+creator: Charles Delbé
+description: Show a grid of all system images tagged <<tag @:/tags/Image/Brain>>.
+icon: $:/plugins/.CD/KnowEdge/images/KnowEdge
+modified: 20181107162820682
+modifier: Charles Delbé
+tags: $:/tags/@CD
+title: @:/tags/Image/Brain
+tmap.id: 5668b5e8-0121-47fe-b3fb-c95b578a7b9a
+type: text/vnd.tiddlywiki
+
+<style>
+  .my-brain-img-gallery img,
+  .my-brain-img-gallery svg,
+  .my-brain-img-gallery i
+  {
+	font-size: 6em;
+	/*width: 1em;*/
+	height: 1em;
+	margin: 14px;
+	padding-top: 0;
+  }
+  .my-brain-img-gallery i { }
+</style>
+
+<div class="my-brain-img-gallery">
+	<$list filter="[all[tiddlers+shadows]tag[@:/tags/Image/Brain]sort[title]]">
+		<span title=<<currentTiddler>>>
+			<$transclude/>
+		</span>
+	</$list>
+</div>

@@ -1,0 +1,55 @@
+aliases: [[Spacing Effect]]
+authors: [[Hermann Ebbinghaus]]
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+description: Le renforcement espacé (également appelé renforcement ou apprentissage distribué) est une méthode d'apprentissage dans laquelle de nouvelles connaissances sont acquises, tandis que les connaissances précédemment enseignées sont renforcées.
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: Memory [[Forgetting Curve]]
+modified: 20181029193216321
+modifier: Charles Delbé
+mt-source.tiddler: Instructional Strategy
+mt-topics.list: [[Memory]] [[Forgetting Curve]]
+tags: @:/tags/DRAFT [[Instructional Strategy]] $:/type/concept $:/type/knowledge
+title: Spaced Reinforcement
+tmap.fa-icon: &#xf12e;
+tmap.id: 8a79e52b-e948-480f-9ea9-84a53022ca36
+type: text/vnd.tiddlywiki
+
+!L'acquisition d'une compétence est un processus qui s'étale dans le temps
+De nombreuses études ont montré que le travail en session ''massée'' (travailler beaucoup et d'un seul coup) est moins efficace en terme de mémorisation à long terme que celui en sessions ''espacées'' (e.g., [[Cepeda et al. (2006)|]]). Ce phénomène est connu sous le nom d'''effet d'espacement'' (Spaced Repetition Effect; [[Ebbinghaus (1885)|]]).
+
+
+Pour qu'une trace en [[mémoire à long-terme|Memory]] soit renforcée et consolidée, la répartition des sessions d'apprentissage et de révision doit en effet ''s'étaler dans le temps''. Ces périodes peuvent s'étendre sur quelques jours pour l'encodage d'informations simples (Moulton et coll., 2006) et aller jusqu'à plusieurs mois ou années pour l'encodage d'informations plus complexes (Hattie, 2008).
+
+!L’ancrage durable des connaissances par le renforcement espacé
+La distribution espacée dans le temps des mises en pratiques et des révisions favorise l'ancrage mémoriel. Cet effet est extrêmement puissant.
+
+<<<
+Le ''renforcement espacé'' (également appelé renforcement ou apprentissage ''distribué'') est une méthode d'apprentissage dans laquelle ''de nouvelles connaissances sont acquises'', tandis que les ''connaissances précédemment enseignées sont renforcées''. Cette stratégie utilise l'effet d'espacement qu'[[Ebbinghaus|Hermann Ebbinghaus]] a démontré dans de son étude sur la robustesse de la mémoire.
+<<<
+
+Comme le nouveau contenu pédagogique est introduit ''progressivement'' et ''entrelacé'' dans un matériel familier, le renforcement espacé se produit généralement sur ''une longue période''. Le renforcement espacé permet aux recommandations des systèmes adaptatifs d'aider les apprenants à acquérir des compétences de manière cumulative, compétences qui restent assimilées et mobilisables une fois qu'elles sont acquises.
+
+@@.note
+The [[Spacing Effect]] is one of the strongest effects in the memory literature. 
+@@
+
+@@.note
+There are a few studies where the similarity between repetitions is very minimal. These studies show that when the participants don’t realize they’re seeing a repetition, spacing stops being beneficial. ''Spacing helps when you are studying something repeatedly, but there’s no evidence that it helps when each learning session involves different materials (e.g., different chapters).''
+@@
+
+---
+:Moulton, C. A. E., Dubrowski, A., ~MacRae, H., Graham, B., Grober, E., & Reznick, R. (2006). Teaching surgical skills: what kind of practice makes perfect?: a randomized, controlled trial. //Annals of surgery//, 244(3):400.
+
+:Hattie, J. (2008). //Visible learning: A synthesis of over 800 meta-analyses relating to achievement//. Routledge.
+
+:<<tag Mathematics>> : Yazdani, M. A., & Zebrowski, E. (2006). Spaced reinforcement: An effective approach to enhance the achievement in plane geometry. //Journal of Mathematical Sciences and Mathematics Education//, 1(3), 37-43. http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.560.6510&rep=rep1&type=pdf
+
+:[[L'effet de spacing ou comment garantir un apprentissage durable|https://www.didask.com/blog/articles/effet-spacing-apprentissage-durable]]
+
+:[[How Does Spaced Repetition Impact Memory?|http://blog.mindmarker.com/spaced-repetition]]
+
+:[[Forgetting, Remembering and Applying Training|https://blog.mindmarker.com/reinforcement-much-ebbinghaus-curve/]]
+
+:[[L’ancrage des connaissances : passez de l’information à la formation !|http://rh.sia-partners.com/lancrage-des-connaissances-passez-de-linformation-la-formation]]

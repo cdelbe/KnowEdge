@@ -1,0 +1,14 @@
+created: 20181107181943286
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: ban
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f05e
+modified: 20181125084942771
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/ban
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-ban fa-10x'></i>

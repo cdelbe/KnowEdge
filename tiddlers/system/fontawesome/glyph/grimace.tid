@@ -1,0 +1,14 @@
+created: 20181107181946384
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Grimacing Face
+fa-style-classes: fas far
+fa-styles: solid regular
+fa-unicode: f57f
+modified: 20181125084946111
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/grimace
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-grimace fa-10x'></i>

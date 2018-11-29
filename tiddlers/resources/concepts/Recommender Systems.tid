@@ -1,0 +1,23 @@
+authors: 
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: 
+modified: 20180925175506448
+modifier: Charles Delbé
+tags: EdTechs $:/type/concept $:/type/knowledge
+title: Recommender Systems
+tmap.fa-icon: &#xf12e;
+tmap.id: fe0e3da2-76ce-4191-85f1-099a4803f174
+type: text/vnd.tiddlywiki
+
+Vie et al, 2018<<ref "1">> :
+
+''Recommender systems'' are another tool to aggregate data about users in order to recommend ''relevant resources'' (such as movies, products). They are increasingly used in technology-enhanced learning research as a core objective of learning analytics (Chatti et al. 2012, Manouselis et al. 2011, Verbert et al. 2011). Most recommender systems rely on [[Collaborative Filtering]], a method that makes automated ''predictions about the interests'' of a user, based on information ''collected from many users''. The intuition is that a user may like items that similar users have liked in the past. 
+
+There are open research questions on how algorithms and methods have to be adapted from the field of commercial recommendations.
+Still, we believe that existing techniques can be applied to [[Adaptive Assessment]].
+
+<hr>
+<<footnotes "1" "[[Vie et al. (2018): “Automated Test Assembly for Handling Learner Cold-Start in Large-Scale Assessments.”]]">>

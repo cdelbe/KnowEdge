@@ -1,0 +1,130 @@
+created: 20181108075032519
+creator: Charles Delbé
+modified: 20181108075032519
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\wsc\dialogs\ciframe.html
+tmap.id: 488fe951-da45-4a2c-9568-78a3a8f63e68
+type: text/html
+
+created: 20181108074509229
+creator: Charles Delbé
+modified: 20181108074509229
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\wsc\dialogs\ciframe.html
+tmap.id: 0f8d5a60-2700-4374-9c61-b24632c72912
+type: text/html
+
+created: 20181108074214083
+creator: Charles Delbé
+modified: 20181108074214083
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\wsc\dialogs\ciframe.html
+tmap.id: 77e34eb9-bbe3-4aa1-b3a9-730595b23524
+type: text/html
+
+created: 20181108073417880
+creator: Charles Delbé
+modified: 20181108073417880
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\wsc\dialogs\ciframe.html
+tmap.id: 83c7e659-bc92-4f76-ab61-55f7119506a8
+type: text/html
+
+created: 20181108070528104
+creator: Charles Delbé
+modified: 20181108070528104
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\wsc\dialogs\ciframe.html
+tmap.id: f98cfaa9-449d-4e13-85f5-c11d51d509f0
+type: text/html
+
+created: 20181108070319122
+creator: Charles Delbé
+modified: 20181108070319123
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\wsc\dialogs\ciframe.html
+tmap.id: 341d6b75-94b2-446f-ac9e-c6a7e6c183c4
+type: text/html
+
+created: 20181108063934890
+creator: Charles Delbé
+modified: 20181108063934890
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\wsc\dialogs\ciframe.html
+tmap.id: cda4127f-d09a-43cb-9459-bd02becfeb73
+type: text/html
+
+created: 20181108063817634
+creator: Charles Delbé
+modified: 20181108063817634
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\ckeditor\plugins\wsc\dialogs\ciframe.html
+tmap.id: dd65c0a5-d37e-4e2d-a935-8e780ac5aead
+type: text/html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!--
+Copyright (c) 2003-2015, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.html or http://ckeditor.com/license
+-->
+<html>
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript">
+
+function gup( name )
+{
+	name = name.replace( /[\[]/, '\\\[' ).replace( /[\]]/, '\\\]' ) ;
+	var regexS = '[\\?&]' + name + '=([^&#]*)' ;
+	var regex = new RegExp( regexS ) ;
+	var results = regex.exec( window.location.href ) ;
+
+	if ( results )
+		return results[ 1 ] ;
+	else
+		return '' ;
+}
+
+var interval;
+
+function sendData2Master()
+{
+	var destination = window.parent.parent ;
+	try
+	{
+		if ( destination.XDTMaster )
+		{
+			var t = destination.XDTMaster.read( [ gup( 'cmd' ), gup( 'data' ) ] ) ;
+			window.clearInterval( interval ) ;
+		}
+	}
+	catch (e) {}
+}
+
+function OnMessage (event) {
+	        var message = event.data;
+	        var destination = window.parent.parent;
+	        destination.XDTMaster.read( [ 'end', message, 'fpm' ] ) ;
+}
+
+function listenPostMessage() {
+    if (window.addEventListener) { // all browsers except IE before version 9
+            window.addEventListener ("message", OnMessage, false);
+    }else {
+            if (window.attachEvent) { // IE before version 9
+                        window.attachEvent("onmessage", OnMessage);
+                }
+        }
+}
+
+function onLoad()
+{
+	interval = window.setInterval( sendData2Master, 100 );
+	listenPostMessage();
+}
+
+</script>
+</head>
+<body onload="onLoad()"><p></p></body>
+</html>

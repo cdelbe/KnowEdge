@@ -1,8 +1,0 @@
-created: 20150116173854421
-creator: Tobias Beer
-modified: 20180819230617330
-modifier: Charles Delbé
-title: $:/config/Hide/TagButtons
-type: text/vnd.tiddlywiki
-
-+[!is[system]] +[MagicTabs]

@@ -1,0 +1,36 @@
+authors: [[Georg Rasch]]
+color: #087268
+created: 20180814205623702
+creator: Charles Delbé
+description: The Rasch model is the probability model which promotes interaction between an item and a student.
+icon: $:/plugins/.CD/KnowEdge/images/model
+list: Assessment
+modified: 20180917142912727
+modifier: Charles Delbé
+mt-topics.list: [[Assessment]]
+description: The Rasch model is the probability model which promotes interaction between an item and a student.
+tags: [[Knowledge Tracing]] $:/type/model $:/type/knowledge
+title: Rasch Model
+tmap.fa-icon: &#xf085;
+tmap.id: 680a0a47-cb7d-49e9-8fe0-d8cf1ab19f1b
+type: text/vnd.tiddlywiki
+
+!Definition
+The Rasch model, named after [[Georg Rasch]], is a family of ''psychometric models'' for creating measurements from categorical data, such as answers to questions on a ''reading assessment'' or questionnaire responses, as a function of the trade-off between 
+
+* (a) the respondent's abilities, attitudes, or personality traits and
+* (b) the item difficulty<<ref "wikipedia">>.
+
+They may be used to estimate a student's [[reading ability|?]].
+
+The mathematical theory underlying Rasch models is a special case of [[IRT|?]] and, more generally, a special case of a [[Generalized Linear Model]]. However, there are important differences in the interpretation of the model parameters and its philosophical implications that separate proponents of the Rasch model from the item response modeling tradition (see Wikipedia). 
+
+[img[Test characteristic curve showing the relationship between total score on a test and person location estimate|https://upload.wikimedia.org/wikipedia/en/6/6b/TCC.PNG]]
+Test characteristic curve showing the relationship between total score on a test and person location estimate.
+
+!References
+*https://en.wikipedia.org/wiki/Rasch_model
+*[[Modèles de la réponse à un item (MRI): le cas particulier du modèle développé par Rash à propos d'items dichotomiques (cours, PPT)|http://iredu.u-bourgogne.fr/images/stories/Documents/Cours_disponibles/Demeuse/Cours/p5.5.pdf]]
+
+---
+<<footnotes "wikipedia" "https://en.wikipedia.org/wiki/Rasch_model">>

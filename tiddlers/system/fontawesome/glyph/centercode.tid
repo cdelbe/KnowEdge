@@ -1,0 +1,14 @@
+created: 20181107181944193
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Centercode
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f380
+modified: 20181125084943586
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/centercode
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-centercode fa-10x'></i>

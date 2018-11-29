@@ -1,0 +1,23 @@
+created: 20181125084824478
+creator: Charles Delbé
+modified: 20181125084938713
+modifier: Charles Delbé
+tags: 
+title: $:/plugins/TheDiveO/FontAwesome/delete-tags
+tmap.id: ab7c4489-fd78-4f56-a5bd-5e1f527d41a0
+type: text/vnd.tiddlywiki
+
+\define concat() .fa-$(tag)$
+
+<$button>
+<$list filter="[prefix[$:/fontawesome/glyph/]]">
+<$fieldmangler>
+<!--<em>''<<currentTiddler>>''</em><br/>-->
+	<$list filter="[all[current]split:list=tags[]]" variable="tag">
+		<$action-sendmessage $message="tm-remove-tag" $param=<<tag>>/>
+	</$list>
+    <$action-sendmessage $message="tm-add-tag" $param=".fa"/>
+</$fieldmangler>
+</$list>
+START
+</$button>

@@ -1,0 +1,14 @@
+created: 20181107181943598
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Bible
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f647
+modified: 20181125084943448
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/bible
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-bible fa-10x'></i>

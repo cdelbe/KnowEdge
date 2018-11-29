@@ -1,0 +1,27 @@
+caption: <span class='tc-tab-buttons' title={{$:/language/SideBar/Favorites/Caption}}>{{$:/plugins/ajh/favorites/image}}</span><span class='tc-favorites-hidden'>{{$:/language/SideBar/Favorites/Caption}}</span>
+created: 20181024081101265
+creator: Charles Delbé
+modified: 20181024081104702
+modifier: Charles Delbé
+tab-pos: 0
+tags: $:/tags/SideBar
+title: $:/plugins/ajh/favorites/SideBar
+type: text/vnd.tiddlywiki
+
+\define drop-actions()
+<$action-listops $tiddler='$:/plugins/ajh/favorites/list' $subfilter='+[insertbefore:currentTiddler<actionTiddler>]'/>
+\end
+
+<$list filter='[list[$:/plugins/ajh/favorites/list]]'>
+<div style='position: relative;'>
+<$droppable actions=<<drop-actions>>>
+<div class='tc-droppable-placeholder'>
+&nbsp;
+</div>
+<div>
+ <$link to={{!!title}}>
+<$view field='caption'><$view field='title'/></$view></$link>
+</div>
+</$droppable>
+</div>
+</$list>

@@ -1,0 +1,14 @@
+created: 20181107182002106
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Weibo
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f18a
+modified: 20181125084950975
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/weibo
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-weibo fa-10x'></i>

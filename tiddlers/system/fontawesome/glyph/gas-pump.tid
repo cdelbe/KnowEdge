@@ -1,0 +1,14 @@
+created: 20181107181945979
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Gas Pump
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f52f
+modified: 20181125084945967
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/gas-pump
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-gas-pump fa-10x'></i>

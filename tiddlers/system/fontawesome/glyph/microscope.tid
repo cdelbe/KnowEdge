@@ -1,0 +1,14 @@
+created: 20181107181947981
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Microscope
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f610
+modified: 20181125084947773
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/microscope
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-microscope fa-10x'></i>

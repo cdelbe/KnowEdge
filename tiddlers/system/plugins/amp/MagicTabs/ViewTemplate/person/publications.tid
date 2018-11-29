@@ -1,0 +1,25 @@
+created: 20140616154022572
+creator: Alberto Molina Pérez
+list-before: $:/plugins/amp/MagicTabs/ViewTemplate/TabsBar
+modified: 20181108093829698
+modifier: Charles Delbé
+tags: $:/tags/ViewTemplate $:/plugins/amp/MagicTabs/reading
+title: $:/plugins/amp/MagicTabs/ViewTemplate/person/publications
+type: text/vnd.tiddlywiki
+
+\define publicationsList()
+<$list filter="[all[current]!is[system]tag[$:/type/author]]">
+    <$list filter="[all[current]listed[]tag[$:/type/publication]!has[draft.of]] [all[current]listed[mt-source.authors.list]tag[$:/type/publication]!has[draft.of]] +[sort[mt-publication.date]]">
+        <br>— <$link to={{!!title}}><$transclude tiddler={{!!icon}}/><$view field="mt-publication.title"/> (<$view field="mt-publication.date"/>)</$link>
+    </$list>
+</$list>
+\end
+
+<$reveal type="nomatch" state=<<folded-state>> text="hide" tag="div" retain="yes" animate="yes">
+<div class="tag-list-item text-grey">
+    <$list filter="[all[current]listed[mt-source.authors.list]tag[$:/type/publication]] +[limit[1]]">
+       Publications :
+    </$list>
+    <<publicationsList>>
+</div>
+</$reveal>

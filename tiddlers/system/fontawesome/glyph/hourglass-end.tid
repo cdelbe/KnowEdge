@@ -1,0 +1,14 @@
+created: 20181107181947010
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Hourglass End
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f253
+modified: 20181125084946765
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/hourglass-end
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-hourglass-end fa-10x'></i>

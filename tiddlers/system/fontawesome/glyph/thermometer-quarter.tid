@@ -1,0 +1,14 @@
+created: 20181107181955780
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Thermometer 1/4 Full
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f2ca
+modified: 20181125084950159
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/thermometer-quarter
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-thermometer-quarter fa-10x'></i>

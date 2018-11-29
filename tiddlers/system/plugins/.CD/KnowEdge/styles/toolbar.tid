@@ -1,0 +1,67 @@
+button-color: #aaa
+button-hover-color: #fff
+button-size: 1.25em
+created: 20150721080358195
+creator: TonGerner
+list-after: $:/themes/tiddlywiki/vanilla/base
+menus-font-size: 1.75m
+menus-scroll-height: 400px
+modified: 20181104222045327
+modifier: Charles Delbé
+tags: $:/tags/Stylesheet $:/tags/@CD
+tiddler-button-size: 0.75em
+tiddler-button-spacing: 2px
+tiddler-padding-top: 20px
+title: $:/plugins/.CD/KnowEdge/styles/toolbar
+toolbar-button-spacing: 5px
+toolbar-left: 10px
+toolbar-top: 10px
+type: text/vnd.tiddlywiki
+
+<pre>/* TOOLBAR */
+.tc-topbar  { 
+     color: {{!!button-color}};
+}
+/* TOPBAR BUTTONS COLOR */
+nav.tc-top-menu > ul > li > a, 
+nav.tc-top-menu > ul > li > button {
+     color: {{!!button-color}};
+}
+
+.tc-topbar button svg {
+     fill: {{!!button-color}};
+     height: {{!!button-size}};
+     width: {{!!button-size}};
+}
+
+.tc-topbar button:hover:not(.tc-selected) svg {
+     fill:{{!!button-hover-color}};
+}
+
+/* SPACE BETWEEN TOOLBAR BUTTONS */
+.tc-topbar button {
+     padding: 4px {{!!toolbar-button-spacing}};
+}
+
+/* TOP BAR LEFT/TOP */
+.tc-topbar-left {
+     left: {{!!toolbar-left}};
+     top: {{!!toolbar-top}};
+}
+
+/* TOP BAR RIGHT/TOP */
+.tc-topbar-right {
+     top: {{!!toolbar-top}};
+}
+
+/* SIZE OF TIDDLER CONTROL BUTTONS */
+html .tc-tiddler-controls button svg {
+     /*height: {{!!tiddler-button-size}};*/
+}
+
+/* SPACE BETWEEN TIDDLER CONTROL BUTTONS */
+.tc-titlebar .tc-tiddler-controls button {
+     margin-left: {{!!tiddler-button-spacing}};
+}
+
+</pre>

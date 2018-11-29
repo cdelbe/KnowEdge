@@ -1,0 +1,25 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180916190237715
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/blogpost
+list: UX/UI [[Cognitive Development]]
+modified: 20181029102209359
+modifier: Charles Delbé
+mt-authors.title: Beddingfield
+mt-publication.citation: Liu, F. (2018). Design for Kids Based on Their Stage of Physical Development. [Blog post]
+mt-publication.date: 2018
+mt-publication.issue: 
+mt-publication.journal: Nielsen Norman Group
+mt-publication.title: Design for Kids Based on Their Stage of Physical Development
+mt-publication.volume: 
+mt-source.authors.list: [[Feifei Liu]]
+mt-topics.list: UX/UI [[Cognitive Development]]
+abstract: As kids’ physical development throughout childhood changes, so do their physical abilities, constraints, and device preferences. Touch gestures such as swiping and tapping big targets are easy for all children, but fine mouse or trackpad gestures such as dragging are hard for young kids.
+tags: @:/type/blogpost $:/type/publication
+title: Liu (2018)
+tmap.fa-icon: &#xf1fa;
+tmap.id: 4d455b0b-e6e9-46c4-b726-85cf761d5ee8
+type: text/vnd.tiddlywiki
+url: https://www.nngroup.com/articles/children-ux-physical-development/
+

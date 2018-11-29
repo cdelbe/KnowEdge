@@ -1,0 +1,23 @@
+_canonical_uri: http://users.aspete.gr/kpapanikolaou/papers/CP-ICTAI07.pdf
+abstract: In this paper we present a web-based group formation tool that supports the instructor to automatically create both homogeneous and heterogeneous groups based on up to three criteria and the learner to negotiate the grouping. Moreover, the instructor is allowed to manually group learners based on specific criteria. A discriminative feature of this tool is the use of the Fuzzy C-Means algorithm for homogeneous grouping, which provides for each learner the probability of belonging to different groups. This information is also provided to the instructor to support him/her in manually exchanging learners or intervening in the initial grouping. Moreover, the learners are informed for the groups formed and they are allowed to negotiate their group assignment. Preliminary evaluation results provide indications for the efficiency of the proposed approach in forming homogeneous and heterogeneous groups in a real context.
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181014230135786
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: [[Learning Group Formation]]
+modified: 20181109182134712
+modifier: Charles Delbé
+mt-authors.title: Christodoulopoulos & Papanikolaou
+mt-publication.citation: Christodoulopoulos, C. E., & Papanikolaou, K. A. (2007). A group formation tool in an e-learning context. In Tools with Artificial Intelligence, 2007. ICTAI 2007. 19th IEEE International Conference on (Vol. 2, pp. 117-123). IEEE.
+mt-publication.date: 2007
+mt-publication.subtitle: 
+mt-publication.title: A Group Formation Tool in a E-Learning Context
+mt-source.authors.list: [[C. E. Christodoulopoulos]] [[K. A. Papanikolaou]]
+mt-topics.list: [[Learning Group Formation]]
+tags: @:/type/article @:/tags/pdf $:/type/publication
+title: Christodoulopoulos & Papanikolaou (2007)
+tmap.fa-icon: &x#f0f6;
+tmap.id: 3fd65d33-adeb-427c-b917-ac953c8a9e12
+type: application/pdf
+url: http://users.aspete.gr/kpapanikolaou/papers/CP-ICTAI07.pdf

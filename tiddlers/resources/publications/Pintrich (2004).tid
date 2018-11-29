@@ -1,0 +1,23 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181028144455067
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: Self-Regulation Motivation [[Learning Strategies]] [[College Students]]
+modified: 20181028144818661
+modifier: Charles Delbé
+mt-authors.title: Pintrich
+mt-publication.citation: Pintrich, P. R. (2004). A conceptual framework for assessing motivation and self-regulated learning in college students. Educational psychology review, 16(4), 385-407.
+mt-publication.date: 2004
+mt-publication.subtitle: 
+mt-publication.title: A Conceptual Framework for Assessing Motivation and Self-Regulated Learning in College Students
+mt-source.authors.list: [[P. R. Pintrich]]
+mt-topics.list: [[Self-Regulation]] [[Motivation]] [[Learning Strategies]] [[College Students]]
+abstract: A conceptual framework for assessing student motivation and self-regulated learning in the college classroom is presented. The framework is based on a self-regulatory (SRL) perspective on student motivation and learning in contrast to a student approaches to learning (SAL) perspective. The differences between SRL and SAL approaches are discussed, as are the implications of the SRL conceptual framework for developing instruments to assess college student motivation and learning. The conceptual framework may be useful in guiding future research on college student motivation and learning.
+tags: @:/type/article $:/type/publication
+title: Pintrich (2004)
+tmap.fa-icon: &x#f0f6;
+tmap.id: 43d56c1a-a5da-4dd8-9f76-89f46bf6f5f3
+type: text/vnd.tiddlywiki
+url: https://pdfs.semanticscholar.org/8b6f/237b92819484824b0e2fae0f9993323eacc7.pdf
+

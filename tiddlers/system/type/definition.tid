@@ -1,0 +1,18 @@
+caption: Definition
+color: #81b53b
+created: 20150125150841844
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/definition
+modified: 20181006192722600
+modifier: Charles Delbé
+mt-dashboard.heading: Definitions
+mt-dashboard.icon: $:/plugins/.CD/KnowEdge/images/definition
+mt-source.type: $:/type/knowledge
+mt-template.fields: $:/plugins/amp/MagicTabs/templates/types/definition
+mt-template.form: 
+tags: $:/plugins/amp/MagicTabs/common $:/type/knowledge
+title: $:/type/definition
+type: text/vnd.tiddlywiki
+
+!Définitions
+<<list-links-title filter:"[tag[$:/type/definition]!is[system]sort[title]]" class:"object-list">>

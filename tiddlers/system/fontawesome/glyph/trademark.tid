@@ -1,0 +1,14 @@
+created: 20181107181958961
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Trademark
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f25c
+modified: 20181125084950275
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/trademark
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-trademark fa-10x'></i>

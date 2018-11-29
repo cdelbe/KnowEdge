@@ -1,0 +1,69 @@
+caption: Change Log
+created: 20180731012739335
+creator: Charles Delbé
+modified: 20181124232253102
+modifier: Charles Delbé
+num_recent: 200
+title: $:/plugins/.CD/KnowEdge/ui/tabs/ChangeLog
+tmap.id: 6d308204-1293-42ab-a65c-f82e349a9c04
+type: text/vnd.tiddlywiki
+
+!Release notes
+<ul>
+	<$list filter='[tag[Changes]!sort[created]]' emptyMessage=<<.warning "No notes found !" >>>
+		<li><$link to=<<currentTiddler>>><$view field='title'/></$link></li>
+	</$list>
+</ul>
+<br/>
+
+!Timeline
+Show <$select field='num_recent'>
+	<$list filter="10 20 30 40 50 100 200 400 1000">
+		<option><<currentTiddler>></option>
+	</$list>
+</$select> last created/modified tiddlers:<$scrollable class='cdscroll'><table class="no-border">
+<tr>
+<td> 
+
+!!Last Created Tiddlers
+<table style="">
+<tr><th style="width:12em;">Created: <$count filter="[all[]has[created]!has[draft.of]!sort[created]limit{!!num_recent}]"/></th><th style="width:45em;">Tiddler</th></tr>
+<$list filter="[all[]has[created]!has[draft.of]!sort[created]limit{!!num_recent}]">
+<tr>
+<td style="text-align:center;"><$view field=created format=date template="0DD-0MM-YYYY 0hh:0mm"/></td>
+<td><$link><$transclude tiddler={{!!icon}}/><$view field=title/></$link></td>
+</tr>
+</$list>
+</table>
+</td>
+<td>
+
+!!Last Modified Tiddlers
+<table style="padding-left:20px;">
+<tr><th style="width:12em;">Modified: <$count filter="[all[]has[modified]!has[draft.of]!sort[modified]limit{!!num_recent}]"/></th><th style="width:45em;">Tiddler</th></tr>
+<$list filter="[all[]has[modified]!has[draft.of]!sort[modified]limit{!!num_recent}]">
+<tr>
+<td style="text-align:center;"><$view field=modified format=date template="0DD-0MM-YYYY 0hh:0mm"/></td>
+<td><$link><$view field=title/></$link></td>
+</tr>
+</$list>
+</table>
+</td>
+</tr>
+</table>
+
+</$scrollable>
+
+<style>
+.no-border{font-size:0.9em;min-width: 45em; width:auto;}
+.no-border, 
+.no-border > tr, 
+.no-border > tr > td {border:0;padding: 0 7px 0 0px;}
+.no-border > .th {
+    min-width: 8em;
+}
+</style>
+
+
+
+ 

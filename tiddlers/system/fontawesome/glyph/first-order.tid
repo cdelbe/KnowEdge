@@ -1,0 +1,14 @@
+created: 20181107181945857
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: First Order
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f2b0
+modified: 20181125084945700
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/first-order
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-first-order fa-10x'></i>

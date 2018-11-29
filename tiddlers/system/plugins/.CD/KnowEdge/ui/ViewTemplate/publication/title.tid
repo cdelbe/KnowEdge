@@ -1,0 +1,27 @@
+created: 20181025220739650
+creator: Charles Delbé
+description: Shows a publication title.
+list: 
+list-after: $:/plugins/amp/MagicTabs/ViewTemplate/tags
+modified: 20181106170635202
+modifier: Charles Delbé
+tags: $:/tags/viewsource $:/tags/ViewTemplate $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/ui/ViewTemplate/publication/title
+type: text/vnd.tiddlywiki
+
+<$reveal type="nomatch" state=<<folded-state>> text="hide" retain="yes" animate="yes">
+<$list filter="[all[current]has[mt-publication.title]]">
+<div class="cd-title">    
+		<!-- ''Title:'' -->
+        <$transclude field="mt-publication.title" mode="inline-block"/>
+</div>
+</$list>
+</$reveal>
+<$reveal type="nomatch" state=<<folded-state>> text="hide" retain="yes" animate="yes">
+<$list filter="[all[current]tag[$:/type/publication]has[mt-publication.subtitle]]">
+<div class="cd-subtitle">
+	<$transclude field="mt-publication.subtitle" mode="inline-block"/>
+</div>
+</$list>    
+</$reveal>
+{{||$:/plugins/amp/MagicTabs/ViewTemplate/subtitle}}

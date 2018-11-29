@@ -1,0 +1,14 @@
+created: 20181107181950322
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Hushed Face
+fa-style-classes: fas far
+fa-styles: solid regular
+fa-unicode: f5c2
+modified: 20181125084949856
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/surprise
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-surprise fa-10x'></i>

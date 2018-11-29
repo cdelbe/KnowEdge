@@ -1,0 +1,30 @@
+about: 
+color: #FFA500
+created: 20180725153952278
+creator: Charles Delbé
+description: 
+icon: $:/plugins/.CD/KnowEdge/images/note
+list: Engagement Modeling
+modified: 20181014151822305
+modifier: Charles Delbé
+mt-source.parents.list: 
+mt-source.tiddler: Intrinsic Motivation
+mt-topics.list: [[Engagement]] [[Modeling]]
+tags: $:/type/note
+title: A Model of Intrinsic Motivation
+tmap.fa-icon: &#xf044;
+tmap.id: 80cbd8cd-b712-4f1f-85a6-857de727bc5d
+type: text/vnd.tiddlywiki
+url: https://cft.vanderbilt.edu//cft/guides-sub-pages/motivating-students/#model
+
+James Middleton, Joan Littlefield, and Rich Lehrer have proposed the following model of intrinsic academic motivation.
+
+*First, given the opportunity to engage in a learning activity, a student determines if the activity is one that is known to be ''interesting''.  If so, the student engages in the activity.
+*If not, then the student evaluates the activity on two factors—the ''stimulation'' (e.g. challenge, curiosity, fantasy) it provides and the ''personal control'' (e.g. free choice, not too difficult) it affords.
+*If the student perceives the activity as stimulating and controllable, then the student tentatively labels the activity as interesting and engages in it.  If either condition becomes insufficient, then the student disengages from the activity—unless some extrinsic motivator influences the student to continue.
+*If the activity is repeatedly deemed stimulating and controllable, then the student may deem the activity interesting.  Then the student will be more likely to engage in the activity in the future.
+*If over time activities that are deemed interesting provide little stimulation or control, then the student will remove the activity from his or her mental list of interesting activities.
+
+{{The challenge, then, is to provide teaching and learning activities that are both ''stimulating'' and offer students a degree of ''personal control''.||$:/.cd/macros/info}}
+
+''Source'': Middleton, J. A. (1995). A study of intrinsic motivation in the mathematics classroom: A personal constructs approach. //Journal for research in mathematics education//, 26:3, 254-279.

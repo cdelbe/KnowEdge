@@ -1,0 +1,14 @@
+created: 20181107181943633
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Bed
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f236
+modified: 20181125084943495
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/bed
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-bed fa-10x'></i>

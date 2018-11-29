@@ -1,0 +1,17 @@
+about: 
+color: #808000
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/author
+list: 
+modified: 20180905152112939
+modifier: Charles Delbé
+mt-person.name: Thomas
+mt-person.surname: Guskey
+mt-topics.list:  
+tags: $:/type/person $:/type/author
+title: Thomas Guskey
+tmap.fa-icon: &#xf007;
+tmap.id: 502c258e-1f3e-4e4c-b13f-2064ef8c16d1
+type: text/vnd.tiddlywiki
+

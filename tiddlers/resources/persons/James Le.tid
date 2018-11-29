@@ -1,0 +1,17 @@
+about: 
+color: #808000
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/author
+list: 
+modified: 20180904192911197
+modifier: Charles Delbé
+mt-person.name: James
+mt-person.surname: Le
+mt-topics.list:  
+tags: $:/type/person $:/type/author
+title: James Le
+tmap.fa-icon: &#xf007;
+tmap.id: bd8eca2b-065d-4306-a1a2-f549f73fdddd
+type: text/vnd.tiddlywiki
+

@@ -1,0 +1,13 @@
+created: 20160321020857243
+creator: Charles Delbé
+modified: 20181109222847312
+modifier: Charles Delbé
+tags: 
+title: FormulaResult Button
+tmap.id: e4606a3b-2269-450d-9fdb-04caee05d918
+type: text/vnd.tiddlywiki
+
+<$reveal state="$:/state/formulas" type="match" text="yes"><$button type="set" set="$:/state/formulas" setTo="no">Results</$button>
+</$reveal>
+<$reveal state="$:/state/formulas" type="nomatch" text="yes">
+<$button type="set" set="$:/state/formulas" setTo="yes">Formulas</$button></$reveal>

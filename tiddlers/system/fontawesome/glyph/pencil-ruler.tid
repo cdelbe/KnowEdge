@@ -1,0 +1,14 @@
+created: 20181107181948852
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Pencil Ruler
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f5ae
+modified: 20181125084948275
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/pencil-ruler
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-pencil-ruler fa-10x'></i>

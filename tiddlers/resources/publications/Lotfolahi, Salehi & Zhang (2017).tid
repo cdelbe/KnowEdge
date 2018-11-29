@@ -1,0 +1,23 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181025155118117
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: EFL [[Spacing Effect]] [[Spaced Retrieval Practice]] [[Massed Practice]] Vocabulary
+modified: 20181025155529782
+modifier: Charles Delbé
+mt-authors.title: Lotfolahi, Salehi & Zhang
+mt-publication.citation: Lotfolahi, A. R., Salehi, H. & Zhang, Z., (2017). Spacing effects in vocabulary learning: Young EFL learners in focus, //Cogent Education//, 4(1).
+mt-publication.date: 2017
+mt-publication.subtitle: 
+mt-publication.title: Spacing effects in vocabulary learning: Young EFL learners in focus
+mt-source.authors.list: [[Amir Reza Lotfolahi]] [[Hadi Salehi]] [[Zuochen Zhang]]
+mt-topics.list: [[EFL]] [[Spacing Effect]] [[Spaced Retrieval Practice]] [[Massed Practice]] [[Vocabulary]]
+abstract: This study used a novel method to explore different schedules of spacing in young EFL learners. In doing so, we taught young EFL learners English–Farsi word pairs using different spacing schedules (massed vs. spaced). In the massed condition, learners studied five-word pairs in session one and five-other word pairs one week later. In the spaced condition, the learners studied 10-word pairs in session one and restudied them one week later. To amplify the benefits of spacing, we incorporated tests (with corrective feedback) into different schedules of spacing. In other words, EFL learners were instructed to test each other on their knowledge of the vocabulary and to give each other feedback. One week and five weeks later learners’ recall was assessed. The results showed that spaced practice produced better long-term retention than massed practice. To summarize, this study used spacing and retrieval practice techniques (with corrective feedback) to offer a pedagogically powerful approach for learning vocabulary.
+tags: @:/type/article $:/type/publication
+title: Lotfolahi, Salehi & Zhang (2017)
+tmap.fa-icon: &#xf212;
+tmap.id: ee71da60-681a-4dc0-b93c-85d4392cc7fe
+type: text/vnd.tiddlywiki
+url: https://www.tandfonline.com/doi/full/10.1080/2331186X.2017.1287391
+

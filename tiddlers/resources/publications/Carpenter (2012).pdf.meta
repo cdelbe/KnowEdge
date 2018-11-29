@@ -1,0 +1,26 @@
+_canonical_uri: http://public.psych.iastate.edu/shacarp/Carpenter_Current_Directions_in_press.pdf
+abstract: Many studies have shown that retrieving information during a test facilitates later memory for that information. Most research on this testing effect has focused on retention of information measured via a final test that is similar to the initial test. Much less is known about the potential of testing to promote the application—i.e., transfer—of learning. In this article, I review recent studies that have begun to address this issue, specifically with regard to the benefits of testing on transfer across temporal contexts, test formats, and knowledge domains. The small but growing number of studies on this topic have so far reported robust benefits of testing on transfer of learning. Future research is encouraged that explores the potential of tests to promote not just direct retention of information, but also the application of knowledge to new situations.
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180916153759218
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: [[Test-Enhanced Learning]]
+modified: 20181109182436023
+modifier: Charles Delbé
+mt-authors.title: Carpenter
+mt-publication.citation: Carpenter, S. K. (2012). Testing enhances the transfer of learning. //Current directions in psychological science//, 21(5), 279-283.
+mt-publication.date: 2012
+mt-publication.issue: 
+mt-publication.journal: Current Directions in Psychological Science
+mt-publication.subtitle: Subtitle.
+mt-publication.title: Testing enhances the transfer of learning.
+mt-publication.volume: 21
+mt-source.authors.list: [[S. K. Carpenter]]
+mt-topics.list: [[Test-Enhanced Learning]]
+tags: @:/type/article @:/tags/pdf $:/type/publication
+title: Carpenter (2012)
+tmap.fa-icon: &x#f0f6;
+tmap.id: bbe55483-9188-4d51-9f2e-b125e41408cc
+type: application/pdf
+url: http://public.psych.iastate.edu/shacarp/Carpenter_Current_Directions_in_press.pdf

@@ -1,0 +1,14 @@
+created: 20181107182002193
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Wheelchair
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f193
+modified: 20181125084950934
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/wheelchair
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-wheelchair fa-10x'></i>

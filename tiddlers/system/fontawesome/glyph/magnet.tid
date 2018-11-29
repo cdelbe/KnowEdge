@@ -1,0 +1,14 @@
+created: 20181107181947856
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: magnet
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f076
+modified: 20181125084947563
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/magnet
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-magnet fa-10x'></i>

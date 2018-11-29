@@ -1,0 +1,12 @@
+color: #FFA500
+created: 20150124150700629
+creator: Alberto Molina Pérez
+description: 
+icon: $:/plugins/.CD/KnowEdge/images/idea
+modified: 20180825174415734
+modifier: Charles Delbé
+tags: $:/type/note $:/type/idea
+title: $:/plugins/amp/MagicTabs/templates/types/idea
+tmap.fa-icon: &#xf0eb;
+type: text/vnd.tiddlywiki
+

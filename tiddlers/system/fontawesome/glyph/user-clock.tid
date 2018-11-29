@@ -1,0 +1,14 @@
+created: 20181107182001907
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: User Clock
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f4fd
+modified: 20181125084950515
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/user-clock
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-user-clock fa-10x'></i>

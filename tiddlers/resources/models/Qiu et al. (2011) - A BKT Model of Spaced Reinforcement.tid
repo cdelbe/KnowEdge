@@ -1,0 +1,17 @@
+authors: [[Y. Qiu]]
+color: #087268
+created: 20181024071436172
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/model
+list: [[Bayesian Knowledge Tracing]] [[Spaced Reinforcement]]
+modified: 20181029071726110
+modifier: Charles Delbé
+mt-source.tiddler: Qiu et al. (2011)
+mt-topics.list: [[Bayesian Knowledge Tracing]] [[Spaced Reinforcement]]
+tags: $:/type/model $:/type/knowledge
+title: Qiu et al. (2011) - A BKT Model of Spaced Reinforcement
+tmap.fa-icon: &#xf085;
+tmap.id: 65760d8b-0009-4748-ac48-f3014b87f1a3
+type: text/vnd.tiddlywiki
+
+<<btn-img "figures/Qiu_et_al_2011_fig1.png">>

@@ -1,0 +1,14 @@
+created: 20181107181947660
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Alternate Long Arrow Down
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f309
+modified: 20181125084947445
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/long-arrow-alt-down
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-long-arrow-alt-down fa-10x'></i>

@@ -1,0 +1,17 @@
+color: #ffff00
+created: 20180720204401976
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/journal
+modified: 20181018000830911
+modifier: Charles Delbé
+title: Journal
+tmap.fa-icon: &#xf133;
+tmap.id: 93facc0a-b01c-4c7e-93dd-bfbb4d315b8e
+type: text/vnd.tiddlywiki
+
+!Entrées du Journal 
+<ul>
+<$list filter="[tag[$:/type/journal]!is[system]!sort[created]]">
+<li><$link to={{!!title}}><$view field="title" format="text"/></$link> - <$view field="created" format="date" template="DDth MMM YYYY"/></li>
+</$list>
+</ul>

@@ -1,0 +1,14 @@
+created: 20181107181950411
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Alternate Tachometer
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f3fd
+modified: 20181125084949964
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/tachometer-alt
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-tachometer-alt fa-10x'></i>

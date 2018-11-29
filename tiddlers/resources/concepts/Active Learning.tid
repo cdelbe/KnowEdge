@@ -1,0 +1,26 @@
+authors: 
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: Learning
+modified: 20181025175843352
+modifier: Charles Delbé
+mt-topics.list: Learning
+tags: [[Instructional Strategy]] $:/type/concept $:/type/knowledge
+title: Active Learning
+tmap.fa-icon: &#xf12e;
+tmap.id: 09c2e843-8f5e-45a4-8643-3f5e9bab0b95
+type: text/vnd.tiddlywiki
+
+@@.figure
+[img width=550px [http://gsi.berkeley.edu/media/bloom-meets-brain.png]]
+@@
+
+Cognitive functions associated with the lower levels of [[Bloom’s Taxonomy]] (see diagram), such as understanding and remembering, are associated with the hippocampus (the area of the brain responsible for memory and spatial awareness). The higher-level cognitive functions of Bloom’s taxonomy, such as creating, evaluating, analyzing, and applying, involve the cortical areas responsible for decision-making, association, and [[motivation|Engagement]].
+
+More ''complex thought processes'' are more beneficial for learning because they involve a ''greater number of neural connections and more neurological cross-talk''. [[Active Learning]] takes advantage of this cross-talk, stimulating a variety of areas of the brain and ''promoting memory''.
+
+---
+:https://gsi.berkeley.edu/gsi-guide-contents/learning-theory-research/neuroscience/
+:https://cft.vanderbilt.edu/guides-sub-pages/active-learning/

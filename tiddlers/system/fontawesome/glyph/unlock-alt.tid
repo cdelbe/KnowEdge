@@ -1,0 +1,14 @@
+created: 20181107181959196
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Alternate Unlock
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f13e
+modified: 20181125084950503
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/unlock-alt
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-unlock-alt fa-10x'></i>

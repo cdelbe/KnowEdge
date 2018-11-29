@@ -1,0 +1,19 @@
+aliases: [[système d’apprentissage]] LMS
+caption: LMS
+color: #800080
+created: 20180825162905136
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: 
+modified: 20180918095926850
+modifier: Charles Delbé
+mt-topics.list: 
+tags: [[Adaptive Learning]] [[Intelligent Tutoring Systems]] [[Learning Record Store]] $:/type/concept $:/type/knowledge
+title: Learning Management System
+tmap.fa-icon: &#xf12e;
+tmap.id: 4b70b0c3-9fe5-4955-bbe5-031540018fc8
+type: text/vnd.tiddlywiki
+
+!References
+*https://fr.wikipedia.org/wiki/Learning_management_system
+*[[An Introduction to Modern Learning Ecosystems|https://www.watershedlrs.com/blog/introduction-to-modern-learning-ecosystems]]

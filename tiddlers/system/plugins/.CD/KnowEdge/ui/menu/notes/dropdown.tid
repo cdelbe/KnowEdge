@@ -1,0 +1,9 @@
+created: 20181017175131937
+creator: Charles Delbé
+modified: 20181106175727329
+modifier: Charles Delbé
+tags: $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/ui/menu/notes/dropdown
+type: text/vnd.tiddlywiki
+
+<<makeTopMenu type:"$:/type/note" template:"$:/plugins/amp/MagicTabs/templates/types/note">>

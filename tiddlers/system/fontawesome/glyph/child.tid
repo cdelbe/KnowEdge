@@ -1,0 +1,14 @@
+created: 20181107181944598
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Child
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f1ae
+modified: 20181125084944068
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/child
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-child fa-10x'></i>

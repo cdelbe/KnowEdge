@@ -1,0 +1,14 @@
+created: 20181107181945944
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Flipboard
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f44d
+modified: 20181125084945914
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/flipboard
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-flipboard fa-10x'></i>

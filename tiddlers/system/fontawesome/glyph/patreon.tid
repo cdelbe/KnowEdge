@@ -1,0 +1,14 @@
+created: 20181107181948814
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Patreon
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f3d9
+modified: 20181125084948170
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/patreon
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-patreon fa-10x'></i>

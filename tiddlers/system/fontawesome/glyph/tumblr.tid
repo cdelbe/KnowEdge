@@ -1,0 +1,14 @@
+created: 20181107181959092
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Tumblr
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f173
+modified: 20181125084950431
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/tumblr
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-tumblr fa-10x'></i>

@@ -4,13 +4,8 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build-static /output/index.html",
+            "label": "BobWin32.exe",
             "type": "shell",
-            "command": "tiddlywiki wiki --build index",
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
+            "command": ".\\BobWin32.exe"
         }
     ]
-} 

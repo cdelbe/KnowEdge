@@ -1,0 +1,32 @@
+authors: [[Jean Piaget]] [[Lev Vygotsky]]
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: [[Zone proximale de développement]]
+modified: 20180914204344673
+modifier: Charles Delbé
+mt-topics.list: [[Zone de développement proximale]]
+tags: [[Instructional Strategy]] $:/type/concept $:/type/knowledge
+title: Apprentissage socio-constructiviste
+tmap.fa-icon: &#xf12e;
+tmap.id: 43d4de40-3716-4df5-a0b3-1aef1ebe41dd
+type: text/vnd.tiddlywiki
+
+!Definition
+>L'approche socio-constructiviste se centre sur le traitement et l'organisation de l'information comme une part de la construction ''collaborative'' de la connaissance des apprenants. Ainsi, la construction d'un savoir, bien que personnelle, s'effectue dans un cadre social.<br/>
+
+>Tout comme pour [[Jean Piaget]] et le [[constructivisme|Apprentissage constructiviste]], le socio-constructivisme suppose que la connaissance est une ''construction''. Néanmoins, cette construction serait d'ordre ''social'' et non individuel. [[Lev Vygotsky]] le premier a souligné l'importance de l'interaction sociale dans le ''développement'' de la connaissance chez l'enfant. 
+
+@@.note
+''Note:'' La théorie de la ''cognition distribuée'' pousse cette conception à l'extrême en affirmant que la connaissance est de nature //exclusivement// sociale, le groupe étant lui-même vu comme un ''système cognitif complexe''.
+@@
+<br/>
+
+[img[http://edutechwiki.unige.ch/fmediawiki/images/6/6e/Regis_Socio-constructivisme_v2.jpg]]
+@@font-size:0.8em;display:inline-block;width:100%;text-align:center;
+__Figure 1.__ Construction de la connaissance selon le modèle socio-constructiviste.
+@@
+
+!References
+:http://edutechwiki.unige.ch/fr/Socio-constructivisme

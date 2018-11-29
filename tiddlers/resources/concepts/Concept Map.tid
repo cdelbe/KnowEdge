@@ -1,0 +1,22 @@
+color: #800080
+created: 20180825162905136
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: [[Knowledge Tracing]] TiddlyMap
+modified: 20181024131837652
+modifier: Charles Delbé
+mt-topics.list: [[Knowledge Tracing]] TiddlyMap
+tags: $:/type/concept $:/type/knowledge
+title: Concept Map
+tmap.fa-icon: &#xf12e;
+tmap.id: 6256eab1-ad28-4ee3-91c9-08d50a2334f2
+type: text/vnd.tiddlywiki
+
+A concept map or conceptual diagram is a diagram that depicts suggested relationships between concepts. It is a graphical tool that designers, engineers, technical writers, and others use to organize and structure knowledge.
+
+A concept map typically represents ideas and information as boxes or circles, which it connects with labeled arrows in a downward-branching hierarchical structure. The relationship between concepts can be articulated in linking phrases such as causes, requires, or contributes to.
+
+The technique for visualizing these relationships among different concepts is called concept mapping. Concept maps define the ontology of computer systems, for example with the object-role modeling or Unified Modeling Language formalism. 
+
+---
+http://en.wikipedia.org/wiki/Concept_map

@@ -1,0 +1,14 @@
+created: 20181107181948618
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Napster
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f3d2
+modified: 20181125084948063
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/napster
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-napster fa-10x'></i>

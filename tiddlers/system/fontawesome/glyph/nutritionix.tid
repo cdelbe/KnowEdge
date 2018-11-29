@@ -1,0 +1,14 @@
+created: 20181107181948352
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Nutritionix
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f3d6
+modified: 20181125084947992
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/nutritionix
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-nutritionix fa-10x'></i>

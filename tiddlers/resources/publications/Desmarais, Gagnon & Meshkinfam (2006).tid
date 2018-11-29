@@ -1,0 +1,23 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181025215723366
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: [[Graphical Model]] [[Learner Model]] Assessment [[Knowledge Tracing]] [[Bayesian Knowledge Tracing]]
+modified: 20181029020726412
+modifier: Charles Delbé
+mt-authors.title: Desmarais, Gagnon & Meshkinfam
+mt-publication.citation: Desmarais, M. C., Gagnon, M., & Meshkinfam, P. (2006). Item-based Bayesian student models. In //Proceedings of the 21st National Conference on Artificial Intelligence.//
+mt-publication.date: 2006
+mt-publication.subtitle: 
+mt-publication.title: Item-based Bayesian student models
+mt-source.authors.list: [[Michel C. Desmarais]] [[M. Gagnon]] [[P. Meshkinfam]]
+mt-topics.list: [[Graphical Model]] [[Learner Model]] [[Assessment]] [[Knowledge Tracing]] [[Bayesian Knowledge Tracing]]
+abstract: Many intelligent educational systems require a component that represents and assesses the knowledge state and the skills of the student. We review how student models can be induced from data and how the skills assessment can be conducted. We show that by relying on graph models with observable nodes, learned student models can be built from small data sets with standard Bayesian Network techniques and Na¨ıve Bayesian models. We also show how to feed a concept assessment model from a learned observable nodes model. Different experiments are reported to evaluate the ability of the models to predict item outcome and concept mastery.
+tags: @:/type/article $:/type/publication
+title: Desmarais, Gagnon & Meshkinfam (2006)
+tmap.fa-icon: &x#f0f6;
+tmap.id: 21951b09-6338-4963-9edb-9d7efec459f6
+type: text/vnd.tiddlywiki
+url: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.60.9605&rep=rep1&type=pdf
+

@@ -1,0 +1,29 @@
+_canonical_uri: 
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181002113137062
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: Reading [[Instructional Strategy]] Engagement
+modified: 20181029185642198
+modifier: Charles Delbé
+mt-authors.title: Monet
+mt-publication.citation: Monet, B. (2003). Think Literacy: Cross-Curricular Approaches, Grades 7-12. //Ontario Secondary School Literacy Course Ltd.//
+mt-publication.date: 2003
+mt-publication.subtitle: 
+mt-publication.title: Think Literacy: Cross-Curricular Approaches, Grades 7-12
+mt-source.authors.list: [[Beyond Monet]]
+mt-topics.list: Reading [[Instructional Strategy]] Engagement
+tags: @:/type/report $:/type/publication
+title: Monet (2003)
+tmap.fa-icon: &x#f0f6;
+tmap.id: c2f1ff7e-c4f6-44f0-968b-dba8420801c7
+type: text/vnd.tiddlywiki
+url: http://www.edu.gov.on.ca/eng/studentsuccess/thinkliteracy/files/Reading.pdf
+
+*Introduction to Reading Strategies
+*Getting Ready to Read
+*Engaging in Reading
+*Reacting to Reading
+*Reading Different Text Forms
+*Posters for Instruction: Reading

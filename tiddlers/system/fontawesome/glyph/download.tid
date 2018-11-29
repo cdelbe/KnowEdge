@@ -1,0 +1,14 @@
+created: 20181107181945318
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Download
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f019
+modified: 20181125084944933
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/download
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-download fa-10x'></i>

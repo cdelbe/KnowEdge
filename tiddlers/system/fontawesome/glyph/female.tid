@@ -1,0 +1,14 @@
+created: 20181107181945825
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Female
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f182
+modified: 20181125084945598
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/female
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-female fa-10x'></i>

@@ -1,0 +1,16 @@
+caption: Tag Handling
+created: 20180914212908615
+creator: TonGerner
+modified: 20181029032522084
+modifier: Charles Delbé
+shadowfilter: is[shadow]
+systemfilter: !is[system]
+tags: $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/ui/tags/tag-handling
+type: text/vnd.tiddlywiki
+
+<$set name="tv-config-toolbar-class" value="">
+<$set name="tv-config-toolbar-text" value="yes">
+{{$:/core/ui/Buttons/tag-manager}}
+
+<<tabs "[[$:/plugins/.CD/KnowEdge/ui/tags/list-standard-tags]] [[$:/plugins/.CD/KnowEdge/ui/tags/list-systemtags]] [[$:/plugins/.CD/KnowEdge/ui/tags/rename-tags]] [[$:/plugins/.CD/KnowEdge/ui/tags/edit-all]] [[$:/plugins/.CD/KnowEdge/ui/tags/tag-cloud]]" "$:/plugins/.CD/KnowEdge/ui/tags/list-standard-tags">> 

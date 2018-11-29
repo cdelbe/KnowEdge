@@ -1,0 +1,13 @@
+created: 20140614234722764
+creator: Alberto Molina Pérez
+modified: 20181019162554914
+modifier: Charles Delbé
+tags: $:/tags/Stylesheet MagicTabs $:/plugins/amp/MagicTabs/common
+title: $:/plugins/amp/MagicTabs/css/text/grey
+type: text/vnd.tiddlywiki
+
+.text-grey {
+	font-size: 0.9em;
+	color: #999;
+	font-weight: 500;
+}

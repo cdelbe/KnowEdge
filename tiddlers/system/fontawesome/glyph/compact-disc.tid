@@ -1,0 +1,14 @@
+created: 20181107181944834
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Compact Disc
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f51f
+modified: 20181125084944673
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/compact-disc
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-compact-disc fa-10x'></i>

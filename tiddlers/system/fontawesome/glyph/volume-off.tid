@@ -1,0 +1,14 @@
+created: 20181107182002059
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Volume Off
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f026
+modified: 20181125084950812
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/volume-off
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-volume-off fa-10x'></i>

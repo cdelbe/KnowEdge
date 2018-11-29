@@ -1,0 +1,43 @@
+created: 20141119132924619
+creator: Tobias Beer
+description: a conditional view template tagged [[$:/tags/ViewTemplate]] rendering a tagging tree
+list-after: $:/plugins/amp/MagicTabs/ViewTemplate/tags
+modified: 20181029092130623
+modifier: Charles Delbé
+description: 
+tags: $:/tags/ViewTemplate
+title: $:/.tb/ui/ViewTemplate/tagging
+type: text/vnd.tiddlywiki
+
+\define lingo-base() $:/language/TiddlerInfo/
+<$reveal type="nomatch" state=<<folded-state>> text="hide" retain="yes" animate="yes">
+<div class="tb-tagging">
+<div class="tb-tagging-label">
+    <$list filter="[all[current]is[missing]] [all[current]text[]] [all[current]tag[$:/tags/Tagging]] +[tagging[]limit[1]]">
+<h1><<lingo Tagging/Caption>></h1>
+    </$list>
+</div>
+
+<<taggly subfilter:"all[current]is[missing]] [all[current]text[]] [all[current]tag[$:/tags/Tagging]] +[">>
+</div>
+<style>
+/*.tb-tagging{
+font-size:1em!important;
+}
+
+.tb-tagging-label{
+color:grey;
+}*/
+
+.tb-tagging-sub{
+margin-left: 10px;
+}
+
+.tb-tagging-sub:before{
+content:"&#187;";
+color:grey;
+float:left;
+margin-right:5px;
+}
+</style>
+</$reveal>

@@ -1,0 +1,14 @@
+created: 20181107181948299
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Moon
+fa-style-classes: fas far
+fa-styles: solid regular
+fa-unicode: f186
+modified: 20181125084947925
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/moon
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-moon fa-10x'></i>

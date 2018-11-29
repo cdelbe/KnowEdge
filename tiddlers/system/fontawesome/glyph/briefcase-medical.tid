@@ -1,0 +1,14 @@
+created: 20181107181943743
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Medical Briefcase
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f469
+modified: 20181125084943260
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/briefcase-medical
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-briefcase-medical fa-10x'></i>

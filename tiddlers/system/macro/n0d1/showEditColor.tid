@@ -1,0 +1,21 @@
+created: 20151019103455850
+creator: Charles Delbé
+modified: 20180806075446590
+modifier: Charles Delbé
+revision: 0
+tags: $:/tags/Macro
+title: $:/macro/n0d1/showEditColor
+type: application/x-tiddler
+
+\define showEditColor(field,viewmacro:"view",viewtag:"span")
+<$reveal state="$:/temp/edit-field-$(currentTiddler)$-$field$" type=nomatch text="yes">
+<$list filter="[title[$(currentTiddler)$]get[$field$]]">
+<$macrocall $name="$viewmacro$" to={{!!title}} string={{!!title}} abbr={{!!title}} mail={{!!title}} name={{!!title}} tag="$viewtag$" />
+</$list>
+<$button set="$:/temp/edit-field-$(currentTiddler)$-$field$" setTo="yes" class="tc-btn-invisible"><i class="far  fa-paint-brush"></i></$button>
+</$reveal>
+<$reveal state="$:/temp/edit-field-$(currentTiddler)$-$field$" type=match text="yes">
+<$edit-text field="$field$" tiddler="$(currentTiddler)$" />
+<$button set="$:/temp/edit-field-$(currentTiddler)$-$field$" setTo="no" class="tc-btn-invisible">{{$:/core/images/done-button}}</$button>
+</$reveal>
+\end

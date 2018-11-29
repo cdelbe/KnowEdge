@@ -1,0 +1,20 @@
+color: #7878bc
+created: 20180821161152506
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/clock
+modified: 20181105204644526
+modifier: Charles Delbé
+title: @:/tags/Event
+tmap.fa-icon: &#xf017;
+tmap.id: 6e538eff-d8d2-4c09-8857-b80fc96ade4f
+type: text/vnd.tiddlywiki
+
+<ul>
+<$list filter="[tag[@:/tags/Event]]">
+<li>
+<$link to={{!!title}}><$view field="title"/></$link><br>
+
+<$list filter="[all[current]tags[]![@:/tags/Event]sort[]]" template="$:/core/ui/TagTemplate"></$list>
+</li>
+</$list>
+</ul>

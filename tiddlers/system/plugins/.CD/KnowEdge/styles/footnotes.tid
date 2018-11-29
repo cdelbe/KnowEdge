@@ -1,0 +1,27 @@
+created: 20180729060343528
+creator: Charles Delbé
+list-after: 
+modified: 20181029034611112
+modifier: Charles Delbé
+tags: $:/tags/config $:/tags/Stylesheet $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/styles/footnotes
+tmap.id: d8d45223-d0f8-4713-82c3-fc0e20843056
+type: text/vnd.tiddlywiki
+
+.tc-footnote-popup {
+    background-color: <<colour notification-background>>;
+    border-radius: 6px;
+    padding: 5px;
+    /*min-width: unset;*/
+    font-size: 12px;
+}
+.tc-footnote-popup a {
+    display: inline;
+    padding: 0px;
+}
+.tc-footnote-popup dl {
+    margin: 0px;
+}
+.tc-footnote-popup dd {
+    white-space: pre-wrap;
+}

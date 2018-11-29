@@ -1,0 +1,14 @@
+created: 20181107181944124
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Check
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f00c
+modified: 20181125084944226
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/check
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-check fa-10x'></i>

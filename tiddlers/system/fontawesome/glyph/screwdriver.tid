@@ -1,0 +1,14 @@
+created: 20181107181949632
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Screwdriver
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f54a
+modified: 20181125084949162
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/screwdriver
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-screwdriver fa-10x'></i>

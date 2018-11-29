@@ -1,0 +1,14 @@
+created: 20181107181944591
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Chrome
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f268
+modified: 20181125084944062
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/chrome
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-chrome fa-10x'></i>

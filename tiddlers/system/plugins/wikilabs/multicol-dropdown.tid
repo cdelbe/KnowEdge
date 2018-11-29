@@ -1,0 +1,32 @@
+author: Mario Pietsch
+core-version: >=5.1.0
+created: 20180912141744242
+creator: Charles Delbé
+dependents: 
+description: MultiColumn Dropdown with flex-box CSS only
+list: readme license
+modified: 20180912141744242
+modifier: Charles Delbé
+plugin-type: plugin
+title: $:/plugins/wikilabs/multicol-dropdown
+type: application/json
+version: 0.1.1
+
+{
+    "tiddlers": {
+        "$:/plugins/wikilabs/multicol-dropdown/styles": {
+            "title": "$:/plugins/wikilabs/multicol-dropdown/styles",
+            "tags": "$:/tags/Stylesheet",
+            "type": "text/plain",
+            "text": "/* concept used from: http://fourkitchens.com/blog/article/responsive-multi-column-lists-flexbox */\n\n.tc-block-dropdown {\n  display: flex;\n  flex-wrap: wrap;\n  padding: 3px;\n}\n\n.tc-dropdown-item {\n  flex: 1 0 100%;\n  margin-left: 2px;\n  margin-top: 2px;\n}\n\n.tc-block-dropdown a{\n  flex: 1 0 calc(33% - 2px);\n  background: #eee;\n  margin-left: 2px;\n  margin-top: 2px;\n}\n\n.tc-search-results {\n  width: 100%;\n}\n\n/* TODO this is needed, since otherwise the search results show an artefact */\n/* This is already part of the reset.css .. but it has no effect .. bug? */\n\n[hidden] {\n  display: none;\n}\n"
+        },
+        "$:/plugins/wikilabs/multicol-dropdown/license": {
+            "title": "$:/plugins/wikilabs/multicol-dropdown/license",
+            "text": "Info-MultiCol-Dropdown-Plugin (c) Mario Pietsch - 2016\n\nhttps://opensource.org/licenses/BSD-3-Clause"
+        },
+        "$:/plugins/wikilabs/multicol-dropdown/readme": {
+            "title": "$:/plugins/wikilabs/multicol-dropdown/readme",
+            "text": "! Overview\n\n* This plugin changes most dropdown dialogs into multi column dialogs, with CSS only.\n* This plugin is handy, if you have eg: ''a lot of tags''\n\n! Important\n\nThis plugin does ''not'' change any core templates!"
+        }
+    }
+}

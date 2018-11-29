@@ -1,0 +1,14 @@
+created: 20181107181944816
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Concierge Bell
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f562
+modified: 20181125084944651
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/concierge-bell
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-concierge-bell fa-10x'></i>

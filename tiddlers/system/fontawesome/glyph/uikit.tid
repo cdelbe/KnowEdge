@@ -1,0 +1,14 @@
+created: 20181107181959144
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: UIkit
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f403
+modified: 20181125084950385
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/uikit
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-uikit fa-10x'></i>

@@ -1,0 +1,72 @@
+aliases: IRT [[Item Response Theory]]
+authors: 
+color: #087268
+created: 20180825122252968
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/model
+list: Assessment [[Learning Analytics]]
+modified: 20181026231645765
+modifier: Charles Delbé
+mt-topics.list: Assessment [[Learning Analytics]]
+tags: [[Knowledge Tracing]] $:/type/model $:/type/knowledge
+title: Item Response Theory
+tmap.fa-icon: &#xf085;
+tmap.id: cde97754-b2de-4b1d-9a47-e71b4246145e
+type: text/vnd.tiddlywiki
+
+<$scrollable class='cdscroll'>
+
+<<<
+There exists a large array of models to represent and assess student skills. Item Response Theory (IRT) is probably the most established method. It dates back to the 1960’s and is still one of the prevailing approaches.
+
+
+The single skill Item Response Theory (IRT) approach : IRT is a well known framework based on logistic regression and represents student proficiency by a single skill (although we also find multiple skills version of IRT, MIRT).
+<<<
+
+!!Définitions
+L'IRT propose une façon de ''prédire la probabilité'' qu'un apprenant donné réponde correctement à une question ou un exercice donné. L’essence de cette théorie consiste à décrire les connaissances d’un apprenant par des probabilités.
+
+Dans les évaluations telles que les tests standardisés, les apprenants sont généralement modélisés par une ''variable statique latente'' – [[Rasch Model]] ou IRT-1PL (Hambleton & Swaminathan (1985); Hambleton, Swaminathan & Rogers, 1991) – or several latent variables – [[Multidimensional Item Response Theory|]] aka [[MIRT|?]] (Reckase (2009); Chalmers (2016)) <<ref "1">>. 
+
+> Sur la base des résultats binaires (correct ou incorrect) obtenus par les apprenants aux différentes questions, une estimation de leur(s) variable(s) latente(s) est élaborée. 
+
+Par conséquent, cette catégorie de modèles permet une «[[Evaluation sommative]]», pour par exemple noter et classer des apprenants.
+
+
+<<btn-img "figures/IRT_formula1.png">>
+@@.legend
+Equation 1.
+@@
+
+<<btn-img "figures/IRT_model_1.png">>
+@@.legend
+Item Reponse Function.
+@@
+
+!!More complex models
+
+<<btn-img "figures/IRT_model_2.png">>
+
+
+Des variantes ont été proposées pour tenir compte de ''plusieurs tentatives'' des apprenants sur une même tâche (Colvin et al., 2014), ou de ''l'évolution'' des variables au cours du temps (Wilson et al., 2016).
+
+!!Propriétés
+!!!Effets de réseau
+Un aspect important de l'IRT est qu’elle bénéficie des ''[[effets de réseau|Network Effects]]'' — c'est-à-dire que nous en apprenons davantage sur le contenu et sur les élèves qui interagissent avec ce système quand ''''davantage de personnes utilisent le système.'''' Lorsqu'un élève répond correctement à une question difficile, la compétence estimée pour cet élève devrait être plus élevée que si l'élève avait répondu correctement à une question facile. Mais comment pouvons-nous déterminer ''le niveau de difficulté'' de chaque question ? Ce n’est qu’en ''observant un nombre élevé d’élèves'' divers qui ont répondu à ces questions.
+
+!!Références
+:[[Wikipedia|https://en.wikipedia.org/wiki/Item_response_theory]]
+:@@background-color:Yellow;[[Research Gate: "References for RASCH model or Item Response Theory?"|https://www.researchgate.net/post/References_for_RASCH_model_or_Item_Response_Theory]]@@
+:[[The rasch model for evaluating italian student performance|https://files.eric.ed.gov/fulltext/EJ918989.pdf]] (IRT, Partial Credit Model)
+:[[Student Ability Assessment Based on Two IRT Models|https://www.stat-d.si/mz/mz2.1/cagnone.pdf]] (IRT, Partial Credit Model)
+:[[Introduction to IRT (for Psychometricians) (PPT) (PCM)|https://pdfs.semanticscholar.org/presentation/2d8f/3e10c33852201fed385d4c8bf9d1e8116230.pdf]]
+:[[A propos de la théorie des réponses aux items (PPT)|https://www.irdp.ch/data/secure/1952/document/TRI_DICHO.pdf]]
+:[[A visual guide to item response theory|https://www.metheval.uni-jena.de/irt/VisualIRT.pdf]]
+:[[Item Response Theory and Rasch Models, Chap 13|https://in.sagepub.com/sites/default/files/upm-binaries/18480_Chapter_13.pdf]]
+:Wilson et al. (2016): https://pdfs.semanticscholar.org/aca7/71c587933bdd27e1cdb290b855ba9461f74a.pdf
+:Hambleton, R. K., Swaminathan, H., & Rogers, H. J. (1991). Fundamentals of item response theory (Vol. 2). Sage.
+
+<hr>
+<<footnotes "1" "[[Vie et al. (2018): “Automated Test Assembly for Handling Learner Cold-Start in Large-Scale Assessments.”]]">>
+
+</$scrollable>

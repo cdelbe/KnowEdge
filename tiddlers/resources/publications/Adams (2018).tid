@@ -1,0 +1,33 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180814205623702
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/blogpost
+list: Teaching [[Instructional Strategy]] Mathematics
+modified: 20181030045415799
+modifier: Charles Delbé
+mt-authors.title: Adams
+mt-publication.citation: Adams, C. (2018). 11 Essential Strategies in Teaching Math. Retrieved [October, 29th 2018] from  https://www.weareteachers.com/strategies-in-teaching-mathematics/.
+mt-publication.date: 2018
+mt-publication.subtitle: GRADES: 1st Grade,2nd Grade,3rd Grade,4th Grade,5th Grade,Middle School.
+mt-publication.title: 11 Essential Strategies in Teaching Math
+mt-source.authors.list: [[Caralee Adams]]
+mt-topics.list: [[Teaching]] [[Instructional Strategy]] Mathematics
+tags: @:/type/blogpost $:/type/publication
+title: Adams (2018)
+tmap.fa-icon: &#xf1fa;
+tmap.id: 1e6eda51-4f9b-4737-b321-400b799f2f47
+type: text/vnd.tiddlywiki
+url: https://www.weareteachers.com/strategies-in-teaching-mathematics/
+
+# Raise the bar for all.
+# Don’t wait—act now!
+# Create a testing pathway.
+# Observe, modify, and re-evaluate.
+# Personalize and offer choice.
+# Encourage math talk.
+# Seek to develop understanding.
+# Choose meaningful tasks.
+# Allow for productive struggle.
+# Build excitement and reward progress.
+# Encourage teacher teamwork and reflection.

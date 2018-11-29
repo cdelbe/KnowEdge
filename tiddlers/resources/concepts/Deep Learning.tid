@@ -1,0 +1,19 @@
+authors: 
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+draft.title: Deep Learning
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: Modeling Learning
+modified: 20181024124635356
+modifier: Charles Delbé
+mt-source.root: 
+mt-source.tiddler: 
+mt-topics.list: [[Modeling]] [[Learning]]
+tags: $:/type/concept $:/type/knowledge
+title: Deep Learning
+tmap.fa-icon: &#xf12e;
+tmap.id: d139a4ea-507f-4957-80af-7b46a1b563ae
+type: text/vnd.tiddlywiki
+
+Partie d'une famille plus large de méthodes d'apprentissage automatique basées sur l'apprentissage de représentations des données (e.g., les réseaux de neurones artificiels), par opposition aux algorithmes spécifiques aux tâches.

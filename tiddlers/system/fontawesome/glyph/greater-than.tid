@@ -1,0 +1,14 @@
+created: 20181107181946396
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Greater Than
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f531
+modified: 20181125084946126
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/greater-than
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-greater-than fa-10x'></i>

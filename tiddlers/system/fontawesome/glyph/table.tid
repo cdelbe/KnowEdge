@@ -1,0 +1,14 @@
+created: 20181107181950441
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: table
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f0ce
+modified: 20181125084949924
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/table
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-table fa-10x'></i>

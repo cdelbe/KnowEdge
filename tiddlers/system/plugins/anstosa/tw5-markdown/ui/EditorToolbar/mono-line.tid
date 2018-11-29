@@ -1,0 +1,19 @@
+caption: {{$:/language/Buttons/MonoLine/Caption}}
+condition: [<targetTiddler>type[text/x-markdown]]
+created: 20181122192830681
+creator: Charles Delbé
+description: {{$:/language/Buttons/MonoLine/Hint}} (Markdown)
+icon: $:/core/images/mono-line
+modified: 20181122192832213
+modifier: Charles Delbé
+shortcuts: ((mono-line))
+tags: $:/tags/EditorToolbar
+title: $:/plugins/anstosa/tw5-markdown/ui/EditorToolbar/mono-line
+type: text/vnd.tiddlywiki
+
+<$action-sendmessage
+	$message="tm-edit-text-operation"
+	$param="wrap-selection"
+	prefix="`"
+	suffix="`"
+/>

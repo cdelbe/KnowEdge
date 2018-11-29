@@ -1,0 +1,14 @@
+created: 20181107182002244
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Yelp
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f1e9
+modified: 20181125084951111
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/yelp
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-yelp fa-10x'></i>

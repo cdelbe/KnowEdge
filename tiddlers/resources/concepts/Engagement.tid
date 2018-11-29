@@ -1,0 +1,50 @@
+authors: 
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: 
+modified: 20181022054904486
+modifier: Charles Delbé
+tags: $:/type/concept $:/type/knowledge
+title: Engagement
+tmap.fa-icon: &#xf12e;
+tmap.id: defa356d-fc71-4fcb-a2ba-e843d28850ee
+type: text/vnd.tiddlywiki
+
+!!Motivation
+Deci (1975) distingue deux types de motivation : 
+
+* La motivation intrinsèque : l’action est conduite uniquement par l’intérêt et le plaisir que l’individu trouve à l’action, sans attente de récompense externe.
+* La motivation extrinsèque : l’action est provoquée par une circonstance extérieure à l’individu (punition, récompense, pression sociale, obtention de l’approbation d’une personne tierce...).
+
+Deci  et Ryan (1985) proposent un classement des types de motivations selon un continuum.
+
+
+<<<
+Ainsi l’apprentissage est plus efficace et durable lorsque l’apprenant participe de manière  volontaire à une formation et qu’il a fixé en amont ses propres objectifs. D’où l’importance de faire exprimer les attentes, et d’expliciter clairement auprès de l’apprenant ce qu’il saura faire suite à la formation. Il faut également, pour ancrer les connaissances, lui montrer l’intérêt concret qu’il aura à pratiquer ce qu’il a appris, en lui donnant des exemples de situations d’application. Ces différents éléments jouent sur la bonne disposition d’esprit de l’apprenant, ce qui facilite la connexion de ses nouvelles connaissances à celles qui sont déjà ancrées.
+L’aspect « motivation » s’avère donc aussi indispensable que le volet « compétences », dans la mesure où la volonté d’apprendre et de retenir a un impact sur la capacité à le faire
+<<<
+
+!!~EdTechs et Engagement
+Depuis quelques années, l'enseignement et la formation tendent à devenir toujours plus ''motivants et engageants''. Les EdTechs proposent ainsi des outils pour ''attirer l'attention'' de l'apprenant et l'''immerger'' dans son apprentissage. Cependant, ces technologies ''ne sont pas suffisantes'' pour permettre un apprentissage durable.
+
+!!Sans engagement, pas d'apprentissage, mais l'engagement ne suffit pas à garantir un apprentissage réussi et durable.
+Portées par les nouvelles possibilités offertes par les technologies du Web et de l'Intelligence Artificielle, les EdTechs ne mettent pas toujours les mesures de la réussite et de la qualité de l'apprentissage au centre de leurs innovations technologiques. Une grande partie des solutions EdTechs s'attache plutôt à améliorer la satisfaction des apprenants afin de les impliquer dans leur enseignement. Les technologies numériques pour l'éducation mettent ainsi l'engagement au centre des apprentissages. Cependant, être engagé ne signifie pas apprendre (cf. [[Desirable Difficulties]], [[Evidence-based Instructional Strategies]]). L'engagement est une métrique insuffisante pour les Edtechs qui ambitionnent de transmettre connaissances et compétences. La capacité des apprenants à ''analyser ou faire quelque chose qu'ils n'étaient pas capables'' de faire avant une session pédagogique est la seule ''métrique'' sur laquelle nous devons nous concentrer, si nous ne voulons pas prendre le risque d'innover pour innover, sans résultats durables.
+
+!!L'engagement est une condition nécessaire à l'apprentissage
+L'engagement est une condition nécessaire à l'apprentissage : un élève n'apprendra pas si son attention n'a pas été suscitée, s'il n'est pas prêt à engager le processus d'apprentissage. L'engagement et la satisfaction des apprenants sont donc importants à mesurer, car ils sont un moyen de maximiser les résultats. 
+Les effets de l'engagement sur l'apprentissage doivent cependant être distingués du processus d'acquisition des connaissances : sans ''stratégie d'apprentissage pertinente'', un apprenant peut être très engagé durant un cours sans être capable de ''mobiliser ultérieurement'' les connaissances et compétences transmises.
+L'engagement et l'apprentissage sont donc ''complémentaires'' mais bien ''distincts'' : c'est la combinaison de l'engagement et de stratégies pédagogiques efficaces qui permet l'acquisition réelle et durable d'une connaissance ou d'une compétence.
+
+
+Il est donc nécessaire de questionner la pertinence des mesures d'engagement des apprenants comme unique évaluation des pratiques pédagogiques. 
+
+!!References
+*https://creativeeducator.tech4learning.com/2013/articles/4-Ways-to-Engage-Digital_Learners
+**Tap into their passions
+**Connect to their world
+**Make students the experts
+**Give their voice a platform
+*[[10 Ways to Motivate the Undermotivated|https://creativeeducator.tech4learning.com/2014/articles/Motivate-the-Undermotivated]]
+*https://www.didask.com/blog/articles/edtech-doivent-distinguer-engagement-apprentissage

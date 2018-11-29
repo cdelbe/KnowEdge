@@ -1,0 +1,29 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20150215005821949
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/blogpost
+list: [[Adaptive Learning]]
+modified: 20181029101836835
+modifier: Charles Delbé
+mt-authors.title: Lynch
+mt-publication.citation: Lynch, M. (2017). 5 Things You Should Know About Adaptive Learning. [Blog post]. Retrieved from https://www.thetechedvocate.org/5-things-know-adaptive-learning/
+mt-publication.date: 2017
+mt-publication.journal: The Tech Edvocate
+mt-publication.title: 5 Things You Should Know About Adaptive Learning
+mt-source.authors.list: [[Matthew Lynch]]
+mt-topics.list: [[Adaptive Learning]]
+tags: $:/type/publication @:/type/blogpost
+title: Lynch (2017)
+tmap.fa-icon: &#xf1fa;
+tmap.id: eb57b1bc-cdca-46f5-bf41-6efd9ffaccea
+type: text/vnd.tiddlywiki
+url: https://www.thetechedvocate.org/5-things-know-adaptive-learning/
+
+[img[https://www.thetechedvocate.org/wp-content/uploads/2017/07/m-660x400.jpg]]
+
+# Adaptive learning helps teachers as well as students
+# Adaptive learning engages the area between a student’s comfort zone and frustration zone (see [[Zone of Proximal Development]])
+# School and Universities across the country have already adopted adaptive learning and personalization techniques
+# When it comes to adaptive learning, BE PICKY
+# The U.S. Department of Education is investing in adaptive learning

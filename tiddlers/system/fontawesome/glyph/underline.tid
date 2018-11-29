@@ -1,0 +1,14 @@
+created: 20181107181959129
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Underline
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f0cd
+modified: 20181125084950482
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/underline
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-underline fa-10x'></i>

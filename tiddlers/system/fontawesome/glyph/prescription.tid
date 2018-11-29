@@ -1,0 +1,14 @@
+created: 20181107181949241
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Prescription
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f5b1
+modified: 20181125084948528
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/prescription
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-prescription fa-10x'></i>

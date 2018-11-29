@@ -1,0 +1,14 @@
+caption: Comment
+color: #81b53b
+created: 20141231095243291
+creator: Alberto Molina Pérez
+icon: $:/plugins/.CD/KnowEdge/images/comment
+modified: 20180918170252293
+modifier: Charles Delbé
+mt-source.type: $:/type/note
+mt-template.fields: $:/plugins/amp/MagicTabs/templates/types/comment
+mt-template.form: 
+tags: $:/plugins/amp/MagicTabs/common
+title: $:/type/comment
+type: text/vnd.tiddlywiki
+

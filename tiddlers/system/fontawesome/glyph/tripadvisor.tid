@@ -1,0 +1,14 @@
+created: 20181107181959072
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: TripAdvisor
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f262
+modified: 20181125084950280
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/tripadvisor
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-tripadvisor fa-10x'></i>

@@ -1,0 +1,26 @@
+aliases: MIRT
+authors: 
+caption: MIRT
+color: #087268
+created: 20180825122252968
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/model
+list: Assessment [[Learning Analytics]]
+modified: 20180926182854911
+modifier: Charles Delbé
+mt-source.parents.list: [[Item Response Theory]]
+mt-topics.list: [[Assessment]] [[Learning Analytics]]
+tags: [[Item Response Theory]] $:/type/model $:/type/knowledge
+title: Multidimensional Item Response Theory
+tmap.fa-icon: &#xf085;
+tmap.id: 210011b3-b4fc-4c28-a284-f5deee91685a
+type: text/vnd.tiddlywiki
+
+!Definition
+[[MIRT|?]] models are said to be ''hard to train'' ([[Desmarais & Baker (2012): “A Review of Recent Advances in Learner and Skill Modeling in Intelligent Learning Environments”]]). However, with the help of [[Markov Chain Monte Carlo Method]]s such as Metropolis-Hastings Robbins-Monro (Cai, 2010a), efficient techniques have been proposed and implemented in @@background-color:Yellow;ready-for-use tools (Chalmers, 2016)@@ to train [[MIRT|?]] models in a reasonable time <<ref "1">>. 
+
+!References
+[[La Théorie de la Réponse à l’Item multidimensionnelle: Initiation aux concepts et aux paramètres (PPT)|http://cdame.uqam.ca/upload/files/Fichiers/SEMINAIRES/2012_2013/pdf/Chenier_20121015.pdf]]
+
+<hr>
+<<footnotes "1" "[[Vie et al. (2018): “Automated Test Assembly for Handling Learner Cold-Start in Large-Scale Assessments.”|]]">>

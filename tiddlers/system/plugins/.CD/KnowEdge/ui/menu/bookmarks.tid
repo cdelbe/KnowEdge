@@ -1,0 +1,13 @@
+caption: Bookmarks
+created: 20181021214434457
+creator: Charles Delbé
+dropdown: $:/plugins/.CD/KnowEdge/ui/menu/bookmarks/dropdown
+list-after: 
+menu-pos: 4
+modified: 20181106175514527
+modifier: Charles Delbé
+tags: $:/tags/@CD $:/tags/Static/TopMenu $:/tags/TopMenu
+target: $:/type/bookmark
+title: $:/plugins/.CD/KnowEdge/ui/menu/bookmarks
+type: text/vnd.tiddlywiki
+

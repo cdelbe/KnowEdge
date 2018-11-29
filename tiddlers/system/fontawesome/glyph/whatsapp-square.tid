@@ -1,0 +1,14 @@
+created: 20181107182002134
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: What's App Square
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f40c
+modified: 20181125084950942
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/whatsapp-square
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-whatsapp-square fa-10x'></i>

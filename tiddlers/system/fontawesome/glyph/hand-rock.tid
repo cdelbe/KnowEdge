@@ -1,0 +1,14 @@
+created: 20181107181946682
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Rock (Hand)
+fa-style-classes: fas far
+fa-styles: solid regular
+fa-unicode: f255
+modified: 20181125084946562
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/hand-rock
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-hand-rock fa-10x'></i>

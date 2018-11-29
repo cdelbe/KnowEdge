@@ -1,0 +1,14 @@
+created: 20181107181943388
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: arrow-right
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f061
+modified: 20181125084942894
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/arrow-right
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-arrow-right fa-10x'></i>

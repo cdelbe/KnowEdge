@@ -1,0 +1,21 @@
+caption: Idea
+color: #81b53b
+created: 20141231095139943
+creator: Alberto Molina Pérez
+icon: $:/plugins/.CD/KnowEdge/images/idea
+list: 
+modified: 20180913063016496
+modifier: Charles Delbé
+mt-dashboard.heading: Ideas
+mt-dashboard.icon: $:/plugins/.CD/KnowEdge/images/idea
+mt-source.type: $:/type/note
+mt-template.fields: $:/plugins/amp/MagicTabs/templates/types/idea
+mt-template.form: 
+tags: $:/plugins/amp/MagicTabs/common
+title: $:/type/idea
+tmap.fa-icon: &#xf0eb;
+type: text/vnd.tiddlywiki
+
+!List of {{!!mt-dashboard.heading}}
+
+<<list-links-title filter:"[tag[$:/type/idea]!is[system]sort[title]]" class:"object-list">>

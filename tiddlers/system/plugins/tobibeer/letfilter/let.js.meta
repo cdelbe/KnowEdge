@@ -1,0 +1,10 @@
+created: 20141125230000000
+creator: Tobias Beer
+description: A filter to compare and compute.
+modified: 20181111200352889
+modifier: Charles Delbé
+module-type: filteroperator
+tags: Filters Mathematics
+title: $:/plugins/tobibeer/letfilter/let.js
+type: application/javascript
+url: http://let.tiddlyspot.com/

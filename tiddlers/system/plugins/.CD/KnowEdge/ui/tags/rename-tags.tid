@@ -1,0 +1,54 @@
+caption: Rename tags
+created: 20180914212221870
+creator: TonGerner
+modified: 20181029032617221
+modifier: Charles Delbé
+tags: $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/ui/tags/rename-tags
+type: text/vnd.tiddlywiki
+
+Thanks to [[Alberto Molina|https://groups.google.com/forum/#!topic/tiddlywiki/OCntQ79DuwM]].
+
+''Search tag:''
+<div class="tc-search">
+<$edit-text tiddler="$:/temp/renametags/search" tag="input" default="" placeholder="Enter tag to be replaced" size=20/>
+<$reveal state="$:/temp/renametags/search" type="nomatch" text="">
+<$button class="tc-btn-invisible">
+<$action-setfield $tiddler="$:/temp/renametags/search" text="" />
+{{$:/core/images/close-button}}
+</$button>
+</$reveal>
+</div>
+
+''Replace by:''
+<div class="tc-search">
+<$edit-text tiddler="$:/temp/renametags/replace" tag="input" default="" placeholder="Enter tag to replace" size=20/>
+<$reveal state="$:/temp/renametags/replace" type="nomatch" text="">
+<$button class="tc-btn-invisible">
+<$action-setfield $tiddler="$:/temp/renametags/replace" text="" />
+{{$:/core/images/close-button}}
+</$button>
+</$reveal>
+</div>
+
+''First step''<br>
+Apply the tag ''//{{$:/temp/renametags/replace}}//'' to the following tiddlers:
+<$list filter="[all[shadows+tiddlers]!has[draft.of]tag{$:/temp/renametags/search}!tag{$:/temp/renametags/replace}sort[created]]">
+
+<$checkbox tag={{$:/temp/renametags/replace}}>
+<$link to={{!!title}}>
+<$view field="title"/>
+</$link>
+</$checkbox>
+</$list>
+
+''Second step''<br>
+Remove the tag ''//{{$:/temp/renametags/search}}//'' from the following tiddlers:
+<$list filter="[all[shadows+tiddlers]!has[draft.of]tag{$:/temp/renametags/search}tag{$:/temp/renametags/replace}sort[created]]">
+
+<$checkbox tag={{$:/temp/renametags/search}}>
+~~<$link to={{!!title}}>
+<$view field="title"/>
+</$link>~~
+</$checkbox>
+</$list>

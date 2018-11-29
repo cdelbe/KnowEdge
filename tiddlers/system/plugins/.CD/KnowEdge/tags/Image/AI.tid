@@ -1,0 +1,34 @@
+caption: AI Images
+color: #81b53b
+created: 20181107160822778
+creator: Charles Delbé
+description: Show a grid of all system images tagged <<tag @:/tags/Image/AI>>.
+icon: $:/plugins/.CD/KnowEdge/images/KnowEdge
+modified: 20181107161957401
+modifier: Charles Delbé
+tags: $:/tags/@CD
+title: @:/tags/Image/AI
+tmap.id: bca0956c-4eed-4b8d-a7e8-c525b7b302d9
+type: text/vnd.tiddlywiki
+
+<style>
+  .my-ai-img-gallery img,
+  .my-ai-img-gallery svg,
+  .my-ai-img-gallery i
+  {
+	font-size: 6em;
+	/*width: 1em;*/
+	height: 1em;
+	margin: 14px;
+	padding-top: 0;
+  }
+  .my-ai-img-gallery i { }
+</style>
+
+<div class="my-ai-img-gallery">
+	<$list filter="[all[tiddlers+shadows]tag[@:/tags/Image/AI]sort[title]]">
+		<span title=<<currentTiddler>>>
+			<$transclude/>
+		</span>
+	</$list>
+</div>

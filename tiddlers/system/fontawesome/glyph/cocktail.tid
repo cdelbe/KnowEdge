@@ -1,0 +1,14 @@
+created: 20181107181944458
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Cocktail
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f561
+modified: 20181125084944297
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/cocktail
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-cocktail fa-10x'></i>

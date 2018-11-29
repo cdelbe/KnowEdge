@@ -1,0 +1,19 @@
+caption: Global .CD macros
+created: 20180930215706095
+creator: Charles Delbé
+list: 
+modified: 20181112194654500
+modifier: Charles Delbé
+tags: $:/tags/viewsource $:/tags/Macro $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/macros/globals
+type: text/vnd.tiddlywiki
+
+\define @get-cfg-path(foo) $(path)$$:/config/.CD/system
+
+\define @get-cfg-field(cfg, path:"$:/config/.CD/system") $path$!!$cfg$
+
+\define @get-cfg-value(field, path:"$:/config/.CD/system")
+<$list filter='[title[$path$]get[$field$]]'>{{!!title}}</$list>
+\end
+
+`<<@get-cfg-value "ke-version">>`: <<@get-cfg-value "ke-version">>

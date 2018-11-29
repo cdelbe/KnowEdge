@@ -1,0 +1,26 @@
+abstract: Most of the assessment systems are now using the Classical Test Theory (CTT), the real ability of students is not exactly revealed because they rely only on counting the number of true responses without awaring other characteristics like the difficulty of each item. Several testing software are applied weighted questions but they depend on the sentiment of teachers. The modern testing theories nowadays are built on a mathematical model which can calculate the latent trait of students. The Rasch model is the probability model which promotes interaction between an item and a student. We have constructed a system to estimate students' ability basing on Item Response Theory (IRT) and applying K-Means to classify student ranking. In this paper we present a model to categorize students' levels and compare them to traditional assessment methods. The results indicate that the methods we proposed have shown some significant improvement and they could be effectively applied for other tutoring systems. The result is also meaningful in customizing content and testing ways. Beside, the research is a guide line for teachers or test makers to give other testing approaches for various examinations.
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180916153759218
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: [[Item Response Theory]] [[Learner Model]]
+modified: 20181104212039825
+modifier: Charles Delbé
+mt-authors.title: Binh & Duy
+mt-publication.citation: Binh, H. T., & Duy, B. T. (2016, September). Student ability estimation based on IRT. In //2016 3rd National Foundation for Science and Technology Development Conference on Information and Computer Science (NICS)// (pp. 56-61). IEEE.
+mt-publication.date: 2016
+mt-publication.issue: 
+mt-publication.journal: 2016 3rd National Foundation for Science and Technology Development Conference on Information and Computer Science (NICS)
+mt-publication.title: Student ability estimation based on IRT
+mt-publication.volume: 
+mt-source.authors.list: [[Hoang Tieu Binh]] [[Bui The Duy]]
+mt-topics.list: [[Item Response Theory]] [[Learner Model]]
+subtitle: Binh & Duy (2016)
+tags: @:/type/article $:/type/publication
+title: Binh & Duy (2016)
+tmap.fa-icon: &x#f0f6;
+tmap.id: b0a379ff-6e41-4876-b20b-1c0633a154d3
+type: text/vnd.tiddlywiki
+url: https://www.researchgate.net/publication/308361140_Student_ability_estimation_based_on_IRT
+

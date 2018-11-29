@@ -1,0 +1,14 @@
+created: 20181107181944332
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Columns
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f0db
+modified: 20181125084944727
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/columns
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-columns fa-10x'></i>

@@ -1,9 +1,0 @@
-created: 20141104120913843
-creator: Alberto Molina Pérez
-modified: 20180820022818520
-modifier: Charles Delbé
-tags: $:/plugins/amp/MagicTabs/common
-title: $:/plugins/amp/MagicTabs/images/done
-type: text/vnd.tiddlywiki
-
-<<mt-image "fa-check" "done" "Done">>

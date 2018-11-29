@@ -1,0 +1,53 @@
+about: 
+color: #808000
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/author
+modified: 20181108113301149
+modifier: Charles Delbé
+mt-person.birth.date: 
+mt-person.birth.place: 
+mt-person.picture: 
+tags: $:/type/person $:/type/author
+title: $:/plugins/amp/MagicTabs/templates/types/author
+tmap.fa-icon: &#xf007;
+type: text/vnd.tiddlywiki
+
+<$reveal type="nomatch" state=<<folded-state>> text="hide" tag="div" class="post-container" retain="yes" animate="yes">
+
+<div class="post-thumb"><$image source={{!!mt-person.picture}} class="person"/></div>
+
+<div class="post-content">
+
+Enter text here...
+
+</div>
+</$reveal>
+
+<style>
+.post-container {
+    margin: 20px 20px 0 0;  
+    /*border: 5px solid #333;*/
+    overflow: auto
+}
+.post-thumb {
+    float: left;
+}
+.post-thumb img {
+    display: block;
+    margin-right:10px;
+}
+.post-content > ul,
+.post-content > ol {
+	display: inline-block;
+}
+.post-info {
+    display:inline;
+}
+.post-title {
+    font-weight: bold;
+    font-size: 200%;
+    padding: 9px;
+    background: #ccc
+}
+</style>

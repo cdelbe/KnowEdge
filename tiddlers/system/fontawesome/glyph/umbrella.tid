@@ -1,0 +1,14 @@
+created: 20181107181959139
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Umbrella
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f0e9
+modified: 20181125084950379
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/umbrella
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-umbrella fa-10x'></i>

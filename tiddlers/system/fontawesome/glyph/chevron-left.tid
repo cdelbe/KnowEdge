@@ -1,0 +1,14 @@
+created: 20181107181944625
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: chevron-left
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f053
+modified: 20181125084944094
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/chevron-left
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-chevron-left fa-10x'></i>

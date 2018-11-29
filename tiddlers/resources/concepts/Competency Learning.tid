@@ -1,0 +1,24 @@
+authors: 
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: 
+modified: 20181017203851475
+modifier: Charles Delbé
+mt-topics.list: 
+tags: [[Instructional Strategy]] $:/type/concept $:/type/knowledge
+title: Competency Learning
+tmap.fa-icon: &#xf12e;
+tmap.id: 7c8c7c06-0ae9-4fcd-bf79-4540401278d2
+type: text/vnd.tiddlywiki
+
+!Définition
+Approche pédagogique par compétence.
+
+<<<
+Comparé aux approches traditionnelles qui définissent et découpent une formation en périodes temporelles et thématiques, une approche par compétence est définie et découpée en termes d'acquisition de capacités nécessaires pour effectuer une tache. C'est l'application d'une capacité dans un contexte particulier avec un niveau de maîtrise spécifié qui définit la compétence visée, évaluée et/ou validée.
+<<<
+
+!Références
+* http://edutechwiki.unige.ch/fr/Approche_par_comp%C3%A9tence

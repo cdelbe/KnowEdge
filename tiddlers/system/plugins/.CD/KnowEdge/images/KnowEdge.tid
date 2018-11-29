@@ -1,0 +1,14 @@
+created: 20181031124642879
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/KnowEdge
+modified: 20181107193518372
+modifier: Charles Delbé
+tags: @:/tags/Image $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/images/KnowEdge
+tmap.id: 1f4cf0d1-2fd4-4849-bccf-9debbb9c7c70
+type: text/vnd.tiddlywiki
+
+<!--{{$:/plugins/.CD/KnowEdge/images/philosophy}}-->
+<i class="fas fa-university fa-fw fa-1x"></i> <!--fa-2x-->
+<!--fa-share-alt fa-flash fa-sitemap fa-puzzle-piece fa-bullseye fa-plug fa-lightbulb-o fa-gears fa-power-off fa-filter fa-cubes fa-wrench fa-mortar-board fa-database
+fa-cogs fa-circle-o-notch fa-bullseye-->

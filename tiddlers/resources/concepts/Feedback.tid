@@ -1,0 +1,17 @@
+authors: 
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: 
+modified: 20181009062540780
+modifier: Charles Delbé
+mt-topics.list: 
+tags: [[Instructional Strategy]] $:/type/concept $:/type/knowledge
+title: Feedback
+tmap.fa-icon: &#xf12e;
+tmap.id: 49a309cc-9820-4452-9153-a4145997a118
+type: text/vnd.tiddlywiki
+
+!!Mécanismes de rétroaction
+Un [[système d'apprentissage adaptatif|Adaptive Learning]] propose des ''mécanismes de rétroaction'' variés qui alertent les élèves d'une erreur et les guident, en fonction de la nature de l'erreur, jusqu'à un point précédent de la leçon ou leur donnent des [[conseils|Hints]] pour résoudre le problème. La conception de ces mécanismes de rétroaction, qui peuvent également adopter une approche basée sur les jeux sérieux, est essentielle pour encourager et maintenir ''l’intérêt'' des apprenants (voir [[ZPD|?]], [[Engagement]]).

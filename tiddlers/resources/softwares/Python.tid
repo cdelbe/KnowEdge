@@ -1,0 +1,14 @@
+color: #ff8040
+created: 20181030025133616
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/software
+modified: 20181102062037425
+modifier: Charles Delbé
+tags: $:/type/software $:/tags/@CD
+title: Python
+tmap.fa-icon: &#xf120;
+tmap.id: 4f649937-bd62-4872-9587-6511d4b11fba
+type: text/vnd.tiddlywiki
+url: 
+
+ :[[The Python Grimoire (TW5)|https://www.irb.hr/users/maks/tiddlygrimoire.html]]

@@ -1,0 +1,16 @@
+created: 20141211114048964
+creator: Tobias Beer
+modified: 20181025191914448
+modifier: Charles Delbé
+tags: $:/tags/Macro
+title: $:/.tb/macros/btn-img
+type: text/vnd.tiddlywiki
+
+\define btn-img(img, legend)
+<$button message="tm-modal" param="$img$" class="btn-img tc-btn-invisible">
+[img class=pretty [$img$]]
+@@.legend
+$legend$ 
+@@
+</$button>
+\end

@@ -1,0 +1,14 @@
+created: 20181107182002197
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: X-Ray
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f497
+modified: 20181125084951074
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/x-ray
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-x-ray fa-10x'></i>

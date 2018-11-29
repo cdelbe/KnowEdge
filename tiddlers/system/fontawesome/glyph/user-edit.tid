@@ -1,0 +1,14 @@
+created: 20181107182001897
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: User Edit
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f4ff
+modified: 20181125084950620
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/user-edit
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-user-edit fa-10x'></i>

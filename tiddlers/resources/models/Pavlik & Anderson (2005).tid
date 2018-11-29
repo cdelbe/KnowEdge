@@ -1,0 +1,30 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180916153759218
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: Memory [[Spaced Reinforcement]] Modeling ACT-R Vocabulary
+modified: 20181025171816598
+modifier: Charles Delbé
+mt-authors.title: Pavlik & Anderson
+mt-publication.citation: Pavlik Jr, P. I., & Anderson, J. R. (2005). Practice and forgetting effects on vocabulary memory: An activation‐based model of the spacing effect. //Cognitive Science//, 29(4), 559-586.
+mt-publication.date: 2005
+mt-publication.issue: 4
+mt-publication.journal: Cognitive Science
+mt-publication.title: Practice and Forgetting Effects on Vocabulary Memory: An Activation-Based Model of the Spacing Effect.
+mt-publication.volume: 29
+mt-source.authors.list: [[P. I. Pavlik]] [[J. R. Anderson]]
+mt-topics.list: Memory [[Spaced Reinforcement]] Modeling ACT-R Vocabulary
+abstract: An experiment was performed to investigate ''the effects of practice and spacing'' on retention of Japanese–English vocabulary paired associates. The relative benefit of spacing increased with increased practice and with longer retention intervals. Data were fitted with an ''activation‐based memory model'', which proposes that each time an item is practiced it receives ''an increment of strength'' but that these increments ''decay as a power function of time''. The rate of decay for each presentation depended on the activation at the time of the presentation. This mechanism limits long‐term benefits from further practice at higher levels of activation and produces the spacing effect and its observed interactions with practice and retention interval. The model was compared with another model of the spacing effect (Raaijmakers, 2003) and was fit to some results from the literature on spacing and memory.
+tags: @:/type/article $:/type/publication
+title: Pavlik & Anderson (2005)
+tmap.fa-icon: &x#f0f6;
+tmap.id: b7dbc3e4-e09a-42b8-b32c-d875aa56f141
+type: text/vnd.tiddlywiki
+url: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.140.930&rep=rep1&type=pdf
+
+!!Quotes
+<<<
+To model these data we needed a formal system that (1) predicted the improvement in performance that occurs with practice, (2) predicted the decrease in performance with delay, (3) predicted the spacing effect, (4) predicted the interaction of spacing with retention (that spaced practice shows greater advantage with greater delay), and (5) predicted the interaction of spacing with practice (that spacing is more important when there are more practice trials). 
+<<<
+

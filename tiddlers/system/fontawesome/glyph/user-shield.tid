@@ -1,0 +1,14 @@
+created: 20181107182001933
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: User Shield
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f505
+modified: 20181125084950631
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/user-shield
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-user-shield fa-10x'></i>

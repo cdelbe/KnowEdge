@@ -1,0 +1,19 @@
+color: #ff8040
+created: 20180814205623702
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/software
+list: Mathematics [[Learner Model]] Explainability
+modified: 20180916183831275
+modifier: Charles Delbé
+mt-topics.list: [[Mathematics]] [[Learner Model]] [[Explainability]]
+tags: $:/type/software [[Intelligent Tutoring Systems]]
+title: iTalk2Learn system16
+tmap.fa-icon: &#xf120;
+tmap.id: e55cf4f1-d404-440c-bb53-0642a4502313
+type: text/vnd.tiddlywiki
+url: http://www.educationaldatamining.org/EDM2015/uploads/papers/edm2015_shortpapers.pdf
+
+The iTalk2Learn system16, a system engineered and tested by ''Carnegie Mellon University'' to assess its effects on young students learning fractions, applied a learner model that @@background-color:Yellow;''explicitly included information''@@ about an individual’s mathematics knowledge, cognitive needs, emotional state, as well as feedback received and the students’ responses in turn.
+
+---
+Proceedings of the 8th International Conference on Educational Data Mining

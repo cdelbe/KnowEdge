@@ -1,0 +1,46 @@
+authors: 
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: 
+modified: 20181017204319280
+modifier: Charles Delbé
+mt-topics.list: 
+tags: [[Instructional Strategy]] $:/type/concept $:/type/knowledge
+title: Problem-Based Learning
+tmap.fa-icon: &#xf12e;
+tmap.id: 25b436b4-7e51-477d-af20-74156b1cc64c
+type: text/vnd.tiddlywiki
+
+!1. Definition
+> L’Apprentissage par résolution de Problèmes (''APP'') : les apprenants, regroupés par équipes, travaillent à résoudre un problème pour lequel ils n'ont reçu aucun enseignement particulièr, de façon à provoquer des apprentissages de connaissances et de savoir-faire, à découvrir activement de nouvelles notions (ils s’instruisent eux-mêmes) en y étant poussé par les nécessités du problème soumis. Cette stratégie se fonde principalement sur le ''raisonnement analogique'' qui consiste à utiliser un problème familier pour résoudre un nouveau problème du même type. L'apprenant se construit une ''représentation de l’ancienne situation'' intégrant le problème, ''le chemin emprunté'' pour aboutir à sa résolution ainsi que les ''résultats obtenus''. Au fur et à mesure de ses expériences, l’apprenant encode de nombreuses situations, qui sont analysées, stockées et organisées en [[Mémoire à long-terme]]. Des ''inférences'' sont ainsi réalisées qui permettent une ''adaptation rapide de l’ancienne situation'' à la nouvelle par le biais de comparaisons et d’extractions d’informations importantes (Romainville, 1999). Enfin, la démarche est guidée par l'enseignant qui joue un rôle de ''facilitateur''.
+
+L’APP peut être considéré comme une
+
+* [[Macrostrategy]], si elle est utilisée pour l’ensemble des activités d’un cours ou d’un [[programme d’études|Educational Curriculum]]. 
+* [[Microstrategy]], si on l’applique pour quelques activités d’un cours ou d’un programme d’études et si d’autres activités sont basées sur les techniques narratives (i.e., les cours traditionnels).
+
+!2. Stratégies apparentées
+!!2.1 L'apprentissage basé sur l'étude de cas
+l'APP montre beaucoup de similitudes avec la stratégie de [[l’apprentissage basé sur l'étude de cas (ABC)|Case-Based Learning]]. Selon Williams (2005), cette stratégie découle en fait de l’APP. Les deux stratégies tiennent compte des ''connaissances préalables des apprenants'' et les mettent au départ devant le problème à résoudre. La discussion en ''petits groupes'' est privilégiée dans ces deux stratégies.
+
+Dans l’APP, le rôle du facilitateur est moins important que dans l'ABC (Srinivasan, Wilkes, Stevenson, Nguyen et Slavin, 2007). L’APP a été qualifiée d’''approche interrogative ouverte'' (open inquiry approach), contrairement à l’ABC qui a été appelé ''approche interrogative guidée ''(guided inquiry approach) (Srinivasan et coll., 2007). La critique typique qu'on adresse à l’APP est que cette ''stratégie est moins efficiente'' que celle de l’ABC, puisque, lorsque la supervision pédagogique est minimaliste ou presque absente, les apprenants sont plus à risque de faire des erreurs et de perdre leur temps (Srinivasan et coll., 2007).
+
+!!2.2 L'apprentissage par équipe
+La stratégie de [[l'apprentissage par équipe (APE)|Team-Based Learning]] est une stratégie hautement ''structurée'' qui demande des ''rétroactions fréquentes'' de la part du @@background-color:Cyan;facilitateur@@. Une autre particularité de l’APE qui le distingue de l’Apprentissage par Problèmes est le fait que dans l'APE, les équipes sont formées par le facilitateur qui distribue également les élèves les plus expérimentés dans toutes les équipes (Parmelee et Hudes, 2012).
+
+L’APP rappelle aussi la stratégie de [[l'apprentissage par équipes (APE)|Team-Based Learning]]. On peut caractériser l’APP comme une des formes particulières de cette stratégie, vu leurs ressemblances significatives. L’APE est une stratégie pédagogique qui fournit aux élèves la possibilité de résoudre des problèmes : en travaillant en équipe, les apprenants sont mieux outillés pour résoudre des problèmes complexes par l’entremise des tâches répétitives, de la lecture, des tests individuels et en groupe, des discussions à l’intérieur de l’équipe et entre les équipes, ainsi que de la [[rétroaction|Feedback]] du facilitateur. L’APE se distingue de l’APP par la structure ''plus détaillée'' de la supervision.
+
+> De façon similaire à l’APP, l’APE est applicable dans le cas d’étudiants intermédiaires ou avancés qui ont déjà de l’expérience théorique, mais est @@background-color:Yellow;''peu applicable dans le cas d’étudiants qui n’ont pas beaucoup d’expérience clinique''@@ (ou pratique) 
+
+!3. Exemples d'utilisation
+Au Canada (Québec), l'Université du Québec à Montréal offre le baccalauréat en biologie entièrement en APP (http://www.etudier.uqam.ca/programme?code=7013).
+
+!4. References
+*https://fr.wikipedia.org/wiki/Apprentissage_par_probl%C3%A8mes
+*http://wiki.teluq.ca/wikitedia/index.php/Apprentissage_par_probl%C3%A8mes
+*Romainville. M (1999). L'apprentissage par problèmes, Réseau, no 44, Namur: Service de pédagogie universitaire, mars. Récupéré de https://www.unamur.be/det/spu/revue-reseau/numeros-reseau-44-51/reseau44
+*Williams, B. (2005). Case based learning—a review of the literature: is there scope for this educational paradigm in prehospital education? Emergency Medicine Journal, 22(8), 577-581. Repéré du site: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1726887
+*Srinivasan, M., Wilkes, M., Stevenson, F., Nguyen, T., & Slavin, S. (2007). Comparing problem-based learning with case-based learning: effects of a major curricular shift at two institutions. Academic Medicine, 82(1), 74-82. Recupéré du site : http://journals.lww.com/academicmedicine/Abstract/2007/01000/Comparing_Problem_Based_Learning_with_Case_Based.10.aspx
+*Parmelee D. et P. Hudes (2012). Team-based learning: A relevant Strategy in Health Professionals’ Education. Medical Teacher, 34(5), 411-413, Recupéré du site le 5 mai 2015: http://informahealthcare.com/doi/abs/10.3109/0142159X.2012.643267

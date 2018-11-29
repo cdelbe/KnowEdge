@@ -1,0 +1,14 @@
+created: 20181107181944207
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Stripe Credit Card
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f1f5
+modified: 20181125084943615
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/cc-stripe
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-cc-stripe fa-10x'></i>

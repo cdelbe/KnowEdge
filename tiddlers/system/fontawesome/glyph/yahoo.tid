@@ -1,0 +1,14 @@
+created: 20181107182002256
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Yahoo Logo
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f19e
+modified: 20181125084951132
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/yahoo
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-yahoo fa-10x'></i>

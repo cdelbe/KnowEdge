@@ -1,0 +1,14 @@
+created: 20181107182002067
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Volleyball Ball
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f45f
+modified: 20181125084950826
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/volleyball-ball
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-volleyball-ball fa-10x'></i>

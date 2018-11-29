@@ -1,0 +1,12 @@
+caption: Contents
+created: 20181017174832628
+creator: Charles Delbé
+modified: 20181029034931736
+modifier: Charles Delbé
+tags: $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/ui/menu/TOC/dropdown
+type: text/vnd.tiddlywiki
+
+<div class="tc-table-of-contents">
+    <<toc-selective-expandable '@:/tags/TOC'>> 
+</div>

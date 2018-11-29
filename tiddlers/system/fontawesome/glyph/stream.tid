@@ -1,0 +1,14 @@
+created: 20181107181950250
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Stream
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f550
+modified: 20181125084949838
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/stream
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-stream fa-10x'></i>

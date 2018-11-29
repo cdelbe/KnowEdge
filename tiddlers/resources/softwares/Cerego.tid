@@ -1,0 +1,37 @@
+color: #ff8040
+created: 20180814205623702
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/software
+list: [[Spaced Reinforcement]] [[Learning Analytics]]
+modified: 20180926212626476
+modifier: Charles Delbé
+mt-topics.list: [[Spaced Reinforcement]] [[Learning Analytics]]
+tags: $:/type/software
+title: Cerego
+tmap.fa-icon: &#xf120;
+tmap.id: 39a5abbb-f0b2-41d2-a285-d33caf3cebce
+type: text/vnd.tiddlywiki
+url: https://www.cerego.com
+
+!!Principles
+<<<
+Cerego helps people acquire and quantify knowledge. Using proven, core principles of learning science, our platform facilitates the creation of durable, flexible, and usable knowledge—and provides insight into current and predictive performance.
+<<<
+
+<<<
+Cerego technology includes a proprietary and evidence supported algorithm that assesses individual memory strength using the learner’s own performance, the forgetting curve, and distributed practice formulas, to develop and deliver an optimal schedule that efficiently and effectively, guides learning. An error-correcting model keeps Cerego constantly learning, ensuring that user-by-user, and item-by-item, personalization is at its core.
+<<<
+
+!!How to Use Scientific Principles to Improve Learning
+The Cerego platform does not just improve how individuals learn using technology. It also helps users become more proficient learners even outside the system, and provides significant benefits to instructors :
+
+* Know what learners know, right now and over time
+* Make content creation fast and easy
+* Assess how learners are progressing with course material
+* Yield 2x better results for learners with mobile studying
+
+
+!!Reference
+* [[Whitepaper: Translating Learning Science into Learning Strategy (2016) |https://cdn2.hubspot.net/hubfs/2480790/Blog%20Media%20and%20Resources/PDF/White%20Paper.pdf]]
+* [[Learning Science Meets Machine Learning|http://marker.to/Hp4EXr]]
+* [[Courses Guide|https://cdn2.hubspot.net/hubfs/2480790/Blog%20Media%20and%20Resources/PDF/courses-guide.pdf]]

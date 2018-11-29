@@ -1,0 +1,14 @@
+created: 20181107182002097
+creator: Charles Delbé
+fa-default-style: fas
+fa-label: Hanging Weight
+fa-style-classes: fas
+fa-styles: solid
+fa-unicode: f5cd
+modified: 20181125084950963
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/weight-hanging
+type: text/vnd.tiddlywiki
+
+<i class='fas fa-weight-hanging fa-10x'></i>

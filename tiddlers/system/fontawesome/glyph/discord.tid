@@ -1,0 +1,14 @@
+created: 20181107181945097
+creator: Charles Delbé
+fa-default-style: fab
+fa-label: Discord
+fa-style-classes: fab
+fa-styles: brands
+fa-unicode: f392
+modified: 20181125084945040
+modifier: Charles Delbé
+tags: .fa
+title: $:/fontawesome/glyph/discord
+type: text/vnd.tiddlywiki
+
+<i class='fab fa-discord fa-10x'></i>

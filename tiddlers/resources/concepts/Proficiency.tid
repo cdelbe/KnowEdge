@@ -1,0 +1,15 @@
+color: #800080
+created: 20180825162905136
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: [[Proficiency Model]]
+modified: 20181025182917906
+modifier: Charles Delbé
+mt-topics.list: [[Proficiency Model]]
+tags: $:/type/concept $:/type/knowledge
+title: Proficiency
+tmap.fa-icon: &#xf12e;
+tmap.id: 2e091044-63bc-4092-b02e-5e54bc95b60c
+type: text/vnd.tiddlywiki
+
+"Compétence" : Réussite à une [[évaluation|Assignment]], telle que déterminée par les [[modèles de compétence|Proficiency Model]].
