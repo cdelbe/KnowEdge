@@ -1,15 +1,15 @@
 author: JeremyRuston
-created: 20181022202525724
+created: 20181130091051249
 creator: Charles Delbé
 dependents: 
 description: CodeMirror Mode: Markdown Highlighting
 list: readme
-modified: 20181022202525724
+modified: 20181130091051249
 modifier: Charles Delbé
 plugin-type: plugin
 title: $:/plugins/tiddlywiki/codemirror-mode-markdown
 type: application/json
-version: 5.1.17
+version: 5.1.18-prerelease
 
 {
     "tiddlers": {

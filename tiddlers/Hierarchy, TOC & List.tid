@@ -1,0 +1,42 @@
+created: 20181007113236228
+creator: Charles Delbé
+modified: 20181130003213067
+modifier: Charles Delbé
+tags: TiddlyWiki
+title: Hierarchy, TOC & List
+tmap.id: e71fd35e-2cd9-4ef3-b28c-7f658d227efc
+type: text/vnd.tiddlywiki
+
+!References
+;TOC Manager (Moves items; Using tags hierarchy)
+:http://inmysocks.tiddlyspot.com/#%24%3A%2Fplugins%2Finmysocks%2FManageTOC%2FManage%20Table%20of%20Contents
+
+;A hierarchy without tag
+:Here's how you can list entries to categories without a need to use tagging, optionally sorted by a custom order field: https://tobibeer.github.io/tb5/#A%20Hierarchy%20Without%20Tags
+
+;Nested TOC : https://reidgould.github.io/tiddlywiki-nn-plugin/
+
+;Tables of Content
+:https://edla.org/#TableOfContents
+:[[A toc of tiddler headings|http://tidtoc.tiddlyspot.com/#GettingStarted]]
+:[[TBeer: Examples|http://tobibeer.github.io/tw5-plugins/#toc-Examples]]
+:[[tw5magic|http://tw5magick.tiddlyspot.com/#Another%20TOC%20example]]
+:[[giffmex|http://giffmex.org/experiments/obadiah.html#Table%20of%20contents)]]
+
+!Currently implemented
+!!tree
+```
+<<tree prefix:"$:/.cd/">>
+```
+
+!!list
+```
+<<list-links-title filter:"[tag<currentTiddler>!is[system]sort[title]]" class:"object-list">>
+```
+
+!!TOC
+```
+<div class="tc-table-of-contents">
+<<toc-selective-expandable '$:/type/knowledge'>>
+</div>
+```

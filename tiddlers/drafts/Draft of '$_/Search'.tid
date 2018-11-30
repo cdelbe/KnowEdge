@@ -1,0 +1,78 @@
+created: 20181031180159723
+creator: Thomas Elmiger
+draft.of: $:/Search
+draft.title: $:/Search
+icon: $:/plugins/telmiger/simple-search/images/search-button
+modified: 20181130055417175
+modifier: Charles Delbé
+title: Draft of '$:/Search'
+type: text/vnd.tiddlywiki
+
+<div class="tc-layer-search">
+<div class="te-close-this">
+<$button message="tm-close-tiddler" param={{!!title}} tooltip="close search" aria-label={{$:/language/Buttons/Close/Caption}} class=<<tv-config-toolbar-class>>>
+{{$:/core/images/close-button}}
+<$list filter="[<tv-config-toolbar-text>prefix[yes]]">
+<span class="tc-btn-text">close</span>
+</$list>
+</$button>
+</div>
+<div class="tc-simple-search">
+<$set name="searchTiddler" value="$:/temp/search">
+<div class="tc-search">
+<$edit-text tiddler="$:/temp/search" type="search" tag="input" focus={{$:/config/Search/AutoFocus}} focusPopup=<<qualify "$:/state/popup/search-dropdown">> class="tc-popup-handle"/>
+<$reveal state="$:/temp/search" type="nomatch" text="">
+<$button tooltip={{$:/language/Buttons/AdvancedSearch/Hint}} aria-label={{$:/language/Buttons/AdvancedSearch/Caption}} class="tc-btn-invisible">
+<$action-setfield $tiddler="$:/temp/advancedsearch" text={{$:/temp/search}}/>
+<$action-setfield $tiddler="$:/temp/search" text=""/>
+<$action-navigate $to="$:/AdvancedSearch"/>
+<$action-sendmessage $message="tm-close-tiddler" $param={{!!title}}/>
+{{$:/core/images/advanced-search-button}}
+</$button><$button class="tc-btn-invisible" tooltip="clear search field" aria-label="reset search">
+<$action-setfield $tiddler="$:/temp/search" text="" />
+{{$:/core/images/close-button}}
+</$button>
+<div class="tc-simple-search-results">
+<$button tooltip="show/hide list" aria-label="toggle results" popup=<<qualify "$:/state/popup/search-dropdown">> class="tc-btn-invisible">
+{{$:/core/images/down-arrow}}
+<$list filter="[{$:/temp/search}minlength{$:/config/Search/MinLength}limit[1]]" variable="listItem">
+<$set name="searchTerm" value={{{ [<searchTiddler>get[text]] }}}>
+<$set name="resultCount" value="""<$count filter="[!is[system]search<searchTerm>]"/>""">
+{{$:/language/Search/Matches}}
+</$set>
+</$set>
+</$list>
+</$button>
+</div>
+</$reveal>
+<$reveal state="$:/temp/search" type="match" text="">
+<$button to="$:/AdvancedSearch" tooltip={{$:/language/Buttons/AdvancedSearch/Hint}} aria-label={{$:/language/Buttons/AdvancedSearch/Caption}} class="tc-btn-invisible">
+{{$:/core/images/advanced-search-button}}
+</$button>
+</$reveal>
+</div>
+
+<$reveal tag="div" class="tc-block-dropdown-wrapper" state="$:/temp/search" type="nomatch" text="">
+
+<$reveal tag="div" class="tc-block-dropdown tc-search-drop-down tc-popup-handle" state=<<qualify "$:/state/popup/search-dropdown">> type="nomatch" text="" default="">
+
+<$list filter="[{$:/temp/search}minlength{$:/config/Search/MinLength}limit[1]]" emptyMessage="""<div class="tc-search-results">{{$:/language/Search/Search/TooShort}}</div>""" variable="listItem">
+
+{{$:/plugins/telmiger/simple-search/results}}
+
+</$list>
+</$reveal>
+</$reveal>
+</$set>
+</div>
+<$reveal type="match" state="$:/plugins/telmiger/simple-search/settings/edit" text="yes">
+<span class="te-edit-this">
+<$button message="tm-edit-tiddler" param={{!!title}} tooltip="edit tiddler" aria-label={{$:/language/Buttons/Edit/Caption}} class=<<tv-config-toolbar-class>>>
+{{$:/core/images/edit-button}}
+<$list filter="[<tv-config-toolbar-text>prefix[yes]]">
+<span class="tc-btn-text">edit</span>
+</$list>
+</$button>
+</span>
+</$reveal>
+</div>

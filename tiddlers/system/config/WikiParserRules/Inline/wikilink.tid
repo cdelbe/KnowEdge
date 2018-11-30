@@ -1,8 +1,8 @@
 created: 20180906203814447
 creator: Charles Delbé
-modified: 20181029141210246
+modified: 20181129231845698
 modifier: Charles Delbé
 title: $:/config/WikiParserRules/Inline/wikilink
 type: text/vnd.tiddlywiki
 
-disable
+enable

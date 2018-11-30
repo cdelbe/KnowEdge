@@ -1,0 +1,18 @@
+caption: {{!!title}}
+color: #681224
+created: 20181129212315025
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/bookmark
+list: 
+modified: 20181129212338612
+modifier: Charles Delbé
+mt-publication.citation: 
+mt-topics.list: 
+tags: $:/tags/embed Publishing $:/type/bookmark $:/tags/@CD
+title: Exporting Static Sites From Tiddlywiki
+tmap.fa-icon: &#xf097;
+tmap.id: 687d7dd8-43e3-429f-b8fd-cf59f9470570
+type: text/vnd.tiddlywiki
+url: https://www.didaxy.com/exporting-static-sites-from-tiddlywiki
+
+ 

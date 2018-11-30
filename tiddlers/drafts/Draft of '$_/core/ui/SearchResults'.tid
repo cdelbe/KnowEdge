@@ -1,0 +1,22 @@
+created: 20181130085811316
+creator: Charles Delbé
+draft.of: $:/core/ui/SearchResults
+draft.title: $:/core/ui/SearchResults
+modified: 20181130085814018
+modifier: Charles Delbé
+title: Draft of '$:/core/ui/SearchResults'
+type: text/vnd.tiddlywiki
+
+<div class="tc-search-results">
+
+<$list filter="[all[shadows+tiddlers]tag[$:/tags/SearchResults]!has[draft.of]butfirst[]limit[1]]" emptyMessage="""
+<$list filter="[all[shadows+tiddlers]tag[$:/tags/SearchResults]!has[draft.of]]">
+<$transclude mode="block"/>
+</$list>
+""">
+
+<$macrocall $name="tabs" tabsList="[all[shadows+tiddlers]tag[$:/tags/SearchResults]!has[draft.of]]" default={{$:/config/SearchResults/Default}}/>
+
+</$list>
+
+</div>

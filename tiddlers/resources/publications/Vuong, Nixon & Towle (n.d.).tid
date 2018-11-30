@@ -5,7 +5,7 @@ created: 20181028225853692
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/publication
 list: Prerequisites [[Knowledge Graph]] [[Data Mining]] [[Educational Curriculum]] [[Intelligent Tutoring Systems]]
-modified: 20181030045201511
+modified: 20181129183654300
 modifier: Charles Delbé
 mt-authors.title: Vuong, Nixon & Towle
 mt-publication.citation: Vuong, Nixon & Towle (n.d.). A Method for Finding Prerequisites Within a Curriculum. Retrieved from http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.646.9850&rep=rep1&type=pdf
@@ -15,7 +15,7 @@ mt-publication.subtitle:
 mt-publication.title: A Method for Finding Prerequisites Within a Curriculum
 mt-source.authors.list: [[Annalies Vuong]] [[Tristan Nixon]] [[Brendon Towle]]
 mt-topics.list: Prerequisites [[Knowledge Graph]] [[Data Mining]] [[Educational Curriculum]] [[Intelligent Tutoring Systems]]
-tags: @:/tags/TODO @:/type/article $:/type/publication
+tags: @:/type/article $:/type/publication
 title: Vuong, Nixon & Towle (n.d.)
 tmap.fa-icon: &x#f0f6;
 tmap.id: 8d7cf5b2-8e5c-4a54-8460-94e96e455fdd

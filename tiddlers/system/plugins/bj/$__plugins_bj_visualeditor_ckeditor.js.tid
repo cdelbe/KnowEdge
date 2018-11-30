@@ -1,10 +1,10 @@
 created: 20181113222123701
 creator: Charles Delbé
-modified: 20181113222848183
+modified: 20181130081629131
 modifier: Charles Delbé
-tags: 
-title: $:\plugins\bj\visualeditor\ckeditor.js
+title: $:/plugins/bj/visualeditor/ckeditor.js
 tmap.id: 42bdbb27-c39e-43ba-b1dc-51606928567f
+type: text/vnd.tiddlywiki
 
 /*
 Copyright (c) 2003-2018, CKSource - Frederico Knabben. All rights reserved.

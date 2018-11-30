@@ -4,10 +4,10 @@ created: 20181029110809058
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/concept
 list: 
-modified: 20181030034851125
+modified: 20181129183850940
 modifier: Charles Delbé
 mt-topics.list: 
-tags: @:/tags/TODO $:/type/concept $:/type/knowledge
+tags: $:/type/concept $:/type/knowledge
 title: Spacing Effect
 tmap.fa-icon: &#xf12e;
 tmap.id: da2dadec-1017-42b7-ac5a-23b5d4e062a7

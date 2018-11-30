@@ -1,0 +1,40 @@
+caption: {{$:/plugins/danielo515/ContextPlugin/Caption}}
+created: 20140530173407542
+creator: Charles Delbé
+draft.of: Context Search
+draft.title: Context Search
+modified: 20181130054935534
+modifier: Charles Delbé
+tags: $:/tags/AdvancedSearch
+title: Draft of 'Context Search'
+tmap.id: 2268b08d-f65b-4dc0-bf87-f2a3ca3c89d4
+type: text/vnd.tiddlywiki
+
+\define lingo-base() $:/language/Search/
+<$linkcatcher to="$:/temp/advancedsearch">
+
+<<lingo Standard/Hint>>
+
+</$linkcatcher>
+
+<$reveal state="$:/temp/advancedsearch" type="nomatch" text="">
+<div class="tw-search-results">
+
+<$set name="resultCount" value="""<$count filter="[!is[system]search{$:/temp/advancedsearch}]"/>""">
+
+<<lingo Standard/Matches>>
+
+<$list filter="[!is[system]search{$:/temp/advancedsearch}sort[title]limit[250]]">
+{{!!title||$:/core/ui/ListItemTemplate}}
+<$context term={{$:/temp/advancedsearch}}/>
+</$list>
+
+</$set>
+
+</div>
+
+</$reveal>
+
+<$reveal state="$:/temp/advancedsearch" type="match" text="">
+
+</$reveal>

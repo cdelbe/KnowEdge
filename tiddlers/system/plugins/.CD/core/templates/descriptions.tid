@@ -1,0 +1,29 @@
+color: #222d56
+created: 20181129225709186
+creator: Charles Delbé
+description: List of tiddlers showing their description (and optionnal field).
+modified: 20181129230904633
+modifier: Charles Delbé
+mt-source.root: 
+mt-topics.list: 
+tags: $:/tags/viewsource $:/tags/Macro
+title: $:/plugins/.CD/core/templates/descriptions
+type: text/vnd.tiddlywiki
+
+\define @descriptions(filter:"[{!!title}tagging[]]", field)
+<dl>
+<$reveal type="match" text="$field$" default="">
+<$list filter="$filter$">
+<dt><$link to=<<currentTiddler>>><$view field=title/></$link></dt>
+<dd>@@color:grey;//{{!!description}}//@@</dd>
+</$list>
+</$reveal>
+<$reveal type="nomatch" text="$field$" default="">
+<$list filter="$filter$">
+<dt><$link to=<<currentTiddler>>><$view field=title/></$link></dt>
+<dd>@@color:grey;//{{!!description}}//@@</dd>
+<$list filter="[all[current]has[$field$]]"><dd>$field$: <code><$text text={{!!$field$}}/></code></dd></$list>
+</$list>
+</$reveal>
+</dl>
+\end

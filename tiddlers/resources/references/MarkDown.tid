@@ -1,0 +1,31 @@
+color: #81b53b
+created: 20181130000723519
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/tutorial
+modified: 20181130001021679
+modifier: Charles Delbé
+summary: 
+tags: @:/tags/TOC Reference
+title: MarkDown
+tmap.fa-icon: &#xf01d;
+tmap.id: 57d96439-f3cd-4485-8df4-1ff09676790b
+type: text/vnd.tiddlywiki
+url: 
+
+;[[Official syntax|https://daringfireball.net/projects/markdown/syntax]]
+
+;[[Markdown Cheatsheet|https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet]]
+
+;[[A cheatsheet of Markdown and Markdown Extra|https://warpedvisions.org/projects/markdown-cheat-sheet/]]
+
+;https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
+
+;https://www.markdownguide.org/cheat-sheet/
+
+;[[tiddly2md|https://github.com/achabotl/tiddly2md]]
+:Converts a TiddlyWiki to individual markdown files.
+
+;[[MultiMarkdown-6|https://github.com/fletcher/MultiMarkdown-6]]
+:Lightweight markup processor to produce HTML, LaTeX, and more. 
+
+;[[MM6 reference|https://github.com/fletcher/human-markdown-reference]]

@@ -3,7 +3,7 @@ color: #222d56
 created: 20181001172216984
 creator: Charles Delbé
 icon: $:/core/icon
-modified: 20181125033335560
+modified: 20181129230943843
 modifier: Charles Delbé
 tags: TiddlyWiki
 title: $:/tags/Macro
@@ -11,7 +11,5 @@ type: text/vnd.tiddlywiki
 
 !Macros
 <$scrollable class='cdscroll'>
-<div class="tc-table-of-contents">
-<<toc-selective-expandable '$:/tags/Macro'>>
-</div>
+<<@descriptions "[[$:/tags/Macro]tagging[]]">>
 </$scrollable>

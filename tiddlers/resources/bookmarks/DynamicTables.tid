@@ -2,9 +2,10 @@ caption: DynamicTables
 color: #681224
 created: 20181111023207534
 creator: Charles Delbé
+description: Dynamically created tables that are filterable, sortable, and in-line editable
 icon: $:/plugins/.CD/KnowEdge/images/bookmark
 list: Tables
-modified: 20181127202019767
+modified: 20181130002135438
 modifier: Charles Delbé
 mt-publication.citation: 
 mt-topics.list: Tables

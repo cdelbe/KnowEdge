@@ -17,9 +17,9 @@ ke-color-task: rgb(120,120,188,0.85)
 ke-color-topic: rgb(0,64,128,0.85)
 ke-decorate-tiddlers-title: yes
 ke-version: 1.3.0
-modified: 20181123071414648
+modified: 20181129213700005
 modifier: Charles Delbé
-tags: $:/tags/@CD $:/tags/ControlPanel @:/tags/DRAFT
+tags: $:/tags/@CD $:/tags/ControlPanel
 title: $:/config/.CD/system
 type: text/vnd.tiddlywiki
 

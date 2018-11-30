@@ -3,7 +3,7 @@ created: 20180919064643905
 creator: Charles Delbé
 icon: 
 list: 
-modified: 20181125045452027
+modified: 20181130002929637
 modifier: Charles Delbé
 tabs: [[Introduction to Filters]] Notation Examples
 tags: Reference TiddlyWiki
@@ -17,11 +17,20 @@ url: https://tiddlywiki.com/#Filters
 \define plugin-docs-tabs()
 	<$macrocall $name="tabs" state=<<plugin-docs-state>> tabsList={{!!tabs}} default="Info" template="$:/.tb/macros/plugin-docs/tab-template"/>
 \end
+\define extern(url) 
+<iframe src="$url$" frameborder="0" width="100%" height="1200px" onload="this.height=this.contentDocument.body.scrollHeight +'px';">
+\end
 
 !TOC
 <div class="tc-table-of-contents">
     <<toc-selective-expandable 'Filters'>>
 </div>
+
+;[[Join|http://tobibeer.github.io/tw5-plugins/#join]]
+:A filter to join/concatenate titles via template, separator, prefix, suffix, trimmed.
+;[[Value|http://tobibeer.github.io/tw5-plugins/#value]]
+:A filter to test input titles for a given value. 	
+;[[Split]]
 
 <$details summary="Introduction" open="no">
     <<external-tiddler "TiddlyWiki" "Filters" height:"700px">>
@@ -35,4 +44,10 @@ url: https://tiddlywiki.com/#Filters
 
 <$details summary="Examples" open="no">
 <<external-tiddler "TobiBeer" "Filter%20Examples" height:"1400px">>
+</$details>
+
+
+
+<$details summary="TEST" open="no">
+<<extern "http://magictabs.tiddlyspot.com/">>
 </$details>

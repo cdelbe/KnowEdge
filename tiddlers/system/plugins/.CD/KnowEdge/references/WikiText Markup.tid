@@ -3,9 +3,9 @@ created: 20180829173528696
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/KnowEdge
 list: 
-modified: 20181112113523645
+modified: 20181129211815026
 modifier: Charles Delbé
-tags: $:/plugins/.CD/KnowEdge/references/main $:/tags/@CD TiddlyWiki
+tags: $:/plugins/.CD/KnowEdge/references/main $:/tags/@CD
 title: $:/plugins/.CD/KnowEdge/references/WikiText Markup
 tmap.id: 3f821629-b36a-4856-92cb-104c03100690
 type: text/vnd.tiddlywiki
@@ -932,6 +932,10 @@ float:left;
 width:48%;
 margin:1em 0 0 0;
 padding:0;
+}
+
+.tb5-markup > dd:before {
+  content: "";
 }
 
 .tb5-markup > dd > p,

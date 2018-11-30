@@ -1,6 +1,6 @@
 created: 20181125070637451
 creator: Charles Delbé
-modified: 20181125072459960
+modified: 20181130003334971
 modifier: Charles Delbé
 tags: Reference TiddlyWiki
 title: Hosts and Servers
@@ -30,6 +30,9 @@ The aim for this [[plugin|https://ustuehler.github.io/tw5-github/]] is to provid
 *[[Plugins|https://github.com/tiddlyweb/tiddlywebplugins.utils]] 
 *[[Python lib.|https://pypi.org/project/tiddlyweb/]] 
 
+!Hosting
+:[[Hosting TW on GitHub|http://confocal-manawatu.pbworks.com/w/page/114094270/TW5%20Host%20on%20github%20for%20free%20without%20any%20git%20knowledge%20or%20software%20installation]]
+
 !Misc
 !![[TiddlyWiki Proxy|https://github.com/stevenleeg/twproxy]]
 >An authenticated proxy for protecting your wiki. This is a gem that needs [[Ruby|https://rubyinstaller.org/]]
@@ -45,3 +48,5 @@ A [[TiddlyWiki5 plugin|https://github.com/OokTech/TW5-Login]] for logging into a
 
 !!An html/js login form (for a landing page/tiddler)
 Link: https://codepen.io/JorgeAML/project/editor/ABjvRb	
+
+

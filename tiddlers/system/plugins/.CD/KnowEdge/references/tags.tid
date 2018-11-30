@@ -2,7 +2,7 @@ caption: Tags
 created: 20181028145915844
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/KnowEdge
-modified: 20181107164304648
+modified: 20181129184002401
 modifier: Charles Delbé
 tags: $:/plugins/.CD/KnowEdge/references/main $:/tags/@CD
 title: $:/plugins/.CD/KnowEdge/references/tags
@@ -22,7 +22,6 @@ type: text/vnd.tiddlywiki
 <<tag @:/tags/DRAFT>>
 <<tag @:/tags/TOC>>
 <<tag @:/tags/pdf>>
-<<tag @:/tags/TODO>>
 <<tag $:/tags/viewsource>>
 <<tag $:/tags/embed>>
 <<tag $:/tags/@CD/tweaked>>

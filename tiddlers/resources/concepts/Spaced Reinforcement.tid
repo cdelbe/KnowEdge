@@ -6,11 +6,11 @@ creator: Charles Delbé
 description: Le renforcement espacé (également appelé renforcement ou apprentissage distribué) est une méthode d'apprentissage dans laquelle de nouvelles connaissances sont acquises, tandis que les connaissances précédemment enseignées sont renforcées.
 icon: $:/plugins/.CD/KnowEdge/images/concept
 list: Memory [[Forgetting Curve]]
-modified: 20181029193216321
+modified: 20181129213645058
 modifier: Charles Delbé
 mt-source.tiddler: Instructional Strategy
 mt-topics.list: [[Memory]] [[Forgetting Curve]]
-tags: @:/tags/DRAFT [[Instructional Strategy]] $:/type/concept $:/type/knowledge
+tags: [[Instructional Strategy]] $:/type/concept $:/type/knowledge
 title: Spaced Reinforcement
 tmap.fa-icon: &#xf12e;
 tmap.id: 8a79e52b-e948-480f-9ea9-84a53022ca36

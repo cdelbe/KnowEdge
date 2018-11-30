@@ -9,12 +9,12 @@ type: text/vnd.tiddlywiki
 
 <$list filter="[<currentTiddler>tag[@:/tags/MKT-RD]]">
 	<div class="github-fork-ribbon-wrapper left"><div class="github-fork-ribbon ribbon-green"><a href="https://sarlmaskott.sharepoint.com/sites/maskottrd" target="_blank">Maskott R&D</a></div></div>
-   <style> 
+   <!--<style> 
     .tc-tagged-\%40\%3A\%2Ftags\%2FMKT-RD .tc-subtitle,
    	.tc-tagged-\%40\%3A\%2Ftags\%2FMKT-RD .breadcrumbs,
     .tc-tagged-\%40\%3A\%2Ftags\%2FMKT-RD .tc-titlebar {
     	width: 85%!important;
     	margin: auto; 
 	}
-    </style>
+    </style>-->
 </$list>

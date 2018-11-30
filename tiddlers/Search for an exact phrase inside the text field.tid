@@ -1,0 +1,18 @@
+caption: {{!!title}}
+color: #681224
+created: 20181129210455708
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/bookmark
+list: 
+modified: 20181129210520703
+modifier: Charles Delbé
+mt-publication.citation: 
+mt-topics.list: 
+tags: $:/tags/embed UX-UI $:/type/bookmark $:/tags/@CD
+title: Search for an exact phrase inside the text field
+tmap.fa-icon: &#xf097;
+tmap.id: e808f5ed-11aa-476f-adea-7b7ba1c4b149
+type: text/vnd.tiddlywiki
+url: https://ooktech.xyz:8443/Public#Exact%20Phrase%20Search
+
+ 

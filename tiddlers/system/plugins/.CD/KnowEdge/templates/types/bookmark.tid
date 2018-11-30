@@ -1,10 +1,10 @@
-caption: (Bookmark Template)
+caption: {{!!title}}
 color: #681224
 created: 20180918180340257
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/bookmark
 list: 
-modified: 20181109144719133
+modified: 20181129210445133
 modifier: Charles Delbé
 mt-publication.citation: 
 mt-topics.list: 

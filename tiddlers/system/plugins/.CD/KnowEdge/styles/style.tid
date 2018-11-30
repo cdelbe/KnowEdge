@@ -463,12 +463,9 @@ h1 {
     dd:before {
         content: "» ";
     }
-    /*.tb5-markup > dd:before {
-        content: "";
-    }
     .no-before:before {
         content: "";
-    }*/
+    }
 
 
 

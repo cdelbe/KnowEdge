@@ -1,0 +1,19 @@
+caption: {{!!title}}
+color: #681224
+created: 20181129210640854
+creator: Charles Delbé
+description: e.g, TwFsuesj Plguin rfo TidyWiiki5
+icon: $:/plugins/.CD/KnowEdge/images/bookmark
+list: 
+modified: 20181129210825627
+modifier: Charles Delbé
+mt-publication.citation: 
+mt-topics.list: 
+tags: $:/tags/embed UX-UI $:/type/bookmark $:/tags/@CD
+title: TwFusejs brings fuzzy searching to TiddlyWiki 5, powered by Fuse.js
+tmap.fa-icon: &#xf097;
+tmap.id: f39125b4-f747-45b6-be1c-f6c4bd821c48
+type: text/vnd.tiddlywiki
+url: https://www.npmjs.com/package/tw5-fusejs
+
+ 
