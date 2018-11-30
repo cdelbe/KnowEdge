@@ -3,7 +3,7 @@ created: 20180916134507653
 creator: Charles Delbé
 icon: $:/core/icon
 list: 
-modified: 20181130053808297
+modified: 20181130113951666
 modifier: Charles Delbé
 tags: $:/tags/toc @:/tags/TOC Reference
 title: TiddlyWiki
@@ -49,9 +49,13 @@ url: https://github.com/Jermolene/TiddlyWiki5
 :[[Material|http://j.d.material.tiddlyspot.com]]
 :[[tw5-material|http://demo.santosa.family/#tw5-material]]
 
-;TODO lists
-:https://tid.li/tw5/plugins.html
-:http://tw5.xyz/Gestion%20des%20t%C3%A2ches/TiddlyWiki-ToDo-Timeline_n0d1-v1.3.html
-:[[ToDoNow|https://tid.li/tw5/tdn.html]]
-
+!!!TODO lists
+;https://tid.li/tw5/plugins.html
+  
+;[[ToDoNow|https://tid.li/tw5/tdn.html]]
+  
+;ToDo liste simple avec timeline
+:https://sylvain.naud.in/public/TiddlyWiki/TiddlyWiki-ToDo-Timeline.html
+:avec priorités: http://tw5.xyz/Gestion%20des%20t%C3%A2ches/TiddlyWiki-ToDo-Timeline_n0d1-v1.3.html
+  
 </$scrollable>

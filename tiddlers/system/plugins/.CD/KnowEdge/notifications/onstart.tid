@@ -11,8 +11,9 @@ type: text/vnd.tiddlywiki
 
 <$action-sendmessage $message='tm-login'/>
 
-<!--<$action-sendmessage $message='tm-modal' $param="$:/plugins/.CD/KnowEdge/ui/modals/welcome"/>
+<$action-sendmessage $message='tm-modal' $param="$:/plugins/.CD/KnowEdge/ui/modals/welcome"/>
 
-<$action-sendmessage $message="tm-notify" $param="$:/plugins/.CD/KnowEdge/notifications/tw-loaded"/>-->
+<$action-sendmessage $message="tm-notify" $param="$:/plugins/.CD/KnowEdge/notifications/tw-loaded"/>
 
 </$reveal>
+
