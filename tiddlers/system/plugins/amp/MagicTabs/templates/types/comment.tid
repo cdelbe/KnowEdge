@@ -2,14 +2,10 @@ color: #daa520
 created: 20150124152743141
 creator: Alberto Molina Pérez
 icon: $:/plugins/amp/MagicTabs/images/comment
-modified: 20181021201831262
+modified: 20181130161823020
 modifier: Charles Delbé
 mt-source.tiddler: 
 tags: $:/type/comment $:/type/note
 title: $:/plugins/amp/MagicTabs/templates/types/comment
 type: text/vnd.tiddlywiki
-
-@@.note
-''{{$:/status/UserName}} - <<now>>''
-@@
 

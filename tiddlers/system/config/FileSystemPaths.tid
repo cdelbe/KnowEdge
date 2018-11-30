@@ -1,8 +1,7 @@
 created: 20180729173917654
 creator: Charles Delbé
-modified: 20181113131048778
+modified: 20181130152959288
 modifier: Charles Delbé
-revision: 1
 tags: $:/tags/@CD $:/tags/@CD/tweaked
 title: $:/config/FileSystemPaths
 type: text/vnd.tiddlywiki
@@ -31,8 +30,6 @@ type: text/vnd.tiddlywiki
 [tag[$:/type/software]addprefix[resources/softwares/]]
 [tag[$:/type/topic]addprefix[resources/topics/]]
 [tag[$:/type/concept]addprefix[resources/concepts/]]
-[tag[$:/type/theory]addprefix[resources/theories/]]
-[tag[$:/type/definition]addprefix[resources/definitions/]]
 [tag[$:/type/model]addprefix[resources/models/]]
 [tag[$:/type/person]addprefix[resources/persons/]]
 [tag[$:/type/author]addprefix[resources/persons/]]

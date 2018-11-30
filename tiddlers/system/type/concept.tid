@@ -1,18 +1,18 @@
 caption: Concepts
 color: #800080
-created: 20180814200056453
+created: 20181130152038137
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/concept
 list: 
-modified: 20181125011112191
+modified: 20181130152424991
 modifier: Charles Delbé
 mt-dashboard.heading: Concepts
 mt-dashboard.icon: $:/plugins/.CD/KnowEdge/images/concept
-mt-source.type: $:/type/knowledge
-mt-template.fields: $:/plugins/amp/MagicTabs/templates/types/concept
+mt-source.type: $:/type/root
+mt-template.fields: $:/plugins/.CD/KnowEdge/templates/types/concept
 mt-template.form: 
 tab-pos: 55
-tags: $:/type/knowledge $:/tags/MagicTabs/dashboard
+tags: $:/tags/@CD $:/tags/MagicTabs/dashboard
 title: $:/type/concept
 type: text/vnd.tiddlywiki
 url: $:/plugins/.CD/KnowEdge/templates/tab/glossary/concepts

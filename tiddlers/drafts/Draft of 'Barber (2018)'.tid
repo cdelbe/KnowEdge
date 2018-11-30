@@ -1,0 +1,26 @@
+abstract: 
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180814205623702
+creator: Charles Delbé
+draft.of: Barber (2018)
+draft.title: Barber (2018)
+icon: $:/plugins/.CD/KnowEdge/images/blogpost
+list: [[Big Data]] [[Data Science]]
+modified: 20181130160812860
+modifier: Charles Delbé
+mt-authors.title: Barber
+mt-publication.citation: Barber (2018). Data science concepts you need to know! Part 1. Medium.
+mt-publication.date: 2018
+mt-publication.subtitle: Towards Data Science
+mt-publication.title: Data science concepts you need to know! Part 1
+mt-source.authors.list: [[Michael Barber]]
+mt-topics.list: [[Big Data]] [[Data Science]]
+tags: $:/type/publication @:/type/blogpost
+title: Draft of 'Barber (2018)'
+tmap.fa-icon: &#xf1fa;
+tmap.id: f45403a2-8933-4445-aa98-162a298d1a1c
+type: text/vnd.tiddlywiki
+url: https://towardsdatascience.com/introduction-to-statistics-e9d72d818745
+
+[img width=400px [https://cdn-images-1.medium.com/max/1600/1*mgXvzNcwfpnBawI6XTkVRg.png]]

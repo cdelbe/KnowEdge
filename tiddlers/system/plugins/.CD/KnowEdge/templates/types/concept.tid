@@ -1,13 +1,14 @@
+authors: 
 color: #800080
-created: 20180918180340257
+created: 20181130151129385
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/concept
-modified: 20181029035232331
+list: 
+modified: 20181130151620437
 modifier: Charles Delbé
-tags: $:/type/concept $:/tags/@CD
+mt-topics.list: 
+tags: $:/tags/@CD $:/type/concept
 title: $:/plugins/.CD/KnowEdge/templates/types/concept
 tmap.fa-icon: &#xf12e;
 type: text/vnd.tiddlywiki
-url: 
 
- 

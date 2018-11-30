@@ -1,9 +1,9 @@
 created: 20181017174832628
 creator: Charles Delbé
-modified: 20181106175559646
+modified: 20181130152658897
 modifier: Charles Delbé
 tags: $:/tags/@CD
 title: $:/plugins/.CD/KnowEdge/ui/menu/concepts/dropdown
 type: text/vnd.tiddlywiki
 
-<<makeTopMenu type:"$:/type/concept" template:"$:/plugins/amp/MagicTabs/templates/types/concept">>
+<<makeTopMenu type:"$:/type/concept" template:"$:/plugins/.CD/KnowEdge/templates/types/concept">>

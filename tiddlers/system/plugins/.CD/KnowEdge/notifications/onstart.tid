@@ -1,15 +1,17 @@
 created: 20180812060253348
 creator: Charles Delbé
-modified: 20181108044117789
+modified: 20181130155700688
 modifier: Charles Delbé
 tags: $:/tags/StartupAction $:/tags/@CD
 title: $:/plugins/.CD/KnowEdge/notifications/onstart
 tmap.id: c1d80269-6d44-4b54-9a04-8290be6977cd
 type: text/vnd.tiddlywiki
 
-<$reveal type='nomatch' state='$:/state/.CD/startup/modal' text='inactive'>
+<!--<$action-sendmessage $message='tm-full-screen'/>-->
 
-<$action-sendmessage $message='tm-login'/>
+<!--<$action-sendmessage $message='tm-login'/>-->
+
+<$reveal type='nomatch' state='$:/state/.CD/startup/modal' text='inactive'>
 
 <$action-sendmessage $message='tm-modal' $param="$:/plugins/.CD/KnowEdge/ui/modals/welcome"/>
 
