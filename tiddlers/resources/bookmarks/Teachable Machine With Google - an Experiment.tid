@@ -1,0 +1,18 @@
+caption: {{!!title}}
+color: #681224
+created: 20181130233839509
+creator: Charles Delbé
+description: Tinker With a Neural Network Right Here in Your Browser.
+icon: $:/plugins/.CD/KnowEdge/images/bookmark
+list: [[Neural Networks]] TensorFlow Open-Source Experiment
+modified: 20181201003556168
+modifier: Charles Delbé
+mt-publication.citation: 
+mt-topics.list: [[Neural Networks]] TensorFlow Open-Source Experiment
+tags: $:/tags/embed $:/type/bookmark
+title: Teachable Machine With Google - an Experiment
+tmap.fa-icon: &#xf097;
+tmap.id: 9b8026ff-4dc7-4651-bf85-63c7f5ae2faf
+type: text/vnd.tiddlywiki
+url: https://teachablemachine.withgoogle.com/
+

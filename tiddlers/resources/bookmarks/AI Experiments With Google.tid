@@ -1,0 +1,18 @@
+caption: {{!!title}}
+color: #681224
+created: 20181201010728836
+creator: Charles Delbé
+description: AI Experiments is a showcase for simple experiments that make it easier for anyone to start exploring machine learning, through pictures, drawings, language, music, and more.
+icon: $:/plugins/.CD/KnowEdge/images/bookmark
+list: [[Machine Learning]]
+modified: 20181201010852603
+modifier: Charles Delbé
+mt-topics.list: [[Machine Learning]]
+tags: Experiment $:/tags/embed $:/type/bookmark
+title: AI Experiments With Google
+tmap.fa-icon: &#xf097;
+tmap.id: 43ee0028-71bf-41ad-8240-59b81b3106ae
+type: text/vnd.tiddlywiki
+url: https://experiments.withgoogle.com/collection/ai
+
+ 

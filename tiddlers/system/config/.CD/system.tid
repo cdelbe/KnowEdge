@@ -1,7 +1,7 @@
 caption: Know/Edge Tweaks
 created: 20181104170930491
 creator: Charles Delbé
-ke-body-justify: yes
+ke-body-justify: no
 ke-color-author: rgb(128,128,0,0.85)
 ke-color-bookmark: rgb(104,18,36,0.85)
 ke-color-concept: rgb(128,0,128,0.85)
@@ -17,7 +17,7 @@ ke-color-task: rgb(120,120,188,0.85)
 ke-color-topic: rgb(0,64,128,0.85)
 ke-decorate-tiddlers-title: yes
 ke-version: 1.3.0
-modified: 20181129213700005
+modified: 20181201012228545
 modifier: Charles Delbé
 tags: $:/tags/@CD $:/tags/ControlPanel
 title: $:/config/.CD/system

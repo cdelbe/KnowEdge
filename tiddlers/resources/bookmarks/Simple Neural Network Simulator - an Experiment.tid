@@ -1,0 +1,17 @@
+caption: {{!!title}}
+color: #681224
+created: 20181201002916041
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/bookmark
+list: [[Neural Networks]] TensorFlow Open-Source
+modified: 20181201005812441
+modifier: Charles Delbé
+mt-topics.list: [[Neural Networks]] TensorFlow Open-Source
+tags: $:/tags/embed $:/type/bookmark
+title: Simple Neural Network Simulator - an Experiment
+tmap.fa-icon: &#xf097;
+tmap.id: 6500e682-67a6-440f-a990-26caed8f3cd1
+type: text/vnd.tiddlywiki
+url: http://playground.tensorflow.org
+
+ 

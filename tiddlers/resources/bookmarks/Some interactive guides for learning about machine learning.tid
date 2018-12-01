@@ -1,0 +1,18 @@
+caption: {{!!title}}
+color: #681224
+created: 20181201004423649
+creator: Charles Delbé
+description: Some interactive guides for learning about machine learning.
+icon: $:/plugins/.CD/KnowEdge/images/bookmark
+list: [[Machine Learning]] Open-Source
+modified: 20181201005829636
+modifier: Charles Delbé
+mt-topics.list: [[Machine Learning]] Open-Source 
+tags: Jupyter Python [[Jupyter Notebooks]] $:/tags/embed $:/type/bookmark
+title: Some interactive guides for learning about machine learning
+tmap.fa-icon: &#xf097;
+tmap.id: 90793b41-6595-4140-8c92-e2db139b6daa
+type: text/vnd.tiddlywiki
+url: http://ml4a.github.io/guides/
+
+ 
