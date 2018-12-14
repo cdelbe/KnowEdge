@@ -6,11 +6,11 @@ created: 20180814205623702
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/model
 list: [[Mastery Learning]]
-modified: 20180926121702327
+modified: 20181207224356812
 modifier: Charles Delbé
 mt-part.order: 8
 mt-topics.list: [[Mastery Learning]]
-tags: EdTechs $:/type/model $:/type/knowledge
+tags: $:/type/model $:/type/knowledge
 title: Intelligent Tutoring Systems
 tmap.fa-icon: &#xf085;
 tmap.id: 8a482ada-95e5-43cd-bcd4-c2860306b8e2

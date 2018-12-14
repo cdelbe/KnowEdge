@@ -1,9 +1,9 @@
-caption: {{$:/plugins/.CD/KnowEdge/images/info}}
+caption: <!--{{$:/plugins/.CD/KnowEdge/images/info}}-->
 created: 20141106161534068
 creator: Alberto Molina Pérez
 description: Info
 icon: $:/plugins/.CD/KnowEdge/images/info
-modified: 20181023113313116
+modified: 20181208231436056
 modifier: Charles Delbé
 mt-list.filter: 
 mt-list.heading: 

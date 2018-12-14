@@ -1,0 +1,30 @@
+abstract: 
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181207202112215
+creator: Charles Delbé
+description: 
+icon: $:/plugins/.CD/KnowEdge/images/blogpost
+list: [[Cognitive Bias]] [[Mental Models]]
+modified: 20181207202559971
+modifier: Charles Delbé
+mt-authors.title: Benson
+mt-publication.citation: {{!!mt-authors.title}} ({{!!mt-publication.date}}). {{!!mt-publication.title}}.
+mt-publication.date: 2016
+mt-publication.subtitle: Because thinking is hard
+mt-publication.title: Cognitive bias cheat sheet
+mt-source.authors.list: [[Buster Benson]]
+mt-topics.list: [[Cognitive Bias]] [[Mental Models]]
+tags: CheatSheet @:/type/blogpost $:/type/publication
+title: Benson (2016)
+tmap.fa-icon: &x#f0f6;
+tmap.id: 4019f09d-f56d-4bae-bffc-2bfa26d35941
+type: text/vnd.tiddlywiki
+url: https://betterhumans.coach.me/cognitive-bias-cheat-sheet-55a472476b18
+when: 2018/12/7 21:21:12
+
+<<btn-img "https://cdn-images-1.medium.com/max/2000/1*71TzKnr7bzXU_l_pU6DCNA.jpeg">>
+
+
+:[[Wikipedia’s list of cognitive biases|https://en.wikipedia.org/wiki/List_of_cognitive_biases]]
+

@@ -1,0 +1,16 @@
+authors: 
+color: #800080
+created: 20181204212135215
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: [[Data Science]]
+modified: 20181204212226605
+modifier: Charles Delbé
+mt-topics.list: [[Data Science]]
+tags: $:/tags/@CD $:/type/concept
+title: Pivot Table
+tmap.fa-icon: &#xf12e;
+tmap.id: f21a6fad-1cb5-44a6-9727-554b7454ec0d
+type: text/vnd.tiddlywiki
+
+> Un ''tableau croisé dynamique'' (en anglais pivot table), en abrégé « TCD », est une fonctionnalité de certains tableurs qui permet de générer une synthèse d'une table de données brutes.

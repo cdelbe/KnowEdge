@@ -1,7 +1,8 @@
 created: 20180729094728055
-modified: 20180729094729098
-revision: 0
+creator: Charles Delbé
+modified: 20181205103937013
+modifier: Charles Delbé
 title: $:/config/PageControlButtons/Visibility/$:/plugins/tongerner/toolbar/buttons/toggle-tagging
 type: text/vnd.tiddlywiki
 
-hide
+show

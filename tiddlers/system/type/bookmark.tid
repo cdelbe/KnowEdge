@@ -4,7 +4,7 @@ created: 20180918182315202
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/bookmark
 list: 
-modified: 20181125011525543
+modified: 20181212162257313
 modifier: Charles Delbé
 mt-dashboard.heading: Bookmarks
 mt-dashboard.icon: $:/plugins/.CD/KnowEdge/images/bookmark
@@ -20,4 +20,18 @@ tmap.fa-icon: &#xf097;
 type: text/vnd.tiddlywiki
 
 !<<@caption>>
-<<list-links-tags filter:"[tag<currentTiddler>!is[system]sort[title]]" class:"object-list" exclude:-$(currentTiddler)$>> 
+<<list-links-tags filter:"[tag<currentTiddler>!is[system]sort[title]]" class:"bm-object-list" exclude:-$(currentTiddler)$>> 
+
+<style>
+  .bm-object-list { 
+    list-style-type: none;
+    padding-inline-start: 10px;
+    margin: 3px;
+    margin-left: 15px;
+    font-size: 1.2em;
+}
+  .bm-object-list .post-container dd { 
+  margin-top: 10px;
+  }
+  </style>
+  

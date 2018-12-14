@@ -1,0 +1,67 @@
+caption: Task Manager
+created: 20181205193237009
+creator: Charles Delbé
+modified: 20181212160122232
+modifier: Charles Delbé
+tags: $:/tags/@CD @:/tags/TOC
+title: $:/plugins/.CD/KnowEdge/TaskManager
+tmap.id: 50705ab2-2bfa-44e8-bf73-d7ac34e6570f
+type: text/vnd.tiddlywiki
+
+\define linkreferences(filter)
+<dl class="linkreferences">
+<$list filter="$filter$">
+  <$set name="todo" value=<<currentTiddler>>>
+	<$list filter="[all[current]backlinks[]]">
+		<dt>
+		<$link to={{!!title}}>
+		<<@caption>>
+		</$link>
+        </dt>
+		<dd>
+		<$link to=<<todo>>>
+		<<todo>>
+		</$link>                                          
+		</dd>                   
+	</$list>
+  </$set>
+</$list>
+</dl>
+\end
+
+!Tasks
+
+<table>
+<tr><th>Due</th><th>Task</th><th>Source</th></tr>
+<$list filter="[!has[draft.of]!is[system]tag[$:/type/task]field:mt-task.status[pending]!sort[mt-date.due]]">
+<tr>
+<td><$view field="mt-date.due"/></td>
+<td>
+<$checkbox field="mt-task.status" checked="done" default="pending">
+<$link to={{!!title}}><$view field="title"/></$link>
+</$checkbox>
+</td>
+<td>
+<$link to={{!!mt-source.tiddler}}><$view field="mt-source.tiddler"/></$link>
+</td>
+</tr>
+</$list>
+  
+<$list filter="[!has[draft.of]!is[system]tag[$:/type/task]field:mt-task.status[done]!sort[mt-date.due]]">
+<tr>
+<td><$view field="mt-date.due"/></td>
+<td>
+<$checkbox field="mt-task.status" checked="done" default="pending">
+~~<$link to={{!!title}}><$view field="title"/></$link>~~
+</$checkbox>
+</td>
+<td>
+<$link to={{!!mt-source.tiddler}}><$view field="mt-source.tiddler"/></$link>
+</td>
+</tr>
+</$list>
+</table>
+
+!Todo
+<<linkreferences "[all[tiddlers+missing+system]regexp[TODO:]]">>
+

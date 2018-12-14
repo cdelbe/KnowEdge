@@ -1,0 +1,20 @@
+created: 20151016115743115
+creator: Charles Delbé
+modified: 20181212213226742
+modifier: Charles Delbé
+tags: $:/tags/Macro
+title: $:/macro/kixam/showEditDateEnd
+type: application/x-tiddler
+
+\define showEditDateEnd(field,viewmacro:"view",viewtag:"span")
+<$reveal state="$:/temp/edit-field-$(currentTiddler)$-$field$" type=nomatch text="yes">
+<$list filter="[title[$(currentTiddler)$]get[$field$]]">
+<$macrocall $name="$viewmacro$" to={{!!title}} string={{!!title}} abbr={{!!title}} mail={{!!title}} name={{!!title}} tag="$viewtag$" />
+</$list>
+<$button set="$:/temp/edit-field-$(currentTiddler)$-$field$" setTo="yes" class="tc-btn-invisible event-date-end"><i class="far fa-stop-circle"></i></$button>
+</$reveal>
+<$reveal state="$:/temp/edit-field-$(currentTiddler)$-$field$" type=match text="yes">
+<$edit-date format="dddd DD MMMM YYYY" fieldFormat="DD/MM/YYYY" firstDay="1" field="$field$" tiddler="$(currentTiddler)$" class="input-date" />
+<$button set="$:/temp/edit-field-$(currentTiddler)$-$field$" setTo="no" class="tc-btn-invisible event-date-end">{{$:/core/images/done-button}}</$button>
+</$reveal>
+\end

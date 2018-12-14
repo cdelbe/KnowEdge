@@ -1,0 +1,13 @@
+created: 20181205011514979
+creator: Charles Delbé
+modified: 20181205102010917
+modifier: Charles Delbé
+tags: $:/tags/@CD
+title: $:/config/.CD/tiddlyclip/TCRuleBlogPost
+tmap.id: ad6cc4c0-f86a-4a1b-bffc-8335479f1211
+type: text/vnd.tiddlywiki
+
+\rules only table wikilink prettylink
+
+|!Title|!Body|!Tags|!Fields modifiers|!field initials|!Modes|
+|((*@pageTitle*))|''TITLE = AUTHOR (DATE)''\n\n\n\n((*@text*))\n\n|@:/type/blogpost $:/type/publication||{"$url":"((*@pageRef*))"},{"$caption":"{{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''"},{"$mt-publication.title":"((*@pageTitle*))"},{"$when":"((*@dateTimeShort*))"},{"$color":"#b21a2c"},{"$icon":"$:/plugins/.CD/KnowEdge/images/blogpost"},{"$abstract":"DELETEME"},{"$description":"DELETEME"},{"$list":"[[]]"},{"$mt-authors.title":"n.d."},{"$mt-publication.date":"0"},{"$mt-publication.subtitle":"DELETEME"},{"$mt-source.authors.list":"[[n.d.]]"},{"$mt-topics.list":"[[]]"},{"$tmap.fa-icon":"&x#f0f6;"},{"$mt-publication.citation":"{{!!mt-authors.title}} ({{!!mt-publication.date}}). {{!!mt-publication.title}}."}|append add|

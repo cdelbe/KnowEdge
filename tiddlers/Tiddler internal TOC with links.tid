@@ -2,21 +2,18 @@ about:
 color: #6600ff
 created: 20150204111530682
 creator: Alberto Molina Pérez
-debut: 
-draft.title: Tiddler internal TOC with links
-fin: 
 icon: $:/plugins/.CD/KnowEdge/images/check
-modified: 20181125081643086
+modified: 20181214193408175
 modifier: Charles Delbé
-mt-date.alpha: 
-mt-date.due: 
+mt-date.alpha: 03/01/2015
+mt-date.due: 07/02/2015
 mt-date.omega: 
 mt-source.parents.list: 
 mt-source.root: 
-mt-source.tiddler: Tiddler Internal link
+mt-source.tiddler: 
 mt-task.owner: 
 mt-task.prority: 
-mt-task.status: 
+mt-task.status: pending
 mt-topics.list: 
 tags: $:/type/task
 title: Tiddler internal TOC with links

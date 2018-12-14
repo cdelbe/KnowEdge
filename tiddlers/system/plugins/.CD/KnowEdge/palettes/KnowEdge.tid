@@ -2,7 +2,7 @@ created: 20180920045225822
 creator: Charles Delbé
 description: theme for KnowEdge
 list: 
-modified: 20181122001246854
+modified: 20181212183320940
 modifier: Charles Delbé
 name: KnowEdge
 tags: $:/tags/@CD $:/tags/Palette
@@ -87,18 +87,18 @@ sidebar-tab-background-selected: <<colour tab-background-selected>>
 sidebar-tab-background: <<colour tab-background>>
 sidebar-tab-border-selected: <<colour tab-border-selected>>
 sidebar-tab-border: <<colour tab-border>>
-sidebar-tab-divider: #900
-sidebar-tab-foreground-selected: #000
+sidebar-tab-divider: <<colour tab-divider>>
+sidebar-tab-foreground-selected: <<colour tab-foreground-selected>>
 sidebar-tab-foreground: <<colour tab-foreground>>
 sidebar-tiddler-link-foreground-hover: #000
 sidebar-tiddler-link-foreground: #999999
 site-title-foreground: <<colour primary>>
 static-alert-foreground: #aaaaaa
 tab-background-selected: #ffffff
-tab-background: #e2e2e2
-tab-border-selected: #d8d8d8
-tab-border: #cccccc
-tab-divider: #d8d8d8
+tab-background: transparent
+tab-border-selected: #bcbcbc
+tab-border: transparent
+tab-divider: #bcbcbc
 tab-foreground-selected: #000000
 tab-foreground: #acacac
 table-border: #dddddd

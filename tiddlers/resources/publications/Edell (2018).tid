@@ -1,0 +1,38 @@
+abstract: 
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181205170738817
+creator: Charles Delbé
+description: 
+icon: $:/plugins/.CD/KnowEdge/images/blogpost
+list: [[Machine Learning]]
+modified: 20181205172104915
+modifier: Charles Delbé
+mt-authors.title: Edell
+mt-publication.citation: {{!!mt-authors.title}} ({{!!mt-publication.date}}). {{!!mt-publication.title}}. Retrieved December, 5th, 2018 from https://towardsdatascience.com/understand-these-4-advanced-concepts-to-sound-like-a-machine-learning-master-d32843840b52
+mt-publication.date: 2018
+mt-publication.subtitle: 
+mt-publication.title: Understand these 4 advanced concepts to sound like a machine learning master
+mt-source.authors.list: [[Aaron Edell]]
+mt-topics.list: [[Machine Learning]]
+tags: @:/type/blogpost $:/type/publication
+title: Edell (2018)
+tmap.fa-icon: &x#f0f6;
+tmap.id: e4bda49b-60aa-4e78-82c4-dfa2a2d56623
+type: text/vnd.tiddlywiki
+url: https://towardsdatascience.com/understand-these-4-advanced-concepts-to-sound-like-a-machine-learning-master-d32843840b52
+when: 2018/12/5 18:07:38
+
+<<btn-img "https://cdn-images-1.medium.com/max/1000/1*1QFLx-FmvaWIUxPtpDprMA.jpeg">>
+
+!Precision and Recall
+<<btn-img "https://cdn-images-1.medium.com/max/1200/1*1f0Rw_N_1Dp3aZwPyGUNpA.png">>
+
+!Recognition vs Detection
+
+!Classification
+
+!Deep learning
+<<btn-img "https://cdn-images-1.medium.com/max/1600/1*YjudcmA5OOxIKnweYzThFg.jpeg">>
+
+

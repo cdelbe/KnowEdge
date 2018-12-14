@@ -1,0 +1,14 @@
+color: #ff8040
+created: 20181207220455316
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/software
+modified: 20181207220600379
+modifier: Charles Delbé
+tags: Python $:/type/software
+title: Pandas
+tmap.fa-icon: &#xf120;
+tmap.id: 49c6d102-ac3b-4006-b64a-3ee23807605d
+type: text/vnd.tiddlywiki
+url: 
+
+:[[Pandas Exercices|https://github.com/guipsamora/pandas_exercises]]

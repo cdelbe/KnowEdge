@@ -1,9 +1,9 @@
 created: 20140616154022572
 creator: Alberto Molina Pérez
 list-before: $:/plugins/amp/MagicTabs/ViewTemplate/TabsBar
-modified: 20181108093829698
+modified: 20181212214451319
 modifier: Charles Delbé
-tags: $:/tags/ViewTemplate $:/plugins/amp/MagicTabs/reading
+tags: $:/tags/@CD/tweaked $:/tags/ViewTemplate $:/plugins/amp/MagicTabs/reading
 title: $:/plugins/amp/MagicTabs/ViewTemplate/person/publications
 type: text/vnd.tiddlywiki
 
@@ -15,6 +15,7 @@ type: text/vnd.tiddlywiki
 </$list>
 \end
 
+<$list filter="[is[current]tag[$:/type/publication]]">
 <$reveal type="nomatch" state=<<folded-state>> text="hide" tag="div" retain="yes" animate="yes">
 <div class="tag-list-item text-grey">
     <$list filter="[all[current]listed[mt-source.authors.list]tag[$:/type/publication]] +[limit[1]]">
@@ -23,3 +24,4 @@ type: text/vnd.tiddlywiki
     <<publicationsList>>
 </div>
 </$reveal>
+</$list>

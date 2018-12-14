@@ -5,9 +5,9 @@ debut: 01/10/2015
 fin: 01/11/2015
 icon: 
 list: 
-modified: 20181104193803957
+modified: 20181201172841964
 modifier: Charles Delbé
-tags: @:/tags/Event $:/type/task
+tags: @:/tags/Event
 title: Task01
 tmap.id: e07dc3de-5a01-4582-a6eb-4ce39b449b1c
 type: text/vnd.tiddlywiki

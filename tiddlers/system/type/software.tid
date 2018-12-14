@@ -2,15 +2,18 @@ caption: Software
 color: #ff8040
 created: 20180825112358599
 creator: Charles Delbé
+description: 
 icon: $:/plugins/.CD/KnowEdge/images/software
-modified: 20181030030408050
+modified: 20181212155948160
 modifier: Charles Delbé
 mt-dashboard.heading: Softwares
 mt-dashboard.icon: $:/plugins/.CD/KnowEdge/images/software
 mt-source.type: $:/type/root
 mt-template.fields: $:/plugins/.CD/KnowEdge/templates/types/software
-tags: $:/tags/Tagging $:/tags/MagicTabs/dashboard
+tags: $:/tags/MagicTabs/dashboard
 title: $:/type/software
 tmap.fa-icon: &#xf120;
 type: text/vnd.tiddlywiki
 
+!Softwares
+<<@descriptions subfilter:"!is[system]">>

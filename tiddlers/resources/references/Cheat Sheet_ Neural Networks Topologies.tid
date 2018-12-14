@@ -3,13 +3,13 @@ created: 20180918210358627
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/bookmark
 list: 
-modified: 20181030025110020
+modified: 20181205173653309
 modifier: Charles Delbé
-tags: CheatSheet [[Neural Networks]]
+tags: $:/type/bookmark CheatSheet [[Neural Networks]]
 title: Cheat Sheet: Neural Networks Topologies
 tmap.fa-icon: &#xf097;
 tmap.id: 43131993-3a32-45ac-ba29-d104bf074e20
 type: text/vnd.tiddlywiki
 url: https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463
 
-[img[https://cdn-images-1.medium.com/max/2000/1*gccuMDV8fXjcvz1RSk4kgQ.png]]
+<<btn-img "https://cdn-images-1.medium.com/max/2000/1*gccuMDV8fXjcvz1RSk4kgQ.png">>

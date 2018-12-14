@@ -1,0 +1,15 @@
+color: #ff8040
+created: 20181208230628315
+creator: Charles Delbé
+description: Interactive charts for browsers and mobile devices.
+icon: $:/plugins/.CD/KnowEdge/images/software
+modified: 20181212083229488
+modifier: Charles Delbé
+tags: [[Charting & Graphing Libraries]] Programming API [[Data Science]] $:/type/software
+title: Google Charts
+tmap.fa-icon: &#xf120;
+tmap.id: 1aa2333d-2a63-45c4-9bf9-b654afb903bb
+type: text/vnd.tiddlywiki
+url: https://developers.google.com/chart/
+
+ 

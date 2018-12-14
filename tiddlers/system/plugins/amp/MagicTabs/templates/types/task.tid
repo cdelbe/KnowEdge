@@ -1,21 +1,17 @@
 about: 
-color: #6600ff
-created: 20150204111530682
-creator: Alberto Molina Pérez
-debut: 
-fin: 
+color: #7878bc
+created: 20181112194209746
+creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/check
-modified: 20181104193820717
+modified: 20181214193235498
 modifier: Charles Delbé
 mt-date.alpha: 
 mt-date.due: 
 mt-date.omega: 
-mt-source.parents.list: 
 mt-source.tiddler: 
 mt-task.owner: 
-mt-task.prority: 
-mt-task.status: 
-tags: @:/tags/Event $:/type/task
+mt-task.status: pending
+tags: $:/type/task
 title: $:/plugins/amp/MagicTabs/templates/types/task
 tmap.fa-icon: &#f05d;
 type: text/vnd.tiddlywiki

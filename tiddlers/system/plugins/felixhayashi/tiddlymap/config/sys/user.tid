@@ -1,16 +1,17 @@
 created: 20180809202441074
 creator: Charles Delbé
-modified: 20180913162055123
+modified: 20181202230830844
 modifier: Charles Delbé
 title: $:/plugins/felixhayashi/tiddlymap/config/sys/user
 type: application/json
 
 {
     "field.nodeLabel": "caption",
-    "field.nodeIcon": "icon",
+    "field.nodeIcon": "",
     "field.nodeInfo": "description",
     "field.viewMarker": "isview",
     "liveTab.fallbackView": "Live View",
+    "suppressedDialogs.dublicateIdInfo": true,
     "edgeClickBehaviour": "manager",
     "debug": "false",
     "notifications": "true",
@@ -23,6 +24,5 @@ type: application/json
     "singleClickMode": "false",
     "editorMenuBar.showNeighScopeButton": "true",
     "editorMenuBar.showRasterMenuButton": "true",
-    "editorMenuBar.showScreenshotButton": "true",
-    "suppressedDialogs.dublicateIdInfo": true
+    "editorMenuBar.showScreenshotButton": "true"
 }

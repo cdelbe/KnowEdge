@@ -1,0 +1,17 @@
+color: #ff8040
+created: 20181208223532842
+creator: Charles Delbé
+description: TensorFlow is an open-source machine learning library for research and production. TensorFlow offers APIs for beginners and experts to develop for desktop, mobile, web, and cloud.
+icon: $:/plugins/.CD/KnowEdge/images/software
+list: [[Machine Learning]] [[Deep Learning]]
+modified: 20181208224007296
+modifier: Charles Delbé
+mt-topics.list: [[Machine Learning]] [[Deep Learning]]
+tags: Keras Open-Source Programming API $:/type/software
+title: TensorFlow
+tmap.fa-icon: &#xf120;
+tmap.id: bf2f9f6e-9cd1-4301-b5a3-59c7c1cfaf35
+type: text/vnd.tiddlywiki
+url: https://www.tensorflow.org/
+
+TensorFlow™ is an open source software library for high performance numerical computation. Its flexible architecture allows easy deployment of computation across a variety of platforms (CPUs, GPUs, TPUs), and from desktops to clusters of servers to mobile and edge devices. Originally developed by researchers and engineers from the Google Brain team within Google’s AI organization, it comes with strong support for machine learning and deep learning and the flexible numerical computation core is used across many other scientific domains.

@@ -2,9 +2,10 @@ color: #ffff00
 created: 20180812050409836
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/journal
-modified: 20181022002014821
+list: 
+modified: 20181212152104457
 modifier: Charles Delbé
-tags: Release $:/type/journal
+tags: @:/tags/ReleaseNote $:/type/journal
 title: Release v1.0 (12-08-2018)
 tmap.fa-icon: &#xf133;
 tmap.id: e04f2f0d-7d09-4764-91ab-1f25422f1711

@@ -1,0 +1,25 @@
+caption: {{!!title}}
+color: #681224
+created: 20181212161536634
+creator: Charles Delbé
+description: Plugin based on graphviz library.
+icon: $:/plugins/.CD/KnowEdge/images/bookmark
+list: 
+modified: 20181212162803812
+modifier: Charles Delbé
+mt-topics.list: [[]]
+tags: $:/tags/embed [[Charting & Graphing Libraries]] $:/type/bookmark
+title: Viz
+tmap.fa-icon: &#xf097;
+tmap.id: 77abd1fd-c909-4fd6-8364-51ddec7d5c5f
+type: text/vnd.tiddlywiki
+url: https://graphs.grevian.org/example
+when: 2018/12/12 17:15:36
+
+;TW Plugin
+:https://chanilino.github.io/tw5viz/tw5.html
+
+
+
+
+

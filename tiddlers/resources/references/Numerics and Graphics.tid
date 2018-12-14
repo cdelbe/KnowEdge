@@ -3,7 +3,7 @@ created: 20181123113329481
 creator: Charles Delbé
 icon: 
 list: 
-modified: 20181130002417112
+modified: 20181212091846608
 modifier: Charles Delbé
 tabs: 
 tags: Reference TiddlyWiki
@@ -11,22 +11,18 @@ title: Numerics and Graphics
 tmap.id: 301254df-4f58-42c9-a115-57bb5e0a27da
 type: text/vnd.tiddlywiki
 
-;DynamicTables
-;KaTeX
-;PlantUML
 
-;Plugin [[math.js|http://tobibeer.github.io/tw5-plugins/#math.js]]
+;[[math.js|http://tobibeer.github.io/tw5-plugins/#math.js]] Plugin
 :Provides math.js, a math library for use in other plugins.
 
 ;[[mklauber/math.js|http://mklauber.github.io/tiddly-mathjs/]]
-:A tiddlywiki plugin for calculating mathematcal expressions (https://github.com/mklauber/tiddly-mathjs)
+:A tiddlywiki plugin for calculating mathematical expressions (https://github.com/mklauber/tiddly-mathjs)
 
 ;[[Eval|https://tobibeer.github.io/tw5-plugins/#eval]] plugin
 
-;[[TidGraph|https://ihm4u.github.io/tw5plugs/]] plugin
-
-
-;Maths : Grids, tables and formulas
+;Maths: Grids, tables and formulas
+:DynamicTables
+:KaTeX
 :[[Inline editable tables|http://braintest.tiddlyspot.com/#Inline%20editable%20tables]]
 :[[A Tiddlywiki grid|http://zemox.tiddlyspot.com/#A%20TiddlyWiki%20Grid]]
 :[[Formula Plugin|http://evanbalster.com/tiddlywiki/formulas.html]]

@@ -1,0 +1,14 @@
+color: #ff8040
+created: 20181204214835229
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/software
+modified: 20181204215036196
+modifier: Charles Delbé
+tags: [[Bayesian Inference]] Python $:/type/software
+title: PyMC3
+tmap.fa-icon: &#xf120;
+tmap.id: c7aa3e7c-922e-4f43-ab0b-925e5c21ed1d
+type: text/vnd.tiddlywiki
+url: https://docs.pymc.io/
+
+PyMC3 est un package Python pour la modélisation statistique bayésienne et l'apprentissage automatique probabiliste, qui se concentre sur les algorithmes avancés d'ajustement de Monte-Carlo et de chaîne de Markov. Il s'agit d'une réécriture à partir de zéro de la version précédente du logiciel PyMC.

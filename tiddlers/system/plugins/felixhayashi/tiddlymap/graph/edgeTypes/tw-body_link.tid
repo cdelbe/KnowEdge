@@ -2,9 +2,9 @@ created: 20180829042409897
 creator: Charles Delbé
 description: Le tiddler source contient un lien vers la ressource cible.
 label: cites
-modified: 20180918025803047
+modified: 20181201155022347
 modifier: Charles Delbé
-style: {"color":{"color":"rgba(86,86,86,0.52)","highlight":"rgba(0,0,0,0.8)","hover":"rgba(0,0,0,1)"},"dashes":true}
+style: {"color":{"color":"rgba(86,86,86,0.52)","highlight":"rgba(0,0,0,0.8)","hover":"rgba(0,0,0,1)"},"dashes":true,"font":{"size":12}}
 title: $:/plugins/felixhayashi/tiddlymap/graph/edgeTypes/tw-body:link
 type: text/vnd.tiddlywiki
 

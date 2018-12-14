@@ -1,11 +1,13 @@
 color: #b21a2c
 created: 20181020153704233
 creator: Charles Delbé
-icon: 
-modified: 20181029174152553
+icon: $:/plugins/.CD/KnowEdge/images/blogpost
+modified: 20181204215557563
 modifier: Charles Delbé
 title: @:/type/blogpost
 tmap.fa-icon: &#xf1fa;
 tmap.id: 166bf3e2-60e1-471f-9f4f-2596e333dc61
 type: text/vnd.tiddlywiki
 
+!Blog Posts
+<<list-links-title filter:"[tag[@:/type/blogpost]!is[system]sort[title]]" class:"object-list">>

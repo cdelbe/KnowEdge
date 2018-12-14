@@ -1,0 +1,13 @@
+config.central-topic: 
+config.neighbourhood_directions: out
+config.physics_mode: true
+config.show_inter_neighbour_edges: false
+created: 20180909211410617
+creator: Charles Delbé
+id: f6f6cf42-5ff6-4ff1-ac0c-72d2604ccf4b
+isview: true
+modified: 20181201162148856
+modifier: Charles Delbé
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Current Story
+type: text/vnd.tiddlywiki
+

@@ -5,6 +5,7 @@ http://tobibeer.github.io/tb5/
  */
 
 .tiddler-datepicker {
+color: #000;
 opacity: .5;
 transition: opacity .25s ease-in-out;
 }

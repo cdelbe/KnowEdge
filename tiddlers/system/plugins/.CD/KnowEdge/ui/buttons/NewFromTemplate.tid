@@ -1,18 +1,15 @@
 caption: Create New Tiddler From Template
 created: 20180919190131393
 creator: Charles Delbé
+filter: $:/plugins/.CD/KnowEdge/templates/types/publication $:/plugins/.CD/KnowEdge/templates/types/concept $:/plugins/.CD/KnowEdge/templates/types/bookmark $:/plugins/.CD/KnowEdge/templates/types/model $:/plugins/.CD/KnowEdge/templates/types/software $:/plugins/.CD/KnowEdge/templates/types/topic $:/plugins/amp/MagicTabs/templates/types/note $:/plugins/amp/MagicTabs/templates/types/task
 image: {{$:/core/images/new-button}}
-left_menu_order: 6
-modified: 20181130170154707
+modified: 20181202191537008
 modifier: Charles Delbé
 order: 3
-right_menu_order: 5
 tags: $:/tags/@CD $:/tags/PageControls
 target: $:/plugins/.CD/KnowEdge/ui/buttons/NewFromTemplate
 title: $:/plugins/.CD/KnowEdge/ui/buttons/NewFromTemplate
-top_left_menu_order: 0
-top_middle_menu_order: 0
-top_right_menu_order: 0
+tmp: '[!has[draft.of]search:title[/templates/types/]]'
 type: text/vnd.tiddlywiki
 
 <$set name="currentTime" value=<<now "0DD/0MM/YY 0hh:0mm - ">>>
@@ -20,11 +17,9 @@ type: text/vnd.tiddlywiki
 <$reveal type='popup' state='$:/state/createnewtiddler'>
 <div class="tc-drop-down">
 	Create object of type:
-	<$list filter='[search:title[/templates/types/]]' variable=TemplateName>
-		<$button class="tc-btn-invisible cd-btn-create-from-tmpl">
-			<$action-sendmessage $message='tm-new-tiddler' $param=<<TemplateName>> title=<<currentTime>> tags=<<storyTiddler>>/>
-<!--{{{   [<TemplateName>split:afterlast[/templates/types/]]  }}}-->
-<$tiddler tiddler=<<TemplateName>>><<@caption>></$tiddler>
+	<$list filter={{$:/plugins/.CD/KnowEdge/ui/buttons/NewFromTemplate!!filter}} variable=TemplateName>
+		<$button class="tc-btn-invisible cd-btn-create-from-tmpl"><!--{{{   [<TemplateName>split:afterlast[/templates/types/]]  }}}-->
+<$tiddler tiddler=<<TemplateName>>><$view field="title"/></$tiddler><$action-sendmessage $message='tm-new-tiddler' $param=<<TemplateName>> title=<<currentTime>> tags=<<storyTiddler>>/>
 		</$button>
 	</$list>
 </div>

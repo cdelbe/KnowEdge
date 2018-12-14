@@ -1,7 +1,8 @@
 created: 20180809202442454
 creator: Charles Delbé
-modified: 20180905000431087
+modified: 20181202230830836
 modifier: Charles Delbé
 title: $:/plugins/felixhayashi/tiddlymap/config/vis/user
 type: text/vnd.tiddlywiki
 
+{"nodes":{"borderWidth":2,"borderWidthSelected":3,"color":{"border":"rgba(0,0,0,1)"}},"edges":{"font":{"size":12}}}

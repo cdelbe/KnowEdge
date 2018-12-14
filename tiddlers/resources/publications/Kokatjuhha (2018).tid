@@ -1,0 +1,34 @@
+abstract: 
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181205013820028
+creator: Charles Delbé
+description:  
+icon: $:/plugins/.CD/KnowEdge/images/blogpost
+list: [[Data Science]]
+modified: 20181205172524687
+modifier: Charles Delbé
+mt-authors.title: Kokatjuhha
+mt-publication.citation: {{!!mt-authors.title}} ({{!!mt-publication.date}}). {{!!mt-publication.title}}. Retrieved December, 5th, 2018 from 
+mt-publication.date: 2018
+mt-publication.subtitle:  
+mt-publication.title: How to build a data science project from scratch
+mt-source.authors.list: [[Jekaterina Kokatjuhha]]
+mt-topics.list: [[Data Science]]
+tags: @:/type/blogpost $:/type/publication
+title: Kokatjuhha (2018)
+tmap.fa-icon: &x#f0f6;
+tmap.id: 9366d25e-78b6-4d06-80f0-20ae45f4d0e8
+type: text/vnd.tiddlywiki
+url: https://medium.freecodecamp.org/how-to-build-a-data-science-project-from-scratch-dc4f096a62a1
+when: 2018/12/5 02:38:20
+
+These are the steps that will be discussed in detail:
+
+#finding a topic
+#extracting data from the web and cleaning it
+#gaining deeper insights
+#engineering of features using external APIs
+#common mistakes while carrying out machine learning
+#feature importance: finding the drivers of rental prices
+#building machine learning models.

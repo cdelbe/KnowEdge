@@ -3,9 +3,9 @@ created: 20180918211003674
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/bookmark
 list: 
-modified: 20181030025109993
+modified: 20181205182315441
 modifier: Charles Delbé
-tags: CheatSheet Python
+tags: $:/type/bookmark CheatSheet Python
 title: Cheat Sheet: Scikit-Learn Basics
 tmap.fa-icon: &#xf097;
 tmap.id: e987e4d6-3602-459c-8e06-6c6fc0786527

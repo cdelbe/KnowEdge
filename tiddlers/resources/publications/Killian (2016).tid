@@ -1,0 +1,21 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180814205623702
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/blogpost
+list: [[Instructional Strategy]] [[Evidence Based Teaching]] [[Mastery Learning]]
+modified: 20181202192959218
+modifier: Charles Delbé
+mt-authors.title: Killian
+mt-publication.date: 2016
+mt-publication.title: Top 10 Evidence Based Teaching Strategies
+mt-source.authors.list: [[Shaun Killian]]
+mt-topics.list: [[Instructional Strategy]] [[Evidence Based Teaching]] [[Mastery Learning]]
+tags: $:/type/publication @:/type/blogpost
+title: Killian (2016)
+tmap.fa-icon: &#xf1fa;
+tmap.id: d9395520-0537-4560-8a41-327f6000c6f8
+type: text/vnd.tiddlywiki
+url: http://www.evidencebasedteaching.org.au/evidence-based-teaching-strategies/
+
+<<btn-img "http://www.evidencebasedteaching.org.au/wp-content/uploads/2013/11/Teaching-Strategies.png">>

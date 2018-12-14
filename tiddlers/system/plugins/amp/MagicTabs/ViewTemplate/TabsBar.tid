@@ -2,7 +2,7 @@ about:
 created: 20141106113206200
 creator: Alberto Molina Pérez
 list-after: 
-modified: 20181112131235983
+modified: 20181212181334463
 modifier: Charles Delbé
 tags: $:/tags/ViewTemplate MagicTabs $:/plugins/amp/MagicTabs/common
 title: $:/plugins/amp/MagicTabs/ViewTemplate/TabsBar
@@ -23,10 +23,10 @@ type: text/vnd.tiddlywiki
 \define bottom-tabs()
 <$tiddler tiddler=<<storyTiddler>> >
 <$list filter="[all[current]tags[]prefix[$:/type/]limit[1]]" variable="ignore">
-<<tabs tabsList:"[all[shadows+tiddlers]tag[$:/tabs/all]] [all[shadows+tiddlers]tag[$:/tabs/typed]] [all[current]tags[]prefix[$:/type/]removeprefix[$:/type/]addprefix[$:/tabs/]tagging[]] -[has[draft.of]]" class:"bottom-tabs $(color)$" template:"$:/plugins/amp/MagicTabs/TabsBar/template">>
+<<tabs tabsList:"[all[shadows+tiddlers]tag[$:/tabs/all]] [all[shadows+tiddlers]tag[$:/tabs/typed]] [all[current]tags[]prefix[$:/type/]removeprefix[$:/type/]addprefix[$:/tabs/]tagging[]] -[has[draft.of]]" class:"bottom-tabs" >>
 </$list>
 <$list filter="[all[current]] -[all[current]tags[]prefix[$:/type/]tagging[]field:title{!!title}] +[limit[1]]" variable="ignore">
-<<tabs tabsList:"[all[shadows+tiddlers]tag[$:/tabs/all]] [all[shadows+tiddlers]tag[$:/tabs/untyped]] [all[current]tags[]prefix[$:/type/]removeprefix[$:/type/]addprefix[$:/tabs/]tagging[]] -[has[draft.of]]" class:"bottom-tabs $(color)$" template:"$:/plugins/amp/MagicTabs/TabsBar/template">>
+<<tabs tabsList:"[all[shadows+tiddlers]tag[$:/tabs/all]] [all[shadows+tiddlers]tag[$:/tabs/untyped]] [all[current]tags[]prefix[$:/type/]removeprefix[$:/type/]addprefix[$:/tabs/]tagging[]] -[has[draft.of]]" class:"bottom-tabs" >>
 </$list>
  </$tiddler>
 \end

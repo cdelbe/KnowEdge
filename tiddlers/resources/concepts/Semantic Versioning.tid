@@ -1,0 +1,22 @@
+authors: 
+color: #800080
+created: 20181201151624976
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: [[Version Control]]
+modified: 20181201152051361
+modifier: Charles Delbé
+mt-topics.list: [[Version Control]]
+tags: $:/tags/embed $:/type/concept
+title: Semantic Versioning
+tmap.fa-icon: &#xf12e;
+tmap.id: b4f09a40-c06c-44b7-aee4-ce11d4a80894
+type: text/vnd.tiddlywiki
+url: https://semver.org/
+
+Given a version number MAJOR.MINOR.PATCH, increment the:
+#MAJOR version when you make incompatible API changes,
+#MINOR version when you add functionality in a backwards-compatible manner, and
+#PATCH version when you make backwards-compatible bug fixes.
+
+Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.

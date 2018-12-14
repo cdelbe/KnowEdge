@@ -1,0 +1,14 @@
+color: #ff8040
+created: 20181205152952047
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/software
+modified: 20181205162536236
+modifier: Charles Delbé
+tags: IDE $:/type/software
+title: Visual Studio Code
+tmap.fa-icon: &#xf120;
+tmap.id: 715d79c7-050d-4842-89d9-028010537743
+type: text/vnd.tiddlywiki
+url: https://code.visualstudio.com/
+
+<<btn-img "https://code.visualstudio.com/assets/images/home-git.svg">>

@@ -4,12 +4,12 @@ config.neighbourhood_scope: 1
 config.physics_mode: true
 config.raster: 
 config.refresh-triggers: $:/temp/tmap/currentTiddler
-config.show_inter_neighbour_edges: true
+config.show_inter_neighbour_edges: false
 config.vis: {"physics":{"forceAtlas2Based":{"springLength":0,"springConstant":0.09}}}
 created: 20180809025343597
 creator: Charles Delbé
 isview: true
-modified: 20180926113947943
+modified: 20181205183311538
 modifier: Charles Delbé
 title: $:/plugins/felixhayashi/tiddlymap/graph/views/Live View
 type: text/vnd.tiddlywiki

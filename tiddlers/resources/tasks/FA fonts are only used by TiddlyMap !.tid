@@ -1,0 +1,25 @@
+about: 
+color: #6600ff
+created: 20150204111530682
+creator: Alberto Molina Pérez
+debut: 
+fin: 
+icon: $:/plugins/.CD/KnowEdge/images/check
+modified: 20181214193441281
+modifier: Charles Delbé
+mt-date.alpha: 
+mt-date.due: 2014-01-01
+mt-date.omega: 
+mt-source.parents.list: 
+mt-source.root: 
+mt-source.tiddler: $:/fonts/FontAwesome
+mt-task.owner: 
+mt-task.prority: 
+mt-task.status: pending
+mt-topics.list: TiddlyMap
+tags: $:/type/task
+title: FA fonts are only used by TiddlyMap !
+tmap.fa-icon: &#f05d;
+tmap.id: 42fc3675-7f2a-4e0e-8765-c0410ff80ee6
+type: text/vnd.tiddlywiki
+

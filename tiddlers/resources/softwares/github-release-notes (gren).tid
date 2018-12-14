@@ -1,0 +1,26 @@
+color: #ff8040
+created: 20181201165709793
+creator: Charles Delbé
+description: Node module to create a release or a changelog from a tag and uses issues or commits to creating the release notes..
+icon: $:/plugins/.CD/KnowEdge/images/software
+list: [[Version Control]]
+modified: 20181205160737809
+modifier: Charles Delbé
+mt-topics.list: [[Version Control]]
+tags: JavaScript $:/type/software Open-Source
+title: github-release-notes (gren)
+tmap.fa-icon: &#xf120;
+tmap.id: 5c7d07a8-d510-3b7f-a9ca-3a3bf9d8cda9
+type: text/vnd.tiddlywiki
+url: https://github.com/github-tools/github-release-notes
+
+`gren` is a small helpful robot that will do for you just create a release from a tag and compile the release notes using issues or commits.
+
+It also can generate a CHANGELOG.md file based on the release notes (or generate a brand new).
+
+
+<<linkimg "https://github-tools.github.io/github-release-notes/" "https://img.shields.io/badge/%F0%9F%A4%96-release%20notes-00B2EE.svg">>
+
+---
+;See also
+:https://github.com/lob/generate-changelog: Generate a changelog from git commits. This is meant to be used so that for every patch, minor, or major version, you update the changelog prior to running `npm version` so that the git tag contains the commit that updated both the changelog and version.

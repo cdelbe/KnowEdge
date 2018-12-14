@@ -1,9 +1,10 @@
+color: #222d56
 created: 20180728203428668
 creator: Charles Delbé
-list: $:/core/ui/Buttons/more-page-actions $:/core/ui/Buttons/home $:/core/ui/Buttons/advanced-search $:/plugins/.CD/KnowEdge/ui/buttons/NewFromTemplate $:/core/ui/Buttons/new-tiddler $:/core/ui/Buttons/close-all $:/core/ui/Buttons/new-journal $:/plugins/amp/MagicTabs/button/newJournalHere $:/plugins/tiddlywiki/markdown/new-markdown-button $:/plugins/.CD/KnowEdge/ui/buttons/tag-handling $:/core/ui/Buttons/fold-all $:/core/ui/Buttons/unfold-all $:/core/ui/Buttons/permaview $:/core/ui/Buttons/new-image $:/core/ui/Buttons/import $:/core/ui/Buttons/export-page $:/core/ui/Buttons/manager $:/core/ui/Buttons/tag-manager $:/core/ui/Buttons/language $:/core/ui/Buttons/palette $:/core/ui/Buttons/theme $:/core/ui/Buttons/storyview $:/core/ui/Buttons/encryption $:/core/ui/Buttons/timestamp $:/core/ui/Buttons/full-screen $:/core/ui/Buttons/print $:/core/ui/Buttons/save-wiki $:/core/ui/Buttons/refresh $:/core/ui/Buttons/control-panel $:/plugins/help/Buttons/help $:/plugins/amp/MagicTabs/buttons/MagicTabs $:/plugins/bj/tiddlyclip/ui/Buttons/tiddlyclip $:/plugins/tongerner/toolbar/buttons/toggle-tagging
-modified: 20181029155117846
+list: $:/core/ui/Buttons/more-page-actions $:/core/ui/Buttons/home $:/core/ui/Buttons/advanced-search $:/core/ui/Buttons/new-tiddler $:/plugins/.CD/KnowEdge/ui/buttons/NewFromTemplate $:/core/ui/Buttons/close-all $:/core/ui/Buttons/new-journal $:/plugins/amp/MagicTabs/button/newJournalHere $:/plugins/tongerner/toolbar/buttons/toggle-tagging $:/plugins/.CD/KnowEdge/ui/buttons/tag-handling $:/core/ui/Buttons/fold-all $:/core/ui/Buttons/unfold-all $:/core/ui/Buttons/permaview $:/core/ui/Buttons/new-image $:/core/ui/Buttons/import $:/core/ui/Buttons/export-page $:/core/ui/Buttons/manager $:/core/ui/Buttons/tag-manager $:/core/ui/Buttons/language $:/core/ui/Buttons/palette $:/core/ui/Buttons/theme $:/core/ui/Buttons/storyview $:/core/ui/Buttons/encryption $:/core/ui/Buttons/timestamp $:/core/ui/Buttons/full-screen $:/core/ui/Buttons/print $:/core/ui/Buttons/save-wiki $:/core/ui/Buttons/refresh $:/core/ui/Buttons/control-panel $:/plugins/help/Buttons/help $:/plugins/amp/MagicTabs/buttons/MagicTabs $:/plugins/bj/tiddlyclip/ui/Buttons/tiddlyclip $:/plugins/telmiger/simple-search/ui/Buttons/search [[Draft of '$:/core/ui/Buttons/new-tiddler']]
+modified: 20181205104033792
 modifier: Charles Delbé
 tags: 
 title: $:/tags/PageControls
 type: text/vnd.tiddlywiki
-color: #222d56
+

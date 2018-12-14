@@ -5,7 +5,7 @@ creator: Charles Delbé
 filter: !is[system]
 icon: $:/plugins/.CD/KnowEdge/images/toc
 list: $:/plugins/.CD/KnowEdge/ui/Home $:/type/bookmark TiddlyWiki $:/type/concept $:/type/publication $:/type/knowledge
-modified: 20181125005822017
+modified: 20181212201623518
 modifier: Charles Delbé
 selected_topic: @:/tags/TOC
 tab-pos: 10

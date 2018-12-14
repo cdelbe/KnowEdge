@@ -1,0 +1,13 @@
+created: 20181205102439881
+creator: Charles Delbé
+modified: 20181205112043173
+modifier: Charles Delbé
+tags: $:/tags/@CD/tweaked
+title: defaultPin
+tmap.id: 267a7c5a-5d50-4717-9854-534a61cb8022
+type: text/vnd.tiddlywiki
+
+\rules only table wikilink prettylink
+
+|!Title|!Body|!Tags|!Fields modifiers|!field initials|!Modes|
+|((*@pageTitle*))|[img[((*@onImage*??*@imageURL*??*@largestImgURL*))]]\n\n((*@text*))\n\n((*@exists(@userstring)*??*@userstring*))|||{"$location":"((*@pageRef*))"},{"$caption":"((*@pageTitle*))"},{"$when":"((*@dateTimeShort*))"}|append add|

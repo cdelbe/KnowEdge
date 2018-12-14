@@ -4,7 +4,7 @@ created: 20180913091603228
 creator: Charles Delbé
 description: Software
 icon: $:/plugins/.CD/KnowEdge/images/software
-modified: 20181029033027184
+modified: 20181205170714230
 modifier: Charles Delbé
 mt-contents.type: $:/type/software
 mt-list.filter: 
@@ -17,7 +17,7 @@ mt-list.template:
 mt-list.template_alt: 
 mt-source.root: 
 mt-source.tiddler: $:/.cd/ui/tabs/objectManager
-tags: $:/tags/@CD $:/type/tab
+tags: $:/tags/@CD $:/type/tab $:/tabs/concept
 title: $:/plugins/.CD/KnowEdge/ui/tabs/magic/software
 type: text/vnd.tiddlywiki
 

@@ -1,0 +1,31 @@
+abstract: These articles cover the concepts and a full implementation as applied to predicting customer churn. The project [[Jupyter Notebooks are all available on GitHub|https://github.com/Featuretools/predicting-customer-churn/tree/master/churn]].
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181208213628506
+creator: Charles Delbé
+description: This is the fourth in a four-part series on how we approach machine learning at Feature Labs
+icon: $:/plugins/.CD/KnowEdge/images/blogpost
+list: [[Machine Learning]] [[Data Science]] Programming Visualization [[Artificial Intelligence]]
+modified: 20181208214502695
+modifier: Charles Delbé
+mt-authors.title: Koehrsen
+mt-publication.citation: {{!!mt-authors.title}} ({{!!mt-publication.date}}). {{!!mt-publication.title}}.
+mt-publication.date: 2018b
+mt-publication.subtitle: 
+mt-publication.title: How to Create Value with Machine Learning – Towards Data Science
+mt-source.authors.list: [[William Koehrsen]]
+mt-topics.list: [[Machine Learning]] [[Data Science]] Programming Visualization [[Artificial Intelligence]]
+tags: @:/type/blogpost $:/type/publication
+title: Koehrsen (2018b)
+tmap.fa-icon: &x#f0f6;
+tmap.id: 53b1210c-c459-4e2b-a642-e1ce8e3ade2e
+type: text/vnd.tiddlywiki
+url: https://towardsdatascience.com/how-to-create-value-with-machine-learning-eb09585b332e
+when: 2018/12/8 22:36:28
+
+The complete set of articles can be found below:
+
+*[[Overview|https://medium.com/@williamkoehrsen/how-to-create-value-with-machine-learning-eb09585b332e]]: A General-Purpose Framework for Machine Learning
+*[[Prediction Engineering|https://medium.com/@williamkoehrsen/prediction-engineering-how-to-set-up-your-machine-learning-problem-b3b8f622683b]]: How to Set Up Your Machine Learning Problem
+*[[Feature Engineering|https://towardsdatascience.com/feature-engineering-what-powers-machine-learning-93ab191bcc2d]]: What Powers Machine Learning
+*[[Modeling|https://towardsdatascience.com/modeling-teaching-a-machine-learning-algorithm-to-deliver-business-value-ad0205ca4c86]]: Teaching an Algorithm 

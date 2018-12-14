@@ -1,0 +1,17 @@
+caption: {{!!title}}
+color: #681224
+created: 20181212171323666
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/bookmark
+list: 
+modified: 20181212171432790
+modifier: Charles Delbé
+mt-topics.list: [[]]
+tags: [[Charting & Graphing Libraries]] $:/tags/embed $:/type/bookmark
+title: Chart Chooser — Tool for improved Excel and PowerPoint charts.
+tmap.fa-icon: &#xf097;
+tmap.id: e5b69263-b244-4910-ab8e-beb20ed3791b
+type: text/vnd.tiddlywiki
+url: http://labs.juiceanalytics.com/chartchooser/index.html
+when: 2018/12/12 18:13:23
+

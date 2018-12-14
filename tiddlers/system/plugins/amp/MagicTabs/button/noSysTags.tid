@@ -1,9 +1,9 @@
-created: 20141108192721447
-creator: Alberto Molina Pérez
+created: 20181205190238832
+creator: Charles Delbé
 dependencies: $:/config/SystemTags/Visibility/$:/plugins/amp/MagicTabs/noSysTags $:/core/ui/ViewTemplate/tags $:/plugins/amp/MagicTabs/noSysTags/ViewTemplate/tags $:/plugins/amp/MagicTabs/noSysTags/notification/hidden $:/plugins/amp/MagicTabs/noSysTags/notification/visible
-modified: 20181026163953383
+modified: 20181205190826578
 modifier: Charles Delbé
-tags: MagicTabs $:/plugins/amp/MagicTabs/common
+tags: $:/tags/@CD/tweaked MagicTabs $:/plugins/amp/MagicTabs/common
 title: $:/plugins/amp/MagicTabs/button/noSysTags
 type: text/vnd.tiddlywiki
 

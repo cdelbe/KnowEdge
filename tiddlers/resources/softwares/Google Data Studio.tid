@@ -1,0 +1,15 @@
+color: #ff8040
+created: 20181208230248358
+creator: Charles Delbé
+description: Unlock the power of your data with interactive dashboards and beautiful reports that inspire smarter business decisions. It's easy and free.
+icon: $:/plugins/.CD/KnowEdge/images/software
+modified: 20181208230536365
+modifier: Charles Delbé
+tags: $:/tags/embed [[Data Science]] Programming Visualization $:/type/software
+title: Google Data Studio
+tmap.fa-icon: &#xf120;
+tmap.id: 0e680462-04df-420d-bd55-33888152c2bf
+type: text/vnd.tiddlywiki
+url: https://datastudio.google.com/gallery
+
+ 

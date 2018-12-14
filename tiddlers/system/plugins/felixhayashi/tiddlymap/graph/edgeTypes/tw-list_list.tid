@@ -1,10 +1,10 @@
 created: 20180825182628975
 creator: Charles Delbé
 description: Contained in a list of this tiddler
-label: relates_to
-modified: 20180918025752224
+label: about
+modified: 20181201155512594
 modifier: Charles Delbé
-style: {"color":{"color":"rgba(170,42,46,0.95)","highlight":"rgba(255,8,19,1)","hover":"rgba(255,12,5,1)"},"dashes":false,"font":{"size":16}}
+style: {"color":{"highlight":"rgba(0,0,0,1)","hover":"rgba(0,0,0,1)"},"dashes":false,"font":{"size":12}}
 title: $:/plugins/felixhayashi/tiddlymap/graph/edgeTypes/tw-list:list
 type: text/vnd.tiddlywiki
 

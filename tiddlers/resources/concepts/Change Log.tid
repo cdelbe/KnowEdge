@@ -1,0 +1,45 @@
+authors: 
+color: #800080
+created: 20181201152102483
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: [[Version Control]]
+modified: 20181201163513537
+modifier: Charles Delbé
+mt-topics.list: [[Version Control]]
+tags: $:/type/concept
+title: Change Log
+tmap.fa-icon: &#xf12e;
+tmap.id: af4b3095-ae5c-455b-8c9d-499308024446
+type: text/vnd.tiddlywiki
+
+;What is a changelog?
+:A changelog is a file which contains a curated, chronologically ordered list of notable changes for each version of a project.
+
+;Why keep a changelog?
+:To make it easier for users and contributors to see precisely what notable changes have been made between each release (or version) of the project.
+
+;Who needs a changelog?
+:People do. Whether consumers or developers, the end users of software are human beings who care about what's in the software. When the software changes, people want to know why and how.
+
+!!! Principes Directeurs
+
+* Les changelogs sont *pour les êtres humains*, pas les machines.
+* Il doit y avoir une section pour chaque version.
+* Les changements similaires doivent être groupés.
+* Les versions et sections doivent être liables.
+* La version la plus récente se situe en haut du fichier.
+* La date de publication de chaque version est indiquée.
+* Indiquer si le projet respecte le [[Versionnage Sémantique|Semantic Versioning]].
+
+!!! Types de changements
+
+* `Added` pour les nouvelles fonctionnalités.
+* `Changed` pour les changements aux fonctionnalités préexistantes.
+* `Deprecated` pour les fonctionnalités qui seront bientôt supprimées.
+* `Removed` pour les fonctionnalités désormais supprimées.
+* `Fixed` pour les corrections de bugs.
+* `Security` en cas de vulnérabilités.
+
+;See also
+:[[keep a changelog|https://keepachangelog.com/en/1.0.0/]]

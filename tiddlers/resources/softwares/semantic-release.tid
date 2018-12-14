@@ -1,0 +1,21 @@
+color: #ff8040
+created: 20181201164547732
+creator: Charles Delbé
+description: Fully automated version management and package publishing
+icon: $:/plugins/.CD/KnowEdge/images/software
+list: [[Version Control]]
+modified: 20181205160759782
+modifier: Charles Delbé
+mt-topics.list: [[Version Control]]
+tags: JavaScript $:/type/software Open-Source
+title: semantic-release
+tmap.fa-icon: &#xf120;
+tmap.id: 5c7d07a8-d510-4b7f-a9ca-3a3bf9d8cda9
+type: text/vnd.tiddlywiki
+url: https://github.com/semantic-release/semantic-release
+
+[[semantic-release]] automates the whole package release workflow including: determining the next version number, generating the release notes and publishing the package.
+
+This removes the immediate connection between human emotions and version numbers, strictly following the [[Semantic Versioning]] specification.
+
+<<linkimg "https://github.com/semantic-release/semantic-release" "https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg">>

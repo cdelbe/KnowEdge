@@ -1,0 +1,25 @@
+about: 
+color: #6600ff
+created: 20150204111530682
+creator: Alberto Molina Pérez
+debut: 
+fin: 
+icon: $:/plugins/.CD/KnowEdge/images/check
+modified: 20181214193404472
+modifier: Charles Delbé
+mt-date.alpha: 
+mt-date.due: 
+mt-date.omega: 
+mt-source.parents.list: 
+mt-source.root: 
+mt-source.tiddler: Neural Networks
+mt-task.owner: 
+mt-task.prority: 
+mt-task.status: pending
+mt-topics.list: 
+tags: $:/type/task
+title: Manage difference between Neural Networks and Deep Learning
+tmap.fa-icon: &#f05d;
+tmap.id: a44dc6c6-8d31-4538-a758-31aaa1439ae1
+type: text/vnd.tiddlywiki
+

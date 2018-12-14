@@ -1,0 +1,25 @@
+abstract: 
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181204222831374
+creator: Charles Delbé
+description: 
+icon: $:/plugins/.CD/KnowEdge/images/blogpost
+list: Pyro PyTorch Python [[Bayesian Networks]] [[Bayesian Inference]]
+modified: 20181205182749714
+modifier: Charles Delbé
+mt-authors.title: Chopra
+mt-publication.citation: Chopra (2018). Making Your Neural Network Say “I Don’t Know” — Bayesian NNs using Pyro and PyTorch. Retrieved December, 4th, 2018 from https://towardsdatascience.com/making-your-neural-network-say-i-dont-know-bayesian-nns-using-pyro-and-pytorch-b1c24e6ab8cd
+mt-publication.date: 2018
+mt-publication.subtitle: 
+mt-publication.title: Making Your Neural Network Say “I Don’t Know” — Bayesian NNs using Pyro and PyTorch
+mt-source.authors.list: [[Paras Chopra]]
+mt-topics.list: Pyro PyTorch Python [[Bayesian Networks]] [[Bayesian Inference]]
+tags: @:/type/blogpost $:/type/publication
+title: Chopra (2018)
+tmap.fa-icon: &#xf1fa;
+tmap.id: b2c2f9b6-dd69-406e-a66b-7e82ade4d91a
+type: text/vnd.tiddlywiki
+url: https://towardsdatascience.com/making-your-neural-network-say-i-dont-know-bayesian-nns-using-pyro-and-pytorch-b1c24e6ab8cd
+
+<<btn-img "https://cdn-images-1.medium.com/max/800/1*gPrIyl8CnoI6ljdLCy7EcA.png">>

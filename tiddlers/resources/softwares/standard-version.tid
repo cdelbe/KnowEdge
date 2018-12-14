@@ -1,0 +1,50 @@
+color: #ff8040
+created: 20181201155709386
+creator: Charles Delbé
+description: Automate versioning and CHANGELOG generation, with [[Semantic Versioning]] and [[Conventional Commits]].
+icon: $:/plugins/.CD/KnowEdge/images/software
+list: [[Version Control]]
+modified: 20181205160814775
+modifier: Charles Delbé
+mt-topics.list: [[Version Control]]
+tags: JavaScript $:/type/software Open-Source GitHub
+title: standard-version
+tmap.fa-icon: &#xf120;
+tmap.id: c1ac7369-d648-4622-bbea-7235eec7646d
+type: text/vnd.tiddlywiki
+url: https://github.com/conventional-changelog/standard-version
+
+>Automate versioning and CHANGELOG generation, with semver and conventional commit messages.
+
+how it works:
+
+#when you land commits on your master branch, select the Squash and Merge option.
+
+#add a title and body that follows the Conventional Commits Specification. 
+
+#when you're ready to release: 
+
+#git checkout master; git pull origin master 
+
+#run [[standard-version]]
+
+#git push --follow-tags origin master && npm publish _(or, docker push, gem push, etc.)
+
+ 
+[[standard-version]] does the following:
+
+#bumps the version in metadata files (package.json, composer.json, etc). 
+
+#uses conventional-changelog to update CHANGELOG.md 
+
+#commits package.json (et al.) and CHANGELOG.md 
+
+#tags a new release 
+
+>Installation as [[npm]] run script.
+
+;How is [[standard-version]] different from [[semantic-release]]?
+
+[[semantic-release]] is a fully automated library/system for versioning, changelog generation, git tagging, and publishing to the [[npm]] registry.
+
+[[standard-version]] is different because it handles the versioning, changelog generation, and git tagging for you ''without'' automatic //pushing// (to GitHub) or //publishing// (to an npm registry). Use of [[standard-version]] only affects your local git repo - it doesn't affect remote resources at all. After you run [[standard-version]], you still have to ability to review things and correct mistakes if you want to.

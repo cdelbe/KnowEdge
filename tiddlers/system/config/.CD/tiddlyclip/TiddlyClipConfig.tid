@@ -1,0 +1,21 @@
+created: 20181204234639484
+creator: Charles Delbé
+modified: 20181205103704098
+modifier: Charles Delbé
+tags: TiddlyWiki $:/tags/@CD/tweaked
+title: TiddlyClipConfig
+tmap.id: d91ea023-ed8e-4fbf-8044-b8abe3dcbb70
+type: text/vnd.tiddlywiki
+url: [[http://tiddlyclip.tiddlyspot.com/#The TiddlyClipConfig]]
+
+!default
+|!Category|!Tip|!Tags|![[Rule Tid|http://tiddlyclip.tiddlyspot.com/#RuleTiddler]]|![[Modes|http://tiddlyclip.tiddlyspot.com/#BrowserConfigModes]]|
+|Tip|copy tids||[[defaultTip]]|tiddlers|
+|Copy text|Create/Add tiddler||[[defaultSnip]]||
+|Pin image|copy image||[[defaultPin]]||
+|Bookmark|Bookmark it||[[$:/config/.CD/tiddlyclip/TCRuleBookmark]]||
+|Blogpost|Pin post||[[$:/config/.CD/tiddlyclip/TCRuleBlogPost]]|userstring|
+
+!Rule tiddlers
+:[[TC-Variables|http://tiddlyclip.tiddlyspot.com/#TC-Variables]]
+:[[Rule tiddler/Rule mode|http://tiddlyclip.tiddlyspot.com/#Rule Modes]]

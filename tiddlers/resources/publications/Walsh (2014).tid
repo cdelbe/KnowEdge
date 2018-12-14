@@ -1,0 +1,24 @@
+abstract: 
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181202192650419
+creator: Charles Delbé
+description: 
+icon: $:/plugins/.CD/KnowEdge/images/blogpost
+list: Engagement [[Interactive Collaboration]] Feedback [[Active Learning]] [[Social Learning]] [[Project-Based Learning]]
+modified: 20181202193014144
+modifier: Charles Delbé
+mt-authors.title: Walsh
+mt-publication.citation: Walsh (2014). 10 of the Most Engaging Uses of Instructional Technology. Retrieved December, 2nd, 2018 from https://www.emergingedtech.com/2014/09/most-engaging-uses-of-instructional-technology/
+mt-publication.date: 2014
+mt-publication.subtitle: 
+mt-publication.title: 10 of the Most Engaging Uses of Instructional Technology
+mt-source.authors.list: [[Kelly Walsh]]
+mt-topics.list: Engagement [[Interactive Collaboration]] Feedback [[Active Learning]] [[Social Learning]] [[Project-Based Learning]]
+tags: $:/tags/embed @:/type/blogpost $:/type/publication
+title: Walsh (2014)
+tmap.fa-icon: &#xf1fa;
+tmap.id: 26caeb34-e43a-4fb5-a5ca-92324a6ebecd
+type: text/vnd.tiddlywiki
+url: https://www.emergingedtech.com/2014/09/most-engaging-uses-of-instructional-technology/
+

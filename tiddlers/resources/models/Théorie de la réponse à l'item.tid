@@ -5,7 +5,7 @@ created: 20180825122252968
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/model
 list: Assessment [[Learning Analytics]]
-modified: 20181026231645765
+modified: 20181203230538521
 modifier: Charles Delbé
 mt-topics.list: Assessment [[Learning Analytics]]
 tags: [[Knowledge Tracing]] $:/type/model $:/type/knowledge
@@ -55,6 +55,7 @@ Des variantes ont été proposées pour tenir compte de ''plusieurs tentatives''
 Un aspect important de l'IRT est qu’elle bénéficie des ''[[effets de réseau|Network Effects]]'' — c'est-à-dire que nous en apprenons davantage sur le contenu et sur les élèves qui interagissent avec ce système quand ''''davantage de personnes utilisent le système.'''' Lorsqu'un élève répond correctement à une question difficile, la compétence estimée pour cet élève devrait être plus élevée que si l'élève avait répondu correctement à une question facile. Mais comment pouvons-nous déterminer ''le niveau de difficulté'' de chaque question ? Ce n’est qu’en ''observant un nombre élevé d’élèves'' divers qui ont répondu à ces questions.
 
 !!Références
+:@@background-color:Yellow;[[Rocher (2015)]], p.10@@
 :[[Wikipedia|https://en.wikipedia.org/wiki/Item_response_theory]]
 :@@background-color:Yellow;[[Research Gate: "References for RASCH model or Item Response Theory?"|https://www.researchgate.net/post/References_for_RASCH_model_or_Item_Response_Theory]]@@
 :[[The rasch model for evaluating italian student performance|https://files.eric.ed.gov/fulltext/EJ918989.pdf]] (IRT, Partial Credit Model)

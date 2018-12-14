@@ -1,0 +1,17 @@
+color: #ff8040
+created: 20181212054945126
+creator: Charles Delbé
+description: plotly.py is an interactive, open-source, and browser-based graphing library for Python.
+icon: $:/plugins/.CD/KnowEdge/images/software
+modified: 20181212083219626
+modifier: Charles Delbé
+tags: [[Charting & Graphing Libraries]] Python $:/type/software
+title: plotly.py
+tmap.fa-icon: &#xf120;
+tmap.id: 08e72823-2618-46c7-accd-8a9811173edd
+type: text/vnd.tiddlywiki
+url: https://github.com/plotly/plotly.py/blob/master/README.md
+
+Built on top of [[plotly.js|https://github.com/plotly/plotly.js]], `plotly.py` is a high-level, declarative charting library. plotly.js ships with over 30 chart types, including scientific charts, 3D graphs, statistical charts, SVG maps, financial charts, and more.
+
+plotly.py is MIT Licensed. Plotly graphs can be viewed in Jupyter notebooks, standalone HTML files, or hosted online on [[plot.ly|https://plot.ly/]].

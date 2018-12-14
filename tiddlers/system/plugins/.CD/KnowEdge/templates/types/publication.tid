@@ -1,0 +1,23 @@
+abstract: 
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181202185646756
+creator: Charles Delbé
+description: 
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: 
+modified: 20181205011352501
+modifier: Charles Delbé
+mt-authors.title: 
+mt-publication.citation: {{!!mt-authors.title}} ({{!!mt-publication.date}}). {{!!mt-publication.title}}.
+mt-publication.date: 
+mt-publication.subtitle: 
+mt-publication.title: 
+mt-source.authors.list: 
+mt-topics.list: 
+tags: $:/type/publication
+title: $:/plugins/.CD/KnowEdge/templates/types/publication
+tmap.fa-icon: &x#f0f6;
+type: text/vnd.tiddlywiki
+url: 
+

@@ -1,0 +1,18 @@
+color: #ff8040
+created: 20181205153058407
+creator: Charles Delbé
+description: The Python IDE for Professional Developers
+icon: $:/plugins/.CD/KnowEdge/images/software
+modified: 20181205162409148
+modifier: Charles Delbé
+tags: Python IDE $:/type/software
+title: PyCharm
+tmap.fa-icon: &#xf120;
+tmap.id: 6800b12c-f454-4343-a925-07a6965bd844
+type: text/vnd.tiddlywiki
+url: https://www.jetbrains.com/pycharm/
+
+;MKT-R&D
+:Download the ''Community Lightweight IDE for Python & Scientific development''.
+
+<<btn-img "https://www.jetbrains.com/pycharm/img/screenshots/complexLook@2x.jpg">>

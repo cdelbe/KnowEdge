@@ -5,10 +5,11 @@ creator: Charles Delbé
 description: Bienvenue sur la base de connaissances sur les EdTechs et la cognition de l'[[Apprentissage|Learning]] 🧠 !
 icon: $:/plugins/.CD/KnowEdge/images/home
 list: .TODO Event $:/type/bookmark $:/plugins/.CD/KnowEdge/ui/SideBar/objectManager $:/ControlPanel Journal Reference
-modified: 20181125085304797
+modified: 20181212153732801
 modifier: Charles Delbé
 num_recent: 50
-tags: @:/tags/TOC $:/tags/@CD
+state: created
+tags: @:/tags/MKT-RD @:/tags/TOC $:/tags/@CD
 title: $:/plugins/.CD/KnowEdge/ui/Home
 tmap.fa-icon: &#xf015;
 tmap.id: 2e340bf7-4cb4-4eef-83a4-bb68b11494c0
@@ -16,7 +17,6 @@ tmap.style: {"color":"#4153a0","shadow":true}
 top_left_menu_order: 
 type: text/vnd.tiddlywiki
 url: 
-
 
 <!-- Présentation --> 
 <!-- Main title --> 
@@ -50,4 +50,4 @@ url:
 -->
  
 <!-- Tabs -->
-<<tabs "$:/plugins/.CD/KnowEdge/ui/tabs/SystemState $:/plugins/.CD/KnowEdge/ui/tabs/ChangeLog Ontology TiddlyWiki LastJournalEntries $:/config/.CD/system $:/plugins/.CD/KnowEdge/ui/about" "$:/plugins/.CD/KnowEdge/ui/tabs/SystemState">>
+<<tabs "$:/plugins/.CD/KnowEdge/ui/tabs/statistics $:/plugins/.CD/KnowEdge/ui/tabs/ChangeLog $:/plugins/.CD/KnowEdge/TaskManager TiddlyWiki $:/plugins/.CD/KnowEdge/ui/tabs/LastJournalEntries $:/config/.CD/system $:/plugins/.CD/KnowEdge/ui/about" "$:/plugins/.CD/KnowEdge/ui/tabs/statistics">>

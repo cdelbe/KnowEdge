@@ -1,6 +1,6 @@
 created: 20180909032834424
 creator: Charles Delbé
-modified: 20181025215250713
+modified: 20181205183255850
 modifier: Charles Delbé
 title: $:/plugins/felixhayashi/tiddlymap/graph/views/Learning/map
 type: text/vnd.tiddlywiki
@@ -19,8 +19,8 @@ type: text/vnd.tiddlywiki
   "y": -414
  },
  "25b436b4-7e51-477d-af20-74156b1cc64c": {
-  "x": -17,
-  "y": 62
+  "x": -125,
+  "y": -159
  },
  "d4fb889d-2da3-4428-8b32-a6187954ab44": {
   "x": -366,
@@ -29,10 +29,6 @@ type: text/vnd.tiddlywiki
  "c49b3414-ed8f-4c5c-93bc-22f901e55585": {
   "x": -254,
   "y": -317
- },
- "e72d06ba-1727-497b-a019-983c24549636": {
-  "x": -228,
-  "y": 122
  },
  "7c8c7c06-0ae9-4fdd-bf79-4540401278d2": {
   "x": 46,
@@ -46,24 +42,8 @@ type: text/vnd.tiddlywiki
   "x": 204,
   "y": 149
  },
- "3d17ad9f-4e9b-4de7-aee6-90d8522cb715": {
-  "x": 163,
-  "y": 173
- },
- "50cdfc27-66ab-4d00-b1b0-02d65c5c41c6": {
-  "x": -164,
-  "y": 221
- },
- "4db90c95-52f3-4db5-81be-5e50267fd70b": {
-  "x": -132,
-  "y": -241
- },
  "ee281a63-4dd0-46cf-a005-b5732aa64dc0": {
   "x": 79,
   "y": -32
- },
- "b5fecb93-ac10-46d7-840a-54ffd088f59e": {
-  "x": 6,
-  "y": -88
  }
 }

@@ -3,9 +3,9 @@ created: 20180918210134616
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/bookmark
 list: 
-modified: 20181030025110015
+modified: 20181207220629275
 modifier: Charles Delbé
-tags: Python CheatSheet
+tags: Pandas $:/type/bookmark Python CheatSheet
 title: Cheat Sheet: Pandas Basics
 tmap.fa-icon: &#xf097;
 tmap.id: 86e71887-477d-43a4-b82b-97e89d9f40a1

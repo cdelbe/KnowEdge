@@ -1,15 +1,19 @@
-color: #00aa88
-created: 20180916134047077
+color: #ff8040
+created: 20181205022833081
 creator: Charles Delbé
-icon: 
-list: 
-modified: 20181125083147152
+icon: $:/plugins/.CD/KnowEdge/images/software
+list: Programming
+modified: 20181205154644973
 modifier: Charles Delbé
-tags: Reference TiddlyWiki
+mt-topics.list: Programming
+tags: TiddlyWiki $:/type/software
 title: Node.js
-tmap.id: 0d001c7c-8ca9-402b-bcc2-7336456150d1
+tmap.fa-icon: &#xf120;
+tmap.id: 29f54d68-8d0f-4c47-88a4-3b9b2447abf4
 type: text/vnd.tiddlywiki
+url: 
 
+ !TOC
 <div class="tc-table-of-contents">
     <<toc-selective-expandable 'Node.js'>>
 </div>

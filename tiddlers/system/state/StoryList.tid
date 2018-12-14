@@ -1,7 +1,7 @@
-created: 20181201013123342
+created: 20181214191855809
 creator: Charles Delbé
-list: [[Draft of '$:/plugins/amp/MagicTabs/templates/types/note']] $:/plugins/.CD/core/templates/descriptions tw-href1 tw-hreftoc tw-href2 TODO TiddlyWiki Reference [[Draft of '$:/plugins/amp/MagicTabs/templates/types/task']] $:/type/task [[Use 'Spacing Effect' instead of 'Spaced Reinforcement']] $:/plugins/.CD/KnowEdge/ui/SideBar/TableOfContents $:/plugins/amp/MagicTabs/TableOfContents $:/plugins/.CD/KnowEdge/ui/ViewTemplate/MKT-RD $:/plugins/amp/MagicTabs/templates/tabs/tasks $:/config/.CD/system [[Spaced Reinforcement]] UX-UI [[Content Formatting]] [[Numerics and Graphics]] $:/tags/Macro Filters $:/plugins/.CD/KnowEdge/templates/types/blogpost $:/plugins/.CD/KnowEdge/templates/types/bookmark [[Draft of '$:/plugins/.CD/KnowEdge/ui/buttons/NewFromTemplate']] $:/.tb/macros/linkimg [[Draft of '$:/plugins/.CD/KnowEdge/templates/types/journal']] $:/type/journal [[Draft of '$:/plugins/amp/MagicTabs/templates/types/journal']] $:/ControlPanel
-modified: 20181201013123342
+list: [[Configuration d'un environnement de développement Python]] $:/plugins/.CD/KnowEdge/ui/Home ToReadASAP TiddlyWiki [[TiddlyWeb API Explorer]] Reference $:/plugins/.CD/KnowEdge/references/main $:/plugins/.CD/KnowEdge/references/Images $:/plugins/TheDiveO/FontAwesome/Cheatsheet [[Hierarchy, TOC & List]] @:/tags/DRAFT [[The Extreme Presentation(tm) Method - Extremely effective communication of complex information]] Python
+modified: 20181214221303522
 modifier: Charles Delbé
 title: $:/StoryList
 type: text/vnd.tiddlywiki

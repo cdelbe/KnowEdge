@@ -3,9 +3,9 @@ created: 20180918210720091
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/bookmark
 list: 
-modified: 20181030025110028
+modified: 20181208195953728
 modifier: Charles Delbé
-tags: CheatSheet [[Machine Learning]]
+tags: $:/type/bookmark CheatSheet [[Machine Learning]]
 title: Cheat Sheet: Machine Learning
 tmap.fa-icon: &#xf097;
 tmap.id: 7bf8667a-b504-49e1-b75c-c91701cbefcc

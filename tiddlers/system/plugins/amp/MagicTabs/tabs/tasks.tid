@@ -3,8 +3,8 @@ color: #d3d3d3
 created: 20150125013421426
 creator: Alberto Molina Pérez
 description: Tasks
-icon: $:/plugins/amp/MagicTabs/images/check
-modified: 20181124233432351
+icon: $:/plugins/.CD/KnowEdge/images/check
+modified: 20181202184536610
 modifier: Charles Delbé
 mt-contents.type: $:/type/task
 mt-list.filter: 

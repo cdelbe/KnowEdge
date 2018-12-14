@@ -1,0 +1,24 @@
+color: #ff8040
+created: 20181208221123287
+creator: Charles Delbé
+description: A JavaScript library for training and deploying ML models in the browser and on Node.js
+icon: $:/plugins/.CD/KnowEdge/images/software
+list: [[Machine Learning]] Keras
+modified: 20181208224032029
+modifier: Charles Delbé
+mt-topics.list: [[Machine Learning]] Keras
+tags: TensorFlow Programming JavaScript Node.js API $:/type/software
+title: TensorFlow.js
+tmap.fa-icon: &#xf120;
+tmap.id: cc5ec46a-215d-4db0-be5b-999314a02db0
+type: text/vnd.tiddlywiki
+url: https://js.tensorflow.org/
+
+<<btn-img "https://js.tensorflow.org/images/TF_JS_lockup.png">>
+
+
+;[[How to import a Keras Model into TensorFlow.js|https://js.tensorflow.org/tutorials/import-keras.html]]
+:This tutorial explains how to convert and serve an existing Keras model to run in the browser.
+
+;[[TensorFlow.js Layers API for Keras Users|https://js.tensorflow.org/tutorials/tfjs-layers-for-keras-users.html]]
+:This guide explains the similarities and differences between the Layers API of [[TensorFlow.js]] and Keras.

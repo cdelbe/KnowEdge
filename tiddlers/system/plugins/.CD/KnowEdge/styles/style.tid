@@ -7,6 +7,41 @@ title: $:/plugins/.CD/KnowEdge/styles/style
 tmap.id: 0f2ba505-3d31-4547-87a8-56efb691785e
 type: text/vnd.tiddlywiki
 
+.tc-site-title:before {
+    content: "TW 5.1.18-prerelease";
+    position: absolute;
+    margin-top: -2.5em;
+    color: silver;
+    font-size: 13px;
+}
+.tc-site-title:after {
+    content: "Beta";
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -25px;
+    z-index: 1;
+    font-family: Arial,sans-serif;
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(30deg);
+    font-size: 30px;
+    color: #c00;
+    background: #fff;
+    border: solid 4px #c00;
+    padding: 0 5px;
+    border-radius: 10px;
+    zoom: 1;
+    filter: alpha(opacity=20);
+    opacity: 0.5;
+    -webkit-text-shadow: 0 0 2px #c00;
+    text-shadow: 0 0 2px #c00;
+    box-shadow: 0 0 2px #c00;
+    font-family: 'Vollkorn', serif;
+    font-weight: bold;
+}
+
 /* Tiddlers */
 .tc-tiddler-frame {
     border-radius: 4px;
@@ -241,6 +276,69 @@ h1.tc-site-title svg {
 
 
 
+
+.tc-tab-buttons {
+    margin-bottom: 0px;
+    padding-left: .5vw;
+    font-size: 0.85em;
+    padding-top: 1em;
+}
+.tc-tab-buttons button.tc-tab-selected {
+    border-bottom: 1px solid <<colour tab-background-selected>>;
+    opacity: 1;
+
+    color: <<colour tab-foreground-selected>>;
+    background-color: <<colour tab-background-selected>>;
+    border-left: 1px solid <<colour tab-border-selected>>;
+    border-top: 1px solid <<colour tab-border-selected>>;
+    border-right: 1px solid <<colour tab-border-selected>>;  
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;    
+}
+.tc-tab-buttons button {
+    opacity: .85;
+    font-weight: 600;
+    color: <<colour tab-foreground>>;
+    padding: 3px 5px 3px 5px;
+    margin-right: 0.3em;
+    outline: none;
+    border: none;
+    background: <<colour tab-background>>;
+    background-color: transparent;
+    border-left: 1px solid transparent;
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+.tc-tab-buttons button.tc-tab-selected {
+    fill: <<colour tab-foreground-selected>>;
+}
+.tc-tab-divider {
+    border-top: 1px solid <<colour tab-divider>>;
+    margin-top: -1px;
+}
+.tc-sidebar-lists .tc-tab-set .tc-tab-divider {
+    border-top: 1px solid <<colour tab-divider>>;
+}
+
+.tc-tab-divider.tc-vertical {
+    display: block; 
+    border-right: 1px solid <<colour tab-divider>>;
+    margin-top: 20px;
+}
+.tc-sidebar-lists .tc-tab-set .tc-tab-divider.tc-vertical {
+    display: block; 
+    border-right: 1px solid <<colour tab-divider>>;
+    border-bottom: 1px solid <<colour tab-divider>>;
+    margin-top: 20px;
+    height: auto;
+}
+.tc-sidebar-lists .tc-tab-buttons.tc-vertical button.tc-tab-selected {
+    border-right: 1px solid transparent;
+}
+
+/*
 div.tc-tab-buttons {
     border-bottom: 1px solid lightgrey;
 }
@@ -252,6 +350,7 @@ button.tc-tab-selected{
     border-bottom: 1px solid <<colour tab-background-selected>>;
     margin-bottom: -1px;
 }
+*/
 
 /* TIDDLER TOOLBAR */
 .tc-tiddler-view-frame .tc-tiddler-controls button svg, .tc-tiddler-controls button img {
@@ -310,7 +409,7 @@ svg.tc-image-close-button:hover {
  }
  
  .btn-slider-input.tab {
-     top: 0px;
+     top: -15px;
      outline: none;
 }
  
@@ -578,11 +677,6 @@ table.invisible {
 
 
 
-
-
-
-
-
 .tc-inline-style p {
     display: inline;
     font-weight: 300;
@@ -699,4 +793,31 @@ blockquote.tc-big-quote:after {
 
 .person {
     margin: 0 0 5px 5px;
+}
+
+.linkimg {
+    width: auto;
+}
+
+
+.event-date-start {
+    opacity: 0.25;
+    color: #000;
+}
+.event-date-start:hover {
+    zoom: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+.event-date-end {
+    opacity: 0.25;
+    color: #000;
+}
+.event-date-end:hover {
+    zoom: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+.input-date {
+    width: 15em;
 }

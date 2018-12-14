@@ -7,21 +7,37 @@ title: $:/plugins/.CD/KnowEdge/styles/wikitext
 tmap.id: 0f2ba505-3d31-4547-87a8-56efb691785f
 type: text/vnd.tiddlywiki
 
-<pre>.info {
+<pre>/*.info {
     background: #D1EED4;
+    color: #000!important;
+}*/
+.info {
+    color: #11af21!important;
+    font-weight: bold;
 }
 
-.warning {
+/*.warning {
     background: #ff9999;
+    color: #000!important;
+}*/
+.warning {
+    font-weight: bold;
+    color: #e22323!important;
 }
 
-.flash-message {
+/*.flash-message {
     border: 2px solid lightgray;
     padding: 5px;
     margin: 6px 0;
     display: block;
     color: #999;
+}*/
+.flash-message {
+    border: none;
+    padding: 5px;
+    margin: 6px 0;
     display: block;
+    color: #999;
 }
 
 .btn-img {

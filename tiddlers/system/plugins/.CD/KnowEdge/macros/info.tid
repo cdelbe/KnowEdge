@@ -1,6 +1,6 @@
 created: 20180930214940127
 creator: Charles Delbé
-modified: 20181029035307479
+modified: 20181212144422379
 modifier: Charles Delbé
 tags: $:/tags/@CD
 title: $:/plugins/.CD/KnowEdge/macros/info
@@ -9,5 +9,5 @@ type: text/vnd.tiddlywiki
 \rules except wikilink
 
 <div class="flash-message info">
-   <i class="far  fa-fw fa-1x fa-info-circle" /> {{!!title}}
+   <i class="fas fa-fw fa-1x fa-info-circle"/> {{!!title}}
 </div>

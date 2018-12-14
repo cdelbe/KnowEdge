@@ -1,0 +1,50 @@
+color: #681224
+created: 20181205150127405
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/bookmark
+modified: 20181214184758100
+modifier: Charles Delbé
+tags: [[Numerics and Graphics]] $:/type/bookmark Programming
+title: Charting & Graphing Libraries
+tmap.fa-icon: &#xf097;
+tmap.id: 002ef447-de72-400f-a7ff-5fca8191e6d7
+type: text/vnd.tiddlywiki
+
+<<@descriptions subfilter:"!is[system]">>
+
+---
+
+!!Icons libraries
+*[[FontAwesome|$:/plugins/TheDiveO/FontAwesome/Cheatsheet]]
+*https://feathericons.com/
+*https://www.flaticon.com/download-icon
+*http://tobibeer.github.io/tw/icons/
+*[[Design & Developpement Icons|https://nucleoapp.com/icons/design-development]]
+
+!!UI Templates
+*[[React Themes & Template built by or curated by Material-UI's creators|https://material-ui.com/premium-themes/]]
+*https://demos.creative-tim.com/now-ui-kit/index.html
+*https://www.creative-tim.com/product/material-dashboard-dark?tracking=first-time#
+*https://www.creative-tim.com/tools
+*https://demos.creative-tim.com/black-dashboard/docs/1.0/components/tables.html#version
+*https://demos.creative-tim.com/black-dashboard/examples/dashboard.html
+*https://demos.creative-tim.com/black-dashboard/examples/dashboard.html?_ga=2.129791500.1096873716.1542401098-840961700.1542120837
+*https://www.creative-tim.com/product/black-dashboard
+*[[Perfect Admin - Bootstrap Admin Template|https://bootstrapbay.com/theme/perfect-admin-bootstrap-admin-template-BC4E1C4]]
+*[[Velonic|https://coderthemes.com/velonic/admin_4/index.html]]
+
+---
+
+;[[TidGraph|https://ihm4u.github.io/tw5plugs/]] plugin
+[img class=pretty width=350px [tidgraph.png]]
+
+;[[Chart.js|https://github.com/chartjs/Chart.js]]
+:Simple yet flexible [[JavaScript]] charting for designers & developers (see [[docs|https://www.chartjs.org/docs/latest/]]) 
+
+;[[Seaborn|https://seaborn.pydata.org/index.html]]
+:Statistical data visualization in [[Python]].
+
+;[[Bokeh|https://bokeh.pydata.org/en/latest/]]. 
+:[[Python]] library. "Bokeh is an interactive visualization library that targets modern web browsers for presentation. Its goal is to provide elegant, concise construction of versatile graphics, and to extend this capability with high-performance interactivity over very large or streaming datasets. Bokeh can help anyone who would like to quickly and easily create interactive plots, dashboards, and data applications."
+
+;[[24 JavaScript Libraries for Creating Beautiful Charts|https://www.sitepoint.com/15-best-javascript-charting-libraries/]]

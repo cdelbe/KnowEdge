@@ -1,0 +1,31 @@
+aliases: [[Application Programming Interface]]
+authors: 
+color: #800080
+created: 20181209184641754
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: Programming
+modified: 20181209191939463
+modifier: Charles Delbé
+mt-topics.list: Programming
+tags: $:/type/concept
+title: API
+tmap.fa-icon: &#xf12e;
+tmap.id: c3f2db4a-b398-438c-baad-7fe226fc5109
+type: text/vnd.tiddlywiki
+
+>L'API, pour Application Programming Interface, est la partie du programme qu'on expose officiellement au monde extérieur pour manipuler celui-ci. L'API est au développeur ce que l'UI est à l'utilisateur : de quoi entrer des données et récupérer la sortie d'un traitement.
+
+[[Wikipedia|https://en.wikipedia.org/wiki/Application_programming_interface]]:
+
+*An API specification can take many forms, but often includes specifications for ''routines'', ''data structures'', ''object classes'', ''variables'', or remote ''calls''. 
+
+*An API usually is related to a software library. The API describes and prescribes the "expected behavior" (a ''specification'') while the library is an "actual implementation" of this set of rules.
+
+*A single API can have multiple implementations (or none, being abstract) in the form of different libraries that share the same programming interface.
+
+*Web APIs: ''Web APIs'' are the defined interfaces through which interactions happen between an enterprise and applications that use its assets, which also is a Service Level Agreement (SLA) to specify the functional provider and expose the service path or URL for its API users. An API approach is an architectural approach that revolves around providing a program interface to a set of services to different applications serving different types of consumers. 
+
+*When used in the context of web development, an API is typically defined as a set of ''specifications'', such as Hypertext Transfer Protocol (HTTP) ''request messages'', along with a definition of the ''structure of response messages'', usually in an Extensible Markup Language (XML) or JavaScript Object Notation (JSON) format.
+
+*''Documentation:'' Documentation is crucial for the development and maintenance of applications using the API. API documentation is traditionally found in documentation files but can also be found in social media such as blogs, forums, and Q&A websites. Traditional documentation files are often presented via a ''documentation system'', such as ''Javadoc'' or ''Pydoc'', that has a consistent appearance and structure. However, the types of content included in the documentation differs from API to API.

@@ -2,13 +2,23 @@ color: #ff8040
 created: 20181030025133616
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/software
-modified: 20181102062037425
+modified: 20181205182431483
 modifier: Charles Delbé
-tags: $:/type/software $:/tags/@CD
+tags: Programming $:/type/software
 title: Python
 tmap.fa-icon: &#xf120;
 tmap.id: 4f649937-bd62-4872-9587-6511d4b11fba
 type: text/vnd.tiddlywiki
 url: 
 
- :[[The Python Grimoire (TW5)|https://www.irb.hr/users/maks/tiddlygrimoire.html]]
+;[[The Python Grimoire (TW5)|https://www.irb.hr/users/maks/tiddlygrimoire.html]]
+:The Python Grimoire explains how to perform common programming tasks in Python. It is a good place to go after you've read the Python Tutorial and have a reasonable grasp of the basics of the language. In essence, the Grimoire is a collection of small recipes for very basic tasks. Its purpose is similar to that of the [[Python Cookbook|http://aspn.activestate.com/ASPN/Python/Cookbook/]], but the Grimoire's recipes are much simpler and more basic than those in the Cookbook.
+
+!Distribution Anaconda
+>The open source [[Anaconda Distribution|https://www.anaconda.com/distribution/]] is the fastest and easiest way to do Python and R data science and machine learning on Linux, Windows, and Mac OS X. ([[Download|https://www.anaconda.com/download/]]) 
+
+*Install Python 3.7 version
+**Packages included in the [[distros|https://docs.anaconda.com/anaconda/packages/pkg-docs/]]
+
+!IDE
+:[[PyCharm]]

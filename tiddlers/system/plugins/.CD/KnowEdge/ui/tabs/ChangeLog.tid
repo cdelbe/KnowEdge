@@ -1,33 +1,40 @@
 caption: Change Log
 created: 20180731012739335
 creator: Charles Delbé
-modified: 20181124232253102
+modified: 20181212153414613
 modifier: Charles Delbé
-num_recent: 200
+num_recent: 30
+state: created
+tags: $:/tags/@CD
 title: $:/plugins/.CD/KnowEdge/ui/tabs/ChangeLog
 tmap.id: 6d308204-1293-42ab-a65c-f82e349a9c04
 type: text/vnd.tiddlywiki
 
 !Release notes
 <ul>
-	<$list filter='[tag[Changes]!sort[created]]' emptyMessage=<<.warning "No notes found !" >>>
+	<$list filter='[tag[@:/tags/ReleaseNote]!sort[created]]' emptyMessage="{{No notes found !||$:/plugins/.CD/KnowEdge/macros/info}}" >
 		<li><$link to=<<currentTiddler>>><$view field='title'/></$link></li>
 	</$list>
 </ul>
-<br/>
+
+[[TODO: Add a short description to the release note title]] 
+
+[[TODO: Change current release note objects to @CD objects]]
 
 !Timeline
-Show <$select field='num_recent'>
+''Show <$select field='num_recent'>
 	<$list filter="10 20 30 40 50 100 200 400 1000">
 		<option><<currentTiddler>></option>
 	</$list>
-</$select> last created/modified tiddlers:<$scrollable class='cdscroll'><table class="no-border">
-<tr>
-<td> 
+</$select> last <$select field='state'>
+	<$list filter="created modified">
+		<option value=<<currentTiddler>>><<currentTiddler>></option>
+	</$list>
+</$select> tiddlers:''<$scrollable class='cdscroll'>
 
-!!Last Created Tiddlers
+<$reveal state=!!state type="match" text="created">
 <table style="">
-<tr><th style="width:12em;">Created: <$count filter="[all[]has[created]!has[draft.of]!sort[created]limit{!!num_recent}]"/></th><th style="width:45em;">Tiddler</th></tr>
+<tr><th style="min-width:9em;">Date</th><th style="">Tiddler</th></tr>
 <$list filter="[all[]has[created]!has[draft.of]!sort[created]limit{!!num_recent}]">
 <tr>
 <td style="text-align:center;"><$view field=created format=date template="0DD-0MM-YYYY 0hh:0mm"/></td>
@@ -35,12 +42,11 @@ Show <$select field='num_recent'>
 </tr>
 </$list>
 </table>
-</td>
-<td>
-
-!!Last Modified Tiddlers
-<table style="padding-left:20px;">
-<tr><th style="width:12em;">Modified: <$count filter="[all[]has[modified]!has[draft.of]!sort[modified]limit{!!num_recent}]"/></th><th style="width:45em;">Tiddler</th></tr>
+</$reveal>  
+  
+<$reveal state=!!state type="match" text="modified">
+<table style="">
+<tr><th style="min-width:9em;">Date</th><th style="">Tiddler</th></tr>
 <$list filter="[all[]has[modified]!has[draft.of]!sort[modified]limit{!!num_recent}]">
 <tr>
 <td style="text-align:center;"><$view field=modified format=date template="0DD-0MM-YYYY 0hh:0mm"/></td>
@@ -48,10 +54,8 @@ Show <$select field='num_recent'>
 </tr>
 </$list>
 </table>
-</td>
-</tr>
-</table>
-
+</$reveal>
+ 
 </$scrollable>
 
 <style>

@@ -1,0 +1,12 @@
+config.central-topic: 871823e5-4c94-41d2-846b-5dc8e095add8
+config.neighbourhood_scope: 2
+config.raster: 75
+created: 20181201162402669
+creator: Charles Delbé
+id: 27b74f94-3629-4677-9321-de72167f13bc
+isview: true
+modified: 20181205161331974
+modifier: Charles Delbé
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Programming
+type: text/vnd.tiddlywiki
+

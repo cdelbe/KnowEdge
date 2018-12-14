@@ -17,6 +17,7 @@ type: text/vnd.tiddlywiki
 .bottom-tabs .tc-tab-buttons button {
     outline: none!important;
     color: #999;
+    border-radius: 0px;
 }
 .bottom-tabs .tc-tab-content.blue {
     border: 1px solid <<colour tab-border-selected>>;
@@ -51,7 +52,7 @@ type: text/vnd.tiddlywiki
     border-bottom: none;
 }
 .bottom-tabs.tc-tab-buttons button.tc-tab-selected {
-    border-bottom: 1px solid #e8eaf6;
+    /*border-bottom: 1px solid #e8eaf6;*/
     margin-bottom: -1px;
 }
 
@@ -102,10 +103,10 @@ type: text/vnd.tiddlywiki
 }
 
 .tc-tiddler-controls .close-tabs {
-    font-size: 18px;
-    margin-top: 4px;
-    margin-left: 5px;
-    margin-right: 5px;
+    font-size: 12px;
+    margin-top: 7px;
+    margin-left: 3px;
+    margin-right: 10px;
 }
 .tc-tab-buttons button {
     margin-right: 0px;

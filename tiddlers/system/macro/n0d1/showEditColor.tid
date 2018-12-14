@@ -1,8 +1,7 @@
 created: 20151019103455850
 creator: Charles Delbé
-modified: 20180806075446590
+modified: 20181212204110163
 modifier: Charles Delbé
-revision: 0
 tags: $:/tags/Macro
 title: $:/macro/n0d1/showEditColor
 type: application/x-tiddler
@@ -12,7 +11,7 @@ type: application/x-tiddler
 <$list filter="[title[$(currentTiddler)$]get[$field$]]">
 <$macrocall $name="$viewmacro$" to={{!!title}} string={{!!title}} abbr={{!!title}} mail={{!!title}} name={{!!title}} tag="$viewtag$" />
 </$list>
-<$button set="$:/temp/edit-field-$(currentTiddler)$-$field$" setTo="yes" class="tc-btn-invisible"><i class="far  fa-paint-brush"></i></$button>
+<$button set="$:/temp/edit-field-$(currentTiddler)$-$field$" setTo="yes" class="tc-btn-invisible"><i class="fas fa-paint-brush"></i></$button>
 </$reveal>
 <$reveal state="$:/temp/edit-field-$(currentTiddler)$-$field$" type=match text="yes">
 <$edit-text field="$field$" tiddler="$(currentTiddler)$" />

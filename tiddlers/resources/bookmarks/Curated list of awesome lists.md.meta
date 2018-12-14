@@ -1,0 +1,15 @@
+caption: Curated list of awesome lists
+color: #681224
+created: 20181202214746122
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/bookmark
+list: [[Computer Science]] Programming [[Big Data]] [[Content Management Systems]]
+modified: 20181202215147118
+modifier: Charles Delbé
+mt-topics.list: [[Computer Science]] [[Programming]] [[Big Data]] [[Content Management Systems]]
+tags: $:/type/bookmark
+title: Curated list of awesome lists
+tmap.fa-icon: &#xf097;
+tmap.id: c3af11e6-79b0-4f8b-b48d-268de23d089a
+type: text/x-markdown
+url: https://github.com/sindresorhus/awesome

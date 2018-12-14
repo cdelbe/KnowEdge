@@ -1,0 +1,20 @@
+about: 
+color: #7878bc
+created: 20181214191521003
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/check
+modified: 20181214193305846
+modifier: Charles Delbé
+mt-date.alpha: 
+mt-date.due: 
+mt-date.omega: 
+mt-source.tiddler: $:/type/knowledge
+mt-task.owner: 
+mt-task.status: pending
+tags: $:/type/task
+title: Delete tag $:/type/knowledge
+tmap.fa-icon: &#f05d;
+tmap.id: d562ce08-2591-4bbd-9428-dc4d652ddab8
+type: text/vnd.tiddlywiki
+
+''Faire attention à l'objet Gestionnaire: recherche''

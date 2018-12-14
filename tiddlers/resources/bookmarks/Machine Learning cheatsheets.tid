@@ -1,0 +1,19 @@
+caption: Machine Learning cheatsheets
+color: #681224
+created: 20181207221459035
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/bookmark
+list: [[Machine Learning]] [[Data Science]] [[Supervised Learning]] [[Unsupervised Learning]] [[Deep Learning]]
+modified: 20181207222034055
+modifier: Charles Delbé
+mt-topics.list: [[Machine Learning]] [[Data Science]] [[Supervised Learning]] [[Unsupervised Learning]] [[Deep Learning]]
+tags: $:/tags/embed CheatSheet $:/type/bookmark
+title: Machine Learning cheatsheets
+tmap.fa-icon: &#xf097;
+tmap.id: e0b5e2cf-c15f-4795-99bc-e3001d06f899
+type: text/vnd.tiddlywiki
+url: https://stanford.edu/~shervine/teaching/cs-229.html
+when: 2018/12/7 23:14:59
+
+;See also
+:https://github.com/afshinea/stanford-cs-229-machine-learning

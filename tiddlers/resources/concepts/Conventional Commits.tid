@@ -1,0 +1,17 @@
+authors: 
+color: #800080
+created: 20181201151907600
+creator: Charles Delbé
+description: A specification for adding human and machine readable meaning to commit messages
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: [[Version Control]]
+modified: 20181201163507661
+modifier: Charles Delbé
+mt-topics.list: [[Version Control]]
+tags: $:/tags/embed $:/type/concept
+title: Conventional Commits
+tmap.fa-icon: &#xf12e;
+tmap.id: 0e9a69d4-4466-4830-a673-2aeb2f116162
+type: text/vnd.tiddlywiki
+url: https://www.conventionalcommits.org/en/v1.0.0-beta.2/
+

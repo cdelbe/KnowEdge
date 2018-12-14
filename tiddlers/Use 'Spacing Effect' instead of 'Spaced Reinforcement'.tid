@@ -5,17 +5,17 @@ creator: Alberto Molina Pérez
 debut: 
 fin: 
 icon: $:/plugins/.CD/KnowEdge/images/check
-modified: 20181129213600184
+modified: 20181205195515669
 modifier: Charles Delbé
 mt-date.alpha: 
-mt-date.due: 
+mt-date.due: 2014-01-01
 mt-date.omega: 
 mt-source.parents.list: 
 mt-source.root: 
 mt-source.tiddler: Spacing Effect
 mt-task.owner: 
 mt-task.prority: 
-mt-task.status: 
+mt-task.status: pending
 mt-topics.list: [[Spaced Reinforcement]]
 tags: @:/tags/Event $:/type/task
 title: Use 'Spacing Effect' instead of 'Spaced Reinforcement'

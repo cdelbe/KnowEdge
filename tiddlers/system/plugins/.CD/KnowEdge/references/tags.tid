@@ -2,7 +2,7 @@ caption: Tags
 created: 20181028145915844
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/KnowEdge
-modified: 20181130153309950
+modified: 20181213093659709
 modifier: Charles Delbé
 tags: $:/plugins/.CD/KnowEdge/references/main $:/tags/@CD
 title: $:/plugins/.CD/KnowEdge/references/tags
@@ -13,15 +13,18 @@ type: text/vnd.tiddlywiki
 	<<list-links-title "[tag[$:/tags/@CD]!has[draft.of]sort[title]]" class:"list">>
 </$details>
 
-!$System
+!System
 | System tag | <<tag $:/tags/Macro>> |
-| Unknown tag | <<tag $:/tags/foo>> |
+| Undefined tag | <<tag $:/tags/foo>> |
+
+---
 
 !@System
 <<tag $:/tags/@CD>>
 <<tag @:/tags/DRAFT>>
 <<tag @:/tags/TOC>>
 <<tag @:/tags/pdf>>
+<<tag @:/tags/ReleaseNote>>
 <<tag $:/tags/viewsource>>
 <<tag $:/tags/embed>>
 <<tag $:/tags/@CD/tweaked>>

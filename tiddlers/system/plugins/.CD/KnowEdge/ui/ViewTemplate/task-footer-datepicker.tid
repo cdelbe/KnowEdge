@@ -1,0 +1,51 @@
+created: 20181214192643967
+creator: Charles Delbé
+list-before: $:/plugins/amp/MagicTabs/ViewTemplate/TabsBar
+modified: 20181214194205740
+modifier: Charles Delbé
+tags: $:/tags/ViewTemplate
+title: $:/plugins/.CD/KnowEdge/ui/ViewTemplate/task-footer-datepicker
+type: text/vnd.tiddlywiki
+
+
+<$list filter="[is[current]tag[$:/type/task]]">
+<p class="p-datepicker">
+<div class="tiddler-datepicker">
+  <i class="far  fa-calendar-o" style="color:#000;"></i>
+<<showEditDateStart mt-date.alpha>> 
+<<showEditDateEnd mt-date.due>>
+<!--<<showEditColor color>>-->
+</div>
+</p>
+</$list>
+
+ 
+  
+  
+  <!--
+<$list filter="[all[current]has[mt-date.alpha]]">
+@@color:grey; From <$transclude field="mt-date.alpha" /> @@
+<<showEditDateStart mt-date.alpha>>
+</$list>
+
+<$list filter="[all[current]has[mt-date.due]]">
+@@color:grey; to <$transclude field="mt-date.due" /><<showEditDateEnd mt-date.due>> @@
+</$list>
+-->
+
+
+<style>
+.tiddler-datepicker{
+float:right;
+clear:both;
+}
+
+.tiddler-datepicker {
+color:#ccc;
+}
+
+.p-datepicker {
+margin: 0px;
+display:inline;
+}
+</style> 

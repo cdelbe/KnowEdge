@@ -5,7 +5,7 @@ created: 20180916153759218
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/publication
 list: [[Item Response Theory]] [[Learner Model]]
-modified: 20181104212039825
+modified: 20181202191653788
 modifier: Charles Delbé
 mt-authors.title: Binh & Duy
 mt-publication.citation: Binh, H. T., & Duy, B. T. (2016, September). Student ability estimation based on IRT. In //2016 3rd National Foundation for Science and Technology Development Conference on Information and Computer Science (NICS)// (pp. 56-61). IEEE.
@@ -16,7 +16,6 @@ mt-publication.title: Student ability estimation based on IRT
 mt-publication.volume: 
 mt-source.authors.list: [[Hoang Tieu Binh]] [[Bui The Duy]]
 mt-topics.list: [[Item Response Theory]] [[Learner Model]]
-subtitle: Binh & Duy (2016)
 tags: @:/type/article $:/type/publication
 title: Binh & Duy (2016)
 tmap.fa-icon: &x#f0f6;

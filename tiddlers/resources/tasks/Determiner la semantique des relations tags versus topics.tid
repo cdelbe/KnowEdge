@@ -1,0 +1,23 @@
+about: 
+color: #6600ff
+created: 20181201172128164
+creator: Charles Delbé
+debut: 
+fin: 
+icon: $:/plugins/.CD/KnowEdge/images/check
+modified: 20181205195639342
+modifier: Charles Delbé
+mt-date.alpha: 
+mt-date.due: 
+mt-date.omega: 
+mt-source.parents.list: 
+mt-source.tiddler: 
+mt-task.owner: Charles Delbé
+mt-task.prority: 
+mt-task.status: done
+tags: @:/tags/Event $:/type/task
+title: Determiner la semantique des relations tags versus topics
+tmap.fa-icon: &#f05d;
+tmap.id: d8f68446-d8c4-443e-ab3a-ae44fd5b8e11
+type: text/vnd.tiddlywiki
+

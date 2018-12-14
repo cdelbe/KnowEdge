@@ -49,9 +49,9 @@ type: text/vnd.tiddlywiki
 }
 
 a.tc-tiddlylink img {
-    max-width: 1.2em;
+    /*max-width: 1.2em;*/
     text-align: center;
-    width: 1.2em;
+    /*width: 1.2em;*/
     vertical-align: middle;
     margin: 0px 4px 0px 0px;
 }

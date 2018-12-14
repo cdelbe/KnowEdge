@@ -4,12 +4,12 @@ created: 20181121214404661
 creator: Charles Delbé
 description: Curating the best Node.js modules and resources.
 icon: $:/plugins/.CD/KnowEdge/images/bookmark
-list: Node.js Programming
-modified: 20181123083459380
+list: Node.js
+modified: 20181205154615011
 modifier: Charles Delbé
 mt-publication.citation: Node.js awesome list
-mt-topics.list: Node.js Programming
-tags: $:/tags/embed Node.js [[Awesome List]] $:/type/bookmark $:/tags/@CD
+mt-topics.list: Node.js
+tags: [[Awesome List]] $:/type/bookmark
 title: Node.js awesome list
 tmap.fa-icon: &#xf097;
 tmap.id: d96d880c-cd85-4641-8720-36190ef2b92f

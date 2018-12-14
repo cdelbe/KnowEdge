@@ -3,17 +3,17 @@ caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publicatio
 color: #b21a2c
 created: 20180916153759218
 creator: Charles Delbé
-description: Description...
+description: 
 icon: $:/plugins/.CD/KnowEdge/images/publication
 list: [[Spacing Effect]] [[Distributed Learning]] [[Spaced Reinforcement]] Memory
-modified: 20181109171952399
+modified: 20181202191643974
 modifier: Charles Delbé
 mt-authors.title: Cepeda et al.
 mt-publication.citation: Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., & Rohrer, D. (2006). Distributed practice in verbal recall tasks: A review and quantitative synthesis. //Psychological Bulletin//, 132(3), 354.
 mt-publication.date: 2006
 mt-publication.issue: 3
 mt-publication.journal: Psychological Bulletin
-mt-publication.subtitle: subtitle
+mt-publication.subtitle: 
 mt-publication.title: Distributed practice in verbal recall tasks: A review and quantitative synthesis
 mt-publication.volume: 123
 mt-source.authors.list: [[N.J. Cepeda]] [[H. Pashler]] [[E. Vul]] [[J. T. Wixted]] [[D. Rohrer]]
@@ -25,4 +25,3 @@ tmap.id: abaddf16-f823-40ee-827f-60c833f07d8d
 type: text/vnd.tiddlywiki
 url: http://uweb.cas.usf.edu/~drohrer/pdfs/Cepeda_et_al_2006PsychBull.pdf
 
-Body

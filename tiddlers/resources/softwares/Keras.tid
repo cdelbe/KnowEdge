@@ -1,0 +1,17 @@
+color: #ff8040
+created: 20181208222733232
+creator: Charles Delbé
+description: Keras is a high-level neural networks API, written in [[Python]] and capable of running on top of TensorFlow, CNTK, or Theano. It was developed with a focus on enabling fast experimentation. 
+icon: $:/plugins/.CD/KnowEdge/images/software
+list: [[Deep Learning]]
+modified: 20181208224224105
+modifier: Charles Delbé
+mt-topics.list: [[Deep Learning]]
+tags: API Programming Python $:/type/software
+title: Keras
+tmap.fa-icon: &#xf120;
+tmap.id: 277a5815-11b5-4290-901f-f266dba17861
+type: text/vnd.tiddlywiki
+url: https://keras.io/
+
+''Keras is compatible with: Python 2.7-3.6.''

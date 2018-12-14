@@ -1,0 +1,15 @@
+authors: 
+color: #800080
+created: 20181201151459276
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: Programming
+modified: 20181201153637962
+modifier: Charles Delbé
+mt-topics.list: Programming
+tags: $:/type/concept
+title: Version Control
+tmap.fa-icon: &#xf12e;
+tmap.id: 6c7d7312-e655-4fcb-aca8-e8972ff59df9
+type: text/vnd.tiddlywiki
+
