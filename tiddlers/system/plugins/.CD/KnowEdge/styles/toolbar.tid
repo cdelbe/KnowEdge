@@ -3,10 +3,10 @@ button-hover-color: #fff
 button-size: 1.25em
 created: 20150721080358195
 creator: TonGerner
-list-after: $:/themes/tiddlywiki/vanilla/base
+list-after: 
 menus-font-size: 1.75m
 menus-scroll-height: 400px
-modified: 20181104222045327
+modified: 20181217010757477
 modifier: Charles Delbé
 tags: $:/tags/Stylesheet $:/tags/@CD
 tiddler-button-size: 0.75em
@@ -14,8 +14,8 @@ tiddler-button-spacing: 2px
 tiddler-padding-top: 20px
 title: $:/plugins/.CD/KnowEdge/styles/toolbar
 toolbar-button-spacing: 5px
-toolbar-left: 10px
-toolbar-top: 10px
+toolbar-left: 0px
+toolbar-top: 0px
 type: text/vnd.tiddlywiki
 
 <pre>/* TOOLBAR */

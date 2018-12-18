@@ -3,12 +3,20 @@
     "plugins": [
         "tiddlywiki/filesystem",
         "tiddlywiki/tiddlyweb",
+        "tiddlywiki/internals",
         "tiddlywiki/highlight",
         "tiddlywiki/codemirror",
-        "tiddlywiki/internals",
-        "tiddlywiki/bibtex",
-        "tiddlywiki/help",
-        "tiddlywiki/codemirror-mode-xml"
+        "tiddlywiki/codemirror-closetag",
+        "tiddlywiki/codemirror-autocomplete",
+        "tiddlywiki/codemirror-closebrackets",
+        "tiddlywiki/codemirror-fullscreen-editing",
+        "tiddlywiki/codemirror-search-replace",
+        "tiddlywiki/codemirror-mode-javascript",
+        "tiddlywiki/codemirror-mode-markdown",
+        "tiddlywiki/codemirror-mode-xml",
+        "tiddlywiki/github-fork-ribbon",
+        "tiddlywiki/katex",
+        "tiddlywiki/comments"
     ],  
 	"languages": [
 		"fr-FR"

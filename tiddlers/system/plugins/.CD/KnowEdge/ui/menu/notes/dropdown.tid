@@ -1,9 +1,11 @@
 created: 20181017175131937
 creator: Charles Delbé
-modified: 20181106175727329
+modified: 20181217011148699
 modifier: Charles Delbé
 tags: $:/tags/@CD
 title: $:/plugins/.CD/KnowEdge/ui/menu/notes/dropdown
 type: text/vnd.tiddlywiki
 
-<<makeTopMenu type:"$:/type/note" template:"$:/plugins/amp/MagicTabs/templates/types/note">>
+<$list filter='[prefix[$:/plugins/amp/MagicTabs/templates/types/note]]' variable=TemplateName><$button class="tc-btn-invisible mnu-header tc-btn-new">{{$:/core/images/new-button}} New<$action-sendmessage $message='tm-new-tiddler' $param=<<TemplateName>>/></$button></$list><<tag "$:/type/note">>
+<hr>
+<$macrocall $name="@list-tagged-objects" tag="$:/type/note"/>

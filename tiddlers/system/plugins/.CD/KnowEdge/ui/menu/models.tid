@@ -3,8 +3,8 @@ created: 20181024072143460
 creator: Charles Delbé
 dropdown: $:/plugins/.CD/KnowEdge/ui/menu/models/dropdown
 list-after: $:/plugins/.CD/KnowEdge/ui/menu/concepts
-menu-pos: 7
-modified: 20181106175710674
+menu-pos: 40
+modified: 20181215191442758
 modifier: Charles Delbé
 tags: $:/tags/@CD $:/tags/Static/TopMenu $:/tags/TopMenu
 target: $:/type/model

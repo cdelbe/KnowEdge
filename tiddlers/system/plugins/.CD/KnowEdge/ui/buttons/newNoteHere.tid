@@ -1,0 +1,28 @@
+caption: {{$:/plugins/.CD/KnowEdge/images/note}} Create a note tagged with the current tiddler
+created: 20181215172846834
+creator: Alberto Molina Pérez
+description: Create a note tagged with the current tiddler
+modified: 20181215185657533
+modifier: Charles Delbé
+tags: $:/tags/@CD $:/tags/PageControls $:/tags/ViewToolbar
+title: $:/plugins/.CD/KnowEdge/ui/buttons/newNoteHere
+type: text/vnd.tiddlywiki
+
+\define noteButtonTags()
+$:/type/note
+\end
+\define noteButton()
+<$button tooltip={{$:/plugins/.CD/KnowEdge/ui/buttons/newNoteHere!!description}} class=<<tv-config-toolbar-class>>>
+<$action-sendmessage $message="tm-new-tiddler" title=<<now "About “$(currentTiddlerTag)$” ($(noteTitleTemplate)$)">> tags=<<noteButtonTags>> mt-topics.list="" list="" datetime=<<now "YY0MM0DD0hh0mm0ss">> mt-source.tiddler="$(currentTiddlerTag)$" description="" tasks="" color="#FFA500" tmap.fa-icon="&#xf044;" icon="$:/plugins/.CD/KnowEdge/images/note"/>
+<$list filter="[<tv-config-toolbar-icons>prefix[yes]]">
+{{$:/plugins/.CD/KnowEdge/images/note}}
+</$list>
+<$list filter="[<tv-config-toolbar-text>prefix[yes]]">
+<span class="tc-btn-text"><$text text="New note"/></span>
+</$list>
+</$button>
+\end
+<$set name="noteTitleTemplate" value="0DD-0MM-YYYY">
+<$set name="currentTiddlerTag" value=<<currentTiddler>>>
+<<noteButton>>
+</$set></$set>

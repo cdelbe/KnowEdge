@@ -1,0 +1,84 @@
+created: 20181108075031614
+creator: Charles Delbé
+modified: 20181108075031614
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\colordialog\dialogs\colordialog.css
+tmap.id: 9345f264-2fb9-49b7-9de5-ca75091a7571
+type: text/vnd.tiddlywiki
+
+created: 20181108074507840
+creator: Charles Delbé
+modified: 20181108074507840
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\colordialog\dialogs\colordialog.css
+tmap.id: 3d8c8f0e-9d89-4a1b-b946-44c913774fb1
+type: text/vnd.tiddlywiki
+
+created: 20181108074213066
+creator: Charles Delbé
+modified: 20181108074213066
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\colordialog\dialogs\colordialog.css
+tmap.id: ed653c59-fade-4ba5-8396-40819a456ba4
+type: text/vnd.tiddlywiki
+
+created: 20181108073416725
+creator: Charles Delbé
+modified: 20181108073416725
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\colordialog\dialogs\colordialog.css
+tmap.id: 126e7b73-fe98-46a8-b1cd-e490a0c8c163
+type: text/vnd.tiddlywiki
+
+created: 20181108070527173
+creator: Charles Delbé
+modified: 20181108070527173
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\colordialog\dialogs\colordialog.css
+tmap.id: 19aa1ae5-9c5c-4d0a-8c8b-04191ed7b93a
+type: text/vnd.tiddlywiki
+
+created: 20181108070317962
+creator: Charles Delbé
+modified: 20181108070317962
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\colordialog\dialogs\colordialog.css
+tmap.id: 4aea8bd0-09f9-4a20-973d-8fdd747115e0
+type: text/vnd.tiddlywiki
+
+created: 20181108063933635
+creator: Charles Delbé
+modified: 20181108063933635
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\colordialog\dialogs\colordialog.css
+tmap.id: 28e46f25-3f47-4889-ba42-e5a0374f6230
+type: text/vnd.tiddlywiki
+
+created: 20181108063816546
+creator: Charles Delbé
+modified: 20181108063816546
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\ckeditor\plugins\colordialog\dialogs\colordialog.css
+tmap.id: 17aba484-3694-427b-8415-79280a03088a
+type: text/vnd.tiddlywiki
+
+/**
+ * @license Copyright (c) 2003-2018, CKSource - Frederico Knabben. All rights reserved.
+ * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
+ */
+
+.cke_colordialog_colorcell {
+	width: 12px; /* All cells have equal width which depends on parent width (in this case table parent). Width works more like max-width. */
+	height: 14px;
+	padding: 1px; /* Padding is replaced by border for focused cells. Prevents 'jumping' when adding borders. */
+}
+
+.cke_colordialog_colorcell.cke_colordialog_focused_light,
+.cke_colordialog_colorcell.cke_colordialog_focused_dark {
+	padding: 0; /* Shrink cell to allow 1px border indicating focus. */
+	border: 1px dotted #000;
+}
+
+.cke_colordialog_colorcell.cke_colordialog_focused_dark {
+	border-color: #FFF;
+}

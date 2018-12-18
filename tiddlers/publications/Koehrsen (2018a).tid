@@ -1,0 +1,27 @@
+abstract: 
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181204215140170
+creator: Charles Delbé
+description: 
+icon: $:/plugins/.CD/KnowEdge/images/blogpost
+list: Python [[Bayesian Inference]] [[Probabilistic Modeling]] PyMC3
+modified: 20181215083025686
+modifier: Charles Delbé
+mt-authors.title: Koehrsen
+mt-publication.citation: Koehrsen (2018). A simple application of Probabilistic Programming with PyMC3 in Python. Retrieved December, 4th, 2018 from https://towardsdatascience.com/estimating-probabilities-with-bayesian-modeling-in-python-7144be007815
+mt-publication.date: 2018a
+mt-publication.subtitle: A simple application of Probabilistic Programming with PyMC3 in Python
+mt-publication.title: Estimating Probabilities with Bayesian Modeling in Python
+mt-source.authors.list: [[William Koehrsen]]
+mt-topics.list: Python [[Bayesian Inference]] [[Probabilistic Modeling]] PyMC3
+tags: ToReadASAP @:/type/blogpost $:/type/publication
+title: Koehrsen (2018a)
+tmap.fa-icon: &#xf1fa;
+tmap.id: ba75e5c3-1b32-4eb6-ac6b-09a27d0a3652
+type: text/vnd.tiddlywiki
+url: https://towardsdatascience.com/estimating-probabilities-with-bayesian-modeling-in-python-7144be007815
+
+<<btn-img "https://cdn-images-1.medium.com/max/1000/1*ywAUf0aLxWGbqlglWEhlRA.png">>
+
+*[[Jupyter Notebook|https://github.com/WillKoehrsen/probabilistic-programming/blob/master/Estimating%20Probabilities%20with%20Bayesian%20Inference.ipynb]]

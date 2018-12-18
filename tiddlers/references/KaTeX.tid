@@ -1,0 +1,22 @@
+created: 20181029135210426
+creator: Charles Delbé
+list: 
+modified: 20181127202019750
+modifier: Charles Delbé
+tags: [[Numerics and Graphics]] $:/tags/@CD  $:/type/reference
+title: KaTeX
+tmap.id: 90981506-df29-4aa4-b358-96f3a751b639
+type: text/vnd.tiddlywiki
+
+!References
+:$:/plugins/tiddlywiki/katex
+:https://tiddlywiki.com/plugins/tiddlywiki/katex/
+:https://katex.org/docs/supported.html
+:[[Online Editor|http://www.hostmath.com/]]
+<br/>
+
+:https://khan.github.io/KaTeX/function-support.html
+
+
+<span style="display:block; padding-top:2px; color:#818181; font-size:13px;"><a href="https://khan.github.io/KaTeX/function-support.html" style=" color:#818181; font-size:13px;" target="_blank">$$\KaTeX \text{ Functions}$$</a>, by <a href="https://khan.github.io/KaTeX/" style=" color:#818181; font-size:13px;" target="_blank">Khan Academy</a></span>
+<br> 

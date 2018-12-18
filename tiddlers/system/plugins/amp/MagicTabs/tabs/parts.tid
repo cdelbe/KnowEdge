@@ -4,7 +4,7 @@ created: 20150125013421426
 creator: Alberto Molina Pérez
 description: Parts (chapters, sections)
 icon: $:/plugins/.CD/KnowEdge/images/part
-modified: 20181022074959457
+modified: 20181217052219191
 modifier: Charles Delbé
 mt-contents.type: $:/type/part
 mt-list.filter: 
@@ -15,7 +15,7 @@ mt-list.sort:
 mt-list.sort_alt: 
 mt-list.template: $:/plugins/amp/MagicTabs/templates/tabs/parts
 mt-list.template_alt: 
-tags: $:/type/tab $:/plugins/amp/MagicTabs/common $:/tabs/topic
+tags: $:/type/tab $:/plugins/amp/MagicTabs/common
 title: $:/plugins/amp/MagicTabs/tabs/parts
 type: text/vnd.tiddlywiki
 

@@ -2,9 +2,7 @@ caption: {{$:/language/Buttons/Favorites/Caption}}
 created: 20181212183952215
 creator: Charles Delbé
 description: {{$:/language/Buttons/Favorites/Hint}}
-list-after: $:/core/ui/Buttons/close
-list-before: $:/core/ui/Buttons/close
-modified: 20181212184537078
+modified: 20181215173602729
 modifier: Charles Delbé
 tags: $:/tags/ViewToolbar
 title: $:/plugins/ajh/favorites/template

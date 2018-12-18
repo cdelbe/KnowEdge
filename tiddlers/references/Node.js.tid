@@ -1,0 +1,23 @@
+color: #ff8040
+created: 20181205022833081
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/software
+list: Programming
+modified: 20181215031828329
+modifier: Charles Delbé
+mt-topics.list: Programming
+tags: $:/type/software
+title: Node.js
+tmap.fa-icon: &#xf120;
+tmap.id: 29f54d68-8d0f-4c47-88a4-3b9b2447abf4
+type: text/vnd.tiddlywiki
+url: https://nodejs.org/en/
+
+Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications.
+
+*Installation: Download at https://nodejs.org/en/
+*[[Node.js tutorial in Visual Studio Code|https://code.visualstudio.com/docs/nodejs/nodejs-tutorial]]
+*[[How do I start with Node.js after I installed it?|https://nodejs.org/en/docs/guides/getting-started-guide/]]
+
+
+

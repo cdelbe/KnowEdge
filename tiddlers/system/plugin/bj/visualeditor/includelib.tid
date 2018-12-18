@@ -5,7 +5,7 @@ modified: 20181130081648610
 modifier: Charles Delbé
 tags: 
 title: $:/plugin/bj/visualeditor/includelib
-tmp: <script src='http://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.3.2/ckeditor.js'></script>   <script src='./resources/libs/ckeditor/ckeditor.js'></script> or the content of :\plugins\bj\visualeditor\ckeditor.js
+tmp: <script src='http://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.3.2/ckeditor.js'></script>   <script src='./files/libs/ckeditor/ckeditor.js'></script> or the content of :\plugins\bj\visualeditor\ckeditor.js
 type: text/vnd.tiddlywiki
 
 <script src='http://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.3.2/ckeditor.js'></script>

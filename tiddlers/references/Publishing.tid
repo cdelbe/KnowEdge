@@ -1,0 +1,18 @@
+created: 20181129212141595
+creator: Charles Delbé
+modified: 20181215025333114
+modifier: Charles Delbé
+tags: TiddlyWiki  $:/type/reference
+title: Publishing
+tmap.id: 5c114003-e6dd-4ba0-acdd-35cc347c4e95
+type: text/vnd.tiddlywiki
+
+<div class="tc-table-of-contents">
+<<toc-selective-expandable 'Publishing'>>
+</div>
+
+---
+;[[TW5 2 Github pages|https://github.com/danielo515/TW5-auto-publish2gh-pages]]
+:Host your tiddlywikis in GitHub pages without any git knowledge or installing any software
+;[[$:/plugins/nome/publishing|http://nome.github.io/TiddlyPlugins/#%24%3a%2fplugins%2fnome%2fpublishing]] 
+:Tool for using a Node.js based TiddlyWiki to publish standalone versions of itself. Currently just a button which works like "download", but yields a wiki containing only ''tiddlers tagged public'' (plus system tiddlers).

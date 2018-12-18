@@ -3,8 +3,8 @@ color: #d3d3d3
 created: 20180913091603228
 creator: Charles Delbé
 description: Software
-icon: $:/plugins/.CD/KnowEdge/images/software
-modified: 20181205170714230
+icon: 
+modified: 20181217044831499
 modifier: Charles Delbé
 mt-contents.type: $:/type/software
 mt-list.filter: 

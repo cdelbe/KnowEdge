@@ -23,7 +23,7 @@ div[data-tiddler-title^="$:/"] .tc-titlebar {
 }
 
 div[data-tiddler-title^="@:/"] .tc-titlebar {
-    background-color: <<@get-cfg-value "ke-color-KnowEdge">>;
+    background-color: <<@get-cfg-value "ke-color-knowedge">>;
     border: 1px solid <<border>>;
 }
 

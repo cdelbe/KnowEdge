@@ -1,0 +1,19 @@
+color: #FFA500
+created: 20181215225726825
+creator: Charles Delbé
+datetime: 181215235726
+description: 
+icon: $:/plugins/.CD/KnowEdge/images/note
+list: 
+modified: 20181215225811161
+modifier: Charles Delbé
+mt-source.tiddler: $:/plugins/danielo515/2click2edit/ClickListener.js
+mt-topics.list: 
+tags: $:/type/note
+tasks: 
+title: About “$:/plugins/danielo515/2click2edit/ClickListener.js” (15-12-2018)
+tmap.fa-icon: &#xf044;
+tmap.id: 83687f5e-2b98-48d7-b553-7e35f9553d86
+type: text/vnd.tiddlywiki
+
+Modified to be triggered by CTRL+DBLCLCK

@@ -6,18 +6,18 @@ ke-color-author: rgb(128,128,0,0.85)
 ke-color-bookmark: rgb(104,18,36,0.85)
 ke-color-concept: rgb(128,0,128,0.85)
 ke-color-journal: rgb(255,255,0,0.85)
-ke-color-knowedge: rgb(129,181,59,085)
+ke-color-knowedge: rgb(129,181,59,0.85)
 ke-color-model: rgb(8,114,104,0.85)
-ke-color-note: rgb(255,165,0,0.85)
+ke-color-note: rgb(128,128,0,0.85)
 ke-color-part: rgb(236,99,83,0.85)
-ke-color-publication: rgb(178,26,44,85)
+ke-color-publication: rgb(178,26,44,0.85)
 ke-color-software: rgb(255,128,64,0.85)
 ke-color-system: rgb(34,45,86,0.85)
 ke-color-task: rgb(120,120,188,0.85)
 ke-color-topic: rgb(0,64,128,0.85)
 ke-decorate-tiddlers-title: yes
 ke-version: 1.3.0
-modified: 20181201012228545
+modified: 20181215194135408
 modifier: Charles Delbé
 tags: $:/tags/@CD $:/tags/ControlPanel
 title: $:/config/.CD/system

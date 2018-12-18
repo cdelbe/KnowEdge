@@ -1,0 +1,18 @@
+caption: {{!!title}}
+color: #681224
+created: 20181214233456285
+creator: Charles Delbé
+description: If you need to convert files from one markup format into another, pandoc is your swiss-army knife. 
+icon: $:/plugins/.CD/KnowEdge/images/bookmark
+list: 
+modified: 20181214233856898
+modifier: Charles Delbé
+mt-topics.list: 
+tags: $:/type/bookmark
+title: Pandoc - a universal document converter
+tmap.fa-icon: &#xf097;
+tmap.id: 35302f20-ae4b-4126-bd99-3a945bedb176
+type: text/vnd.tiddlywiki
+url: https://pandoc.org/index.html
+
+ Pandoc est un logiciel libre de conversion de documents numériques en ligne de commande développé par John MacFarlane en Haskell et publié sous licence GPL

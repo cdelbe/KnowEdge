@@ -1,0 +1,52 @@
+created: 20181125070637451
+creator: Charles Delbé
+modified: 20181130003334971
+modifier: Charles Delbé
+tags: $:/type/reference TiddlyWiki
+title: Hosts and Servers
+tmap.id: eafae981-06b6-4f6e-9cbd-7df024c1aae6
+type: text/vnd.tiddlywiki
+
+!TW5 Builtin server
+*[[Commands|https://tiddlywiki.com/#ServerCommand]] 
+*[[Using a custom path prefix with the client-server edition|https://tiddlywiki.com/static/Using%2520a%2520custom%2520path%2520prefix%2520with%2520the%2520client-server%2520edition.html]]
+
+!GitHub SyncAdaptor Plugin
+The aim for this [[plugin|https://ustuehler.github.io/tw5-github/]] is to provide a SyncAdaptor that can run in the browser as well as on the server side to synchronise tiddlers with a repository hosted on GitHub. 
+
+!Bob Plugin
+>A plugin that real-time syncing between wiki and server, and makes tiddlywiki a multi-user wiki on [[Node.js]].
+*[[TW5-Bob|https://github.com/OokTech/TW5-Bob]]
+*https://www.ooktech.xyz:8443/Public#%24%3A%2Fplugins%2FOokTech%2FBob
+*[[SecureWikiServer|https://github.com/OokTech/SecureWikiServer]] : A secure server (https) for TiddlyWiki with login.
+
+!TiddlyServer
+*[[Introduction|https://www.didaxy.com/introduction-to-tiddlyserver]] 
+*[[GitHub Repo|https://github.com/Arlen22/TiddlyServer]] 
+
+!TiddlyWeb
+*Link: http://tiddlyweb.com/ 
+*[[GitHub Repo|https://github.com/tiddlyweb]] 
+*[[Plugins|https://github.com/tiddlyweb/tiddlywebplugins.utils]] 
+*[[Python lib.|https://pypi.org/project/tiddlyweb/]] 
+
+!Hosting
+:[[Hosting TW on GitHub|http://confocal-manawatu.pbworks.com/w/page/114094270/TW5%20Host%20on%20github%20for%20free%20without%20any%20git%20knowledge%20or%20software%20installation]]
+
+!Misc
+!![[TiddlyWiki Proxy|https://github.com/stevenleeg/twproxy]]
+>An authenticated proxy for protecting your wiki. This is a gem that needs [[Ruby|https://rubyinstaller.org/]]
+
+!!POST request
+*[[Submitting an html form|https://ooktech.com/TiddlyWiki/SubmitForm/]]
+
+!!GET request
+*This is a [[widget|https://ooktech.com/TiddlyWiki/]] that can use an xmlhttprequest GET to request data.
+
+!!Logging into a REST server
+A [[TiddlyWiki5 plugin|https://github.com/OokTech/TW5-Login]] for logging into a REST server to get an access token. This plugin adds the `$login-widget`, which lets you login to servers that use token authentication. It sends (using an HTTP POST) a username and password to a url and expects an access token in reply.
+
+!!An html/js login form (for a landing page/tiddler)
+Link: https://codepen.io/JorgeAML/project/editor/ABjvRb	
+
+

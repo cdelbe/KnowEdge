@@ -1,9 +1,9 @@
+color: #222d56
 created: 20180731152414205
 creator: Charles Delbé
-list: $:/core/ui/Buttons/more-tiddler-actions $:/core/ui/Buttons/info $:/core/ui/Buttons/delete $:/plugins/amp/MagicTabs/button/newJournalHere $:/core/ui/Buttons/new-here $:/plugins/felixhayashi/tiddlymap/misc/quickConnectButton $:/core/ui/Buttons/new-journal-here $:/core/ui/Buttons/clone $:/core/ui/Buttons/export-tiddler $:/core/ui/Buttons/permalink $:/core/ui/Buttons/permaview $:/core/ui/Buttons/open-window $:/core/ui/Buttons/close-others $:/core/ui/Buttons/fold-others $:/core/ui/Buttons/fold $:/core/ui/Buttons/edit $:/plugins/ajh/favorites/template $:/core/ui/Buttons/close $:/core/ui/Buttons/fold-bar
-modified: 20180916182153546
+list: $:/core/ui/Buttons/more-tiddler-actions $:/core/ui/Buttons/info $:/plugins/welford/twpin/button $:/core/ui/Buttons/delete $:/plugins/amp/MagicTabs/button/newJournalHere $:/plugins/.CD/KnowEdge/ui/buttons/newNoteHere $:/core/ui/Buttons/new-here $:/plugins/felixhayashi/tiddlymap/misc/quickConnectButton $:/core/ui/Buttons/new-journal-here $:/core/ui/Buttons/clone $:/core/ui/Buttons/export-tiddler $:/core/ui/Buttons/permalink $:/core/ui/Buttons/permaview $:/core/ui/Buttons/open-window $:/core/ui/Buttons/close-others $:/core/ui/Buttons/fold-others $:/core/ui/Buttons/fold $:/core/ui/Buttons/edit $:/plugins/ajh/favorites/template $:/core/ui/Buttons/close $:/core/ui/Buttons/fold-bar $:/plugins/tongerner/toolbar/buttons/toggle-tagging [[Draft of '$:/core/ui/Buttons/new-journal-here']] [[Draft of '$:/plugins/.CD/KnowEdge/ui/buttons/newNoteHere']]
+modified: 20181215173602705
 modifier: Charles Delbé
 title: $:/tags/ViewToolbar
 type: text/vnd.tiddlywiki
-color: #222d56
 

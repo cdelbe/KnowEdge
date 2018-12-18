@@ -1,0 +1,146 @@
+created: 20181108075032504
+creator: Charles Delbé
+modified: 20181108075032504
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\wsc\dialogs\wsc.css
+tmap.id: 29550796-6618-45fd-8606-3fc1405f4ba9
+type: text/vnd.tiddlywiki
+
+created: 20181108074509215
+creator: Charles Delbé
+modified: 20181108074509215
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\wsc\dialogs\wsc.css
+tmap.id: 301dcb17-af9a-4d74-9eae-b9606eec9490
+type: text/vnd.tiddlywiki
+
+created: 20181108074214067
+creator: Charles Delbé
+modified: 20181108074214067
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\wsc\dialogs\wsc.css
+tmap.id: c2d5d32e-984a-40b1-a898-b52110939438
+type: text/vnd.tiddlywiki
+
+created: 20181108073417856
+creator: Charles Delbé
+modified: 20181108073417856
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\wsc\dialogs\wsc.css
+tmap.id: 4c879b92-aa6a-49bf-8012-228e50b90435
+type: text/vnd.tiddlywiki
+
+created: 20181108070528085
+creator: Charles Delbé
+modified: 20181108070528085
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\wsc\dialogs\wsc.css
+tmap.id: 87bf414f-4fb1-44da-a71c-0b8190231023
+type: text/vnd.tiddlywiki
+
+created: 20181108070319098
+creator: Charles Delbé
+modified: 20181108070319098
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\wsc\dialogs\wsc.css
+tmap.id: 4f0ed768-b7c9-451e-841a-de61c6a8723e
+type: text/vnd.tiddlywiki
+
+created: 20181108063934872
+creator: Charles Delbé
+modified: 20181108063934872
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\wsc\dialogs\wsc.css
+tmap.id: 841ed303-fffe-4c61-a2a6-45c5a2104756
+type: text/vnd.tiddlywiki
+
+created: 20181108063817621
+creator: Charles Delbé
+modified: 20181108063817621
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\ckeditor\plugins\wsc\dialogs\wsc.css
+tmap.id: 6db282c4-e0ed-4d07-82fa-4dad82950cbe
+type: text/vnd.tiddlywiki
+
+/*
+Copyright (c) 2003-2015, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.html or http://ckeditor.com/license
+*/
+
+html, body
+{
+	background-color: transparent;
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	padding: 10px;
+}
+
+body, td, input, select, textarea
+{
+	font-size: 11px;
+	font-family: 'Microsoft Sans Serif' , Arial, Helvetica, Verdana;
+}
+
+.midtext
+{
+	padding:0px;
+	margin:10px;
+}
+
+.midtext p
+{
+	padding:0px;
+	margin:10px;
+}
+
+.Button
+{
+	border: #737357 1px solid;
+	color: #3b3b1f;
+	background-color: #c7c78f;
+}
+
+.PopupTabArea
+{
+	color: #737357;
+	background-color: #e3e3c7;
+}
+
+.PopupTitleBorder
+{
+	border-bottom: #d5d59d 1px solid;
+}
+.PopupTabEmptyArea
+{
+	padding-left: 10px;
+	border-bottom: #d5d59d 1px solid;
+}
+
+.PopupTab, .PopupTabSelected
+{
+	border-right: #d5d59d 1px solid;
+	border-top: #d5d59d 1px solid;
+	border-left: #d5d59d 1px solid;
+	padding: 3px 5px 3px 5px;
+	color: #737357;
+}
+
+.PopupTab
+{
+	margin-top: 1px;
+	border-bottom: #d5d59d 1px solid;
+	cursor: pointer;
+}
+
+.PopupTabSelected
+{
+	font-weight: bold;
+	cursor: default;
+	padding-top: 4px;
+	border-bottom: #f1f1e3 1px solid;
+	background-color: #f1f1e3;
+}

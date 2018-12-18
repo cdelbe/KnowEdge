@@ -6,12 +6,12 @@ tags: $:/tags/@CD $:/tags/@CD/tweaked
 title: $:/config/FileSystemPaths
 type: text/vnd.tiddlywiki
 
-[suffix[.pdf]addprefix[./resources/]]
-[suffix[.png]addprefix[resources/]]
-[suffix[.jpg]addprefix[resources/]]
-[suffix[.PDF]addprefix[resources/]]
-[suffix[.PNG]addprefix[resources/]]
-[suffix[.JPG]addprefix[resources/]]
+[suffix[.pdf]addprefix[./files/]]
+[suffix[.png]addprefix[files/]]
+[suffix[.PDF]addprefix[files/]]
+[suffix[.jpg]addprefix[files/]]
+[suffix[.PNG]addprefix[files/]]
+[suffix[.JPG]addprefix[files/]]
 
 [has[draft.of]addprefix[drafts/]]
 
@@ -23,15 +23,16 @@ type: text/vnd.tiddlywiki
 [prefix[$:/tags/]removeprefix[$:/]addprefix[tags/]]
 [prefix[$:/config/]removeprefix[$:/]addprefix[config/]]
 
-[tag[Reference]addprefix[resources/references/]]
-[tag[$:/type/bookmark]addprefix[resources/bookmarks/]]
-[tag[$:/type/task]addprefix[resources/tasks/]]
-[tag[$:/type/journal]addprefix[resources/journal/]]
-[tag[$:/type/software]addprefix[resources/softwares/]]
-[tag[$:/type/topic]addprefix[resources/topics/]]
-[tag[$:/type/concept]addprefix[resources/concepts/]]
-[tag[$:/type/model]addprefix[resources/models/]]
-[tag[$:/type/person]addprefix[resources/persons/]]
-[tag[$:/type/author]addprefix[resources/persons/]]
-[tag[$:/type/publication]addprefix[resources/publications/]]
-[tag[$:/type/note]addprefix[resources/notes/]]
+[tag[$:/type/reference]addprefix[references/]]
+[tag[$:/type/bookmark]addprefix[bookmarks/]]
+[tag[$:/type/task]addprefix[tasks/]]
+[tag[$:/type/software]addprefix[softwares/]]
+[tag[$:/type/topic]addprefix[topics/]]
+[tag[$:/type/concept]addprefix[concepts/]]
+[tag[$:/type/model]addprefix[models/]]
+[tag[$:/type/publication]addprefix[publications/]]
+[tag[$:/type/note]addprefix[notes/]]
+
+[tag[$:/type/journal]addprefix[journal/]]
+[tag[$:/type/person]addprefix[persons/]]
+[tag[$:/type/author]addprefix[persons/]]

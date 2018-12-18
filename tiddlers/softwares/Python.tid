@@ -1,0 +1,18 @@
+color: #ff8040
+created: 20181030025133616
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/software
+modified: 20181214234936842
+modifier: Charles Delbé
+tags: Programming $:/type/software
+title: Python
+tmap.fa-icon: &#xf120;
+tmap.id: 4f649937-bd62-4872-9587-6511d4b11fba
+type: text/vnd.tiddlywiki
+url: 
+
+;[[The Python Grimoire (TW5)|https://www.irb.hr/users/maks/tiddlygrimoire.html]]
+:The Python Grimoire explains how to perform common programming tasks in Python. It is a good place to go after you've read the Python Tutorial and have a reasonable grasp of the basics of the language. In essence, the Grimoire is a collection of small recipes for very basic tasks. Its purpose is similar to that of the [[Python Cookbook|http://aspn.activestate.com/ASPN/Python/Cookbook/]], but the Grimoire's recipes are much simpler and more basic than those in the Cookbook.
+
+!IDE
+:[[PyCharm]]

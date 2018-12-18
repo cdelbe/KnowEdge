@@ -2,23 +2,27 @@ created: 20140430190143854
 creator: Alberto Molina
 list-after: $:/plugins/.CD/KnowEdge/ui/ViewTemplate/publication/title
 list-before: 
-modified: 20181205190732249
+modified: 20181217075559792
 modifier: Charles Delbé
-tags: MagicTabs $:/plugins/amp/MagicTabs/common
+tags: $:/tags/@CD/tweaked MagicTabs $:/plugins/amp/MagicTabs/common
 title: $:/plugins/amp/MagicTabs/ViewTemplate/subtitle
 type: text/vnd.tiddlywiki
 
 \define fieldValue()
+<$list filter="[all[current]has[$(fieldName)$]]">
 	<$tiddler tiddler={{!!$(fieldName)$}}>
 		<$transclude tiddler={{!!icon}}/>
         <$link><$view field="title"/></$link>&nbsp;
     </$tiddler>
+</$list>
 \end
 \define fieldList()
+<$list filter="[all[current]has[$(fieldName)$]]">
 	<$list filter="[all[current]list[!!$(fieldName)$]]">
     	<$transclude tiddler={{!!icon}}/>
         <$link><$view field="title"/></$link>&nbsp;
     </$list>
+</$list>    
 \end
 <$reveal type="nomatch" state=<<folded-state>> text="hide" retain="yes" animate="yes">
 <div class="cd-authors">

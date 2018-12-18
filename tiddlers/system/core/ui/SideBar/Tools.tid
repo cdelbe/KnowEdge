@@ -1,9 +1,9 @@
 caption: {{$:/language/SideBar/Tools/Caption}}
-created: 20180729034337580
+created: 20181216000632355
 creator: Charles Delbé
-modified: 20180730074653709
+modified: 20181216000637057
 modifier: Charles Delbé
-revision: 0
+tags: $:/tags/@CD/tweaked
 title: $:/core/ui/SideBar/Tools
 type: text/vnd.tiddlywiki
 

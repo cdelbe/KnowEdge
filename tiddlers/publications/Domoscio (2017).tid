@@ -1,0 +1,23 @@
+_canonical_uri: ./files/pdf/Définir_lAdaptive_Learning-Livre_Blanc-Domoscio.pdf
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: [[Adaptive Learning]]
+modified: 20181030061654888
+modifier: Charles Delbé
+mt-authors.title: Domoscio
+mt-publication.citation: Domoscio (2017). Définir l’Adaptive Learning. [Whitepaper]. Retrieved from http://techne.labo.univ-poitiers.fr/gtnum2/file/Livre_blanc_Adaptive_Learning_Domoscio.pdf
+mt-publication.date: 2017
+mt-publication.subtitle: Un regard sur les fondations.
+mt-publication.title: Définir l’Adaptive Learning
+mt-source.authors.list: [[Domoscio]]
+mt-topics.list: [[Adaptive Learning]]
+tags: @:/type/whitepaper $:/type/publication
+title: Domoscio (2017)
+tmap.fa-icon: &x#f0f6;
+tmap.id: e176589f-9f00-4ddc-a6c6-193d54b2246b
+type: application/pdf
+url: http://techne.labo.univ-poitiers.fr/gtnum2/file/Livre_blanc_Adaptive_Learning_Domoscio.pdf
+

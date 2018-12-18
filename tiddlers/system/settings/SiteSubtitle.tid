@@ -1,8 +1,8 @@
 created: 20180728202658570
 creator: Charles Delbé
-modified: 20181212202236699
+modified: 20181217071437358
 modifier: Charles Delbé
 title: $:/SiteSubtitle
 type: text/vnd.tiddlywiki
 
-<span>Cognition of Learning and ~EdTech Knowledge Base -- v.<<@get-cfg-value "ke-version">> © [[Charles Delbé]] 2018</span>
+KB about Cognition of Learning and ~EdTech -- v.<<@get-cfg-value "ke-version">> © [[Charles Delbé]] 2018

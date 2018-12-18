@@ -1,0 +1,119 @@
+created: 20181108075032899
+creator: Charles Delbé
+modified: 20181108075032899
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\toolbarconfigurator\css\fontello.css
+tmap.id: 9e75c413-05a8-424d-be80-ae1c685b487f
+type: text/vnd.tiddlywiki
+
+created: 20181108074509491
+creator: Charles Delbé
+modified: 20181108074509491
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\toolbarconfigurator\css\fontello.css
+tmap.id: e9b8b4f9-2268-46ef-ac28-3ecd29290432
+type: text/vnd.tiddlywiki
+
+created: 20181108074214538
+creator: Charles Delbé
+modified: 20181108074214538
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\toolbarconfigurator\css\fontello.css
+tmap.id: 811ece88-f01f-4999-8869-b4ca06386452
+type: text/vnd.tiddlywiki
+
+created: 20181108073418263
+creator: Charles Delbé
+modified: 20181108073418264
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\toolbarconfigurator\css\fontello.css
+tmap.id: 6e5d4821-4f38-40da-a6fa-89169c391f8a
+type: text/vnd.tiddlywiki
+
+created: 20181108070529634
+creator: Charles Delbé
+modified: 20181108070529634
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\toolbarconfigurator\css\fontello.css
+tmap.id: fdcc4959-a64c-4feb-9ff5-497a9be78ba3
+type: text/vnd.tiddlywiki
+
+created: 20181108070319201
+creator: Charles Delbé
+modified: 20181108070319201
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\toolbarconfigurator\css\fontello.css
+tmap.id: 3706f1d9-b1dd-4a3a-b553-1282ebab098d
+type: text/vnd.tiddlywiki
+
+created: 20181108063935023
+creator: Charles Delbé
+modified: 20181108063935023
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\toolbarconfigurator\css\fontello.css
+tmap.id: a8dc1d61-1821-44c3-b450-d7b9749794b9
+type: text/vnd.tiddlywiki
+
+created: 20181108063817893
+creator: Charles Delbé
+modified: 20181108063817893
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\ckeditor\samples\toolbarconfigurator\css\fontello.css
+tmap.id: 83c32fc2-c9dc-4e79-a931-cf162681eafa
+type: text/vnd.tiddlywiki
+
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?89024372');
+  src: url('../font/fontello.eot?89024372#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?89024372') format('woff'),
+       url('../font/fontello.ttf?89024372') format('truetype'),
+       url('../font/fontello.svg?89024372#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?89024372#fontello') format('svg');
+  }
+}
+*/
+
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-trash:before { content: '\e802'; } /* '' */
+.icon-down-big:before { content: '\e800'; } /* '' */
+.icon-up-big:before { content: '\e801'; } /* '' */

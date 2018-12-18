@@ -1,0 +1,89 @@
+created: 20181108075031723
+creator: Charles Delbé
+modified: 20181108075031723
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\scayt\skins\moono-lisa\scayt.css
+tmap.id: 1bdb5f06-771e-4cb5-9802-05abf2e469d5
+type: text/vnd.tiddlywiki
+
+created: 20181108074508576
+creator: Charles Delbé
+modified: 20181108074508576
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\scayt\skins\moono-lisa\scayt.css
+tmap.id: 3eb49a95-8152-47e4-9d24-f021191056e5
+type: text/vnd.tiddlywiki
+
+created: 20181108074213251
+creator: Charles Delbé
+modified: 20181108074213251
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\scayt\skins\moono-lisa\scayt.css
+tmap.id: ab566c84-11cf-400c-84e5-c9b1f308fdf4
+type: text/vnd.tiddlywiki
+
+created: 20181108073417030
+creator: Charles Delbé
+modified: 20181108073417030
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\scayt\skins\moono-lisa\scayt.css
+tmap.id: 48cb4e1c-bee3-4f1f-be05-933f7c7b3a2f
+type: text/vnd.tiddlywiki
+
+created: 20181108070527527
+creator: Charles Delbé
+modified: 20181108070527527
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\scayt\skins\moono-lisa\scayt.css
+tmap.id: a5e3f314-09dc-4ba9-ac0b-a96c9fc8bfb9
+type: text/vnd.tiddlywiki
+
+created: 20181108070318338
+creator: Charles Delbé
+modified: 20181108070318338
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\scayt\skins\moono-lisa\scayt.css
+tmap.id: 38b25388-76f1-410d-8c86-a97ded3a4739
+type: text/vnd.tiddlywiki
+
+created: 20181108063934045
+creator: Charles Delbé
+modified: 20181108063934045
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\scayt\skins\moono-lisa\scayt.css
+tmap.id: 6e57ac22-833d-4bef-931a-cefe1e708eb5
+type: text/vnd.tiddlywiki
+
+created: 20181108063816684
+creator: Charles Delbé
+modified: 20181108063816684
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\ckeditor\plugins\scayt\skins\moono-lisa\scayt.css
+tmap.id: b34217cd-21bb-44c8-b76b-64c8ec50d094
+type: text/vnd.tiddlywiki
+
+.scayt-lang-list > div
+{
+    padding-bottom: 6px !important;
+}
+
+.scayt-lang-list > div input
+{
+    margin-right: 4px;
+}
+
+#scayt_about_
+{
+    margin: 30px auto 0 auto;
+}
+
+#scayt_about_ p
+{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.cke_dialog_contents_body div[name=dictionaries] .cke_dialog_ui_hbox_last > a.cke_dialog_ui_button
+{
+    margin-top: 0;
+}

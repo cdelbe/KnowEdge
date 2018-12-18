@@ -1,9 +1,9 @@
-caption: [img class="msk-logo" [images/MKT/logo-R&D.png]]
+caption: <!--[img class="msk-logo" [images/MKT/logo-R&D.png]]-->
 created: 20181102100503847
 creator: Charles Delbé
 dropdown: 
 menu-pos: 0
-modified: 20181109170233596
+modified: 20181217010925690
 modifier: Charles Delbé
 tags: @:/tags/Image $:/tags/@CD $:/tags/TopMenu $:/tags/Static/TopMenu
 target: 
@@ -11,4 +11,4 @@ title: $:/plugins/.CD/KnowEdge/ui/menu/logo
 tmp: $:/plugins/.CD/KnowEdge/images/logo_msk_wiki
 type: text/vnd.tiddlywiki
 
-[img class="msk-logo" [images/MKT/logo-R&D.png]]
+<!--[img class="msk-logo" [images/MKT/logo-R&D.png]]-->

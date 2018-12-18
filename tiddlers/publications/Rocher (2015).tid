@@ -1,0 +1,24 @@
+abstract: Cet article présente les méthodes psychométriques qui sont généralement employées dans les programmes d’évaluations standardisées des compétences des élèves, au niveau national et au niveau international. Nous proposons un panorama de ces méthodes, de façon pédagogique, mais également technique. Leurs fondements théoriques ainsi que leurs hypothèses sous-jacentes sont présentés. Nous montrons leur intérêt d’un point de vue pratique, mais également leurs limites. Enfin, une description des analyses psychométriques réalisées dans le cadre d’une évaluation du cycle Cedre est proposée.
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181203225138015
+creator: Charles Delbé
+description: 
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: [[Item Response Theory]] [[Psychometric Methods]] Assessment
+modified: 20181203225558619
+modifier: Charles Delbé
+mt-authors.title: Rocher
+mt-publication.citation: Rocher, T. (2015). Mesure des compétences. Méthodes psychométriques utilisées dans le cadre des évaluations des élèves. //Éducation et formations//, 86(87), 37-60.
+mt-publication.date: 2015
+mt-publication.subtitle: Méthodes psychométriques utilisées dans le cadre des évaluations des élèves
+mt-publication.title: Mesure des compétences
+mt-source.authors.list: [[Thierry Rocher]]
+mt-topics.list: [[Item Response Theory]] [[Psychometric Methods]] [[Assessment]]
+tags: $:/tags/embed @:/type/article $:/type/publication
+title: Rocher (2015)
+tmap.fa-icon: &x#f0f6;
+tmap.id: d400732f-dd12-4f35-aa89-f7f4d55fe8ea
+type: text/vnd.tiddlywiki
+url: ./files/pdf/depp-2015-EF-86-87-mesure-competences-methodes-psychometriques-utilisees_424593.pdf
+

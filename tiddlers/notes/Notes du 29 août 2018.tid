@@ -1,0 +1,34 @@
+created: 20180829082835490
+creator: Charles Delbé
+modified: 20180917094840952
+modifier: Charles Delbé
+tags: $:/tags/note
+title: Notes du 29 août 2018
+tmap.id: 096f8fa2-2eba-4de5-9e6b-d929fba0b766
+type: text/vnd.tiddlywiki
+
+<<<
+* Comment évaluer rapidement le niveau de l'élève ?
+* Comment détecter que l'élève se trouve face à une difficulté ?
+* idem pour la frustration et le désinterêt (intervention de l'enseignant ?)
+<<<
+
+---
+
+* ZPD, moyenner la difficulté des evaluations formatives
+* indicateurs cognitifs non explicites (déduits des interactions avec la plateforme) en continue, temps-réel
+	* => triggers
+    * => xAPI
+    * => tableaux de bord
+    * => niveau élèves jusquà niveau prof: suggestion de remédiation
+    * stats descriptives => stats prescriptives/prédictives
+    
+@@.warn
+besoin de qualifier les exervices (norme scolom)
+@@
+   
+* IRT : ''concerned with predicting the probability of getting the question correct'' graphe de compétences
+
+* 2 pages décrivant (3 septembre):
+- ZPD
+- Evaluation implicite

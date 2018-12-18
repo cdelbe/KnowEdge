@@ -1,0 +1,25 @@
+_canonical_uri: ./files/pdf/Nkambou_et_al_2010/0-Foreword-Content.pdf
+abstract: 
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181130014830472
+creator: Charles Delbé
+description: Complete PDF book.
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: [[Intelligent Tutoring Systems]] [[Bayesian Knowledge Tracing]]
+modified: 20181130020355465
+modifier: Charles Delbé
+mt-authors.title: Nkambou, R., Mizoguchi, R., & Bourdeau, J. (Eds.)
+mt-publication.citation: Nkambou, R., Mizoguchi, R., & Bourdeau, J. (Eds.). (2010). Advances in intelligent tutoring systems (Vol. 308). Springer Science & Business Media.
+mt-publication.date: 2010
+mt-publication.subtitle: 
+mt-publication.title: Advances in intelligent tutoring systems
+mt-source.authors.list: 
+mt-topics.list: [[Intelligent Tutoring Systems]] [[Bayesian Knowledge Tracing]]
+tags: @:/tags/pdf @:/type/book $:/type/publication
+title: Advances in intelligent tutoring systems (2010)
+tmap.fa-icon: &x#f0f6;
+tmap.id: 887868c2-996a-4d2b-8f39-ff117382d26f
+type: application/pdf
+url: 
+

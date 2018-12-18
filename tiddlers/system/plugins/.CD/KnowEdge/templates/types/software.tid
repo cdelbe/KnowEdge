@@ -1,10 +1,13 @@
 color: #ff8040
 created: 20180814205623702
 creator: Charles Delbé
+description: 
 icon: $:/plugins/.CD/KnowEdge/images/software
-modified: 20181029035151115
+list: 
+modified: 20181215183019544
 modifier: Charles Delbé
-tags: $:/type/software $:/tags/@CD
+mt-topics.list: 
+tags: $:/type/software
 title: $:/plugins/.CD/KnowEdge/templates/types/software
 tmap.fa-icon: &#xf120;
 type: text/vnd.tiddlywiki

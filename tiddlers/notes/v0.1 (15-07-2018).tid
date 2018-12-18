@@ -1,0 +1,19 @@
+color: #FFA500
+created: 20181215185815687
+creator: Charles Delbé
+datetime: 181215195815
+description: 
+icon: $:/plugins/.CD/KnowEdge/images/note
+list: 
+modified: 20181215190040201
+modifier: Charles Delbé
+mt-source.tiddler: 
+mt-topics.list: 
+tags: @:/tags/ReleaseNote $:/type/note
+tasks: 
+title: Release v0.1 (15-07-2018)
+tmap.fa-icon: &#xf044;
+tmap.id: f1f7c6a5-add0-46b0-aa47-19e37ca9bf7b
+type: text/vnd.tiddlywiki
+
+First release

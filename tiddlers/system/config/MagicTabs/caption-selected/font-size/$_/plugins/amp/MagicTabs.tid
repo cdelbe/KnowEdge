@@ -1,8 +1,8 @@
 created: 20141228161853049
 creator: Alberto Molina Pérez
-modified: 20180825093904658
+modified: 20181217043851938
 modifier: Charles Delbé
 title: $:/config/MagicTabs/caption-selected/font-size/$:/plugins/amp/MagicTabs
 type: text/vnd.tiddlywiki
 
-1.25em
+1.em

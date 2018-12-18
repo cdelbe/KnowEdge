@@ -1,0 +1,48 @@
+abstract: Computerized assessments are an increasingly popular way to evaluate students. They need to be optimized so that students can receive an accurate evaluation in as little time as possible. Such optimization is possible through learning analytics and computerized adaptive tests (CATs): the next question is then chosen according to the previous responses of the student, thereby making assessment more efficient. Using the data collected from previous students in non-adaptive tests, it is thus possible to provide formative adaptive tests to new students by telling them what to do next. This chapter reviews several models of CATs found in various fields, together with their main characteristics. We then compare these models empirically on real data. We conclude with a discussion of future research directions for computerized assessments.
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180916153759218
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: [[Adaptive Assessment]] [[Knowledge Tracing]] [[Item Response Theory]] [[Cognitive Diagnosis Models]] [[Knowledge Space Theory]]
+modified: 20181029173234383
+modifier: Charles Delbé
+mt-authors.title: Vie, Popineau, Bruillard & Bourda
+mt-publication.citation: Vie, J.-J., Popineau, F., Bruillard, E., & Bourda, Y. (2017). A Review of Recent Advances in Adaptative Assessment. in //Learning analytics: Fundaments, applications, and Trends//, 94, Springer International Publishing, pp.113-142, 2017, Studies in Systems, Decision and Control 978-3-319-52976-9. <hal-01488284>.
+mt-publication.date: 2017
+mt-publication.issue: 
+mt-publication.journal: in Learning analytics: Fundaments, applications, and trends
+mt-publication.subtitle: 
+mt-publication.title: A Review of Recent Advances in Adaptative Assessment
+mt-publication.volume: p113-142
+mt-source.authors.list: [[Jill-Jênn Vie]] [[Fabrice Popineau]] [[Eric Bruillard]] [[Yolaine Bourda]]
+mt-topics.list: [[Adaptive Assessment]] [[Knowledge Tracing]] [[Item Response Theory]] [[Cognitive Diagnosis Models]] [[Knowledge Space Theory]]
+tags: @:/type/article $:/type/publication
+title: Vie, Popineau, Bruillard & Bourda (2017)
+tmap.fa-icon: &x#f0f6;
+tmap.id: ab221369-19ac-4088-aebe-ff4fe66babff
+type: text/vnd.tiddlywiki
+url: [ext[./files/pdf/Vie_etal_2017.pdf]]
+
+# Introduction
+# Learning Analytics
+# Evaluation adaptatives
+## Psychometrics: Measuring Proficiency using Item Response Theory
+## Cognitive Diagnosis: Adaptive Assessment with Feedback
+## Adaptive Assessment and recommender systems
+## Adaptive strategies for exploration–exploitation tradeoff
+## Multistage testing
+# Comparison of adaptive testing models
+# Results
+## ECPE
+## Fraction
+## TIMSS
+# Discussion
+## Adaptive pretest at the beginning of a course
+## Adaptive test at the middle of a course
+## Adaptive test at the end of a course
+## Other applications
+# Limitations
+# The future of assessment
+# Conclusion
+

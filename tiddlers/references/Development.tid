@@ -1,0 +1,25 @@
+created: 20181130053423550
+creator: Charles Delbé
+modified: 20181130053832135
+modifier: Charles Delbé
+tags: TiddlyWiki
+title: Development $:/type/reference
+tmap.id: de5492b4-4eb0-4b69-8410-74731ad2c518
+type: text/vnd.tiddlywiki
+
+;http://tobibeer.github.io/tw/dev5/#Start
+:This wiki gives examples with respect to javascript, as well as macro, and template development in TiddlyWiki 
+
+;http://galleria.tiddlyspot.com/#%24%3A%2Fplugins%2Ftobibeer%2Fgalleria%2Fmacro.js	
+:exemple d'import de jquery dans un plugin TW5
+
+;[[Documentation for developers|https://tiddlywiki.com/dev/]]
+
+;[[Upgrade Mechanism|https://tiddlywiki.com/static/UpgradeMechanism.html]]
+
+;Developing [[plugins|https://tiddlywiki.com/dev/#Developing%20plugins%20using%20Node.js%20and%20GitHub]] using Node.js and GitHub
+
+;[[Tw5-thirdflow|https://www.npmjs.com/package/tw5-thirdflow]]
+:ThirdFlow Plugin Development Support Plugin. The Third Flow plugin brings to you another way to develop customizations for TiddlyWiki 5.. You can develop your plugin directly from within your browser. A server-based TiddlyWiki instance running on Node.js ensures that all your source tiddlers are neatly stored in a clean and hierarchically organized folder structure. Source code management is done as usual using your favorite source code management tool, such as git. For packaging your plugin you finally simply run a shell script which packs the plugin tiddler and saves it to disk. Additionally, you may opt to create an additional demonstration TiddlyWiki to teach your future plugin users how to use your AWESOME plugin. [[GitHub|https://github.com/TheDiveO/ThirdFlow]].
+
+;Enable JS [[scripts|http://tobibeer.github.io/tw/enable-js/#script]]

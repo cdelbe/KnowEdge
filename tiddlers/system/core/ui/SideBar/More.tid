@@ -1,10 +1,10 @@
 caption: {{$:/language/SideBar/More/Caption}}
 created: 20181024081332124
 creator: Charles Delbé
-modified: 20181024081333987
+modified: 20181216232611947
 modifier: Charles Delbé
-tab-pos: 70
-tags: $:/tags/SideBar
+tab-pos: 75
+tags: $:/tags/@CD/tweaked $:/tags/SideBar
 title: $:/core/ui/SideBar/More
 type: text/vnd.tiddlywiki
 

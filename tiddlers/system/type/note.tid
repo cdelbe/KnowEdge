@@ -1,9 +1,9 @@
 caption: Note
-color: #ffa500
+color: #808000
 created: 20141231095056897
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/note
-modified: 20181125002535324
+modified: 20181215194403868
 modifier: Charles Delbé
 mt-dashboard.heading: Notes
 mt-dashboard.icon: $:/plugins/.CD/KnowEdge/images/note

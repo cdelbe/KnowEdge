@@ -1,0 +1,22 @@
+about: 
+color: #7878bc
+created: 20181112194209746
+creator: Charles Delbé
+draft.title: Breadcrumbs do not handle system tags as root
+icon: $:/plugins/.CD/KnowEdge/images/check
+modified: 20181217012034876
+modifier: Charles Delbé
+mt-date.alpha: 
+mt-date.due: 
+mt-date.omega: 
+mt-source.root: 
+mt-source.tiddler: $:/plugins/.CD/KnowEdge/ui/ViewTemplate/breadcrumbs
+mt-task.owner: 
+mt-task.status: pending
+mt-topics.list: 
+tags: $:/type/task
+title: Breadcrumbs do not handle system tags as root
+tmap.fa-icon: &#f05d;
+tmap.id: 01109052-9a70-4c47-82a8-5d85fcee3915
+type: text/vnd.tiddlywiki
+

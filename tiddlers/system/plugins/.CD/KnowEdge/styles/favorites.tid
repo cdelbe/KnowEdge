@@ -25,3 +25,7 @@ type: text/vnd.tiddlywiki
 .tc-image-star-filled {
     /*height: 0.9em!important;*/
 }
+
+button svg.tc-image-favorites {
+	vertical-align: baseline;
+}

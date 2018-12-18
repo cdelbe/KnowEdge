@@ -1,0 +1,11 @@
+caption: Map
+created: 20181215222619654
+creator: Charles Delbé
+modified: 20181215222752530
+modifier: Charles Delbé
+tab-pos: 40
+tags: $:/tags/SideBar
+title: $:/plugins/.CD/KnowEdge/ui/tabs/map
+type: text/vnd.tiddlywiki
+
+{{$:/plugins/felixhayashi/tiddlymap/hook/editor}}

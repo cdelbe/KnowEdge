@@ -1,0 +1,268 @@
+created: 20181108075032699
+creator: Charles Delbé
+modified: 20181108075032699
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\assets\outputxhtml\outputxhtml.css
+tmap.id: d241d668-5408-44a7-8d95-7a777eeb46ec
+type: text/vnd.tiddlywiki
+
+created: 20181108074509270
+creator: Charles Delbé
+modified: 20181108074509270
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\assets\outputxhtml\outputxhtml.css
+tmap.id: 58283499-398a-4f5b-bea4-c2b9e135add5
+type: text/vnd.tiddlywiki
+
+created: 20181108074214164
+creator: Charles Delbé
+modified: 20181108074214164
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\assets\outputxhtml\outputxhtml.css
+tmap.id: 38b50f7b-dc6f-4cf1-aafb-b62dff527e2b
+type: text/vnd.tiddlywiki
+
+created: 20181108073418013
+creator: Charles Delbé
+modified: 20181108073418013
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\assets\outputxhtml\outputxhtml.css
+tmap.id: 09159129-3b83-4cc7-9609-5b88d18c2373
+type: text/vnd.tiddlywiki
+
+created: 20181108070528270
+creator: Charles Delbé
+modified: 20181108070528270
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\assets\outputxhtml\outputxhtml.css
+tmap.id: adfedabc-2da9-46f9-89d8-7ff2915a8235
+type: text/vnd.tiddlywiki
+
+created: 20181108070318972
+creator: Charles Delbé
+modified: 20181108070318972
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\assets\outputxhtml\outputxhtml.css
+tmap.id: c30c78ee-c624-4883-aaee-8d1fa315247d
+type: text/vnd.tiddlywiki
+
+created: 20181108063934752
+creator: Charles Delbé
+modified: 20181108063934752
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\assets\outputxhtml\outputxhtml.css
+tmap.id: 603c8206-b79a-4c68-a104-9b4fe465dbf7
+type: text/vnd.tiddlywiki
+
+created: 20181108063817730
+creator: Charles Delbé
+modified: 20181108063817730
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\ckeditor\samples\old\assets\outputxhtml\outputxhtml.css
+tmap.id: dfcfe022-966e-4135-a63d-327467439ddf
+type: text/vnd.tiddlywiki
+
+/*
+ * Copyright (c) 2003-2018, CKSource - Frederico Knabben. All rights reserved.
+ * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
+ *
+ * Styles used by the XHTML 1.1 sample page (xhtml.html).
+ */
+
+/**
+ * Basic definitions for the editing area.
+ */
+body
+{
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 80%;
+	color: #000000;
+	background-color: #ffffff;
+	padding: 5px;
+	margin: 0px;
+}
+
+/**
+ * Core styles.
+ */
+
+.Bold
+{
+	font-weight: bold;
+}
+
+.Italic
+{
+	font-style: italic;
+}
+
+.Underline
+{
+	text-decoration: underline;
+}
+
+.StrikeThrough
+{
+	text-decoration: line-through;
+}
+
+.Subscript
+{
+	vertical-align: sub;
+	font-size: smaller;
+}
+
+.Superscript
+{
+	vertical-align: super;
+	font-size: smaller;
+}
+
+/**
+ * Font faces.
+ */
+
+.FontComic
+{
+	font-family: 'Comic Sans MS';
+}
+
+.FontCourier
+{
+	font-family: 'Courier New';
+}
+
+.FontTimes
+{
+	font-family: 'Times New Roman';
+}
+
+/**
+ * Font sizes.
+ */
+
+.FontSmaller
+{
+	font-size: smaller;
+}
+
+.FontLarger
+{
+	font-size: larger;
+}
+
+.FontSmall
+{
+	font-size: 8pt;
+}
+
+.FontBig
+{
+	font-size: 14pt;
+}
+
+.FontDouble
+{
+	font-size: 200%;
+}
+
+/**
+ * Font colors.
+ */
+.FontColor1
+{
+	color: #ff9900;
+}
+
+.FontColor2
+{
+	color: #0066cc;
+}
+
+.FontColor3
+{
+	color: #ff0000;
+}
+
+.FontColor1BG
+{
+	background-color: #ff9900;
+}
+
+.FontColor2BG
+{
+	background-color: #0066cc;
+}
+
+.FontColor3BG
+{
+	background-color: #ff0000;
+}
+
+/**
+ * Indentation.
+ */
+
+.Indent1
+{
+	margin-left: 40px;
+}
+
+.Indent2
+{
+	margin-left: 80px;
+}
+
+.Indent3
+{
+	margin-left: 120px;
+}
+
+/**
+ * Alignment.
+ */
+
+.JustifyLeft
+{
+	text-align: left;
+}
+
+.JustifyRight
+{
+	text-align: right;
+}
+
+.JustifyCenter
+{
+	text-align: center;
+}
+
+.JustifyFull
+{
+	text-align: justify;
+}
+
+/**
+ * Other.
+ */
+
+code
+{
+	font-family: courier, monospace;
+	background-color: #eeeeee;
+	padding-left: 1px;
+	padding-right: 1px;
+	border: #c0c0c0 1px solid;
+}
+
+kbd
+{
+	padding: 0px 1px 0px 1px;
+	border-width: 1px 2px 2px 1px;
+	border-style: solid;
+}
+
+blockquote
+{
+	color: #808080;
+}

@@ -3,7 +3,7 @@ created: 20180919190131393
 creator: Charles Delbé
 filter: $:/plugins/.CD/KnowEdge/templates/types/publication $:/plugins/.CD/KnowEdge/templates/types/concept $:/plugins/.CD/KnowEdge/templates/types/bookmark $:/plugins/.CD/KnowEdge/templates/types/model $:/plugins/.CD/KnowEdge/templates/types/software $:/plugins/.CD/KnowEdge/templates/types/topic $:/plugins/amp/MagicTabs/templates/types/note $:/plugins/amp/MagicTabs/templates/types/task
 image: {{$:/core/images/new-button}}
-modified: 20181202191537008
+modified: 20181215183407807
 modifier: Charles Delbé
 order: 3
 tags: $:/tags/@CD $:/tags/PageControls
@@ -12,16 +12,14 @@ title: $:/plugins/.CD/KnowEdge/ui/buttons/NewFromTemplate
 tmp: '[!has[draft.of]search:title[/templates/types/]]'
 type: text/vnd.tiddlywiki
 
-<$set name="currentTime" value=<<now "0DD/0MM/YY 0hh:0mm - ">>>
-<$button popup='$:/state/createnewtiddler' class='tc-btn-invisible tc-btn-new-from-template' tooltip='Create object of type :'>{{$:/core/images/new-here-button}}</$button>
+<$button popup='$:/state/createnewtiddler' class='tc-btn-invisible tc-btn-new-from-template' tooltip='Create object from template'>{{$:/core/images/new-here-button}}</$button>
 <$reveal type='popup' state='$:/state/createnewtiddler'>
 <div class="tc-drop-down">
-	Create object of type:
+	Create object from template:
 	<$list filter={{$:/plugins/.CD/KnowEdge/ui/buttons/NewFromTemplate!!filter}} variable=TemplateName>
 		<$button class="tc-btn-invisible cd-btn-create-from-tmpl"><!--{{{   [<TemplateName>split:afterlast[/templates/types/]]  }}}-->
-<$tiddler tiddler=<<TemplateName>>><$view field="title"/></$tiddler><$action-sendmessage $message='tm-new-tiddler' $param=<<TemplateName>> title=<<currentTime>> tags=<<storyTiddler>>/>
+<$tiddler tiddler=<<TemplateName>>><$view field="title"/></$tiddler><$action-sendmessage $message='tm-new-tiddler' $param=<<TemplateName>>  tags=<<storyTiddler>>/>
 		</$button>
 	</$list>
 </div>
 </$reveal>
-</$set>

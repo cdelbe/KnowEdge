@@ -1,45 +1,27 @@
 caption: Statistics
 created: 20180814200056453
 creator: Charles Delbé
-modified: 20181212142415786
+modified: 20181217105532097
 modifier: Charles Delbé
 tags: $:/tags/@CD
 title: $:/plugins/.CD/KnowEdge/ui/tabs/statistics
 tmap.id: a491ef31-3353-40c7-8181-1e6050d475a5
 type: text/vnd.tiddlywiki
 
-\define nTiddlers()
-  <$count filter="[has[tmap.id]]"/>
-\end 
-\define nTags()
-  <$count filter="[tags[]]"/>
-\end
-\define nJournals() 
-  <$count filter="[tag[$:/type/journal]]"/>
-\end 
-\define nTopics() 
-  <$count filter="[tag[$:/type/topic]]"/>
-\end
-\define nConcepts() 
-  <$count filter="[tag[$:/type/concept]]"/>
-\end
-\define nPublications() 
-  <$count filter="[tag[$:/type/publication]]"/>
-\end
-
 <!-- Versions -->
 !! Versions
 <!-- |!Date de release |<<released>> |-->
-|!Version de TiddlyWiki | <<version>> |
-|!Version du plugin TiddlyMap | {{$:/plugins/felixhayashi/tiddlymap/misc/meta##originalVersion}} |
-|!Version de la base de connaissances | <<@get-cfg-value "ke-version">> |
+|!TiddlyWiki Version | <<version>> |
+|!TiddlyMap Plugin Version | {{$:/plugins/felixhayashi/tiddlymap/misc/meta##originalVersion}} |
+|!Knowledge Base Version | <<@get-cfg-value "ke-version">> |
 <!-- |!Compatible with TW5 |<<core-version>> |-->
+
+<<core-version>>
 
 <!-- Stats -->
 !! Statistiques
-|!Nombre de tiddlers | <<nTiddlers>> |
-|!Nombre de tags | <<nTags>> |
-|!Nombre d'entrées du journal | <<nJournals>> |
-|!Nombre de thèmes | <<nTopics>> |
-|!Nombre de concepts | <<nConcepts>> |
-|!Nombre de publications | <<nPublications>> |
+|!Number of tiddlers | <$count filter="[!is[system]sort[title]]"/> |
+|!Number of tags | <$count filter="[tags[]]"/> |
+|!Number of topics | <$count filter="[tag[$:/type/topic]]"/> |
+|!Number of concepts | <$count filter="[tag[$:/type/concept]]"/> |
+|!Number of publications | <$count filter="[tag[$:/type/publication]]"/> |

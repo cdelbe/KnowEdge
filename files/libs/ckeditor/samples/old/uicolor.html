@@ -1,0 +1,136 @@
+created: 20181108075032924
+creator: Charles Delbé
+modified: 20181108075032924
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\uicolor.html
+tmap.id: 3929061a-1985-45ba-9a7c-a60bd573d9cc
+type: text/html
+
+created: 20181108074509517
+creator: Charles Delbé
+modified: 20181108074509517
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\uicolor.html
+tmap.id: f7a56149-3d03-404a-ac67-eaee7d0ca647
+type: text/html
+
+created: 20181108074214559
+creator: Charles Delbé
+modified: 20181108074214559
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\uicolor.html
+tmap.id: 48ae7133-5d3c-47c0-b8b5-7a5c78ad11bd
+type: text/html
+
+created: 20181108073418116
+creator: Charles Delbé
+modified: 20181108073418116
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\uicolor.html
+tmap.id: 367f8b2f-7a63-45d1-ad84-e2eea2698eba
+type: text/html
+
+created: 20181108070528347
+creator: Charles Delbé
+modified: 20181108070528347
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\uicolor.html
+tmap.id: 9cd4b819-0c5c-44df-a158-c565fb1bea71
+type: text/html
+
+created: 20181108070319223
+creator: Charles Delbé
+modified: 20181108070319223
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\uicolor.html
+tmap.id: 5a6b03da-2f6a-400d-b4c7-738606d2cef1
+type: text/html
+
+created: 20181108063935052
+creator: Charles Delbé
+modified: 20181108063935052
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\uicolor.html
+tmap.id: 28cff477-9493-4920-a4d5-e6da3843b9a8
+type: text/html
+
+created: 20181108063817913
+creator: Charles Delbé
+modified: 20181108063817913
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\ckeditor\samples\old\uicolor.html
+tmap.id: b79e0f81-02a7-4741-94f1-2d5fece516cf
+type: text/html
+
+<!DOCTYPE html>
+<!--
+Copyright (c) 2003-2018, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
+-->
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>UI Color Picker &mdash; CKEditor Sample</title>
+	<script src="../../ckeditor.js"></script>
+	<link rel="stylesheet" href="sample.css">
+</head>
+<body>
+	<h1 class="samples">
+		<a href="index.html">CKEditor Samples</a> &raquo; UI Color
+	</h1>
+	<div class="warning deprecated">
+		This sample is not maintained anymore. Check out its <a href="https://sdk.ckeditor.com/samples/uicolor.html">brand new version in CKEditor SDK</a>.
+	</div>
+	<div class="description">
+		<p>
+			This sample shows how to automatically replace <code>&lt;textarea&gt;</code> elements
+			with a CKEditor instance with an option to change the color of its user interface.<br>
+			<strong>Note:</strong>The UI skin color feature depends on the CKEditor skin
+			compatibility. The Moono and Kama skins are examples of skins that work with it.
+		</p>
+	</div>
+	<form action="sample_posteddata.php" method="post">
+	<p>
+		This editor instance has a UI color value defined in configuration to change the skin color,
+		To specify the color of the user interface, set the <code>uiColor</code> property:
+	</p>
+	<pre class="samples">
+CKEDITOR.replace( '<em>textarea_id</em>', {
+	<strong>uiColor: '#14B8C4'</strong>
+});</pre>
+	<p>
+		Note that <code><em>textarea_id</em></code> in the code above is the <code>id</code> attribute of
+		the <code>&lt;textarea&gt;</code> element to be replaced.
+	</p>
+	<p>
+		<textarea cols="80" id="editor1" name="editor1" rows="10">&lt;p&gt;This is some &lt;strong&gt;sample text&lt;/strong&gt;. You are using &lt;a href="https://ckeditor.com/"&gt;CKEditor&lt;/a&gt;.&lt;/p&gt;</textarea>
+		<script>
+
+			// Replace the <textarea id="editor"> with an CKEditor
+			// instance, using default configurations.
+			CKEDITOR.replace( 'editor1', {
+				uiColor: '#14B8C4',
+				toolbar: [
+					[ 'Bold', 'Italic', '-', 'NumberedList', 'BulletedList', '-', 'Link', 'Unlink' ],
+					[ 'FontSize', 'TextColor', 'BGColor' ]
+				]
+			});
+
+		</script>
+	</p>
+	<p>
+		<input type="submit" value="Submit">
+	</p>
+	</form>
+	<div id="footer">
+		<hr>
+		<p>
+			CKEditor - The text editor for the Internet - <a class="samples" href="https://ckeditor.com/">https://ckeditor.com</a>
+		</p>
+		<p id="copy">
+			Copyright &copy; 2003-2018, <a class="samples" href="https://cksource.com/">CKSource</a> - Frederico
+			Knabben. All rights reserved.
+		</p>
+	</div>
+</body>
+</html>

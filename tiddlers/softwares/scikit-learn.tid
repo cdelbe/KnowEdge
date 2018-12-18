@@ -1,0 +1,16 @@
+color: #ff8040
+created: 20181217033024996
+creator: Charles Delbé
+description: Machine Learning in Python
+icon: $:/plugins/.CD/KnowEdge/images/software
+list: [[Machine Learning]] [[Data Visualization]]
+modified: 20181217033209441
+modifier: Charles Delbé
+mt-topics.list: [[Machine Learning]] [[Data Visualization]]
+tags: $:/tags/embed Python $:/type/software
+title: scikit-learn
+tmap.fa-icon: &#xf120;
+tmap.id: b5834c6d-a833-4f84-9348-ed824ca9de80
+type: text/vnd.tiddlywiki
+url: https://scikit-learn.org/stable/auto_examples/index.html
+

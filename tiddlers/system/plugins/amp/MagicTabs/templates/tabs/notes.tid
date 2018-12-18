@@ -1,6 +1,6 @@
 created: 20141229112157236
 creator: Charles Delbé
-modified: 20181112123636374
+modified: 20181215220220387
 modifier: Charles Delbé
 tags: $:/type/template $:/plugins/amp/MagicTabs/common
 title: $:/plugins/amp/MagicTabs/templates/tabs/notes
@@ -8,12 +8,12 @@ type: text/vnd.tiddlywiki
 
 <h1><$link to={{!!title}}><$view field="caption"><$view field="title"/></$view></$link></h1>
 
-<$reveal state="!!description" type="nomatch" text="">
-<h3><$transclude field="description"/></h3>
-</$reveal>
-
 <$list filter="[all[current]get[mt-source.tiddler]] [all[current]list[!!mt-topics.list]] [all[current]list[!!mt-source.parents.list]] -[title<storyTiddler>]" template="$:/core/ui/TagTemplate"/>
 <$list filter="[all[current]tags[]!is[system]]" template="$:/core/ui/TagTemplate"/>
+
+<$reveal state="!!description" type="nomatch" text="">
+<$transclude field="description"/>
+</$reveal>
 
 <blockquote>
 

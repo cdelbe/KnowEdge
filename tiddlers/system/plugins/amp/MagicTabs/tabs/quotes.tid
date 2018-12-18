@@ -3,8 +3,8 @@ color: #d3d3d3
 created: 20141123011444936
 creator: Alberto Molina Pérez
 description: Quotes
-icon: $:/plugins/.CD/KnowEdge/images/quote
-modified: 20181022072931015
+icon: $:/plugins/amp/MagicTabs/images/quote
+modified: 20181216084212864
 modifier: Charles Delbé
 mt-contents.type: $:/type/quote
 mt-list.filter: [all[tiddlers]mt-source.tiddler<currentTiddler>] [all[current]listed[mt-source.authors.list]] [all[current]listed[mt-topics.list]] +[tag[$:/type/quote]!has[draft.of]!is[system]nsort[mt-quote.page.alpha]]
@@ -13,7 +13,7 @@ mt-list.heading: Quotes
 mt-list.heading_alt: Related
 mt-list.template: $:/plugins/amp/MagicTabs/templates/tabs/quotes
 mt-list.template_alt: $:/plugins/amp/MagicTabs/templates/tabs/quotes
-tags: $:/type/tab $:/plugins/amp/MagicTabs/reading
+tags: $:/type/tab MagicTabs $:/plugins/amp/MagicTabs/reading
 title: $:/plugins/amp/MagicTabs/tabs/quotes
 type: text/vnd.tiddlywiki
 

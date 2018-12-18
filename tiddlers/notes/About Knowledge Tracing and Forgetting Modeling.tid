@@ -1,0 +1,25 @@
+about: 
+color: #FFA500
+created: 20180725153952278
+creator: Charles Delbé
+description: 
+icon: $:/plugins/.CD/KnowEdge/images/note
+list: Memory [[Knowledge Tracing]]
+modified: 20181215124426787
+modifier: Charles Delbé
+mt-source.parents.list: 
+mt-source.root: 
+mt-source.tiddler: 
+mt-topics.list: Memory [[Knowledge Tracing]]
+tags: $:/type/note
+title: About Knowledge Tracing and Forgetting Modeling
+tmap.fa-icon: &#xf044;
+tmap.id: bea3cd2d-f199-4c48-9978-bdb7ab33e420
+type: text/vnd.tiddlywiki
+
+Classiquement, ''les modèles probabilistes statiques'' ([[BKT|?]], [[IRT|?]]) ne simulent pas l'''oubli'', c'est-à-dire que l'état d'une connaissance acquise ne change jamais de "vrai" à "faux". Or la littérature en psychologie expérimentale ([[Cepeda et al. (2006)]]) ainsi qu'en [[modélisation cognitive|Cognitive Modeling]] ([[Qiu et al. (2011)]]) rapporte que des ''mesures strictement locales'' de la réussite des apprenants à des questions ''ne sont pas suffisantes''.
+
+
+Paradoxalement, les recherches dans le domaine des [[STI|?]] utilisent majoritairement la ''mémorisation à court-terme'' comme indicateur de l'apprentissage par la [[maîtrise|Mastery Learning]]. Cependant, pour une matière fortement organisée en concepts pré- et post-requis comme les ''[[mathématiques|Mathematics]]'', les élèves doivent être capables de se souvenir des connaissances acquises pendant ''une longue période''.
+
+

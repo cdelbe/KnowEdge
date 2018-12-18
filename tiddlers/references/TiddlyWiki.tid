@@ -1,0 +1,97 @@
+color: #3f51b5
+created: 20180916134507653
+creator: Charles Delbé
+list: 
+modified: 20181216013652310
+modifier: Charles Delbé
+tags: $:/tags/toc @:/tags/TOC $:/type/reference
+title: TiddlyWiki
+tmap.id: b422e424-25d3-4ad3-89d1-abb225ce68c6
+type: text/vnd.tiddlywiki
+url: https://github.com/Jermolene/TiddlyWiki5
+
+<$scrollable class='cdscroll'>
+
+!! Internal TW5 references
+<div class="tc-table-of-contents">
+<<toc-selective-expandable 'TiddlyWiki'>>
+</div>
+
+!! External TW5 references
+:[[Introduction|https://tiddlywiki.com/prerelease/editions/introduction/]] to Tiddlywiki
+:[[Slides|https://tiddlywiki.com/talkytalky/]]
+:Jermolene/[[TiddlyWiki5|https://github.com/Jermolene/TiddlyWiki]]
+:[[TiddlyWiki toolmap: Over 600 entries|https://dynalist.io/d/zUP-nIWu2FFoXH-oM7L7d9DM]]  
+:[[Images et icones|http://tobibeer.github.io/tw/icons/#Start]]
+  
+!! Plugins libraries and solutions
+
+!!!Solutions
+:''[[TiddlyMap|http://tiddlymap.org/]]'' & [[Railroad Plugin|https://tiddlywiki.com/static/Railroad%2520Plugin.html]]
+:[[Timeline]] (voir aussi http://tw5.xyz/TiddlyWikiTimelineMap.html et https://sylvain.naud.in/public/TiddlyWiki/TW_DatePickerTimeline.html)
+:[[TilldyMap and Timeline (french)|https://sylvain.naud.in/public/TiddlyWiki/TiddlyWikiTimelineMap.html]]
+:[[MagicTabs]] (Implémentations : http://wikiphilo.tiddlyspot.com/)
+:[[Bottom Tabs|http://bottomtabs.tiddlyspot.com/]]
+:http://tesis.tiddlyspot.com/ (another tabs)
+:[[xlists|http://tobibeer.github.io/tw5-xlist/]]
+:[[Footnote|http://braintest.tiddlyspot.com/#PopupFootnotes]] (see also http://slidesnstories.tiddlyspot.com/#About%20Footnotes)
+:[[Calendar|http://bjtools.tiddlyspot.com/#ExtendableCalendar]]
+:[[Text slicer|https://tiddlywiki.com/editions/text-slicer/]] 
+:[[TBeer: Dependent selects via system tiddler fields|https://tobibeer.github.io/tw/filters/#dependent%20selects%20via%20system%20tiddler%20fields]]
+:[[SearchableDictionary1|http://inmysocks.tiddlyspot.com/#%24%3A%2Fplugins%2Finmysocks%2FSearchableDictionary%2FDictionary]]
+:[[SearchableDictionary2|https://ooktech.com/TiddlyWiki/SearchableDictionary/]]
+:[[Display acronyms and definitions from dictionaries|http://tobibeer.github.io/tw5-plugins/#dict]]
+:[[tagfilter|http://tagfilter.tiddlyspot.com/#Start]]
+:[[taggly5|http://taggly5.tiddlyspot.com/]]
+:[[SectionsPlugin|http://sections.tiddlyspot.com/#SectionsPlugin]] & [[Sections and namespaces|http://namespace.tiddlyspot.com/#GettingStarted]]
+:[[ExtendEdit-Completion|http://snowgoon88.github.io/TW5-extendedit/]]
+:[[See also|http://seealso.tiddlyspot.com/]]
+:[[Comments|https://manuals.annafreud.org/ambit-torbay/index.html]]
+:[[Roboto Font Plugin|https://github.com/TheDiveO/TW5Roboto/releases]]
+:[[Material|http://j.d.material.tiddlyspot.com]]
+:[[tw5-material|http://demo.santosa.family/#tw5-material]]
+
+:[[Timelog of projects|https://techlifeweb.com/timelog.html]]
+  
+:[[A button to pin tiddlers to the home page.|https://welford.github.io/]]
+
+;[[Text to Speech|https://github.com/OokTech/TW5-TiddlyTalking]]
+;[[Tiddler encryption|https://danielorodriguez.com/TW5-EncryptTiddlerPlugin/]]
+;A [[macro and template|http://tobibeer.github.io/tw5-plugins/#external]] to embed tiddlers from external wikis
+;[[Multicolumn list|https://ooktech.xyz:8443/Public#%24%3A%2Fmacros%2Finmysocks%2Fmulticolumnlist]]
+;[[Interactive progress bar|http://cpashow.tiddlyspot.com/#Progress_Bar]]
+  
+;[[KeeBoord|https://burningtreec.github.io/KeeBoord/]]
+:The KeeBoord plugin enables users to assign custom TiddlyWiki actions to Keyboard shortcuts.
+:The KeeBoord plugin adds functionality for Keyboard navigation
+:The KeeBoord plugin keeps track of your navigated tiddlers
+:The KeeBoord plugin adds a Top Search Panel 
+  
+;Kanban boards  
+:[[Dropboard|https://reidgould.github.io/tiddlywiki-dropboard/]]. A TiddlyWiki plugin for kanban like organization in the style of Trello using boards, lists, and cards.
+:[[Very simple kanban lists|https://telumire.github.io/Kanban]]
+  
+;Multimedia
+:[[TwTube Plugin|https://thediveo.github.io/TwTube/output/twtube.html]] : lecteur video + skins. See also : ([[Using npm|https://www.npmjs.com/package/tw5-twtube]])
+:[[Macros|https://github.com/welford/twyt]] for embedding and linking to YouTube videos in Tiddlywiki.
+  
+  
+!!!TODO lists
+;Checklists
+:[[Checklist Widget|http://checklist.tiddlyspot.com/]]
+:This [[plugin|https://grosinger.net/tw5-checklist/#%24%3A%2Fplugins%2Ftgrosinger%2Ftw5-checklist]] provides a simple checklist which does not create a new tiddler for each task 
+  
+;https://tid.li/tw5/plugins.html
+  
+;[[ToDoNow|https://tid.li/tw5/tdn.html]]
+  
+;~ToDo liste simple avec timeline
+:https://sylvain.naud.in/public/TiddlyWiki/TiddlyWiki-ToDo-Timeline.html
+:avec priorités: http://tw5.xyz/Gestion%20des%20t%C3%A2ches/TiddlyWiki-ToDo-Timeline_n0d1-v1.3.html
+  
+;[[Simple task list|https://ooktech.com/TiddlyWiki/SimpleTaskList/]]
+;[[TaskManagementExample|https://tiddlywiki.com/#TaskManagementExample]]
+;[[To Do List Management|http://cpashow.tiddlyspot.com/#To%20Do%20List%20Management%20Example]]
+;[[With Category Lists|https://ooktech.com/jed/ExampleWikis/CategoryList/]]
+  
+</$scrollable>

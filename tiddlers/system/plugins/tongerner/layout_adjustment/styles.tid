@@ -2,12 +2,12 @@ active-state-color: #0044BB
 created: 20161212103011213
 creator: TonGerner
 list-after: $:/themes/tiddlywiki/vanilla/base
-modified: 20181110070557662
+modified: 20181217011032416
 modifier: Charles Delbé
 sidebar-top: 50px
 story-river-top: 0px
 tags: $:/tags/Stylesheet
-tiddler-padding-top: 30px
+tiddler-padding-top: 10px
 title: $:/plugins/tongerner/layout_adjustment/styles
 top-sticky-editor-toolbar: 35px
 top-sticky-title: 20px

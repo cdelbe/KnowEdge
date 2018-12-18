@@ -1,0 +1,15 @@
+color: #ff8040
+created: 20181215071018879
+creator: Charles Delbé
+description: IPython provides a rich toolkit to help you make the most of using Python interactively.
+icon: $:/plugins/.CD/KnowEdge/images/software
+modified: 20181215071110718
+modifier: Charles Delbé
+tags: Python $:/tags/embed $:/type/software
+title: IPython
+tmap.fa-icon: &#xf120;
+tmap.id: 4a93fa04-cda4-4c90-8aa6-2c7f9ee5bf05
+type: text/vnd.tiddlywiki
+url: https://ipython.readthedocs.io/en/stable/
+
+ 

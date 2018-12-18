@@ -2,7 +2,7 @@ caption: Menus
 created: 20181028203354000
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/KnowEdge
-modified: 20181109153059675
+modified: 20181215191017647
 modifier: Charles Delbé
 tags: $:/plugins/.CD/KnowEdge/references/main $:/tags/@CD
 title: $:/plugins/.CD/KnowEdge/references/menus
@@ -17,8 +17,6 @@ type: text/vnd.tiddlywiki
 :$:/plugins/.CD/KnowEdge/ui/menu/concepts
 :$:/plugins/.CD/KnowEdge/ui/menu/concepts/dropdown
 :$:/plugins/.CD/KnowEdge/ui/menu/glossary
-:$:/plugins/.CD/KnowEdge/ui/menu/journal
-:$:/plugins/.CD/KnowEdge/ui/menu/journal/dropdown
 :$:/plugins/.CD/KnowEdge/ui/menu/models
 :$:/plugins/.CD/KnowEdge/ui/menu/models/dropdown
 :$:/plugins/.CD/KnowEdge/ui/menu/notes
@@ -36,5 +34,7 @@ type: text/vnd.tiddlywiki
 :$:/plugins/.CD/KnowEdge/ui/SideBar/TableOfContents
 :$:/plugins/eucaly/flexwidth/TopBarMenu
 :$:/plugins/eucaly/quickjump/readme
-
+---
+://$:/plugins/.CD/KnowEdge/ui/menu/journal // 
+://$:/plugins/.CD/KnowEdge/ui/menu/journal/dropdown //
 

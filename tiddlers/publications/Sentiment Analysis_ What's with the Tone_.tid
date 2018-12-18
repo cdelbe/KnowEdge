@@ -1,0 +1,31 @@
+abstract: 
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20181217022606783
+creator: Charles Delbé
+description: 
+icon: $:/plugins/.CD/KnowEdge/images/blogpost
+list: [[Machine Learning]] [[Sentiment Analysis]] [[Text Mining]]
+modified: 20181217022900184
+modifier: Charles Delbé
+mt-authors.title: 
+mt-publication.citation: {{!!mt-authors.title}} ({{!!mt-publication.date}}). {{!!mt-publication.title}}.
+mt-publication.date: 2018
+mt-publication.subtitle: 
+mt-publication.title: Sentiment Analysis: What's with the Tone?
+mt-source.authors.list: 
+mt-topics.list: [[Machine Learning]] [[Sentiment Analysis]] [[Text Mining]]
+tags: @:/type/blogpost $:/type/publication
+title: Sentiment Analysis: What's with the Tone?
+tmap.fa-icon: &x#f0f6;
+tmap.id: ea91ed66-7b7a-467b-b223-158f69b5b396
+type: text/vnd.tiddlywiki
+url: https://www.infoq.com/articles/sentiment-analysis-whats-with-the-tone?utm_source=articles_about_ai-ml-data-eng&utm_medium=link&utm_campaign=ai-ml-data-eng
+
+!Key Takeaways
+*A recent trend in the analysis of texts goes beyond topic detection and tries to identify the emotion behind a text. This is called sentiment analysis, or also opinion mining and emotion AI. 
+*Sentiment analysis is widely applied in voice of the customer (VOC) applications as in analyzing responses in a questionnaire or free comments in a review.
+*Extracting sentiment from a text can be done using techniques like natural language processing, computational linguistics, and text mining.
+*Text mining can be performed using Machine Learning (ML) or a lexicon based approach.
+*Lexicon-based approach relies on the words in the text and the sentiment they carry. This technique uses NLP concepts and a dictionary to extract the tone of the conversation.
+*ML-based approach needs a sentiment-labeled collection of documents; this is a collection in which each document has been manually evaluated and labeled in terms of sentiment. After some preprocessing, an ML-supervised algorithm is trained to recognize the sentiment in each text. 

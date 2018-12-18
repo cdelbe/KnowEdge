@@ -3,8 +3,8 @@ created: 20181023232517699
 creator: Charles Delbé
 list: 
 list-after: $:/plugins/.CD/KnowEdge/ui/menu/journal
-menu-pos: 5
-modified: 20181103181314456
+menu-pos: 10
+modified: 20181215191354521
 modifier: Charles Delbé
 tags: $:/tags/TopMenu $:/tags/@CD
 target: $:/plugins/.CD/KnowEdge/ui/Home

@@ -1,0 +1,20 @@
+color: #ff8040
+created: 20181214234910768
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/software
+modified: 20181214235357250
+modifier: Charles Delbé
+tags: Python $:/type/software
+title: Anaconda
+tmap.fa-icon: &#xf120;
+tmap.id: 58056b32-a996-4770-90e0-c41f5627aa0f
+type: text/vnd.tiddlywiki
+url: https://www.anaconda.com/distribution/
+
+;Distribution Anaconda
+The open source [[Anaconda Distribution|https://www.anaconda.com/distribution/]] is the fastest and easiest way to do ''Python and R data science and machine learning'' on Linux, Windows, and Mac OS X. 
+
+*[[Download|https://www.anaconda.com/download/]]
+*List of packages included in the [[Python 3.7 version|https://docs.anaconda.com/anaconda/packages/pkg-docs/]]
+
+<<btn-img "anaconda-navigator-home.png">>

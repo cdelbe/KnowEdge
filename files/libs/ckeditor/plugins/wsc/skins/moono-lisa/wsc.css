@@ -1,0 +1,107 @@
+created: 20181108075032658
+creator: Charles Delbé
+modified: 20181108075032658
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\wsc\skins\moono-lisa\wsc.css
+tmap.id: 4a902268-c277-4e7e-a136-fb5b447ae08f
+type: text/vnd.tiddlywiki
+
+created: 20181108074509188
+creator: Charles Delbé
+modified: 20181108074509188
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\wsc\skins\moono-lisa\wsc.css
+tmap.id: b2f5494d-1fa1-40c0-94ca-146cb55f695e
+type: text/vnd.tiddlywiki
+
+created: 20181108074214269
+creator: Charles Delbé
+modified: 20181108074214269
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\wsc\skins\moono-lisa\wsc.css
+tmap.id: 5bc88dc7-6e2b-4ddc-a7d3-1ca91c1bdb9a
+type: text/vnd.tiddlywiki
+
+created: 20181108073417831
+creator: Charles Delbé
+modified: 20181108073417831
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\wsc\skins\moono-lisa\wsc.css
+tmap.id: 337cd066-64cc-4294-acdc-11b259644d79
+type: text/vnd.tiddlywiki
+
+created: 20181108070528063
+creator: Charles Delbé
+modified: 20181108070528063
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\wsc\skins\moono-lisa\wsc.css
+tmap.id: 97e7860f-1983-462d-a7bd-cf65880b5f76
+type: text/vnd.tiddlywiki
+
+created: 20181108070319075
+creator: Charles Delbé
+modified: 20181108070319075
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\wsc\skins\moono-lisa\wsc.css
+tmap.id: 5f6ec3b9-397a-421a-af14-85cd21f5c2a8
+type: text/vnd.tiddlywiki
+
+created: 20181108063934849
+creator: Charles Delbé
+modified: 20181108063934849
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\wsc\skins\moono-lisa\wsc.css
+tmap.id: 0d7c545c-99a9-430d-82fa-3208c34dbd71
+type: text/vnd.tiddlywiki
+
+created: 20181108063817600
+creator: Charles Delbé
+modified: 20181108063817600
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\ckeditor\plugins\wsc\skins\moono-lisa\wsc.css
+tmap.id: cc8b1057-b8cb-4a82-ac02-d05eec174d51
+type: text/vnd.tiddlywiki
+
+.cke_dialog_body #overlayBlock,
+.cke_dialog_body #no_check_over
+{
+    top: 39px !important;
+}
+
+div[name=SpellTab] .wsc-spelltab-bottom .cke_dialog_ui_vbox td > .cke_dialog_ui_button:first-child
+{
+    margin-top: 4px;
+}
+
+div[name=SpellTab] .wsc-spelltab-bottom .cke_dialog_ui_hbox_first .cke_dialog_ui_select > label
+{
+    margin-left: 0;
+}
+
+div[name=SpellTab] .wsc-spelltab-bottom .cke_dialog_ui_hbox_first .cke_dialog_ui_select div.cke_dialog_ui_input_select
+{
+    width: 140px !important;
+}
+
+div[name=SpellTab] .wsc-spelltab-bottom .cke_dialog_ui_hbox_first .cke_dialog_ui_select select.cke_dialog_ui_input_select,
+div[name=Thesaurus] div.cke_dialog_ui_input_select select.cke_dialog_ui_input_select
+{
+    margin-top: 1px;
+}
+
+div[name=SpellTab] .wsc-spelltab-bottom .cke_dialog_ui_hbox_first .cke_dialog_ui_select select.cke_dialog_ui_input_select:focus,
+div[name=Thesaurus] div.cke_dialog_ui_input_select select.cke_dialog_ui_input_select:focus
+{
+    margin-top: 0;
+}
+
+div[name=GrammTab] .cke_dialog_ui_vbox tbody > tr:first-child .cke_dialog_ui_button,
+div[name=Thesaurus] .cke_dialog_ui_vbox tbody > tr:first-child .cke_dialog_ui_button
+{
+    margin-top: 4px !important;
+}
+
+div[name=Thesaurus] div.cke_dialog_ui_input_select
+{
+    width: 180px !important;
+}

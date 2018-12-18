@@ -5,7 +5,7 @@ creator: Charles Delbé
 description: Bienvenue sur la base de connaissances sur les EdTechs et la cognition de l'[[Apprentissage|Learning]] 🧠 !
 icon: $:/plugins/.CD/KnowEdge/images/home
 list: .TODO Event $:/type/bookmark $:/plugins/.CD/KnowEdge/ui/SideBar/objectManager $:/ControlPanel Journal Reference
-modified: 20181212153732801
+modified: 20181216234641440
 modifier: Charles Delbé
 num_recent: 50
 state: created
@@ -50,4 +50,4 @@ url:
 -->
  
 <!-- Tabs -->
-<<tabs "$:/plugins/.CD/KnowEdge/ui/tabs/statistics $:/plugins/.CD/KnowEdge/ui/tabs/ChangeLog $:/plugins/.CD/KnowEdge/TaskManager TiddlyWiki $:/plugins/.CD/KnowEdge/ui/tabs/LastJournalEntries $:/config/.CD/system $:/plugins/.CD/KnowEdge/ui/about" "$:/plugins/.CD/KnowEdge/ui/tabs/statistics">>
+<<tabs "$:/plugins/.CD/KnowEdge/ui/tabs/statistics $:/plugins/.CD/KnowEdge/ui/tabs/ChangeLog $:/plugins/.CD/KnowEdge/TaskManager TiddlyWiki $:/plugins/.CD/KnowEdge/ui/tabs/last-notes $:/config/.CD/system $:/plugins/.CD/KnowEdge/ui/about" "$:/plugins/.CD/KnowEdge/ui/tabs/statistics">>

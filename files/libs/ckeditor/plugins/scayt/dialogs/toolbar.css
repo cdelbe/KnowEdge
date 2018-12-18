@@ -1,0 +1,135 @@
+created: 20181108075031737
+creator: Charles Delbé
+modified: 20181108075031737
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\scayt\dialogs\toolbar.css
+tmap.id: e209d130-5760-4722-87fc-b7fd6a098f1c
+type: text/vnd.tiddlywiki
+
+created: 20181108074508312
+creator: Charles Delbé
+modified: 20181108074508312
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\scayt\dialogs\toolbar.css
+tmap.id: b4af2db3-9053-4d6c-a540-af0b7a8dd424
+type: text/vnd.tiddlywiki
+
+created: 20181108074213270
+creator: Charles Delbé
+modified: 20181108074213270
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\scayt\dialogs\toolbar.css
+tmap.id: ace4b6d6-43f1-4650-99aa-408c3e99dfd3
+type: text/vnd.tiddlywiki
+
+created: 20181108073417051
+creator: Charles Delbé
+modified: 20181108073417051
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\scayt\dialogs\toolbar.css
+tmap.id: ec80761c-8e32-479b-9993-06ee5087bb67
+type: text/vnd.tiddlywiki
+
+created: 20181108070527543
+creator: Charles Delbé
+modified: 20181108070527543
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\scayt\dialogs\toolbar.css
+tmap.id: 7b552dbc-35d0-4748-b173-f6d448e70d74
+type: text/vnd.tiddlywiki
+
+created: 20181108070318352
+creator: Charles Delbé
+modified: 20181108070318352
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\scayt\dialogs\toolbar.css
+tmap.id: ddc2d326-2cef-488c-ae50-51e45a03fcf3
+type: text/vnd.tiddlywiki
+
+created: 20181108063933417
+creator: Charles Delbé
+modified: 20181108063933417
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\plugins\scayt\dialogs\toolbar.css
+tmap.id: 6a15e0d2-b150-4ffa-b55c-c9d33ce5605d
+type: text/vnd.tiddlywiki
+
+created: 20181108063816699
+creator: Charles Delbé
+modified: 20181108063816699
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\ckeditor\plugins\scayt\dialogs\toolbar.css
+tmap.id: 9232f0ac-5076-4942-81eb-0f8557414d64
+type: text/vnd.tiddlywiki
+
+a
+{
+	text-decoration:none;
+	padding: 2px 4px 4px 6px;
+	display : block;
+	border-width: 1px;
+	border-style: solid;
+	margin : 0px;
+}
+
+a.cke_scayt_toogle:hover,
+a.cke_scayt_toogle:focus,
+a.cke_scayt_toogle:active
+{
+	border-color: #316ac5;
+	background-color: #dff1ff;
+	color : #000;
+	cursor: pointer;
+	margin : 0px;
+}
+a.cke_scayt_toogle {
+	color : #316ac5;
+	border-color: #fff;
+}
+.scayt_enabled a.cke_scayt_item {
+	color : #316ac5;
+	border-color: #fff;
+	margin : 0px;
+}
+.scayt_disabled a.cke_scayt_item {
+	color : gray;
+	border-color : #fff;
+}
+.scayt_enabled a.cke_scayt_item:hover,
+.scayt_enabled a.cke_scayt_item:focus,
+.scayt_enabled a.cke_scayt_item:active
+{
+	border-color: #316ac5;
+	background-color: #dff1ff;
+	color : #000;
+	cursor: pointer;
+}
+.scayt_disabled a.cke_scayt_item:hover,
+.scayt_disabled a.cke_scayt_item:focus,
+.scayt_disabled a.cke_scayt_item:active
+{
+	border-color: gray;
+	background-color: #dff1ff;
+	color : gray;
+	cursor: no-drop;
+}
+.cke_scayt_set_on, .cke_scayt_set_off
+{
+	display: none;
+}
+.scayt_enabled .cke_scayt_set_on
+{
+	display: none;
+}
+.scayt_disabled .cke_scayt_set_on
+{
+	display: inline;
+}
+.scayt_disabled .cke_scayt_set_off
+{
+	display: none;
+}
+.scayt_enabled  .cke_scayt_set_off
+{
+	display: inline;
+}

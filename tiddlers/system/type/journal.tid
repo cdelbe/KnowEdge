@@ -3,13 +3,13 @@ color: #ffff00
 created: 20180829140609560
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/journal
-modified: 20181030052709045
+modified: 20181217005309173
 modifier: Charles Delbé
 mt-dashboard.heading: Entrées du Journal
 mt-dashboard.icon: $:/plugins/.CD/KnowEdge/images/journal
 mt-source.type: $:/type/root
 mt-template.fields: $:/plugins/amp/MagicTabs/templates/types/journal
-tags: $:/tags/MagicTabs/dashboard
+tags: 
 title: $:/type/journal
 tmap.fa-icon: &#xf133;
 type: text/vnd.tiddlywiki

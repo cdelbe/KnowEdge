@@ -1,0 +1,445 @@
+created: 20181108075032795
+creator: Charles Delbé
+modified: 20181108075032795
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\htmlwriter\assets\outputforflash\outputforflash.fla
+tmap.id: e62f86e8-0cc3-4750-bfaa-12c20483b9f0
+type: .fla
+
+created: 20181108074509385
+creator: Charles Delbé
+modified: 20181108074509385
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\htmlwriter\assets\outputforflash\outputforflash.fla
+tmap.id: 2d5f752c-5ebc-44ab-b513-d6c92e762769
+type: .fla
+
+created: 20181108074214293
+creator: Charles Delbé
+modified: 20181108074214293
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\htmlwriter\assets\outputforflash\outputforflash.fla
+tmap.id: 69dedb6e-0f0d-4010-8ec0-59ff8c0a3427
+type: .fla
+
+created: 20181108073417958
+creator: Charles Delbé
+modified: 20181108073417958
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\htmlwriter\assets\outputforflash\outputforflash.fla
+tmap.id: 8c0f7fd4-d8c9-49dd-844e-c9e20a571bb7
+type: .fla
+
+created: 20181108070528225
+creator: Charles Delbé
+modified: 20181108070528225
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\htmlwriter\assets\outputforflash\outputforflash.fla
+tmap.id: dba00329-2588-445a-b830-798453f412ab
+type: .fla
+
+created: 20181108070318928
+creator: Charles Delbé
+modified: 20181108070318928
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\htmlwriter\assets\outputforflash\outputforflash.fla
+tmap.id: f7c326b9-2a37-4c3e-abb8-2ce2998dc60d
+type: .fla
+
+created: 20181108063934996
+creator: Charles Delbé
+modified: 20181108063934996
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\libs\ckeditor\samples\old\htmlwriter\assets\outputforflash\outputforflash.fla
+tmap.id: a9a23913-3e78-47d3-a659-bfd76d225c53
+type: .fla
+
+created: 20181108063817671
+creator: Charles Delbé
+modified: 20181108063817671
+modifier: Charles Delbé
+title: c:\Users\Charles\dev\projects\tiddlywiki\wiki\wiki\tiddlers\ckeditor\samples\old\htmlwriter\assets\outputforflash\outputforflash.fla
+tmap.id: 111e47a1-6365-4756-b24c-99a5ffa24efd
+type: .fla
+
+��ࡱ�>��	����q��������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������Root Entry��������p�|Y�r��RASH�>�ޱ����3q�@Contents��������LyFP 1 1212997365����A�S 1 1216047046������������,�(Root Entry���������5��H���ZE<�k�>�ޱ��-3q� �Contents������������r9fP 1 1212997365��������!�S 1 1216047046����,�(����������������	
+
+������������������������������������������������������������������������������������������������������������-./0123456789:;<=>?@����BCDEFGHIJK����MNOPQRSTUVWXYZ[\]^_`abcdefghijklmno��������������������������������������������������������������������M 1 1287673773������������O��������������������������������������=��x�]	tE�������K������ ʀ�
+. �`PG��(�#���;&��gQt�2�-�*a=,�N��<8�Ν����Qi�%�%A�$]��鮪�����ֽ�����'O�<	����ס�Ԙq�RZN*���c&=�S��{~�@Lݦ�I1#Ǥv�͂�ﬕ�o�I���ɵ�
+�ꭅrտ���yyy퐆��?�������g2����yB�8!�2�K��ǥ7��X��X��Q��t�\�P������j�bt�{���o��o��\�u_�$�)�a�N�``18��p�tc7�4{�ɚ'�b�E�$u5.m��7��n�)sN���S2�`���_,#�ɍ{N�`q p�8�>�
+>�	>����D鲩 �����t���k���0<uh�+�w��$埖���=-���	������!9�&p�P��:pb� ����8���鼩@:}u�fH��CPicPage��	CPicLayer��	CPicFrame��CPicText��
+PdC*O[�����Arial�(���FCKTextArea�����������?�����8>�����������Layer 1����O�O��������?������m����import flash.external.ExternalInterface;
+
+FCKTextArea.htmlText = "";
+
+function setData(htData)
+{
+	FCKTextArea.htmlText = htData;
+}
+
+ExternalInterface.addCallback("setData", this, setData);
+��������Actions�����3��������import flash.ext�{���@|�>���x,�δ2�h�<�<���<|F:tF��;-���Ĥ�>{�Xn�u�O�ǉ':����D�����呤7�����ګ~�m�9v�����MX�g���BYp��?~N�+<'O���ȯ������ɉwڜ�sp�-����������W��n�p:�'��w�'�8�����pj��R���W�b��cRo]�X^+� �����,<y^R���;'��'���������û�mN�Fٜ8~��;tZ�=+���d�ęfg�h���(�7�l�lUU���N��@���}%8\�8|���g
+N|���S��i�+��e>0������	;YVX�W�.��/���a�H�LN���C�u�u�~R�z\�g��%���D���@7����<��1��'�`��v�y�QR{��^�EG0��s/�'�ɦ�M���͔�1%��,����&����慠��ڨ~�����ėp�<�88TN�
+ܽn{���l����oK�'����.09<�f�̀.f�	cD�W��-G��R@{��Di�>?��Ӌ���W�|�eʫ����!��������g�3
+�{��dx�%\��\���A�+����/�yƒ/#'¾��"����8�����b���*��k��I u���r"핹��B���O]�9��=#NT{�Ň�_]��tK��9��D�y�rmn|����$�WVIF���|�ՇC����>�+�k�>�������qc`G/�m� 1g�j�p��az67�[�͕�kr���V����W?	0�'��J.�pl{e��E+�>�D������9_l��]���������y8�q���i�0����^���ϭ�Y�(-��7�����$�W�2�X���k��B�6}8�����_��Ɯ��1gr�pĜɉ�9o9sQ�ӴW8F$�ñ��8}���;/��ǉyBN���i�yvU���F��@J�9�]�Ù��?����[~mƜ���r"��0��:�3��X�X�}�Y��qĜ>����-n���ɉ�b6����oH������J >�w_+���
+}8�DƜ_�~f�?�p���H��>��v|Eu��{OZugs��M��mG��O(��br��|���`�s�}/g��1͛�mӶ]q\���� 3su�^��l��4:Z��ܼg�_רQc�]��o�9S�/x����]��d���u:vd�s�
+�uZ4l�p͔��x�k��蛲��$�~mr�Ɯ�O|���ps6��h̙sd�����Y�DƜ���M�|�v̹��:z=l#�+��c>ϒf��l�ƇU%;b0�g\�T(G�](X�Q�~}�3Z�jm����"qH|.��۴/=��h��Į^��G>��
+����̨�=z��ߺ=?}Ĳw���L#�L������9gt0��gp���~�Q�q3�v�ɉ��i��o���h�fr�4[uP�?=Ѹ�[_ù��=8��@�|E3� �x}M���ֲ�b�uM��|�� ���>����|qI\��X���<�o��ߊ�7��]�=Zj��pނ�����YӇSj݀=G��p��A�c݀��y1A��I;��W�����;
+��D�^uX�?�ޭ��>�{�V�.][<�>�Ų�`1�?�����ò�۰S�w�y8�9s�]�k?\1=���^q�D]K�)b�>�g�`�p������#`�X4}8]3�S�|�W���C?'J��O�?g��LC�F=�8t�P�`�`:�Edd$ǘ��o�6=,FD��H��q�^s�[ޘ/v�T`���9
+^|v�����@7[7@�<t�1{�Ӟ#+� ^�4&�X��^�~��0��D�Di��}y
+�}���P��ޤ�
+�|�2nXt�<έ�k�g�k�v�y���o7�1�N�ݧ�~w�k���X_�K��̚���f)����{k��zd��s�m��~�޴�
+�MΧ��d ͵T溁R��a�9��93�.5�	�#mĜK�pȉL=7�pN�&���ӭ���P�MNT]J=�2nX4Ǖ�u��ݭ�y��X��Xp;�W%ٖb��yz��5�Q�J,�5.1Q��f�PϓZ�:V&�7Ø���y6�?�������Y�'���y��7�:7���Tڇ�-���c0�v�N�Ɵ�F�I��ŔP����N�P�Vѣ�&C�܊`�����N�5~g~sŁ��1yQ�]��]��_r��� ��V��xԶ����9ڟ��1�Mc$q]Ke��=��}~�pZ�:�@�y
+b2Lf�9�h�1v�>����>E{��}ʉ��=�QϾ^V����8.�r�o^3��z?\���3�o�ߘߛ��4��sS���QL?ZG�#�O��k�&1ˬ�Ӷy��f���g�p#�+�����g�k�T'�_�1�
+���N�y�����t��bZ�i��X���g��FK7_�D`q�4�pW�)oJ�&M"�A;:�6�+��M,�����{��ob(\,_�������^��b��:��)��斊9�<�?"Ʒ1�r�9����G3-��a��9?o�1C6
+�+�����As,N�n&'���A���:q׹�5ص+ŋ�k���P�H�0�y�<&XWqQ,�@y��S�s�N��X4��^���]?�Z[���a�w1���\_�����9s�g�mǐi;wY�k�0��|8׬϶ڞw���6'�;S�N
+�;�;��գZ�y4y��N:<��E�;�Es,���o�\�1q./R�+������%�b��V�"�}7n�k|8�~8�W����<	��5�Ⲧ/���񐥗ӏ�
+Ĝ'l�ǢM{%�䢬=y���ɉR�;3뽺"�� ���K8���.k��E)����^K��k3��y8�9��
+���}��Αu�9ӇCۙ鶯�uE%B��_}�'.;�ƌ�n���;�����p�:f��
+&'7,�l8x�WRG+W�ᥪt����3���m�<"s6}8�Drc�9�n1g�#K6����J�\�U����{�ѯ-m?�/2�m{�'��C��~fR��p����p�.�����"�p��vY�J�.ea�����̪����Q:[s�y8ܗ)���p;ƌ:G��D�%���8�����X�ĵ'K��KL��+��Qd����<��漈�bt��LĖ�5u�MYX�:��3�bQq�z����t��	6���NK0����T5�輾�~{�<�9g~�)k�@0{Ō9k��sdc���8���X:�Xt�WLN�z+���]��C$!�i�Q��8}1�@�Ǚ�b��(���"�T�Il�s���5�z߉!�@��1�]���a�� �-b�m�k��e[�����5ۨ�yZ����U�?��p^bY�����Ck�@���y8��L�eq�W������+�K��o����F��P�w!���Qm��j�ǋڟ��|�o\^6��⩬:�P�h�խ/�3�G�2f�W'�^)�>'E����k;c��vH)N�/ѱιT̙��im��	Nd|�6���K4���X|X\�urĘ��[E��cG�g��d���t����,�G�)/�ۚ����$6�����,�i�p��:&��=m����߁��Y�<l>W��x%��}�]���=H�ClP�ḍɉ7l9,�g	}��c!'&l�ט�e�J)N��Xܖq�t�����#���[㶷�|�}r>Fv�p�o>"�=!�%2��D��5�ɉ�Yg������X��ɉR�m��Wh=H��b5�MS�>��կ=�i���ǅ�c�bO	�	c"Ӱv���؟{c��Yˇc�ñ9q�+N{E"/q�/b�ژ�FMj���7+K	�
+u�[���w�ι\�8c�ö8�9��W�y8.������X�{��Č���ѵRsb�zO�^��@`M_�u�ֺ��L��+��
+p>X`���3b�&'���eCz��^�qӸ����C�^/Ñ@z�E�/ۃ�_	���5}��T���CfD>�,���{�#b�
+�^��#���I��~(������uΆ�R�3�^[����Iu���=��޴2���:�L��c_&c�l`�3us^��Ӣ_85���p�9T��^ݚ%��vi�[��co���>{�:s݀���ߤ7��Fr�����v��%Q�m**���#F���ܫ.��>Nip�lo_��Jګ�R��N	�����5����3�%E
+�$�G����$��#��K�������/�W֓�'O�<	T^u�D]�z�Q�\��27�c@��qp��9�Μ���z��Y���3�e�
+��,>7�}�R�q��#��C1F\�Dn�����G�V�Gi��� s39�� ��X��Y�r�
+���g�9ܨ�����b�8U�z��0jh"�����U�-��A�(�%b�q�5��t�rr_�~������s^������Y�*d��
+�8%>��<���%'��xx�j`�.t�b��B7<O�����FLw��7���pH�$O�oM�d?���o���G�F
+M���$ǆ�K~{b���:�EJ�$o3��&��m���db��c]����{��Ƀ�?�A��&�a�Sb�c6f�!V�Yf��4Ú��Y��gl�m�w�g�Y� /y�$�I��@���"G4�#PublishGifProperties::PaletteOption������"PublishPNGProperties::DitherOption������0PublishFormatProperties::projectorMacDefaultName���1���'PublishFormatProperties::pngDefaultName���1���-PublishFormatProperties::projectorWinFileN������������������������	
+
+������������������������"#$%&'()*p����-./0123456789:;<=>?@��������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������stuvwxyz{|}~�M 1 1287673773����OS 2 1287674123������������QM 3 1287674134������������O��������������=��x�]	tE�������K������ ʀ�
+. �`PG��(�#���;&��gQt�2�-�*a=,�N��<8�Ν����Qi�%�%A�$]��鮪�����ֽ�����'O�<	����ס�Ԙq�RZN*���c&=�S��{~�@Lݦ�I1#Ǥv�͂�ﬕ�o�I���ɵ�
+�ꭅrտ���yyy퐆��?�������g2����yB�8!�2�K��ǥ7��X��X��Q��t�\�P������j�bt�{���o��o��\�u_�$�)�a�N�``18��p�tc7�4{�ɚ'�b�E�$u5.m��7��n�)sN���S2�`���_,#�ɍ{N�`q p�8�>�
+>�	>����D鲩 �����t���k���0<uh�+�w��$埖���=-���	������!9�&p�P��:pb� ����8���鼩@:}u�fH�{���@|�>���x,�δ2�h�<�<���<|F:tF��;-���Ĥ�>{�Xn�u�O�ǉ':����D�����呤7�����ګ~�m�9v�����MX�g���BYp��?~N�+<'O���ȯ������ɉwڜ�sp�-����������W��n�p:�'��w�'�8�����pj��R���W�b��cRo]�X^+� �����,<y^R���;'��'���������û�mN�Fٜ8~��;tZ�=+���d�ęfg�h���(�7�l�lUU���N��@���}%8\�8|���g
+N|���S��i�+��e>0������	;YVX�W�.��/���a�H�LN���C�u�u�~R�z\�g��%���D���@7����<��1��'�`��v�y�QR{��^�EG0��s/�'�ɦ�M���͔�1%��,����&����慠��ڨ~�����ėp�<�88TN�
+ܽn{���l����oK�'����.09<�f�̀.f�	cD�W��-G��R@{��Di�>?��Ӌ���W�|�eʫ����!��������g�3
+�{��dx�%\��\���A�+����/�yƒ/#'¾��"����8�����b���*��k��I u���r"핹��B���O]�9��=#NT{�Ň�_]��tK��9��D�y�rmn|����$�WVIF���|�ՇC����>�+�k�>�������qc`G/�m� 1g�j�p��az67�[�͕�kr���V����W?	0�'��J.�pl{e��E+�>�D������9_l��]���������y8�q���i�0����^���ϭ�Y�(-��7�����$�W�2�X���k��B�6}8�����_��Ɯ��1gr�pĜɉ�9o9sQ�ӴW8F$�ñ��8}���;/��ǉyBN���i�yvU���F��@J�9�]�Ù��?����[~mƜ���r"��0��:�3��X�X�}�Y��qĜ>����-n���ɉ�b6����oH������J >�w_+���
+}8�DƜ_�~f�?�p���H��>��v|Eu��{OZugs��M��mG��O(��br��|���`�s�}/g��1͛�mӶ]q\���� 3su�^��l��4:Z��ܼg�_רQc�]��o�9S�/x����]��d���u:vd�s�
+�uZ4l�p͔��x�k��蛲��$�~mr�Ɯ�O|���ps6��h̙sd�����Y�DƜ���M�|�v̹��:z=l#�+��c>ϒf��l�ƇU%;b0�g\�T(G�](X�Q�~}�3Z�jm����"qH|.��۴/=��h��Į^��G>��
+����̨�=z��ߺ=?}Ĳw���L#�L������9gt0��gp���~�Q�q3�v�ɉ��i��o���h�fr�4[uP�?=Ѹ�[_ù��=8��@�|E3� �x}M���ֲ�b�uM��|�� ���>����|qI\��X���<�o��ߊ�7��]�=Zj��pނ�����YӇSj݀=G��p��A�c݀��y1A��I;��W�����;
+��D�^uX�?�ޭ��>�{�V�.][<�>�Ų�`1�?�����ò�۰S�w�y8�9s�]�k?\1=���^q�D]K�)b�>�g�`�p������#`�X4}8]3�S�|�W���C?'J��O�?g��LC�F=�8t�P�`�`:�Edd$ǘ��o�6=,FD��H��q�^s�[ޘ/v�T`���9
+^|v�����@7[7@�<t�1{�Ӟ#+� ^�4&�X��^�~��0��D�Di��}y
+�}���P��ޤ�
+�|�2nXt�<έ�k�g�k�v�y���o7�1�N�ݧ�~w�k���X_�K��̚���f)����{k��zd��s�m��~�޴�
+�MΧ��d ͵T溁R��a�9��93�.5�	�#mĜK�pȉL=7�pN�&���ӭ���P�MNT]J=�2nX4Ǖ�u��ݭ�y��X��Xp;�W%ٖb��yz��5�Q�J,�5.1Q��f�PϓZ�:V&�7Ø���y6�?�������Y�'���y��7�:7���Tڇ�-���c0�v�N�Ɵ�F�I��ŔP����N�P�Vѣ�&C�܊`�����N�5~g~sŁ��1yQ�]��]��_r��� ��V��xԶ����9ڟ��1�Mc$q]Ke��=��}~�pZ�:�@�y
+b2Lf�9�h�1v�>����>E{��}ʉ��=�QϾ^V����8.�r�o^3��z?\���3�o�ߘߛ��4��sS���QL?ZG�#�O��k�&1ˬ�Ӷy��f���g�p#�+�����g�k�T'�_�1�
+���N�y�����t��bZ�i��X���g��FK7_�D`q�4�pW�)oJ�&M"�A;:�6�+��M,�����{��ob(\,_�������^��b��:��)��斊9�<�?"Ʒ1�r�9����G3-��a��9?o�1C6
+�+�����As,N�n&'���A���:q׹�5ص+ŋ�k���P�H�0�y�<&XWqQ,�@y��S�s�N��X4��^���]?�Z[���a�w1���\_�����9s�g�mǐi;wY�k�0��|8׬϶ڞw���6'�;S�N
+�;�;��գZ�y4y��N:<��E�;�Es,���o�\�1q./R�+������%�b��V�"�}7n�k|8�~8�W����<	��5�Ⲧ/���񐥗ӏ�
+Ĝ'l�ǢM{%�䢬=y���ɉR�;3뽺"�� ���K8���.k��E)����^K��k3��y8�9��
+���}��Αu�9ӇCۙ鶯�uE%B��_}�'.;�ƌ�n���;�����p�:f��
+&'7,�l8x�WRG+W�ᥪt����3���m�<"s6}8�Drc�9�n1g�#K6����J�\�U����{�ѯ-m?�/2�m{�'��C��~fR��p����p�.�����"�p��vY�J�.ea�����̪����Q:[s�y8ܗ)���p;ƌ:G��D�%���8�����X�ĵ'K��KL��+��Qd����<��漈�bt��LĖ�5u�MYX�:��3�bQq�z����t��	6���NK0����T5�輾�~{�<�9g~�)k�@0{Ō9k��sdc���8���X:�Xt�WLN�z+���]��C$!�i�Q��8}1�@�Ǚ�b��(���"�T�Il�s���5�z߉!�@��1�]���a�� �-b�m�k��e[�����5ۨ�yZ����U�?��p^bY�����Ck�@���y8��L�eq�W������+�K��o����F��P�w!���Qm��j�ǋڟ��|�o\^6��⩬:�P�h�խ/�3�G�2f�W'�^)�>'E����k;c��vH)N�/ѱιT̙��im��	Nd|�6���K4���X|X\�urĘ��[E��cG�g��d���t����,�G�)/�ۚ����$6�����,�i�p��:&��=m����߁��Y�<l>W��x%��}�]���=H�ClP�ḍɉ7l9,�g	}��c!'&l�ט�e�J)N��Xܖq�t�����#���[㶷�|�}r>Fv�p�o>"�=!�%2��D��5�ɉ�Yg������X��ɉR�m��Wh=H��b5�MS�>��կ=�i���ǅ�c�bO	�	c"Ӱv���؟{c��Yˇc�ñ9q�+N{E"/q�/b�ژ�FMj���7+K	�
+u�[���w�ι\�8c�ö8�9��W�y8.������X�{��Č���ѵRsb�zO�^��@`M_�u�ֺ��L��+��
+p>X`���3b�&'���eCz��^�qӸ����C�^/Ñ@z�E�/ۃ�_	���5}��T���CfD>�,���{�#b�
+�^��#���I��~(������uΆ�R�3�^[����Iu���=��޴2���:�L��c_&c�l`�3us^��Ӣ_85���p�9T��^ݚ%��vi�[��co���>{�:s݀���ߤ7��Fr�����v��%Q�m**���#F���ܫ.��>Nip�lo_��Jګ�R��N	�����5����3�%E
+�$�G����$��#��K�������/�W֓�'O�<	T^u�D]�z�Q�\��27�c@��qp��9�Μ���z��Y���3�e�
+��,>7�}�R�q��#��C1F\�Dn�����G�V�Gi��� s39�� ��X��Y�r�
+���g�9ܨ�����b�8U�z��0jh"�����U�-��A�(�%b�q�5��t�rr_�~������s^������Y�*d��
+�8%>��<���%'��xx�j`�.t�b��B7<O�����FLw��7���pH�$O�oM�d?���o���G�F
+M���$ǆ�K~{b���:�EJ�$o3��&��m���db��c]����{��Ƀ�?�A��&�a�Sb�c6f�!V�Yf��4Ú��Y��gl�m�w�g�Y� /y�$�I��@���"G4�ntrollerOption���0���"PublishQTProperties::PausedAtStart���0�������������	CColorDef��������3�P��f�P�0���P�H���P�`���P�x�3���33�(��3f�<�0�3��C�H�3��F�`�3��H�x�f��0�f3��0�ff�(�0�f��5�H���������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������CPicPage��	CPicLayer��	CPicFrame��
+CPicBitmap������������&���?��������������
+���Layer 1����O�O�����������Layer 1����O�O��������CPicPage��	CPicLayer��	CPicFrame��CPicText���X���2����Arial���ArialMT@�"(���������The following text has been produced with CKEditor�������������
+�X���h���Arial���Arial-BoldMT@�"(���������Flash Output Sample�����������
+CPicSymbol������������?�?�?�?����������������K29g&f0'&�4�4
+�l�<�����<N�����
+�<�������<n��n��<T����<����f���<��:`�T<�� �(<f�
+�<d����<��0P<(��
+<TT<��D��b<|����f<V����<�����<���z��<X���p	bS�������"�(8���4�8
+
+��T8����)�<���43���
+������
+��\�*\����F�����f��-�����-}}���2�}}}���}�}�������}����-����Gt�-"
+�Gt��
+��J�}}��
+0�
+}}�%(
+&
+I&�	�&��%(
+&�	�&��"�� ������"�x�����&��&��%4�"��&�'P�"��%��%'�%E�%(
+�%��%T�%(
+
+�%(
+��%X,
+
+/��+
+
+/
+
+/�01�1
+
+/�1�1^2�����1D2�����������&�'^''��&�
+'F'�
+�&��&��&��&��&��&��&��&�
+�&�r&��&��&��&�r&��&��&��&��&��&��&��&��&��&��&��%�$&�U&�r&��%�F&�r&�d'��&��&t�&�'��&J�&�,�&�M&&s�%��&�/&F�%��!J�#S%m�%��!J�$W�%�Gt�M�?�!JGtC9�!J�*x�)�
+�)��*��*xZ)��*�(����k(x(�:�(x�*�7!��(��*��v(�(x�
+(�(�*x(x2��*x,&���?�����Ri��������
+���Frame������O����������������Arial���ArialMT@�"(������������FCKTextArea��������<��p��T�
+<���T�
+@�1���@��U��p����
+i�T��
+i5�h<l�@�5��~@��
+in
+�����
+i����T�
+��65�T�
+��
+5��'d
+�'F(�	V(��'d
+�'7
+V(�^$9?"��-^$90!��-�V(��(�Y'p^$9V(��(�^$9�'	}'cz'��'d
+�'	h'��'d
+
+�'d
+AW�f�mJ
+mAW�mJ
+mJ
+m	ng8<�J
+m�n<��-�@�NAW�-WJAW�(��(��(W�(�(��(��(
+�(�Z(i(#v(#�(Z(p(%�(
+�(*(;(K(Z(*(D(Z(Z(�(�(�(��(��(�(�(��'��'�
+(�*(�'��'�*(d�(�({(�@(�(�(�@(,@((X�'��'	@(�'��'	<#�Y%��&��'�<#�h&��'���R�f {<#����u<#�&���?�����I��������
+���Textbox����O�O�����&���?������m����import flash.external.E����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������CPicPage��	CPicLayer��	CPicFrame��	CPicShape������������ ���h��nCV,0�������4������0�0�0L0�^0�0���9�9
+
+�
+
+��9
+
+�,
+
+�
+
+���
+
+����%%�%%%�%�%%�%�%�%�����%��h���������T��""�"�"Hex"ex�"xx�!�%�x �%��x%�%�%�����%���������|�����|�|�w�uku-|�u�u-ru-u-u-u9u9u-u9u9u9�9�9u9�9������������ �� �@=fz
+0���4���������4��D���4���������;� �N�-�w�a0N�����W4h�H��i�;����Q����
+��
+m�
+P��
+{�
+P�
+P
+,`
+J
+��
+Pl
+J
+�J
+�4
+�)
+e)
+-J
+�)
+�)
+-)
+-)
+0
+�=
+�)
+-)
+�=
+�=
+�K
+�^
+�x
+m=
+�S
+�x
+mx
+m�
+Z�
+M�
+Ex
+m�
+Q�
+E�
+E�
+=9=9�
+E�
+9=9�=9=9�9�9=9�9�9�9�����9������R�R���R�R�#���
+�R�
+��
+��
+��
+��
+�
+8�
+��
+��
+8�
+8�
+}�
+���
+8�
+���;w��P���������������������������������������� ��� �`�0~�0��`�0�0��0*�0N0"0 ��0t0�� 99�9�99�9��9�9�J�J�9�J�J�JF9F9�JF9�JF9F999F99F9999hIhI9hIhIhI��hI�
+���W�W��W�i�W�W��T�TW��T�T�T�����T�������������99�9��������������\$�#Z�!0����'2&I�7���������� �$�d�;Z)�C�����������#`���������������������������������������E�h�x�x�E�^�l�x�x�xxt0m�x
+x0m0m0m;�;�0m;�;� �����;��������P�P.����u�PmP.P.P�y���P.P�p�������)�I�I%���.�I�I%�I%I3G?FFI%I1FFBFFFFFF�E�EFF�E��������������&d������,�,���������#�!�R�2E0��RZ��������������4!5)�
+���%	!����%	"�����������,��������,�,�X�t�t�,�M�a�t�t�t
+t d%M�tti!^%Mz�z�2�2�z�2�\2�2�/�/�2�/�/�/�-�-�/�-�\-������-����d����k�k.������kjk.k.j�����k.j�����������%����%�%�%�&�&�%�&�&�&�&2&2&�&2*&2&2&2x2x2&2x2t%M%M%	%	%M%	x2x2z�z�x2z���������������'x�!�!�����������
+�1Im�0��R	������������B�������������������������������s�[�����z�n�[�[�B�0�0�[�H�<�0�0�0�0B[�0�0<H[[s����[nz���������������������������P)�H:<�_#�>������������#�P��a�a�����a�������������������������������������������D�D���D��D�d�r�r�D�]�g�r�r�r�r�r�p�r�r�p��r�p�p�p�����p���������������� ����|�n�����n�n�_�XvXQn�X�XQXQXQX�X�XQX�X�X�5�5�X�5�5�5�5�5�5�5�5�5�X�X�5�X�X�X�XwXwX�XwXwXw�a�aXw�a��������������+�%&%aD�j�"�"���������&�&�f�<a%8�d&��������������6#8'
+�z�z�[�,�z�z�e�O�,�,������,���������b�SS,��n�_�SS,S,SYfz�zS,SOadoz�z�z�z�z�z�z�z��;��.��L�'�l..�7���.�&�L��������)�������))�����)m�����������������������������
+���-HM����)0��.�0�����F1	���'�E�E�D�B�E�E�B�nB�B�B�����B���uB�������������n��������������1��������������������h�������������� ������������t������������l������������ ����D�D���D�BD�D�D�E�E�D�E�8���������B������������������������ ���-�	��]0>�����H�H���H�rH�H�H�HXHXH�HXrHXHXHX�X�XHX�XoHX�X�X�X�����X��:����CPicText��
+��(�
+
+����Myriad-RomanxE�the text editor for Internet������������������������?������\�����������Logo FCKeditor.ai����O�O�����CPicPage��	CPicLayer��	CPicFrame��CPicText��
+�X���3�Arial�(The following text has been produced with FCKeditor�����������
+CPicSymbol�	�h�����������
+�
+�X���hArial�(Flash Output Sample�����������������������K29g&f0'&�4�4
+�l�<�����<N�����
+�<�������<n��n��<T����<����f���<��:`�T<�� �(<f�
+�<d����<��0P<(��
+<TT<��D��b<|����f<V����<�����<���z��<X���p	bS�������"�(8���4�8
+
+��T8����)�<���43���
+������
+��\�*\����F�����f��-�����-}}���2�}}}���}�}�������}����-����Gt�-"
+�Gt��
+��J�}}��
+0�
+}}�%(
+&
+I&�	�&��%(
+&�	�&��"�� ������"�x�����&��&��%4�"��&�'P�"��%��%'�%E�%(
+�%��%T�%(
+
+�%(
+��%X,
+
+/��+
+
+/
+
+/�01�1
+
+/�1�1^2�����1D2�����������&�'^''��&�
+'F'�
+�&��&��&��&��&��&��&��&�
+�&�r&��&��&��&�r&��&��&��&��&��&��&��&��&��&��&��%�$&�U&�r&��%�F&�r&�d'��&��&t�&�'��&J�&�,�&�M&&s�%��&�/&F�%��!J�#S%m�%��!J�$W�%�Gt�M�?�!JGtC9�!J�*x�)�
+�)��*��*xZ)��*�(����k(x(�:�(x�*�7!��(��*��v(�(x�
+(�(�*x(x2��*x,���?�����xX�����������Frame������O������
+�������Arial�(���FCKTextArea��������<��p��T�
+<���T�
+@�1���@��U��p����
+i�T��
+i5�h<l�@�5��~@��
+in
+�����
+i����T�
+��65�T�
+��
+5��'d
+�'F(�	V(��'d
+�'7
+V(�^$9?"��-^$90!��-�V(��(�Y'p^$9V(��(�^$9�'	}'cz'��'d
+�'	h'��'d
+
+�'d
+AW�f�mJ
+mAW�mJ
+mJ
+m	ng8<�J
+m�n<��-�@�NAW�-WJAW�(��(��(W�(�(��(��(
+�(�Z(i(#v(#�(Z(p(%�(
+�(*(;(K(Z(*(D(Z(Z(�(�(�(��(��(�(�(��'��'�
+(�*(�'��'�*(d�(�({(�@(�(�(�@(,@((X�'��'	@(�'��'	<#�Y%��&��'�<#�h&��'���R�f {<#����u<#����?������J�����������Textbox����O�O��������?�����l=����import flash.external.ExternalInterface;
+
+FCKTextArea.htmlText = "";
+
+function setData(htData)
+{
+	FCKTextArea.htmlText = htData;
+}
+
+ExternalInterface.addCallback("setData", this, setData);
+��������Actions�����3����C��
+CDocumentPageP 1 1212997365���Scene 1�����LH�����������������������ql{H������������������������������������������������������������������S 1 1216047046���Logo FCKeditor.ai����g{H����������������������h{H������������������������������������������������������������������*@h�hhhh������������legacyLineSpacing���0����!PublishGifProperties::PaletteName������ PublishRNWKProperties::speed256K���0���Vector::AS3 Package Paths������"PublishHtmlProperties::StartPaused���0���%PublishFormatProperties::htmlFileName���Untitled-1.html��� PublishQTProperties::LayerOption������ PublishQTProperties::AlphaOption������"PublishQTProperties::MatchMovieDim���1���Vector::UseNetwork���1���Vector::Debugging Permitted���0���PublishProfileProperties::name���Default���PublishHtmlProperties::Loop���1���PublishFormatProperties::jpeg���0���PublishQTProperties::Width���550���$PublishPNGProperties::OptimizeColors���1���&PublishRNWKProperties::speedSingleISDN���0���&PublishRNWKProperties::singleRateAudio���0���Vector::DocumentClass������Vector::External Player������%PublishHtmlProperties::showTagWarnMsg���1���PublishHtmlProperties::Units���0���4PublishHtmlProperties::UsingDefaultAlternateFilename���1���PublishGifProperties::Smooth���1���%PublishRNWKProperties::mediaCopyright���(c) 2000���#PublishRNWKProperties::flashBitRate���1200���Vector::ScriptStuckDelay���15���Vector::Compress Movie���0���Vector::Package Paths������&PublishFormatProperties::flashFileName���Untitled-1.swf���'PublishFormatProperties::gifDefaultName���1���%PublishFormatProperties::projectorMac���0���"PublishGifProperties::DitherOption������!PublishRNWKProperties::exportSMIL���1��� PublishRNWKProperties::speed384K���0���"PublishRNWKProperties::exportAudio���1���Vector::AS3ExportFrame���1���Vector::Invisible Layer���1���Vector::FireFox���0���PublishHtmlProperties::Quality���4���(PublishHtmlProperties::VerticalAlignment���1���$PublishFormatProperties::pngFileName���Untitled-1.png���PublishFormatProperties::html���1���"PublishPNGProperties::FilterOption������'PublishRNWKProperties::mediaDescription������Vector::Override Sounds���0���!PublishHtmlProperties::DeviceFont���0���-PublishFormatProperties::generatorDefaultName���1���PublishQTProperties::Flatten���1���PublishPNGProperties::BitDepth���24-bit with Alpha���PublishPNGProperties::Smooth���1���"PublishGifProperties::DitherSolids���0���PublishGifProperties::Interlace���0���PublishJpegProperties::DPI���4718592���Vector::Quality���80���Vector::Protect���0���"PublishHtmlProperties::DisplayMenu���1���*PublishHtmlProperties::HorizontalAlignment���1���2PublishHtmlProperties::VersionDetectionIfAvailable���0���Vector::Template���0���*PublishFormatProperties::generatorFileName���Untitled-1.swt���(PublishFormatProperties::rnwkDefaultName���1���(PublishFormatProperties::jpegDefaultName���1���PublishFormatProperties::gif���0���PublishGifProperties::Loop���1���PublishGifProperties::Width���550���$PublishRNWKProperties::mediaKeywords������!PublishRNWKProperties::mediaTitle������PublishRNWKProperties::speed28K���1���Vector::AS3Optimize���1���#PublishFormatProperties::qtFileName���Untitled-1.mov���"PublishPNGProperties::DitherOption������#PublishGifProperties::PaletteOption������#PublishGifProperties::MatchMovieDim���1���$PublishRNWKProperties::speedDualISDN���0���$PublishRNWKProperties::realVideoRate���100000���PublishJpegProperties::Quality���80���PublishFormatProperties::flash���1���#PublishPNGProperties::PaletteOption������#PublishPNGProperties::MatchMovieDim���1���$PublishJpegProperties::MatchMovieDim���1���Vector::Package Export Frame���1���!PublishProfileProperties::version���1���PublishHtmlProperties::Align���0���-PublishFormatProperties::projectorWinFileName���Untitled-1.exe���'PublishFormatProperties::pngDefaultName���1���0PublishFormatProperties::projectorMacDefaultName���1���#PublishQTProperties::PlayEveryFrame���0���"PublishPNGProperties::DitherSolids���0���"PublishJpegProperties::Progressive���0���Vector::Export Swc���0���Vector::Debugging Password������Vector::Omit Trace Actions���0���PublishHtmlProperties::Height���400���PublishHtmlProperties::Width���550���%PublishFormatProperties::jpegFileName���Untitled-1.jpg���)PublishFormatProperties::flashDefaultName���1���PublishPNGProperties::Interlace���0���PublishGifProperties::Height���400���PublishJpegProperties::Size���0���Vector::UseAS3Namespace���1���Vector::AS3AutoDeclare���1���Vector::AS3Coach���1���Vector::DeviceSound���0���Vector::TopDown���0���'PublishHtmlProperties::TemplateFileName���Default.html���!PublishHtmlProperties::WindowMode���0���2PublishHtmlProperties::UsingDefaultContentFilename���1���-PublishFormatProperties::projectorMacFileName���Untitled-1.hqx���(PublishFormatProperties::htmlDefaultName���1���PublishFormatProperties::rnwk���0���PublishFormatProperties::png���0���PublishQTProperties::Height���400���%PublishPNGProperties::RemoveGradients���0���PublishGifProperties::MaxColors���255���'PublishGifProperties::TransparentOption������PublishGifProperties::LoopCount������PublishRNWKProperties::speed56K���1���Vector::Report���0���+PublishHtmlProperties::OwnAlternateFilename������(PublishHtmlProperties::AlternateFilename������&PublishHtmlProperties::ContentFilename������"PublishFormatProperties::generator���0���$PublishGifProperties::OptimizeColors���1���"PublishRNWKProperties::audioFormat���0���Vector::AS3Strict���1���Vector::Version���8���Vector::Event Format���0���Vector::Stream Compress���7���PublishFormatProperties::qt���0���PublishPNGProperties::Height���400���PublishPNGProperties::Width���550���%PublishGifProperties::RemoveGradients���0��� PublishRNWKProperties::speed512K���0���PublishJpegProperties::Height���400���Vector::EventUse8kSampleRate���0���Vector::StreamUse8kSampleRate���0���Vector::ActionScriptVersion���2���Vector::Event Compress���7���PublishHtmlProperties::Scale���0���0PublishFormatProperties::projectorWinDefaultName���1���PublishQTProperties::Looping���0���*PublishQTProperties::UseQTSoundCompression���0���!PublishPNGProperties::PaletteName������!PublishPNGProperties::Transparent���0���&PublishGifProperties::TransparentAlpha���128���PublishGifProperties::Animated���0���"PublishRNWKProperties::mediaAuthor������(PublishRNWKProperties::speedCorporateLAN���0���&PublishRNWKProperties::showBitrateDlog���1���"PublishRNWKProperties::exportFlash���1���PublishJpegProperties::Width���550���Vector::Stream Format���0���"PublishHtmlProperties::VersionInfo���O9,0,45,0;8,0,24,0;7,0,14,0;6,0,79,0;5,0,58,0;4,0,32,0;3,0,8,0;2,0,1,12;1,0,0,1;���$PublishFormatProperties::gifFileName���Untitled-1.gif���&PublishFormatProperties::qtDefaultName���1���"PublishQTProperties::PausedAtStart���0���%PublishQTProperties::ControllerOption���0���PublishPNGProperties::MaxColors���255���,PublishHtmlProperties::UsingOwnAlternateFile���0���%PublishFormatProperties::rnwkFileName���Untitled-1.smil���%PublishFormatProperties::projectorWin���0���%PublishFormatProperties::defaultNames���1�������������	CColorDef��������3�P��f�P�0���P�H���P�`���P�x�3���33�(��3f�<�0�3��C�H�3��F�`�3��H�x�f��0�f3��0�ff�(�0�f��5�H�f��<�`�f��@�x���333�0���3����33�x��f3�d�0��3�]�H��3�Z�`��3�X�x�33����333�0�3f3�PPH�3�3�Px`�3�3�P�x�3�3�P���f3���0�f33�PH�ff3�(PH�f�3�<x`�f�3�C�x�f�3�F�����fff�`���f���0�3f���0�ff�x�0��f�k�H��f�d�`��f�`�x�3f���0�33f��PH�3ff�xPH�3�f�dx`�3�f�]�x�3�f�Z���ff���0�f3f��PH�fff�`�f�f�P0x�f�f�Px��f�f�P�����������������H�3����H�f����H����x�H�̙�n�`����h�x�3����H�33���x`�3f���x`�3���xx`�3̙�k�x�3���d���f����H�f3���x`�ff���0x�f���x0x�f̙�dx��f���]�����������������`�3����`�f����`������`����x�`����p�x�3����`�33����x�3f����x�3�����x�3���x�x�3���n���f����`�f3����x�ff���x��f����x��f���xx��f���k�����������������x�3����x�f����x������x������x����x�x�3����x�33������3f������3�������3�������3���x���f����x�f3������ff������f�������f�������f���x��������x������H��3�
+�H��f��H����(�H����2�`����8�x����`��3�
+�`��f��`�̙��`����(�`����0�x����x��3��x��f��x�����x���� �x����(�x�����P�x����3���H��33�x`��f3�x`���3�(x`���3�5�x���3�<����3���`��33��x��f3�
+�x�̙3��x���3�(�x���3�2����3���x��33�����f3�
+�����3������3������3�(���������x����f���H��3f��x`��ff�0x���f�(0x���f�<x����f�C����f���`��3f���x��ff�x��̙f�x����f�(x����f�5����f���x��3f������ff������f�
+�����f������f�(��������(�x��������H��3���x`��f���0x��������̙�PP������P��������`��3����x��f���x��̙��P���̙�(P������<��������x��3�������f��������������̙��������(��������x�x��������`��3����x��f���x�������P������xP������d��������`��3����x��f���x��̙���P������������P��������x��3�������f�������������������������(����������x��������x��3�������f��������������������������x��������x��3�������f������̙������������������x��������x��3�������f���������������������������������������������������������������f��`����z������f��������������*���]���������������*.�����������"PublishQTProperties::QTSndSettings��CQTAudioSettings�����h������������������������������	�BSaved by Adobe Flash Windows 9.0 build 494 timecount = 1216048255xternalInterface;
+
+
+
+FCETextArea.htmlText = "";
+
+
+
+function setData(htData)
+
+{
+
+	FCKTextArea.htmlText = htData;
+
+}
+
+
+
+ExternalInterface.addCallback("setData", this, setData);
+
+�����
+���Actions�����3���������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������G��
+CDocumentPageP 1 1212997365���Scene 1�����LH�����������������������sY�L������������������������������������������������������������������S 2 1287674123���
+Logo CKEditor���Y�L%���������������Symbol 1�������'Y�L�������������������������������������������������������������������
+CMediaBitsM 3 1287674134���Bitmap 3���'Y�LY�L'����������������������2�*@h�hhhh������������legacyLineSpacing���0����%PublishFormatProperties::htmlFileName���Untitled-1.html���"PublishHtmlProperties::StartPaused���0���Vector::AS3 Package Paths������ PublishRNWKProperties::speed256K���0���!PublishGifProperties::PaletteName������PublishFormatProperties::jpeg���0���PublishHtmlProperties::Loop���1���PublishProfileProperties::name���Default���Vector::Debugging Permitted���0���Vector::UseNetwork���1���"PublishQTProperties::MatchMovieDim���1��� PublishQTProperties::AlphaOption������ PublishQTProperties::LayerOption������4PublishHtmlProperties::UsingDefaultAlternateFilename���1���PublishHtmlProperties::Units���0���%PublishHtmlProperties::showTagWarnMsg���1���Vector::External Player������Vector::DocumentClass������&PublishRNWKProperties::singleRateAudio���0���&PublishRNWKProperties::speedSingleISDN���0���$PublishPNGProperties::OptimizeColors���1���PublishQTProperties::Width���550���%PublishFormatProperties::projectorMac���0���'PublishFormatProperties::gifDefaultName���1���&PublishFormatProperties::flashFileName���Untitled-1.swf���Vector::Package Paths������Vector::Compress Movie���0���Vector::ScriptStuckDelay���15���#PublishRNWKProperties::flashBitRate���1200���%PublishRNWKProperties::mediaCopyright���(c) 2000���PublishGifProperties::Smooth���1���PublishFormatProperties::html���1���$PublishFormatProperties::pngFileName���Untitled-1.png���(PublishHtmlProperties::VerticalAlignment���1���PublishHtmlProperties::Quality���4���Vector::FireFox���0���Vector::Invisible Layer���1���Vector::AS3ExportFrame���1���"PublishRNWKProperties::exportAudio���1��� PublishRNWKProperties::speed384K���0���!PublishRNWKProperties::exportSMIL���1���"PublishGifProperties::DitherOption������-PublishFormatProperties::generatorDefaultName���1���!PublishHtmlProperties::DeviceFont���0���Vector::Override Sounds���0���'PublishRNWKProperties::mediaDescription������"PublishPNGProperties::FilterOption������PublishFormatProperties::gif���0���(PublishFormatProperties::jpegDefaultName���1���(PublishFormatProperties::rnwkDefaultName���1���*PublishFormatProperties::generatorFileName���Untitled-1.swt���Vector::Template���0���2PublishHtmlProperties::VersionDetectionIfAvailable���0���*PublishHtmlProperties::HorizontalAlignment���1���"PublishHtmlProperties::DisplayMenu���1���Vector::Protect���0���Vector::Quality���80���PublishJpegProperties::DPI���4718592���PublishGifProperties::Interlace���0���"PublishGifProperties::DitherSolids���0���PublishPNGProperties::Smooth���1���PublishPNGProperties::BitDepth���24-bit with Alpha���PublishQTProperties::Flatten���1���#PublishFormatProperties::qtFileName���Untitled-1.mov���Vector::AS3Optimize���1���PublishRNWKProperties::speed28K���1���!PublishRNWKProperties::mediaTitle������$PublishRNWKProperties::mediaKeywords������PublishGifProperties::Width���550���PublishGifProperties::Loop���1���PublishFormatProperties::flash���1���PublishJpegProperties::Quality���80���$PublishRNWKProperties::realVideoRate���100000���$PublishRNWKProperties::speedDualISDN���0���#PublishGifProperties::MatchMovieDim���1���#PublishGifProperties::PaletteOption������"PublishPNGProperties::DitherOption������0PublishFormatProperties::projectorMacDefaultName���1���'PublishFormatProperties::pngDefaultName���1���-PublishFormatProperties::projectorWinFileName���Untitled-1.exe���PublishHtmlProperties::Align���0���!PublishProfileProperties::version���1���Vector::Package Export Frame���1���$PublishJpegProperties::MatchMovieDim���1���#PublishPNGProperties::MatchMovieDim���1���#PublishPNGProperties::PaletteOption������)PublishFormatProperties::flashDefaultName���1���%PublishFormatProperties::jpegFileName���Untitled-1.jpg���PublishHtmlProperties::Width���550���PublishHtmlProperties::Height���400���Vector::Omit Trace Actions���0���Vector::Debugging Password������Vector::Export Swc���0���"PublishJpegProperties::Progressive���0���"PublishPNGProperties::DitherSolids���0���#PublishQTProperties::PlayEveryFrame���0���PublishFormatProperties::png���0���PublishFormatProperties::rnwk���0���(PublishFormatProperties::htmlDefaultName���1���-PublishFormatProperties::projectorMacFileName���Untitled-1.hqx���2PublishHtmlProperties::UsingDefaultContentFilename���1���!PublishHtmlProperties::WindowMode���0���'PublishHtmlProperties::TemplateFileName���Default.html���Vector::TopDown���0���Vector::DeviceSound���0���Vector::AS3Coach���1���Vector::AS3AutoDeclare���1���Vector::UseAS3Namespace���1���PublishJpegProperties::Size���0���PublishGifProperties::Height���400���PublishPNGProperties::Interlace���0���"PublishFormatProperties::generator���0���&PublishHtmlProperties::ContentFilename������(PublishHtmlProperties::AlternateFilename������+PublishHtmlProperties::OwnAlternateFilename������Vector::Report���0���PublishRNWKProperties::speed56K���1���PublishGifProperties::LoopCount������'PublishGifProperties::TransparentOption������PublishGifProperties::MaxColors���255���%PublishPNGProperties::RemoveGradients���0���PublishQTProperties::Height���400���PublishFormatProperties::qt���0���Vector::Stream Compress���7���Vector::Event Format���0���Vector::Version���8���Vector::AS3Strict���1���"PublishRNWKProperties::audioFormat���0���$PublishGifProperties::OptimizeColors���1���0PublishFormatProperties::projectorWinDefaultName���1���PublishHtmlProperties::Scale���0���Vector::Event Compress���7���Vector::ActionScriptVersion���2���Vector::StreamUse8kSampleRate���0���Vector::EventUse8kSampleRate���0���PublishJpegProperties::Height���400��� PublishRNWKProperties::speed512K���0���%PublishGifProperties::RemoveGradients���0���PublishPNGProperties::Width���550���PublishPNGProperties::Height���400���&PublishFormatProperties::qtDefaultName���1���$PublishFormatProperties::gifFileName���Untitled-1.gif���"PublishHtmlProperties::VersionInfo���O9,0,45,0;8,0,24,0;7,0,14,0;6,0,79,0;5,0,58,0;4,0,32,0;3,0,8,0;2,0,1,12;1,0,0,1;���Vector::Stream Format���0���PublishJpegProperties::Width���550���"PublishRNWKProperties::exportFlash���1���&PublishRNWKProperties::showBitrateDlog���1���(PublishRNWKProperties::speedCorporateLAN���0���"PublishRNWKProperties::mediaAuthor������PublishGifProperties::Animated���0���&PublishGifProperties::TransparentAlpha���128���!PublishPNGProperties::Transparent���0���!PublishPNGProperties::PaletteName������*PublishQTProperties::UseQTSoundCompression���0���PublishQTProperties::Looping���0���%PublishFormatProperties::defaultNames���1���%PublishFormatProperties::projectorWin���0���%PublishFormatProperties::rnwkFileName���Untitled-1.smil���,PublishHtmlProperties::UsingOwnAlternateFile���0���PublishPNGProperties::MaxColors���255���%PublishQTProperties::ControllerOption���0���"PublishQTProperties::PausedAtStart���0�������������	CColorDef��������3�P��f�P�0���P�H���P�`���P�x�3���33�(��3f�<�0�3��C�H�3��F�`�3��H�x�f��0�f3��0�ff�(�0�f��5�H�f��<�`�f��@�x���333�0���3����33�x��f3�d�0��3�]�H��3�Z�`��3�X�x�33����333�0�3f3�PPH�3�3�Px`�3�3�P�x�3�3�P���f3���0�f33�PH�ff3�(PH�f�3�<x`�f�3�C�x�f�3�F�����fff�`���f���0�3f���0�ff�x�0��f�k�H��f�d�`��f�`�x�3f���0�33f��PH�3ff�xPH�3�f�dx`�3�f�]�x�3�f�Z���ff���0�f3f��PH�fff�`�f�f�P0x�f�f�Px��f�f�P�����������������H�3����H�f����H����x�H�̙�n�`����h�x�3����H�33���x`�3f���x`�3���xx`�3̙�k�x�3���d���f����H�f3���x`�ff���0x�f���x0x�f̙�dx��f���]�����������������`�3����`�f����`������`����x�`����p�x�3����`�33����x�3f����x�3�����x�3���x�x�3���n���f����`�f3����x�ff���x��f����x��f���xx��f���k�����������������x�3����x�f����x������x������x����x�x�3����x�33������3f������3�������3�������3���x���f����x�f3������ff������f�������f�������f���x��������x������H��3�
+�H��f��H����(�H����2�`����8�x����`��3�
+�`��f��`�̙��`����(�`����0�x����x��3��x��f��x�����x���� �x����(�x�����P�x����3���H��33�x`��f3�x`���3�(x`���3�5�x���3�<����3���`��33��x��f3�
+�x�̙3��x���3�(�x���3�2����3���x��33�����f3�
+�����3������3������3�(���������x����f���H��3f��x`��ff�0x���f�(0x���f�<x����f�C����f���`��3f���x��ff�x��̙f�x����f�(x����f�5����f���x��3f������ff������f�
+�����f������f�(��������(�x��������H��3���x`��f���0x��������̙�PP������P��������`��3����x��f���x��̙��P���̙�(P������<��������x��3�������f��������������̙��������(��������x�x��������`��3����x��f���x�������P������xP������d��������`��3����x��f���x��̙���P������������P��������x��3�������f�������������������������(����������x��������x��3�������f��������������������������x��������x��3�������f������̙������������������x��������x��3�������f���������������������������������������������������������������f��`����z������f��������������*���]���������������*.�����������"PublishQTProperties::QTSndSettings��CQTAudioSettings�����h��������������������s<?xpacket begin="��" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 4.2.2-c063 53.352624, 2008/07/30-18:12:18        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/">
+         <xmp:CreatorTool>Adobe Flash CS4 Professional</xmp:CreatorTool>
+         <xmp:CreateDate>2010-10-21T17:08:13+02:00</xmp:CreateDate>
+         <xmp:MetadataDate>2010-10-21T17:18:13+02:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2010-10-21T17:18:13+02:00</xmp:ModifyDate>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:dc="http://purl.org/dc/elements/1.1/">
+         <dc:format>application/vnd.adobe.fla</dc:format>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#">
+         <xmpMM:DerivedFrom rdf:parseType="Resource"/>
+         <xmpMM:DocumentID>xmp.did:97FEEC6B26DDDF119CC2FB8A8AACE65D</xmpMM:DocumentID>
+         <xmpMM:InstanceID>xmp.iid:97FEEC6B26DDDF119CC2FB8A8AACE65D</xmpMM:InstanceID>
+         <xmpMM:OriginalDocumentID>xmp.did:97FEEC6B26DDDF119CC2FB8A8AACE65D</xmpMM:OriginalDocumentID>
+         <xmpMM:History>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:97FEEC6B26DDDF119CC2FB8A8AACE65D</stEvt:instanceID>
+                  <stEvt:when>2010-10-21T17:18:13+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Flash CS4 Professional</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:History>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>�����������
+ CSaved by Adobe Flash Windows 10.0 build 544 timecount = 1287674293�K@|�

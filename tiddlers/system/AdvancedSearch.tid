@@ -1,12 +1,11 @@
 caption: Search
-color: #bbb
 created: 20181029142211183
 creator: Charles Delbé
 icon: $:/core/images/advanced-search-button
 list: 
-modified: 20181109233938776
+modified: 20181216021011106
 modifier: Charles Delbé
-tab-pos: 60
+tab-pos: 15
 tags: $:/tags/@CD $:/tags/@CD/tweaked $:/tags/SideBar
 title: $:/AdvancedSearch
 type: text/vnd.tiddlywiki

@@ -1,6 +1,7 @@
 created: 20181024024147515
 creator: Charles Delbé
-modified: 20181029040937002
+list-after:
+modified: 20181216020513360
 modifier: Charles Delbé
 tags: $:/tags/Stylesheet $:/tags/@CD
 title: $:/plugins/.CD/KnowEdge/styles/style
@@ -8,7 +9,7 @@ tmap.id: 0f2ba505-3d31-4547-87a8-56efb691785e
 type: text/vnd.tiddlywiki
 
 .tc-site-title:before {
-    content: "TW 5.1.18-prerelease";
+    content: "Powered by TW 5.1.18";
     position: absolute;
     margin-top: -2.5em;
     color: silver;
@@ -45,13 +46,10 @@ type: text/vnd.tiddlywiki
 /* Tiddlers */
 .tc-tiddler-frame {
     border-radius: 4px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    margin-bottom: 15px; /* Gap entre 2 tiddlers*/
+    padding: 10px 30px 48px 30px;
+    margin-bottom: 20px; /* Gap entre 2 tiddlers*/
     min-height: 140px; /* Ribbon */
     box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.3);
-    /*border-right: 5px solid transparent;*/
 }
 .tc-tiddler-frame:hover {
     /*box-shadow: 0px 1px 1px 5px rgba(0, 0, 0, 0.3);*/
@@ -188,12 +186,19 @@ span.tc-tiddler-title-icon {
     height: 1em;
     width: 1em;
 }
-.fa-1x {
-    /*vertical-align: middle;*/
+
+.tc-tag-label > i,
+.tc-tiddler-title-icon .fa-1x,
+.tc-tab-buttons .fa-1x,
+.tc-tiddler-view-frame .fa-1x {
+    vertical-align: baseline;
 }
-.tc-tiddler-title-icon .fa-1x {
-    /*vertical-align: middle;*/
+.tc-page-controls .fa-1x,
+.tc-tag-label .fa-1x,
+.tc-tiddler-controls .fa-1x {
+    vertical-align: middle;
 }
+
 .tc-drop-down svg {
     width: 1.2em;
     vertical-align: middle;
@@ -231,6 +236,10 @@ span.tc-tiddler-title-icon {
 .tc-titlebar .tc-tiddler-controls .tc-reveal button.tc-btn-invisible:hover {
     fill: #fff;
 }
+.tc-titlebar .tc-tiddler-controls .tc-reveal button.tc-btn-invisible:hover i {
+    color: #fff;
+}
+
 
 .tc-tiddler-title-icon > i {
     font-size: 1em;
@@ -258,7 +267,7 @@ h1.tc-site-title svg {
 }
 
 .tc-story-river {
-    padding-right: 10px;
+    padding-right: 15px;
 }
 .tc-sidebar-scrollable {
     padding: 42px 10px 42px 10px
@@ -279,9 +288,9 @@ h1.tc-site-title svg {
 
 .tc-tab-buttons {
     margin-bottom: 0px;
-    padding-left: .5vw;
+    padding-left: .15vw;
     font-size: 0.85em;
-    padding-top: 1em;
+    /*padding-top: 1em;*/
 }
 .tc-tab-buttons button.tc-tab-selected {
     border-bottom: 1px solid <<colour tab-background-selected>>;
@@ -304,10 +313,10 @@ h1.tc-site-title svg {
     outline: none;
     border: none;
     background: <<colour tab-background>>;
-    background-color: transparent;
-    border-left: 1px solid transparent;
-    border-top: 1px solid transparent;
-    border-right: 1px solid transparent;
+    background-color: <<colour tab-background>>;
+    border-left: 1px solid <<colour tab-border>>;
+    border-top: 1px solid <<colour tab-border>>;
+    border-right: 1px solid <<colour tab-border>>;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
 }
@@ -317,9 +326,17 @@ h1.tc-site-title svg {
 .tc-tab-divider {
     border-top: 1px solid <<colour tab-divider>>;
     margin-top: -1px;
+    display: block;
 }
+.bottom-tabs .tc-tab-divider {
+    /*border-top: none;*/
+    /*margin-top: -1px;*/
+    /*display: block;*/
+}
+/*.bottom-tabs .tc-tab-divider,*/
 .tc-sidebar-lists .tc-tab-set .tc-tab-divider {
     border-top: 1px solid <<colour tab-divider>>;
+    display: block;
 }
 
 .tc-tab-divider.tc-vertical {
@@ -328,7 +345,7 @@ h1.tc-site-title svg {
     margin-top: 20px;
 }
 .tc-sidebar-lists .tc-tab-set .tc-tab-divider.tc-vertical {
-    display: block; 
+    display: inline-block; 
     border-right: 1px solid <<colour tab-divider>>;
     border-bottom: 1px solid <<colour tab-divider>>;
     margin-top: 20px;
@@ -338,68 +355,52 @@ h1.tc-site-title svg {
     border-right: 1px solid transparent;
 }
 
-/*
-div.tc-tab-buttons {
-    border-bottom: 1px solid lightgrey;
-}
-.tc-tab-buttons button {
-    outline: none!important;
-    font-weight: 600;
-}
-button.tc-tab-selected{
-    border-bottom: 1px solid <<colour tab-background-selected>>;
-    margin-bottom: -1px;
-}
-*/
 
 /* TIDDLER TOOLBAR */
-.tc-tiddler-view-frame .tc-tiddler-controls button svg, .tc-tiddler-controls button img {
-    height: 1em;
+.tc-tiddler-view-frame .tc-tiddler-controls button svg, 
+.tc-tiddler-controls button img,
+.tc-tiddler-controls button i {
+    /*height: 1em;*/
 }
-.close-tabs svg.tc-image-close-button {
-    height: 0.8em;
-    margin-top: -4px!important;
-}
+
 .tc-image-done-button {
     /*height: 1.5em!important;*/
 }
 .tc-tiddler-view-frame .tc-tiddler-controls {
-    margin-left: 0px;
+    /*margin-left: 0px;*/
     /*font-size: 20px;*/
 }
 .tc-tiddler-view-frame .tc-tiddler-controls text,
-.tc-tiddler-view-frame .tc-tiddler-controls svg {
+.tc-tiddler-view-frame .tc-tiddler-controls svg,
+.tc-tiddler-view-frame .tc-tiddler-controls i {
     fill:transparent;
-    margin-left: 0px;
+    color:transparent;
+    /*margin-left: 0px;*/
 }
 .tc-tiddler-view-frame .tc-tiddler-controls:hover svg,
+.tc-tiddler-view-frame .tc-tiddler-controls:hover i,
 .tc-tiddler-view-frame .tc-tiddler-controls .close-tabs svg,
 .tc-tiddler-view-frame .tc-tiddler-controls .tc-image-close-button svg,
 .tc-tiddler-view-frame .tc-tiddler-controls .tc-popup svg {
     fill:#bbb;
+    color:#bbb;
 }
 .tc-tiddler-controls > span > button {
     /*margin-left: 0px;*/
 }
 .tc-tiddler-view-frame .tc-tiddler-controls [aria-label=close] svg {
     fill:#fff;
-    height: 16px;
+    /*height: 16px;*/
 }
-/*.tc-tiddler-edit-frame .tc-tiddler-controls button svg.tc-image-delete-button,
-.tc-tiddler-view-frame .tc-tiddler-controls:hover [aria-label=delete] svg:hover {
-    fill: <<colour cd-red>>;
-}*/
-/*.tc-tiddler-view-frame .tc-tiddler-controls [aria-label=edit] svg {
-    padding-right: 5px;
-}*/
-.tw-search svg.tc-image-close-button {
+
+/*.tw-search svg.tc-image-close-button {
     margin: 0px 0px -3px -6px!important;
     height: 16px!important;
     fill: #bbb;
 }
 .tc-search svg.tc-image-close-button {
     height: 14px;
-}
+}*/
 svg.tc-image-close-button:hover {
     fill: #888;
 }
@@ -409,12 +410,12 @@ svg.tc-image-close-button:hover {
  }
  
  .btn-slider-input.tab {
-     top: -15px;
+     /*top: -15px;*/
      outline: none;
 }
  
 svg.tc-image-close-button {
-    margin-left: 5px;
+    /*margin-left: 5px;*/
 }
 
 .tb-tagging h1,
@@ -773,7 +774,7 @@ blockquote.tc-big-quote:after {
     z-index: 110;
 }*/
 .tc-layer-search {
-    background-color: rgba(0,0,0,0.9);
+    background-color: rgba(0,0,0,0.5);
 }
 .tc-search-drop-down > p {
     width: 100%;

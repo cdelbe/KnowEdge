@@ -1,8 +1,8 @@
 created: 20180821160032442
 creator: Charles Delbé
-modified: 20181023182731862
+modified: 20181215173606182
 modifier: Charles Delbé
 title: $:/config/ViewToolbarButtons/Visibility/$:/plugins/amp/MagicTabs/button/newJournalHere
 type: text/vnd.tiddlywiki
 
-show
+hide

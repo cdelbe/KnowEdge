@@ -1,0 +1,25 @@
+about: 
+color: #6600ff
+created: 20150204111530682
+creator: Alberto Molina Pérez
+debut: 
+fin: 
+icon: $:/plugins/.CD/KnowEdge/images/check
+modified: 20181216230934500
+modifier: Charles Delbé
+mt-date.alpha: 
+mt-date.due: 
+mt-date.omega: 
+mt-source.parents.list: 
+mt-source.root: 
+mt-source.tiddler: 
+mt-task.owner: 
+mt-task.prority: 
+mt-task.status: pending
+mt-topics.list: 
+tags: $:/type/task
+title: Barre de menus: listes simples (pas TOC)
+tmap.fa-icon: &#f05d;
+tmap.id: 6add00f8-3f0b-4d69-8685-33ec09bdd097
+type: text/vnd.tiddlywiki
+

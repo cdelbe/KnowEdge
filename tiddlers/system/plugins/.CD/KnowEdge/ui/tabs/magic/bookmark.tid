@@ -3,9 +3,8 @@ color: #d3d3d3
 created: 20150125013421426
 creator: Alberto Molina Pérez
 description: Bookmarks
-draft.title: $:/plugins/.CD/KnowEdge/ui/tabs/magic/bookmark
-icon: $:/plugins/.CD/KnowEdge/images/bookmark
-modified: 20181029035833665
+icon: 
+modified: 20181217044809064
 modifier: Charles Delbé
 mt-contents.type: $:/type/bookmark
 mt-list.filter: 

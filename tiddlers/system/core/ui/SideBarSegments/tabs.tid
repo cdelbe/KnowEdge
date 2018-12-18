@@ -1,0 +1,13 @@
+created: 20181216234024839
+creator: Charles Delbé
+modified: 20181216234059849
+modifier: Charles Delbé
+tags: $:/tags/@CD/tweaked $:/tags/SideBarSegment
+title: $:/core/ui/SideBarSegments/tabs
+type: text/vnd.tiddlywiki
+
+<div class="tc-sidebar-lists">
+
+<$macrocall $name="tabs" tabsList="[all[shadows+tiddlers]tag[$:/tags/SideBar]nsort[tab-pos]!has[draft.of]]" default={{$:/config/DefaultSidebarTab}} state="$:/state/tab/sidebar" />
+
+</div>

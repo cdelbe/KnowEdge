@@ -5,18 +5,14 @@ creator: Charles Delbé
 filter: !is[system]
 icon: $:/plugins/.CD/KnowEdge/images/toc
 list: $:/plugins/.CD/KnowEdge/ui/Home $:/type/bookmark TiddlyWiki $:/type/concept $:/type/publication $:/type/knowledge
-modified: 20181212201623518
+modified: 20181216234252732
 modifier: Charles Delbé
 selected_topic: @:/tags/TOC
-tab-pos: 10
-tags: $:/tags/SideBar
+tab-pos: 5
+tags: $:/tags/@CD $:/tags/SideBar
 title: $:/plugins/.CD/KnowEdge/ui/SideBar/TableOfContents
 tmap.id: 52b94001-ce11-4886-9a7d-abedd08b018a
 type: text/vnd.tiddlywiki
-
-\define thisMakeMenu()
-<<MobileMenu """$(SelectedTopic)$""" """$(currentTiddler)$""" "TOC-Selective">>
-\end
 
 <!-- ************************************* TOC *********************************** -->
 ''Select the root tag to use : ''
@@ -28,5 +24,5 @@ type: text/vnd.tiddlywiki
 </$select>
 
 <$set name=SelectedTopic value={{$:/plugins/.CD/KnowEdge/ui/SideBar/TableOfContents!!selected_topic}}>
-<<thisMakeMenu>>
+<<MobileMenu """$(SelectedTopic)$""" """$(currentTiddler)$""" "TOC-Selective">>
 </$set>

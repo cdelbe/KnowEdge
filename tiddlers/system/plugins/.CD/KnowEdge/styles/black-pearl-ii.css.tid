@@ -1,10 +1,11 @@
 created: 20180912123627613
 creator: Charles Delbé
-modified: 20181029034716544
+list-after: $:/plugins/.CD/KnowEdge/styles/toolbar
+modified: 20181215232247444
 modifier: Charles Delbé
 module-type: codemirror-theme
 name: black-pearl-ii
-tags: $:/tags/Stylesheet
+tags: $:/tags/@CD $:/tags/Stylesheet
 title: $:/plugins/.CD/KnowEdge/styles/black-pearl-ii.css
 tmap.id: f98c3fe4-1a2d-40d4-b4e9-0554a4f44a77
 type: text/vnd.tiddlywiki

@@ -1,6 +1,7 @@
 created: 20181108071826402
 creator: Charles Delbé
-modified: 20181125011533024
+description: Modified to allow direct edition when clicked with ctrl key pressed.
+modified: 20181216000031950
 modifier: Charles Delbé
 module-type: widget
 tags: $:/tags/@CD/tweaked

@@ -2,8 +2,8 @@ created: 20181029133459323
 creator: Charles Delbé
 description: Shows a tiddler description.
 list: 
-list-after: $:/plugins/amp/MagicTabs/ViewTemplate/subtitle
-modified: 20181109141202160
+list-after: $:/plugins/.CD/KnowEdge/ui/ViewTemplate/publication/infos
+modified: 20181216213654851
 modifier: Charles Delbé
 tags: $:/tags/viewsource $:/tags/ViewTemplate $:/tags/@CD
 title: $:/plugins/.CD/KnowEdge/ui/ViewTemplate/description

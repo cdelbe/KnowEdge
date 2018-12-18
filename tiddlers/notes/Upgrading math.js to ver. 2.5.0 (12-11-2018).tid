@@ -1,0 +1,20 @@
+color: #FFA500
+created: 20181215185029831
+creator: Charles Delbé
+datetime: 181215195029
+description: Upgrading [[math.js|http://mathjs.org/]] wrapper to ver. 2.5.0
+icon: $:/plugins/.CD/KnowEdge/images/note
+list: 
+modified: 20181215185500750
+modifier: Charles Delbé
+mt-source.tiddler: $:/plugins/mklauber/math.js/math.js
+mt-topics.list: 
+tags: $:/type/note
+tasks: 
+title: Upgrading math.js to ver. 2.5.0 (12-11-2018)
+tmap.fa-icon: &#xf044;
+tmap.id: 0e688998-3924-4ede-b1d1-0044728d629d
+type: text/vnd.tiddlywiki
+
+; Source:
+: http://tobibeer.github.io/tb5/#%24%3A%2Fplugins%2Ftobibeer%2Fmath.js

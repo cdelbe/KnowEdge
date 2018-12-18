@@ -2,9 +2,9 @@ about:
 created: 20141106113206200
 creator: Alberto Molina Pérez
 list-after: 
-modified: 20181212181334463
+modified: 20181217051944234
 modifier: Charles Delbé
-tags: $:/tags/ViewTemplate MagicTabs $:/plugins/amp/MagicTabs/common
+tags: $:/tags/@CD/tweaked $:/tags/ViewTemplate MagicTabs $:/plugins/amp/MagicTabs/common
 title: $:/plugins/amp/MagicTabs/ViewTemplate/TabsBar
 type: text/vnd.tiddlywiki
 

@@ -1,0 +1,31 @@
+about: 
+color: #FFA500
+created: 20180725153952278
+creator: Charles Delbé
+description: 
+icon: $:/plugins/.CD/KnowEdge/images/note
+list: Teaching
+modified: 20181217111802736
+modifier: Charles Delbé
+mt-source.parents.list: 
+mt-source.tiddler: Instructional Strategy
+mt-topics.list: Teaching
+tags: $:/type/note
+title: Evidence-based Instructional Strategies
+tmap.fa-icon: &#xf044;
+tmap.id: 192faffb-caa0-4dd9-b449-c4fd1b7ff4df
+type: text/vnd.tiddlywiki
+
+!!Vers des innovations pédagogiques et technologiques fondées sur les preuves
+
+> Stratégies d'apprentissages efficaces démontrées par la recherche.
+
+
+L'effet contre-intuitif de la difficulté (voir [[Desirable Difficulties]])<<ref "1">> illustre la nécessité de ''proposer un enseignement fondé sur des preuves empiriques'' plutôt que sur des intuitions sans appui dans la littérature scientifique. Les ponts entre les ''laboratoires de recherche'' et la ''vie réelle des enseignants'' sont donc indispensables pour enseigner durablement de nouvelles connaissances et compétences à tous, de l'école à la vie professionnelle. 
+Les ''innovations pédagogiques'' doivent avoir pour objectif premier ''d'améliorer réellement et durablement'' les résultats d'apprentissage. Il nous faut donc piloter nos innovations pédagogiques et technologiques en fonction de leur ''impact sur l'apprentissage'' lui-même (=> [[Assessment]]).
+
+---
+<<footnotes "1" "Par ailleurs, les apprenants ne connaissent pas les stratégies d'apprentissage réellement efficaces, et montrent même une tendance à préférer les méthodes qui les trompent sur leur maîtrise réelle des sujets (Bjork et coll., 2013).">>
+
+!!Références
+* Bjork, Dunlosky et Kornell (2013), Self-Regulated Learning: Beliefs, Techniques, and Illusions, Annu. Rev. Psychol. 64:417–44

@@ -3,10 +3,10 @@ created: 20181022010253332
 creator: Charles Delbé
 dropdown: $:/plugins/.CD/KnowEdge/ui/menu/journal/dropdown
 list-after: $:/plugins/.CD/KnowEdge/ui/menu/bookmarks
-menu-pos: 3
-modified: 20181106175625503
+menu-pos: 
+modified: 20181215190910006
 modifier: Charles Delbé
-tags: $:/tags/@CD $:/tags/Static/TopMenu $:/tags/TopMenu
+tags: $:/tags/@CD $:/tags/Static/TopMenu
 target: $:/type/journal
 title: $:/plugins/.CD/KnowEdge/ui/menu/journal
 type: text/vnd.tiddlywiki

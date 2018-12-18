@@ -1,13 +1,17 @@
 created: 20180729060343528
 creator: Charles Delbé
 list-after: 
-modified: 20181029034656540
+modified: 20181216202652183
 modifier: Charles Delbé
-tags: $:/tags/config $:/tags/Stylesheet $:/tags/@CD
+tags: $:/tags/Stylesheet $:/tags/@CD
 title: $:/plugins/.CD/KnowEdge/styles/bottom-tabs
 tmap.id: d8d45223-d0f8-4703-82c3-ac0e20843056
 type: text/vnd.tiddlywiki
 
+.tc-tab-set .bottom-tabs {
+    margin: 0;
+    padding: 0;
+}
 .tc-tab-content .bottom-tabs .blue > p {
     margin-top: 0.25em;
     margin-bottom: 0;
@@ -19,9 +23,10 @@ type: text/vnd.tiddlywiki
     color: #999;
     border-radius: 0px;
 }
-.bottom-tabs .tc-tab-content.blue {
-    border: 1px solid <<colour tab-border-selected>>;
-    padding: 10px 10px 10px 10px;
+.bottom-tabs .tc-tab-content {
+    /*border: 1px solid <<colour tab-border-selected>>;*/
+    /*padding: 10px 10px 10px 10px;*/
+    /*display: none;*/
 }
 .bottom-tabs .tc-menu-list-subitem {
     white-space: initial;
@@ -48,8 +53,10 @@ type: text/vnd.tiddlywiki
 }
 
 .bottom-tabs div.tc-tab-buttons {
-    margin-top: 10px!important;
-    border-bottom: none;
+    padding: 0;
+    padding-top: 1em;
+    /*margin-top: 10px!important;
+    border-bottom: none;*/
 }
 .bottom-tabs.tc-tab-buttons button.tc-tab-selected {
     /*border-bottom: 1px solid #e8eaf6;*/
@@ -57,7 +64,7 @@ type: text/vnd.tiddlywiki
 }
 
 /* Add object */
-.bottom-tabs .tc-tab-content.blue button[title="add"] p {
+.bottom-tabs .tc-tab-content button[title="add"] p {
     margin: 0px;
     padding: 0 3px 0 7px;
     outline: none;
@@ -87,7 +94,7 @@ type: text/vnd.tiddlywiki
     margin-top: 5px;  
     font-weight: 600;
     color: <<colour secondary>>;   
-    border-bottom: 1px solid #aaa;
+    /*border-bottom: 1px solid #aaa;*/
 }
 .bottom-tabs h2 {
     font-size: 1.1em; 
@@ -102,12 +109,6 @@ type: text/vnd.tiddlywiki
     color: <<colour secondary>>; 
 }
 
-.tc-tiddler-controls .close-tabs {
-    font-size: 12px;
-    margin-top: 7px;
-    margin-left: 3px;
-    margin-right: 10px;
-}
 .tc-tab-buttons button {
     margin-right: 0px;
 }
@@ -115,3 +116,13 @@ type: text/vnd.tiddlywiki
     fill: #000;
 }
 
+.bottom-tabs .tc-tab-buttons button.tc-tab-selected {
+    box-shadow: none;
+}
+
+.tc-tiddler-controls .close-tabs {
+    min-width: 0em;
+    position: relative;
+    bottom: -15px;
+    right: 5px;
+}

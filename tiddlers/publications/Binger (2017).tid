@@ -1,0 +1,54 @@
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+color: #b21a2c
+created: 20180916153759218
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/blogpost
+list: [[Adaptive Learning]] [[Item Response Theory]] [[Network Effects]] [[Knowledge Graph]]
+modified: 20181216232432548
+modifier: Charles Delbé
+mt-authors.title: Binger
+mt-publication.citation: Binger, M. (2017). What Does Knowing Something Tell Us About Knowing a Related Concept? [Blog post]. Retrieved [October, 29th, 2018] from https://www.knewton.com/resources/blog/adaptive-learning/knowing-something-tell-us-knowing-related-concept/
+mt-publication.date: 2017
+mt-publication.issue: 
+mt-publication.journal: The Knewton Blog
+mt-publication.title: What Does Knowing Something Tell Us About Knowing a Related Concept?
+mt-publication.volume: 
+mt-source.authors.list: [[Michael Binger]]
+mt-topics.list: [[Adaptive Learning]] [[Item Response Theory]] [[Network Effects]] [[Knowledge Graph]]
+tags: Knewton @:/type/blogpost $:/type/publication
+title: Binger (2017)
+tmap.fa-icon: &#xf1fa;
+tmap.id: 84eb863a-0052-4eec-b8d1-3a3924e5a9c5
+type: text/vnd.tiddlywiki
+url: https://www.knewton.com/resources/blog/adaptive-learning/knowing-something-tell-us-knowing-related-concept/
+
+<<btn-img "figures/Binger2017_fractions_graph.png" "Figure 1. Un exemple d’objectif d’apprentissage liés à plus d’un prérequis.">>
+
+Chez Knewton, nous avons mis au point une plate-forme d'''[[apprentissage adaptatif|Adaptive Learning]]'' qui alimente l’éducation numérique dans le monde entier à partir ''d’algorithmes de pointe'' qui exploitent les divers ''ensembles de données'' que nous recevons.
+
+---
+Le ''moteur d'adaptation intelligent'' axé sur les données qui constitue le coeur de Knewton est basé sur un ''"modèle de compétences" ([[Proficiency Model]])'', utilisé pour ''déduire l’état des connaissances'' de chaque élève. Cette approche combine
+
+*un ''"[[graphe de connaissances|Knowledge Graph]]"'' qui représente les relations de prérequis entre les différents types de connaissances et/ou compétences mises en oeuvres (ref), 
+*des ''modèles psychométriques'' éprouvés (telle que la théorie de l'évaluation pédagogique bien connue sous le nom de ''Théorie de la Réponse aux Items''; Item Response Theory ou [[IRT|?]]; ref),
+*et des modélisations de différentes ''stratégies pédagogiques'' (telle que la pratique des ''[[répétitions distribuées dans le temps|Spaced Reinforcement]]''). 
+
+Comment les ''relations'' dans le [[graphe de connaissances|Knowledge Graph]] se réalisent-elle dans le ''modèle de compétences'' et comment la ''connaissance d'un concept'' donné ''influence-t-elle'' la connaissance d'un ''concept connexe'' ? Cette dernière question a de grandes ''conséquences pédagogiques'', ainsi qu'un impact important sur la manière dont les ''recommandations'' sont proposées (et à quel point nous pourrons être sûrs de leur ''exactitude'').
+
+---
+''Proficiency propagation:''
+<<btn-img "https://www.knewton.com//wp-content/uploads/2018/10/Blog-Post5_020217-1000x1182-866x1024.png">>
+
+
+---
+Le ''modèle de compétence'' estimera les connaissances des élèves à partir de données telles que :
+
+*l’historique des ''interactions'' d’un élève avec la solution, enregistré dans la base de données de la solution, y compris les résultats de ses [[évaluations|Assessment]], le matériel pédagogique qu’il a étudié et le moment où il a effectué ces activités,
+*les ''propriétés des contenus'' pédagogiques, comme la difficulté d'une [[évaluation|Assessment]],
+*la structure du ''[[graphe de connaissances|Knowledge Graph]]'', en particulier les relations de prérequis entre les objectifs d'apprentissage.
+
+Les sorties du modèle représenteront ''les compétences de l’élève'' dans tous les objectifs d’apprentissage du [[graphe de connaissances|Knowledge Graph]] à un instant donné du cursus pédagogique.
+
+---
+:[[What does knowing something tell us about a related concept? Michael Binger - February 6, 2018|https://www.knewton.com/blog/mastery/what-does-knowing-something-tell-us-about-a-related-concept/]]
+

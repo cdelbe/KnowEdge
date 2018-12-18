@@ -1,9 +1,9 @@
 caption: {{$:/language/SideBar/Recent/Caption}}
-created: 20181013224739670
+created: 20181216020807510
 creator: Charles Delbé
-list-after: 
-modified: 20181014022320697
+modified: 20181216232716566
 modifier: Charles Delbé
+tab-pos: 10
 title: $:/core/ui/SideBar/Recent
 type: text/vnd.tiddlywiki
 
