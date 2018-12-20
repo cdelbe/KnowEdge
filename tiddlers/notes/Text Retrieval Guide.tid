@@ -5,7 +5,7 @@ creator: Charles Delbé
 description: This guide will introduce techniques for organizing text data. It will show how to analyze a large corpus of text, extracting feature vectors for individual documents, in order to be able to retrieve documents with similar content.
 icon: $:/plugins/.CD/KnowEdge/images/note
 list: [[Text Mining]]
-modified: 20181216004411097
+modified: 20181219235204872
 modifier: Charles Delbé
 mt-source.parents.list: 
 mt-source.tiddler: 

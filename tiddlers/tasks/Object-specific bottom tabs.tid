@@ -1,0 +1,24 @@
+about: 
+color: #7878bc
+created: 20181112194209746
+creator: Charles Delbé
+draft.title: Object-specific bottom tabs
+icon: $:/plugins/.CD/KnowEdge/images/check
+modified: 20181220004613630
+modifier: Charles Delbé
+mt-date.alpha: 
+mt-date.due: 
+mt-date.omega: 
+mt-source.root: 
+mt-source.tiddler: Assessment
+mt-task.owner: 
+mt-task.status: pending
+mt-topics.list: 
+tags: $:/type/task
+title: Object-specific bottom tabs
+tmap.fa-icon: &#f05d;
+tmap.id: 058c4067-52df-4532-8a4f-da890750f795
+type: text/vnd.tiddlywiki
+
+*Add "description" to Bookmark list
+*Add "Abstract" to Publications list

@@ -1,6 +1,6 @@
 created: 20150105112916833
 creator: Charles Delbé
-modified: 20181030060313744
+modified: 20181220003612706
 modifier: Charles Delbé
 tags: $:/plugins/amp/MagicTabs/reading
 title: $:/plugins/amp/MagicTabs/templates/tabs/publications
@@ -25,7 +25,7 @@ type: text/vnd.tiddlywiki
 <!--
 <h3>{{!!description}}</h3>
 -->
-<$list filter="[all[current]list[!!mt-topics.list]!is[system]]" template="$:/core/ui/TagTemplate"/><$list filter="[all[current]tags[]!is[system]]" template="$:/core/ui/TagTemplate"/>
+<$list filter="[all[current]list[!!mt-topics.list]!is[system]]" template="$:/plugins/.CD/KnowEdge/ui/TagTemplate"/><$list filter="[all[current]tags[]!is[system]]" template="$:/plugins/.CD/KnowEdge/ui/TagTemplate"/>
 <!--
 <br>
 

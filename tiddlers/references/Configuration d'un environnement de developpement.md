@@ -15,6 +15,9 @@ Installer la distribution [[Anaconda]]
 
 @@background-color:Yellow;NOTE@@
 * Generer un fichier de configuration de Jupyter (dans C:\Users\Charles\.jupyter) https://jupyter-notebook.readthedocs.io/en/stable/public_server.html
+
+Dans le navigateur Anaconda, ouvrir un terminal dans un environnement de base, et exécuter: `jupyter notebook --generate-config`
+
 * Modifier la config du fichier jupyter_notebook_config.py pour permettre l'affichage d'un notebook dans une iframe de TW
 ```
 ## Supply overrides for the tornado.web.Application that the Jupyter notebook
