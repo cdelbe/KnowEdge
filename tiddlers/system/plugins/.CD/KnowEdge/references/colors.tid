@@ -1,7 +1,7 @@
 caption: Colors
 created: 20181106125730448
 creator: Charles Delbé
-modified: 20181215195625364
+modified: 20181223235840947
 modifier: Charles Delbé
 tags: $:/plugins/.CD/KnowEdge/references/main $:/tags/@CD
 title: $:/plugins/.CD/KnowEdge/references/colors
@@ -27,11 +27,11 @@ type: text/vnd.tiddlywiki
 | <<_tag "MidnightBlue" "#004080">> | #004080 | rgb(0,64,128) | <<tag "$:/type/topic">> | Topics |
 | <<_tag "Blue" "#4153a0">> | #4153a0 | rgb(65,83,160) |  |  |
 | <<_tag "SlateBlue" "#7878bc">> | #7878bc | rgb(120,120,188) | <<tag "$:/type/task">> | Tasks |
-| <<_tag "RoyalBlue" "#5778d7">> | #5778d7 | rgb(87,120,215) | <<tag "Getting Started">> | Default |
+| <<_tag "RoyalBlue" "#5778d7">> | #5778d7 | rgb(87,120,215) | <<tag "$:/type/note">> | Notes |
 | <<_tag "Teal" "#087268">> | #087268 | rgb(8,114,104) | <<tag "$:/type/model">> | Models |
 | <<_tag "SeaGreen" "#408080">> | #408080 | rgb(64,128,128) |  |  |
 | <<_tag "DarkGreen" "#1d3300">> | #1d3300 | rgb(85,100,110) |  |  |
-| <<_tag "Olive" "#808000">> | #808000 | rgb(128,128,0) | <<tag "$:/type/note">> | Notes |
+| <<_tag "Olive" "#808000">> | #808000 | rgb(128,128,0) | | |
 | <<_tag "YellowGreen" "#81b53b">> | #81b53b | rgb(129,181,59) | <<tag "$:/tags/@CD">> | @CD |
 | <<_tag "GreenYellow" "#e6e648">> |  #e6e648 | rgb(230,230,72) |  |  |
 | <<_tag "Gold" "#ffff00">> |  #ffff00 | rgb(255,255,0) |  |  |

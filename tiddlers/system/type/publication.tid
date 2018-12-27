@@ -3,7 +3,7 @@ color: #b21a2c
 created: 20150125150841844
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/publication
-modified: 20181125011316717
+modified: 20181221205157594
 modifier: Charles Delbé
 mt-dashboard.add.content: $:/plugins/amp/MagicTabs/new/publication
 mt-dashboard.heading: Publications
@@ -19,4 +19,4 @@ type: text/vnd.tiddlywiki
 "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z @ _ 0 1 2 3 4 5 6 7 8 9"
 default:"A"
 state: "$:/state/.CD/tabs/glossary/publications"
-template:[[$:/plugins/.CD/KnowEdge/templates/tab/glossary/publications]]>>
+template:[[$:/plugins/.CD/KnowEdge/templates/tabs/glossary/publications]]>>

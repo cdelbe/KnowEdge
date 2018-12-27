@@ -1,0 +1,29 @@
+created: 20181221205216071
+creator: Charles Delbé
+modified: 20181223132839651
+modifier: Charles Delbé
+tags: $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/templates/tabs/publications
+type: text/vnd.tiddlywiki
+
+\define title(type)
+	<$link to={{!!title}}>
+    	<$transclude tiddler={{!!icon}}/>
+    	{{!!caption}}
+	</$link>
+\end
+
+<h1><<title>></h1>
+
+<div class="tw-tags-wrapper">
+	<$list filter="[all[current]tags[]!is[system]]" template="$:/plugins/.CD/KnowEdge/ui/TagTemplate"/><$list filter="[all[current]list[!!mt-topics.list]!is[system]]" template="$:/plugins/.CD/KnowEdge/ui/TopicTemplate"/>
+</div>
+<br/>
+
+<$reveal type="nomatch" state=!!abstract text="">
+  <div class="cd-abstract">
+  ''Abstract: ''{{!!abstract}}
+  </div>
+  <br/>
+</$reveal>
+<hr>

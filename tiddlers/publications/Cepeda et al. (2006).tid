@@ -1,5 +1,5 @@
 abstract: The authors performed a "'meta-analysis" of the "distributed practice effect"' to illuminate the effects of temporal variables that have been neglected in previous reviews. This review found 839 assessments of distributed practice in 317 experiments located in 184 articles. Effects of spacing (consecutive massed presentations vs. spaced learning episodes) and lag (less spaced vs. more spaced learning episodes) were examined, as were expanding interstudy interval (ISI) effects. Analyses suggest that ISI and retention interval ''operate jointly'' to affect final-test retention; specifically, the ISI producing maximal retention increased as retention interval increased. Areas needing future research and theoretical implications are discussed.
-caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}): {{!!mt-publication.title}}
 color: #b21a2c
 created: 20180916153759218
 creator: Charles Delbé

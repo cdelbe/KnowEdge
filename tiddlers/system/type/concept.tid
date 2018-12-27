@@ -4,7 +4,7 @@ created: 20181130152038137
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/concept
 list: 
-modified: 20181130152424991
+modified: 20181221205101836
 modifier: Charles Delbé
 mt-dashboard.heading: Concepts
 mt-dashboard.icon: $:/plugins/.CD/KnowEdge/images/concept
@@ -15,7 +15,7 @@ tab-pos: 55
 tags: $:/tags/@CD $:/tags/MagicTabs/dashboard
 title: $:/type/concept
 type: text/vnd.tiddlywiki
-url: $:/plugins/.CD/KnowEdge/templates/tab/glossary/concepts
+url: $:/plugins/.CD/KnowEdge/templates/tabs/glossary/concepts
 
 <!--
 !Concepts
@@ -26,4 +26,4 @@ url: $:/plugins/.CD/KnowEdge/templates/tab/glossary/concepts
 "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z @ _ 0 1 2 3 4 5 6 7 8 9"
 default:"A"
 state: "$:/state/.CD/tabs/glossary/concepts"
-template:[[$:/plugins/.CD/KnowEdge/templates/tab/glossary/concepts]]>>
+template:[[$:/plugins/.CD/KnowEdge/templates/tabs/glossary/concepts]]>>

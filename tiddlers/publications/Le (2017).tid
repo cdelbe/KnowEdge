@@ -1,16 +1,16 @@
-caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}): {{!!mt-publication.title}}
 color: #b21a2c
 created: 20180814205623702
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/blogpost
-list: [[Data Science]] [[Big Data]] [[Statistical Learning]] [[Machine Learning]] [[Linear Regression]] [[Logistic Regression]] [[Linear Discriminant Analysis]] [[Quadratic Discriminant Analysis]] Bootstrapping [[Principal Components Regression]] [[Nonlinear Models]] [[Tree-Based Method]] [[Support Vector Machine]] [[Unsupervised Learning]] [[Principal Component Analysis]] Clustering
-modified: 20181202192140247
+list: [[Data Science]] [[Big Data]] [[Statistical Learning]] [[Machine Learning]] [[Linear Regression]] [[Logistic Regression]] [[Tree-Based Method]] [[Support Vector Machine]] [[Unsupervised Learning]] [[Principal Component Analysis]] Clustering
+modified: 20181227002503626
 modifier: Charles Delbé
 mt-authors.title: Le
 mt-publication.date: 2017
 mt-publication.title: The 10 Statistical Techniques Data Scientists Need to Master.
 mt-source.authors.list: [[James Le]]
-mt-topics.list: [[Data Science]] [[Big Data]] [[Statistical Learning]] [[Machine Learning]] [[Linear Regression]] [[Logistic Regression]] [[Linear Discriminant Analysis]] [[Quadratic Discriminant Analysis]] [[Bootstrapping]] [[Principal Components Regression]] [[Nonlinear Models]] [[Tree-Based Method]] [[Support Vector Machine]] [[Unsupervised Learning]] [[Principal Component Analysis]] [[Clustering]]
+mt-topics.list: [[Data Science]] [[Big Data]] [[Statistical Learning]] [[Machine Learning]] [[Linear Regression]] [[Logistic Regression]] [[Tree-Based Method]] [[Support Vector Machine]] [[Unsupervised Learning]] [[Principal Component Analysis]] [[Clustering]]
 tags: $:/type/publication @:/type/blogpost
 title: Le (2017)
 tmap.fa-icon: &#xf1fa;

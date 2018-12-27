@@ -1,0 +1,9 @@
+created: 20181223205339218
+creator: Charles Delbé
+modified: 20181223205824314
+modifier: Charles Delbé
+tags: $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/ui/modals/ID
+type: text/vnd.tiddlywiki
+
+''Please enter your ID: '' <$edit-text tiddler="$:/status/UserName" size=20 tag=input default="Type name here" />

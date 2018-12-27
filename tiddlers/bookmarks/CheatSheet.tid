@@ -1,10 +1,12 @@
 color: #681224
 created: 20181017201306957
 creator: Charles Delbé
-modified: 20181030025110042
+icon: $:/plugins/.CD/KnowEdge/images/bookmark
+modified: 20181221221005380
 modifier: Charles Delbé
 tags: $:/type/bookmark
 title: CheatSheet
+tmap.fa-icon: &#xf097;
 tmap.id: ad37a191-932a-4d43-943a-7aaac8c13870
 type: text/vnd.tiddlywiki
 

@@ -1,0 +1,42 @@
+created: 20181222043809483
+creator: Charles Delbé
+list: 
+modified: 20181222044822115
+modifier: Charles Delbé
+tags: $:/type/template $:/tags/@CD
+title: $:/plugins/.CD/KnowEdge/ui/TopicTemplate
+type: text/vnd.tiddlywiki
+
+\define topic-pill-styles()
+background-color:$(foregroundColor)$;
+fill:$(backgroundColor)$;
+color:$(backgroundColor)$;
+border:1px solid $(backgroundColor)$;
+\end
+
+\define topic-pill-inner(tag,icon,colour,fallbackTarget,colourA,colourB,element-tag,element-attributes,actions)
+<$vars foregroundColor=<<contrastcolour target:"""$colour$""" fallbackTarget:"""$fallbackTarget$""" colourA:"""$colourA$""" colourB:"""$colourB$""">> backgroundColor="""$colour$""">
+<$element-tag$ $element-attributes$ class="tc-tag-label tc-btn-invisible" style=<<topic-pill-styles>>>
+$actions$<$transclude tiddler="""$icon$"""/> <$view tiddler=<<__tag__>> field="title" format="text" />
+</$element-tag$>
+</$vars>
+\end
+
+\define topic-pill-body(tag,icon,colour,palette,element-tag,element-attributes,actions)
+<$macrocall $name="topic-pill-inner" tag=<<__tag__>> icon="""$icon$""" colour="""$colour$""" fallbackTarget={{$palette$##tag-background}} colourA={{$palette$##foreground}} colourB={{$palette$##background}} element-tag="""$element-tag$""" element-attributes="""$element-attributes$""" actions="""$actions$"""/>
+\end
+  
+<span class="tc-tag-list-item">
+	<$set name="transclusion" value=<<currentTiddler>>>
+		<$macrocall $name="topic-pill-body" tag=<<currentTiddler>> icon={{!!icon}} colour={{!!color}} palette={{$:/palette}} element-tag="""$button""" 	element-attributes="""popup=<<qualify "$:/state/popup/tag">> dragFilter='[all[current]tagging[]]' tag='span'"""/>
+		<$reveal state=<<qualify "$:/state/popup/tag">> type="popup" position="below" animate="yes" class="tc-drop-down cd-tag-drop-down">
+			<$list filter="[all[shadows+tiddlers]tag[$:/tags/TagDropdown]!has[draft.of]]" variable="listItem"> 
+				<$transclude tiddler=<<listItem>>/>
+			</$list>
+        	<div class="tc-menu-list-item cd-tag-menu-title"><$link to={{!!title}}><<@caption>></$link></div>
+        	<hr>
+        	<$macrocall $name="@list-tagged-objects" tag=<<currentTiddler>>/>
+        	<$macrocall $name="@list-related-objects" tag=<<currentTiddler>>/>
+		</$reveal>
+	</$set>
+</span>

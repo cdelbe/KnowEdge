@@ -1,5 +1,5 @@
 abstract: This literature review includes four major parts, and each addresses one research question (RQ):  * RQ1: How are “approaches to learning” related theories and practices perceived and outlined in the curriculum of various national and international educational systems? What are their commonalities in terms of goals, objectives, components and other considerations? * RQ2: How are these perspectives ''unpacked and implemented in practice'', for example, integration with the school-based curriculum, pedagogical strategies and inclusion in teacher training? * RQ3: How is ''the issue of age-appropriateness'' addressed, that is, how are connections between metacognitive, cognitive, affective and sociocultural development of children and young adults and these learning approaches and skills specified? * RQ4: What are the implications for the development of the IB’s programmes to ensure the ''transition between and across different stages of learning''?
-caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}): {{!!mt-publication.title}}
 color: #b21a2c
 created: 20180820022909854
 creator: Charles Delbé

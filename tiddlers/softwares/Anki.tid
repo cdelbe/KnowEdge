@@ -1,0 +1,17 @@
+color: #ff8040
+created: 20181223201242813
+creator: Charles Delbé
+description: Anki is a program which makes remembering things easy. Because it is a lot more efficient than traditional study methods, you can either greatly decrease your time spent studying, or greatly increase the amount you learn.
+icon: $:/plugins/.CD/KnowEdge/images/software
+list: [[Spaced Reinforcement]] [[Spacing Effect]]
+modified: 20181223212035175
+modifier: Charles Delbé
+mt-topics.list: [[Spaced Reinforcement]] [[Spacing Effect]]
+tags: Flashcards $:/type/software
+title: Anki
+tmap.fa-icon: &#xf120;
+tmap.id: 8556e47b-6166-443e-910a-970b2e8a6576
+type: text/vnd.tiddlywiki
+url: https://apps.ankiweb.net
+
+>Anki’s spaced repetition system is based on an older version of the SuperMemo algorithm called SM-2.

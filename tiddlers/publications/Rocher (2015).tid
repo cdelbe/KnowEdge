@@ -1,5 +1,5 @@
 abstract: Cet article présente les méthodes psychométriques qui sont généralement employées dans les programmes d’évaluations standardisées des compétences des élèves, au niveau national et au niveau international. Nous proposons un panorama de ces méthodes, de façon pédagogique, mais également technique. Leurs fondements théoriques ainsi que leurs hypothèses sous-jacentes sont présentés. Nous montrons leur intérêt d’un point de vue pratique, mais également leurs limites. Enfin, une description des analyses psychométriques réalisées dans le cadre d’une évaluation du cycle Cedre est proposée.
-caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}): {{!!mt-publication.title}}
 color: #b21a2c
 created: 20181203225138015
 creator: Charles Delbé

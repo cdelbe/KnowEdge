@@ -1,6 +1,6 @@
 _canonical_uri: http://users.aspete.gr/kpapanikolaou/papers/CP-ICTAI07.pdf
 abstract: In this paper we present a web-based group formation tool that supports the instructor to automatically create both homogeneous and heterogeneous groups based on up to three criteria and the learner to negotiate the grouping. Moreover, the instructor is allowed to manually group learners based on specific criteria. A discriminative feature of this tool is the use of the Fuzzy C-Means algorithm for homogeneous grouping, which provides for each learner the probability of belonging to different groups. This information is also provided to the instructor to support him/her in manually exchanging learners or intervening in the initial grouping. Moreover, the learners are informed for the groups formed and they are allowed to negotiate their group assignment. Preliminary evaluation results provide indications for the efficiency of the proposed approach in forming homogeneous and heterogeneous groups in a real context.
-caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}): {{!!mt-publication.title}}
 color: #b21a2c
 created: 20181014230135786
 creator: Charles Delbé

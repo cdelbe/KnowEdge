@@ -1,5 +1,5 @@
 abstract: When we talk with instructors about their goals for their students, one word comes up again and again: mastery. For instructors, mastery is what signals that a student has succeeded in their course and achieved the kind of learning that lasts.  Every instructor wants their students to master the concepts they’re teaching in their course. But how can students — or an instructor, or tutor — know whether they have truly mastered a concept?  When it comes to learning, what does “mastery” mean?  In this video, Chief Research Knerd David Kuntz sets out to answer this question.
-caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}): {{!!mt-publication.title}}
 color: #b21a2c
 created: 20180916153759218
 creator: Charles Delbé

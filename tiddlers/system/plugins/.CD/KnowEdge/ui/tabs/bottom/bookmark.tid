@@ -1,0 +1,28 @@
+caption: <<bottom-tab-caption>>
+color: #d3d3d3
+created: 20180814195513883
+creator: Charles Delbé
+description: Bookmarks
+icon: $:/plugins/.CD/KnowEdge/images/bookmark
+modified: 20181221191616073
+modifier: Charles Delbé
+mt-contents.type: $:/type/bookmark
+mt-list.filter: 
+mt-list.filter_alt: 
+mt-list.heading: 
+mt-list.heading_alt: 
+mt-list.sort: 
+mt-list.sort_alt: 
+mt-list.template: 
+mt-list.template_alt: 
+mt-source.root: 
+mt-source.tiddler: 
+mt-topics.list: 
+tab-pos: 4
+tags: $:/tags/@CD $:/type/tab $:/tabs/typed
+title: $:/plugins/.CD/KnowEdge/ui/tabs/bottom/bookmark
+type: text/vnd.tiddlywiki
+
+<<mt-slider-input>>
+
+<<bottom-tab-contents>>

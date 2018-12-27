@@ -32,6 +32,8 @@ type: text/vnd.tiddlywiki
     white-space: initial;
 }
 
+.btn-touch-big-down .fas,
+.btn-touch-big-down .far,
 .btn-touch-big-down .fa {
     display: inline;
     width: 32px;

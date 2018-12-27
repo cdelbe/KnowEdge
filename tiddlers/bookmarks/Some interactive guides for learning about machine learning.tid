@@ -5,10 +5,10 @@ creator: Charles Delbé
 description: Some interactive guides for learning about machine learning.
 icon: $:/plugins/.CD/KnowEdge/images/bookmark
 list: [[Machine Learning]]
-modified: 20181215124828175
+modified: 20181221165345130
 modifier: Charles Delbé
 mt-topics.list: [[Machine Learning]]
-tags: Notebook Python $:/tags/embed $:/type/bookmark
+tags: [[Jupyter Notebook]] $:/tags/embed $:/type/bookmark
 title: Some interactive guides for learning about machine learning
 tmap.fa-icon: &#xf097;
 tmap.id: 90793b41-6595-4140-8c92-e2db139b6daa

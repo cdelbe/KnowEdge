@@ -19,13 +19,5 @@ type: text/vnd.tiddlywiki
 }
 .tc-tiddler-view-frame .tc-tiddler-controls .tc-image-star-filled,
 .tc-tiddler-view-frame .tc-tiddler-controls .tc-image-favorites {
-    padding-right: 3px;
-	margin-top: -1px;
-}
-.tc-image-star-filled {
-    /*height: 0.9em!important;*/
-}
-
-button svg.tc-image-favorites {
-	vertical-align: baseline;
+	font-size: 1.25em;
 }

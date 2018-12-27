@@ -1,6 +1,6 @@
 abstract: One of the challenges with research on student engagement is the large variation in the measurement of this construct, which has made it challenging to compare fi ndings across studies. This chapter contributes to our understanding of the measurement of student in engagement in three ways. First, we describe strengths and limitations of different methods for assessing student engagement (i.e., self-report measures, experience sampling techniques, teacher ratings, interviews, and observations). Second, we compare and contrast 11 self-report survey measures of student engagement that have been used in prior research. Across these 11 measures, we describe what is measured (scale name and items), use of measure, samples, and the extent of reliability and validity information available on each measure. Finally, we outline limitations with current approaches to measurement and promising future directions.
 aliases: 
-caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}): {{!!mt-publication.title}}
 color: #b21a2c
 created: 20181027233837174
 creator: Charles Delbé

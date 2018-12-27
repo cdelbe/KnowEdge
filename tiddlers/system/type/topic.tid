@@ -4,13 +4,13 @@ created: 20180729190645805
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/topic
 list: 
-modified: 20181125011556800
+modified: 20181221232024539
 modifier: Charles Delbé
 mt-dashboard.heading: Topics
 mt-dashboard.icon: $:/plugins/.CD/KnowEdge/images/topic
 mt-source.type: $:/type/root
 mt-template.fields: $:/plugins/.CD/KnowEdge/templates/types/topic
-tags: $:/tags/MagicTabs/dashboard
+tags: $:/tags/@CD $:/tags/MagicTabs/dashboard
 title: $:/type/topic
 type: text/vnd.tiddlywiki
 

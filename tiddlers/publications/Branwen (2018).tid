@@ -1,0 +1,24 @@
+abstract: Spaced repetition is a technique for efficient memorization & practice of skills where instead of doing a lot of work quickly, each item’s practices are automatically spread out over time, with increasing durations as one learns the item. I review what this technique is useful for, some of the large research literature on it and the testing effect (up to ~2013, primarily), the available software tools and use patterns, and miscellaneous ideas & observations on it
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}): {{!!mt-publication.title}}
+color: #b21a2c
+created: 20181223211600580
+creator: Charles Delbé
+description: This is the website of Gwern Branwen, writer & independent researcher. 
+icon: $:/plugins/.CD/KnowEdge/images/publication
+list: [[Spaced Reinforcement]] [[Spacing Effect]]
+modified: 20181223212701320
+modifier: Charles Delbé
+mt-authors.title: Branwen
+mt-publication.citation: {{!!mt-authors.title}} ({{!!mt-publication.date}}). {{!!mt-publication.title}}.
+mt-publication.date: 2018
+mt-publication.subtitle: 
+mt-publication.title: Efficient memorization using the spacing effect: literature review of widespread applicability, tips on use & what it's good for.
+mt-source.authors.list: [[Gwern Branwen]]
+mt-topics.list: [[Spaced Reinforcement]] [[Spacing Effect]]
+tags: $:/tags/embed @:/type/blogpost $:/type/publication
+title: Branwen (2018)
+tmap.fa-icon: &x#f0f6;
+tmap.id: d114e2cd-e61f-46f8-a2ee-9b8037543369
+type: text/vnd.tiddlywiki
+url: https://www.gwern.net/Spaced-repetition
+

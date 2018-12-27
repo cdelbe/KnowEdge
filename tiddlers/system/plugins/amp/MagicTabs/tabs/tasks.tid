@@ -4,7 +4,7 @@ created: 20150125013421426
 creator: Alberto Molina Pérez
 description: Tasks
 icon: 
-modified: 20181217043626523
+modified: 20181221175925825
 modifier: Charles Delbé
 mt-contents.type: $:/type/task
 mt-list.filter: 
@@ -13,7 +13,7 @@ mt-list.heading:
 mt-list.heading_alt: Completed
 mt-list.template: $:/plugins/amp/MagicTabs/templates/tabs/tasks
 mt-list.template_alt: 
-tags: $:/type/tab $:/plugins/amp/MagicTabs/common $:/tabs/all
+tags: $:/type/tab $:/plugins/amp/MagicTabs/common
 title: $:/plugins/amp/MagicTabs/tabs/tasks
 type: text/vnd.tiddlywiki
 

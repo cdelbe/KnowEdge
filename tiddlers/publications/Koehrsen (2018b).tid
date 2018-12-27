@@ -1,5 +1,5 @@
 abstract: These articles cover the concepts and a full implementation as applied to predicting customer churn. The project [[Jupyter Notebooks are all available on GitHub|https://github.com/Featuretools/predicting-customer-churn/tree/master/churn]].
-caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}): {{!!mt-publication.title}}
 color: #b21a2c
 created: 20181208213628506
 creator: Charles Delbé

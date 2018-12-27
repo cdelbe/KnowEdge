@@ -1,5 +1,5 @@
 abstract: Cet ouvrage incomparable offre de l’information détaillée sur les concepts et les principes fondamentaux de la théorie historico-culturelle développée par Lev Vygotsky, ses étudiants et ses collègues ainsi que par trois générations de chercheurs néovygotskiens en Russie et en Occident.   Le livre "Les outils de la pensée" permet aux éducateurs de fournir aux enfants les outils cognitifs nécessaires à l’apprentissage. Des explications et des stratégies concrètes relatives à l’étayage de l’apprentissage et du développement des jeunes enfants sont présentées tout au long de l’ouvrage.   Voici quelques sujets dont traite cet ouvrage :  * Les gains développementaux des poupons et des trottineurs, des enfants d’âge préscolaire et des enfants du primaire, et comment les étayer.  * Des stratégies supplémentaires pour soutenir les enfants ayant des besoins spéciaux.  * L’évaluation dynamique en tant qu’application de la zone proximale de développement.  * Des résultats de recherche et des applications pratiques de l’approche néovygotskienne
-caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}): {{!!mt-publication.title}}
 color: #b21a2c
 created: 20180820022909854
 creator: Charles Delbé

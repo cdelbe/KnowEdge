@@ -8,6 +8,21 @@ title: $:/plugins/.CD/KnowEdge/styles/footnotes
 tmap.id: d8d45223-d0f8-4713-82c3-fc0e20843056
 type: text/vnd.tiddlywiki
 
+.tc-drop-down dd
+{
+max-width:300px;
+word-break: break;
+white-space:normal;
+padding :0;
+padding-left: 5px;}
+
+.tc-drop-down dl
+{
+padding: 5px;
+}
+
+tc-drop-down a {display:inline!important;padding:0}
+
 .tc-footnote-popup {
     background-color: <<colour notification-background>>;
     border-radius: 6px;

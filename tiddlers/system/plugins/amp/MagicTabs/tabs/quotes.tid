@@ -4,7 +4,7 @@ created: 20141123011444936
 creator: Alberto Molina Pérez
 description: Quotes
 icon: $:/plugins/amp/MagicTabs/images/quote
-modified: 20181216084212864
+modified: 20181221202251844
 modifier: Charles Delbé
 mt-contents.type: $:/type/quote
 mt-list.filter: [all[tiddlers]mt-source.tiddler<currentTiddler>] [all[current]listed[mt-source.authors.list]] [all[current]listed[mt-topics.list]] +[tag[$:/type/quote]!has[draft.of]!is[system]nsort[mt-quote.page.alpha]]

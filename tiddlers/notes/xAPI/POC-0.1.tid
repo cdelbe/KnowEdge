@@ -1,0 +1,18 @@
+about: 
+color: #FFA500
+created: 20181223234435321
+creator: Charles Delbé
+description: 
+icon: $:/plugins/.CD/KnowEdge/images/note
+list: xAPI
+modified: 20181226105139083
+modifier: Charles Delbé
+mt-source.parents.list: 
+mt-source.tiddler: Tactileo Data Mining
+mt-topics.list: xAPI
+tags: $:/tags/embed $:/type/note [[Jupyter Notebook]]
+title: xAPI/POC-0.1
+tmap.id: 915a12b9-cb39-465e-b8b5-1d9fc549ecb3
+type: text/vnd.tiddlywiki
+url: http://localhost:8888/notebooks/Documents/dev/sources/xAPI/POC-0.1.ipynb
+

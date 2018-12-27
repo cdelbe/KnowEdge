@@ -2,10 +2,10 @@ color: #81b53b
 created: 20181130000723519
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/tutorial
-modified: 20181215042725131
+modified: 20181222004931769
 modifier: Charles Delbé
 summary: 
-tags: @:/tags/TOC $:/type/reference
+tags: [[Content Formatting]] $:/type/reference
 title: MarkDown
 tmap.fa-icon: &#xf01d;
 tmap.id: 57d96439-f3cd-4485-8df4-1ff09676790b

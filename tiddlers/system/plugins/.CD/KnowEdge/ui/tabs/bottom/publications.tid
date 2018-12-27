@@ -1,0 +1,21 @@
+caption: <<bottom-tab-caption>>
+created: 20180814195513883
+creator: Charles Delbé
+description: Publications
+icon: $:/plugins/.CD/KnowEdge/images/publication
+modified: 20181221205341013
+modifier: Charles Delbé
+mt-contents.type: $:/type/publication
+mt-list.filter: [all[current]listed[mt-source.authors.list]] [all[current]listed[mt-topics.list]] +[tag[$:/type/publication]!is[system]!has[draft.of]nsort[mt-publication.date]]
+mt-list.filter_alt: 
+mt-list.heading: 
+mt-list.heading_alt: 
+mt-list.template: $:/plugins/.CD/KnowEdge/templates/tabs/publications
+mt-list.template_alt: 
+tags: $:/tags/@CD $:/type/tab $:/tabs/typed
+title: $:/plugins/.CD/KnowEdge/ui/tabs/bottom/publications
+type: text/vnd.tiddlywiki
+
+<<mt-slider-input "$:/plugins/amp/MagicTabs/new/default">>
+
+<<bottom-tab-contents>>

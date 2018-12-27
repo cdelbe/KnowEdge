@@ -1,0 +1,17 @@
+authors: 
+color: #800080
+created: 20180820022909854
+creator: Charles Delbé
+icon: $:/plugins/.CD/KnowEdge/images/concept
+list: 
+modified: 20181221133259410
+modifier: Charles Delbé
+mt-topics.list: 
+tags: Assessment $:/type/concept $:/type/knowledge
+title: Sommative Assessment
+tmap.fa-icon: &#xf12e;
+tmap.id: f54f9aa9-6c7b-4218-948e-1aa3d3cb3afb
+type: text/vnd.tiddlywiki
+
+''L'évaluation sommative'' permet d'évaluer le niveau de connaissances acquises à l'''issue'' d'un cours ou au cours d'un examen final. La notation y a une place très importante. 
+L'évaluation sommative sanctionne soit le niveau d'acquisition (ex : par une note sur 20) ou bien indique si à la suite de ses résultats un candidat est admis ou non admis à son examen.

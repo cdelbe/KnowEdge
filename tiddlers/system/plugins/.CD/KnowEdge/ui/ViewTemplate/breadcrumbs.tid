@@ -2,8 +2,8 @@ apex_tag: $:/type/topic
 created: 20151230084404491
 creator: Charles Delbé
 length_limit: 10
-list-after: $:/plugins/.CD/KnowEdge/ui/ViewTemplate/author
-modified: 20181216231945476
+list-after: $:/plugins/.CD/KnowEdge/ui/ViewTemplate/tidauthor
+modified: 20181223153918218
 modifier: Charles Delbé
 tags: $:/tags/@CD $:/tags/ViewTemplate
 title: $:/plugins/.CD/KnowEdge/ui/ViewTemplate/breadcrumbs

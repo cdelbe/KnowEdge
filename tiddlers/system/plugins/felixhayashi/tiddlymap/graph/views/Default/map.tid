@@ -1,17 +1,8 @@
 created: 20180809195429270
 creator: Charles Delbé
-modified: 20181201161717427
+modified: 20181222040337014
 modifier: Charles Delbé
 title: $:/plugins/felixhayashi/tiddlymap/graph/views/Default/map
 type: text/vnd.tiddlywiki
 
-{
- "93facc0a-b01c-4c7e-93dd-bfbb4d315b8e": {
-  "x": -413,
-  "y": -79
- },
- "0695ed21-9a9f-44ac-a10d-79e7f995d381": {
-  "x": -176,
-  "y": 59
- }
-}
+{}

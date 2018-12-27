@@ -2,23 +2,19 @@ caption: Bienvenue !
 created: 20180731012739335
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/info
-modified: 20181216005936067
+modified: 20181223211137839
 modifier: Charles Delbé
-tags: 
+tags: $:/tags/@CD
 title: $:/plugins/.CD/KnowEdge/ui/modals/welcome
 tmap.id: 5243c297-51c4-4a29-8d48-71851045404e
 type: text/vnd.tiddlywiki
 
-''Bienvenue !''<br/>
-Base de connaissances sur les EdTechs et la cognition de [[l'Apprentissage|Learning]] (v.1.0b) – © [[Charles Delbé]] 2018. 
+''Bienvenue !''<br><br>
+Base de connaissances sur les EdTechs et la cognition de [[l'Apprentissage|Learning]] <br>
 @@.figure
 [img width=250px [images/MKT/R&D]]
 @@
-
-''Please enter an ID: '' <$edit-text tiddler="$:/status/UserName" size=20 tag=input default="Type name here" />
-<br/>
-
-Cliquez sur `Ne plus montrer` pour ne ne plus voir ce message lors du chargement du wiki.<br/><br/>
+''Know/Edge'' v.<<@get-cfg-value "ke-version">> © [[Charles Delbé]] 2018 <br><br>
 <$navigator>
 <!-- L'état stocké est "inactive" -->
-<$button><$action-setfield $tiddler='$:/state/.CD/startup/modal' text='inactive'/>Ne plus montrer</$button></$navigator>
+<$button><$action-setfield $tiddler='$:/state/.CD/startup/modal' text='inactive'/><$action-sendmessage $message='tm-save-tiddler' $param='$:/state/.CD/startup/modal'/><$action-sendmessage $message='tm-auto-save-wiki'/>Ne plus montrer</$button></$navigator>

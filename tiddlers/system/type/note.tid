@@ -1,16 +1,16 @@
 caption: Note
-color: #808000
+color: #5778d7
 created: 20141231095056897
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/note
-modified: 20181215194403868
+modified: 20181223235905832
 modifier: Charles Delbé
 mt-dashboard.heading: Notes
 mt-dashboard.icon: $:/plugins/.CD/KnowEdge/images/note
 mt-source.type: $:/type/root
-mt-template.fields: $:/plugins/amp/MagicTabs/templates/types/note
+mt-template.fields: $:/plugins/.CD/KnowEdge/templates/types/note
 mt-template.form: 
-tags: $:/tags/Tagging $:/tags/MagicTabs/dashboard MagicTabs
+tags: $:/tags/@CD/tweaked $:/tags/Tagging $:/tags/MagicTabs/dashboard MagicTabs
 title: $:/type/note
 type: text/vnd.tiddlywiki
 

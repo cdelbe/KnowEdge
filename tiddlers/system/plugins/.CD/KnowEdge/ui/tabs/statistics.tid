@@ -1,7 +1,7 @@
 caption: Statistics
 created: 20180814200056453
 creator: Charles Delbé
-modified: 20181217105532097
+modified: 20181226234906064
 modifier: Charles Delbé
 tags: $:/tags/@CD
 title: $:/plugins/.CD/KnowEdge/ui/tabs/statistics
@@ -12,16 +12,17 @@ type: text/vnd.tiddlywiki
 !! Versions
 <!-- |!Date de release |<<released>> |-->
 |!TiddlyWiki Version | <<version>> |
-|!TiddlyMap Plugin Version | {{$:/plugins/felixhayashi/tiddlymap/misc/meta##originalVersion}} |
-|!Knowledge Base Version | <<@get-cfg-value "ke-version">> |
+|![[TiddlyMap|$:/plugins/felixhayashi/tiddlymap]] Plugin Version | {{$:/plugins/felixhayashi/tiddlymap/misc/meta##originalVersion}} |
+|!Maskott [[Know/Edge]] Version | <<@get-cfg-value "ke-version">> |
 <!-- |!Compatible with TW5 |<<core-version>> |-->
 
 <<core-version>>
 
 <!-- Stats -->
-!! Statistiques
-|!Number of tiddlers | <$count filter="[!is[system]sort[title]]"/> |
+!! Statistics
+|!Number of tiddlers | <$count filter="[!is[system]]"/> |
 |!Number of tags | <$count filter="[tags[]]"/> |
 |!Number of topics | <$count filter="[tag[$:/type/topic]]"/> |
+|!Number of notes | <$count filter="[tag[$:/type/note]]"/> |
 |!Number of concepts | <$count filter="[tag[$:/type/concept]]"/> |
 |!Number of publications | <$count filter="[tag[$:/type/publication]]"/> |

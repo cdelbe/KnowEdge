@@ -1,5 +1,5 @@
 abstract: Computerized assessments are an increasingly popular way to evaluate students. They need to be optimized so that students can receive an accurate evaluation in as little time as possible. Such optimization is possible through learning analytics and computerized adaptive tests (CATs): the next question is then chosen according to the previous responses of the student, thereby making assessment more efficient. Using the data collected from previous students in non-adaptive tests, it is thus possible to provide formative adaptive tests to new students by telling them what to do next. This chapter reviews several models of CATs found in various fields, together with their main characteristics. We then compare these models empirically on real data. We conclude with a discussion of future research directions for computerized assessments.
-caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}): {{!!mt-publication.title}}
 color: #b21a2c
 created: 20180916153759218
 creator: Charles Delbé

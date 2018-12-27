@@ -3,12 +3,12 @@ created: 20141106161534068
 creator: Alberto Molina Pérez
 description: Info
 icon: $:/plugins/.CD/KnowEdge/images/info
-modified: 20181208231436056
+modified: 20181221190748508
 modifier: Charles Delbé
 mt-list.filter: 
 mt-list.heading: 
 mt-list.template: $:/plugins/amp/MagicTabs/templates/tabs/info
-tags: $:/type/tab $:/plugins/amp/MagicTabs/common $:/tabs/all
+tags: $:/type/tab $:/plugins/amp/MagicTabs/common
 title: $:/plugins/amp/MagicTabs/tabs/info
 type: text/vnd.tiddlywiki
 

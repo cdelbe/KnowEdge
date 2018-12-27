@@ -1,5 +1,5 @@
 abstract: Are you having doubts about the concepts related to learning analytics? This quick guide may help you.
-caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}): {{!!mt-publication.title}}
 color: #b21a2c
 created: 20181202182621770
 creator: Charles Delbé

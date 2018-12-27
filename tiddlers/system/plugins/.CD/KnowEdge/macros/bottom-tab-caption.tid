@@ -1,0 +1,60 @@
+created: 20181221181149308
+creator: Charles Delbé
+modified: 20181223144122923
+modifier: Charles Delbé
+tags: $:/tags/viewsource $:/tags/@CD $:/tags/Macro
+title: $:/plugins/.CD/KnowEdge/macros/bottom-tab-caption
+type: text/vnd.tiddlywiki
+
+\define _bottom-tab-caption(type, caption)
+<$set name="mt-list.filter" filter="[[$(currentTab)$]has[mt-list.filter]!mt-list.filter[]]" value={{$(currentTab)$!!mt-list.filter}} emptyValue=<<bottom-tab-filter-related "$type$">> >
+<$set name="mt-list.filter_alt" filter="[[$(currentTab)$]has[mt-list.filter_alt]!mt-list.filter_alt[]]" value={{$(currentTab)$!!mt-list.filter_alt}} emptyValue=<<bottom-tab-filter-tagging "$type$">> >$caption$
+<$reveal state="$:/config/MagicTabs/caption/counter/$:/plugins/amp/MagicTabs" type="match" text="show">
+    <small>(<$count filter=<<mt-list.filter>>/>/<$count filter=<<mt-list.filter_alt>>/>)</small>
+</$reveal>
+</$set>
+</$set>
+\end
+
+\define _bottom-tab-caption-related-only(type, caption)
+<$set name="mt-list.filter" filter="[[$(currentTab)$]has[mt-list.filter]!mt-list.filter[]]" value={{$(currentTab)$!!mt-list.filter}} emptyValue=<<bottom-tab-filter-related "$type$">> >$caption$
+<$reveal state="$:/config/MagicTabs/caption/counter/$:/plugins/amp/MagicTabs" type="match" text="show">
+    <small>(<$count filter=<<mt-list.filter>>/>)</small>
+</$reveal>
+</$set>
+\end
+  
+\define _bottom-tab-caption-tagging-only(type, caption)
+<$set name="mt-list.filter_alt" filter="[[$(currentTab)$]has[mt-list.filter_alt]!mt-list.filter_alt[]]" value={{$(currentTab)$!!mt-list.filter_alt}} emptyValue=<<bottom-tab-filter-tagging "$type$">> >$caption$
+<$reveal state="$:/config/MagicTabs/caption/counter/$:/plugins/amp/MagicTabs" type="match" text="show">
+    <small>(<$count filter=<<mt-list.filter_alt>>/>)</small>
+</$reveal>
+</$set>
+\end
+
+\define bottom-tab-caption()
+	<$reveal state="$(currentTab)$!!icon" type="nomatch" text="">
+		<$macrocall $name="_bottom-tab-caption" type={{$(currentTab)$!!mt-contents.type}}/> <!--caption={{$(currentTab)$!!icon}}-->
+    </$reveal>
+    <$reveal state="$(currentTab)$!!icon" type="match" text="">
+        <$macrocall $name="_bottom-tab-caption" type={{$(currentTab)$!!mt-contents.type}} caption={{$(currentTab)$!!description}}/>
+    </$reveal>
+\end
+
+\define bottom-tab-caption-related()
+	<$reveal state="$(currentTab)$!!icon" type="nomatch" text="">
+		<$macrocall $name="_bottom-tab-caption-related-only" type={{$(currentTab)$!!mt-contents.type}}/> <!--caption={{$(currentTab)$!!icon}}-->
+    </$reveal>
+    <$reveal state="$(currentTab)$!!icon" type="match" text="">
+        <$macrocall $name="_bottom-tab-caption-related-only" type={{$(currentTab)$!!mt-contents.type}} caption={{$(currentTab)$!!description}}/>
+    </$reveal>
+\end
+  
+\define bottom-tab-caption-tagging()
+	<$reveal state="$(currentTab)$!!icon" type="nomatch" text="">
+		<$macrocall $name="_bottom-tab-caption-tagging-only" type={{$(currentTab)$!!mt-contents.type}}/> <!--caption={{$(currentTab)$!!icon}}-->
+    </$reveal>
+    <$reveal state="$(currentTab)$!!icon" type="match" text="">
+        <$macrocall $name="_bottom-tab-caption-tagging-only" type={{$(currentTab)$!!mt-contents.type}} caption={{$(currentTab)$!!description}}/>
+    </$reveal>
+\end

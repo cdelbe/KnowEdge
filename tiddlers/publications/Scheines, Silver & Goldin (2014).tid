@@ -1,5 +1,5 @@
 abstract: Knowing the prerequisite structure among the knowledge components in a domain is crucial for designing instruction and for assessing mastery. Treating KCs as latent variables, we investigate how data on the items that test these skills can be used to discover the prerequisite structure among such skills. Our method assumes that we know or have discovered the Q-matrix (the measurement model) that connects latents representing the skill to items measuring the skills. By modeling the pre-requisite relations as a causal graph, we can then search for the causal structure among the latents via an extension of an algorithm introduced by Spirtes, Glymour, and Scheines in 2000. We validate the algorithm using simulated data, and discuss a potential application to a High School geometry assessment dataset.
-caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}): {{!!mt-publication.title}}
 color: #b21a2c
 created: 20181028222152918
 creator: Charles Delbé

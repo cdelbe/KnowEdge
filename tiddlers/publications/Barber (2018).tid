@@ -1,12 +1,12 @@
 abstract: 
-caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}): {{!!mt-publication.title}}
 color: #b21a2c
 created: 20180814205623702
 creator: Charles Delbé
 description: test
 icon: $:/plugins/.CD/KnowEdge/images/blogpost
 list: [[Big Data]] [[Data Science]]
-modified: 20181216213445940
+modified: 20181222044613373
 modifier: Charles Delbé
 mt-authors.title: Barber
 mt-publication.citation: Barber (2018). Data science concepts you need to know! Part 1. Medium.

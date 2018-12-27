@@ -1,6 +1,6 @@
 _canonical_uri: ./files/pdf/Nkambou_et_al_2010/0-Foreword-Content.pdf
 abstract: 
-caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}): {{!!mt-publication.title}}
 color: #b21a2c
 created: 20181130014830472
 creator: Charles Delbé

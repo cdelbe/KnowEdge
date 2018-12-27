@@ -1,12 +1,12 @@
 created: 20181205185946150
 creator: Charles Delbé
 list-after: $:/plugins/.CD/KnowEdge/ui/ViewTemplate/breadcrumbs
-modified: 20181217104828934
+modified: 20181222044843138
 modifier: Charles Delbé
-tags: $:/tags/ViewTemplate
+tags: $:/tags/@CD/tweaked $:/tags/ViewTemplate
 title: $:/plugins/amp/MagicTabs/ViewTemplate/tags
 type: text/vnd.tiddlywiki
 
 <$reveal type="nomatch" state=<<folded-state>> text="hide" tag="div" retain="yes" animate="yes">
-<div class="tw-tags-wrapper"><$reveal state="$:/config/SystemTags/Visibility/$:/plugins/amp/MagicTabs/noSysTags" type="match" text="show" default="hide"><$list filter="[all[current]tags[]is[system]sort[title]]" template="$:/plugins/.CD/KnowEdge/ui/TagTemplate" storyview="pop"/></$reveal><$list filter="[all[current]tags[]!is[system]sort[icon]]" template="$:/plugins/.CD/KnowEdge/ui/TagTemplate" storyview="pop"/><$list filter="[all[current]!is[system]list[!!mt-topics.list]sort[icon]]" template="$:/plugins/.CD/KnowEdge/ui/TagTemplate" storyview="pop"/></div>
+<div class="tw-tags-wrapper"><$reveal state="$:/config/SystemTags/Visibility/$:/plugins/amp/MagicTabs/noSysTags" type="match" text="show" default="hide"><$list filter="[all[current]tags[]is[system]sort[title]]" template="$:/plugins/.CD/KnowEdge/ui/TagTemplate" storyview="pop"/></$reveal><$list filter="[all[current]tags[]!is[system]sort[icon]]" template="$:/plugins/.CD/KnowEdge/ui/TagTemplate" storyview="pop"/><$list filter="[all[current]!is[system]list[!!mt-topics.list]sort[icon]]" template="$:/plugins/.CD/KnowEdge/ui/TopicTemplate" storyview="pop"/></div>
 </$reveal>

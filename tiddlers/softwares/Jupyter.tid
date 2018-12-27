@@ -3,7 +3,7 @@ created: 20181212194631933
 creator: Charles Delbé
 description: Project Jupyter exists to develop open-source software, open-standards, and services for interactive computing across dozens of programming languages.
 icon: $:/plugins/.CD/KnowEdge/images/software
-modified: 20181215081036211
+modified: 20181221193625088
 modifier: Charles Delbé
 tags: Programming Python $:/type/software
 title: Jupyter
@@ -14,9 +14,10 @@ url: https://jupyter.org
 
 ! The Jupyter Notebook
 
-The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
+The [[Jupyter Notebook]] is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
 
 *[[Documentation|https://jupyter-notebook.readthedocs.io/en/stable/]]
 
 ! Running Server
-http://localhost:8888/tree
+*Open Anaconda Navigator
+*http://localhost:8888/tree

@@ -1,0 +1,16 @@
+caption: <<bottom-tab-caption>>
+color: #d3d3d3
+created: 20180814195513883
+creator: Charles Delbé
+description: Models
+icon: $:/plugins/.CD/KnowEdge/images/model
+modified: 20181221190914671
+modifier: Charles Delbé
+mt-contents.type: $:/type/model
+tags: $:/tags/@CD $:/type/tab $:/tabs/typed
+title: $:/plugins/.CD/KnowEdge/ui/tabs/bottom/model
+type: text/vnd.tiddlywiki
+
+<<mt-slider-input>>
+
+<<bottom-tab-contents>>

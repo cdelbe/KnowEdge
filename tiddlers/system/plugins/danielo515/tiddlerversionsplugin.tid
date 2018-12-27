@@ -1,0 +1,14 @@
+author: Danielo515
+created: 20140902114846490
+creator: Danielo515
+description: A plugin for managing different versions of tiddlers
+list: readme license history
+modified: 20141023173123340
+modifier: Danielo515
+plugin-type: plugin
+source: http://danielo515/tiddlerVersionsPlugin
+title: $:/plugins/danielo515/tiddlerversionsplugin
+type: application/json
+version: 0.0.1
+
+{"tiddlers": {}}

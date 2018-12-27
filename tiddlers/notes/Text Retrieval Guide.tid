@@ -1,16 +1,16 @@
 about: 
-color: #FFA500
+color: #5778d7
 created: 20181215085909044
 creator: Charles Delbé
 description: This guide will introduce techniques for organizing text data. It will show how to analyze a large corpus of text, extracting feature vectors for individual documents, in order to be able to retrieve documents with similar content.
 icon: $:/plugins/.CD/KnowEdge/images/note
 list: [[Text Mining]]
-modified: 20181219235204872
+modified: 20181221165358625
 modifier: Charles Delbé
 mt-source.parents.list: 
 mt-source.tiddler: 
 mt-topics.list: [[Text Mining]]
-tags: $:/tags/embed Notebook $:/type/note
+tags: $:/tags/embed $:/type/note [[Jupyter Notebook]]
 title: Text Retrieval Guide
 tmap.id: bf5114d3-9407-49a4-8831-57ad25c86f81
 type: text/vnd.tiddlywiki

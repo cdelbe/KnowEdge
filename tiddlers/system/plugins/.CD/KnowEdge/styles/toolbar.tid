@@ -51,7 +51,7 @@ nav.tc-top-menu > ul > li > button {
 
 /* TOP BAR RIGHT/TOP */
 .tc-topbar-right {
-     top: {{!!toolbar-top}};
+     top: 3px; /*{{!!toolbar-top}};*/
 }
 
 /* SIZE OF TIDDLER CONTROL BUTTONS */

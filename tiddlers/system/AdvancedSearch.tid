@@ -1,9 +1,9 @@
 caption: Search
 created: 20181029142211183
 creator: Charles Delbé
-icon: $:/core/images/advanced-search-button
+icon: <!--$:/core/images/advanced-search-button-->
 list: 
-modified: 20181216021011106
+modified: 20181223131645968
 modifier: Charles Delbé
 tab-pos: 15
 tags: $:/tags/@CD $:/tags/@CD/tweaked $:/tags/SideBar

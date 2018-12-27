@@ -1,5 +1,5 @@
 abstract: L'objectif de ce document est d'aider les personnes ayant une connaissance de base du machine learning à profiter des bonnes pratiques de Google en la matière. Son style est semblable à celui du guide de style Google C++ ainsi qu'à d'autres guides populaires de programmation pratique. Si vous avez suivi un cours sur le machine learning, ou bien si vous avez créé un modèle de machine learning ou travaillé sur un tel modèle, vous avez toute l'expérience nécessaire pour lire ce document.
-caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}): {{!!mt-publication.title}}
 color: #b21a2c
 created: 20180814205623702
 creator: Charles Delbé

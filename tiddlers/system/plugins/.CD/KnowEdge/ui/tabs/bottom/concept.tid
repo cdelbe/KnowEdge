@@ -1,0 +1,15 @@
+caption: <<bottom-tab-caption>>
+created: 20180814195513883
+creator: Charles Delbé
+description: Concepts
+icon: $:/plugins/.CD/KnowEdge/images/concept
+modified: 20181221190907884
+modifier: Charles Delbé
+mt-contents.type: $:/type/concept
+tags: $:/tags/@CD $:/type/tab $:/tabs/typed
+title: $:/plugins/.CD/KnowEdge/ui/tabs/bottom/concept
+type: text/vnd.tiddlywiki
+
+<<mt-slider-input>>
+
+<<bottom-tab-contents>>

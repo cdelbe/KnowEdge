@@ -96,8 +96,8 @@ div.tag-list-item {
 /* DIV de la liste des tag en mode view */
 .tc-tiddler-view-frame .tw-tags-wrapper {
     /*float: left;*/
-    padding-top: 4px;
-    padding-bottom: 2px;
+    /*padding-top: 4px;*/
+    /*padding-bottom: 2px;*/
     background-color: <<colour tiddler-header-background>>;
 }
 

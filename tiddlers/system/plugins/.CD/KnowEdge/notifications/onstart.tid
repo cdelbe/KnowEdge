@@ -1,6 +1,6 @@
 created: 20180812060253348
 creator: Charles Delbé
-modified: 20181216215612003
+modified: 20181223205852038
 modifier: Charles Delbé
 tags: $:/tags/StartupAction $:/tags/@CD
 title: $:/plugins/.CD/KnowEdge/notifications/onstart
@@ -12,8 +12,9 @@ type: text/vnd.tiddlywiki
 <!--<$action-sendmessage $message='tm-login'/>-->
 
 <$reveal type='nomatch' state='$:/state/.CD/startup/modal' text='inactive'>
-
-<$action-sendmessage $message='tm-modal' $param="$:/plugins/.CD/KnowEdge/ui/modals/welcome"/>
-
+	<$action-sendmessage $message='tm-modal' $param="$:/plugins/.CD/KnowEdge/ui/modals/welcome"/>
 </$reveal>
 
+<$reveal type='match' state='$:/status/UserName' text=''>
+	<$action-sendmessage $message='tm-modal' $param="$:/plugins/.CD/KnowEdge/ui/modals/ID"/>
+</$reveal>

@@ -2,10 +2,10 @@ caption: Home
 color: #0080c0
 created: 20180814195513883
 creator: Charles Delbé
-description: Bienvenue sur la base de connaissances sur les EdTechs et la cognition de l'[[Apprentissage|Learning]] 🧠 !
+description: Bienvenue sur la base de connaissances sur les EdTechs et la cognition de l'[[Apprentissage|Learning]] !
 icon: $:/plugins/.CD/KnowEdge/images/home
 list: .TODO Event $:/type/bookmark $:/plugins/.CD/KnowEdge/ui/SideBar/objectManager $:/ControlPanel Journal Reference
-modified: 20181216234641440
+modified: 20181227014509893
 modifier: Charles Delbé
 num_recent: 50
 state: created

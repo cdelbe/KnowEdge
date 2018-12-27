@@ -3,15 +3,15 @@ core-version: >=5.1.16
 created: 20181104091753482
 creator: Charles Delbé
 description: Simple Search
-list: readme license
-modified: 20181104220017358
+list: readme support license
+modified: 20181223190000446
 modifier: Charles Delbé
 name: Simple Search
 plugin-type: plugin
 source: https://tid.li/tw5/plugins.html
 title: $:/plugins/telmiger/simple-search
 type: application/json
-version: 1.0.5
+version: 1.0.7
 
 {
     "tiddlers": {
@@ -44,11 +44,11 @@ version: 1.0.5
         },
         "$:/plugins/telmiger/simple-search/readme": {
             "created": "20170208062643245",
-            "text": "!! Simple Search \n\nThis plugin provides a nice and simple interface for searching your wiki. It is designed for mobile and desktop screens.\n\n''A single button is enough.'' The plugin hides the search input field in the sidebar and displays a {{$:/plugins/telmiger/simple-search/ui/Buttons/search}} [[button|$:/plugins/telmiger/simple-search/ui/Buttons/search]] instead. \n\n---\n\n{{$:/plugins/telmiger/simple-search/settings}}\n\n---\n\n{{$:/plugins/telmiger/support}}\n",
+            "text": "!! Simple Search \n\nThis plugin provides a nice and simple interface for searching your wiki. It is designed for mobile and desktop screens.\n\n''Global keyboard shortcut:'' Press <kbd>Shift</kbd> + <kbd>Space</kbd> to launch/hide the search field (new for TW 5.1.18+).\n\n''Reduce to the max.'' The plugin hides the search input field in the sidebar and displays a single {{$:/plugins/telmiger/simple-search/ui/Buttons/search}} [[button|$:/plugins/telmiger/simple-search/ui/Buttons/search]] instead. \n\n---\n\n{{$:/plugins/telmiger/simple-search/settings}}\n",
             "title": "$:/plugins/telmiger/simple-search/readme",
             "tags": "EditorCounter",
             "modifier": "Thomas Elmiger",
-            "modified": "20181104092939173",
+            "modified": "20181222221016728",
             "creator": "Thomas Elmiger"
         },
         "$:/plugins/telmiger/simple-search/results": {
@@ -68,14 +68,14 @@ version: 1.0.5
             "creator": "Thomas Elmiger"
         },
         "$:/plugins/telmiger/simple-search/ui/Buttons/search": {
-            "created": "20181031170153387",
             "text": "\\define search-button-label()\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\">\n{{$:/plugins/telmiger/simple-search/images/search-button}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<span class=\"tc-btn-text\"><$text text={{$:/plugins/telmiger/simple-search/ui/Buttons/search!!description}}/></span>\n</$list>\n\\end\n\n\\define control-panel-button-on(class)\n<$button tooltip={{$:/plugins/telmiger/simple-search/ui/Buttons/search!!description}} aria-label={{$:/plugins/telmiger/simple-search/ui/Buttons/search!!description}} class=\"\"\"$(tv-config-toolbar-class)$ $class$\"\"\">\n<$action-navigate $to=\"$:/Search\" $scroll=\"no\"/>\n<<search-button-label>>\n</$button>\n\\end\n\n\\define control-panel-button-off(class)\n<$button message=\"tm-close-tiddler\" param=\"$:/Search\" tooltip=\"Close Search\" aria-label=\"Hide tiddler Search\" class=\"\"\"$(tv-config-toolbar-class)$ $class$\"\"\">\n<<search-button-label>>\n</$button>\n\\end\n\n<$list filter=\"[list[$:/StoryList]] +[field:title[$:/Search]]\" emptyMessage=<<control-panel-button-on>>>\n<<control-panel-button-off \"tc-selected\">>\n</$list>\n",
             "title": "$:/plugins/telmiger/simple-search/ui/Buttons/search",
-            "tags": "$:/tags/PageControls",
+            "tags": "$:/tags/PageControls $:/tags/TopRightBar",
             "modifier": "Thomas Elmiger",
-            "modified": "20181104075013997",
+            "modified": "20181209105631393",
             "description": "Search",
             "creator": "Thomas Elmiger",
+            "created": "20181031170153387",
             "caption": "{{$:/plugins/telmiger/simple-search/images/search-button}} Search"
         },
         "$:/Search": {
@@ -106,6 +106,30 @@ version: 1.0.5
             "title": "$:/plugins/telmiger/simple-search/settings/border-colour",
             "text": "transparent",
             "modified": "20181104131002009"
+        },
+        "$:/config/ShortcutInfo/simple-search": {
+            "text": "Launch a search",
+            "title": "$:/config/ShortcutInfo/simple-search",
+            "tags": ""
+        },
+        "$:/config/shortcuts/simple-search": {
+            "created": "20181222220644632",
+            "text": "shift-Space",
+            "title": "$:/config/shortcuts/simple-search",
+            "modified": "20181222220651656"
+        },
+        "$:/plugins/telmiger/simple-search/ui/KeyboardShortcuts/search": {
+            "text": "\\define launchSearch() <$action-navigate $to=\"$:/Search\" $scroll=\"no\"/>\n<$navigator story=\"$:/StoryList\" history=\"$:/HistoryList\" openLinkFromInsideRiver={{$:/config/Navigation/openLinkFromInsideRiver}} openLinkFromOutsideRiver={{$:/config/Navigation/openLinkFromOutsideRiver}} relinkOnRename={{$:/config/RelinkOnRename}}>\n<$list filter=\"[list[$:/StoryList]] +[field:title[$:/Search]]\" emptyMessage=<<launchSearch>>>\n<$action-sendmessage $message=\"tm-close-tiddler\" $param=\"$:/Search\"/>\n</$list>\n</$navigator>\n",
+            "title": "$:/plugins/telmiger/simple-search/ui/KeyboardShortcuts/search",
+            "key": "((simple-search))",
+            "tags": "$:/tags/KeyboardShortcut"
+        },
+        "$:/plugins/telmiger/simple-search/support": {
+            "created": "20181222180114594",
+            "text": "{{$:/plugins/telmiger/support}}",
+            "title": "$:/plugins/telmiger/simple-search/support",
+            "tags": "",
+            "modified": "20181222180139534"
         }
     }
 }

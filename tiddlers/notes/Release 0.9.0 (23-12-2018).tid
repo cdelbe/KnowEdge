@@ -1,0 +1,19 @@
+color: #5778d7
+created: 20181223144822179
+creator: Charles Delbé
+datetime: 181223154822
+description: 
+icon: $:/plugins/.CD/KnowEdge/images/note
+list: 
+modified: 20181223144923283
+modifier: Charles Delbé
+mt-source.tiddler: 
+mt-topics.list: 
+tags: @:/tags/ReleaseNote $:/type/note
+tasks: 
+title: Release 0.9.0 (23-12-2018)
+tmap.fa-icon: &#xf044;
+tmap.id: ad594581-090d-467e-90c2-c9d53fef4a41
+type: text/vnd.tiddlywiki
+
+*Refactoring: bottom tabs

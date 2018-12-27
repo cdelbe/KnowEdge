@@ -13,7 +13,7 @@ $:/type/note
 \end
 \define noteButton()
 <$button tooltip={{$:/plugins/.CD/KnowEdge/ui/buttons/newNoteHere!!description}} class=<<tv-config-toolbar-class>>>
-<$action-sendmessage $message="tm-new-tiddler" title=<<now "About “$(currentTiddlerTag)$” ($(noteTitleTemplate)$)">> tags=<<noteButtonTags>> mt-topics.list="" list="" datetime=<<now "YY0MM0DD0hh0mm0ss">> mt-source.tiddler="$(currentTiddlerTag)$" description="" tasks="" color="#FFA500" tmap.fa-icon="&#xf044;" icon="$:/plugins/.CD/KnowEdge/images/note"/>
+<$action-sendmessage $message="tm-new-tiddler" title=<<now "About “$(currentTiddlerTag)$” ($(noteTitleTemplate)$)">> tags=<<noteButtonTags>> mt-topics.list="" list="" datetime=<<now "YY0MM0DD0hh0mm0ss">> mt-source.tiddler="$(currentTiddlerTag)$" description="" tasks="" color="#5778d7" tmap.fa-icon="&#xf044;" icon="$:/plugins/.CD/KnowEdge/images/note"/>
 <$list filter="[<tv-config-toolbar-icons>prefix[yes]]">
 {{$:/plugins/.CD/KnowEdge/images/note}}
 </$list>

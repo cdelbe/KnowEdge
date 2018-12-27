@@ -3,13 +3,30 @@ created: 20181208230628315
 creator: Charles Delbé
 description: Interactive charts for browsers and mobile devices.
 icon: $:/plugins/.CD/KnowEdge/images/software
-modified: 20181212083229488
+modified: 20181226235559539
 modifier: Charles Delbé
 tags: [[Charting & Graphing Libraries]] Programming API [[Data Science]] $:/type/software
 title: Google Charts
 tmap.fa-icon: &#xf120;
 tmap.id: 1aa2333d-2a63-45c4-9bf9-b654afb903bb
-type: text/vnd.tiddlywiki
+type: text/x-htmlp
 url: https://developers.google.com/chart/
 
- 
+<div class="devsite-landing-row-header-text" style="box-sizing: inherit; margin: 0px; padding: 0px; -webkit-box-flex: 1; flex: 1 1 auto;">
+<blockquote>
+<p><span style="font-size:14px">Display live data on your site</span></p></blockquote>
+<blockquote>
+<p><span style="font-size:14px"><span style="color:rgb(33, 33, 33); font-family:roboto,sans-serif">About Google chart tools</span></span></p></blockquote></div>
+<div class="devsite-landing-row-group" style="box-sizing: inherit; margin: 0px; padding: 0px; display: flex; color: rgb(33, 33, 33); font-family: Roboto, sans-serif; font-size: 16px;">
+<div class="devsite-landing-row-column" style="box-sizing: inherit; margin: 0px; padding: 0px; display: flex; -webkit-box-flex: 1; flex: 1 0 0%; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; max-width: 100%;">
+<div class="devsite-landing-row-item 
+  
+  
+  
+
+  
+            devsite-landing-row-item-no-image
+  " style="box-sizing: inherit; margin: 0px; padding: 0px; display: flex; -webkit-box-flex: 0; flex: 0 0 auto; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; max-width: 100%;">
+<div class="devsite-landing-row-item-description
+                " style="box-sizing: inherit; margin: 0px; padding: 0px; display: flex; -webkit-box-flex: 1; flex: 1 1 auto; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; min-width: 0px;">
+<div class="devsite-landing-row-item-description-content" style="box-sizing: inherit; margin: 0px; padding: 0px;"><strong>Google chart tools are powerful, simple to use, and free. Try out our rich gallery of interactive charts and data tools.</strong></div></div></div></div></div>

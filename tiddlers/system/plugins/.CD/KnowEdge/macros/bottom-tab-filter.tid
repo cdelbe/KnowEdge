@@ -1,0 +1,18 @@
+created: 20181221172945084
+creator: Charles Delbé
+modified: 20181221215821043
+modifier: Charles Delbé
+tags: $:/tags/viewsource $:/tags/@CD $:/tags/Macro
+title: $:/plugins/.CD/KnowEdge/macros/bottom-tab-filter
+type: text/vnd.tiddlywiki
+
+\define bottom-tab-filter-related(type:"$:/type/note", sort)
+<!-- mt-topics.list, mt-source.authors.list, mt-source.parents.list, mt-source.tiddler -->
+[all[current]listed[mt-topics.list]] [all[current]listed[mt-source.authors.list]] [all[current]listed[mt-source.parents.list]] [all[tiddlers]mt-source.tiddler[$(storyTiddler)$]] +[tag[$type$]!is[system]!has[draft.of]sort[$sort$]]
+\end
+
+\define bottom-tab-filter-tagging(type:"$:/type/note", sort)
+<!-- Tagging + mt-source.root -->
+[all[current]tagging[]] [all[tiddlers]mt-source.root<currentTiddler>] -[all[tiddlers]mt-source.tiddler<currentTiddler>] -[all[current]listed[mt-topics.list]] -[all[current]listed[mt-source.authors.list]] -[all[current]listed[mt-source.parents.list]]  +[tag[$type$]!title{!!title}!is[system]!has[draft.of]sort[$sort$]]
+\end
+

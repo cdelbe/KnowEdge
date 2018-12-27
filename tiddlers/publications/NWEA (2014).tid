@@ -1,5 +1,5 @@
 abstract: ''A fundamental question—perhaps the fundamental question— educators ask is, “Are my students learning?”''<br>This question reverberates throughout school systems, communities, and the nation. To answer it, educators use many tools, all of which combine to inform a teacher’s understanding of student learning. Many educators choose to gain key information from assessments that measure student achievement and growth, and for good reason: just as you might use a yardstick to measure your child’s physical growth, assessments can provide an objective, consistent measure of academic growth. To help educators, parents, and policy makers drive learning for all students, this booklet shares practical insights and pragmatic learning around measuring student growth.
-caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}): {{!!mt-publication.title}}
 color: #b21a2c
 created: 20181031041244818
 creator: Charles Delbé

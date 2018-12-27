@@ -1,5 +1,5 @@
 _canonical_uri: ./files/pdf/Définir_lAdaptive_Learning-Livre_Blanc-Domoscio.pdf
-caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}): {{!!mt-publication.title}}
 color: #b21a2c
 created: 20180820022909854
 creator: Charles Delbé

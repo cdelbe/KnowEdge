@@ -11,15 +11,16 @@
         "tiddlywiki/codemirror-closebrackets",
         "tiddlywiki/codemirror-fullscreen-editing",
         "tiddlywiki/codemirror-search-replace",
+        "tiddlywiki/codemirror-mode-tiddlywiki5",
         "tiddlywiki/codemirror-mode-javascript",
         "tiddlywiki/codemirror-mode-markdown",
         "tiddlywiki/codemirror-mode-xml",
+        "tiddlywiki/codemirror-mode-css",
         "tiddlywiki/github-fork-ribbon",
         "tiddlywiki/katex",
         "tiddlywiki/comments"
     ],  
 	"languages": [
-		"fr-FR"
 	],    
     "themes": [
         "tiddlywiki/vanilla",

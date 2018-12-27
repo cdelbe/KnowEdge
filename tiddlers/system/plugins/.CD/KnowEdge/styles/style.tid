@@ -1,20 +1,22 @@
 created: 20181024024147515
 creator: Charles Delbé
-list-after:
-modified: 20181216020513360
+list-after: 
+modified: 20181223152646504
 modifier: Charles Delbé
 tags: $:/tags/Stylesheet $:/tags/@CD
 title: $:/plugins/.CD/KnowEdge/styles/style
 tmap.id: 0f2ba505-3d31-4547-87a8-56efb691785e
 type: text/vnd.tiddlywiki
 
-.tc-site-title:before {
-    content: "Powered by TW 5.1.18";
+<pre>.tc-site-title:before {
+    content: "Powered by TiddlyWiki <<version>>";
     position: absolute;
     margin-top: -2.5em;
     color: silver;
     font-size: 13px;
 }
+
+<$list filter="[title[$:/config/.CD/system]get[ke-version]search[b]]">
 .tc-site-title:after {
     content: "Beta";
     position: absolute;
@@ -41,6 +43,12 @@ type: text/vnd.tiddlywiki
     box-shadow: 0 0 2px #c00;
     font-family: 'Vollkorn', serif;
     font-weight: bold;
+}
+</$list>
+
+/* VERTICAL OFFSET FOR TOP OF SIDEBAR */
+html .tc-sidebar-scrollable {
+    top: 30px;
 }
 
 /* Tiddlers */
@@ -196,7 +204,10 @@ span.tc-tiddler-title-icon {
 .tc-page-controls .fa-1x,
 .tc-tag-label .fa-1x,
 .tc-tiddler-controls .fa-1x {
-    vertical-align: middle;
+    /*vertical-align: middle;*/
+}
+.fa-fw {
+
 }
 
 .tc-drop-down svg {
@@ -246,13 +257,13 @@ span.tc-tiddler-title-icon {
 }
 
 .tc-tiddler-title {
-    z-index: 500;
+    /*z-index: 500;*/
 }
 div.tc-tiddler-edit-title {
     background-color: <<colour primary>>;
     color: #fff; /* idem */
     padding: 2px;
-    z-index: 500;
+    /*z-index: 500;*/
 }
 
 /* Alignement de la grenouille */
@@ -328,22 +339,17 @@ h1.tc-site-title svg {
     margin-top: -1px;
     display: block;
 }
-.bottom-tabs .tc-tab-divider {
-    /*border-top: none;*/
-    /*margin-top: -1px;*/
-    /*display: block;*/
-}
-/*.bottom-tabs .tc-tab-divider,*/
+
 .tc-sidebar-lists .tc-tab-set .tc-tab-divider {
     border-top: 1px solid <<colour tab-divider>>;
     display: block;
 }
 
-.tc-tab-divider.tc-vertical {
+/*.tc-tab-divider.tc-vertical {
     display: block; 
     border-right: 1px solid <<colour tab-divider>>;
     margin-top: 20px;
-}
+}*/
 .tc-sidebar-lists .tc-tab-set .tc-tab-divider.tc-vertical {
     display: inline-block; 
     border-right: 1px solid <<colour tab-divider>>;
@@ -357,25 +363,11 @@ h1.tc-site-title svg {
 
 
 /* TIDDLER TOOLBAR */
-.tc-tiddler-view-frame .tc-tiddler-controls button svg, 
-.tc-tiddler-controls button img,
-.tc-tiddler-controls button i {
-    /*height: 1em;*/
-}
-
-.tc-image-done-button {
-    /*height: 1.5em!important;*/
-}
-.tc-tiddler-view-frame .tc-tiddler-controls {
-    /*margin-left: 0px;*/
-    /*font-size: 20px;*/
-}
 .tc-tiddler-view-frame .tc-tiddler-controls text,
 .tc-tiddler-view-frame .tc-tiddler-controls svg,
 .tc-tiddler-view-frame .tc-tiddler-controls i {
     fill:transparent;
     color:transparent;
-    /*margin-left: 0px;*/
 }
 .tc-tiddler-view-frame .tc-tiddler-controls:hover svg,
 .tc-tiddler-view-frame .tc-tiddler-controls:hover i,
@@ -385,22 +377,9 @@ h1.tc-site-title svg {
     fill:#bbb;
     color:#bbb;
 }
-.tc-tiddler-controls > span > button {
-    /*margin-left: 0px;*/
-}
 .tc-tiddler-view-frame .tc-tiddler-controls [aria-label=close] svg {
     fill:#fff;
-    /*height: 16px;*/
 }
-
-/*.tw-search svg.tc-image-close-button {
-    margin: 0px 0px -3px -6px!important;
-    height: 16px!important;
-    fill: #bbb;
-}
-.tc-search svg.tc-image-close-button {
-    height: 14px;
-}*/
 svg.tc-image-close-button:hover {
     fill: #888;
 }
@@ -414,9 +393,7 @@ svg.tc-image-close-button:hover {
      outline: none;
 }
  
-svg.tc-image-close-button {
-    /*margin-left: 5px;*/
-}
+
 
 .tb-tagging h1,
 .tc-preview-tiddler h1,
@@ -459,7 +436,7 @@ h1 {
 /* Tiddler info Tab */
 .tc-popup-handle.tc-tiddler-info {
     padding: 10px!important;
-    margin: 0px -24px 10px -24px;
+    margin: 10px -15px 10px -15px;
     background-color: #e8eaf6;
     border: 1px solid <<colour tab-border>>!important;
     -webkit-box-shadow: none;
@@ -822,3 +799,16 @@ blockquote.tc-big-quote:after {
 .input-date {
     width: 15em;
 }
+
+/* RIBBON */
+.ribbon-green {
+  /* Set the base colour */
+  background-color: rgb(140,196,64);
+}
+
+.github-fork-ribbon a, .github-fork-ribbon a.tc-tiddlylink,
+.github-fork-ribbon a:hover, .github-fork-ribbon a.tc-tiddlylink:hover  {
+  /* Set the font */
+  font-size: 18px;
+}
+</pre>

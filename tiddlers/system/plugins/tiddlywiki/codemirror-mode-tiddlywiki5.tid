@@ -4,7 +4,7 @@ creator: Charles Delbé
 dependents: 
 description: CodeMirror Mode: TiddlyWiki5
 list: readme
-modified: 20181130090116902
+modified: 20181223180632240
 modifier: Charles Delbé
 plugin-type: plugin
 title: $:/plugins/tiddlywiki/codemirror-mode-tiddlywiki5

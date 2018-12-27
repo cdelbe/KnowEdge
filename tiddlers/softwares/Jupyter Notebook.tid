@@ -1,0 +1,17 @@
+color: #ff8040
+created: 20181221165149808
+creator: Charles Delbé
+description: The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text.
+icon: $:/plugins/.CD/KnowEdge/images/software
+list: 
+modified: 20181221165245172
+modifier: Charles Delbé
+mt-topics.list: 
+tags: Jupyter $:/type/software
+title: Jupyter Notebook
+tmap.fa-icon: &#xf120;
+tmap.id: ac14da97-b3d8-4d32-80ca-21080a9753e4
+type: text/vnd.tiddlywiki
+url: 
+
+ 

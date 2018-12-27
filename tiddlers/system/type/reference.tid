@@ -2,7 +2,7 @@ color: #81b53b
 created: 20180829180859642
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/tutorial
-modified: 20181216214019194
+modified: 20181222011718061
 modifier: Charles Delbé
 summary: 
 tags: $:/tags/@CD @:/tags/TOC
@@ -12,8 +12,4 @@ tmap.id: 0695ed21-9a9f-44ac-a10d-79e7f995d381
 type: text/vnd.tiddlywiki
 url: 
 
-<!-- list tiddlers tagged '$:/type/reference' -->
-!!TOC
-<div class="tc-table-of-contents">
-    <<toc-selective-expandable '$:/type/reference'>>
-</div>
+<<@descriptions>>

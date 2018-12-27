@@ -1,5 +1,5 @@
 abstract: L’auteur traite des termes paradigme, théorie, modèle et schéma. Il tente de clarifier le plus possible ces termes en traitant de l’essentiel et en mettant l’accent sur ce qui permet de les différencier. Il rend compte de certaines difficultés provoquées par la polysémie de ces termes. Il termine en soulevant certaines questions à propos de la communicologie.
-caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}). ''{{!!mt-publication.title}}''
+caption: {{!!mt-authors.title}} ({{!!mt-publication.date}}): {{!!mt-publication.title}}
 color: #b21a2c
 created: 20180916153759218
 creator: Charles Delbé

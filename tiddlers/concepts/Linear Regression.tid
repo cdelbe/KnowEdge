@@ -4,10 +4,10 @@ created: 20181215081202210
 creator: Charles Delbé
 icon: $:/plugins/.CD/KnowEdge/images/concept
 list: 
-modified: 20181215081327846
+modified: 20181221165305919
 modifier: Charles Delbé
 mt-topics.list: 
-tags: $:/tags/embed Notebook Statistics $:/type/concept
+tags: [[Jupyter Notebook]] $:/tags/embed Statistics $:/type/concept
 title: Linear Regression
 tmap.fa-icon: &#xf12e;
 tmap.id: a43e724f-8aa6-4f57-9cf7-d447892f229a

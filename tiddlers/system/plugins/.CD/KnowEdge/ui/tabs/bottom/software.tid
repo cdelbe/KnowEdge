@@ -1,0 +1,26 @@
+caption: <<bottom-tab-caption>>
+color: #d3d3d3
+created: 20180814195513883
+creator: Charles Delbé
+description: Softwares
+icon: $:/plugins/.CD/KnowEdge/images/software
+modified: 20181221190920844
+modifier: Charles Delbé
+mt-contents.type: $:/type/software
+mt-list.filter: 
+mt-list.filter_alt: 
+mt-list.heading: 
+mt-list.heading_alt: 
+mt-list.sort: 
+mt-list.sort_alt: 
+mt-list.template: 
+mt-list.template_alt: 
+mt-source.root: 
+mt-source.tiddler: 
+tags: $:/tags/@CD $:/type/tab $:/tabs/typed
+title: $:/plugins/.CD/KnowEdge/ui/tabs/bottom/software
+type: text/vnd.tiddlywiki
+
+<<mt-slider-input>>
+
+<<bottom-tab-contents>>

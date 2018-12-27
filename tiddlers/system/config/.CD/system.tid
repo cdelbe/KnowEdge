@@ -8,7 +8,7 @@ ke-color-concept: rgb(128,0,128,0.85)
 ke-color-journal: rgb(255,255,0,0.85)
 ke-color-knowedge: rgb(129,181,59,0.85)
 ke-color-model: rgb(8,114,104,0.85)
-ke-color-note: rgb(128,128,0,0.85)
+ke-color-note: rgb(87,120,215,0.85)
 ke-color-part: rgb(236,99,83,0.85)
 ke-color-publication: rgb(178,26,44,0.85)
 ke-color-software: rgb(255,128,64,0.85)
@@ -16,10 +16,10 @@ ke-color-system: rgb(34,45,86,0.85)
 ke-color-task: rgb(120,120,188,0.85)
 ke-color-topic: rgb(0,64,128,0.85)
 ke-decorate-tiddlers-title: yes
-ke-version: 1.3.0
-modified: 20181215194135408
+ke-version: 0.9.0b
+modified: 20181223235922278
 modifier: Charles Delbé
-tags: $:/tags/@CD $:/tags/ControlPanel
+tags: $:/plugins/.CD/KnowEdge/references/main $:/tags/@CD $:/tags/ControlPanel
 title: $:/config/.CD/system
 type: text/vnd.tiddlywiki
 
@@ -40,13 +40,7 @@ type: text/vnd.tiddlywiki
   </$fieldmangler>
 \end
 
-This tiddler is used to configure the "KnowEdge" plugin behaviour. 
-
-There are X fields, which are used by [[$:/plugins/wikilabs/link-to-tabs/styles]] enable and disable the internal links. 
-
-* ke-body-justify: {{!!ke-body-justify}}
-* ke-color-author: {{!!ke-color-author}}
-
+This tiddler is used to configure the "Know/Edge" plugin behaviour. 
 
 ---
 

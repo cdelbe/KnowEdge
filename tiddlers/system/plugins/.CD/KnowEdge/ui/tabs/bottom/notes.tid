@@ -1,0 +1,23 @@
+caption: <<bottom-tab-caption>>
+created: 20180814195513883
+creator: Charles Delbé
+description: Notes
+icon: $:/plugins/.CD/KnowEdge/images/note
+modified: 20181221192548519
+modifier: Charles Delbé
+mt-contents.type: $:/type/note
+mt-list.filter: 
+mt-list.filter_alt: 
+mt-list.heading: Notes
+mt-list.heading_alt: Tagging
+mt-list.template: $:/plugins/amp/MagicTabs/templates/tabs/notes
+mt-list.template_alt: 
+mt-slider-input: 
+tab-pos: 3
+tags: $:/tags/@CD $:/type/tab $:/tabs/all
+title: $:/plugins/.CD/KnowEdge/ui/tabs/bottom/notes
+type: text/vnd.tiddlywiki
+
+<<mt-slider-input "$:/plugins/amp/MagicTabs/new/default">>
+
+<<bottom-tab-contents>>

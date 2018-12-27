@@ -2,7 +2,7 @@ color: #3f51b5
 created: 20180916134507653
 creator: Charles Delbé
 list: 
-modified: 20181216013652310
+modified: 20181223200202711
 modifier: Charles Delbé
 tags: $:/tags/toc @:/tags/TOC $:/type/reference
 title: TiddlyWiki
@@ -50,9 +50,9 @@ url: https://github.com/Jermolene/TiddlyWiki5
 :[[Roboto Font Plugin|https://github.com/TheDiveO/TW5Roboto/releases]]
 :[[Material|http://j.d.material.tiddlyspot.com]]
 :[[tw5-material|http://demo.santosa.family/#tw5-material]]
-
+:[[Versioning of tiddlers|https://github.com/danielo515/TW5-tiddlerVersionsPlugin]]
 :[[Timelog of projects|https://techlifeweb.com/timelog.html]]
-  
+:[[Macro to link an auto-incremented number to a tiddler (References for publications, figures,...)|https://groups.google.com/d/msg/tiddlywiki/z7iotkgKQHw/m0eIU_KuBgAJ]]  
 :[[A button to pin tiddlers to the home page.|https://welford.github.io/]]
 
 ;[[Text to Speech|https://github.com/OokTech/TW5-TiddlyTalking]]

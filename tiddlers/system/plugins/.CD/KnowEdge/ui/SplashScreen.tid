@@ -1,6 +1,6 @@
 created: 20180927082601825
 creator: Charles Delbé
-modified: 20181216013931339
+modified: 20181223210550413
 modifier: Charles Delbé
 tags: $:/tags/@CD $:/tags/RawMarkupWikified/TopBody
 title: $:/plugins/.CD/KnowEdge/ui/SplashScreen
@@ -98,7 +98,8 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 </style>
 
 <div class="tc-splash-text">
-Please wait while {{$:/SiteTitle}} is loading...
+Welcome !
+<br/>{{$:/SiteTitle}} is loading...<br/>
 </div>
 
 <div class="tc-splash-spinner">
@@ -107,15 +108,16 @@ Please wait while {{$:/SiteTitle}} is loading...
   <div class="tc-splash-bounce-3"></div>
 </div>
 
-<!-- Demonstrating how to embed a wikitext SVG graphic
-<div class="tc-splash-text">
-{{$:/core/images/home-button||$:/core/templates/plain-text-tiddler}}
-</div>
---> 
-
 <!-- Demonstrating how to embed a bitmap graphic --> 
 <div class="tc-splash-text">
-<img src="data:image/jpeg;base64,{{images/MKT/R&D||$:/core/templates/plain-text-tiddler}}" width="250"/>
+<img src="data:image/jpeg;base64,{{images/MKT/R&D||$:/core/templates/plain-text-tiddler}}" width="200"/>
 </div>
 
+<div class="tc-splash-text">
+<b>Know/Edge</b> v.<<@get-cfg-value "ke-version">> © Charles Delbé 2018
+</div>
+<div class="tc-splash-text" style="font-size: 16px;margin: 10px auto 0;">
+Base de connaissances sur les EdTechs et la cognition de l'Apprentissage
+</div>
+  
 </div>

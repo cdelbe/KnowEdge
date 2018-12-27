@@ -1,0 +1,19 @@
+color: #5778d7
+created: 20181215190041101
+creator: Charles Delbé
+datetime: 181215200041
+description: 
+icon: $:/plugins/.CD/KnowEdge/images/note
+list: 
+modified: 20181223144952652
+modifier: Charles Delbé
+mt-source.tiddler: 
+mt-topics.list: 
+tags: @:/tags/ReleaseNote $:/type/note
+tasks: 
+title: Release 0.2.0 (25-07-2018)
+tmap.fa-icon: &#xf044;
+tmap.id: 724ef801-8a56-4499-be25-4f6f9d348b2e
+type: text/vnd.tiddlywiki
+
+Upgraded to TW v5.0.18-prerelease.
